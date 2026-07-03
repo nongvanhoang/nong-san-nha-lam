@@ -6,7 +6,10 @@ này để nhờ giúp việc — Claude đã có sẵn ngữ cảnh sản phẩ
 
 ## Website đang chạy
 
-https://nongvanhoang.github.io/nong-san-nha-lam/ (cập nhật tự động mỗi khi push lên `main`)
+- Tiếng Việt: https://nongvanhoang.github.io/nong-san-nha-lam/
+- English (cho khách/đối tác xuất khẩu): https://nongvanhoang.github.io/nong-san-nha-lam/en/
+
+(cập nhật tự động mỗi khi push lên `main`)
 
 ## Cách dùng hàng ngày (không cần biết code)
 
@@ -29,7 +32,8 @@ Claude sẽ tự chạy script hoặc sửa file phù hợp.
 - `content/templates/` — mẫu caption theo từng kênh (Facebook, Zalo, Shopee/TikTok)
 - `content/posts_ready.md` — nơi lưu các caption đã soạn, chờ đăng tay
 - `scripts/` — script Python nhẹ, chạy bằng `python scripts/<ten_file>.py --help`
-- `docs/` — trang giới thiệu tĩnh (`index.html` + `styles.css`), mở trực tiếp bằng trình duyệt
+- `docs/` — website tĩnh: `index.html` (tiếng Việt), `en/index.html` (tiếng Anh, cho khách/đối tác
+  xuất khẩu), dùng chung `styles.css`
 
 ## Ảnh trên website hiện tại
 
@@ -44,8 +48,13 @@ hơn nhiều so với ảnh minh hoạ.
 1. **Thay ảnh minh hoạ bằng ảnh/video thật** khi có (xem mục trên)
 2. **Link Facebook** — hiện đang tạm ẩn (comment) trong `docs/index.html` và để
    `"CẦN CẬP NHẬT"` trong `data/products.json`. Khi có link, nhờ Claude bật lại giúp.
-3. Giá, số Zalo (0979 502 000), khu vực giao hàng (toàn quốc) đã cập nhật đầy đủ.
-4. Đã có sẵn 5 caption mẫu dùng số liệu thật trong `content/posts_ready.md`, sẵn sàng copy đăng.
+3. **Email và WhatsApp cho khách quốc tế** — hiện để "CẦN CẬP NHẬT"/"coming soon" trong
+   `data/products.json` và cả 2 trang web. Zalo không dùng được ở nước ngoài nên phần này
+   khá quan trọng để thực sự nhận được liên hệ xuất khẩu. Khi có, nhờ Claude điền vào.
+4. Giá, số Zalo (0979 502 000), khu vực giao hàng (toàn quốc) đã cập nhật đầy đủ.
+5. Đã có sẵn 5 caption mẫu dùng số liệu thật trong `content/posts_ready.md`, sẵn sàng copy đăng.
+6. Trang tiếng Anh nói rõ cơ sở CHƯA có chứng nhận ATTP/HACCP/xuất khẩu chính thức — nếu sau này
+   có, nhờ Claude cập nhật cả 2 trang để tăng uy tín với khách quốc tế.
 
 ## Giới hạn hiện tại (cố tình, để tránh rủi ro/chi phí)
 

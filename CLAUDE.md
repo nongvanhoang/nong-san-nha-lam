@@ -15,6 +15,17 @@ Không có script nào tự động gọi API trả phí — mọi nội dung do
 Giá, đơn vị, quy cách đóng gói cụ thể lấy từ `data/products.json`. Nếu trường nào ghi
 `"CẦN CẬP NHẬT"`, nghĩa là chưa có số liệu thật — hỏi lại người dùng thay vì tự bịa ra giá/số liệu.
 
+## Định hướng xuất khẩu
+
+Mục tiêu dài hạn là tìm khách sỉ/nhập khẩu nước ngoài, nhưng chỉ cho **Tinh Bột Sắn Dây** (dạng bột
+khô, dễ vận chuyển xa). **Cam Đường Canh là trái tươi, KHÔNG chào xuất khẩu** — trái cây tươi cần
+giấy kiểm dịch thực vật và thủ tục hải quan mà cơ sở hộ gia đình quy mô nhỏ này chưa đáp ứng được.
+Nếu khách nước ngoài hỏi mua cam, trả lời rõ ràng là hiện chỉ giao trong nước.
+
+Cơ sở CHƯA có chứng nhận ATTP/HACCP hay đăng ký xuất khẩu chính thức — tuyệt đối không tự thêm/
+gợi ý các chứng nhận này vào nội dung hay website. Định vị trung thực là "gia đình sản xuất nhỏ,
+thủ công" (small-batch, family-made) — đây là điểm mạnh marketing hợp lệ, không cần chứng nhận giả.
+
 ## Tông giọng khi viết nội dung
 
 - Gần gũi, chân thật, xưng "nhà mình" / "shop mình" — không quảng cáo kiểu sáo rỗng, không phóng đại
@@ -38,8 +49,9 @@ Giá, đơn vị, quy cách đóng gói cụ thể lấy từ `data/products.jso
   phần cảnh báo tồn kho (tổng sản xuất trừ tổng đã bán, toàn thời gian). Nếu thấy cảnh báo
   "SẮP HẾT HÀNG" hoặc "ĐÃ NHẬN ĐƠN VƯỢT SỐ SẢN XUẤT", chủ động báo cho người dùng.
 - **Cập nhật giá/sản phẩm**: sửa trực tiếp `data/products.json` khi người dùng cho số liệu mới.
-- **Website**: `docs/index.html` là trang giới thiệu tĩnh (thư mục tên `docs/` vì GitHub Pages yêu
-  cầu vậy), sửa nội dung/giá tại đó khi cần đồng bộ với `data/products.json`.
+- **Website**: `docs/index.html` (tiếng Việt) và `docs/en/index.html` (tiếng Anh, cho khách quốc
+  tế/đối tác xuất khẩu) — thư mục tên `docs/` vì GitHub Pages yêu cầu vậy. Sửa nội dung/giá ở
+  CẢ HAI file khi cần đồng bộ với `data/products.json`, đừng chỉ sửa 1 bản rồi quên bản kia.
 
 ## Giới hạn đã thống nhất với người dùng
 
