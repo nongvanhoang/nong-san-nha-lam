@@ -33,12 +33,13 @@ Giá, đơn vị, quy cách đóng gói cụ thể lấy từ `data/products.jso
 - **Ghi mẻ sản xuất/thu hoạch**: chạy `python scripts/add_batch.py`.
 - **Báo cáo doanh thu/sản lượng**: chạy `python scripts/weekly_report.py`.
 - **Cập nhật giá/sản phẩm**: sửa trực tiếp `data/products.json` khi người dùng cho số liệu mới.
-- **Website**: `website/index.html` là trang giới thiệu tĩnh, sửa nội dung/giá tại đó khi cần đồng bộ
-  với `data/products.json`.
+- **Website**: `docs/index.html` là trang giới thiệu tĩnh (thư mục tên `docs/` vì GitHub Pages yêu
+  cầu vậy), sửa nội dung/giá tại đó khi cần đồng bộ với `data/products.json`.
 
 ## Giới hạn đã thống nhất với người dùng
 
 - KHÔNG tự động đăng bài lên Facebook/Zalo/Shopee/TikTok Shop (rủi ro vi phạm điều khoản chống bot +
   cần API key trả phí). Nội dung tạo ra để người dùng tự copy-paste đăng tay.
 - KHÔNG gọi API AI trả phí bên ngoài (không có tích hợp OpenAI/Anthropic API riêng trong scripts).
-- Website chưa deploy — chỉ là file tĩnh sẵn sàng, việc deploy thật (domain, hosting) làm ở giai đoạn sau.
+- Website đã deploy qua GitHub Pages (repo public `nongvanhoang/nong-san-nha-lam`, thư mục `docs/`).
+  Mỗi lần push lên nhánh `main`, GitHub tự cập nhật trang sau vài phút.
