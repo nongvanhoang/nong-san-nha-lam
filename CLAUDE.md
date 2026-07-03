@@ -8,9 +8,11 @@ Không có script nào tự động gọi API trả phí — mọi nội dung do
 
 1. **Tinh Bột Sắn Dây** — làm thủ công 100% tại nhà, lọc và phơi tự nhiên, không hoá chất, không
    chất tẩy trắng. Bán quanh năm (đã chế biến, bảo quản được lâu).
-2. **Cam Đường Canh** — trồng tại vườn nhà, thu hoạch theo mùa (khoảng tháng 11 âm lịch đến tháng 1
-   năm sau). Ngoài mùa thu hoạch KHÔNG chào bán sản phẩm này — nếu khách hỏi trái mùa, trả lời rằng
-   đang hết mùa, hẹn mùa sau, có thể gợi ý đăng ký nhận tin khi có hàng.
+2. **Cam Đường Canh** — trồng bởi gia đình, thành viên **Hợp Tác Xã Cây Ăn Quả Nhung Giang**, tỉnh
+   Lạng Sơn, đạt **chứng nhận VietGAP** số 112/CN-TĐC-TT-20-0012 (cấp 23/12/2025, hiệu lực đến
+   22/12/2028, do NATEK JSC cấp, phù hợp TCVN 11892-1:2017). Thu hoạch theo mùa (khoảng tháng 11
+   âm lịch đến tháng 1 năm sau). Ngoài mùa thu hoạch KHÔNG chào bán sản phẩm này — nếu khách hỏi
+   trái mùa, trả lời rằng đang hết mùa, hẹn mùa sau, có thể gợi ý đăng ký nhận tin khi có hàng.
 
 Giá, đơn vị, quy cách đóng gói cụ thể lấy từ `data/products.json`. Nếu trường nào ghi
 `"CẦN CẬP NHẬT"`, nghĩa là chưa có số liệu thật — hỏi lại người dùng thay vì tự bịa ra giá/số liệu.
@@ -18,13 +20,22 @@ Giá, đơn vị, quy cách đóng gói cụ thể lấy từ `data/products.jso
 ## Định hướng xuất khẩu
 
 Mục tiêu dài hạn là tìm khách sỉ/nhập khẩu nước ngoài, nhưng chỉ cho **Tinh Bột Sắn Dây** (dạng bột
-khô, dễ vận chuyển xa). **Cam Đường Canh là trái tươi, KHÔNG chào xuất khẩu** — trái cây tươi cần
-giấy kiểm dịch thực vật và thủ tục hải quan mà cơ sở hộ gia đình quy mô nhỏ này chưa đáp ứng được.
-Nếu khách nước ngoài hỏi mua cam, trả lời rõ ràng là hiện chỉ giao trong nước.
+khô, dễ vận chuyển xa). **Cam Đường Canh là trái tươi, hiện KHÔNG chào xuất khẩu** — dù đã có chứng
+nhận VietGAP (chứng nhận chất lượng trồng trọt), xuất khẩu trái cây tươi còn cần thêm giấy kiểm
+dịch thực vật và thủ tục hải quan riêng mà cơ sở chưa có. VietGAP là điểm cộng uy tín rất tốt để
+nói với khách trong nước và làm nền tảng xin thêm giấy tờ sau này, nhưng chưa đủ để xuất khẩu trái
+tươi ngay. Nếu khách nước ngoài hỏi mua cam, trả lời rõ ràng là hiện chỉ giao trong nước.
 
-Cơ sở CHƯA có chứng nhận ATTP/HACCP hay đăng ký xuất khẩu chính thức — tuyệt đối không tự thêm/
-gợi ý các chứng nhận này vào nội dung hay website. Định vị trung thực là "gia đình sản xuất nhỏ,
-thủ công" (small-batch, family-made) — đây là điểm mạnh marketing hợp lệ, không cần chứng nhận giả.
+**Chứng nhận thật đã có**: Cam Đường Canh — VietGAP (xem chi tiết ở mục Sản phẩm trên). **Tinh Bột
+Sắn Dây — CHƯA có chứng nhận chính thức nào** (không phải VietGAP, không ATTP/HACCP). Không tự thêm/
+gợi ý chứng nhận cho Tinh Bột Sắn Dây. Với Tinh Bột Sắn Dây, định vị trung thực là "gia đình sản
+xuất nhỏ, thủ công" (small-batch, family-made) — đây là điểm mạnh marketing hợp lệ, không cần
+chứng nhận giả.
+
+**Quan trọng về quyền riêng tư**: giấy chứng nhận VietGAP liệt kê tên/địa chỉ/diện tích của 3 thành
+viên KHÁC trong hợp tác xã (không phải người nhà). Người dùng đã quyết định KHÔNG đăng file PDF gốc
+công khai — chỉ nêu số chứng nhận, tên HTX, ngày hiệu lực bằng chữ trên website. Không tự ý đăng
+file PDF gốc hay tên/địa chỉ của 3 thành viên kia lên bất kỳ đâu công khai.
 
 ## Tông giọng khi viết nội dung
 

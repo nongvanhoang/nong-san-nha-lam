@@ -24,9 +24,19 @@
     {
       "id": "cam-duong-canh",
       "name": "Cam Đường Canh",
-      "description": "Trồng tại vườn nhà, không thúc chín, thu hoạch theo mùa.",
+      "description": "Trồng bởi gia đình, thành viên Hợp Tác Xã Cây Ăn Quả Nhung Giang (Lạng Sơn), không thúc chín, thu hoạch theo mùa.",
       "season": "theo_mua",
       "season_window": "khoảng tháng 11 âm lịch - tháng 1 năm sau",
+      "certification": {
+        "type": "VietGAP",
+        "cert_number": "112/CN-TĐC-TT-20-0012",
+        "issued_by": "Công ty Cổ phần Khoa học và Công nghệ NATEK",
+        "issued_date": "2025-12-23",
+        "valid_until": "2028-12-22",
+        "standard": "TCVN 11892-1:2017",
+        "issued_to": "Hợp Tác Xã Cây Ăn Quả Nhung Giang, tỉnh Lạng Sơn",
+        "note": "Không đăng file PDF gốc công khai vì có thông tin của các thành viên khác trong HTX."
+      },
       "variants": [
         {
           "unit": "kg",
