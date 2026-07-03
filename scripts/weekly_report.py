@@ -76,6 +76,33 @@ def main():
         for product, qty in sorted(qty_produced.items(), key=lambda x: -x[1]):
             print(f"  {product}: {qty:g} đơn vị")
 
+    print("\n-- Tồn kho ước tính (tổng sản xuất trừ tổng đã bán, TOÀN THỜI GIAN) --")
+    all_batches = load_rows(PRODUCTION_CSV)
+    all_orders = load_rows(ORDERS_CSV)
+
+    produced_total = defaultdict(float)
+    for r in all_batches:
+        produced_total[r["product"]] += float(r["quantity"])
+
+    sold_total = defaultdict(float)
+    for r in all_orders:
+        if r["status"] != "da_huy":
+            sold_total[r["product"]] += float(r["qty"])
+
+    products = sorted(set(produced_total) | set(sold_total))
+    if not products:
+        print("  (chưa có dữ liệu sản xuất/đơn hàng)")
+    else:
+        for product in products:
+            remaining = produced_total[product] - sold_total[product]
+            warning = ""
+            if remaining < 0:
+                warning = "  ⚠️ ĐÃ NHẬN ĐƠN VƯỢT SỐ SẢN XUẤT — kiểm tra lại tồn kho!"
+            elif remaining < 5:
+                warning = "  ⚠️ SẮP HẾT HÀNG"
+            print(f"  {product}: còn {remaining:g} đơn vị (đã làm {produced_total[product]:g}, đã bán {sold_total[product]:g}){warning}")
+        print("\n  (Lưu ý: số này chỉ đúng nếu luôn ghi số lượng cùng đơn vị, ví dụ luôn quy ra kg)")
+
 
 if __name__ == "__main__":
     main()

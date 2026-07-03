@@ -30,8 +30,13 @@ Giá, đơn vị, quy cách đóng gói cụ thể lấy từ `data/products.jso
   shopee_tiktok.md). Sau khi viết xong, hỏi người dùng có muốn lưu vào `content/posts_ready.md` không.
 - **Ghi đơn hàng mới**: chạy `python scripts/add_order.py` với các tham số phù hợp (xem `--help`).
   Không tự suy diễn số liệu nếu người dùng chưa cung cấp đủ (khách, sản phẩm, số lượng, đơn giá, kênh).
-- **Ghi mẻ sản xuất/thu hoạch**: chạy `python scripts/add_batch.py`.
-- **Báo cáo doanh thu/sản lượng**: chạy `python scripts/weekly_report.py`.
+  QUAN TRỌNG: luôn quy đổi `--qty` ra kg (đơn vị gốc, không phải số thùng/túi) để
+  `weekly_report.py` so sánh tồn kho đúng — ví dụ khách mua "2 thùng cam 10kg" thì ghi
+  `--qty 20 --unit kg`, không ghi `--qty 2 --unit thùng`.
+- **Ghi mẻ sản xuất/thu hoạch**: chạy `python scripts/add_batch.py`, cũng luôn quy ra kg.
+- **Báo cáo doanh thu/sản lượng/tồn kho**: chạy `python scripts/weekly_report.py` — báo cáo có cả
+  phần cảnh báo tồn kho (tổng sản xuất trừ tổng đã bán, toàn thời gian). Nếu thấy cảnh báo
+  "SẮP HẾT HÀNG" hoặc "ĐÃ NHẬN ĐƠN VƯỢT SỐ SẢN XUẤT", chủ động báo cho người dùng.
 - **Cập nhật giá/sản phẩm**: sửa trực tiếp `data/products.json` khi người dùng cho số liệu mới.
 - **Website**: `docs/index.html` là trang giới thiệu tĩnh (thư mục tên `docs/` vì GitHub Pages yêu
   cầu vậy), sửa nội dung/giá tại đó khi cần đồng bộ với `data/products.json`.
