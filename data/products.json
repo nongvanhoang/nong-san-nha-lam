@@ -1,0 +1,50 @@
+{
+  "brand": "Nông Sản Nhà Làm",
+  "updated_at": "2026-07-02",
+  "products": [
+    {
+      "id": "tinh-bot-san-day",
+      "name": "Tinh Bột Sắn Dây",
+      "description": "Làm thủ công 100% tại nhà, lọc và phơi tự nhiên, không hoá chất, không chất tẩy trắng.",
+      "season": "quanh_nam",
+      "variants": [
+        {
+          "unit": "kg",
+          "package": "túi 0.5kg",
+          "price_vnd": 65000
+        },
+        {
+          "unit": "kg",
+          "package": "túi 1kg",
+          "price_vnd": 120000
+        }
+      ],
+      "stock_note": "Luôn có sẵn, đặt là giao ngay"
+    },
+    {
+      "id": "cam-duong-canh",
+      "name": "Cam Đường Canh",
+      "description": "Trồng tại vườn nhà, không thúc chín, thu hoạch theo mùa.",
+      "season": "theo_mua",
+      "season_window": "khoảng tháng 11 âm lịch - tháng 1 năm sau",
+      "variants": [
+        {
+          "unit": "kg",
+          "package": "thùng 5kg",
+          "price_vnd": 275000
+        },
+        {
+          "unit": "kg",
+          "package": "thùng 10kg",
+          "price_vnd": 500000
+        }
+      ],
+      "stock_note": "Chỉ bán theo thùng (5kg hoặc 10kg), không bán lẻ theo kg"
+    }
+  ],
+  "contact": {
+    "zalo": "0979502000",
+    "facebook": "CẦN CẬP NHẬT",
+    "shipping_area": "Giao hàng toàn quốc"
+  }
+}

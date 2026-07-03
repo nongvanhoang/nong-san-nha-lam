@@ -1,0 +1,146 @@
+:root {
+  --green: #3f7d3a;
+  --orange: #e8791a;
+  --cream: #fdf8ef;
+  --text: #2b2b2b;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  background: var(--cream);
+  color: var(--text);
+  line-height: 1.6;
+}
+
+.hero {
+  background: linear-gradient(135deg, var(--green), var(--orange));
+  color: #fff;
+  text-align: center;
+  padding: 3rem 1.5rem;
+}
+
+.hero h1 {
+  margin: 0 0 0.5rem;
+  font-size: 2rem;
+}
+
+.hero p {
+  margin: 0 0 1.5rem;
+  font-size: 1.1rem;
+  opacity: 0.95;
+}
+
+.cta-group {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.btn {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  border-radius: 999px;
+  text-decoration: none;
+  font-weight: 600;
+  color: #fff;
+}
+
+.btn-zalo {
+  background: #0068ff;
+}
+
+.btn-fb {
+  background: #1877f2;
+}
+
+main {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 2rem 1.25rem;
+}
+
+.product {
+  background: #fff;
+  border-radius: 12px;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+}
+
+.product h2 {
+  color: var(--green);
+  margin-top: 0;
+}
+
+.tagline {
+  color: #555;
+}
+
+.product-photo {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 10px;
+  display: block;
+}
+
+.photo-gallery {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.5rem;
+}
+
+.photo-gallery .product-photo {
+  height: 160px;
+}
+
+.photo-note {
+  font-size: 0.8rem;
+  color: #999;
+  margin: 0.4rem 0 1rem;
+}
+
+.photo-note a {
+  color: #999;
+}
+
+.price-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+}
+
+.price-table th,
+.price-table td {
+  text-align: left;
+  padding: 0.5rem;
+  border-bottom: 1px solid #eee;
+}
+
+.price-table th {
+  color: var(--orange);
+}
+
+.lien-he {
+  background: #fff;
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+}
+
+.lien-he ul {
+  padding-left: 1.25rem;
+}
+
+footer {
+  text-align: center;
+  padding: 1.5rem;
+  color: #888;
+  font-size: 0.85rem;
+}

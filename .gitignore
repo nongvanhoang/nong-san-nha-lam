@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.DS_Store
+
+# Dữ liệu khách hàng/kinh doanh thật - không đưa lên repo public
+data/orders.csv
+data/production_log.csv
