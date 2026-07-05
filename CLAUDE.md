@@ -64,6 +64,15 @@ file PDF gốc hay tên/địa chỉ của 3 thành viên kia lên bất kỳ đ
   tế/đối tác xuất khẩu) — thư mục tên `docs/` vì GitHub Pages yêu cầu vậy. Sửa nội dung/giá ở
   CẢ HAI file khi cần đồng bộ với `data/products.json`, đừng chỉ sửa 1 bản rồi quên bản kia.
 
+## Kênh bán hàng
+
+- **Shopee/TikTok Shop: đã quyết định mở (2026-07-05), chỉ cho Tinh Bột Sắn Dây.** Không đưa Cam
+  Đường Canh lên sàn (trái tươi bán theo thùng 5-10kg, khó đáp ứng SLA giao hàng/đổi trả của sàn,
+  phí sàn ăn vào biên lợi nhuận mỏng của mặt hàng theo mùa). Chi tiết ở `KE_HOACH_BAN_HANG.md`.
+- **B2B/sàn xuất khẩu (Alibaba, sàn giao dịch nông sản...): chưa mở.** Lý do: Tinh Bột Sắn Dây chưa
+  có chứng nhận ATTP/HACCP, Cam Đường Canh chưa có giấy kiểm dịch thực vật để xuất khẩu trái tươi.
+  Ưu tiên xin ATTP cho Tinh Bột Sắn Dây trước khi tính đến B2B/xuất khẩu.
+
 ## Giới hạn đã thống nhất với người dùng
 
 - KHÔNG tự động đăng bài lên Facebook/Zalo/Shopee/TikTok Shop (rủi ro vi phạm điều khoản chống bot +
