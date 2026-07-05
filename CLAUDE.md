@@ -63,6 +63,11 @@ file PDF gốc hay tên/địa chỉ của 3 thành viên kia lên bất kỳ đ
 - **Website**: `docs/index.html` (tiếng Việt) và `docs/en/index.html` (tiếng Anh, cho khách quốc
   tế/đối tác xuất khẩu) — thư mục tên `docs/` vì GitHub Pages yêu cầu vậy. Sửa nội dung/giá ở
   CẢ HAI file khi cần đồng bộ với `data/products.json`, đừng chỉ sửa 1 bản rồi quên bản kia.
+  Trang tiếng Anh KHÔNG cần mục Shopee/TikTok Shop (đây là kênh bán lẻ nội địa Việt Nam, không phục
+  vụ khách quốc tế/đối tác sỉ-xuất khẩu).
+- **Ghi chú "sắp ra mắt" (Shopee/TikTok Shop, email, WhatsApp)**: khi có link/số liệu thật, thay
+  chữ "đang cập nhật"/"sắp ra mắt" bằng link thật (giống cách Facebook đang để dạng comment chờ link
+  thật). Không tự bịa link gian hàng khi chưa có.
 
 ## Kênh bán hàng
 

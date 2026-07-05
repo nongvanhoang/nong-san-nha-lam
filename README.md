@@ -55,6 +55,9 @@ hơn nhiều so với ảnh minh hoạ.
 5. Đã có sẵn 5 caption mẫu dùng số liệu thật trong `content/posts_ready.md`, sẵn sàng copy đăng.
 6. Trang tiếng Anh nói rõ cơ sở CHƯA có chứng nhận ATTP/HACCP/xuất khẩu chính thức — nếu sau này
    có, nhờ Claude cập nhật cả 2 trang để tăng uy tín với khách quốc tế.
+7. **Shopee/TikTok Shop (Tinh Bột Sắn Dây)** — đã quyết định mở (xem `KE_HOACH_BAN_HANG.md`), trang
+   tiếng Việt hiện để "sắp ra mắt". Bạn tự đăng ký gian hàng; khi có link thật, nhờ Claude thay vào
+   `docs/index.html` (mục sản phẩm + mục Đặt hàng).
 
 ## Giới hạn hiện tại (cố tình, để tránh rủi ro/chi phí)
 
