@@ -6,6 +6,63 @@ copy-paste đăng thủ công lên Facebook/Zalo/Shopee/TikTok. Sau khi đăng x
 
 ---
 
+## Zalo/Facebook — Mời khách để lại hẹn báo hàng mùa cam (2026-07-06)
+
+🍊 Mùa Cam Đường Canh nhà mình sắp tới rồi ạ (khoảng tháng 11 âm lịch)!
+
+Cam nhà trồng, có chứng nhận VietGAP hẳn hoi, để chín tự nhiên trên cây — năm nào cũng hết
+sớm vì mùa ngắn mà số lượng có hạn.
+
+Ai muốn chắc suất, để lại Zalo hoặc nhắn tin cho mình ngay từ bây giờ, đến mùa mình nhắn báo
+có hàng đầu tiên, không lo hết ạ!
+
+Zalo: 0979 502 000
+
+*(Dùng trong Giai đoạn 2 — đăng khoảng tháng 9-10 để hâm nóng khách trước mùa, xem
+KE_HOACH_BAN_HANG.md)*
+
+---
+
+## Facebook — Cam Đường Canh, nhấn chứng nhận VietGAP (soạn trước cho mùa tới) (2026-07-06)
+
+🍊 CAM ĐƯỜNG CANH NHÀ MÌNH — CÓ CHỨNG NHẬN VIETGAP THẬT, KHÔNG PHẢI TỰ NHẬN
+
+Nhiều người hỏi cam đường canh nhà mình khác gì cam trôi nổi ngoài chợ — câu trả lời là: nhà
+mình là thành viên Hợp Tác Xã Cây Ăn Quả Nhung Giang (Lạng Sơn), vườn cam đạt chứng nhận
+VietGAP số 112/CN-TĐC-TT-20-0012, đúng chuẩn TCVN 11892-1:2017.
+
+Nghĩa là quy trình trồng, chăm sóc đều được kiểm tra và đánh giá đạt chuẩn thật, không phải
+tự quảng cáo suông. Ăn yên tâm hơn hẳn 🍊
+
+Mùa cam năm nay dự kiến khoảng tháng 11 âm lịch. Ai muốn đặt sớm, nhắn Zalo để mình báo khi
+có hàng nha!
+
+Zalo: 0979 502 000
+
+*(Lưu ý: bài này soạn trước, chỉ đăng khi vào mùa cam thật)*
+
+---
+
+## Facebook — Cam Đường Canh, nhấn chín tự nhiên trên cây (soạn trước cho mùa tới) (2026-07-06)
+
+🍊 CAM ĐƯỜNG CANH NHÀ TRỒNG — CHÍN TỰ NHIÊN TRÊN CÂY, KHÔNG THÚC CHÍN
+
+Cam nhà mình để chín tự nhiên trên cây, đủ ngày đủ nắng mới hái — không thúc chín bằng thuốc
+như một số nơi. Vì vậy cam ngọt thật, thơm thật, đúng vị cam đường canh truyền thống.
+
+Chỉ bán theo thùng:
+🔸 Thùng 5kg: 275.000đ
+🔸 Thùng 10kg: 500.000đ
+
+Mùa ngắn, số lượng có hạn — ai thích ăn cam ngọt tự nhiên thì nhắn Zalo đặt sớm để mình giữ
+hàng nhé!
+
+Zalo: 0979 502 000
+
+*(Lưu ý: bài này soạn trước, chỉ đăng khi vào mùa cam thật)*
+
+---
+
 ## Facebook — Hậu trường sản xuất Tinh Bột Sắn Dây (2026-07-05)
 
 🌾 HẬU TRƯỜNG LÀM TINH BỘT SẮN DÂY NHÀ MÌNH — bật mí quy trình luôn nè!
