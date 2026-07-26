@@ -6,6 +6,41 @@ copy-paste đăng thủ công lên Facebook/Zalo/Shopee/TikTok. Sau khi đăng x
 
 ---
 
+## TikTok/Reels — Video hậu trường phơi sắn dây, dựng từ clip thật (2026-07-26)
+
+File video đã dựng sẵn (ghép 3 clip thật, chưa thêm nhạc/chữ): 
+`Hình Ảnh, Video/Sắn Dây/san-day-video-haitruong-dung-01.mp4` (15.5s, dọc 720x1280, sẵn sàng đăng
+TikTok/Reels). Ghép từ:
+1. `san-day-nghienloc-nuoclangcan-03.mp4` — nước tinh bột đang lắng, lọc qua vải
+2. `san-day-phoisay-xepbanhuotlenkhay-01.mp4` — trải bột ướt lên khay phơi
+3. `san-day-phoisay-botkhovovun-05.mp4` — cận cảnh bột khô vụn, thành phẩm
+
+Mở file bằng CapCut/app điện thoại để thêm nhạc + chữ nếu muốn, gợi ý chữ chốt cuối video:
+"Tinh bột sắn dây nhà làm 100% — nắng lên là phơi, không vội" + giá 2 loại túi (65k/0.5kg,
+120k/1kg) + "Đặt hàng: nhắn Zalo 0979 502 000".
+
+*(Bài TikTok cũ ngày 2026-07-05 bên dưới chỉ là kịch bản dự kiến lúc chưa có clip thật — có thể
+xoá, video này đã thay thế.)*
+
+---
+
+## Facebook — Từ video thật đến túi tinh bột, không giấu gì cả (2026-07-26)
+
+🌾 NHÀ MÌNH VỪA QUAY LẠI TOÀN BỘ QUY TRÌNH LÀM TINH BỘT SẮN DÂY — xem là tin liền, không cần nghe kể!
+
+Từ nước bột lắng trong, tới lúc trải từng lớp bột ướt lên khay phơi, đến khi thành từng
+mảng bột khô trắng vụn ra — tất cả đều quay thật tại nhà, không dàn dựng. Ảnh trên website
+(nongvanhoang.github.io/nong-san-nha-lam) cũng đã đổi thành ảnh thật luôn rồi, mọi người ghé xem nhé!
+
+Làm thủ công nên hơi chậm, nhưng đổi lại là bột trắng tự nhiên, không hoá chất, không tẩy trắng.
+
+🔸 Túi 0.5kg: 65.000đ
+🔸 Túi 1kg: 120.000đ
+
+Đặt hàng nhắn Zalo: 0979 502 000 — giao hàng toàn quốc nhé!
+
+---
+
 ## Zalo/Facebook — Mời khách để lại hẹn báo hàng mùa cam (2026-07-06)
 
 🍊 Mùa Cam Đường Canh nhà mình sắp tới rồi ạ (khoảng tháng 11 âm lịch)!
