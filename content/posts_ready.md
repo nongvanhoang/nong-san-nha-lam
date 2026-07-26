@@ -6,6 +6,39 @@ copy-paste đăng thủ công lên Facebook/Zalo/Shopee/TikTok. Sau khi đăng x
 
 ---
 
+## TikTok/Reels — Video thu hoạch củ sắn dây, dựng từ clip thật (2026-07-26)
+
+File video đã dựng sẵn (ghép 3 clip thật, chưa thêm nhạc/chữ):
+`Hình Ảnh, Video/Sắn Dây/san-day-video-thuhoach-dung-01.mp4` (15s, dọc 720x1280). Ghép từ:
+1. `san-day-thuhoach-mayxuc-daogoccu-04.mp4` (đoạn 17-23s) — máy xúc bẩy cả gốc củ sắn dây to
+   lên khỏi đất, rễ củ lộ ra rất ấn tượng
+2. `san-day-cutuoi-trenxekeo-08.mp4` (5s đầu) — cả xe kéo chở đầy củ tới sân, đổ xuống bên máy nghiền
+3. `san-day-cutuoi-nguoiombocu-01.mp4` (4s đầu) — người nhà ôm cả bó củ to đi vào xưởng
+
+Gợi ý chữ chốt: "Củ sắn dây thật, nhà mình tự đào tự chở — không qua trung gian" + CTA Zalo.
+Có thể ghép nối với video hậu trường phơi bột bên dưới thành 1 video dài hơn (thu hoạch → lọc →
+phơi → thành phẩm) nếu muốn kể trọn quy trình trong 1 clip.
+
+---
+
+## Facebook — Quy mô thu hoạch thật, không phải làm cho có (2026-07-26)
+
+🌾 MỘT GỐC SẮN DÂY NHÀ MÌNH TO CỠ NÀO? — xem video là biết ngay, không cần nói quá!
+
+Mỗi vụ thu hoạch, máy xúc phải vào tận vườn để bẩy cả gốc củ lên, rễ củ dài ngoằng bám chặt
+đất đồi. Cả nhà cùng khuân, cùng chở về xưởng ngay trong ngày để củ còn tươi khi đem lọc —
+không để qua đêm, không thu mua lại củ ở đâu khác.
+
+Đúng nghĩa "nhà làm" từ khâu đầu tiên: tự trồng, tự đào, tự chế biến. Video thật quay tại vườn
+nhà mình, không dàn dựng.
+
+🔸 Túi 0.5kg: 65.000đ
+🔸 Túi 1kg: 120.000đ
+
+Đặt hàng nhắn Zalo: 0979 502 000 — giao hàng toàn quốc nhé!
+
+---
+
 ## TikTok/Reels — Video hậu trường phơi sắn dây, dựng từ clip thật (2026-07-26)
 
 File video đã dựng sẵn (ghép 3 clip thật, chưa thêm nhạc/chữ): 
@@ -21,6 +54,14 @@ Mở file bằng CapCut/app điện thoại để thêm nhạc + chữ nếu mu�
 
 *(Bài TikTok cũ ngày 2026-07-05 bên dưới chỉ là kịch bản dự kiến lúc chưa có clip thật — có thể
 xoá, video này đã thay thế.)*
+
+---
+
+## Zalo — Báo khách quen có ảnh/video thật mới (2026-07-26)
+
+Nhà mình vừa quay lại toàn bộ quy trình làm tinh bột sắn dây — từ lúc đào củ đến khi ra bột khô,
+video thật 100% ạ 🌾 Mọi người ghé fanpage/web xem cho vui, có gì thắc mắc cứ nhắn mình nha.
+Hàng vẫn luôn có sẵn: túi 0.5kg 65k, túi 1kg 120k.
 
 ---
 
