@@ -25,27 +25,34 @@ Claude sẽ tự chạy script hoặc sửa file phù hợp.
 
 ## Cấu trúc thư mục
 
+- `.claude/agents/sales-content-writer.md` — subagent soạn nội dung đồng bộ cho cả 3 kênh
+  (Facebook, Zalo, Shopee/TikTok Shop) từ một yêu cầu duy nhất. Gõ ví dụ "nhờ sales-content-writer
+  viết bài giới thiệu mẻ sắn dây mới" hoặc cứ yêu cầu bình thường, Claude sẽ tự gọi khi phù hợp.
+  Chỉ soạn nội dung — không tự đăng bài lên bất kỳ kênh nào.
 - `CLAUDE.md` — ngữ cảnh dự án cho Claude (sản phẩm, giá, tông giọng, quy tắc)
 - `data/products.json` — bảng giá và thông tin sản phẩm (sửa khi có giá thật)
 - `data/orders.csv` — sổ đơn hàng
 - `data/production_log.csv` — sổ sản xuất/thu hoạch
 - `content/templates/` — mẫu caption theo từng kênh (Facebook, Zalo, Shopee/TikTok)
 - `content/posts_ready.md` — nơi lưu các caption đã soạn, chờ đăng tay
+- `content/ai_media_prompts.md` — prompt ảnh/video AI (dán vào Midjourney/DALL-E/Sora... vì Claude
+  Code không tự tạo ảnh/video), dùng tạm trong lúc chưa có ảnh/video thật
 - `scripts/` — script Python nhẹ, chạy bằng `python scripts/<ten_file>.py --help`
 - `docs/` — website tĩnh: `index.html` (tiếng Việt), `en/index.html` (tiếng Anh, cho khách/đối tác
   xuất khẩu), dùng chung `styles.css`
 
 ## Ảnh trên website hiện tại
 
-`docs/assets/` đang dùng 3 ảnh minh hoạ tải từ Wikimedia Commons (giấy phép rõ ràng, xem
-`docs/assets/CREDITS.md`) — KHÔNG phải ảnh sản phẩm/vườn thật của nhà mình. Khi có ảnh/video
-thật (chụp mẻ sắn dây, vườn cam nhà mình), đưa vào `docs/assets/`, xoá 3 file `*-stock.jpg`
-và nhờ Claude thay vào `index.html` — càng sớm càng tốt vì ảnh thật tăng độ tin cậy với khách
-hơn nhiều so với ảnh minh hoạ.
+`docs/assets/` dùng 4 ảnh thật chụp tại vườn/xưởng nhà mình (từ 2026-07-26), chọn và nén lại từ
+kho ảnh/video gốc trong `Hình Ảnh, Video/` — xem `docs/assets/CREDITS.md`. Kho gốc (269 file, ~1.2GB,
+ảnh + video) KHÔNG đưa vào git vì quá nặng cho GitHub Pages; muốn đổi ảnh khác trên web thì chọn
+file trong kho đó rồi nhờ Claude resize/nén lại trước khi đưa vào `docs/assets/`.
 
 ## Việc còn cần bạn làm
 
-1. **Thay ảnh minh hoạ bằng ảnh/video thật** khi có (xem mục trên)
+1. ~~Thay ảnh minh hoạ bằng ảnh/video thật~~ — ✅ đã xong (2026-07-26, xem mục trên). Còn nhiều
+   ảnh/video thật chưa dùng trong `Hình Ảnh, Video/`, có thể nhờ Claude chọn thêm cho caption
+   hoặc đổi ảnh web sau này.
 2. **Link Facebook** — hiện đang tạm ẩn (comment) trong `docs/index.html` và để
    `"CẦN CẬP NHẬT"` trong `data/products.json`. Khi có link, nhờ Claude bật lại giúp.
 3. **Email và WhatsApp cho khách quốc tế** — hiện để "CẦN CẬP NHẬT"/"coming soon" trong

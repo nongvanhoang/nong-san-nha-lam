@@ -13,6 +13,8 @@ _Cập nhật: 2026-07-03. Xem lại và điều chỉnh khi có số liệu đ�
   nào. Ưu tiên bắt đầu ghi sổ ngay khi có đơn để theo dõi doanh thu/tồn kho chính xác từ đầu.
 - Đã có 5 caption mẫu sẵn sàng đăng trong `content/posts_ready.md`.
 - Website đã live (VN + EN), nhưng còn thiếu Facebook link, email, WhatsApp — đang để "CẦN CẬP NHẬT".
+- **2026-07-26: đã thay xong ảnh minh hoạ stock bằng ảnh thật** (chọn từ 269 ảnh/video nhà chụp
+  ngày 2026-07-25, xem `docs/assets/CREDITS.md`). Mục 2 ở Giai đoạn 1 dưới đây coi như xong.
 
 ## Giai đoạn 1 — Tháng 7-8/2026: Đẩy mạnh Tinh Bột Sắn Dây (mùa hè)
 
@@ -21,9 +23,9 @@ _Cập nhật: 2026-07-03. Xem lại và điều chỉnh khi có số liệu đ�
 1. **Đăng bài đều đặn 2-3 lần/tuần** trên Facebook + Zalo, xoay vòng góc độ: giới thiệu sản phẩm,
    công dụng/cách dùng, hậu trường sản xuất (lọc/phơi), feedback khách cũ. Dùng caption có sẵn
    trong `content/posts_ready.md` làm khung, nhờ Claude viết thêm bài mới khi cần góc độ khác.
-2. **Ưu tiên số 1: ảnh/video thật** — thay 3 ảnh minh hoạ stock trong `docs/assets/` bằng ảnh/video
-   tự quay cảnh lọc, phơi sắn dây tại nhà. Ảnh thật tăng độ tin cậy rất nhiều so với ảnh minh hoạ,
-   nên làm sớm nhất có thể (xem chi tiết trong README.md).
+2. **✅ Đã xong (2026-07-26): ảnh/video thật** — đã thay 3 ảnh minh hoạ stock trong `docs/assets/`
+   bằng ảnh thật chụp tại vườn/xưởng nhà mình. Còn 265+ ảnh/video thật chưa dùng tới trong
+   `Hình Ảnh, Video/` — có thể dùng thêm cho caption Facebook/Zalo hoặc video ngắn TikTok/Reels.
 3. **Hoàn thiện thông tin liên hệ**: điền Facebook link, email, WhatsApp vào `data/products.json`
    và bật lại trên cả 2 trang web (VN/EN) — quan trọng vì khách quốc tế không dùng được Zalo.
 4. **Ghi sổ đầy đủ**: mỗi đơn hàng ghi ngay bằng `add_order.py` (nhớ quy đổi ra kg), mỗi mẻ sản xuất
@@ -73,7 +75,7 @@ _Cập nhật: 2026-07-03. Xem lại và điều chỉnh khi có số liệu đ�
 
 ## Việc cần bạn chủ động làm (Claude không tự làm được)
 
-1. Chụp/quay ảnh video thật (sắn dây + vườn cam) — **ưu tiên cao nhất**.
+1. ~~Chụp/quay ảnh video thật (sắn dây + vườn cam)~~ — ✅ đã có (2026-07-25), đã lên web (2026-07-26).
 2. Cung cấp Facebook link, email, WhatsApp để điền vào website và `products.json`.
 3. Tự đăng ký gian hàng Shopee/TikTok Shop cho Tinh Bột Sắn Dây (đã quyết định mở — xem Giai đoạn 1,
    mục 5).

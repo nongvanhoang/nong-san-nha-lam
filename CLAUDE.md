@@ -50,6 +50,8 @@ file PDF gốc hay tên/địa chỉ của 3 thành viên kia lên bất kỳ đ
 
 - **Viết caption/bài đăng**: dùng góc độ và cấu trúc trong `content/templates/` (facebook.md, zalo.md,
   shopee_tiktok.md). Sau khi viết xong, hỏi người dùng có muốn lưu vào `content/posts_ready.md` không.
+  Khi người dùng muốn nội dung cho NHIỀU kênh cùng lúc từ một yêu cầu, dùng subagent
+  `.claude/agents/sales-content-writer.md` thay vì soạn thủ công từng kênh.
 - **Ghi đơn hàng mới**: chạy `python scripts/add_order.py` với các tham số phù hợp (xem `--help`).
   Không tự suy diễn số liệu nếu người dùng chưa cung cấp đủ (khách, sản phẩm, số lượng, đơn giá, kênh).
   QUAN TRỌNG: luôn quy đổi `--qty` ra kg (đơn vị gốc, không phải số thùng/túi) để

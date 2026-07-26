@@ -5,3 +5,6 @@ __pycache__/
 # Dữ liệu khách hàng/kinh doanh thật - không đưa lên repo public
 data/orders.csv
 data/production_log.csv
+
+# Kho ảnh/video gốc (quá nặng cho GitHub Pages) - chỉ dùng bản đã resize/nén trong docs/assets/
+Hình Ảnh, Video/

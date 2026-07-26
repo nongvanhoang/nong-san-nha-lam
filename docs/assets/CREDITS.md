@@ -1,14 +1,13 @@
-# Nguồn ảnh minh hoạ (tạm dùng chờ ảnh thật)
+# Nguồn ảnh
 
-Các ảnh dưới đây lấy từ Wikimedia Commons, dùng tạm làm minh hoạ trong lúc chưa có ảnh sản phẩm/vườn
-nhà thật. Đây KHÔNG phải ảnh sản phẩm thật của Nông Sản Nhà Làm — cần thay bằng ảnh chụp thật càng
-sớm càng tốt để khách tin tưởng hơn.
+Từ 2026-07-26, website dùng ảnh thật chụp tại vườn/xưởng nhà mình, không còn dùng ảnh minh hoạ
+stock nữa:
 
-| File | Nguồn | Giấy phép | Tác giả |
-|---|---|---|---|
-| `tinh-bot-san-day-stock.jpg` | [Kuzu.JPG](https://commons.wikimedia.org/wiki/File:Kuzu.JPG) | Public Domain | Maduixa (Serbian Wikipedia) |
-| `cam-duong-canh-bowl-stock.jpg` | [Mandarin Oranges (Citrus Reticulata).jpg](https://commons.wikimedia.org/wiki/File:Mandarin_Oranges_(Citrus_Reticulata).jpg) | CC BY-SA 3.0 | Joe Ravi |
-| `cam-duong-canh-tree-stock.jpg` | [Mandarins in my Garden Sochi.JPG](https://commons.wikimedia.org/wiki/File:Mandarins_in_my_Garden_Sochi.JPG) | CC BY-SA 4.0 | SKas |
+- `tinh-bot-san-day-real-01.jpg` — bánh tinh bột sắn dây phơi khô dưới nắng
+- `tinh-bot-san-day-real-02.jpg` — vườn sắn dây nhà mình (vùng núi Lạng Sơn)
+- `cam-duong-canh-real-qua.jpg` — cam đường canh bổ đôi, chụp tại vườn
+- `cam-duong-canh-real-vuon.jpg` — toàn cảnh vườn cam nhà mình buổi sáng sớm
 
-Ảnh CC BY-SA yêu cầu ghi nguồn/tác giả khi sử dụng công khai — bảng trên đã đáp ứng yêu cầu đó.
-Khi có ảnh thật, xoá các file `*-stock.jpg` này và xoá phần credit tương ứng.
+Ảnh gốc (độ phân giải cao hơn, cả ảnh và video) lưu trong `Hình Ảnh, Video/` ở thư mục gốc dự án
+(không đưa vào repo git vì dung lượng lớn — xem README.md). Khi muốn đổi ảnh khác, chọn từ thư mục
+đó rồi nhờ Claude resize/nén lại trước khi đưa vào đây.
