@@ -6,6 +6,51 @@ copy-paste đăng thủ công lên Facebook/Zalo/Shopee/TikTok. Sau khi đăng x
 
 ---
 
+## Facebook/Zalo — Cập nhật vườn cam, quả non đã đậu trên cành (2026-07-26)
+
+🍊 CẬP NHẬT VƯỜN CAM NHÀ MÌNH — QUẢ NON ĐÃ ĐẬU TRÊN CÀNH
+
+Ghé vườn cam đường canh nhà mình mấy hôm nay, thấy hoa đã tàn và quả non lấm tấm bắt đầu đậu
+trên cành rồi ạ 🍊 Còn vài tháng nữa mới tới mùa thu hoạch (khoảng tháng 11 âm lịch), nhưng nhìn
+quả non lúc lỉu thế này là biết mùa cam năm nay lại sắp về.
+
+Vườn nhà mình là thành viên Hợp Tác Xã Cây Ăn Quả Nhung Giang (Lạng Sơn), đạt chứng nhận VietGAP —
+chăm cây đúng quy trình, không thúc ép, để cây tự đơm hoa kết trái theo mùa tự nhiên.
+
+Ai thích ăn cam ngọt tự nhiên, chín trên cây, để lại Zalo hoặc nhắn tin từ bây giờ nha — đến mùa
+mình báo có hàng đầu tiên, không lo hết ạ!
+
+Zalo: 0979 502 000
+
+*(Ảnh thật chụp tại vườn nhà mình tuần này — dùng file
+`Hình Ảnh, Video/Cam Đường Canh/cam-duongcanh-hoaquanon-01.jpg` hoặc `-05.jpg`)*
+
+---
+
+## Facebook — 3 cách dùng tinh bột sắn dây giải nhiệt ngày hè (2026-07-26)
+
+🌾 3 CÁCH DÙNG TINH BỘT SẮN DÂY GIẢI NHIỆT NGÀY HÈ
+
+Nhà có sẵn tinh bột sắn dây mà chưa biết dùng sao cho đỡ ngán? Mách nhỏ 3 cách nhà mình hay làm:
+
+1️⃣ Nước sắn dây chanh dây/tắc — 1-2 thìa sắn dây, chút đường, nước sôi khuấy tan, để nguội rồi
+thêm nước cốt chanh dây hoặc tắc, đá lạnh. Mát và đỡ ngấy hơn pha suông.
+
+2️⃣ Chè sắn dây hạt sen — nấu hạt sen mềm, hoà tinh bột sắn dây với nước lạnh rồi đổ vào nồi hạt
+sen đang sôi, khuấy đều tay tới khi sánh lại. Ăn nóng hay để mát tủ lạnh đều ngon.
+
+3️⃣ Sắn dây đậu xanh — kết hợp đậu xanh đãi vỏ nấu chín nhuyễn với sắn dây, thêm chút đường phèn —
+món giải nhiệt quen thuộc mùa hè.
+
+Tất cả đều dùng tinh bột sắn dây nhà làm 100%, không hoá chất, không tẩy trắng 🌾
+
+🔸 Túi 0.5kg: 65.000đ
+🔸 Túi 1kg: 120.000đ
+
+Đặt hàng nhắn Zalo: 0979 502 000 — giao hàng toàn quốc nhé!
+
+---
+
 ## TikTok/Reels — Video thu hoạch củ sắn dây, dựng từ clip thật (2026-07-26)
 
 File video đã dựng sẵn (ghép 3 clip thật, chưa thêm nhạc/chữ):

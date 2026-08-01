@@ -65,6 +65,45 @@ _Cập nhật: 2026-07-03. Xem lại và điều chỉnh khi có số liệu đ�
 4. Cuối mùa, nếu còn tồn, có thể ưu tiên khách quen / giảm nhẹ để bán hết trước khi cam hết mùa
    (không thúc chín trái nên không giữ được lâu ngoài mùa).
 
+## Lộ trình mở rộng kênh bán hàng (trong nước → ngoài nước)
+
+_Thêm 2026-07-27. Thứ tự nên làm: chốt xong Tầng 1 → thử Tầng 2 → chỉ nhắm Tầng 3 sau khi có ATTP
+cho Tinh Bột Sắn Dây._
+
+### Tầng 1 — Trong nước, đang có/sắp có (không cần điều kiện gì thêm)
+
+| Kênh | Sản phẩm | Trạng thái |
+|---|---|---|
+| Zalo/Facebook cá nhân | Cả 2 | Đang chạy, kênh chính |
+| Website VN | Cả 2 | Live |
+| Shopee/TikTok Shop | Chỉ Sắn Dây | Đã quyết định mở, cần tự đăng ký gian hàng |
+
+### Tầng 2 — Trong nước, mở rộng
+
+- **Sàn nông sản Postmart/Voso** (Bưu điện/Viettel Post) — ưu tiên sản phẩm có chứng nhận thật như
+  VietGAP, có hỗ trợ logistics lạnh cho trái tươi. Hợp với **Cam Đường Canh** hơn Shopee vì SLA phù
+  hợp nông sản mùa vụ.
+- **Hội nhóm Facebook đặc sản vùng miền / chợ nông sản sạch** — chi phí gần 0, đăng lại content đã
+  có trong `content/posts_ready.md`, target đúng người tìm nông sản có nguồn gốc rõ ràng.
+- **Đăng ký OCOP tỉnh Lạng Sơn** cho Cam Đường Canh (đã có VietGAP là lợi thế lớn khi xét OCOP) —
+  nếu đạt sao OCOP thì mở thêm cửa vào siêu thị/cửa hàng đặc sản địa phương. Việc nộp hồ sơ bạn cần
+  tự làm, Claude có thể hỗ trợ soạn nội dung mô tả sản phẩm.
+- **Vựa sỉ/chợ đầu mối** tại Hà Nội cho Cam mùa vụ — bán sỉ số lượng lớn cuối mùa để giải phóng tồn
+  kho nhanh (liên quan Giai đoạn 3, mục 4 ở trên).
+
+### Tầng 3 — Ngoài nước (dài hạn, có điều kiện tiên quyết)
+
+- **Điều kiện chặn trước hết**: Tinh Bột Sắn Dây cần chứng nhận **ATTP** (cơ sở đủ điều kiện an
+  toàn thực phẩm) trước khi tính đến bất kỳ kênh xuất khẩu nào.
+- **Cộng đồng người Việt ở nước ngoài** (group chợ Việt tại Đức/Nhật/Hàn/Úc...) — kênh "nhẹ" nhất
+  để bắt đầu, chỉ cần Sắn Dây đóng gói tốt + website tiếng Anh làm điểm liên hệ, chưa cần thủ tục
+  hải quan phức tạp như B2B chính ngạch.
+- **B2B chính ngạch (Alibaba, sàn giao dịch nông sản xuất khẩu)** — chỉ mở sau khi có ATTP, và chỉ
+  cho Tinh Bột Sắn Dây (dạng bột khô, dễ vận chuyển xa).
+- **Cam Đường Canh: không theo hướng xuất khẩu trái tươi trong ngắn hạn** — cần thêm giấy kiểm dịch
+  thực vật, chi phí/thủ tục không tương xứng quy mô hộ gia đình hiện tại. Hướng khả thi hơn về sau
+  là **chế biến** (mứt cam, nước cam cô đặc) — dòng sản phẩm mới, chưa tính vội.
+
 ## Giới hạn cần nhớ khi thực hiện
 
 - Không tự động đăng bài (rủi ro khoá tài khoản) — mọi nội dung Claude soạn, bạn tự đăng tay.
