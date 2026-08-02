@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://nongvanhoang.github.io/nong-san-nha-lam/sitemap.xml

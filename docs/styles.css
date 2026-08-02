@@ -253,7 +253,7 @@ section {
   box-shadow: 0 2px 10px rgba(38, 38, 31, 0.05);
 }
 
-.product h2 {
+.product h3 {
   color: var(--green-dark);
   margin-top: 0;
   font-size: 1.4rem;
