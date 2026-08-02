@@ -11,9 +11,16 @@ này để nhờ giúp việc — Claude đã có sẵn ngữ cảnh sản phẩ
 
 (cập nhật tự động mỗi khi push lên `main`)
 
-## Cách dùng hàng ngày (không cần biết code)
+## App quản lý (ghi đơn/mẻ sản xuất/báo cáo/giá) — không cần mở Claude Code
 
-Cứ mở Claude Code trong thư mục `NongSanNhaLam` rồi gõ yêu cầu bằng tiếng Việt bình thường, ví dụ:
+Bấm đúp file **`MO_APP_QUAN_LY.bat`** ở gốc thư mục dự án — app tự mở trên trình duyệt tại
+`http://127.0.0.1:8943/`. Có 4 mục: Ghi đơn hàng, Ghi mẻ sản xuất, Báo cáo, Giá sản phẩm. Dùng được
+cả trên điện thoại nếu cùng mạng wifi nhà (địa chỉ LAN được in ra trong cửa sổ khi khởi động app).
+Giữ cửa sổ đen (Command Prompt) đang mở khi dùng app — đóng cửa sổ đó là app tắt. Dữ liệu ghi vào
+đúng `data/orders.csv`/`data/production_log.csv`/`data/products.json` như trước giờ, không có gì
+thay đổi ở chỗ lưu trữ.
+
+Nếu không muốn mở app, vẫn có thể nhờ Claude Code làm qua chat như trước:
 
 - "Viết giúp caption Facebook giới thiệu mẻ tinh bột sắn dây mới"
 - "Ghi giúp đơn hàng: chị Lan mua 2kg tinh bột sắn dây, 150k/kg, đặt qua Zalo"
@@ -37,7 +44,10 @@ Claude sẽ tự chạy script hoặc sửa file phù hợp.
 - `content/posts_ready.md` — nơi lưu các caption đã soạn, chờ đăng tay
 - `content/ai_media_prompts.md` — prompt ảnh/video AI (dán vào Midjourney/DALL-E/Sora... vì Claude
   Code không tự tạo ảnh/video), dùng tạm trong lúc chưa có ảnh/video thật
-- `scripts/` — script Python nhẹ, chạy bằng `python scripts/<ten_file>.py --help`
+- `scripts/` — script Python nhẹ, chạy bằng `python scripts/<ten_file>.py --help`. `nsn_core.py` là
+  logic dùng chung (ghi đơn, ghi mẻ, tính báo cáo, sửa giá) cho cả script dòng lệnh và app web.
+  `webapp.py` + `webapp_static/` là app quản lý chạy local (xem mục phía trên).
+- `MO_APP_QUAN_LY.bat` — bấm đúp để mở app quản lý trên trình duyệt.
 - `docs/` — website tĩnh: `index.html` (tiếng Việt), `en/index.html` (tiếng Anh, cho khách/đối tác
   xuất khẩu), dùng chung `styles.css`
 

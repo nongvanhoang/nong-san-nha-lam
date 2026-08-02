@@ -55,6 +55,11 @@ file PDF gốc hay tên/địa chỉ của 3 thành viên kia lên bất kỳ đ
 - **Lưu ý môi trường (2026-08-02)**: lệnh `python`/`py` trên máy này không trỏ đúng Python thật (bị Windows Store
   alias/launcher lỗi chặn). Python thật nằm ở `C:\Users\Admin\AppData\Local\Python\bin\python.exe` — dùng đường
   dẫn đầy đủ này khi chạy các script bên dưới, trừ khi người dùng xác nhận đã sửa PATH.
+- **App quản lý local (2026-08-02)**: ngoài việc nhờ Claude chạy script qua chat, người dùng có thể tự bấm
+  `MO_APP_QUAN_LY.bat` để mở app web local (`scripts/webapp.py`, cổng 8943) — giao diện có 4 mục: ghi đơn hàng,
+  ghi mẻ sản xuất, báo cáo, sửa giá. Logic dùng chung nằm ở `scripts/nsn_core.py`; 3 script CLI cũ
+  (`add_order.py`, `add_batch.py`, `weekly_report.py`) giờ chỉ là wrapper mỏng gọi `nsn_core.py` — khi sửa
+  logic ghi sổ/báo cáo, sửa ở `nsn_core.py` để cả CLI và app web cùng nhất quán, đừng sửa riêng từng nơi.
 - **Ghi đơn hàng mới**: chạy `python scripts/add_order.py` với các tham số phù hợp (xem `--help`).
   Không tự suy diễn số liệu nếu người dùng chưa cung cấp đủ (khách, sản phẩm, số lượng, đơn giá, kênh).
   QUAN TRỌNG: luôn quy đổi `--qty` ra kg (đơn vị gốc, không phải số thùng/túi) để

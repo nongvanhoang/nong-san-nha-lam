@@ -1,27 +1,13 @@
 #!/usr/bin/env python3
 """Ghi một mẻ sản xuất/thu hoạch mới vào data/production_log.csv."""
 import argparse
-import csv
 import sys
 from datetime import date
-from pathlib import Path
+
+from nsn_core import add_batch
 
 if hasattr(sys.stdout, "reconfigure"):
     sys.stdout.reconfigure(encoding="utf-8")
-
-LOG_CSV = Path(__file__).resolve().parent.parent / "data" / "production_log.csv"
-FIELDS = ["date", "product", "batch_id", "quantity", "unit", "note"]
-
-
-def next_batch_id(product: str) -> str:
-    prefix = "".join(w[0] for w in product.upper().split())[:3] or "SP"
-    count = 0
-    if LOG_CSV.exists():
-        with LOG_CSV.open("r", newline="", encoding="utf-8") as f:
-            for row in csv.DictReader(f):
-                if row.get("product") == product:
-                    count += 1
-    return f"{prefix}-{count + 1:03d}"
 
 
 def main():
@@ -34,25 +20,16 @@ def main():
     parser.add_argument("--note", default="", help="Ghi chú thêm")
     args = parser.parse_args()
 
-    batch_id = args.batch_id or next_batch_id(args.product)
+    row = add_batch(
+        date_str=args.date,
+        product=args.product,
+        quantity=args.quantity,
+        unit=args.unit,
+        batch_id=args.batch_id,
+        note=args.note,
+    )
 
-    row = {
-        "date": args.date,
-        "product": args.product,
-        "batch_id": batch_id,
-        "quantity": args.quantity,
-        "unit": args.unit,
-        "note": args.note,
-    }
-
-    is_new_file = not LOG_CSV.exists()
-    with LOG_CSV.open("a", newline="", encoding="utf-8") as f:
-        writer = csv.DictWriter(f, fieldnames=FIELDS)
-        if is_new_file:
-            writer.writeheader()
-        writer.writerow(row)
-
-    print(f"Đã ghi mẻ {batch_id}: {args.product} - {args.quantity}{args.unit} ngày {args.date}")
+    print(f"Đã ghi mẻ {row['batch_id']}: {row['product']} - {row['quantity']}{row['unit']} ngày {row['date']}")
 
 
 if __name__ == "__main__":

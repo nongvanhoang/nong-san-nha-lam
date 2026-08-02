@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Quản lý Nông Sản Nhà Làm</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="topbar">
+  <h1>🌾 Nông Sản Nhà Làm — Quản lý 🍊</h1>
+</header>
+
+<nav class="tabs">
+  <button class="tab-btn active" data-tab="don-hang">Ghi đơn hàng</button>
+  <button class="tab-btn" data-tab="san-xuat">Ghi mẻ sản xuất</button>
+  <button class="tab-btn" data-tab="bao-cao">Báo cáo</button>
+  <button class="tab-btn" data-tab="gia-san-pham">Giá sản phẩm</button>
+</nav>
+
+<main>
+
+  <!-- TAB: Ghi đơn hàng -->
+  <section id="tab-don-hang" class="tab-panel active">
+    <div class="card">
+      <h2>Ghi đơn hàng mới</h2>
+      <form id="form-order">
+        <label>Ngày
+          <input type="date" name="date" id="order-date" required>
+        </label>
+        <label>Khách hàng
+          <input type="text" name="customer" required placeholder="VD: Chị Lan">
+        </label>
+        <label>Sản phẩm
+          <select name="product" id="order-product" required></select>
+        </label>
+        <div class="row">
+          <label>Số lượng
+            <input type="number" step="0.01" name="qty" required placeholder="VD: 2">
+          </label>
+          <label>Đơn vị
+            <input type="text" name="unit" value="kg" required>
+          </label>
+        </div>
+        <label>Đơn giá (VNĐ / đơn vị)
+          <input type="number" step="1" name="unit_price" required placeholder="VD: 120000">
+        </label>
+        <label>Kênh bán hàng
+          <select name="channel" id="order-channel" required></select>
+        </label>
+        <label>Trạng thái
+          <select name="status" id="order-status"></select>
+        </label>
+        <label>Ghi chú
+          <input type="text" name="note" placeholder="Không bắt buộc">
+        </label>
+        <button type="submit">Ghi đơn hàng</button>
+      </form>
+      <p id="order-msg" class="msg"></p>
+      <p class="hint">Nhắc: luôn quy số lượng ra kg (đơn vị gốc) để báo cáo tồn kho tính đúng.</p>
+    </div>
+
+    <div class="card">
+      <h2>Đơn hàng gần đây</h2>
+      <div class="table-wrap">
+        <table id="orders-table">
+          <thead>
+            <tr><th>Ngày</th><th>Khách</th><th>Sản phẩm</th><th>SL</th><th>Thành tiền</th><th>Kênh</th><th>TT</th></tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- TAB: Ghi mẻ sản xuất -->
+  <section id="tab-san-xuat" class="tab-panel">
+    <div class="card">
+      <h2>Ghi mẻ sản xuất / thu hoạch mới</h2>
+      <form id="form-batch">
+        <label>Ngày
+          <input type="date" name="date" id="batch-date" required>
+        </label>
+        <label>Sản phẩm
+          <select name="product" id="batch-product" required></select>
+        </label>
+        <div class="row">
+          <label>Sản lượng
+            <input type="number" step="0.01" name="quantity" required placeholder="VD: 10">
+          </label>
+          <label>Đơn vị
+            <input type="text" name="unit" value="kg" required>
+          </label>
+        </div>
+        <label>Mã mẻ (để trống sẽ tự sinh)
+          <input type="text" name="batch_id" placeholder="Không bắt buộc">
+        </label>
+        <label>Ghi chú
+          <input type="text" name="note" placeholder="Không bắt buộc">
+        </label>
+        <button type="submit">Ghi mẻ sản xuất</button>
+      </form>
+      <p id="batch-msg" class="msg"></p>
+    </div>
+
+    <div class="card">
+      <h2>Mẻ sản xuất gần đây</h2>
+      <div class="table-wrap">
+        <table id="batches-table">
+          <thead>
+            <tr><th>Ngày</th><th>Mã mẻ</th><th>Sản phẩm</th><th>Sản lượng</th><th>Ghi chú</th></tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- TAB: Báo cáo -->
+  <section id="tab-bao-cao" class="tab-panel">
+    <div class="card">
+      <h2>Báo cáo doanh thu / sản lượng / tồn kho</h2>
+      <label class="inline-label">Khoảng thời gian
+        <select id="report-days">
+          <option value="7">7 ngày gần nhất</option>
+          <option value="30">30 ngày gần nhất</option>
+          <option value="90">90 ngày gần nhất</option>
+          <option value="365">365 ngày gần nhất</option>
+        </select>
+      </label>
+      <div id="report-content"></div>
+    </div>
+  </section>
+
+  <!-- TAB: Giá sản phẩm -->
+  <section id="tab-gia-san-pham" class="tab-panel">
+    <div class="card">
+      <h2>Giá sản phẩm hiện tại</h2>
+      <p class="hint">Sửa giá rồi bấm "Lưu" ở dòng đó. Thay đổi sẽ ghi thẳng vào <code>data/products.json</code>.</p>
+      <div id="products-editor"></div>
+    </div>
+  </section>
+
+</main>
+
+<script src="app.js"></script>
+</body>
+</html>
