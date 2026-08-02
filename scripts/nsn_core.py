@@ -5,6 +5,8 @@ và app web local (webapp.py) để tránh hai nơi tính toán khác nhau.
 """
 import csv
 import json
+import os
+import shutil
 from collections import defaultdict
 from datetime import date, datetime, timedelta
 from pathlib import Path
@@ -20,6 +22,31 @@ BATCH_FIELDS = ["date", "product", "batch_id", "quantity", "unit", "note"]
 CHANNELS = ["facebook", "zalo", "shopee", "lazada", "tiktok", "offline"]
 STATUSES = ["moi", "da_giao", "da_huy"]
 STATUS_LABELS = {"moi": "Mới", "da_giao": "Đã giao", "da_huy": "Đã huỷ"}
+
+
+def backup_data():
+    """Sao lưu data/ sang OneDrive (bản mới nhất + 1 bản theo ngày) sau mỗi lần ghi.
+
+    Không có OneDrive hoặc lỗi ghi thì bỏ qua lặng lẽ — không được để hỏng việc ghi sổ chính.
+    """
+    onedrive = os.environ.get("OneDrive") or os.environ.get("ONEDRIVE")
+    if not onedrive:
+        return
+    try:
+        backup_root = Path(onedrive) / "NongSanNhaLam-Backup"
+        latest_dir = backup_root / "latest"
+        daily_dir = backup_root / "theo-ngay" / date.today().isoformat()
+        latest_dir.mkdir(parents=True, exist_ok=True)
+        daily_dir.mkdir(parents=True, exist_ok=True)
+        for src in (ORDERS_CSV, PRODUCTION_CSV, PRODUCTS_JSON):
+            if not src.exists():
+                continue
+            shutil.copy2(src, latest_dir / src.name)
+            daily_target = daily_dir / src.name
+            if not daily_target.exists():
+                shutil.copy2(src, daily_target)
+    except OSError:
+        pass
 
 
 def load_rows(path: Path):
@@ -65,6 +92,7 @@ def add_order(*, date_str=None, customer, product, qty, unit="kg", unit_price, c
         "note": note or "",
     }
     append_row(ORDERS_CSV, ORDER_FIELDS, row)
+    backup_data()
     return row
 
 
@@ -93,6 +121,7 @@ def add_batch(*, date_str=None, product, quantity, unit="kg", batch_id=None, not
         "note": note or "",
     }
     append_row(PRODUCTION_CSV, BATCH_FIELDS, row)
+    backup_data()
     return row
 
 
@@ -196,4 +225,5 @@ def update_variant_price(product_id: str, package: str, new_price: float):
         raise ValueError("Không tìm thấy sản phẩm/quy cách đó")
     data["updated_at"] = date.today().isoformat()
     save_products(data)
+    backup_data()
     return data

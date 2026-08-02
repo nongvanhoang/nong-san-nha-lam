@@ -40,6 +40,10 @@ Claude sẽ tự chạy script hoặc sửa file phù hợp.
 - `data/products.json` — bảng giá và thông tin sản phẩm (sửa khi có giá thật)
 - `data/orders.csv` — sổ đơn hàng
 - `data/production_log.csv` — sổ sản xuất/thu hoạch
+
+**Sao lưu tự động**: mỗi lần ghi đơn/mẻ/sửa giá (qua app web hoặc qua Claude), 3 file trong `data/`
+tự động được copy sang `OneDrive\NongSanNhaLam-Backup\` (1 bản mới nhất + 1 bản lưu theo từng ngày).
+Máy hỏng hay xoá nhầm vẫn còn bản trên OneDrive. Không cần làm gì thêm, tự chạy ngầm.
 - `content/templates/` — mẫu caption theo từng kênh (Facebook, Zalo, Shopee/TikTok)
 - `content/posts_ready.md` — nơi lưu các caption đã soạn, chờ đăng tay
 - `content/ai_media_prompts.md` — prompt ảnh/video AI (dán vào Midjourney/DALL-E/Sora... vì Claude
