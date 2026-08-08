@@ -1,3 +1,28 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
-  <text x="50" y="72" font-size="72" text-anchor="middle">🌾</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
+  <defs>
+    <g id="sun">
+      <circle cx="0" cy="0" r="58" fill="#f0d18a" opacity="0.18"/>
+      <circle cx="0" cy="0" r="42" fill="#f0d18a" opacity="0.28"/>
+      <circle cx="0" cy="0" r="28" fill="#d9a238"/>
+      <circle cx="0" cy="0" r="28" fill="#f6dfa0" opacity="0.35"/>
+    </g>
+    <g id="orangeFruit">
+      <circle cx="0" cy="15" r="82" fill="#c05f16"/>
+      <path d="M40,55 A82,82 0 0 1 -10,92 A82,82 0 0 1 -60,55 A70,70 0 0 0 40,55 Z" fill="#7a3a0a" opacity="0.4"/>
+      <ellipse cx="-28" cy="-16" rx="18" ry="12" fill="#fff" opacity="0.22" transform="rotate(-25 -28 -16)"/>
+      <path d="M0,-66 L-2,-85" stroke="#5a3d1e" stroke-width="4.5" stroke-linecap="round"/>
+      <path d="M-6,-83 C-24,-97 -46,-92 -58,-76 C-40,-79 -26,-76 -14,-67 Z" fill="#2f4a28"/>
+    </g>
+    <g id="landscape">
+      <circle cx="250" cy="250" r="244" fill="#f3ead9"/>
+      <use href="#sun" x="338" y="168"/>
+      <path d="M6,225 C35,180 55,165 78,180 C95,155 118,145 145,162 C162,140 185,132 210,148 C230,128 258,122 280,140 C300,120 328,116 350,134 C372,116 400,120 418,140 C438,120 465,122 480,140 C488,132 492,132 494,136 L494,235 L6,235 Z" fill="#bdccac"/>
+      <path d="M6,255 C42,210 70,198 100,218 C122,192 152,184 178,204 C202,182 232,176 258,196 C284,176 314,172 340,192 C366,174 396,178 418,200 C440,182 466,186 494,206 L494,268 L6,268 Z" fill="#86a06e"/>
+      <path d="M6,282 C40,248 68,240 96,258 C118,238 146,232 170,250 C196,232 224,228 248,246 C274,228 302,224 326,242 C352,224 380,228 402,248 C426,232 456,236 494,254 L494,300 L6,300 Z" fill="#4d6a42"/>
+      <line x1="14" y1="312" x2="486" y2="312" stroke="#b8863b" stroke-width="1.6"/>
+      <circle cx="250" cy="250" r="244" fill="none" stroke="#3d5c34" stroke-width="4"/>
+    </g>
+  </defs>
+  <use href="#landscape"/>
+  <use href="#orangeFruit" x="250" y="205"/>
 </svg>

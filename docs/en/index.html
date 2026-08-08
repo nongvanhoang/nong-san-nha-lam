@@ -53,19 +53,40 @@
 </head>
 <body>
 
-<div class="topbar">
-  <div class="topbar-inner">
-    <a href="../index.html">Tiếng Việt</a>
-    <a class="active" href="index.html">English</a>
+<nav class="site-nav" id="site-nav">
+  <div class="site-nav-inner">
+    <a class="brand" href="#top">
+      <img src="../favicon.svg" alt="" width="34" height="34">
+      <span>Nong San Nha Lam</span>
+    </a>
+    <ul class="site-nav-links">
+      <li><a href="#top">Home</a></li>
+      <li><a href="#products">Products</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#wholesale">Wholesale</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div class="nav-side">
+      <div class="lang-switch">
+        <a href="../index.html">VI</a>
+        <a class="active" href="index.html">EN</a>
+      </div>
+      <a class="nav-cta" href="https://zalo.me/0979502000" target="_blank" rel="noopener">Order</a>
+      <button class="nav-toggle" id="nav-toggle" aria-label="Open menu" aria-expanded="false">☰</button>
+    </div>
   </div>
-</div>
+</nav>
 
-<header class="hero">
+<header class="hero" id="top">
+  <div class="hero-inner">
+  <img src="../assets/logo.svg" alt="Nong San Nha Lam" width="96" height="96" style="margin:0 auto 1.5rem;border-radius:50%">
   <p class="eyebrow">Small Family Producer · 100% Handmade</p>
-  <h1>🌾 Nong San Nha Lam 🍊</h1>
+  <h1>Nong San Nha Lam</h1>
   <p>Handmade arrowroot (kudzu) starch and home-grown Canh mandarin oranges from Vietnam — clean, natural, made in small batches. Open to wholesale and export inquiries for arrowroot starch.</p>
   <div class="cta-group">
+    <a class="btn btn-zalo" href="https://zalo.me/0979502000" target="_blank" rel="noopener">Order via Zalo</a>
     <a class="btn btn-outline" href="#wholesale">Wholesale / Export Inquiry</a>
+  </div>
   </div>
 </header>
 
@@ -168,6 +189,7 @@
           <tr><td>10 kg box</td><td>500,000 VND</td></tr>
         </tbody>
       </table>
+      <p class="tagline">Out of season? You can still get on our list — message us on Zalo and we'll notify you as soon as the next harvest is ready: <a href="https://zalo.me/0979502000" target="_blank" rel="noopener">Zalo 0979 502 000</a>.</p>
     </div>
   </section>
 
@@ -208,6 +230,23 @@
 <footer>
   <p>© 2026 Nong San Nha Lam — a family-made, family-grown farm product from Vietnam.</p>
 </footer>
+
+<script>
+  var navToggle = document.getElementById('nav-toggle');
+  var siteNav = document.getElementById('site-nav');
+  if (navToggle && siteNav) {
+    navToggle.addEventListener('click', function () {
+      var isOpen = siteNav.classList.toggle('open');
+      navToggle.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+    });
+    siteNav.querySelectorAll('.site-nav-links a').forEach(function (link) {
+      link.addEventListener('click', function () {
+        siteNav.classList.remove('open');
+        navToggle.setAttribute('aria-expanded', 'false');
+      });
+    });
+  }
+</script>
 
 </body>
 </html>

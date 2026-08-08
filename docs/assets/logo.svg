@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" role="img" aria-label="Nông Sản Nhà Làm — Tinh Bột Sắn Dây và Cam Đường Canh">
+  <defs>
+    <g id="sun">
+      <circle cx="0" cy="0" r="58" fill="#f0d18a" opacity="0.18"/>
+      <circle cx="0" cy="0" r="42" fill="#f0d18a" opacity="0.28"/>
+      <circle cx="0" cy="0" r="28" fill="#d9a238"/>
+      <circle cx="0" cy="0" r="28" fill="#f6dfa0" opacity="0.35"/>
+    </g>
+
+    <g id="orangeFruit">
+      <circle cx="0" cy="15" r="82" fill="#c05f16"/>
+      <path d="M40,55 A82,82 0 0 1 -10,92 A82,82 0 0 1 -60,55 A70,70 0 0 0 40,55 Z" fill="#7a3a0a" opacity="0.4"/>
+      <ellipse cx="-28" cy="-16" rx="18" ry="12" fill="#fff" opacity="0.22" transform="rotate(-25 -28 -16)"/>
+      <g fill="#5a2c08" opacity="0.4">
+        <circle cx="-32" cy="26" r="1.8"/><circle cx="-14" cy="46" r="1.7"/><circle cx="14" cy="50" r="1.9"/>
+        <circle cx="34" cy="28" r="1.8"/><circle cx="24" cy="-8" r="1.6"/><circle cx="44" cy="8" r="1.7"/>
+      </g>
+      <path d="M0,-66 L-2,-85" stroke="#5a3d1e" stroke-width="4.5" stroke-linecap="round"/>
+      <path d="M-6,-83 C-24,-97 -46,-92 -58,-76 C-40,-79 -26,-76 -14,-67 Z" fill="#2f4a28"/>
+      <path d="M-52,-80 C-38,-84 -24,-80 -16,-72" fill="none" stroke="#1c2f18" stroke-width="1" opacity="0.5"/>
+    </g>
+
+    <g id="starchBag">
+      <ellipse cx="0" cy="34" rx="50" ry="17" fill="#8a6a42"/>
+      <ellipse cx="0" cy="29" rx="43" ry="13.5" fill="#6e5236"/>
+      <ellipse cx="0" cy="16" rx="41" ry="14" fill="#f5f0e2"/>
+      <ellipse cx="0" cy="4" rx="28" ry="13" fill="#faf5ea"/>
+      <ellipse cx="-9" cy="-1" rx="11" ry="5.5" fill="#fff" opacity="0.5"/>
+      <g fill="#c9a877" opacity="0.5">
+        <circle cx="15" cy="10" r="1.6"/><circle cx="-17" cy="15" r="1.5"/><circle cx="4" cy="20" r="1.4"/>
+      </g>
+      <path d="M42,22 L62,10 C64,8 64,3 59,4 C52,5 45,12 40,19 Z" fill="#6e5236"/>
+      <ellipse cx="56" cy="6" rx="7.5" ry="4.2" fill="#8a6a42" transform="rotate(-25 56 6)"/>
+    </g>
+
+    <g id="treeSmall"><line x1="0" y1="0" x2="0" y2="6" stroke="#5a4a30" stroke-width="1.3"/><circle cx="0" cy="-4" r="5" fill="#5c7a4a"/></g>
+    <g id="treeBig"><line x1="0" y1="0" x2="0" y2="9" stroke="#4a3a20" stroke-width="1.8"/><circle cx="0" cy="-6.5" r="7.5" fill="#3c5c2e"/></g>
+
+    <g id="landscape">
+      <circle cx="250" cy="250" r="244" fill="#f3ead9"/>
+      <path d="M6,190 C50,168 90,172 130,158 C160,146 195,150 225,138 C255,148 285,140 315,150 C345,138 380,144 410,156 C440,146 470,152 494,162 L494,200 L6,200 Z" fill="#d3ddc6" opacity="0.55"/>
+      <use href="#sun" x="338" y="168"/>
+      <path d="M6,225 C35,180 55,165 78,180 C95,155 118,145 145,162 C162,140 185,132 210,148 C230,128 258,122 280,140 C300,120 328,116 350,134 C372,116 400,120 418,140 C438,120 465,122 480,140 C488,132 492,132 494,136 L494,235 L6,235 Z" fill="#bdccac"/>
+      <g stroke="#9aab88" stroke-width="1.5" opacity="0.5" fill="none">
+        <path d="M92,192 C88,182 90,172 96,164"/>
+        <path d="M210,148 C206,140 208,132 214,126"/>
+        <path d="M350,134 C346,126 348,118 354,112"/>
+      </g>
+      <rect x="6" y="222" width="488" height="16" fill="#f3ead9" opacity="0.4"/>
+      <path d="M6,255 C42,210 70,198 100,218 C122,192 152,184 178,204 C202,182 232,176 258,196 C284,176 314,172 340,192 C366,174 396,178 418,200 C440,182 466,186 494,206 L494,268 L6,268 Z" fill="#86a06e"/>
+      <g stroke="#6a8256" stroke-width="2" opacity="0.45" fill="none">
+        <path d="M100,218 C94,206 96,196 104,188"/>
+        <path d="M258,196 C252,184 254,174 262,166"/>
+        <path d="M418,200 C412,188 414,178 422,170"/>
+      </g>
+      <path d="M6,282 C40,248 68,240 96,258 C118,238 146,232 170,250 C196,232 224,228 248,246 C274,228 302,224 326,242 C352,224 380,228 402,248 C426,232 456,236 494,254 L494,300 L6,300 Z" fill="#4d6a42"/>
+      <g stroke="#31472a" stroke-width="2" opacity="0.4" fill="none">
+        <path d="M96,258 C90,248 92,238 100,230"/>
+        <path d="M248,246 C242,236 244,226 252,218"/>
+        <path d="M402,248 C396,238 398,228 406,220"/>
+      </g>
+      <g opacity="0.95">
+        <use href="#treeSmall" x="34" y="295"/><use href="#treeSmall" x="86" y="293"/><use href="#treeSmall" x="138" y="296"/>
+        <use href="#treeSmall" x="190" y="292"/><use href="#treeSmall" x="242" y="295"/><use href="#treeSmall" x="294" y="293"/>
+        <use href="#treeSmall" x="346" y="296"/><use href="#treeSmall" x="398" y="292"/><use href="#treeSmall" x="450" y="295"/>
+      </g>
+      <g>
+        <use href="#treeBig" x="58" y="306"/><use href="#treeBig" x="112" y="308"/><use href="#treeBig" x="166" y="305"/>
+        <use href="#treeBig" x="220" y="308"/><use href="#treeBig" x="280" y="306"/><use href="#treeBig" x="334" y="308"/>
+        <use href="#treeBig" x="388" y="305"/><use href="#treeBig" x="442" y="308"/>
+      </g>
+      <line x1="14" y1="312" x2="486" y2="312" stroke="#b8863b" stroke-width="1.6"/>
+      <circle cx="250" cy="250" r="244" fill="none" stroke="#3d5c34" stroke-width="2.5"/>
+    </g>
+  </defs>
+
+  <use href="#landscape"/>
+  <g transform="translate(178,235) scale(1.18)"><use href="#starchBag"/></g>
+  <g transform="translate(325,235) scale(0.82)"><use href="#orangeFruit"/></g>
+  <line x1="185" y1="345" x2="315" y2="345" stroke="#b8863b" stroke-width="1"/>
+  <text x="250" y="378" text-anchor="middle" font-family="Cambria, Georgia, 'Times New Roman', serif" font-weight="700" font-size="30" letter-spacing="3" fill="#2a3d24">NÔNG SẢN</text>
+  <text x="250" y="410" text-anchor="middle" font-family="Cambria, Georgia, 'Times New Roman', serif" font-weight="700" font-size="30" letter-spacing="3" fill="#2a3d24">NHÀ LÀM</text>
+  <text x="250" y="432" text-anchor="middle" font-family="Cambria, Georgia, 'Times New Roman', serif" font-style="italic" font-size="13" letter-spacing="1.5" fill="#8a7a5a">Tinh Bột Sắn Dây · Cam Đường Canh</text>
+</svg>

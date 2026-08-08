@@ -53,20 +53,40 @@
 </head>
 <body>
 
-<div class="topbar">
-  <div class="topbar-inner">
-    <a class="active" href="index.html">Tiếng Việt</a>
-    <a href="en/index.html">English</a>
+<nav class="site-nav" id="site-nav">
+  <div class="site-nav-inner">
+    <a class="brand" href="#trang-chu">
+      <img src="favicon.svg" alt="" width="34" height="34">
+      <span>Nông Sản Nhà Làm</span>
+    </a>
+    <ul class="site-nav-links">
+      <li><a href="#trang-chu">Trang chủ</a></li>
+      <li><a href="#san-pham">Sản phẩm</a></li>
+      <li><a href="#ve-chung-toi">Về chúng tôi</a></li>
+      <li><a href="#xuat-khau">Xuất khẩu</a></li>
+      <li><a href="#lien-he">Liên hệ</a></li>
+    </ul>
+    <div class="nav-side">
+      <div class="lang-switch">
+        <a class="active" href="index.html">VI</a>
+        <a href="en/index.html">EN</a>
+      </div>
+      <a class="nav-cta" href="https://zalo.me/0979502000" target="_blank" rel="noopener">Đặt hàng</a>
+      <button class="nav-toggle" id="nav-toggle" aria-label="Mở menu" aria-expanded="false">☰</button>
+    </div>
   </div>
-</div>
+</nav>
 
-<header class="hero">
+<header class="hero" id="trang-chu">
+  <div class="hero-inner">
+  <img src="assets/logo.svg" alt="Nông Sản Nhà Làm" width="96" height="96" style="margin:0 auto 1.5rem;border-radius:50%">
   <p class="eyebrow">Gia đình sản xuất nhỏ · Thủ công 100%</p>
-  <h1>🌾 Nông Sản Nhà Làm 🍊</h1>
+  <h1>Nông Sản Nhà Làm</h1>
   <p>Tinh Bột Sắn Dây thủ công &amp; Cam Đường Canh nhà trồng — sạch, tự nhiên, giao tận tay. Nhận đặt sỉ và trao đổi xuất khẩu tinh bột sắn dây.</p>
   <div class="cta-group">
     <a class="btn btn-zalo" href="https://zalo.me/0979502000" target="_blank" rel="noopener">Đặt hàng qua Zalo</a>
     <a class="btn btn-outline" href="#xuat-khau">Đặt sỉ / Xuất khẩu</a>
+  </div>
   </div>
 </header>
 
@@ -166,6 +186,7 @@
           <tr><td>Thùng 10kg</td><td>500.000đ</td></tr>
         </tbody>
       </table>
+      <p class="tagline">Ngoài mùa vẫn có thể đặt trước — nhắn Zalo để lại số, đến mùa mình báo có hàng đầu tiên: <a href="https://zalo.me/0979502000" target="_blank" rel="noopener">Zalo 0979 502 000</a>.</p>
     </div>
   </section>
 
@@ -211,6 +232,23 @@
 <footer>
   <p>© 2026 Nông Sản Nhà Làm — sản phẩm gia đình tự làm, tự trồng.</p>
 </footer>
+
+<script>
+  var navToggle = document.getElementById('nav-toggle');
+  var siteNav = document.getElementById('site-nav');
+  if (navToggle && siteNav) {
+    navToggle.addEventListener('click', function () {
+      var isOpen = siteNav.classList.toggle('open');
+      navToggle.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+    });
+    siteNav.querySelectorAll('.site-nav-links a').forEach(function (link) {
+      link.addEventListener('click', function () {
+        siteNav.classList.remove('open');
+        navToggle.setAttribute('aria-expanded', 'false');
+      });
+    });
+  }
+</script>
 
 </body>
 </html>
