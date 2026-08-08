@@ -1,0 +1,58 @@
+# Lịch Đăng Bài Cụ Thể (từ 2026-08-04)
+
+_Tự soạn 2026-08-04 vì kho nội dung sẵn có trong `content/posts_ready.md` (19 bài) gần như chưa
+dùng — chỉ để xác định NGÀY NÀO đăng BÀI NÀO, không tạo nội dung mới. Nhịp đề ra: 2 lần/tuần
+(Thứ 3 + Thứ 6) — nếu bận không kịp đúng ngày thì lùi vài ngày cũng được, quan trọng là đăng đều,
+không để trống cả tháng như vừa qua._
+
+**Cách dùng**: đến ngày, mở `content/posts_ready.md` ở dòng ghi tương ứng, copy-paste đăng tay.
+Sau khi đăng, quay lại tick `[x]` ở dòng dưới đây VÀ đánh dấu `[Đã đăng]` vào đầu tiêu đề bài đó
+trong `posts_ready.md` (để không đăng trùng lần sau).
+
+## Tuần 1
+
+- [ ] **Thứ 3, 04/08/2026** — Đợt 1 (đăng đồng thời cả 3, đúng kế hoạch gốc trong
+  `TRIEN_KHAI_DONG_THOI_SOCIAL.md`):
+  - Facebook: "Quy mô thu hoạch thật, không phải làm cho có" (dòng ~100 trong posts_ready.md)
+  - Zalo: "Báo khách quen có ảnh/video thật mới" (dòng ~136)
+  - TikTok/Reels: video thu hoạch dựng sẵn `san-day-video-thuhoach-dung-01.mp4` (dòng ~85)
+- [ ] **Thứ 6, 07/08/2026** — Đợt 2:
+  - Facebook: "3 cách dùng tinh bột sắn dây giải nhiệt ngày hè" (dòng ~61)
+  - Facebook/Zalo: "Từ video thật đến túi tinh bột, không giấu gì cả" (dòng ~144)
+  - TikTok/Reels: video hậu trường phơi `san-day-video-haitruong-dung-01.mp4` (dòng ~118)
+  - Shopee/TikTok Shop: mô tả sản phẩm (dòng ~293) — **chỉ đăng nếu gian hàng đã đăng ký xong**;
+    nếu chưa xong thì bỏ qua mục này, đợi tuần nào đăng ký xong thì dùng.
+
+## Tuần 2
+
+- [ ] **Thứ 3, 11/08/2026** — Cam Đường Canh, hâm nóng nhẹ (được phép đăng sớm theo
+  `TRIEN_KHAI_DONG_THOI_SOCIAL.md` Đợt 3, không cần đợi tháng 9-10):
+  - Facebook/Zalo: "Cập nhật vườn cam, quả non đã đậu trên cành" (dòng ~40)
+- [ ] **Thứ 6, 14/08/2026** — nội dung mới nhất chưa dùng:
+  - Facebook: "Công thức chè sắn dây hạt sen giải nhiệt" (dòng ~9, soạn 03/08)
+
+## Tuần 3
+
+- [ ] **Thứ 3, 18/08/2026**:
+  - Zalo: "Công thức chè sắn dây hạt sen giải nhiệt" (dòng ~29, bản Zalo của bài Thứ 6 tuần trước —
+    đăng lệch kênh/lệch ngày để không trùng lúc)
+- [ ] **Thứ 6, 21/08/2026**: kho bài mới soạn riêng cho mùa hè coi như dùng hết ở đây. Nếu chưa có
+  đơn hàng thật nào để khoe (mục "Ghi sổ đơn hàng" vẫn đang trống), có thể dùng lại bài nền tảng cũ
+  "Giới thiệu Tinh Bột Sắn Dây" (dòng ~252) làm bài lấp chỗ — hoặc nhắn tôi soạn thêm góc độ mới
+  (feedback khách nếu đã có, hoặc mượn 1-2 ảnh/video thật chưa dùng trong
+  `Hình Ảnh, Video/Sắn Dây/`).
+
+## Từ tuần 4 trở đi
+
+Không lên lịch cứng trước — báo lại khi đăng hết các bài trên, có thể nhờ subagent
+`sales-content-writer` ra loạt bài mới đồng bộ 3 kênh. Giữ nguyên 2 bài Cam Đường Canh nhấn
+VietGAP / chín tự nhiên trên cây (chưa dùng, để dành đúng T9-10/2026 theo Giai đoạn 2 của
+`KE_HOACH_BAN_HANG.md` — đừng đăng sớm hơn, tránh lặp ý với bài "quả non đậu trên cành" ở Tuần 2).
+
+## Bài cũ nên bỏ qua hẳn (không đưa vào lịch — đã có bản mới hơn thay thế)
+
+Giữ nguyên trong file, không cần xoá, nhưng khi đăng theo lịch trên thì bỏ qua:
+- "Hậu trường sản xuất Tinh Bột Sắn Dây" (07-05)
+- "TikTok — Video hậu trường phơi sắn dây" (07-05, chỉ là kịch bản, đã có video thật thay thế)
+- "Công dụng / cách dùng Tinh Bột Sắn Dây" (07-03)
+- "Mời khách để lại hẹn báo hàng mùa cam" (07-06, đã có bản 26/07 tốt hơn)

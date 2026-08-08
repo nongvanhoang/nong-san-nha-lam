@@ -48,6 +48,10 @@ Máy hỏng hay xoá nhầm vẫn còn bản trên OneDrive. Không cần làm g
 - `content/posts_ready.md` — nơi lưu các caption đã soạn, chờ đăng tay
 - `content/ai_media_prompts.md` — prompt ảnh/video AI (dán vào Midjourney/DALL-E/Sora... vì Claude
   Code không tự tạo ảnh/video), dùng tạm trong lúc chưa có ảnh/video thật
+- `content/ocop_mo_ta_san_pham.md` — bản nháp mô tả sản phẩm Cam Đường Canh cho hồ sơ OCOP (2026-08-04),
+  còn vài chỗ `[CẦN CẬP NHẬT]` (diện tích, sản lượng) chờ số liệu thật
+- `LICH_DANG_BAI.md` — lịch đăng bài cụ thể theo ngày (2026-08-04), gán ngày thật cho các bài có sẵn
+  trong `content/posts_ready.md` vì phát hiện gần 1 tháng chưa đăng bài nào trong kho
 - `scripts/` — script Python nhẹ, chạy bằng `python scripts/<ten_file>.py --help`. `nsn_core.py` là
   logic dùng chung (ghi đơn, ghi mẻ, tính báo cáo, sửa giá) cho cả script dòng lệnh và app web.
   `webapp.py` + `webapp_static/` là app quản lý chạy local (xem mục phía trên).

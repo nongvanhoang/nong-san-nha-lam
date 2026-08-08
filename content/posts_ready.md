@@ -6,6 +6,37 @@ copy-paste đăng thủ công lên Facebook/Zalo/Shopee/TikTok. Sau khi đăng x
 
 ---
 
+## Facebook — Công thức chè sắn dây hạt sen giải nhiệt (2026-08-03)
+
+🌾 TRƯA HÈ NÓNG, NẤU NỒI CHÈ SẮN DÂY HẠT SEN CHO CẢ NHÀ MÁT LÒNG NHÉ!
+
+Cách làm đơn giản, ai cũng nấu được:
+1️⃣ Hạt sen luộc mềm, để riêng.
+2️⃣ Tinh bột sắn dây nhà mình hoà tan với chút nước lạnh.
+3️⃣ Đun nước đường phèn sôi nhẹ, đổ từ từ hỗn hợp sắn dây vào, khuấy đều tay đến khi sánh trong.
+4️⃣ Cho hạt sen vào, tắt bếp — ăn ấm hay để nguội đều ngon, giải nhiệt ngày hè.
+
+Tinh bột sắn dây nhà mình lọc và phơi thủ công 100%, không hoá chất, không tẩy trắng, nấu lên sánh
+mịn, thơm tự nhiên đúng vị.
+
+🔸 Túi 0.5kg: 65.000đ
+🔸 Túi 1kg: 120.000đ
+
+Đặt hàng nhắn Zalo 0979 502 000 nhé, giao hàng toàn quốc 🍊
+
+---
+
+## Zalo — Công thức chè sắn dây hạt sen giải nhiệt (2026-08-03)
+
+🌾 Trưa nay nấu thử chè sắn dây hạt sen giải nhiệt chưa ạ?
+
+Sắn dây nhà mình lọc phơi thủ công, hoà nước lạnh cho tan rồi đổ vào nồi đường phèn đang sôi, khuấy
+đều đến khi sánh trong, thêm hạt sen là xong nồi chè mát lành cho cả nhà 🍊
+
+Túi 0.5kg 65k, túi 1kg 120k — cần thì nhắn mình gửi liền, giao toàn quốc nha!
+
+---
+
 ## Facebook/Zalo — Cập nhật vườn cam, quả non đã đậu trên cành (2026-07-26)
 
 🍊 CẬP NHẬT VƯỜN CAM NHÀ MÌNH — QUẢ NON ĐÃ ĐẬU TRÊN CÀNH

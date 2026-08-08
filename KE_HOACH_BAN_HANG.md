@@ -94,7 +94,9 @@ cho Tinh Bột Sắn Dây._
 ### Tầng 3 — Ngoài nước (dài hạn, có điều kiện tiên quyết)
 
 - **Điều kiện chặn trước hết**: Tinh Bột Sắn Dây cần chứng nhận **ATTP** (cơ sở đủ điều kiện an
-  toàn thực phẩm) trước khi tính đến bất kỳ kênh xuất khẩu nào.
+  toàn thực phẩm) trước khi tính đến bất kỳ kênh xuất khẩu nào. Xem thủ tục/hồ sơ chi tiết đã tra
+  cứu sẵn trong `GHI_CHU_ATTP.md` — lưu ý hộ quy mô nhỏ lẻ có thể được MIỄN giấy này theo quy định
+  mới, nên việc đầu tiên là gọi hỏi xác nhận với Chi cục ATVSTP tỉnh Lạng Sơn.
 - **Cộng đồng người Việt ở nước ngoài** (group chợ Việt tại Đức/Nhật/Hàn/Úc...) — kênh "nhẹ" nhất
   để bắt đầu, chỉ cần Sắn Dây đóng gói tốt + website tiếng Anh làm điểm liên hệ, chưa cần thủ tục
   hải quan phức tạp như B2B chính ngạch.
@@ -119,5 +121,5 @@ cho Tinh Bột Sắn Dây._
 3. Tự đăng ký gian hàng Shopee/TikTok Shop cho Tinh Bột Sắn Dây (đã quyết định mở — xem Giai đoạn 1,
    mục 5).
 4. Bắt đầu ghi đơn hàng thật ngay khi có, để các báo cáo/cảnh báo tồn kho có ý nghĩa.
-5. Nếu muốn theo đuổi B2B/xuất khẩu sau này: tìm hiểu thủ tục xin chứng nhận ATTP/HACCP cho cơ sở
-   sản xuất Tinh Bột Sắn Dây trước.
+5. Nếu muốn theo đuổi B2B/xuất khẩu sau này: gọi hỏi Chi cục ATVSTP tỉnh Lạng Sơn xem hộ nhà mình
+   có thuộc diện miễn giấy ATTP không (xem `GHI_CHU_ATTP.md` để biết cần hỏi gì/chuẩn bị gì).
