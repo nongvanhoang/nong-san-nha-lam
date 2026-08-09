@@ -8,3 +8,6 @@ data/production_log.csv
 
 # Kho ảnh/video gốc (quá nặng cho GitHub Pages) - chỉ dùng bản đã resize/nén trong docs/assets/
 Hình Ảnh, Video/
+
+# Video đã xử lý xong (chèn chữ/màu) để tự tải lên TikTok/Reels - không phải asset của website
+content/video_final/
