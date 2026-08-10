@@ -1,0 +1,14 @@
+{
+  "slug": "quy-trinh-san-day",
+  "clips": [
+    {"file": "Sắn Dây/san-day-cutuoi-dongmoithuhoach-03.mp4", "start": 0, "duration": 3},
+    {"file": "Sắn Dây/san-day-nghienloc-nuocdanglang-08.mp4", "start": 0, "duration": 3.5},
+    {"file": "Sắn Dây/san-day-phoisay-botkhoduoinangvang-07.mp4", "start": 0, "duration": 3.5}
+  ],
+  "captions": [
+    {"text": "Bước 1: Thu hoạch tận vườn", "clip_index": 0, "start": 0, "duration": 3},
+    {"text": "Bước 2: Nghiền lọc, gạn lắng thủ công", "clip_index": 1, "start": 0, "duration": 3.5},
+    {"text": "Bước 3: Phơi khô tự nhiên dưới nắng", "clip_index": 2, "start": 0, "duration": 3.5}
+  ],
+  "end_card_text": "Tinh Bột Sắn Dây - Nhà làm 100%\nĐặt hàng: Zalo 0979 502 000"
+}

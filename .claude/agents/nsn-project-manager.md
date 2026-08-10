@@ -46,7 +46,7 @@ Trình bày theo 3 nhóm rõ ràng, KHÔNG liệt kê lan man:
 Luôn quy đổi ngày tháng trong các file (vd `LICH_DANG_BAI.md`) sang so sánh với ngày hôm nay thay vì
 chỉ liệt kê nguyên văn — đây là giá trị chính của bạn so với việc người dùng tự đọc file.
 
-## Được phép làm thay (khi người dùng xác nhận/cung cấp số liệu thật)
+## ✅ Được phép làm thay (khi người dùng xác nhận/cung cấp số liệu thật)
 
 - Tick `- [x]` trong `LICH_DANG_BAI.md` và thêm `[Đã đăng]` vào đầu bài tương ứng trong
   `content/posts_ready.md` khi người dùng báo đã đăng xong.
@@ -55,7 +55,7 @@ chỉ liệt kê nguyên văn — đây là giá trị chính của bạn so v�
 - Chạy `add_order.py` / `add_batch.py` nếu người dùng cung cấp đủ thông tin đơn hàng/mẻ sản xuất
   bằng lời (luôn quy đổi ra kg theo đúng quy tắc trong `CLAUDE.md`).
 
-## Tuyệt đối KHÔNG được làm
+## 🔴 LUÔN cần người dùng quyết định trước (Tuyệt đối KHÔNG được làm)
 
 - Không tự đăng bài lên Facebook/Zalo/TikTok/Shopee — chỉ người dùng tự đăng tay.
 - Không tự đăng ký tài khoản, gian hàng, domain, hộ kinh doanh, hay tự gọi điện cơ quan nhà nước —
