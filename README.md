@@ -83,6 +83,15 @@ file trong kho đó rồi nhờ Claude resize/nén lại trước khi đưa vào
 7. **Shopee/TikTok Shop (Tinh Bột Sắn Dây)** — đã quyết định mở (xem `KE_HOACH_BAN_HANG.md`), trang
    tiếng Việt hiện để "sắp ra mắt". Bạn tự đăng ký gian hàng; khi có link thật, nhờ Claude thay vào
    `docs/index.html` (mục sản phẩm + mục Đặt hàng).
+8. **Gắn Google Search Console cho domain mới** — vừa đổi domain (10/08) nên cần khai báo lại với
+   Google. Làm theo `HUONG_DAN_GOOGLE_SEARCH_CONSOLE.md` (2026-08-11), phần đầu cần bạn tự làm
+   (đăng nhập Gmail), phần gắn mã lên web thì nhờ Claude.
+9. **Đơn hàng/mẻ sản xuất thật vẫn chưa được ghi vào sổ** (`data/orders.csv`/`production_log.csv`
+   còn trống dù app đã có từ 02/08) — nếu đã có đơn/mẻ thật ngoài đời, đọc số liệu cho Claude ghi
+   giúp, hoặc tự ghi qua app `MO_APP_QUAN_LY.bat`.
+10. **Lịch đăng bài đang bị trễ** (`LICH_DANG_BAI.md`) — 2 đợt Thứ 3 04/08 và Thứ 6 07/08 chưa có
+    bài nào được đăng. Nội dung đã soạn sẵn đầy đủ trong `content/posts_ready.md`, chỉ cần bạn đăng
+    tay rồi báo lại để Claude tick giúp.
 
 ## Giới hạn hiện tại (cố tình, để tránh rủi ro/chi phí)
 
