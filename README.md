@@ -6,8 +6,8 @@ này để nhờ giúp việc — Claude đã có sẵn ngữ cảnh sản phẩ
 
 ## Website đang chạy
 
-- Tiếng Việt: https://nongvanhoang.github.io/nong-san-nha-lam/
-- English (cho khách/đối tác xuất khẩu): https://nongvanhoang.github.io/nong-san-nha-lam/en/
+- Tiếng Việt: https://nongsannhalam.com/
+- English (cho khách/đối tác xuất khẩu): https://nongsannhalam.com/en/
 
 (cập nhật tự động mỗi khi push lên `main`)
 
