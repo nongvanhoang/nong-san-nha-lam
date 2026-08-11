@@ -9,7 +9,7 @@ Hiện tại chưa có nhãn/tem in sẵn cho bao bì (túi 0.5kg/1kg Tinh Bột
 Trong khi đó website và logo đã có bộ nhận diện hoàn chỉnh (xem `docs/assets/logo.svg`) — đề xuất
 này chỉ đưa nhận diện đã có sẵn đó ra bao bì thật, không đổi màu/logo mới.
 
-## 3 hướng đề xuất
+## 4 hướng đề xuất
 
 1. **Mộc & Thật** — đai giấy kraft dán ngang miệng túi, dùng nguyên logo tròn. Rẻ nhất, làm được
    ngay, hợp bán chợ/giao tận tay/khách quen.
@@ -18,8 +18,15 @@ này chỉ đưa nhận diện đã có sẵn đó ra bao bì thật, không đ�
 3. **Tối giản hiện đại** — tách hoạ tiết núi ra làm điểm nhấn nhỏ, chữ sản phẩm chiếm phần lớn,
    nhiều khoảng trắng. Hợp khách trẻ/thành phố nhưng có rủi ro làm nhạt yếu tố "nhà làm" — cân nhắc
    dùng riêng cho dòng sản phẩm mới (vd gói pha sẵn trong `SAN_DAY_GOI_PHA_SAN.md`) thay vì đổi hẳn.
+4. **Đêm Núi Vàng — bản nâng cấp cửa sổ xuyên thấu** _(thêm 2026-08-11 theo yêu cầu)_ — túi đứng
+   (stand-up pouch) nền tối, đục 1 cửa sổ ép màng nhựa trong (BOPP) để lộ bột sắn dây trắng thật bên
+   trong. 2 hình dạng cửa sổ: tròn (lặp lại hình khối logo, đồng bộ nhất) hoặc oval đứng (lộ nhiều
+   sản phẩm hơn, giống túi cà phê cao cấp). Cảm giác cao cấp rõ rệt nhất trong 4 hướng — khách nhìn
+   thấy sản phẩm thật ngay trên kệ, đúng tinh thần "chân thật" của thương hiệu. Đánh đổi: túi có cửa
+   sổ đục-ép màng thường có **giá/túi và số lượng đặt tối thiểu (MOQ) cao hơn** 3 hướng còn lại — cần
+   hỏi báo giá cụ thể theo số lượng định đặt trước khi quyết dùng đại trà hay chỉ cho lô cao cấp/Tết.
 
-Không bắt buộc chọn 1 — có thể dùng hướng 1 cho bán lẻ thường ngày, hướng 2 riêng cho set quà Tết.
+Không bắt buộc chọn 1 — có thể dùng hướng 1 cho bán lẻ thường ngày, hướng 2 hoặc 4 riêng cho set quà Tết.
 
 ## Thông tin bắt buộc trên nhãn (theo luật, cần xác nhận lại)
 
