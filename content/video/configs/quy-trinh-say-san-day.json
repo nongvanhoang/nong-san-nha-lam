@@ -1,0 +1,18 @@
+{
+  "slug": "quy-trinh-say-san-day",
+  "clips": [
+    {"file": "Sắn Dây/san-day-phoisay-nhaobotxepkhay-13.mp4", "start": 1, "duration": 3},
+    {"file": "Sắn Dây/san-day-phoisay-hainguoixepcatbanh-09.mp4", "start": 1, "duration": 3},
+    {"file": "Sắn Dây/san-day-phoisay-tunhieutang-04.mp4", "start": 1, "duration": 3.5},
+    {"file": "Sắn Dây/san-day-phoisay-baodieukhien-03.mp4", "start": 1, "duration": 3},
+    {"file": "Sắn Dây/san-day-phoisay-canhbanhkhonut-02.mp4", "start": 1, "duration": 3}
+  ],
+  "captions": [
+    {"text": "Bước 1: Nặn bột, xếp lên khay", "clip_index": 0, "start": 0, "duration": 3},
+    {"text": "Bước 2: Cả nhà cùng xếp khay", "clip_index": 1, "start": 0, "duration": 3},
+    {"text": "Bước 3: Đưa vào lò sấy nhiều tầng", "clip_index": 2, "start": 0, "duration": 3.5},
+    {"text": "Bước 4: Cài nhiệt độ, sấy đều tự động", "clip_index": 3, "start": 0, "duration": 3},
+    {"text": "Bột khô đều - không hoá chất, không tẩy trắng", "clip_index": 4, "start": 0, "duration": 3}
+  ],
+  "end_card_text": "Tinh Bột Sắn Dây - Nhà làm\nSấy bằng lò sấy chuyên dụng\nĐặt hàng: Zalo 0979 502 000"
+}

@@ -20,19 +20,25 @@ liền mạch thay vì chữ đứng yên 1 chỗ — khi cảnh đổi, chữ �
 
 ---
 
-## Video 2 — Hậu trường phơi bột (`san-day-video-haitruong-dung-01.mp4`, 15.5s)
+## Video 2 — Hậu trường sấy bột (`san-day-video-haitruong-dung-01.mp4`, 15.5s)
 
-**[NGỪNG DÙNG từ 2026-08-11]** Video này quay cảnh phơi nắng thật — nhưng nhà mình đã chuyển sang
-sấy bằng lò sấy chuyên dụng, không còn phơi nắng nữa. Bảng chữ bên dưới (đặc biệt dòng "ĐẾN KHI PHƠI
-NẮNG TỰ NHIÊN") không còn đúng, đừng cắm chữ này vào video cũ để đăng. Giữ lại để tham khảo bố cục
-chữ/thời lượng khi có clip mới quay cảnh lò sấy.
+**Đính chính 2026-08-11**: đã kiểm tra lại từng clip gốc — video này không quay cảnh phơi nắng
+ngoài trời, toàn bộ quay trong nhà xưởng. Chỉ cần đổi dòng chữ "PHƠI NẮNG TỰ NHIÊN" bên dưới cho
+khớp quy trình sấy lò hiện tại, video vẫn dùng bình thường.
 
 | Thời điểm | Cảnh (clip gốc) | Chữ hiện lên |
 |---|---|---|
 | 0:00–0:05 | Nước tinh bột lắng, lọc qua vải | **TỪ NƯỚC BỘT LẮNG TRONG...** |
-| 0:05–0:10 | Trải bột ướt lên khay phơi nắng | **...ĐẾN KHI PHƠI NẮNG TỰ NHIÊN** |
+| 0:05–0:10 | Xếp bột ướt lên khay đem sấy | **...ĐẾN KHI SẤY BẰNG LÒ SẤY CHUYÊN DỤNG** |
 | 0:10–0:13 | Cận cảnh bột khô vụn, thành phẩm | Không hoá chất, không tẩy trắng |
 | 0:13–0:15.5 | Giữ nguyên khung hình cuối / logo | **Túi 0.5kg: 65.000đ · Túi 1kg: 120.000đ**<br>Đặt hàng: Zalo 0979 502 000 |
+
+## Video 3 — Quy trình sấy mới (`quy-trinh-say-san-day.mp4`, 18.5s, dựng 2026-08-11)
+
+Dựng bằng `content/video/make_process_video.py` từ 5 clip thật quay cảnh lò sấy thật (bảng điều
+khiển nhiệt độ, khay sấy nhiều tầng) — xem cấu hình đầy đủ ở
+`content/video/configs/quy-trinh-say-san-day.json`. Đã có chữ + thẻ kết thúc đóng sẵn trong video,
+không cần cắm chữ CapCut thêm — chỉ cần thêm nhạc nền nếu muốn rồi đăng thẳng.
 
 ---
 

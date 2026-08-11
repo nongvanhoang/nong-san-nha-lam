@@ -6,8 +6,11 @@ dùng — chỉ để xác định NGÀY NÀO đăng BÀI NÀO, không tạo n�
 không để trống cả tháng như vừa qua._
 
 **Ghi chú 2026-08-11**: nhà mình đã chuyển từ phơi nắng sang sấy bằng lò sấy chuyên dụng cho Tinh
-Bột Sắn Dây. Các bài/video cũ mô tả cảnh phơi nắng đã được rà và đánh dấu lỗi thời trong
-`content/posts_ready.md` — 2 mục trong lịch Tuần 1 Thứ 6 bên dưới bị ảnh hưởng, xem ghi chú tại chỗ.
+Bột Sắn Dây. Đã rà lại toàn bộ chữ trong kho bài — kiểm tra kỹ từng video thật thì phát hiện video
+"hậu trường phơi" KHÔNG hề quay cảnh ngoài trời nào (chỉ tên gọi cũ gây hiểu lầm), nên 2 mục Thứ 6
+bên dưới **vẫn đăng được bình thường**, chỉ cần đổi đúng bản chữ mới trong `content/posts_ready.md`
+(đã sửa sẵn). Ngoài ra có thêm video mới `quy-trinh-say-san-day.mp4` quay đúng cảnh lò sấy thật
+(bảng điều khiển, khay sấy nhiều tầng) — dùng thay hoặc dùng thêm tuỳ ý.
 
 **Cách dùng**: đến ngày, mở `content/posts_ready.md` ở dòng ghi tương ứng, copy-paste đăng tay.
 Sau khi đăng, quay lại tick `[x]` ở dòng dưới đây VÀ đánh dấu `[Đã đăng]` vào đầu tiêu đề bài đó
@@ -23,11 +26,10 @@ trong `posts_ready.md` (để không đăng trùng lần sau).
 - [ ] **Thứ 6, 07/08/2026** — Đợt 2 (**đã trễ + 2 mục dưới cần sửa trước khi đăng, xem ghi chú
   2026-08-11**):
   - Facebook: "3 cách dùng tinh bột sắn dây giải nhiệt ngày hè" (dòng ~61) — vẫn đăng được.
-  - Facebook/Zalo: ~~"Từ video thật đến túi tinh bột, không giấu gì cả"~~ — **NGỪNG DÙNG**, mô tả
-    cảnh phơi nắng không còn đúng quy trình (đã chuyển sang lò sấy), xem ghi chú trong
-    `content/posts_ready.md`. Bỏ qua mục này.
-  - TikTok/Reels: ~~video hậu trường phơi `san-day-video-haitruong-dung-01.mp4`~~ — **NGỪNG DÙNG**,
-    video quay cảnh phơi nắng thật nhưng lỗi thời, cần quay lại với cảnh lò sấy mới. Bỏ qua mục này.
+  - Facebook/Zalo: "Từ video thật đến túi tinh bột, không giấu gì cả" (dòng ~153) — đã sửa 1 chữ
+    "phơi" thành "sấy" trong `posts_ready.md`, đăng bình thường.
+  - TikTok/Reels: video hậu trường `san-day-video-haitruong-dung-01.mp4` (dòng ~119) — vẫn dùng
+    được (không quay cảnh ngoài trời), dùng chữ chốt mới đã sửa trong `posts_ready.md`.
   - Shopee/TikTok Shop: mô tả sản phẩm (dòng ~311, đã sửa lại đúng quy trình lò sấy 2026-08-11) —
     **chỉ đăng nếu gian hàng đã đăng ký xong**; nếu chưa xong thì bỏ qua mục này, đợi tuần nào đăng
     ký xong thì dùng.

@@ -92,9 +92,9 @@ File video đã dựng sẵn (ghép 3 clip thật, chưa thêm nhạc/chữ):
 3. `san-day-cutuoi-nguoiombocu-01.mp4` (4s đầu) — người nhà ôm cả bó củ to đi vào xưởng
 
 Gợi ý chữ chốt: "Củ sắn dây thật, nhà mình tự đào tự chở — không qua trung gian" + CTA Zalo.
-Video này vẫn dùng tốt (khâu thu hoạch không đổi). **Không ghép với video "hậu trường phơi bột" bên
-dưới nữa** — từ 2026-08-11 nhà mình đã chuyển sang sấy bằng lò sấy chuyên dụng, không còn phơi nắng
-nên video đó không còn đúng quy trình hiện tại (xem ghi chú ở mục video đó bên dưới).
+Có thể ghép nối với video "hậu trường phơi bột" bên dưới thành 1 video dài hơn (thu hoạch → lọc →
+sấy → thành phẩm) — video đó **vẫn dùng được** dù tên gọi cũ nhắc "phơi" (xem ghi chú đính chính
+2026-08-11 ở mục đó, chỉ chữ caption cần đổi, cảnh quay không có vấn đề).
 
 ---
 
@@ -118,26 +118,27 @@ nhà mình, không dàn dựng.
 
 ## TikTok/Reels — Video hậu trường phơi sắn dây, dựng từ clip thật (2026-07-26)
 
-**[NGỪNG DÙNG từ 2026-08-11 — quy trình đã đổi]** Video này quay cảnh phơi nắng (khay bột ướt phơi
-ngoài trời), nhưng nhà mình đã chuyển hẳn sang sấy bằng lò sấy chuyên dụng, không còn phơi nắng nữa
-— đăng video này bây giờ sẽ mô tả sai quy trình hiện tại. Giữ nguyên phần dưới để tham khảo cấu
-trúc, nhưng **đừng đăng** cho tới khi có clip thật quay cảnh lò sấy để dựng video mới thay thế.
+**Đính chính 2026-08-11**: tên bài này còn ghi "phơi" theo thói quen đặt tên cũ, nhưng đã kiểm tra
+lại từng clip gốc — **video này KHÔNG quay cảnh phơi nắng ngoài trời nào cả**, toàn bộ đều quay
+trong nhà xưởng (lọc nước bột, xử lý khay bột trong nhà, cận cảnh bột khô). Vẫn dùng được bình
+thường, chỉ cần đổi câu chữ chốt bên dưới cho khớp quy trình sấy lò hiện tại.
 
-File video cũ (không dùng): 
-`Hình Ảnh, Video/Sắn Dây/san-day-video-haitruong-dung-01.mp4` (15.5s, dọc 720x1280). Ghép từ:
-1. `san-day-nghienloc-nuoclangcan-03.mp4` — nước tinh bột đang lắng, lọc qua vải (khâu này KHÔNG đổi,
-   vẫn dùng được cho video mới)
-2. `san-day-phoisay-xepbanhuotlenkhay-01.mp4` — trải bột ướt lên khay phơi (**cảnh phơi nắng, đã lỗi
-   thời, cần thay bằng cảnh cho khay vào lò sấy**)
-3. `san-day-phoisay-botkhovovun-05.mp4` — cận cảnh bột khô vụn, thành phẩm (vẫn dùng được, không lộ
-   rõ khâu phơi/sấy)
+File video đã dựng sẵn (ghép 3 clip thật, chưa thêm nhạc/chữ):
+`Hình Ảnh, Video/Sắn Dây/san-day-video-haitruong-dung-01.mp4` (15.5s, dọc 720x1280, sẵn sàng đăng
+TikTok/Reels). Ghép từ:
+1. `san-day-nghienloc-nuoclangcan-03.mp4` — nước tinh bột đang lắng, lọc qua vải (trong nhà)
+2. `san-day-phoisay-xepbanhuotlenkhay-01.mp4` — xử lý khay bột trong xưởng (trong nhà, KHÔNG phải
+   cảnh phơi ngoài trời như tên file gợi ý — đã xem lại clip gốc để xác nhận)
+3. `san-day-phoisay-botkhovovun-05.mp4` — cận cảnh bột khô vụn, thành phẩm
 
-Chữ chốt cũ (KHÔNG dùng nữa): ~~"Tinh bột sắn dây nhà làm 100% — nắng lên là phơi, không vội"~~ —
-nếu dựng lại video mới, đổi thành ví dụ "Tinh bột sắn dây nhà làm — lọc tay, sấy bằng lò sấy chuyên
-dụng, không hoá chất" + giá 2 loại túi (65k/0.5kg, 120k/1kg) + "Đặt hàng: nhắn Zalo 0979 502 000".
+Chữ chốt cũ (KHÔNG dùng nữa vì nhắc "nắng"): ~~"Tinh bột sắn dây nhà làm 100% — nắng lên là phơi,
+không vội"~~ — đổi thành: "Tinh bột sắn dây nhà làm — lọc tay, sấy bằng lò sấy chuyên dụng, không
+hoá chất" + giá 2 loại túi (65k/0.5kg, 120k/1kg) + "Đặt hàng: nhắn Zalo 0979 502 000".
 
-*(Bài TikTok cũ ngày 2026-07-05 bên dưới chỉ là kịch bản dự kiến lúc chưa có clip thật, đã lỗi thời
-theo cách khác — vẫn giữ nguyên trong mục "bỏ qua hẳn" ở `LICH_DANG_BAI.md`.)*
+*(Bài TikTok cũ ngày 2026-07-05 bên dưới chỉ là kịch bản dự kiến lúc chưa có clip thật — có thể
+xoá, video này đã thay thế. Ngoài ra từ 2026-08-11 còn có video mới "quy-trinh-say-san-day.mp4"
+quay đúng cảnh lò sấy thật — xem `content/video/configs/quy-trinh-say-san-day.json` — có thể dùng
+thay hoặc dùng thêm cho bài khác.)*
 
 ---
 
@@ -151,15 +152,15 @@ Hàng vẫn luôn có sẵn: túi 0.5kg 65k, túi 1kg 120k.
 
 ## Facebook — Từ video thật đến túi tinh bột, không giấu gì cả (2026-07-26)
 
-**[NGỪNG DÙNG từ 2026-08-11 — quy trình đã đổi]** Bài này mô tả video quay cảnh phơi nắng, không
-còn đúng quy trình hiện tại (đã chuyển sang lò sấy). Giữ nguyên để tham khảo, đừng đăng nguyên văn —
-nếu muốn dùng góc "video thật, không giấu gì" thì cần quay lại với cảnh lò sấy mới.
+**Đính chính 2026-08-11**: video minh hoạ bài này (`san-day-video-haitruong-dung-01.mp4`) đã kiểm
+tra lại, không quay cảnh phơi nắng — chỉ sửa 1 chữ "phơi" bên dưới thành "sấy" cho khớp quy trình
+hiện tại, vẫn đăng bình thường được.
 
 🌾 NHÀ MÌNH VỪA QUAY LẠI TOÀN BỘ QUY TRÌNH LÀM TINH BỘT SẮN DÂY — xem là tin liền, không cần nghe kể!
 
-Từ nước bột lắng trong, tới lúc trải từng lớp bột ướt lên khay phơi, đến khi thành từng
+Từ nước bột lắng trong, tới lúc xếp từng lớp bột ướt lên khay đem sấy, đến khi thành từng
 mảng bột khô trắng vụn ra — tất cả đều quay thật tại nhà, không dàn dựng. Ảnh trên website
-(nongvanhoang.github.io/nong-san-nha-lam) cũng đã đổi thành ảnh thật luôn rồi, mọi người ghé xem nhé!
+(nongsannhalam.com) cũng đã đổi thành ảnh thật luôn rồi, mọi người ghé xem nhé!
 
 Làm thủ công nên hơi chậm, nhưng đổi lại là bột trắng tự nhiên, không hoá chất, không tẩy trắng.
 
