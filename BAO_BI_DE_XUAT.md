@@ -20,11 +20,17 @@ này chỉ đưa nhận diện đã có sẵn đó ra bao bì thật, không đ�
    dùng riêng cho dòng sản phẩm mới (vd gói pha sẵn trong `SAN_DAY_GOI_PHA_SAN.md`) thay vì đổi hẳn.
 4. **Đêm Núi Vàng — bản nâng cấp cửa sổ xuyên thấu** _(thêm 2026-08-11 theo yêu cầu)_ — túi đứng
    (stand-up pouch) nền tối, đục 1 cửa sổ ép màng nhựa trong (BOPP) để lộ bột sắn dây trắng thật bên
-   trong. 2 hình dạng cửa sổ: tròn (lặp lại hình khối logo, đồng bộ nhất) hoặc oval đứng (lộ nhiều
-   sản phẩm hơn, giống túi cà phê cao cấp). Cảm giác cao cấp rõ rệt nhất trong 4 hướng — khách nhìn
-   thấy sản phẩm thật ngay trên kệ, đúng tinh thần "chân thật" của thương hiệu. Đánh đổi: túi có cửa
-   sổ đục-ép màng thường có **giá/túi và số lượng đặt tối thiểu (MOQ) cao hơn** 3 hướng còn lại — cần
-   hỏi báo giá cụ thể theo số lượng định đặt trước khi quyết dùng đại trà hay chỉ cho lô cao cấp/Tết.
+   trong. Cảm giác cao cấp rõ rệt nhất trong 4 hướng — khách nhìn thấy sản phẩm thật ngay trên kệ,
+   đúng tinh thần "chân thật" của thương hiệu. 3 hình dạng cửa sổ để chọn (chi phí/MOQ tăng dần):
+   - **Tròn** — lặp lại đúng hình khối logo, đồng bộ thị giác, rẻ nhất trong 3 hình.
+   - **Oval đứng** — lộ nhiều sản phẩm hơn, giống phong cách túi cà phê cao cấp quen mắt.
+   - **Hình núi + mặt trời** _(thêm sau, theo yêu cầu "thử biến thể khác")_ — cắt cửa sổ đúng đường
+     viền dãy núi/mặt trời trong logo, để chính bột sắn dây trắng "vẽ" nên hình núi thay vì mực in.
+     Hiệu ứng độc nhất, khó đối thủ nào bắt chước vì gắn chặt với đúng hình khối thương hiệu này —
+     nhưng khuôn cắt bo theo đường cong phức tạp nên **đắt và MOQ cao nhất trong 3 hình**.
+
+   Đánh đổi chung: cả 3 hình đều có **giá/túi và MOQ cao hơn** 3 hướng in phẳng (1-3) — cần hỏi báo
+   giá cụ thể theo số lượng định đặt trước khi quyết dùng đại trà hay chỉ cho lô cao cấp/Tết.
 
 Không bắt buộc chọn 1 — có thể dùng hướng 1 cho bán lẻ thường ngày, hướng 2 hoặc 4 riêng cho set quà Tết.
 
