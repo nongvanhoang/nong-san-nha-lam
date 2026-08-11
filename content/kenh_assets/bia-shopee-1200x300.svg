@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300">
+  <defs>
+    <clipPath id="badge"><circle cx="150" cy="150" r="118"/></clipPath>
+  </defs>
+  <rect x="0" y="0" width="1200" height="300" fill="#f3ead9"/>
+
+  <g clip-path="url(#badge)">
+    <rect x="32" y="32" width="236" height="236" fill="#f3ead9"/>
+    <circle cx="150" cy="94" r="26" fill="#eaa63f"/>
+    <path d="M32,180 C46,163 56,157 66,167 C76,150 90,143 102,155 C112,141 124,136 138,147 C150,133 166,129 180,141 C192,129 208,127 220,138 C232,127 250,129 268,138 L268,268 L32,268 Z" fill="#c9d6bc" opacity="0.7"/>
+    <path d="M32,194 C44,178 54,173 64,180 C72,162 82,151 94,159 C104,169 112,176 124,171 C136,160 146,152 158,158 C168,168 176,178 188,173 C200,161 210,153 222,159 C232,168 240,176 252,171 C260,163 266,159 268,159 L268,278 L32,278 Z" fill="#a9c096" opacity="0.85"/>
+    <path d="M32,208 C46,188 58,182 72,190 C82,168 94,155 108,165 C120,178 128,188 140,182 C154,168 166,157 180,166 C192,178 200,190 212,185 C226,170 236,157 250,166 C260,178 266,186 268,187 L268,268 L32,268 Z" fill="#87a570"/>
+    <path d="M32,220 C48,200 60,193 74,203 C86,186 100,175 116,186 C130,199 138,209 150,203 C164,190 178,178 194,188 C208,201 218,211 232,206 C244,192 254,182 268,190 L268,268 L32,268 Z" fill="#5f8050"/>
+    <path d="M32,232 C50,206 64,196 80,211 C94,190 112,174 130,190 C144,206 152,218 166,212 C182,192 198,178 216,192 C230,208 240,220 254,214 L268,220 L268,268 L32,268 Z" fill="#39533a"/>
+  </g>
+  <circle cx="150" cy="150" r="118" fill="none" stroke="#3d5c34" stroke-width="2"/>
+  <circle cx="150" cy="150" r="112" fill="none" stroke="#3d5c34" stroke-width="1"/>
+
+  <text x="310" y="152" font-family="Cambria, Georgia, 'Times New Roman', serif" font-weight="500" font-size="58" letter-spacing="2" fill="#2e4630">Nông Sản Nhà Làm</text>
+  <text x="310" y="196" font-family="Georgia, serif" font-style="italic" font-size="24" letter-spacing="0.5" fill="#8a8060">Tinh Bột Sắn Dây &#183; Cam Đường Canh &#8212; Lạng Sơn</text>
+
+  <line x1="310" y1="222" x2="900" y2="222" stroke="#c9a227" stroke-width="1" opacity="0.6"/>
+
+  <text x="310" y="256" font-family="Georgia, serif" font-size="20" letter-spacing="1.5" fill="#5b4a2a">Thủ công &#183; Không hoá chất &#183; Giao toàn quốc</text>
+</svg>
