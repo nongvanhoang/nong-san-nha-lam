@@ -412,6 +412,27 @@ section:last-child {
   margin: 0;
 }
 
+/* ---------- Video ---------- */
+.video-frame {
+  max-width: 380px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.video-frame video {
+  width: 100%;
+  display: block;
+  border-radius: var(--radius);
+  border: 1px solid var(--hair);
+  background: var(--ink-2);
+}
+
+.video-caption {
+  color: var(--ivory-dim);
+  font-size: 0.85rem;
+  margin-top: 0.9rem;
+}
+
 /* ---------- Products ---------- */
 .product {
   background: transparent;
