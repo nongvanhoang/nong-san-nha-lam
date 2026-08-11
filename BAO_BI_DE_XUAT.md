@@ -29,8 +29,16 @@ này chỉ đưa nhận diện đã có sẵn đó ra bao bì thật, không đ�
      Hiệu ứng độc nhất, khó đối thủ nào bắt chước vì gắn chặt với đúng hình khối thương hiệu này —
      nhưng khuôn cắt bo theo đường cong phức tạp nên **đắt và MOQ cao nhất trong 3 hình**.
 
-   Đánh đổi chung: cả 3 hình đều có **giá/túi và MOQ cao hơn** 3 hướng in phẳng (1-3) — cần hỏi báo
-   giá cụ thể theo số lượng định đặt trước khi quyết dùng đại trà hay chỉ cho lô cao cấp/Tết.
+   - **Nguyên hình logo** _(thêm sau, theo yêu cầu "cửa sổ xuyên thấu hình logo")_ — in đủ cả logo
+     tròn như bản gốc (mặt trời, dãy núi, chữ thương hiệu, 2 vòng viền vàng đều bằng mực in như thật),
+     chỉ thay riêng phần nền kem (bầu trời quanh mặt trời, khoảng trống quanh chữ) bằng màng trong —
+     bột sắn dây thật hiện ra đúng chỗ vốn là nền kem. Nhìn xa vẫn là logo quen thuộc y hệt website,
+     nhìn gần mới nhận ra một phần là cửa sổ thật. Đồng bộ nhất với logo hiện có, nhưng **kỹ thuật in
+     phức tạp nhất trong 4 hình** vì mực và màng trong phải khớp chính xác từng milimét.
+
+   Đánh đổi chung: cả 4 hình đều có **giá/túi và MOQ cao hơn** 3 hướng in phẳng (1-3). Độ phức tạp/chi
+   phí tăng dần: tròn → oval → hình núi → nguyên hình logo — cần hỏi báo giá cụ thể theo số lượng
+   định đặt trước khi quyết dùng đại trà hay chỉ cho lô cao cấp/Tết.
 
 Không bắt buộc chọn 1 — có thể dùng hướng 1 cho bán lẻ thường ngày, hướng 2 hoặc 4 riêng cho set quà Tết.
 
