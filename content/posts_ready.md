@@ -16,7 +16,7 @@ Cách làm đơn giản, ai cũng nấu được:
 3️⃣ Đun nước đường phèn sôi nhẹ, đổ từ từ hỗn hợp sắn dây vào, khuấy đều tay đến khi sánh trong.
 4️⃣ Cho hạt sen vào, tắt bếp — ăn ấm hay để nguội đều ngon, giải nhiệt ngày hè.
 
-Tinh bột sắn dây nhà mình lọc và phơi thủ công 100%, không hoá chất, không tẩy trắng, nấu lên sánh
+Tinh bột sắn dây nhà mình lọc thủ công, sấy bằng lò sấy riêng, không hoá chất, không tẩy trắng, nấu lên sánh
 mịn, thơm tự nhiên đúng vị.
 
 🔸 Túi 0.5kg: 65.000đ
@@ -30,7 +30,7 @@ mịn, thơm tự nhiên đúng vị.
 
 🌾 Trưa nay nấu thử chè sắn dây hạt sen giải nhiệt chưa ạ?
 
-Sắn dây nhà mình lọc phơi thủ công, hoà nước lạnh cho tan rồi đổ vào nồi đường phèn đang sôi, khuấy
+Sắn dây nhà mình lọc thủ công, sấy bằng lò sấy riêng, hoà nước lạnh cho tan rồi đổ vào nồi đường phèn đang sôi, khuấy
 đều đến khi sánh trong, thêm hạt sen là xong nồi chè mát lành cho cả nhà 🍊
 
 Túi 0.5kg 65k, túi 1kg 120k — cần thì nhắn mình gửi liền, giao toàn quốc nha!
@@ -92,8 +92,9 @@ File video đã dựng sẵn (ghép 3 clip thật, chưa thêm nhạc/chữ):
 3. `san-day-cutuoi-nguoiombocu-01.mp4` (4s đầu) — người nhà ôm cả bó củ to đi vào xưởng
 
 Gợi ý chữ chốt: "Củ sắn dây thật, nhà mình tự đào tự chở — không qua trung gian" + CTA Zalo.
-Có thể ghép nối với video hậu trường phơi bột bên dưới thành 1 video dài hơn (thu hoạch → lọc →
-phơi → thành phẩm) nếu muốn kể trọn quy trình trong 1 clip.
+Video này vẫn dùng tốt (khâu thu hoạch không đổi). **Không ghép với video "hậu trường phơi bột" bên
+dưới nữa** — từ 2026-08-11 nhà mình đã chuyển sang sấy bằng lò sấy chuyên dụng, không còn phơi nắng
+nên video đó không còn đúng quy trình hiện tại (xem ghi chú ở mục video đó bên dưới).
 
 ---
 
@@ -117,19 +118,26 @@ nhà mình, không dàn dựng.
 
 ## TikTok/Reels — Video hậu trường phơi sắn dây, dựng từ clip thật (2026-07-26)
 
-File video đã dựng sẵn (ghép 3 clip thật, chưa thêm nhạc/chữ): 
-`Hình Ảnh, Video/Sắn Dây/san-day-video-haitruong-dung-01.mp4` (15.5s, dọc 720x1280, sẵn sàng đăng
-TikTok/Reels). Ghép từ:
-1. `san-day-nghienloc-nuoclangcan-03.mp4` — nước tinh bột đang lắng, lọc qua vải
-2. `san-day-phoisay-xepbanhuotlenkhay-01.mp4` — trải bột ướt lên khay phơi
-3. `san-day-phoisay-botkhovovun-05.mp4` — cận cảnh bột khô vụn, thành phẩm
+**[NGỪNG DÙNG từ 2026-08-11 — quy trình đã đổi]** Video này quay cảnh phơi nắng (khay bột ướt phơi
+ngoài trời), nhưng nhà mình đã chuyển hẳn sang sấy bằng lò sấy chuyên dụng, không còn phơi nắng nữa
+— đăng video này bây giờ sẽ mô tả sai quy trình hiện tại. Giữ nguyên phần dưới để tham khảo cấu
+trúc, nhưng **đừng đăng** cho tới khi có clip thật quay cảnh lò sấy để dựng video mới thay thế.
 
-Mở file bằng CapCut/app điện thoại để thêm nhạc + chữ nếu muốn, gợi ý chữ chốt cuối video:
-"Tinh bột sắn dây nhà làm 100% — nắng lên là phơi, không vội" + giá 2 loại túi (65k/0.5kg,
-120k/1kg) + "Đặt hàng: nhắn Zalo 0979 502 000".
+File video cũ (không dùng): 
+`Hình Ảnh, Video/Sắn Dây/san-day-video-haitruong-dung-01.mp4` (15.5s, dọc 720x1280). Ghép từ:
+1. `san-day-nghienloc-nuoclangcan-03.mp4` — nước tinh bột đang lắng, lọc qua vải (khâu này KHÔNG đổi,
+   vẫn dùng được cho video mới)
+2. `san-day-phoisay-xepbanhuotlenkhay-01.mp4` — trải bột ướt lên khay phơi (**cảnh phơi nắng, đã lỗi
+   thời, cần thay bằng cảnh cho khay vào lò sấy**)
+3. `san-day-phoisay-botkhovovun-05.mp4` — cận cảnh bột khô vụn, thành phẩm (vẫn dùng được, không lộ
+   rõ khâu phơi/sấy)
 
-*(Bài TikTok cũ ngày 2026-07-05 bên dưới chỉ là kịch bản dự kiến lúc chưa có clip thật — có thể
-xoá, video này đã thay thế.)*
+Chữ chốt cũ (KHÔNG dùng nữa): ~~"Tinh bột sắn dây nhà làm 100% — nắng lên là phơi, không vội"~~ —
+nếu dựng lại video mới, đổi thành ví dụ "Tinh bột sắn dây nhà làm — lọc tay, sấy bằng lò sấy chuyên
+dụng, không hoá chất" + giá 2 loại túi (65k/0.5kg, 120k/1kg) + "Đặt hàng: nhắn Zalo 0979 502 000".
+
+*(Bài TikTok cũ ngày 2026-07-05 bên dưới chỉ là kịch bản dự kiến lúc chưa có clip thật, đã lỗi thời
+theo cách khác — vẫn giữ nguyên trong mục "bỏ qua hẳn" ở `LICH_DANG_BAI.md`.)*
 
 ---
 
@@ -142,6 +150,10 @@ Hàng vẫn luôn có sẵn: túi 0.5kg 65k, túi 1kg 120k.
 ---
 
 ## Facebook — Từ video thật đến túi tinh bột, không giấu gì cả (2026-07-26)
+
+**[NGỪNG DÙNG từ 2026-08-11 — quy trình đã đổi]** Bài này mô tả video quay cảnh phơi nắng, không
+còn đúng quy trình hiện tại (đã chuyển sang lò sấy). Giữ nguyên để tham khảo, đừng đăng nguyên văn —
+nếu muốn dùng góc "video thật, không giấu gì" thì cần quay lại với cảnh lò sấy mới.
 
 🌾 NHÀ MÌNH VỪA QUAY LẠI TOÀN BỘ QUY TRÌNH LÀM TINH BỘT SẮN DÂY — xem là tin liền, không cần nghe kể!
 
@@ -217,6 +229,9 @@ Zalo: 0979 502 000
 
 ## Facebook — Hậu trường sản xuất Tinh Bột Sắn Dây (2026-07-05)
 
+**[Lỗi thời từ 2026-08-11 — đã có bản mới hơn thay thế, xem ghi chú "bỏ qua hẳn" trong
+LICH_DANG_BAI.md. Mô tả phơi nắng bên dưới không còn đúng, đã chuyển sang sấy lò.]**
+
 🌾 HẬU TRƯỜNG LÀM TINH BỘT SẮN DÂY NHÀ MÌNH — bật mí quy trình luôn nè!
 
 Nhiều bạn hỏi sao tinh bột sắn dây nhà mình trắng tự nhiên mà không dùng chất tẩy trắng, hôm
@@ -239,6 +254,9 @@ trong đó 💛
 
 ## TikTok — Video hậu trường phơi sắn dây (2026-07-05)
 
+**[Lỗi thời từ 2026-08-11 — đã có video thật thay thế (xem "bỏ qua hẳn" trong LICH_DANG_BAI.md), và
+kịch bản dưới đây quay cảnh phơi nắng không còn đúng quy trình hiện tại, đã chuyển sang sấy lò.]**
+
 *(Kịch bản video ngắn 15-30s, quay cảnh lọc/phơi thật)*
 
 - **Hook 3s đầu**: cận cảnh tay lọc tinh bột sắn dây qua lớp vải, nước tinh bột trắng đục chảy xuống thau
@@ -253,8 +271,8 @@ trong đó 💛
 
 🌾 TINH BỘT SẮN DÂY NHÀ LÀM — luôn có sẵn, đặt là giao ngay!
 
-Nhà mình tự tay lọc, tự phơi tinh bột sắn dây theo cách truyền thống — không hoá chất,
-không chất tẩy trắng, cứ nắng lên là phơi, không vội không tắt.
+Nhà mình tự tay lọc tinh bột sắn dây, sấy bằng lò sấy chuyên dụng cho khô đều — không hoá chất,
+không chất tẩy trắng, đóng gói khi bột đã khô hoàn toàn.
 
 Giá:
 🔸 Túi 0.5kg: 65.000đ
@@ -292,9 +310,9 @@ Túi 1kg: 120.000đ
 
 ## Shopee/TikTok Shop — Mô tả sản phẩm Tinh Bột Sắn Dây (2026-07-03)
 
-**Tinh Bột Sắn Dây Nhà Làm - Thủ công 100%, không hoá chất**
+**Tinh Bột Sắn Dây Nhà Làm - Thủ công tại nhà, không hoá chất**
 
-✅ Nguồn gốc: tự lọc, tự phơi thủ công tại nhà
+✅ Nguồn gốc: tự lọc thủ công, sấy bằng lò sấy chuyên dụng tại nhà
 ✅ Quy cách: túi 0.5kg (65.000đ) hoặc túi 1kg (120.000đ)
 ✅ Bảo quản: nơi khô ráo, thoáng mát, tránh ẩm
 ✅ Cam kết: hàng thật như mô tả, luôn có sẵn giao ngay, ship toàn quốc

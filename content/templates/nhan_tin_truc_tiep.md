@@ -15,7 +15,7 @@ loạt kiểu copy y hệt nhìn giống spam._
 ## Mẫu 1 — Người quen thân, chưa mua bao giờ
 
 > Chào [tên], lâu rồi không nói chuyện! Dạo này nhà mình đang làm tinh bột sắn dây thủ công (tự
-> lọc, tự phơi, không hoá chất) bán ra ngoài, đúng mùa hè giải nhiệt luôn. Giá 65k/túi 0.5kg hoặc
+> lọc, sấy bằng lò sấy riêng, không hoá chất) bán ra ngoài, đúng mùa hè giải nhiệt luôn. Giá 65k/túi 0.5kg hoặc
 > 120k/túi 1kg, giao tận nơi. [tên] thử ủng hộ nhà mình 1 túi xem sao nhé, ưng thì lần sau đặt tiếp 🌾
 
 ## Mẫu 2 — Khách cũ / từng hỏi nhưng chưa chốt

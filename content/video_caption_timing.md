@@ -22,6 +22,11 @@ liền mạch thay vì chữ đứng yên 1 chỗ — khi cảnh đổi, chữ �
 
 ## Video 2 — Hậu trường phơi bột (`san-day-video-haitruong-dung-01.mp4`, 15.5s)
 
+**[NGỪNG DÙNG từ 2026-08-11]** Video này quay cảnh phơi nắng thật — nhưng nhà mình đã chuyển sang
+sấy bằng lò sấy chuyên dụng, không còn phơi nắng nữa. Bảng chữ bên dưới (đặc biệt dòng "ĐẾN KHI PHƠI
+NẮNG TỰ NHIÊN") không còn đúng, đừng cắm chữ này vào video cũ để đăng. Giữ lại để tham khảo bố cục
+chữ/thời lượng khi có clip mới quay cảnh lò sấy.
+
 | Thời điểm | Cảnh (clip gốc) | Chữ hiện lên |
 |---|---|---|
 | 0:00–0:05 | Nước tinh bột lắng, lọc qua vải | **TỪ NƯỚC BỘT LẮNG TRONG...** |

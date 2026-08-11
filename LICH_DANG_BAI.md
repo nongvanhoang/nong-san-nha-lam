@@ -5,6 +5,10 @@ dùng — chỉ để xác định NGÀY NÀO đăng BÀI NÀO, không tạo n�
 (Thứ 3 + Thứ 6) — nếu bận không kịp đúng ngày thì lùi vài ngày cũng được, quan trọng là đăng đều,
 không để trống cả tháng như vừa qua._
 
+**Ghi chú 2026-08-11**: nhà mình đã chuyển từ phơi nắng sang sấy bằng lò sấy chuyên dụng cho Tinh
+Bột Sắn Dây. Các bài/video cũ mô tả cảnh phơi nắng đã được rà và đánh dấu lỗi thời trong
+`content/posts_ready.md` — 2 mục trong lịch Tuần 1 Thứ 6 bên dưới bị ảnh hưởng, xem ghi chú tại chỗ.
+
 **Cách dùng**: đến ngày, mở `content/posts_ready.md` ở dòng ghi tương ứng, copy-paste đăng tay.
 Sau khi đăng, quay lại tick `[x]` ở dòng dưới đây VÀ đánh dấu `[Đã đăng]` vào đầu tiêu đề bài đó
 trong `posts_ready.md` (để không đăng trùng lần sau).
@@ -16,12 +20,17 @@ trong `posts_ready.md` (để không đăng trùng lần sau).
   - Facebook: "Quy mô thu hoạch thật, không phải làm cho có" (dòng ~100 trong posts_ready.md)
   - Zalo: "Báo khách quen có ảnh/video thật mới" (dòng ~136)
   - TikTok/Reels: video thu hoạch dựng sẵn `san-day-video-thuhoach-dung-01.mp4` (dòng ~85)
-- [ ] **Thứ 6, 07/08/2026** — Đợt 2:
-  - Facebook: "3 cách dùng tinh bột sắn dây giải nhiệt ngày hè" (dòng ~61)
-  - Facebook/Zalo: "Từ video thật đến túi tinh bột, không giấu gì cả" (dòng ~144)
-  - TikTok/Reels: video hậu trường phơi `san-day-video-haitruong-dung-01.mp4` (dòng ~118)
-  - Shopee/TikTok Shop: mô tả sản phẩm (dòng ~293) — **chỉ đăng nếu gian hàng đã đăng ký xong**;
-    nếu chưa xong thì bỏ qua mục này, đợi tuần nào đăng ký xong thì dùng.
+- [ ] **Thứ 6, 07/08/2026** — Đợt 2 (**đã trễ + 2 mục dưới cần sửa trước khi đăng, xem ghi chú
+  2026-08-11**):
+  - Facebook: "3 cách dùng tinh bột sắn dây giải nhiệt ngày hè" (dòng ~61) — vẫn đăng được.
+  - Facebook/Zalo: ~~"Từ video thật đến túi tinh bột, không giấu gì cả"~~ — **NGỪNG DÙNG**, mô tả
+    cảnh phơi nắng không còn đúng quy trình (đã chuyển sang lò sấy), xem ghi chú trong
+    `content/posts_ready.md`. Bỏ qua mục này.
+  - TikTok/Reels: ~~video hậu trường phơi `san-day-video-haitruong-dung-01.mp4`~~ — **NGỪNG DÙNG**,
+    video quay cảnh phơi nắng thật nhưng lỗi thời, cần quay lại với cảnh lò sấy mới. Bỏ qua mục này.
+  - Shopee/TikTok Shop: mô tả sản phẩm (dòng ~311, đã sửa lại đúng quy trình lò sấy 2026-08-11) —
+    **chỉ đăng nếu gian hàng đã đăng ký xong**; nếu chưa xong thì bỏ qua mục này, đợi tuần nào đăng
+    ký xong thì dùng.
 
 ## Tuần 2
 

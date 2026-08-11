@@ -42,7 +42,7 @@ Với mỗi yêu cầu, xuất ra bản riêng biệt, rõ ràng phân tách the
   liên quan tới video ngắn thì thêm gợi ý caption TikTok 15-30s theo mẫu trong shopee_tiktok.md.
 - **Video ngắn cho Facebook/TikTok/Reels** (chỉ khi người dùng nhắc tới video VÀ có clip thật trong
   `Hình Ảnh, Video/` phù hợp — không tự bịa clip không có thật): tra clip thật, chọn 2-4 đoạn hợp lý
-  theo chủ đề (vd "phơi sắn dây" cho bài giải nhiệt), viết chữ ngắn cho từng đoạn, rồi **tự dựng
+  theo chủ đề (vd "sấy sắn dây" cho bài giải nhiệt), viết chữ ngắn cho từng đoạn, rồi **tự dựng
   video thật** bằng `content/video/make_process_video.py` (xem `content/video/configs/README.md`
   cho đúng cấu trúc file config) — không chỉ dừng ở bảng kịch bản như trước, giờ ra thẳng file
   `.mp4` thật (1080x1920, chữ đè đúng lúc, có thẻ kết thúc kèm số Zalo thật). Nếu người dùng chỉ có
@@ -58,6 +58,12 @@ Quy tắc nội dung áp dụng cho cả 3 kênh (lấy từ CLAUDE.md):
 - Không tự thêm chứng nhận nào cho Tinh Bột Sắn Dây; Cam Đường Canh có thể nhắc VietGAP thật
   (số 112/CN-TĐC-TT-20-0012) khi phù hợp ngữ cảnh.
 - Không đăng số liệu/giá không có trong `data/products.json`.
+- **Quy trình sấy đã đổi (từ 2026-08-11)**: Tinh Bột Sắn Dây giờ sấy bằng **lò sấy chuyên dụng**,
+  KHÔNG còn phơi nắng tự nhiên nữa. Không viết "phơi nắng", "phơi ngoài trời", "nắng lên là phơi",
+  hay tương tự — kể cả khi tham khảo bài cũ trong `content/posts_ready.md` có nhắc phơi nắng (một số
+  bài cũ đã được đánh dấu lỗi thời, nhưng nếu thấy bài nào còn sót câu này thì vẫn không copy y
+  nguyên). Có thể nhắc lò sấy như một điểm nâng cấp thật (giúp bột khô đều hơn, không phụ thuộc
+  thời tiết) nếu phù hợp ngữ cảnh.
 
 ## Kiểm tra chất lượng trước khi đưa ra bản cuối
 
