@@ -115,6 +115,23 @@ kênh đã tra cứu qua web thật (không đoán), nguồn ghi kèm._
 - **Cam Đường Canh xuất khẩu trái tươi** — cần giấy kiểm dịch thực vật, không tương xứng quy mô hộ
   gia đình hiện tại. Hướng khả thi hơn về sau là chế biến (mứt cam, nước cam cô đặc) — chưa tính vội.
 
+## Thứ tự triển khai tối ưu (chốt 2026-08-12)
+
+_Xếp theo đòn bẩy/công sức — không phải làm hết cùng lúc theo nghĩa đen, mà làm việc rẻ+lời nhất
+trước. Việc #1 (gọi hỏi ATTP) người dùng tự nhận lo, không cần Claude nhắc lại._
+
+| # | Việc | Trạng thái |
+|---|---|---|
+| 1 | Gọi Sở Y tế Lạng Sơn hỏi ATTP có được miễn không | 🔵 User tự lo |
+| 2 | Đăng 2 bài Zalo/Facebook đã soạn sẵn | Chờ đăng |
+| 3 | Chào hàng sỉ quán chè/trà sữa — mẫu có sẵn ở `content/templates/ban_si_quan_che.md` | Nội dung sẵn sàng |
+| 4 | Gọi Buudien.vn hỏi điều kiện — 1900 565 657 | Chưa gọi |
+| 5 | Đăng ký Yellow Pages Vietnam | Chưa đăng ký |
+| 6 | Gọi VIETRADE — (04) 39 347 628 | Chưa gọi |
+| 7 | Gọi Sở NN&MT hỏi đầu mối OCOP — (0205) 3870327 | Chưa gọi, chưa gấp |
+| song song | Ghi đơn hàng/mẻ sản xuất thật ngay khi có | Vẫn trống |
+| để sau | Đăng ký Shopee/TikTok Shop, thử gửi kiện hàng đi Đức/Nhật | Chưa bắt đầu |
+
 ## Giới hạn cần nhớ khi thực hiện
 
 - Không tự động đăng bài (rủi ro khoá tài khoản) — mọi nội dung Claude soạn, bạn tự đăng tay.
