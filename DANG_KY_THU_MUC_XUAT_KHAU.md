@@ -16,10 +16,13 @@ liệt kê nơi đã xác nhận được nội dung/quy trình đăng ký, khô
 - Trang chính thức: vietrade.gov.vn (bản tiếng Anh: en.vietrade.gov.vn)
 - Đây là cơ quan nhà nước thật (thành lập 1952), có thư mục doanh nghiệp tra cứu theo ngành/vùng —
   **backlink từ đây có uy tín cao nhất** trong các lựa chọn (tên miền .gov.vn).
-- **Chưa xác minh được** quy trình đăng ký cụ thể lúc soạn file này (trang không phản hồi khi kiểm
-  tra) — có thể yêu cầu đã có giấy phép kinh doanh/mã số doanh nghiệp chính thức (không chỉ hộ kinh
-  doanh cá thể). Nên tự vào trang kiểm tra lại hoặc gọi hotline (04) 3934 7628 hỏi trực tiếp trước
-  khi dành thời gian điền hồ sơ.
+- **Chưa xác minh được** quy trình đăng ký cụ thể lúc soạn file này (trang vietrade.gov.vn không
+  phản hồi khi kiểm tra) — có thể yêu cầu đã có giấy phép kinh doanh/mã số doanh nghiệp chính thức
+  (không chỉ hộ kinh doanh cá thể). Nên tự vào trang kiểm tra lại hoặc gọi hỏi trực tiếp trước khi
+  dành thời gian điền hồ sơ.
+- **Số điện thoại đã xác nhận lại 2026-08-12** qua trang chính thức `moit.gov.vn` (Bộ Công Thương,
+  cơ quan chủ quản của Cục Xúc tiến thương mại): **(04) 39 347 628**, email `vietrade@vietrade.gov.vn`,
+  địa chỉ 20 Lý Thường Kiệt, Hà Nội.
 
 ## Để sau — cần có chứng nhận ATTP trước
 

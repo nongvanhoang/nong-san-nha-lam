@@ -43,6 +43,20 @@ vì đầu mối tiếp nhận có thể khác nhau tuỳ địa phương/loại
 **Lệ phí**: khoảng 500.000đ - 2.000.000đ tuỳ quy mô (mức tham khảo cũ theo Thông tư 285/2016/TT-BTC,
 nên hỏi lại mức hiện hành khi liên hệ).
 
+## Thông tin liên hệ đã tra cứu (2026-08-12, để gọi cho nhanh)
+
+- **Sở Y tế tỉnh Lạng Sơn** (cơ quan chủ quản của Chi cục ATVSTP) — nguồn: trang chính thức
+  `soyt.langson.gov.vn`:
+  - Địa chỉ: 50 Đinh Tiên Hoàng, phường Lương Văn Tri, tỉnh Lạng Sơn
+  - Điện thoại: (0205) 3.812.258
+  - Khi gọi, xin chuyển máy tới **Chi cục/Phòng An toàn vệ sinh thực phẩm** (trang không có số máy lẻ
+    riêng cho chi cục này).
+- Trang `vfa.gov.vn` (Cục ATTP trung ương) có mục riêng cho Lạng Sơn nhưng số điện thoại hiển thị ở
+  đó (024.38464489) mang mã vùng Hà Nội — nhiều khả năng là số văn phòng Cục ATTP trung ương bị lặp
+  lại trên mọi trang chi cục tỉnh, **không đáng tin để gọi hỏi việc của riêng Lạng Sơn** — dùng số Sở
+  Y tế tỉnh ở trên thay thế.
+- Địa chỉ cơ sở sản xuất thật để cung cấp khi được hỏi: Thôn Nam Hương, xã Vũ Lăng, tỉnh Lạng Sơn.
+
 ## Việc bạn cần tự làm (Claude không làm thay được)
 
 1. Gọi/hỏi trực tiếp Chi cục An toàn vệ sinh thực phẩm tỉnh Lạng Sơn hoặc Phòng NN&PTNT huyện để xác
