@@ -3,6 +3,19 @@
 _Soạn 2026-08-11. Xem bản có hình minh hoạ (mockup nhãn) tại link artifact đã gửi trong chat —
 file này chỉ lưu phần chữ để tra cứu lại sau, không tự vẽ lại được ảnh mockup ở đây._
 
+## ✅ Đã chốt (2026-08-12): Hướng 1 — Mộc & Thật
+
+Người dùng đã chọn hướng 1 (đai giấy kraft dán ngang miệng túi). File thiết kế gần như sẵn sàng in
+đã tạo tại `content/nhan_bao_bi/nhan-say-day-500g.svg` và `nhan-say-day-1kg.svg` — kích thước thật
+160mm × 45mm, dùng đúng logo gốc, có mã QR thật trỏ về `nongsannhalam.com`
+(`docs/assets/qr-website.svg`), đủ các trường bắt buộc theo luật (tên hàng hoá, khối lượng tịnh,
+thành phần, bảo quản, NSX/HSD để trống cho đóng dấu tay).
+
+**Còn thiếu duy nhất 1 việc trước khi in được**: địa chỉ cụ thể cơ sở sản xuất — đang để placeholder
+đỏ `[CẦN ĐIỀN ĐỊA CHỈ CỤ THỂ TRƯỚC KHI IN]` trong cả 2 file. Khi có địa chỉ, chỉ cần sửa 1 dòng trong
+mỗi file là xong, gửi thẳng cho xưởng in được. Hướng 2-4 (bản premium/cửa sổ) giữ nguyên trong mục
+dưới, có thể làm sau cho set quà Tết nếu muốn.
+
 ## Bối cảnh
 
 Hiện tại chưa có nhãn/tem in sẵn cho bao bì (túi 0.5kg/1kg Tinh Bột Sắn Dây, thùng Cam Đường Canh).
@@ -63,11 +76,12 @@ mỗi lần đổi giá.
 
 ## Việc cần bạn làm tiếp
 
-1. Chọn hướng (hoặc kết hợp) sau khi xem mockup.
-2. Cho địa chỉ cụ thể cơ sở sản xuất — bắt buộc, chưa có thì chưa in được nhãn hợp lệ.
+1. ~~Chọn hướng~~ — ✅ đã chọn hướng 1 (Mộc & Thật), xem mục "Đã chốt" ở đầu file.
+2. **Cho địa chỉ cụ thể cơ sở sản xuất** — việc duy nhất còn thiếu để hoàn thiện file
+   `content/nhan_bao_bi/nhan-say-day-500g.svg` / `nhan-say-day-1kg.svg`.
 3. Tìm nơi in tem/nhãn (tại Lạng Sơn hoặc đặt online — Shopee/Lazada có dịch vụ in tem số lượng ít).
-4. Quyết định cách ghi ngày SX/HSD: đóng dấu tay (rẻ, linh hoạt) hay tem phụ in sẵn dải ngày (cần
-   đặt số lượng lớn hơn).
+4. Quyết định cách ghi ngày SX/HSD: đóng dấu tay (rẻ, linh hoạt, đang để trống trong file) hay tem
+   phụ in sẵn dải ngày (cần đặt số lượng lớn hơn).
 
 Khi có địa chỉ cơ sở sản xuất và đã chọn hướng, báo lại để tôi chỉnh mockup thành file thiết kế
 hoàn chỉnh (SVG/PDF) gửi cho bên in.
