@@ -1,0 +1,553 @@
+<title>Sổ Đăng Bài Nhà Làm</title>
+<style>
+  :root{
+    --bg:#f3ead9;
+    --surface:#fbf6ea;
+    --surface-2:#efe4c9;
+    --text:#14100c;
+    --text-muted:#5c5344;
+    --text-faint:#8a7f6c;
+    --border:#e2d5b3;
+    --border-strong:#cdbb8f;
+    --accent:#a3801d;
+    --accent-fill:#c9a227;
+    --accent-ink:#14100c;
+    --accent-soft:#efe0b6;
+    --leaf:#4b6b3f;
+    --leaf-soft:#e3ead9;
+    --amber:#9c4a12;
+    --amber-soft:#f3e0cd;
+    --shadow:0 1px 2px rgba(30,24,12,0.06), 0 4px 16px rgba(30,24,12,0.05);
+    --radius:10px;
+    --font-display:Cambria, Georgia, "Times New Roman", serif;
+    --font-body:-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    --font-mono:Consolas, "Cascadia Mono", "SFMono-Regular", Menlo, monospace;
+  }
+  @media (prefers-color-scheme: dark){
+    :root:not([data-theme="light"]){
+      --bg:#14100c;
+      --surface:#1d1712;
+      --surface-2:#26201a;
+      --text:#f3ead9;
+      --text-muted:#cfc4ac;
+      --text-faint:#8f8578;
+      --border:rgba(201,162,39,0.24);
+      --border-strong:rgba(201,162,39,0.45);
+      --accent:#e6c878;
+      --accent-fill:#c9a227;
+      --accent-ink:#14100c;
+      --accent-soft:#3a3122;
+      --leaf:#84ac6c;
+      --leaf-soft:#243424;
+      --amber:#e29255;
+      --amber-soft:#3a2a1c;
+      --shadow:0 1px 2px rgba(0,0,0,0.4), 0 6px 20px rgba(0,0,0,0.35);
+    }
+  }
+  :root[data-theme="dark"]{
+    --bg:#14100c;
+    --surface:#1d1712;
+    --surface-2:#26201a;
+    --text:#f3ead9;
+    --text-muted:#cfc4ac;
+    --text-faint:#8f8578;
+    --border:rgba(201,162,39,0.24);
+    --border-strong:rgba(201,162,39,0.45);
+    --accent:#e6c878;
+    --accent-fill:#c9a227;
+    --accent-ink:#14100c;
+    --accent-soft:#3a3122;
+    --leaf:#84ac6c;
+    --leaf-soft:#243424;
+    --amber:#e29255;
+    --amber-soft:#3a2a1c;
+    --shadow:0 1px 2px rgba(0,0,0,0.4), 0 6px 20px rgba(0,0,0,0.35);
+  }
+
+  *{box-sizing:border-box;}
+  @media (prefers-reduced-motion: reduce){ *{transition:none !important; animation:none !important;} }
+  html,body{margin:0;padding:0;}
+  body{
+    background:var(--bg);
+    color:var(--text);
+    font-family:var(--font-body);
+    font-size:15px;
+    line-height:1.6;
+    -webkit-font-smoothing:antialiased;
+  }
+  .wrap{max-width:840px;margin:0 auto;padding:0 20px 90px;}
+
+  .topbar{background:var(--surface);border-bottom:1px solid var(--border);padding:26px 0 20px;margin-bottom:22px;}
+  .topbar-inner{max-width:840px;margin:0 auto;padding:0 20px;display:flex;flex-direction:column;gap:14px;}
+  .brand-row{display:flex;align-items:center;gap:14px;}
+  .brand-mark{width:46px;height:46px;flex:0 0 auto;}
+  .brand-mark svg{display:block;width:100%;height:100%;}
+  .eyebrow{font-family:var(--font-mono);font-size:.7rem;letter-spacing:.1em;text-transform:uppercase;color:var(--text-faint);}
+  h1{font-family:var(--font-display);font-weight:700;font-size:1.7rem;margin:2px 0 0;text-wrap:balance;letter-spacing:-0.01em;}
+  .subtitle{color:var(--text-muted);font-size:.92rem;max-width:600px;margin:2px 0 0;}
+  .progress-row{display:flex;align-items:center;gap:14px;margin-top:6px;flex-wrap:wrap;}
+  .progress-track{flex:1 1 240px;min-width:160px;height:8px;border-radius:99px;background:var(--surface-2);overflow:hidden;border:1px solid var(--border);}
+  .progress-fill{height:100%;background:linear-gradient(90deg, var(--leaf), var(--accent-fill));border-radius:99px;transition:width .35s ease;}
+  .progress-label{font-family:var(--font-mono);font-variant-numeric:tabular-nums;font-size:.8rem;color:var(--text-muted);white-space:nowrap;}
+
+  .status-strip{background:var(--amber-soft);border:1px solid var(--amber);border-radius:var(--radius);padding:14px 18px;margin-bottom:22px;font-size:.86rem;}
+  .status-strip strong{color:var(--amber);}
+  .status-strip p{margin:6px 0 0;color:var(--text-muted);}
+
+  .week{margin-bottom:26px;}
+  .week-head{display:flex;align-items:baseline;gap:10px;margin-bottom:10px;padding-bottom:8px;border-bottom:2px solid var(--border-strong);}
+  .week-head h2{font-family:var(--font-display);font-weight:700;font-size:1.12rem;margin:0;}
+  .week-range{font-family:var(--font-mono);font-size:.76rem;color:var(--text-faint);}
+  .week-count{margin-left:auto;font-family:var(--font-mono);font-variant-numeric:tabular-nums;font-size:.78rem;color:var(--text-muted);}
+  .week-note{font-size:.8rem;color:var(--text-faint);margin:0 0 10px;}
+
+  .day-group{margin-bottom:12px;}
+  .day-label{display:flex;align-items:center;gap:8px;margin-bottom:7px;}
+  .day-date{font-family:var(--font-mono);font-variant-numeric:tabular-nums;font-size:.82rem;font-weight:600;color:var(--text);}
+  .day-dow{font-size:.76rem;color:var(--text-faint);}
+  .day-overdue{font-size:.68rem;font-family:var(--font-mono);text-transform:uppercase;letter-spacing:.05em;color:var(--amber);background:var(--amber-soft);border:1px solid var(--amber);border-radius:99px;padding:1px 8px;}
+
+  .task-list{display:flex;flex-direction:column;gap:8px;}
+  .task{border:1px solid var(--border);border-left:3px solid var(--border-strong);border-radius:8px;padding:11px 13px;background:var(--surface);box-shadow:var(--shadow);}
+  .task.done{border-left-color:var(--leaf);opacity:.68;}
+  .task-top{display:flex;align-items:flex-start;gap:10px;}
+  .task input[type="checkbox"]{width:17px;height:17px;margin-top:2px;accent-color:var(--leaf);flex:0 0 auto;cursor:pointer;}
+  .task-main{flex:1;min-width:0;}
+  .task-title{font-weight:600;font-size:.92rem;margin:0;}
+  .task.done .task-title{text-decoration:line-through;color:var(--text-muted);}
+  .task-meta{display:flex;flex-wrap:wrap;gap:6px;margin-top:6px;align-items:center;}
+  .chip{font-size:.7rem;font-family:var(--font-mono);padding:2px 8px;border-radius:5px;background:var(--surface-2);color:var(--text-muted);border:1px solid var(--border);}
+  .chip.channel{color:var(--accent);border-color:var(--border-strong);}
+  .chip.cond{background:var(--amber-soft);color:var(--amber);border-color:var(--amber);}
+  .task-note{font-size:.78rem;color:var(--text-faint);margin-top:6px;font-style:italic;}
+  .task-actions{display:flex;gap:8px;margin-top:9px;flex-wrap:wrap;}
+  .btn{font-family:var(--font-body);font-size:.76rem;padding:5px 11px;border-radius:6px;border:1px solid var(--border-strong);background:var(--surface);color:var(--text);cursor:pointer;}
+  .btn:hover{border-color:var(--accent);color:var(--accent);}
+  .btn:focus-visible{outline:2px solid var(--accent);outline-offset:1px;}
+  .btn.copied{border-color:var(--leaf);color:var(--leaf);}
+  .task-body{display:none;margin-top:9px;background:var(--surface-2);border-radius:6px;padding:12px 13px;font-size:.85rem;white-space:pre-wrap;color:var(--text);line-height:1.65;}
+  .task-body.open{display:block;}
+
+  details.ref{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);margin-bottom:12px;box-shadow:var(--shadow);overflow:hidden;}
+  details.ref>summary{list-style:none;cursor:pointer;padding:13px 16px;display:flex;align-items:center;gap:10px;font-weight:600;font-size:.94rem;font-family:var(--font-display);}
+  details.ref>summary::-webkit-details-marker{display:none;}
+  details.ref>summary::before{content:"▸";color:var(--text-faint);transition:transform .15s ease;font-size:.72rem;}
+  details.ref[open]>summary::before{transform:rotate(90deg);}
+  .ref-count{font-family:var(--font-mono);color:var(--text-faint);font-weight:400;font-size:.78rem;}
+  .ref-body{padding:2px 16px 15px;display:flex;flex-direction:column;gap:9px;}
+  .ref-item{border-left:3px solid var(--border-strong);padding:2px 0 2px 12px;}
+  .ref-item.hold{border-left-color:var(--amber);}
+  .ref-item-title{font-weight:600;font-size:.87rem;}
+  .ref-item-meta{font-size:.76rem;color:var(--text-faint);margin-top:2px;}
+
+  footer.page-footer{max-width:840px;margin:30px auto 0;padding:18px 20px 0;border-top:1px solid var(--border);font-size:.78rem;color:var(--text-faint);display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px;}
+  footer.page-footer button{background:none;border:none;color:var(--text-faint);text-decoration:underline;cursor:pointer;font-size:.78rem;font-family:var(--font-body);padding:0;}
+
+  @media(max-width:560px){
+    h1{font-size:1.4rem;}
+    .week-count{margin-left:0;width:100%;}
+  }
+</style>
+
+<div class="topbar">
+  <div class="topbar-inner">
+    <div class="brand-row">
+      <div class="brand-mark" aria-hidden="true">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" role="img" aria-label="Nông Sản Nhà Làm">
+          <defs>
+            <g id="sunrise">
+              <circle cx="0" cy="0" r="98" fill="#e8a33c" opacity="0.08"></circle>
+              <circle cx="0" cy="0" r="92" fill="#e8a33c" opacity="0.12"></circle>
+              <circle cx="0" cy="0" r="68" fill="#e8a33c" opacity="0.2"></circle>
+              <circle cx="0" cy="0" r="46" fill="#eaa63f"></circle>
+              <circle cx="0" cy="0" r="46" fill="#f5c877" opacity="0.4"></circle>
+              <circle cx="0" cy="0" r="48" fill="none" stroke="#c9a227" stroke-width="1.2" opacity="0.85"></circle>
+            </g>
+            <clipPath id="ring-clip"><circle cx="250" cy="250" r="244"></circle></clipPath>
+          </defs>
+          <g clip-path="url(#ring-clip)">
+            <use href="#sunrise" x="250" y="150"></use>
+            <path d="M6,205 C34,178 50,168 66,182 C82,160 104,150 124,168 C140,146 158,138 178,154 C196,134 220,128 240,146 C258,128 282,124 302,142 C322,124 348,122 366,140 C386,122 412,126 430,144 C448,128 472,130 494,146 L494,215 L6,215 Z" fill="#c9d6bc" opacity="0.7"></path>
+            <path d="M6,222 C30,196 46,188 62,200 C74,168 92,150 112,164 C130,180 146,192 168,182 C188,164 206,148 228,158 C248,176 262,196 284,188 C304,168 320,152 342,162 C362,182 378,200 400,192 C420,172 438,156 458,166 C474,182 486,196 494,198 L494,234 L6,234 Z" fill="#a9c096" opacity="0.85"></path>
+            <path d="M6,248 C32,214 52,202 74,216 C90,178 112,152 138,168 C156,190 168,208 190,200 C212,176 232,158 256,170 C276,192 288,212 310,206 C332,182 350,162 374,174 C394,198 406,218 428,212 C446,190 462,172 482,182 C490,190 493,192 494,194 L494,258 L6,258 Z" fill="#87a570"></path>
+            <path d="M6,268 C36,238 60,228 84,244 C104,220 128,206 152,222 C174,244 188,258 210,250 C234,226 256,212 280,226 C300,246 314,262 336,256 C358,234 378,218 402,230 C422,250 436,264 458,258 C474,244 486,236 494,238 L494,282 L6,282 Z" fill="#5f8050"></path>
+            <path d="M6,290 C38,244 66,230 96,252 C120,222 148,200 178,222 C202,248 216,266 240,256 C268,224 292,204 320,224 C344,250 360,270 384,262 C408,232 428,212 452,228 C470,248 484,266 494,270 L494,306 L6,306 Z" fill="#39533a"></path>
+          </g>
+          <circle cx="250" cy="250" r="244" fill="none" stroke="#3d5c34" stroke-width="4"></circle>
+        </svg>
+      </div>
+      <div>
+        <div class="eyebrow">Đăng bài · Nông Sản Nhà Làm</div>
+        <h1>Sổ Đăng Bài Nhà Làm</h1>
+      </div>
+    </div>
+    <p class="subtitle">Gộp toàn bộ lịch đăng từ <code>LICH_DANG_BAI.md</code> và nội dung thật từ <code>content/posts_ready.md</code> vào một chỗ. Tick khi đăng xong, bấm "Sao chép" để lấy nguyên văn dán lên Facebook/Zalo/TikTok. Trạng thái lưu trong trình duyệt này.</p>
+    <div class="progress-row">
+      <div class="progress-track"><div class="progress-fill" id="global-progress-fill" style="width:0%"></div></div>
+      <span class="progress-label" id="global-progress-label">0/15 việc đã đăng</span>
+    </div>
+  </div>
+</div>
+
+<div class="wrap">
+
+  <div class="status-strip">
+    <strong>⚠ Kiểm tra lại thực tế 12/08: chưa xác nhận được bài nào đã đăng thật.</strong>
+    <p>Lịch có từ 04/08 nhưng đến giờ không thấy bài nào được đánh dấu "đã đăng" trong hồ sơ — nếu bạn đã đăng một vài bài rồi mà quên tick, tick lại ngay bên dưới cho đúng thực tế. Nếu chưa đăng bài nào, 2 mục ngày 04/08 và 07/08 đang trễ lịch nhất.</p>
+  </div>
+
+  <main id="weeks"></main>
+
+  <details class="ref">
+    <summary>Giữ dành cho mùa Cam Đường Canh (Tháng 9–10) <span class="ref-count">— chưa đăng, đừng đăng sớm</span></summary>
+    <div class="ref-body" id="ref-hold"></div>
+  </details>
+
+  <details class="ref">
+    <summary>Bài đã loại khỏi lịch <span class="ref-count">— lỗi thời hoặc đã có bản thay thế</span></summary>
+    <div class="ref-body" id="ref-dropped"></div>
+  </details>
+
+</div>
+
+<footer class="page-footer">
+  <span>Trang này chỉ theo dõi tiến độ và giữ nội dung để sao chép — không tự đăng bài thay bạn.</span>
+  <button id="reset-btn" type="button">Xoá tiến độ đã lưu</button>
+</footer>
+
+<script>
+(function(){
+  "use strict";
+
+  var WEEKS = [
+    {
+      id:'w1', label:'Tuần 1', range:'04/08 – 07/08',
+      days:[
+        {
+          date:'2026-08-04', dow:'Thứ 3',
+          tasks:[
+            {
+              id:'w1-d1-fb', channels:['FB'], title:'Quy mô thu hoạch thật, không phải làm cho có',
+              body:"🌾 MỘT GỐC SẮN DÂY NHÀ MÌNH TO CỠ NÀO? — xem video là biết ngay, không cần nói quá!\n\nMỗi vụ thu hoạch, máy xúc phải vào tận vườn để bẩy cả gốc củ lên, rễ củ dài ngoằng bám chặt\nđất đồi. Cả nhà cùng khuân, cùng chở về xưởng ngay trong ngày để củ còn tươi khi đem lọc —\nkhông để qua đêm, không thu mua lại củ ở đâu khác.\n\nĐúng nghĩa \"nhà làm\" từ khâu đầu tiên: tự trồng, tự đào, tự chế biến. Video thật quay tại vườn\nnhà mình, không dàn dựng.\n\n🔸 Túi 0.5kg: 65.000đ\n🔸 Túi 1kg: 120.000đ\n\nĐặt hàng nhắn Zalo: 0979 502 000 — giao hàng toàn quốc nhé!"
+            },
+            {
+              id:'w1-d1-zalo', channels:['Zalo'], title:'Báo khách quen có ảnh/video thật mới',
+              body:"Nhà mình vừa quay lại toàn bộ quy trình làm tinh bột sắn dây — từ lúc đào củ đến khi ra bột khô,\nvideo thật 100% ạ 🌾 Mọi người ghé fanpage/web xem cho vui, có gì thắc mắc cứ nhắn mình nha.\nHàng vẫn luôn có sẵn: túi 0.5kg 65k, túi 1kg 120k."
+            },
+            {
+              id:'w1-d1-tiktok', channels:['TikTok'], title:'Video thu hoạch củ sắn dây (đã dựng sẵn)',
+              body:"Chữ chốt: \"Củ sắn dây thật, nhà mình tự đào tự chở — không qua trung gian\" + CTA Zalo 0979 502 000.",
+              note:'File video đã ghép sẵn: Hình Ảnh, Video/Sắn Dây/san-day-video-thuhoach-dung-01.mp4 (15s, dọc). Có thể ghép nối với video hậu trường (mục Thứ 6) thành 1 video dài hơn.'
+            }
+          ]
+        },
+        {
+          date:'2026-08-07', dow:'Thứ 6',
+          tasks:[
+            {
+              id:'w1-d2-fb1', channels:['FB'], title:'3 cách dùng tinh bột sắn dây giải nhiệt ngày hè',
+              body:"🌾 3 CÁCH DÙNG TINH BỘT SẮN DÂY GIẢI NHIỆT NGÀY HÈ\n\nNhà có sẵn tinh bột sắn dây mà chưa biết dùng sao cho đỡ ngán? Mách nhỏ 3 cách nhà mình hay làm:\n\n1️⃣ Nước sắn dây chanh dây/tắc — 1-2 thìa sắn dây, chút đường, nước sôi khuấy tan, để nguội rồi\nthêm nước cốt chanh dây hoặc tắc, đá lạnh. Mát và đỡ ngấy hơn pha suông.\n\n2️⃣ Chè sắn dây hạt sen — nấu hạt sen mềm, hoà tinh bột sắn dây với nước lạnh rồi đổ vào nồi hạt\nsen đang sôi, khuấy đều tay tới khi sánh lại. Ăn nóng hay để mát tủ lạnh đều ngon.\n\n3️⃣ Sắn dây đậu xanh — kết hợp đậu xanh đãi vỏ nấu chín nhuyễn với sắn dây, thêm chút đường phèn —\nmón giải nhiệt quen thuộc mùa hè.\n\nTất cả đều dùng tinh bột sắn dây nhà làm 100%, không hoá chất, không tẩy trắng 🌾\n\n🔸 Túi 0.5kg: 65.000đ\n🔸 Túi 1kg: 120.000đ\n\nĐặt hàng nhắn Zalo: 0979 502 000 — giao hàng toàn quốc nhé!"
+            },
+            {
+              id:'w1-d2-fb2', channels:['FB','Zalo'], title:'Từ video thật đến túi tinh bột, không giấu gì cả',
+              body:"🌾 NHÀ MÌNH VỪA QUAY LẠI TOÀN BỘ QUY TRÌNH LÀM TINH BỘT SẮN DÂY — xem là tin liền, không cần nghe kể!\n\nTừ nước bột lắng trong, tới lúc xếp từng lớp bột ướt lên khay đem sấy, đến khi thành từng\nmảng bột khô trắng vụn ra — tất cả đều quay thật tại nhà, không dàn dựng. Ảnh trên website\n(nongsannhalam.com) cũng đã đổi thành ảnh thật luôn rồi, mọi người ghé xem nhé!\n\nLàm thủ công nên hơi chậm, nhưng đổi lại là bột trắng tự nhiên, không hoá chất, không tẩy trắng.\n\n🔸 Túi 0.5kg: 65.000đ\n🔸 Túi 1kg: 120.000đ\n\nĐặt hàng nhắn Zalo: 0979 502 000 — giao hàng toàn quốc nhé!"
+            },
+            {
+              id:'w1-d2-tiktok', channels:['TikTok'], title:'Video hậu trường lọc/sấy (đã dựng sẵn)',
+              body:"Chữ chốt: \"Tinh bột sắn dây nhà làm — lọc tay, sấy bằng lò sấy chuyên dụng, không hoá chất\" + giá 2 loại túi (65k/0.5kg, 120k/1kg) + \"Đặt hàng: nhắn Zalo 0979 502 000\".",
+              note:'File: san-day-video-haitruong-dung-01.mp4 (15.5s, sẵn sàng đăng). Toàn bộ quay trong nhà xưởng, không có cảnh phơi nắng dù tên file cũ gây hiểu lầm.'
+            },
+            {
+              id:'w1-d2-shopee', channels:['Shopee'], title:'Mô tả sản phẩm Tinh Bột Sắn Dây', cond:'Chỉ đăng nếu gian hàng đã mở xong',
+              body:"Tinh Bột Sắn Dây Nhà Làm - Thủ công tại nhà, không hoá chất\n\n✅ Nguồn gốc: tự lọc thủ công, sấy bằng lò sấy chuyên dụng tại nhà\n✅ Quy cách: túi 0.5kg (65.000đ) hoặc túi 1kg (120.000đ)\n✅ Bảo quản: nơi khô ráo, thoáng mát, tránh ẩm\n✅ Cam kết: hàng thật như mô tả, luôn có sẵn giao ngay, ship toàn quốc\n\nCách dùng: Pha nước uống giải nhiệt, hoặc nấu chè. Không dùng thay thuốc chữa bệnh.\n\nLưu ý: Đặt hàng inbox/nhắn tin để được tư vấn số lượng và thời gian giao hàng cụ thể."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      id:'w2', label:'Tuần 2', range:'11/08 – 14/08',
+      days:[
+        {
+          date:'2026-08-11', dow:'Thứ 3',
+          tasks:[
+            {
+              id:'w2-d1-fb', channels:['FB','Zalo'], title:'Cập nhật vườn cam, quả non đã đậu trên cành',
+              body:"🍊 CẬP NHẬT VƯỜN CAM NHÀ MÌNH — QUẢ NON ĐÃ ĐẬU TRÊN CÀNH\n\nGhé vườn cam đường canh nhà mình mấy hôm nay, thấy hoa đã tàn và quả non lấm tấm bắt đầu đậu\ntrên cành rồi ạ 🍊 Còn vài tháng nữa mới tới mùa thu hoạch (khoảng tháng 11 âm lịch), nhưng nhìn\nquả non lúc lỉu thế này là biết mùa cam năm nay lại sắp về.\n\nVườn nhà mình là thành viên Hợp Tác Xã Cây Ăn Quả Nhung Giang (Lạng Sơn), đạt chứng nhận VietGAP —\nchăm cây đúng quy trình, không thúc ép, để cây tự đơm hoa kết trái theo mùa tự nhiên.\n\nAi thích ăn cam ngọt tự nhiên, chín trên cây, để lại Zalo hoặc nhắn tin từ bây giờ nha — đến mùa\nmình báo có hàng đầu tiên, không lo hết ạ!\n\nZalo: 0979 502 000"
+            }
+          ]
+        },
+        {
+          date:'2026-08-14', dow:'Thứ 6',
+          tasks:[
+            {
+              id:'w2-d2-fb', channels:['FB'], title:'Công thức chè sắn dây hạt sen giải nhiệt',
+              body:"🌾 TRƯA HÈ NÓNG, NẤU NỒI CHÈ SẮN DÂY HẠT SEN CHO CẢ NHÀ MÁT LÒNG NHÉ!\n\nCách làm đơn giản, ai cũng nấu được:\n1️⃣ Hạt sen luộc mềm, để riêng.\n2️⃣ Tinh bột sắn dây nhà mình hoà tan với chút nước lạnh.\n3️⃣ Đun nước đường phèn sôi nhẹ, đổ từ từ hỗn hợp sắn dây vào, khuấy đều tay đến khi sánh trong.\n4️⃣ Cho hạt sen vào, tắt bếp — ăn ấm hay để nguội đều ngon, giải nhiệt ngày hè.\n\nTinh bột sắn dây nhà mình lọc thủ công, sấy bằng lò sấy riêng, không hoá chất, không tẩy trắng, nấu lên sánh\nmịn, thơm tự nhiên đúng vị.\n\n🔸 Túi 0.5kg: 65.000đ\n🔸 Túi 1kg: 120.000đ\n\nĐặt hàng nhắn Zalo 0979 502 000 nhé, giao hàng toàn quốc 🍊"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      id:'w3', label:'Tuần 3', range:'18/08 – 21/08',
+      days:[
+        {
+          date:'2026-08-18', dow:'Thứ 3',
+          tasks:[
+            {
+              id:'w3-d1-zalo', channels:['Zalo'], title:'Công thức chè sắn dây hạt sen giải nhiệt (bản Zalo)',
+              body:"🌾 Trưa nay nấu thử chè sắn dây hạt sen giải nhiệt chưa ạ?\n\nSắn dây nhà mình lọc thủ công, sấy bằng lò sấy riêng, hoà nước lạnh cho tan rồi đổ vào nồi đường phèn đang sôi, khuấy\nđều đến khi sánh trong, thêm hạt sen là xong nồi chè mát lành cho cả nhà 🍊\n\nTúi 0.5kg 65k, túi 1kg 120k — cần thì nhắn mình gửi liền, giao toàn quốc nha!"
+            }
+          ]
+        },
+        {
+          date:'2026-08-21', dow:'Thứ 6',
+          tasks:[
+            {
+              id:'w3-d2-fb', channels:['FB'], title:'Giới thiệu Tinh Bột Sắn Dây (bài dự phòng nếu chưa có gì mới)',
+              body:"🌾 TINH BỘT SẮN DÂY NHÀ LÀM — luôn có sẵn, đặt là giao ngay!\n\nNhà mình tự tay lọc tinh bột sắn dây, sấy bằng lò sấy chuyên dụng cho khô đều — không hoá chất,\nkhông chất tẩy trắng, đóng gói khi bột đã khô hoàn toàn.\n\nGiá:\n🔸 Túi 0.5kg: 65.000đ\n🔸 Túi 1kg: 120.000đ\n\nMùa hè pha 1 ly sắn dây mát lạnh, nấu chè cũng ngon, cả nhà ai cũng thích 💛\n\nĐặt hàng nhắn Zalo: 0979 502 000 — giao hàng toàn quốc nhé!",
+              note:'Chỉ dùng nếu chưa có đơn hàng thật/feedback khách để khoe — ưu tiên bài mới hơn nếu có.'
+            }
+          ]
+        }
+      ]
+    },
+    {
+      id:'w4', label:'Tuần 4', range:'25/08 – 28/08',
+      note:'Nội dung mới soạn 12/08 — kho bài cũ đến đây gần hết cho Sắn Dây, khai thác góc chưa từng lên bài (nghiền lọc) + video lò sấy đã dựng xong nhưng chưa đăng riêng.',
+      days:[
+        {
+          date:'2026-08-25', dow:'Thứ 3',
+          tasks:[
+            {
+              id:'w4-d1-fb', channels:['FB'], title:'Công đoạn ít ai thấy: nghiền củ, lọc lấy từng giọt tinh bột',
+              body:"🌾 CÔNG ĐOẠN ÍT AI THẤY: NGHIỀN CỦ, LỌC LẤY TỪNG GIỌT TINH BỘT\n\nCủ sắn dây tươi đào về, nhà mình cho vào máy nghiền nát ngay trong ngày, rồi đổ nước vào khuấy,\nlọc qua vải nhiều lượt. Nước bột lúc mới lọc trắng đục ngầu, để lắng một lúc là thấy lớp bột mịn\nđọng dần dưới đáy chậu, nước trong dần lên trên — phải lọc đi lọc lại vài lần mới hết cợn, hết xơ\ncủ.\n\nĐây là công đoạn tốn công nhất trong cả quy trình, làm hoàn toàn bằng tay chứ không rút gọn qua\nmáy móc — cũng là lý do mỗi mẻ bột ra không được nhiều, nhưng sạch và mịn thật sự.\n\n🔸 Túi 0.5kg: 65.000đ\n🔸 Túi 1kg: 120.000đ\n\nCần túi nào cứ nhắn Zalo mình chuẩn bị nhé — 0979 502 000, gửi hàng toàn quốc.",
+              note:'Ảnh/video thật: Hình Ảnh, Video/Sắn Dây/san-day-nghienloc-*.jpg (nuoclangcan, nuocdanglang, nguoivatloc, khuaybelang, badochauxanh...) — lần đầu có bài riêng cho công đoạn này.'
+            },
+            {
+              id:'w4-d1-zalo', channels:['Zalo'], title:'Công đoạn ít ai thấy: nghiền củ, lọc lấy từng giọt tinh bột (bản Zalo)',
+              body:"Trưa nay nhà mình đang lọc mẻ bột mới nè 🌾 Nước bột đục lúc đầu, lọc qua vải vài lượt là trong\ndần, bột lắng xuống đáy chậu trắng mịn. Công đoạn này làm tay hết, hơi lâu nhưng sạch.\n\nTúi 0.5kg 65k, túi 1kg 120k, có sẵn giao ngay — cần thì nhắn mình gửi liền nha!"
+            }
+          ]
+        },
+        {
+          date:'2026-08-28', dow:'Thứ 6',
+          tasks:[
+            {
+              id:'w4-d2-tiktok', channels:['TikTok'], title:'Đăng riêng video quy trình sấy lò',
+              body:"🌾 Bên trong lò sấy tinh bột sắn dây nhà mình đây ạ — khay nhiều tầng, cài nhiệt độ tự động, sấy\nđều không phải canh nắng như trước nữa.\n\nTúi 0.5kg 65k, túi 1kg 120k — đặt hàng nhắn Zalo 0979 502 000, giao toàn quốc.",
+              note:'Video: docs/assets/san-day-quy-trinh-say.mp4 — đã dựng xong từ 11/08 (chữ đè từng bước + end card), hiện chỉ nhúng trên website, chưa từng đăng mạng xã hội riêng.'
+            }
+          ]
+        }
+      ]
+    },
+    {
+      id:'w5', label:'Từ tuần 5', range:'chưa lên lịch cứng',
+      note:'Kho bài Sắn Dây mới coi như dùng hết đến Tuần 4. Còn 1 bài tồn dùng lấp chỗ nếu cần — ưu tiên chờ dữ liệu thật (đơn hàng đầu tiên, feedback khách) trước khi viết thêm bài chung chung.',
+      days:[
+        {
+          date:null, dow:'Chưa định ngày',
+          tasks:[
+            {
+              id:'w5-d1-zalo', channels:['Zalo'], title:'Thông báo hàng có sẵn (bài tồn, dùng khi cần lấp lịch)',
+              body:"Nhà mình luôn có sẵn tinh bột sắn dây nhà làm ạ 🌾\nTúi 0.5kg: 65.000đ\nTúi 1kg: 120.000đ\nĐặt là giao ngay, ship toàn quốc. Ai cần đặt nhắn mình nha!"
+            }
+          ]
+        }
+      ]
+    }
+  ];
+
+  var HOLD = [
+    {title:'Cam Đường Canh, nhấn chứng nhận VietGAP', meta:'Facebook · soạn 06/07 · để dành Tháng 9–10 (Giai đoạn 2)'},
+    {title:'Cam Đường Canh, nhấn chín tự nhiên trên cây', meta:'Facebook · soạn 06/07 · để dành Tháng 9–10, tránh trùng ý bài "quả non đậu cành" ở Tuần 2'},
+    {title:'Giới thiệu Cam Đường Canh (chuẩn bị đón mùa mới)', meta:'Facebook · chưa gán ngày cụ thể, dùng khi vào mùa'}
+  ];
+
+  var DROPPED = [
+    {title:'Hậu trường sản xuất Tinh Bột Sắn Dây', meta:'Facebook · 05/07 · nhắc "phơi nắng tự nhiên" — đã chuyển hẳn sang lò sấy từ 11/08'},
+    {title:'Video hậu trường phơi sắn dây', meta:'TikTok (kịch bản) · 05/07 · đã có video thật thay thế (mục Tuần 1, Thứ 6)'},
+    {title:'Công dụng / cách dùng Tinh Bột Sắn Dây', meta:'Facebook · 03/07 · đã có bài mới hơn cùng góc độ (mục Tuần 1, Thứ 6)'},
+    {title:'Mời khách để lại hẹn báo hàng mùa cam', meta:'Facebook/Zalo · 06/07 · đã có bản 26/07 tốt hơn (mục Tuần 2, Thứ 3)'}
+  ];
+
+  var STORE_KEY = 'nsn-so-dang-bai-v1';
+  var state = {};
+  try { state = JSON.parse(localStorage.getItem(STORE_KEY) || '{}'); } catch(e){ state = {}; }
+
+  function save(){ try { localStorage.setItem(STORE_KEY, JSON.stringify(state)); } catch(e){} }
+
+  function el(tag, attrs, children){
+    var n = document.createElement(tag);
+    attrs = attrs || {};
+    for (var k in attrs){
+      if (k === 'class') n.className = attrs[k];
+      else if (k === 'html') n.innerHTML = attrs[k];
+      else n.setAttribute(k, attrs[k]);
+    }
+    (children || []).forEach(function(c){ if (c) n.appendChild(c); });
+    return n;
+  }
+
+  function textNode(tag, cls, text){
+    var n = el(tag, {class: cls});
+    n.textContent = text;
+    return n;
+  }
+
+  function formatDate(iso){
+    var parts = iso.split('-');
+    return parts[2] + '/' + parts[1];
+  }
+
+  var today = new Date();
+  today.setHours(0,0,0,0);
+
+  var allTaskIds = [];
+
+  function buildTask(t){
+    allTaskIds.push(t.id);
+    var done = !!state[t.id];
+    var card = el('div', {class:'task' + (done ? ' done' : ''), id:'task-' + t.id});
+    var top = el('div', {class:'task-top'});
+    var cb = el('input', {type:'checkbox'});
+    cb.checked = done;
+    cb.addEventListener('change', function(){
+      state[t.id] = cb.checked;
+      save();
+      card.classList.toggle('done', cb.checked);
+      updateProgress();
+    });
+    var main = el('div', {class:'task-main'});
+    main.appendChild(textNode('p', 'task-title', t.title));
+    var meta = el('div', {class:'task-meta'});
+    t.channels.forEach(function(c){ meta.appendChild(textNode('span', 'chip channel', c)); });
+    if (t.cond) meta.appendChild(textNode('span', 'chip cond', t.cond));
+    main.appendChild(meta);
+    if (t.note) main.appendChild(textNode('p', 'task-note', t.note));
+
+    var actions = el('div', {class:'task-actions'});
+    var toggleBtn = el('button', {type:'button', class:'btn'});
+    toggleBtn.textContent = 'Xem nội dung';
+    var body = el('div', {class:'task-body'});
+    body.textContent = t.body;
+    toggleBtn.addEventListener('click', function(){
+      var open = body.classList.toggle('open');
+      toggleBtn.textContent = open ? 'Ẩn nội dung' : 'Xem nội dung';
+    });
+    var copyBtn = el('button', {type:'button', class:'btn'});
+    copyBtn.textContent = 'Sao chép';
+    copyBtn.addEventListener('click', function(){
+      copyText(t.body, copyBtn);
+    });
+    actions.appendChild(toggleBtn);
+    actions.appendChild(copyBtn);
+    main.appendChild(actions);
+    main.appendChild(body);
+
+    top.appendChild(cb);
+    top.appendChild(main);
+    card.appendChild(top);
+    return card;
+  }
+
+  function copyText(text, btn){
+    var done = function(){
+      var old = btn.textContent;
+      btn.textContent = 'Đã chép ✓';
+      btn.classList.add('copied');
+      setTimeout(function(){ btn.textContent = old; btn.classList.remove('copied'); }, 1600);
+    };
+    if (navigator.clipboard && navigator.clipboard.writeText){
+      navigator.clipboard.writeText(text).then(done, function(){ fallbackCopy(text, done); });
+    } else {
+      fallbackCopy(text, done);
+    }
+  }
+
+  function fallbackCopy(text, done){
+    var ta = document.createElement('textarea');
+    ta.value = text;
+    ta.style.position = 'fixed';
+    ta.style.opacity = '0';
+    document.body.appendChild(ta);
+    ta.select();
+    try { document.execCommand('copy'); } catch(e){}
+    document.body.removeChild(ta);
+    done();
+  }
+
+  function buildDay(day){
+    var group = el('div', {class:'day-group'});
+    var label = el('div', {class:'day-label'});
+    if (day.date){
+      label.appendChild(textNode('span', 'day-date', formatDate(day.date)));
+      label.appendChild(textNode('span', 'day-dow', day.dow));
+      var d = new Date(day.date + 'T00:00:00');
+      var anyUndone = day.tasks.some(function(t){ return !state[t.id]; });
+      if (d < today && anyUndone){
+        label.appendChild(textNode('span', 'day-overdue', 'Quá hạn'));
+      }
+    } else {
+      label.appendChild(textNode('span', 'day-dow', day.dow));
+    }
+    group.appendChild(label);
+    var list = el('div', {class:'task-list'});
+    day.tasks.forEach(function(t){ list.appendChild(buildTask(t)); });
+    group.appendChild(list);
+    return group;
+  }
+
+  function buildWeek(w){
+    var section = el('div', {class:'week'});
+    var head = el('div', {class:'week-head'});
+    head.appendChild(textNode('h2', '', w.label));
+    head.appendChild(textNode('span', 'week-range', w.range));
+    section.appendChild(head);
+    if (w.note) section.appendChild(textNode('p', 'week-note', w.note));
+    w.days.forEach(function(d){ section.appendChild(buildDay(d)); });
+    return section;
+  }
+
+  function updateProgress(){
+    var doneCount = allTaskIds.filter(function(id){ return !!state[id]; }).length;
+    var pct = allTaskIds.length ? Math.round(doneCount / allTaskIds.length * 100) : 0;
+    document.getElementById('global-progress-fill').style.width = pct + '%';
+    document.getElementById('global-progress-label').textContent = doneCount + '/' + allTaskIds.length + ' việc đã đăng';
+  }
+
+  var weeksRoot = document.getElementById('weeks');
+  WEEKS.forEach(function(w){ weeksRoot.appendChild(buildWeek(w)); });
+  updateProgress();
+
+  var holdRoot = document.getElementById('ref-hold');
+  HOLD.forEach(function(h){
+    var item = el('div', {class:'ref-item hold'});
+    item.appendChild(textNode('div', 'ref-item-title', h.title));
+    item.appendChild(textNode('div', 'ref-item-meta', h.meta));
+    holdRoot.appendChild(item);
+  });
+
+  var dropRoot = document.getElementById('ref-dropped');
+  DROPPED.forEach(function(h){
+    var item = el('div', {class:'ref-item'});
+    item.appendChild(textNode('div', 'ref-item-title', h.title));
+    item.appendChild(textNode('div', 'ref-item-meta', h.meta));
+    dropRoot.appendChild(item);
+  });
+
+  document.getElementById('reset-btn').addEventListener('click', function(){
+    if (!confirm('Xoá toàn bộ tiến độ đã tick trên trình duyệt này?')) return;
+    state = {};
+    save();
+    document.querySelectorAll('.task').forEach(function(card){
+      card.classList.remove('done');
+      var cb = card.querySelector('input[type="checkbox"]');
+      if (cb) cb.checked = false;
+    });
+    updateProgress();
+  });
+
+})();
+</script>
