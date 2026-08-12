@@ -83,7 +83,6 @@ mỗi lần đổi giá.
 
 1. ~~Chọn hướng~~ — ✅ đã chọn hướng 1 (Mộc & Thật).
 2. ~~Cho địa chỉ cơ sở sản xuất~~ — ✅ đã điền, cả PDF lẫn SVG đều sẵn sàng gửi in.
-3. **Tìm nơi in tem/nhãn** (tại Lạng Sơn hoặc đặt online — Shopee/Lazada có dịch vụ in tem số lượng
-   ít) — gửi file PDF trong `content/nhan_bao_bi/`, hỏi giá theo số lượng dự kiến.
+3. ~~Tìm nơi in tem/nhãn~~ — ✅ đã gửi file PDF cho xưởng in (2026-08-12). Đang chờ báo giá/kết quả.
 4. Quyết định cách ghi ngày SX/HSD: đóng dấu tay (rẻ, linh hoạt, đang để trống trong file) hay tem
    phụ in sẵn dải ngày (cần đặt số lượng lớn hơn).
