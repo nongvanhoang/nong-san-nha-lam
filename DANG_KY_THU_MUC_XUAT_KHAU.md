@@ -42,14 +42,13 @@ Dùng đúng số liệu thật đã có, không thêm gì mới:
 >
 > Website: https://nongsannhalam.com/en/
 > Zalo: +84 979 502 000
+> Email: hello@nongsannhalam.com
 > Facebook: https://www.facebook.com/profile.php?id=61593265823967
 
-**Lưu ý khi điền form**: nếu form bắt buộc số điện thoại quốc tế, dùng `+84 979 502 000`. Nếu hỏi
-email — hiện chưa có email doanh nghiệp thật, cần điền trước khi đăng ký (xem README.md mục việc
-còn thiếu).
+**Lưu ý khi điền form**: nếu form bắt buộc số điện thoại quốc tế, dùng `+84 979 502 000`.
 
 ## Việc cần bạn làm
 
-1. Đăng ký Yellow Pages Vietnam trước (nhanh nhất, không rào cản).
-2. Gọi hoặc vào lại vietrade.gov.vn hỏi rõ điều kiện trước khi quyết định có làm hồ sơ hay không.
-3. Có email doanh nghiệp thật trước khi đăng ký nơi nào yêu cầu email xác minh.
+1. ~~Có email doanh nghiệp thật~~ — ✅ đã xong (2026-08-12): `hello@nongsannhalam.com`.
+2. Đăng ký Yellow Pages Vietnam trước (nhanh nhất, không rào cản).
+3. Gọi hoặc vào lại vietrade.gov.vn hỏi rõ điều kiện trước khi quyết định có làm hồ sơ hay không.

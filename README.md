@@ -71,11 +71,12 @@ file trong kho đó rồi nhờ Claude resize/nén lại trước khi đưa vào
 1. ~~Thay ảnh minh hoạ bằng ảnh/video thật~~ — ✅ đã xong (2026-07-26, xem mục trên). Còn nhiều
    ảnh/video thật chưa dùng trong `Hình Ảnh, Video/`, có thể nhờ Claude chọn thêm cho caption
    hoặc đổi ảnh web sau này.
-2. **Link Facebook** — hiện đang tạm ẩn (comment) trong `docs/index.html` và để
-   `"CẦN CẬP NHẬT"` trong `data/products.json`. Khi có link, nhờ Claude bật lại giúp.
-3. **Email và WhatsApp cho khách quốc tế** — hiện để "CẦN CẬP NHẬT"/"coming soon" trong
-   `data/products.json` và cả 2 trang web. Zalo không dùng được ở nước ngoài nên phần này
-   khá quan trọng để thực sự nhận được liên hệ xuất khẩu. Khi có, nhờ Claude điền vào.
+2. ~~Link Facebook~~ — ✅ đã xong (2026-08-11), trang thật: facebook.com/profile.php?id=61593265823967
+3. ~~Email cho khách quốc tế~~ — ✅ đã xong (2026-08-12): `hello@nongsannhalam.com`, dùng Cloudflare
+   Email Routing chuyển tiếp về Gmail thật, miễn phí (giống cách RankerToolAI/RankerNest đang dùng).
+   Có thể trả lời email dưới tên miền riêng luôn nếu bật thêm "Send mail as" trong Gmail (xem hướng
+   dẫn Claude đã đưa lúc thiết lập). **WhatsApp vẫn còn thiếu** — Zalo không dùng được ở nước ngoài
+   nên vẫn nên có thêm kênh này, đăng ký được bằng luôn số 0979 502 000.
 4. Giá, số Zalo (0979 502 000), khu vực giao hàng (toàn quốc) đã cập nhật đầy đủ.
 5. Đã có sẵn 5 caption mẫu dùng số liệu thật trong `content/posts_ready.md`, sẵn sàng copy đăng.
 6. Trang tiếng Anh nói rõ cơ sở CHƯA có chứng nhận ATTP/HACCP/xuất khẩu chính thức — nếu sau này
@@ -83,9 +84,9 @@ file trong kho đó rồi nhờ Claude resize/nén lại trước khi đưa vào
 7. **Shopee/TikTok Shop (Tinh Bột Sắn Dây)** — đã quyết định mở (xem `KE_HOACH_BAN_HANG.md`), trang
    tiếng Việt hiện để "sắp ra mắt". Bạn tự đăng ký gian hàng; khi có link thật, nhờ Claude thay vào
    `docs/index.html` (mục sản phẩm + mục Đặt hàng).
-8. **Gắn Google Search Console cho domain mới** — vừa đổi domain (10/08) nên cần khai báo lại với
-   Google. Làm theo `HUONG_DAN_GOOGLE_SEARCH_CONSOLE.md` (2026-08-11), phần đầu cần bạn tự làm
-   (đăng nhập Gmail), phần gắn mã lên web thì nhờ Claude.
+8. ~~Gắn Google Search Console~~ — ✅ đã xong (2026-08-12): đã xác minh quyền sở hữu + gửi sơ đồ
+   trang web. Vài ngày tới có thể vào Search Console xem mục "Hiệu suất" để biết khách tìm web qua
+   từ khoá gì.
 9. **Đơn hàng/mẻ sản xuất thật vẫn chưa được ghi vào sổ** (`data/orders.csv`/`production_log.csv`
    còn trống dù app đã có từ 02/08) — nếu đã có đơn/mẻ thật ngoài đời, đọc số liệu cho Claude ghi
    giúp, hoặc tự ghi qua app `MO_APP_QUAN_LY.bat`.
