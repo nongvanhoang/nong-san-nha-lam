@@ -3,18 +3,23 @@
 _Soạn 2026-08-11. Xem bản có hình minh hoạ (mockup nhãn) tại link artifact đã gửi trong chat —
 file này chỉ lưu phần chữ để tra cứu lại sau, không tự vẽ lại được ảnh mockup ở đây._
 
-## ✅ Đã chốt (2026-08-12): Hướng 1 — Mộc & Thật
+## ✅ SẴN SÀNG GỬI IN (2026-08-12) — Hướng 1: Mộc & Thật
 
-Người dùng đã chọn hướng 1 (đai giấy kraft dán ngang miệng túi). File thiết kế gần như sẵn sàng in
-đã tạo tại `content/nhan_bao_bi/nhan-say-day-500g.svg` và `nhan-say-day-1kg.svg` — kích thước thật
-160mm × 45mm, dùng đúng logo gốc, có mã QR thật trỏ về `nongsannhalam.com`
-(`docs/assets/qr-website.svg`), đủ các trường bắt buộc theo luật (tên hàng hoá, khối lượng tịnh,
-thành phần, bảo quản, NSX/HSD để trống cho đóng dấu tay).
+Địa chỉ cơ sở sản xuất đã điền xong (Thôn Nam Hương, xã Vũ Lăng, tỉnh Lạng Sơn) — không còn gì
+thiếu nữa. Có 2 định dạng, dùng bản nào tuỳ xưởng in yêu cầu:
 
-**Còn thiếu duy nhất 1 việc trước khi in được**: địa chỉ cụ thể cơ sở sản xuất — đang để placeholder
-đỏ `[CẦN ĐIỀN ĐỊA CHỈ CỤ THỂ TRƯỚC KHI IN]` trong cả 2 file. Khi có địa chỉ, chỉ cần sửa 1 dòng trong
-mỗi file là xong, gửi thẳng cho xưởng in được. Hướng 2-4 (bản premium/cửa sổ) giữ nguyên trong mục
-dưới, có thể làm sau cho set quà Tết nếu muốn.
+- **PDF** (gửi trực tiếp cho xưởng in, đơn giản nhất): `content/nhan_bao_bi/nhan-say-day-500g.pdf`
+  và `nhan-say-day-1kg.pdf` — xuất bằng Chrome headless (không qua pipeline svglib/reportlab từng bị
+  lỗi vỡ chữ), kiểm tra lại đúng khổ thật **160.2mm × 45.1mm** (sai số <0.2mm, không đáng kể), chữ
+  Việt/font Cambria hiển thị đúng, đã xem lại từng trang trước khi giao.
+- **SVG** (nếu xưởng in dùng Illustrator/CorelDraw và muốn chỉnh sửa vector): `nhan-say-day-500g.svg`
+  / `nhan-say-day-1kg.svg` — cần máy có sẵn font Cambria + Arial (font Windows/Office chuẩn, hầu hết
+  xưởng in đều có sẵn); nếu xưởng báo thiếu font thì gửi bản PDF thay thế.
+
+Kích thước thật 160mm × 45mm, dùng đúng logo gốc, mã QR thật trỏ về `nongsannhalam.com`, đủ các
+trường bắt buộc theo luật (tên hàng hoá, khối lượng tịnh, thành phần, bảo quản, NSX/HSD để trống cho
+đóng dấu tay). Hướng 2-4 (bản premium/cửa sổ) giữ nguyên trong mục dưới, có thể làm sau cho set quà
+Tết nếu muốn.
 
 ## Bối cảnh
 
@@ -76,12 +81,9 @@ mỗi lần đổi giá.
 
 ## Việc cần bạn làm tiếp
 
-1. ~~Chọn hướng~~ — ✅ đã chọn hướng 1 (Mộc & Thật), xem mục "Đã chốt" ở đầu file.
-2. **Cho địa chỉ cụ thể cơ sở sản xuất** — việc duy nhất còn thiếu để hoàn thiện file
-   `content/nhan_bao_bi/nhan-say-day-500g.svg` / `nhan-say-day-1kg.svg`.
-3. Tìm nơi in tem/nhãn (tại Lạng Sơn hoặc đặt online — Shopee/Lazada có dịch vụ in tem số lượng ít).
+1. ~~Chọn hướng~~ — ✅ đã chọn hướng 1 (Mộc & Thật).
+2. ~~Cho địa chỉ cơ sở sản xuất~~ — ✅ đã điền, cả PDF lẫn SVG đều sẵn sàng gửi in.
+3. **Tìm nơi in tem/nhãn** (tại Lạng Sơn hoặc đặt online — Shopee/Lazada có dịch vụ in tem số lượng
+   ít) — gửi file PDF trong `content/nhan_bao_bi/`, hỏi giá theo số lượng dự kiến.
 4. Quyết định cách ghi ngày SX/HSD: đóng dấu tay (rẻ, linh hoạt, đang để trống trong file) hay tem
    phụ in sẵn dải ngày (cần đặt số lượng lớn hơn).
-
-Khi có địa chỉ cơ sở sản xuất và đã chọn hướng, báo lại để tôi chỉnh mockup thành file thiết kế
-hoàn chỉnh (SVG/PDF) gửi cho bên in.
