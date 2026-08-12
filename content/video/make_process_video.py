@@ -39,6 +39,7 @@ FONT_REG = "C:/Windows/Fonts/arial.ttf"
 LOGO = ROOT / "docs" / "assets" / "icon-512.png"
 
 END_CARD_SECONDS = 3.0
+TRANSITION_SECONDS = 0.35  # crossfade mượt giữa các clip quy trình (không áp dụng vào thẻ kết thúc)
 
 
 def esc_filter_path(p):
@@ -102,6 +103,40 @@ def build_end_card(text_lines, out_path, tmp):
     run(cmd)
 
 
+def crossfade_sequence(segment_paths, durations, transition, out_path):
+    """Nối các đoạn clip bằng crossfade (mờ dần chồng nhau) thay vì cắt cứng,
+    cho cảm giác mượt/chuyên nghiệp hơn. Trả về offset TUYỆT ĐỐI (giây) của
+    từng clip trên video đã ghép — dùng để canh giờ chữ caption cho đúng,
+    vì thời lượng tổng bị rút ngắn đi (transition*(n-1)) so với cộng dồn thô."""
+    n = len(segment_paths)
+    if n == 1:
+        shutil.copy(segment_paths[0], out_path)
+        return [0.0]
+
+    cmd = ["ffmpeg", "-y"]
+    for p in segment_paths:
+        cmd += ["-i", str(p)]
+
+    filter_parts = []
+    cur = "0:v"
+    offsets = [0.0]
+    cumulative_raw = durations[0]
+    for i in range(1, n):
+        offset = cumulative_raw - i * transition
+        offsets.append(offset)
+        nxt = f"x{i}"
+        filter_parts.append(
+            f"[{cur}][{i}:v]xfade=transition=fade:duration={transition}:offset={offset:.3f}[{nxt}]"
+        )
+        cur = nxt
+        cumulative_raw += durations[i]
+
+    cmd += ["-filter_complex", ";".join(filter_parts), "-map", f"[{cur}]"]
+    cmd += ["-c:v", "libx264", "-pix_fmt", "yuv420p", str(out_path)]
+    run(cmd)
+    return offsets
+
+
 def build_video(config):
     slug = config["slug"]
     clips = config["clips"]
@@ -114,12 +149,9 @@ def build_video(config):
     with tempfile.TemporaryDirectory() as tmp:
         tmp = Path(tmp)
 
-        # 1) Cắt từng đoạn clip thật, tính offset thời gian tuyệt đối trên
-        #    timeline sau khi nối (để chữ hiện đúng lúc, dù caption trong
-        #    config viết theo thời gian riêng của từng clip).
+        # 1) Cắt từng đoạn clip thật.
         segment_paths = []
-        cumulative = 0.0
-        caption_offsets = []
+        durations = []
         for i, clip in enumerate(clips):
             src = MEDIA_ROOT / clip["file"]
             if not src.exists():
@@ -129,19 +161,23 @@ def build_video(config):
             seg_path = tmp / f"seg{i}.mp4"
             trim_clip(src, clip.get("start", 0), duration, seg_path)
             segment_paths.append(seg_path)
-            caption_offsets.append(cumulative)
-            cumulative += duration
+            durations.append(duration)
 
-        # 2) Thẻ kết thúc
+        # 2) Nối các clip quy trình bằng crossfade (mượt hơn cắt cứng), rồi
+        #    lấy offset tuyệt đối thật của từng clip để canh chữ caption cho
+        #    đúng lúc — KHÔNG dùng cộng dồn thô nữa vì crossfade rút ngắn
+        #    thời lượng tổng.
+        transitioned = tmp / "transitioned.mp4"
+        caption_offsets = crossfade_sequence(segment_paths, durations, TRANSITION_SECONDS, transitioned)
+
+        # 3) Thẻ kết thúc — nối vào bằng cắt cứng (không crossfade), giữ cảm
+        #    giác "chốt lại" rõ ràng khi chuyển sang màn hình thương hiệu.
         end_card_path = tmp / "endcard.mp4"
         build_end_card(end_card_lines, end_card_path, tmp)
-        segment_paths.append(end_card_path)
 
-        # 3) Nối các đoạn (concat demuxer — an toàn vì mọi đoạn đã mã hoá
-        #    cùng codec/resolution/fps ở bước cắt).
         concat_list = tmp / "concat.txt"
         concat_list.write_text(
-            "\n".join(f"file '{to_posix(p)}'" for p in segment_paths),
+            "\n".join(f"file '{to_posix(p)}'" for p in [transitioned, end_card_path]),
             encoding="utf-8",
         )
         concatenated = tmp / "concatenated.mp4"
@@ -153,13 +189,31 @@ def build_video(config):
         # 4) Đè chữ caption đúng lúc (dùng textfile để chữ có dấu tiếng Việt
         #    không bị lỗi escape trong ffmpeg filter).
         if captions:
+            # Tính trước mọi mốc bắt đầu, rồi CẮT BỚT mốc kết thúc của mỗi chữ
+            # tại đúng lúc chữ tiếp theo xuất hiện — nếu không, 2 chữ liền
+            # nhau sẽ đè lên nhau trong đúng khoảng crossfade (chữ cũ chưa
+            # kịp tắt thì chữ mới đã hiện).
+            starts_abs = [
+                caption_offsets[cap.get("clip_index", i)] + cap.get("start", 0)
+                for i, cap in enumerate(captions)
+            ]
+            natural_ends = [starts_abs[i] + cap.get("duration", 3) for i, cap in enumerate(captions)]
+            sorted_starts = sorted(starts_abs)
+            ends_abs = []
+            for i in range(len(captions)):
+                end = natural_ends[i]
+                for s in sorted_starts:
+                    if starts_abs[i] < s < end:
+                        end = s
+                        break
+                ends_abs.append(end)
+
             filter_lines = ["[0:v]null[v0]"]
             cur = "v0"
             n_captions = len(captions)
             for i, cap in enumerate(captions):
-                clip_i = cap.get("clip_index", i)
-                start_abs = caption_offsets[clip_i] + cap.get("start", 0)
-                end_abs = start_abs + cap.get("duration", 3)
+                start_abs = starts_abs[i]
+                end_abs = ends_abs[i]
                 txt_file = tmp / f"cap{i}.txt"
                 txt_file.write_text(cap["text"], encoding="utf-8")
                 # đoạn cuối cùng phải xuất ra đúng nhãn [vout] để -map [vout] tìm thấy

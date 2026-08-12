@@ -51,9 +51,9 @@ Túi 0.5kg 65k, túi 1kg 120k, có sẵn giao ngay — cần thì nhắn mình g
 Đặt hàng nhắn Zalo 0979 502 000 — túi 0.5kg 65k, túi 1kg 120k, giao toàn quốc.
 
 *(Video thật 100%, dựng từ 5 clip thật quay tại xưởng: rửa củ → máy nghiền ép bã → lọc tay qua vải
-→ đổ bể lắng → bột lắng dần. File: `content/video/output/quy-trinh-nghien-loc-san-day.mp4` (18s,
-dọc 1080x1920, có chữ đè từng bước + end card Zalo, dựng bằng `make_process_video.py`). Chưa đăng ở
-đâu, dùng được ngay.)*
+→ đổ bể lắng → bột lắng dần. File: `content/video/output/quy-trinh-nghien-loc-san-day.mp4` (~17s,
+dọc 1080x1920, có chữ đè từng bước + end card Zalo, chuyển cảnh mượt/crossfade giữa các đoạn thay vì
+cắt cứng — nâng cấp 12/08, dựng bằng `make_process_video.py`). Chưa đăng ở đâu, dùng được ngay.)*
 
 ---
 

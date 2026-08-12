@@ -68,10 +68,13 @@ bao giờ) và video lò sấy đã dựng xong nhưng mới chỉ nằm trên w
   - TikTok/Reels: đăng riêng `docs/assets/san-day-quy-trinh-say.mp4` kèm caption mới soạn (mục
     "Caption riêng cho video quy trình sấy lò" trong posts_ready.md) — video đã có sẵn, chỉ cần
     đăng, không cần dựng gì thêm.
-  - **Mới dựng 12/08**: `content/video/output/quy-trinh-nghien-loc-san-day.mp4` (18s) — video quy
+  - **Mới dựng 12/08**: `content/video/output/quy-trinh-nghien-loc-san-day.mp4` (~17s) — video quy
     trình nghiền lọc, dựng thật từ 5 clip trong `Hình Ảnh, Video/Sắn Dây/san-day-nghienloc-*` (rửa
-    củ → máy nghiền → lọc tay → bể lắng), kèm caption trong posts_ready.md. Nếu đăng cả 2 video
-    trong tuần, cách nhau vài ngày để không trùng lúc.
+    củ → máy nghiền → lọc tay → bể lắng), chuyển cảnh mượt (crossfade), kèm caption trong
+    posts_ready.md. Nếu đăng cả 2 video trong tuần, cách nhau vài ngày để không trùng lúc.
+  - **Lưu ý**: `content/video/output/quy-trinh-say-san-day.mp4` cũng vừa được dựng lại 12/08 với
+    chuyển cảnh mượt tương tự, nhưng bản đang nhúng trên website (`docs/assets/san-day-quy-trinh-say.mp4`)
+    vẫn là bản cũ (cắt cứng) — chưa đồng bộ, hỏi lại nếu muốn cập nhật cả website.
 
 ## Từ tuần 5 trở đi
 
