@@ -6,6 +6,54 @@ copy-paste đăng thủ công lên Facebook/Zalo/Shopee/TikTok. Sau khi đăng x
 
 ---
 
+## Facebook — Công đoạn nghiền lọc, ít ai thấy (2026-08-12)
+
+🌾 CÔNG ĐOẠN ÍT AI THẤY: NGHIỀN CỦ, LỌC LẤY TỪNG GIỌT TINH BỘT
+
+Củ sắn dây tươi đào về, nhà mình cho vào máy nghiền nát ngay trong ngày, rồi đổ nước vào khuấy,
+lọc qua vải nhiều lượt. Nước bột lúc mới lọc trắng đục ngầu, để lắng một lúc là thấy lớp bột mịn
+đọng dần dưới đáy chậu, nước trong dần lên trên — phải lọc đi lọc lại vài lần mới hết cợn, hết xơ
+củ.
+
+Đây là công đoạn tốn công nhất trong cả quy trình, làm hoàn toàn bằng tay chứ không rút gọn qua
+máy móc — cũng là lý do mỗi mẻ bột ra không được nhiều, nhưng sạch và mịn thật sự.
+
+🔸 Túi 0.5kg: 65.000đ
+🔸 Túi 1kg: 120.000đ
+
+Cần túi nào cứ nhắn Zalo mình chuẩn bị nhé — 0979 502 000, gửi hàng toàn quốc.
+
+*(Ảnh/video thật dùng minh hoạ: `Hình Ảnh, Video/Sắn Dây/san-day-nghienloc-nuoclangcan-*.jpg`,
+`-nuocdanglang-*.jpg`, `-nguoivatloc-*.jpg`, `-khuaybelang-*.jpg`, `-badochauxanh-*.jpg` — công đoạn
+này lần đầu có bài riêng, trước đó chỉ xuất hiện vài giây lồng trong video "hậu trường" ghép nhiều
+cảnh.)*
+
+---
+
+## Zalo — Công đoạn nghiền lọc, ít ai thấy (2026-08-12)
+
+Trưa nay nhà mình đang lọc mẻ bột mới nè 🌾 Nước bột đục lúc đầu, lọc qua vải vài lượt là trong
+dần, bột lắng xuống đáy chậu trắng mịn. Công đoạn này làm tay hết, hơi lâu nhưng sạch.
+
+Túi 0.5kg 65k, túi 1kg 120k, có sẵn giao ngay — cần thì nhắn mình gửi liền nha!
+
+---
+
+## TikTok/Reels — Caption riêng cho video quy trình sấy lò (2026-08-12)
+
+Dùng cho video đã dựng sẵn `docs/assets/san-day-quy-trinh-say.mp4` (= bản gốc
+`content/video/output/quy-trinh-say-san-day.mp4`, 5 clip thật ghép sẵn, đã có chữ đè từng bước +
+end card Zalo) — video này hiện chỉ nhúng trên website, chưa từng đăng riêng lên mạng xã hội.
+
+Caption đăng kèm video:
+
+🌾 Bên trong lò sấy tinh bột sắn dây nhà mình đây ạ — khay nhiều tầng, cài nhiệt độ tự động, sấy
+đều không phải canh nắng như trước nữa.
+
+Túi 0.5kg 65k, túi 1kg 120k — đặt hàng nhắn Zalo 0979 502 000, giao toàn quốc.
+
+---
+
 ## Facebook — Công thức chè sắn dây hạt sen giải nhiệt (2026-08-03)
 
 🌾 TRƯA HÈ NÓNG, NẤU NỒI CHÈ SẮN DÂY HẠT SEN CHO CẢ NHÀ MÁT LÒNG NHÉ!

@@ -53,12 +53,28 @@ trong `posts_ready.md` (để không đăng trùng lần sau).
   (feedback khách nếu đã có, hoặc mượn 1-2 ảnh/video thật chưa dùng trong
   `Hình Ảnh, Video/Sắn Dây/`).
 
-## Từ tuần 4 trở đi
+## Tuần 4
 
-Không lên lịch cứng trước — báo lại khi đăng hết các bài trên, có thể nhờ subagent
-`sales-content-writer` ra loạt bài mới đồng bộ 3 kênh. Giữ nguyên 2 bài Cam Đường Canh nhấn
-VietGAP / chín tự nhiên trên cây (chưa dùng, để dành đúng T9-10/2026 theo Giai đoạn 2 của
-`KE_HOACH_BAN_HANG.md` — đừng đăng sớm hơn, tránh lặp ý với bài "quả non đậu trên cành" ở Tuần 2).
+_Soạn 2026-08-12 — kho 24 bài cũ đến đây gần như hết cho Tinh Bột Sắn Dây, nên 2 mục dưới là nội
+dung MỚI, khai thác góc chưa từng lên bài: công đoạn "nghiền lọc" (có ảnh/video thật, chưa dùng
+bao giờ) và video lò sấy đã dựng xong nhưng mới chỉ nằm trên website, chưa đăng mạng xã hội riêng._
+
+- [ ] **Thứ 3, 25/08/2026**:
+  - Facebook: "Công đoạn ít ai thấy: nghiền củ, lọc lấy từng giọt tinh bột" (trong posts_ready.md)
+  - Zalo: bản ngắn cùng chủ đề (cùng mục ngay dưới bài Facebook)
+- [ ] **Thứ 6, 28/08/2026**:
+  - TikTok/Reels: đăng riêng `docs/assets/san-day-quy-trinh-say.mp4` kèm caption mới soạn (mục
+    "Caption riêng cho video quy trình sấy lò" trong posts_ready.md) — video đã có sẵn, chỉ cần
+    đăng, không cần dựng gì thêm.
+
+## Từ tuần 5 trở đi
+
+Không lên lịch cứng trước — kho bài Sắn Dây mới coi như dùng hết đến đây, còn 1 bài tồn "Thông báo
+hàng có sẵn" (Zalo, 07-03) có thể dùng lấp chỗ nếu cần. Ưu tiên chờ có dữ liệu thật (đơn hàng đầu
+tiên ghi qua app, feedback khách) để bài tiếp theo có góc độ mới thay vì viết thêm bài chung chung.
+Giữ nguyên 2 bài Cam Đường Canh nhấn VietGAP / chín tự nhiên trên cây (chưa dùng, để dành đúng
+T9-10/2026 theo Giai đoạn 2 của `KE_HOACH_BAN_HANG.md` — đừng đăng sớm hơn, tránh lặp ý với bài
+"quả non đậu trên cành" ở Tuần 2).
 
 ## Bài cũ nên bỏ qua hẳn (không đưa vào lịch — đã có bản mới hơn thay thế)
 
