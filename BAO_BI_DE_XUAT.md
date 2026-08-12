@@ -62,8 +62,8 @@ KHÔNG thay thế tư vấn pháp lý chính thức. Nên hỏi cùng lúc khi l
 `GHI_CHU_ATTP.md`) hoặc hỏi đơn vị in tem, tránh phải in lại vì thiếu thông tin._
 
 1. Tên hàng hoá — "Tinh Bột Sắn Dây"
-2. **Tên và địa chỉ cơ sở sản xuất** — hiện vẫn để "CẦN CẬP NHẬT" trên web, **bắt buộc phải có địa
-   chỉ cụ thể trước khi in nhãn thật**
+2. **Tên và địa chỉ cơ sở sản xuất** — đã điền: Thôn Nam Hương, xã Vũ Lăng, tỉnh Lạng Sơn (cập nhật
+   2026-08-12, đã đưa vào `content/nhan_bao_bi/nhan-say-day-500g.svg` và `-1kg.svg`)
 3. Khối lượng tịnh — 500g / 1kg
 4. Ngày sản xuất & hạn sử dụng — nên đóng dấu tay hoặc dán tem phụ riêng (đổi theo từng mẻ), không
    in cố định lên nhãn chính
