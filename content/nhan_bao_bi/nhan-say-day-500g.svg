@@ -4,9 +4,8 @@
   <rect x="0" y="0" width="160" height="45" fill="#c9a877"/>
   <rect x="1" y="1" width="158" height="43" fill="none" stroke="#3e2e10" stroke-width="0.3" opacity="0.4"/>
 
-  <!-- Logo (dùng nguyên bản gốc, scale xuống 34mm) -->
+  <!-- Logo bản nền trong suốt (hoà thẳng vào giấy kraft, xem docs/assets/logo-transparent.svg), scale xuống 34mm -->
   <g transform="translate(13,5.5) scale(0.068)">
-    <circle cx="250" cy="250" r="244" fill="#f3ead9"/>
     <circle cx="250" cy="150" r="98" fill="#e8a33c" opacity="0.08"/>
     <circle cx="250" cy="150" r="92" fill="#e8a33c" opacity="0.12"/>
     <circle cx="250" cy="150" r="68" fill="#e8a33c" opacity="0.2"/>
