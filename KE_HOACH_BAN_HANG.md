@@ -65,46 +65,55 @@ _Cập nhật: 2026-07-03. Xem lại và điều chỉnh khi có số liệu đ�
 4. Cuối mùa, nếu còn tồn, có thể ưu tiên khách quen / giảm nhẹ để bán hết trước khi cam hết mùa
    (không thúc chín trái nên không giữ được lâu ngoài mùa).
 
-## Lộ trình mở rộng kênh bán hàng (trong nước → ngoài nước)
+## Ma trận kênh B2B + B2C, trong nước + nước ngoài (cập nhật 2026-08-12)
 
-_Thêm 2026-07-27. Thứ tự nên làm: chốt xong Tầng 1 → thử Tầng 2 → chỉ nhắm Tầng 3 sau khi có ATTP
-cho Tinh Bột Sắn Dây._
+_Thay cho khung "Tầng 1→2→3 làm tuần tự" cũ — theo yêu cầu triển khai đồng thời, tách theo **cái gì
+làm song song được ngay** vs **cái gì bị luật/thực tế chặn thật, không thể bỏ qua**. Chi tiết từng
+kênh đã tra cứu qua web thật (không đoán), nguồn ghi kèm._
 
-### Tầng 1 — Trong nước, đang có/sắp có (không cần điều kiện gì thêm)
+### Nhóm A — Làm song song ngay, không chờ gì cả
 
-| Kênh | Sản phẩm | Trạng thái |
+| Kênh | Loại | Trạng thái / việc cần làm |
 |---|---|---|
-| Zalo/Facebook cá nhân | Cả 2 | Đang chạy, kênh chính |
-| Website VN | Cả 2 | Live |
-| Shopee/TikTok Shop | Chỉ Sắn Dây | Đã quyết định mở, cần tự đăng ký gian hàng |
+| Zalo/Facebook cá nhân | B2C trong nước | Đang chạy — vấn đề thật là **chưa đăng đều** (xem `LICH_DANG_BAI.md`), không phải thiếu kênh |
+| **Bán sỉ cho quán chè/trà sữa/tiệm bánh** _(kênh mới, chưa khai thác)_ | **B2B trong nước** | Hợp pháp ở quy mô nhỏ lẻ chỉ cần **bản cam kết ATVSTP** với xã, KHÔNG bắt buộc giấy ATTP đầy đủ. Lưu ý định vị: thị trường sỉ chủ yếu bán "bột sắn" (bột năng, ~12-18k/kg) rẻ hơn nhiều "bột sắn dây" nhà mình — phải chào đúng phân khúc cao cấp/thủ công, không cạnh tranh giá với bột năng. Cách tiếp cận: tham gia nhóm Facebook "CHUYÊN SỈ NGUYÊN LIỆU NẤU CHÈ - TRÀ SỮA - PHA CHẾ" / "CHỢ SỈ NGUYÊN LIỆU NẤU CHÈ TRÀ SỮA VÀ ĐỒ ĂN VẶT" chào hàng trực tiếp, giá sỉ đề xuất ~90-110k/kg tuỳ số lượng (ước tính, chưa xác thực) |
+| Yellow Pages Vietnam | B2B nước ngoài | Miễn phí, nhanh — nội dung đã soạn sẵn trong `DANG_KY_THU_MUC_XUAT_KHAU.md`, bạn tự đăng ký |
+| Gọi VIETRADE hỏi điều kiện | B2B nước ngoài | Số đã có: (04) 39 347 628 |
+| Gọi Sở Y tế Lạng Sơn hỏi ATTP có được miễn không | Điều kiện nền cho B2B chính ngạch | Số đã có: (0205) 3.812.258 — xem `GHI_CHU_ATTP.md` |
 
-### Tầng 2 — Trong nước, mở rộng
+### Nhóm B — Cần 1 cuộc gọi xác nhận trước khi bắt tay làm
 
-- **Sàn nông sản Postmart/Voso** (Bưu điện/Viettel Post) — ưu tiên sản phẩm có chứng nhận thật như
-  VietGAP, có hỗ trợ logistics lạnh cho trái tươi. Hợp với **Cam Đường Canh** hơn Shopee vì SLA phù
-  hợp nông sản mùa vụ.
-- **Hội nhóm Facebook đặc sản vùng miền / chợ nông sản sạch** — chi phí gần 0, đăng lại content đã
-  có trong `content/posts_ready.md`, target đúng người tìm nông sản có nguồn gốc rõ ràng.
-- **Đăng ký OCOP tỉnh Lạng Sơn** cho Cam Đường Canh (đã có VietGAP là lợi thế lớn khi xét OCOP) —
-  nếu đạt sao OCOP thì mở thêm cửa vào siêu thị/cửa hàng đặc sản địa phương. Việc nộp hồ sơ bạn cần
-  tự làm, Claude có thể hỗ trợ soạn nội dung mô tả sản phẩm.
-- **Vựa sỉ/chợ đầu mối** tại Hà Nội cho Cam mùa vụ — bán sỉ số lượng lớn cuối mùa để giải phóng tồn
-  kho nhanh (liên quan Giai đoạn 3, mục 4 ở trên).
+| Kênh | Loại | Việc cần xác nhận |
+|---|---|---|
+| **Buudien.vn** (Postmart cũ, đổi tên 31/3/2024, Vietnam Post vẫn vận hành) | B2B/B2C trong nước | **Voso đã ngừng hoạt động từ 2023** — bỏ hẳn khỏi kế hoạch. Buudien.vn còn sống, hotline **1900 565 657**, nongsan.buudien.vn cho hàng cao cấp — gọi hỏi rõ: (1) Tinh Bột Sắn Dây chưa ATTP có đăng ký được không, (2) phí/hoa hồng hiện tại, (3) có hỗ trợ logistics lạnh cho Cam Đường Canh không |
+| **OCOP tỉnh Lạng Sơn** cho Cam Đường Canh | B2B trong nước (mở cửa vào siêu thị/đặc sản) | Nộp online qua `ocop.langson.gov.vn`. Đợt xét toàn quốc: hồ sơ trước 30/4 hoặc 30/10 hàng năm — đợt 2 năm nay còn kịp nếu chuẩn bị sớm. Gọi **Sở Nông nghiệp và Môi trường Lạng Sơn (0205) 3870327 / 3870353** hỏi: đầu mối cấp xã sau khi bỏ cấp huyện (xã Vũ Lăng giờ báo cáo thẳng lên tỉnh), và VietGAP đã có đủ làm minh chứng chưa |
 
-### Tầng 3 — Ngoài nước (dài hạn, có điều kiện tiên quyết)
+### Nhóm C — Thử nghiệm nhỏ trước khi mở rộng (rủi ro thật, không phải chỉ thủ tục)
 
-- **Điều kiện chặn trước hết**: Tinh Bột Sắn Dây cần chứng nhận **ATTP** (cơ sở đủ điều kiện an
-  toàn thực phẩm) trước khi tính đến bất kỳ kênh xuất khẩu nào. Xem thủ tục/hồ sơ chi tiết đã tra
-  cứu sẵn trong `GHI_CHU_ATTP.md` — lưu ý hộ quy mô nhỏ lẻ có thể được MIỄN giấy này theo quy định
-  mới, nên việc đầu tiên là gọi hỏi xác nhận với Chi cục ATVSTP tỉnh Lạng Sơn.
-- **Cộng đồng người Việt ở nước ngoài** (group chợ Việt tại Đức/Nhật/Hàn/Úc...) — kênh "nhẹ" nhất
-  để bắt đầu, chỉ cần Sắn Dây đóng gói tốt + website tiếng Anh làm điểm liên hệ, chưa cần thủ tục
-  hải quan phức tạp như B2B chính ngạch.
-- **B2B chính ngạch (Alibaba, sàn giao dịch nông sản xuất khẩu)** — chỉ mở sau khi có ATTP, và chỉ
-  cho Tinh Bột Sắn Dây (dạng bột khô, dễ vận chuyển xa).
-- **Cam Đường Canh: không theo hướng xuất khẩu trái tươi trong ngắn hạn** — cần thêm giấy kiểm dịch
-  thực vật, chi phí/thủ tục không tương xứng quy mô hộ gia đình hiện tại. Hướng khả thi hơn về sau
-  là **chế biến** (mứt cam, nước cam cô đặc) — dòng sản phẩm mới, chưa tính vội.
+- **Gửi lẻ cho người Việt ở nước ngoài qua VNPost EMS** (B2C xuất khẩu, kênh "nhẹ" không cần ATTP
+  vì không phải xuất khẩu chính ngạch) — **có rủi ro hải quan thật, không phải cứ gửi là được**:
+  - Đức: được phép, miễn giấy tờ nếu ≤2kg/kiện.
+  - Nhật: có ngưỡng miễn kiểm định nếu tổng nhập ≤100kg/năm, nhưng vẫn qua kiểm dịch thực vật tại
+    bưu điện.
+  - Hàn Quốc: hàng có thể bị giữ kiểm tra bởi MFDS.
+  - **Úc: rủi ro cao nhất** — quét máy + chó nghiệp vụ, hàng dễ bị giữ/tiêu huỷ nếu không tra trước
+    điều kiện trên BICON (bicon.agriculture.gov.au).
+  - Mỹ: chưa xác nhận được — cần gọi APHIS (301-851-3300) trước khi gửi lô đầu.
+  - **Cách làm an toàn**: gửi thử 1 kiện <2kg cho người quen ở Đức hoặc Nhật trước (rủi ro thấp
+    nhất), dán đúng tờ khai hải quan CN22/23 ghi rõ "cassava starch / tinh bột sắn dây, thực phẩm",
+    xem có bị giữ không rồi mới tính mở rộng sang Hàn/Úc/Mỹ.
+- **Vựa sỉ/chợ đầu mối** tại Hà Nội cho Cam Đường Canh cuối mùa (B2B trong nước, xem Giai đoạn 3
+  mục 4) — vẫn đúng như kế hoạch cũ.
+
+### Nhóm D — Vẫn bị chặn thật, không thể làm "đồng thời" cùng nhóm A/B/C
+
+- **B2B chính ngạch xuất khẩu (Alibaba, sàn giao dịch nông sản)** — luật yêu cầu ATTP trước, không
+  có cách hợp pháp nào bỏ qua bước này. Chờ kết quả cuộc gọi Sở Y tế (Nhóm A).
+  chi tiết hồ sơ nếu vẫn cần xin giấy: `GHI_CHU_ATTP.md`.
+- **Shopee/TikTok Shop** — không bị luật chặn, chỉ chặn vì cần bạn tự đăng ký tài khoản (đã quyết
+  định mở từ 2026-07-05, vẫn chưa đăng ký).
+- **Cam Đường Canh xuất khẩu trái tươi** — cần giấy kiểm dịch thực vật, không tương xứng quy mô hộ
+  gia đình hiện tại. Hướng khả thi hơn về sau là chế biến (mứt cam, nước cam cô đặc) — chưa tính vội.
 
 ## Giới hạn cần nhớ khi thực hiện
 
@@ -121,5 +130,8 @@ cho Tinh Bột Sắn Dây._
 3. Tự đăng ký gian hàng Shopee/TikTok Shop cho Tinh Bột Sắn Dây (đã quyết định mở — xem Giai đoạn 1,
    mục 5).
 4. Bắt đầu ghi đơn hàng thật ngay khi có, để các báo cáo/cảnh báo tồn kho có ý nghĩa.
-5. Nếu muốn theo đuổi B2B/xuất khẩu sau này: gọi hỏi Chi cục ATVSTP tỉnh Lạng Sơn xem hộ nhà mình
-   có thuộc diện miễn giấy ATTP không (xem `GHI_CHU_ATTP.md` để biết cần hỏi gì/chuẩn bị gì).
+5. Nếu muốn theo đuổi B2B/xuất khẩu sau này: gọi hỏi Sở Y tế tỉnh Lạng Sơn (0205) 3.812.258 xem hộ
+   nhà mình có thuộc diện miễn giấy ATTP không (xem `GHI_CHU_ATTP.md` để biết cần hỏi gì/chuẩn bị gì).
+6. **Mới (2026-08-12)**: gọi hotline Buudien.vn **1900 565 657** hỏi có nhận Tinh Bột Sắn Dây chưa
+   ATTP không + phí; gọi Sở Nông nghiệp và Môi trường Lạng Sơn **(0205) 3870327** hỏi đầu mối OCOP
+   cấp xã sau sáp nhập; thử chào hàng sỉ trong 1-2 nhóm Facebook nguyên liệu pha chế cho quán chè.
