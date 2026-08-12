@@ -72,9 +72,9 @@ bao giờ) và video lò sấy đã dựng xong nhưng mới chỉ nằm trên w
     trình nghiền lọc, dựng thật từ 5 clip trong `Hình Ảnh, Video/Sắn Dây/san-day-nghienloc-*` (rửa
     củ → máy nghiền → lọc tay → bể lắng), chuyển cảnh mượt (crossfade), kèm caption trong
     posts_ready.md. Nếu đăng cả 2 video trong tuần, cách nhau vài ngày để không trùng lúc.
-  - **Lưu ý**: `content/video/output/quy-trinh-say-san-day.mp4` cũng vừa được dựng lại 12/08 với
-    chuyển cảnh mượt tương tự, nhưng bản đang nhúng trên website (`docs/assets/san-day-quy-trinh-say.mp4`)
-    vẫn là bản cũ (cắt cứng) — chưa đồng bộ, hỏi lại nếu muốn cập nhật cả website.
+  - **Cập nhật 12/08**: bản trên website (`docs/assets/san-day-quy-trinh-say.mp4`) đã đồng bộ với
+    bản chuyển cảnh mượt mới — nén lại đúng theo quy cách cũ (540x960, ~650kbps) nên nhẹ hơn bản cũ
+    một chút (1.1MB so với 1.5MB) dù chất lượng hình không đổi.
 
 ## Từ tuần 5 trở đi
 
