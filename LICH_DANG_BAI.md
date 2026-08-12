@@ -60,12 +60,18 @@ dung MỚI, khai thác góc chưa từng lên bài: công đoạn "nghiền lọ
 bao giờ) và video lò sấy đã dựng xong nhưng mới chỉ nằm trên website, chưa đăng mạng xã hội riêng._
 
 - [ ] **Thứ 3, 25/08/2026**:
-  - Facebook: "Công đoạn ít ai thấy: nghiền củ, lọc lấy từng giọt tinh bột" (trong posts_ready.md)
+  - Facebook: "Công đoạn ít ai thấy: nghiền củ, lọc lấy từng giọt tinh bột" (trong posts_ready.md) —
+    kèm 2 ảnh thật mới trích: `docs/assets/san-day-nghienloc-loc-tay.jpg` (tay lọc bột) và
+    `docs/assets/san-day-nghienloc-may-nghien.jpg` (máy nghiền ép bã).
   - Zalo: bản ngắn cùng chủ đề (cùng mục ngay dưới bài Facebook)
-- [ ] **Thứ 6, 28/08/2026**:
+- [ ] **Thứ 6, 28/08/2026** (2 lựa chọn, có thể đăng 1 hoặc cả 2 cách nhau vài ngày):
   - TikTok/Reels: đăng riêng `docs/assets/san-day-quy-trinh-say.mp4` kèm caption mới soạn (mục
     "Caption riêng cho video quy trình sấy lò" trong posts_ready.md) — video đã có sẵn, chỉ cần
     đăng, không cần dựng gì thêm.
+  - **Mới dựng 12/08**: `content/video/output/quy-trinh-nghien-loc-san-day.mp4` (18s) — video quy
+    trình nghiền lọc, dựng thật từ 5 clip trong `Hình Ảnh, Video/Sắn Dây/san-day-nghienloc-*` (rửa
+    củ → máy nghiền → lọc tay → bể lắng), kèm caption trong posts_ready.md. Nếu đăng cả 2 video
+    trong tuần, cách nhau vài ngày để không trùng lúc.
 
 ## Từ tuần 5 trở đi
 

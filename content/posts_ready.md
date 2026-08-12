@@ -23,10 +23,15 @@ máy móc — cũng là lý do mỗi mẻ bột ra không được nhiều, như
 
 Cần túi nào cứ nhắn Zalo mình chuẩn bị nhé — 0979 502 000, gửi hàng toàn quốc.
 
-*(Ảnh/video thật dùng minh hoạ: `Hình Ảnh, Video/Sắn Dây/san-day-nghienloc-nuoclangcan-*.jpg`,
-`-nuocdanglang-*.jpg`, `-nguoivatloc-*.jpg`, `-khuaybelang-*.jpg`, `-badochauxanh-*.jpg` — công đoạn
-này lần đầu có bài riêng, trước đó chỉ xuất hiện vài giây lồng trong video "hậu trường" ghép nhiều
-cảnh.)*
+**Ảnh đính kèm bài (đã trích + nén từ video thật, sửa lại 12/08 — bản trước ghi nhầm đường dẫn
+`.jpg` không tồn tại):**
+- `docs/assets/san-day-nghienloc-loc-tay.jpg` — tay lọc bột qua vải trong chậu, bột khô thành phẩm
+  xếp trên khay phía sau.
+- `docs/assets/san-day-nghienloc-may-nghien.jpg` — máy nghiền đang ép bã ra chậu, cận cảnh rõ máy
+  móc thật.
+
+Công đoạn này lần đầu có bài riêng — trước đó chỉ xuất hiện vài giây lồng trong video "hậu trường"
+ghép nhiều cảnh (mục Tuần 1, Thứ 6).
 
 ---
 
@@ -36,6 +41,19 @@ Trưa nay nhà mình đang lọc mẻ bột mới nè 🌾 Nước bột đục 
 dần, bột lắng xuống đáy chậu trắng mịn. Công đoạn này làm tay hết, hơi lâu nhưng sạch.
 
 Túi 0.5kg 65k, túi 1kg 120k, có sẵn giao ngay — cần thì nhắn mình gửi liền nha!
+
+---
+
+## TikTok/Reels — Video quy trình nghiền lọc (dựng mới 2026-08-12)
+
+🌾 Từ củ tươi đến chậu bột mịn — 4 bước nghiền lọc nhà mình làm mỗi ngày, không giấu công đoạn nào.
+
+Đặt hàng nhắn Zalo 0979 502 000 — túi 0.5kg 65k, túi 1kg 120k, giao toàn quốc.
+
+*(Video thật 100%, dựng từ 5 clip thật quay tại xưởng: rửa củ → máy nghiền ép bã → lọc tay qua vải
+→ đổ bể lắng → bột lắng dần. File: `content/video/output/quy-trinh-nghien-loc-san-day.mp4` (18s,
+dọc 1080x1920, có chữ đè từng bước + end card Zalo, dựng bằng `make_process_video.py`). Chưa đăng ở
+đâu, dùng được ngay.)*
 
 ---
 
