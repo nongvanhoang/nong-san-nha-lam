@@ -76,7 +76,23 @@ bao giờ) và video lò sấy đã dựng xong nhưng mới chỉ nằm trên w
     bản chuyển cảnh mượt mới — nén lại đúng theo quy cách cũ (540x960, ~650kbps) nên nhẹ hơn bản cũ
     một chút (1.1MB so với 1.5MB) dù chất lượng hình không đổi.
 
-## Từ tuần 5 trở đi
+## Tuần 5
+
+_Soạn 2026-08-15 — 2 góc độ MỚI, khai thác ảnh/video thật chưa từng dùng: cảnh vườn (giàn dây leo,
+chưa từng lên bài) và thêm góc thu hoạch máy xúc (khác bài "quy mô thu hoạch" ở Tuần 1, lần này
+nhấn vào kích thước gốc củ). Cả 2 đã dựng sẵn khung thiết kế Canva theo đúng bộ nhận diện, chỉ cần
+kéo ảnh thật vào rồi tải xuống đăng._
+
+- [ ] **Thứ 3, 01/09/2026**:
+  - Facebook: "Giàn sắn dây trước khi đào củ" (trong posts_ready.md) — ảnh
+    `docs/assets/san-day-vuon-toancanh-real.jpg`, khung Canva: https://www.canva.com/d/UPU9JZlj6yo4WUC
+  - Zalo: bản ngắn cùng chủ đề (cùng mục ngay dưới bài Facebook)
+- [ ] **Thứ 6, 04/09/2026**:
+  - Facebook: "Gốc củ to cỡ nào mới cần máy xúc đào" (trong posts_ready.md) — ảnh
+    `docs/assets/san-day-thuhoach-goccu-real.jpg`, khung Canva: https://www.canva.com/d/GyxP4o4A_uuKBjq
+  - Zalo: bản ngắn cùng chủ đề (cùng mục ngay dưới bài Facebook)
+
+## Từ tuần 6 trở đi
 
 Không lên lịch cứng trước — kho bài Sắn Dây mới coi như dùng hết đến đây, còn 1 bài tồn "Thông báo
 hàng có sẵn" (Zalo, 07-03) có thể dùng lấp chỗ nếu cần. Ưu tiên chờ có dữ liệu thật (đơn hàng đầu
