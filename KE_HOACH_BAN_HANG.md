@@ -93,8 +93,11 @@ kênh đã tra cứu qua web thật (không đoán), nguồn ghi kèm._
 - **Gửi lẻ cho người Việt ở nước ngoài qua VNPost EMS** (B2C xuất khẩu, kênh "nhẹ" không cần ATTP
   vì không phải xuất khẩu chính ngạch) — **có rủi ro hải quan thật, không phải cứ gửi là được**:
   - Đức: được phép, miễn giấy tờ nếu ≤2kg/kiện.
-  - Nhật: có ngưỡng miễn kiểm định nếu tổng nhập ≤100kg/năm, nhưng vẫn qua kiểm dịch thực vật tại
-    bưu điện.
+  - Nhật: **(đính chính 2026-08-13)** không có "ngưỡng miễn kiểm 100kg/năm" như ghi trước đây — tra
+    trực tiếp customs.go.jp không thấy căn cứ, con số 100kg chỉ áp dụng riêng cho gạo mang theo hành
+    lý cá nhân. Quy tắc thật dựa trên **mục đích sử dụng** (cá nhân/không kinh doanh mới được miễn
+    khai báo thương mại), không phải theo cân nặng — kiện gửi để bán vẫn phải khai báo và có thể bị
+    kiểm tra dù nhỏ. Vẫn qua kiểm dịch thực vật tại bưu điện.
   - Hàn Quốc: hàng có thể bị giữ kiểm tra bởi MFDS.
   - **Úc: rủi ro cao nhất** — quét máy + chó nghiệp vụ, hàng dễ bị giữ/tiêu huỷ nếu không tra trước
     điều kiện trên BICON (bicon.agriculture.gov.au).

@@ -35,12 +35,19 @@ theo số lượng đặt thực tế (mua càng nhiều, giá càng giảm nh�
 > 📦 Nhận sỉ theo số lượng, đóng gói theo yêu cầu (túi 0.5kg/1kg hoặc đóng bao lớn theo đơn).
 > 💬 Quán nào quan tâm inbox/Zalo mình báo giá theo số lượng cụ thể nhé — 0979 502 000.
 
+**Đăng kèm ảnh/video** (bắt buộc để chuyên nghiệp — bài không ảnh dễ bị lướt qua trong nhóm sỉ):
+- Ảnh: `docs/assets/tinh-bot-san-day-real-01.jpg`, `docs/assets/san-day-banhkhonut-real.jpg`
+- Video (khuyến khích hơn ảnh vì tự động phát khi lướt): `content/video/output/quy-trinh-say-san-day.mp4`
+
 ## Mẫu 2 — Nhắn trực tiếp cho quán chè/trà sữa quen biết
 
 > Chào [tên quán/anh/chị], nhà mình làm tinh bột sắn dây thủ công tại Lạng Sơn, tự lọc và sấy bằng
 > lò sấy riêng, không hoá chất, không tẩy trắng. Đang muốn tìm vài quán chè/trà sữa hợp tác lấy sỉ
 > lâu dài. Nếu [tên quán] đang dùng nguyên liệu này, nhà mình rất muốn gửi mẫu dùng thử trước, ưng
 > thì báo giá sỉ theo số lượng đặt hàng tháng luôn ạ. [tên] có quan tâm không để mình gửi mẫu?
+
+Gửi kèm ngay 1-2 ảnh trong tin nhắn (`docs/assets/tinh-bot-san-day-real-01.jpg` và
+`docs/assets/san-day-nghienloc-loc-tay.jpg`) — đừng chờ họ hỏi mới gửi ảnh.
 
 ## Sau khi có khách sỉ đầu tiên
 
