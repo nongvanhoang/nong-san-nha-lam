@@ -80,17 +80,16 @@ bao giờ) và video lò sấy đã dựng xong nhưng mới chỉ nằm trên w
 
 _Soạn 2026-08-15 — 2 góc độ MỚI, khai thác ảnh/video thật chưa từng dùng: cảnh vườn (giàn dây leo,
 chưa từng lên bài) và thêm góc thu hoạch máy xúc (khác bài "quy mô thu hoạch" ở Tuần 1, lần này
-nhấn vào kích thước gốc củ). Cả 2 đã dựng sẵn khung thiết kế Canva theo đúng bộ nhận diện, chỉ cần
-kéo ảnh thật vào rồi tải xuống đăng._
+nhấn vào kích thước gốc củ). Cả 2 đã dựng xong khung thiết kế Canva theo đúng bộ nhận diện — ảnh
+thật và logo đã chèn sẵn, chỉ cần mở link và tải xuống đăng._
 
 - [ ] **Thứ 3, 01/09/2026**:
-  - Facebook: "Giàn sắn dây trước khi đào củ" (trong posts_ready.md) — ảnh
-    `docs/assets/san-day-vuon-toancanh-real.jpg`, khung Canva: https://www.canva.com/d/UPU9JZlj6yo4WUC
+  - Facebook: "Giàn sắn dây trước khi đào củ" (trong posts_ready.md) — ảnh + logo đã chèn sẵn,
+    khung Canva sẵn sàng tải xuống đăng: https://www.canva.com/d/2tzcazwJLseEloQ
   - Zalo: bản ngắn cùng chủ đề (cùng mục ngay dưới bài Facebook)
 - [ ] **Thứ 6, 04/09/2026** (2 lựa chọn, có thể đăng 1 hoặc cả 2 cách nhau vài ngày):
-  - Facebook: "Gốc củ to cỡ nào mới cần máy xúc đào" (trong posts_ready.md) — ảnh
-    `docs/assets/san-day-thuhoach-goccu-real.jpg`, khung Canva: https://www.canva.com/d/EOx3J3jr_5Sfg0w
-    (link cũ `GyxP4o4A_uuKBjq` đã đổi, dùng link này) — còn thiếu logo và ảnh, cần kéo vào trước khi đăng.
+  - Facebook: "Gốc củ to cỡ nào mới cần máy xúc đào" (trong posts_ready.md) — ảnh + logo đã chèn
+    sẵn, khung Canva sẵn sàng tải xuống đăng: https://www.canva.com/d/EOx3J3jr_5Sfg0w
   - Zalo: bản ngắn cùng chủ đề (cùng mục ngay dưới bài Facebook)
   - **Mới dựng 16/08**: TikTok/Reels — `content/video/output/quy-trinh-dao-cu-may-xuc.mp4` (~15s,
     5 clip thật: đào đất → người phụ đào → bẩy gốc → cận cảnh gốc củ → kéo dây lên), caption trong

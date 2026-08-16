@@ -37,9 +37,8 @@ mình sẽ show dần từng bước cho mọi người xem.
 Cần túi nào nhắn Zalo mình chuẩn bị nhé — 0979 502 000, gửi hàng toàn quốc.
 
 **Ảnh đính kèm**: `docs/assets/san-day-vuon-toancanh-real.jpg` (giàn dây leo + núi đá phía sau,
-trích từ `san-day-vuon-toan-canh-03.mp4`). Đã dựng sẵn khung thiết kế Canva (logo, chữ, giá đúng
-bộ nhận diện) — chỉ cần mở link, kéo ảnh trên vào ô trống rồi tải xuống đăng:
-https://www.canva.com/d/UPU9JZlj6yo4WUC
+trích từ `san-day-vuon-toan-canh-03.mp4`) — đã chèn sẵn vào khung Canva, kèm logo, sẵn sàng tải
+xuống đăng luôn: https://www.canva.com/d/2tzcazwJLseEloQ
 
 ---
 
@@ -66,13 +65,13 @@ Không phải củ nào cũng đào kiểu này, nhưng những gốc to như v�
 Đặt hàng nhắn Zalo 0979 502 000, giao toàn quốc.
 
 **Ảnh đính kèm**: `docs/assets/san-day-thuhoach-goccu-real.jpg` (tay cầm gốc củ to, trích từ
-`san-day-thuhoach-goccu-dinhdat-06.mp4`). Khung Canva đồng bộ với bài trên, chỉ cần kéo ảnh vào:
-https://www.canva.com/d/GyxP4o4A_uuKBjq
+`san-day-thuhoach-goccu-dinhdat-06.mp4`) — đã chèn sẵn vào khung Canva, kèm logo, sẵn sàng tải
+xuống đăng luôn: https://www.canva.com/d/EOx3J3jr_5Sfg0w
 
-Video mở rộng (chưa dựng): còn 4 clip thô cùng chủ đề trong `Hình Ảnh, Video/Sắn Dây/`
-(`san-day-thuhoach-mayxuc-daodat-02.mp4`, `-daodat-conguoi-03.mp4`, `-mayxuc-cotre-05.mp4`,
-`-nguoikeoday-canhmayxuc-07.mp4`) — dựng thành 1 video ngắn kiểu "nghiền lọc" nếu muốn có thêm bản
-video cho TikTok/Reels.
+Video mở rộng: đã dựng xong (xem mục "TikTok/Reels — Video quy trình đào củ bằng máy xúc" ở đầu
+file này) — dùng 4 clip còn lại cùng chủ đề (`san-day-thuhoach-mayxuc-daodat-02.mp4`,
+`-daodat-conguoi-03.mp4`, `-mayxuc-cotre-05.mp4`, `-nguoikeoday-canhmayxuc-07.mp4`), file kết quả
+`content/video/output/quy-trinh-dao-cu-may-xuc.mp4`.
 
 ---
 
