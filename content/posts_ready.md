@@ -6,6 +6,20 @@ copy-paste đăng thủ công lên Facebook/Zalo/Shopee/TikTok. Sau khi đăng x
 
 ---
 
+## TikTok/Reels — Video quy trình đào củ bằng máy xúc (dựng mới 2026-08-16)
+
+🌾 Gốc củ to cỡ nào mới cần máy xúc đào? Từ đào đất đến kéo dây lên — quy trình thật, không dàn dựng.
+
+Đặt hàng nhắn Zalo 0979 502 000 — túi 0.5kg 65k, túi 1kg 120k, giao toàn quốc.
+
+*(Video thật 100%, dựng từ 5 clip thật quay tại vườn: máy xúc đào đất → người nhà phụ đào tay →
+bẩy cả gốc rễ lên → cận cảnh gốc củ dính đất → kéo dây lên. File:
+`content/video/output/quy-trinh-dao-cu-may-xuc.mp4` (~15s, dọc 1080x1920, có chữ đè từng bước +
+end card Zalo, chuyển cảnh crossfade). Chưa đăng ở đâu, dùng được ngay — có thể đăng riêng hoặc
+ghép cùng bài "Gốc củ to cỡ nào mới cần máy xúc đào" (ảnh tĩnh) ở cùng ngày.)*
+
+---
+
 ## Facebook — Giàn sắn dây trước khi đào củ (2026-08-15)
 
 🌾 GIÀN SẮN DÂY NHÀ MÌNH TRƯỚC KHI ĐÀO CỦ

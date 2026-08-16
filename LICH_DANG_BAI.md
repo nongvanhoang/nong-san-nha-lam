@@ -87,10 +87,14 @@ kéo ảnh thật vào rồi tải xuống đăng._
   - Facebook: "Giàn sắn dây trước khi đào củ" (trong posts_ready.md) — ảnh
     `docs/assets/san-day-vuon-toancanh-real.jpg`, khung Canva: https://www.canva.com/d/UPU9JZlj6yo4WUC
   - Zalo: bản ngắn cùng chủ đề (cùng mục ngay dưới bài Facebook)
-- [ ] **Thứ 6, 04/09/2026**:
+- [ ] **Thứ 6, 04/09/2026** (2 lựa chọn, có thể đăng 1 hoặc cả 2 cách nhau vài ngày):
   - Facebook: "Gốc củ to cỡ nào mới cần máy xúc đào" (trong posts_ready.md) — ảnh
-    `docs/assets/san-day-thuhoach-goccu-real.jpg`, khung Canva: https://www.canva.com/d/GyxP4o4A_uuKBjq
+    `docs/assets/san-day-thuhoach-goccu-real.jpg`, khung Canva: https://www.canva.com/d/EOx3J3jr_5Sfg0w
+    (link cũ `GyxP4o4A_uuKBjq` đã đổi, dùng link này) — còn thiếu logo và ảnh, cần kéo vào trước khi đăng.
   - Zalo: bản ngắn cùng chủ đề (cùng mục ngay dưới bài Facebook)
+  - **Mới dựng 16/08**: TikTok/Reels — `content/video/output/quy-trinh-dao-cu-may-xuc.mp4` (~15s,
+    5 clip thật: đào đất → người phụ đào → bẩy gốc → cận cảnh gốc củ → kéo dây lên), caption trong
+    posts_ready.md. Nếu đăng cả ảnh tĩnh lẫn video trong tuần, cách nhau vài ngày để không trùng lúc.
 
 ## Từ tuần 6 trở đi
 
