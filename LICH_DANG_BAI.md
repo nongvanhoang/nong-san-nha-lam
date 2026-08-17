@@ -16,6 +16,14 @@ bên dưới **vẫn đăng được bình thường**, chỉ cần đổi đún
 Sau khi đăng, quay lại tick `[x]` ở dòng dưới đây VÀ đánh dấu `[Đã đăng]` vào đầu tiêu đề bài đó
 trong `posts_ready.md` (để không đăng trùng lần sau).
 
+**Ghi chú 2026-08-17**: rà lại lịch, thấy đã trễ 4 mốc liên tiếp (04/08, 07/08, 11/08, 14/08) —
+đồng thời phát hiện `posts_ready.md` đã có thêm nội dung mới hơn (video đào củ 15-16/08) mà lịch
+này chưa cập nhật, số dòng tham chiếu trong các mục cũ cũng đã lệch vì nội dung mới chèn lên đầu
+file. Quyết định: **bỏ qua mốc 04/08** (2 bài thu hoạch — đã có clip mới hơn 15-16/08 thay thế,
+đăng bài cũ giờ sẽ thấy lạc hậu so với nội dung mới hơn cùng chủ đề). Mốc 07/08, 11/08, 14/08 vẫn
+còn dùng được (công thức/cách dùng không lỗi thời, cam thì chỉ hơi trễ vài ngày không đáng kể) —
+đăng bù dần trong tuần, không cần đúng thứ tự ngày gốc.
+
 ## Tuần 1
 
 - [ ] **Thứ 3, 04/08/2026** — Đợt 1 (đăng đồng thời cả 3, đúng kế hoạch gốc trong
