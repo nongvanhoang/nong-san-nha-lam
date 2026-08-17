@@ -125,9 +125,9 @@ trước. Việc #1 (gọi hỏi ATTP) người dùng tự nhận lo, không c�
 
 | # | Việc | Trạng thái |
 |---|---|---|
-| 1 | Gọi Sở Y tế Lạng Sơn hỏi ATTP có được miễn không | 🔵 User tự lo |
-| 2 | Đăng 2 bài Zalo/Facebook đã soạn sẵn | Chờ đăng |
-| 3 | Chào hàng sỉ quán chè/trà sữa — mẫu có sẵn ở `content/templates/ban_si_quan_che.md` | Nội dung sẵn sàng |
+| 1 | Gọi Sở Y tế Lạng Sơn hỏi ATTP có được miễn không | 🔵 User tự lo, chủ động hoãn lại (không phải bị kẹt) |
+| 2 | Đăng bài Zalo/Facebook theo `LICH_DANG_BAI.md` (Tuần 3-5 đã soạn xong) | Chờ đăng |
+| 3 | Chào hàng sỉ quán chè/trà sữa + đặc sản OCOP Lạng Sơn — 4 tin nhắn điền sẵn tên/SĐT + 1 kịch bản đến tận nơi ở `content/templates/chao_hang_san_sang_gui.md` (soạn 08-17) | Sẵn sàng gửi/đi ngay |
 | 4 | Gọi Buudien.vn hỏi điều kiện — 1900 565 657 | Chưa gọi |
 | 5 | Đăng ký Yellow Pages Vietnam | Chưa đăng ký |
 | 6 | Gọi VIETRADE — (04) 39 347 628 | Chưa gọi |
