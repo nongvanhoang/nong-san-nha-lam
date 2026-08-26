@@ -53,6 +53,11 @@ file PDF gốc hay tên/địa chỉ của 3 thành viên kia lên bất kỳ đ
   shopee_tiktok.md). Sau khi viết xong, hỏi người dùng có muốn lưu vào `content/posts_ready.md` không.
   Khi người dùng muốn nội dung cho NHIỀU kênh cùng lúc từ một yêu cầu, dùng subagent
   `.claude/agents/sales-content-writer.md` thay vì soạn thủ công từng kênh.
+- **Video cho mọi bài (mặc định từ 2026-08-18)**: mỗi bài viết đều nên có video thật đi kèm để đăng
+  đa nền tảng — không cần người dùng nhắc riêng, luôn chủ động tra `Hình Ảnh, Video/` xem có clip
+  thật khớp chủ đề không rồi dựng bằng `content/video/make_process_video.py`. Nếu chủ đề không có
+  clip thật nào khớp (thường gặp ở bài công thức/cách dùng), nói rõ là chỉ có ảnh, không tự dựng/bịa
+  video giả — đây là giới hạn thật của kho tư liệu, không phải lỗi.
 - **Lưu ý môi trường (2026-08-02)**: lệnh `python`/`py` trên máy này không trỏ đúng Python thật (bị Windows Store
   alias/launcher lỗi chặn). Python thật nằm ở `C:\Users\Admin\AppData\Local\Python\bin\python.exe` — dùng đường
   dẫn đầy đủ này khi chạy các script bên dưới, trừ khi người dùng xác nhận đã sửa PATH.

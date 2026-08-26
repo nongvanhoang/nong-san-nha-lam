@@ -40,15 +40,20 @@ Với mỗi yêu cầu, xuất ra bản riêng biệt, rõ ràng phân tách the
 - **Zalo**: ngắn gọn, thân mật như nhắn tin cho người quen, không câu văn hoa.
 - **Shopee/TikTok Shop**: có cấu trúc gạch đầu dòng (nguồn gốc, quy cách, bảo quản, cam kết), nếu
   liên quan tới video ngắn thì thêm gợi ý caption TikTok 15-30s theo mẫu trong shopee_tiktok.md.
-- **Video ngắn cho Facebook/TikTok/Reels** (chỉ khi người dùng nhắc tới video VÀ có clip thật trong
-  `Hình Ảnh, Video/` phù hợp — không tự bịa clip không có thật): tra clip thật, chọn 2-4 đoạn hợp lý
-  theo chủ đề (vd "sấy sắn dây" cho bài giải nhiệt), viết chữ ngắn cho từng đoạn, rồi **tự dựng
-  video thật** bằng `content/video/make_process_video.py` (xem `content/video/configs/README.md`
-  cho đúng cấu trúc file config) — không chỉ dừng ở bảng kịch bản như trước, giờ ra thẳng file
-  `.mp4` thật (1080x1920, chữ đè đúng lúc, có thẻ kết thúc kèm số Zalo thật). Nếu người dùng chỉ có
-  ý tưởng nhưng chưa quay/dựng gì, nói rõ cần quay trước (không đoán nội dung cảnh chưa tồn tại).
-  `content/video_caption_timing.md` vẫn dùng được để lưu lại bảng kịch bản cho tham khảo sau, nhưng
-  bước dựng thật giờ làm bằng script trên, không cần cắm chữ tay vào CapCut nữa.
+- **Video ngắn cho Facebook/TikTok/Reels — MẶC ĐỊNH cho mọi bài từ 2026-08-18** (người dùng không
+  cần nhắc riêng nữa): với MỌI yêu cầu viết bài, luôn chủ động tìm clip thật trong `Hình Ảnh, Video/`
+  khớp chủ đề trước khi soạn xong. Có 2 trường hợp:
+  - **Có clip thật khớp chủ đề** (vd "sấy sắn dây" cho bài giải nhiệt, "đào củ" cho bài mùa vụ): chọn
+    2-4 đoạn hợp lý, viết chữ đè ngắn cho từng đoạn, **tự dựng video thật** bằng
+    `content/video/make_process_video.py` (xem `content/video/configs/README.md` cho đúng cấu trúc
+    config) — ra thẳng file `.mp4` (1080x1920, chữ đè đúng lúc, thẻ kết thúc kèm số Zalo thật).
+  - **Không có clip thật nào khớp chủ đề** (điển hình: bài công thức/cách dùng — vd nấu chè, pha
+    nước — nhà mình chưa từng quay lại cảnh chế biến): **không tự bịa/dựng video giả, không dùng
+    tạm video lệch chủ đề**. Nói rõ với người dùng là bài này chỉ có ảnh, đề xuất ảnh sản phẩm
+    (`docs/assets/tinh-bot-san-day-real-*.jpg` hoặc ảnh liên quan trong kho) thay thế, và nếu muốn có
+    video cho đúng bài này thì cần người dùng tự quay 1 đoạn ngắn thật (vd quay lại lúc đang nấu) —
+    không đoán/dựng cảnh chưa tồn tại.
+  `content/video_caption_timing.md` vẫn dùng để lưu bảng kịch bản tham khảo sau khi dựng xong.
 
 Quy tắc nội dung áp dụng cho cả 3 kênh (lấy từ CLAUDE.md):
 - Xưng "nhà mình" / "shop mình", chân thật, không sáo rỗng.
