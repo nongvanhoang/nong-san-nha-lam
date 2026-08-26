@@ -12,3 +12,8 @@ Hình Ảnh, Video/
 # Video đã xử lý xong (chèn chữ/màu) để tự tải lên TikTok/Reels - không phải asset của website
 content/video_final/
 content/video/output/
+
+# Thư mục làm việc local khi dựng lại website (bản nháp/raw) - bản chính thức đã ở docs/
+web-10k/
+web-10k-raw/
+review/
