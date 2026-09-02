@@ -106,7 +106,8 @@ thật và logo đã chèn sẵn, chỉ cần mở link và tải xuống đăng
 ## Từ tuần 6 trở đi
 
 Không lên lịch cứng trước — kho bài Sắn Dây mới coi như dùng hết đến đây, còn 1 bài tồn "Thông báo
-hàng có sẵn" (Zalo, 07-03) có thể dùng lấp chỗ nếu cần. Ưu tiên chờ có dữ liệu thật (đơn hàng đầu
+hàng có sẵn" (Zalo) **đã làm mới 2026-09-02** — đổi góc độ (quanh năm có sẵn, khác Cam Đường Canh
+theo mùa) và CTA để không lặp bài gần nhất, dùng lấp chỗ nếu cần đăng mà chưa có dữ liệu thật mới. Ưu tiên chờ có dữ liệu thật (đơn hàng đầu
 tiên ghi qua app, feedback khách) để bài tiếp theo có góc độ mới thay vì viết thêm bài chung chung.
 Giữ nguyên 2 bài Cam Đường Canh nhấn VietGAP / chín tự nhiên trên cây (chưa dùng, để dành đúng
 T9-10/2026 theo Giai đoạn 2 của `KE_HOACH_BAN_HANG.md` — đừng đăng sớm hơn, tránh lặp ý với bài

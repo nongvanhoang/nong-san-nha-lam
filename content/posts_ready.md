@@ -442,12 +442,17 @@ Hàng nhà mình làm thủ công, không hoá chất, không tẩy trắng — 
 
 ---
 
-## Zalo — Thông báo hàng có sẵn (2026-07-03)
+## Zalo — Thông báo hàng có sẵn (làm mới 2026-09-02, bản gốc 07-03)
 
-Nhà mình luôn có sẵn tinh bột sắn dây nhà làm ạ 🌾
-Túi 0.5kg: 65.000đ
-Túi 1kg: 120.000đ
-Đặt là giao ngay, ship toàn quốc. Ai cần đặt nhắn mình nha!
+_Làm mới để dùng cho Tuần 6 — kho bài mới đã hết, đây là bài dự phòng duy nhất còn dùng được theo
+`LICH_DANG_BAI.md`. Đổi hook/CTA so với bản gốc và 5 bài Zalo gần nhất (không lặp "đặt là giao
+ngay"/"nhắn mình nha") — chọn góc độ chưa khai thác: khác Cam Đường Canh chỉ bán theo mùa, sắn dây
+có quanh năm._
+
+Có người hỏi mình mùa này còn hàng không — có chứ ạ, khác cam đường canh phải chờ đúng mùa, tinh
+bột sắn dây nhà mình làm quanh năm nên lúc nào đặt cũng có 🌾
+Túi 0.5kg: 65.000đ · Túi 1kg: 120.000đ
+Ai đang cần cứ nhắn mình, không phải đợi đợt nào cả!
 
 ---
 

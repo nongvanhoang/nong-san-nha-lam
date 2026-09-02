@@ -55,6 +55,35 @@ Sau khi gửi xong 1 đợt, báo lại để cập nhật `Trang_thai` trong CS
 | ☐ | Vinbar | 0907 095 295 | nguyên liệu trà sữa 1.001+ sản phẩm, TP.HCM | | |
 | ☐ | Nguyên Liệu Higo | 0903726796 | nguyên liệu pha chế, Thủ Đức TP.HCM | | |
 | ☐ | Tường Vy - Nguyên Liệu Pha Chế | 093 556 37 65 | nguyên liệu pha chế đồ uống, Huế | | |
+| ☐ | Bột Rau Câu Hoàng Yến | (0225) 3576405 | nguyên liệu thực phẩm, Hải Phòng | | |
+| ☐ | Cloudmart (Vũng Tàu) | 086 9009 024 | nguyên liệu pha chế | | |
+| ☐ | Pha Chế Việt (Vũng Tàu) | 1900099949 | nguyên liệu pha chế phân phối | | |
+| ☐ | Lo-Supply (Cần Thơ) | 19004515 | nguyên liệu pha chế | | |
+| ☐ | Hải Yến (Cần Thơ) | 094 565 51 68 | nguyên liệu pha chế | | |
+| ☐ | GLOFOOD (Cần Thơ) | Hotline 028 3803 5555 | nguyên liệu thực phẩm/pha chế | | |
+| ☐ | Nguyên Liệu Pha Chế Và Làm Bánh (Cần Thơ) | 0902.69.39.79 | | | |
+| ☐ | Thu Baker's Mart (Cần Thơ) | 0772 940 644 | | | |
+| ☐ | Copha Coffee (Cần Thơ) | 02923 687 687 | | |
+| ☐ | 179 Baker's Mart (Biên Hòa) | 039 3311 790 | | |
+| ☐ | Nguyên Liệu TINA (Biên Hòa) | 0949 118 446 | | |
+| ☐ | Hải Thuỵ (Biên Hòa) | 0938 379 489 | | |
+| ☐ | Tiến Huỳnh (Biên Hòa) | 0251 7301 968 | | |
+| ☐ | Phép Màu Của Nguyên Liệu (Biên Hòa) | 0973 404 642 | | |
+| ☐ | Anh Khoa (Biên Hòa) | 0937 525 678 | | |
+| ☐ | Pha Chế 168 (Biên Hòa) | 0964 508 690 | | |
+| ☐ | Ngọc Thu Hương (Tiền Giang) | 098 799 92 81 | | |
+| ☐ | Chú Ba (Tiền Giang) | 0975 406 625 | | |
+| ☐ | Hưng Phát (Tiền Giang) | 0396 080 168 | | |
+| ☐ | Lê Vân (Tiền Giang) | 0961 518 718 | | |
+| ☐ | Tâm Khánh (Tiền Giang) | 0823 029 295 | | |
+| ☐ | Anh Đức (An Giang) | 0779828228 | | |
+| ☐ | Khởi Minh (An Giang) | 0981646474 | | |
+| ☐ | LONA MART (An Giang) | 036 80 80 380 | | |
+| ☐ | Tomato Việt Nam (Thái Nguyên) | 0866 482 168 | | |
+| ☐ | Hoàng Hà (Thái Bình) | 0949733777 | | |
+| ☐ | NPP Nguyên Liệu Hồ Tiền (Thái Bình) | 0979.468.963 | | |
+| ☐ | Học Viện Pha Chế Hanabar (Thái Bình) | 0967504616 — chủ yếu đào tạo, hỏi rõ có bán sỉ không | | |
+| ☐ | KOCA Việt Nam (Thái Bình) | 098 793 69 65 | | | |
 
 **Cách tiếp cận riêng (không dùng Khung A y nguyên)**:
 - **Nông Sản Dũng Hà** (0866.918.366 CSKH / 0385.183.683 Kinh doanh) — vừa là đối thủ vừa khách tiềm năng, tiếp cận với vai trò "cung cấp nguyên liệu thô cho họ đóng gói lại", không chào như khách thường.
@@ -105,6 +134,18 @@ Sau khi gửi xong 1 đợt, báo lại để cập nhật `Trang_thai` trong CS
 | ☐ | Song Hà (Cần Thơ) | 0939 15 25 05 | | |
 | ☐ | Nurse Care (Cần Thơ) | 0794 115 265 | | |
 | ☐ | Giúp Việc Phương Nam (Cần Thơ) | 0904 178 049 | | |
+| ☐ | Mommy Spa (Vinh) | 0899 959 997 | | |
+| ☐ | Spa Mère & Bébé (Vinh) | 0949 898 882 | | |
+| ☐ | HomeCare (Vinh) | 0984 820 988 | | |
+| ☐ | Mai Hiên SPA (Vinh) | 0975 437 327 | | |
+| ☐ | Happy Mommy (Vinh) | 0984 998 227 | | |
+| ☐ | Hương Đồng Nội Spa (Vinh) | 0346 570 488 | | |
+| ☐ | VietCare Huế | 0919.35.36.21 | | |
+| ☐ | Mommy Care (Bình Dương) | +84 97 433 59 96 | | |
+| ☐ | Evacare Bình Dương | 0967 920 620 | | |
+| ☐ | Mom Care (Bình Dương) | 0374 725 542 | | |
+| ☐ | Bemom Spa (Bình Dương) | 0902 824 268 | | |
+| ☐ | Thế Giới Mẹ Và Bé Bình Dương | 0915 789 939 | | |
 
 **Chưa có SĐT**: RESTA (chỉ Facebook).
 
@@ -159,6 +200,30 @@ Sau khi gửi xong 1 đợt, báo lại để cập nhật `Trang_thai` trong CS
 | ☐ | Co.op Food (Cần Thơ) | Hotline 1900 555 568 — chuỗi lớn, quy trình có thể phức tạp hơn | | |
 | ☐ | SATRAFOODS (Cần Thơ) | 0911 678 162 — chuỗi lớn, quy trình có thể phức tạp hơn | | |
 
+**⭐ Gần Lạng Sơn nhất — ưu tiên gửi trước, cân nhắc mang mẫu trực tiếp thay vì chỉ gửi bưu điện:**
+
+| ☐ | Thiên An Mart (Bắc Giang) | 0204 6280 267 | | |
+| ☐ | Minh Trang (Bắc Giang) | 0328 184 555 | | |
+| ☐ | Ngôi Nhà Organic Bắc Giang | 0979 940 575 | | |
+| ☐ | Thực phẩm sạch Cá Mập (Bắc Giang) | 0948.780.333 | | |
+| ☐ | Bình Minh 99 (Bắc Ninh) | 0982 212 277 | | |
+| ☐ | Rau Quê (Bắc Ninh) | 0981558818 | | |
+| ☐ | Cô Tấm (Hải Dương) | 0936 888 223 | | |
+| ☐ | F5 Fruit Shop (Hải Dương) | 022 0386 8838 | | |
+| ☐ | HDGreen (Hải Dương) | 0988 978 767 | | |
+| ☐ | Moonmilk (Nha Trang) | 0903561639 | | |
+| ☐ | Sói Biển (Nha Trang) | 0901 903 866 | | |
+| ☐ | Nông Trang Xanh (Quy Nhơn) | 0256 6250 208 | | |
+| ☐ | Family Fruits (Quy Nhơn) | 0965 525 469 | | |
+| ☐ | Green Mart Quy Nhơn | 0983 328 679 | | |
+| ☐ | Tứ Phương (Vinh) | 0963.578.663 | | |
+| ☐ | Tomato Mart (Vinh) | 02388 611 888 | | |
+| ☐ | Green Garden (Vinh) | 0967 323 333 | | |
+| ☐ | Tâm Nguyên (Vinh) | 0238 662 8628 | | |
+| ☐ | Luxuryfoods (Thanh Hóa) | 0237.3228.688 | | |
+| ☐ | Queen Farm (Thanh Hóa) | 0835.512.348 | | |
+| ☐ | HMart (Thanh Hóa) | 0373.751.019 | | |
+
 ## Nhóm K — Đặc sản quà biếu (dùng Khung J/K)
 
 | ☐ | Tên | Liên hệ | Ngày gửi | Kết quả |
@@ -170,6 +235,34 @@ Sau khi gửi xong 1 đợt, báo lại để cập nhật `Trang_thai` trong CS
 | ☐ | Hương Việt (TP.HCM) | (028) 2253 3774 / 0963 313 849 | | |
 | ☐ | Út Hà Đặc Sản (TP.HCM) | 0908 157 675 | | |
 | ☐ | Đặc Sản Chính Gốc | 0394 116 803 | | |
+| ☐ | Vigift (Đà Nẵng) | 0898.200.123 | | |
+| ☐ | Siêu thị Đặc sản Đại Lộc Phát (Đà Nẵng) | 0236 3 750 467 | | |
+| ☐ | Quà Miền Trung (Đà Nẵng) | 0947 086 111 | | |
+| ☐ | Hương Đà (Đà Nẵng) | 0236 393 9495 | | |
+| ☐ | Đặc Sản Đà Nẵng Làm Quà (Đà Nẵng) | 0935 122 618 | | |
+| ☐ | HANIGO (Đà Nẵng) | 0352 649 212 | | |
+| ☐ | Dương Lê (Đà Nẵng) | 0934 717 176 | | |
+| ☐ | Đặc Sản Mộc Truly Hue's | 0902 419 151 (Huế) | | |
+| ☐ | Hue Gourmet | 0931 931 101 (Huế) | | |
+| ☐ | Đặc Sản Huế | 078 218 4525 (Huế) | | |
+| ☐ | Quà Huế Online | 0967 001 006 (Huế) | | |
+| ☐ | Đặc Sản Huế - Nguyên Hà | 0913 790 137 (Huế) | | |
+| ☐ | Tinh Hoa Huế | 0906 555 512 (Huế) | | |
+| ☐ | Lá Quê | 0935088394 (Huế) | | |
+| ☐ | Đặc Sản & Quà Tặng Hải Phòng | +84 91 234 96 39 | | |
+| ☐ | SEAVY (Nha Trang) | 0985559677 | | |
+| ☐ | Apsara Shop (Nha Trang) | 0258 3525 492 | | |
+| ☐ | Cửa hàng hải sản khô số 31 (Nha Trang) | 02583510920 | | |
+| ☐ | Chợ Xóm Mới (Nha Trang) | 02583515364 | | |
+| ☐ | Dalavi (Đà Lạt) | 028.3888.4688 | | |
+| ☐ | Nông Phố (Đà Lạt) | 094.324.5050 | | |
+| ☐ | Berryland (Đà Lạt) | 0927852785 | | |
+| ☐ | Hải sản khô Hai Thắng (Vũng Tàu) | 0902829992 | | |
+| ☐ | Cơ sở Quà Tây Nguyên (BMT) | 0793 677 676 | | |
+| ☐ | Đặc sản Tây Nguyên A Tý (BMT) | 0914 520 008 | | |
+| ☐ | Trinh Quà Tây Nguyên (BMT) | 0932 460 461 | | |
+| ☐ | Trạm quà Vang Danh (BMT) | 078 728 0123 | | |
+| ☐ | Đặc sản Tây Nguyên Bập Bùng (BMT) | 0906 818 602 | | |
 
 ## Nhóm E — Xuất khẩu nhẹ (dùng Khung E, chỉ Nhật + Pháp — CHƯA mở rộng thêm nước)
 
@@ -186,7 +279,7 @@ Sau khi gửi xong 1 đợt, báo lại để cập nhật `Trang_thai` trong CS
 
 ## Tổng kết
 
-**90 lead có nội dung sẵn sàng gửi** (checkbox ở trên, cập nhật 2026-09-02 qua 2 đợt mở rộng có chọn lọc 4 nhóm A/F/J/K sang TP.HCM/Đà Nẵng/Hải Phòng/Cần Thơ/Huế/Nha Trang) + **~15 lead cần cách tiếp cận đặc biệt** (đến trực tiếp/xin nối máy/chưa có liên hệ) đã ghi chú riêng từng nhóm, không đưa vào bảng checkbox.
+**180 lead có nội dung sẵn sàng gửi** (checkbox ở trên, cập nhật 2026-09-02 qua 2 đợt mở rộng có chọn lọc 4 nhóm A/F/J/K sang TP.HCM/Đà Nẵng/Hải Phòng/Cần Thơ/Huế/Nha Trang) + **~15 lead cần cách tiếp cận đặc biệt** (đến trực tiếp/xin nối máy/chưa có liên hệ) đã ghi chú riêng từng nhóm, không đưa vào bảng checkbox.
 
 **Không mở rộng thêm Nhóm B/C/G/H/I/E** — các nhóm này có trần thực tế thấp (thị trường ngách hoặc số lượng đối tượng thật có hạn), mở rộng thêm sẽ phải hạ chuẩn xác minh.
 
