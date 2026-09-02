@@ -59,6 +59,10 @@ này trên các nguồn tìm kiếm được.
 | Nhất An Foods | Nguyên liệu, dụng cụ làm bánh sỉ/lẻ cho nhà hàng, khách sạn | 135 Nguyễn Thượng Hiền, Bình Thạnh, TP.HCM | 0931.847.626, nhatanfoodsvn@gmail.com | [link](https://www.yellowpages.vn/lgs/1187916138/cong-ty-tnhh-thuc-pham-nhat-an.html) |
 | Vũ Phúc Baking | Nguyên-phụ liệu, dụng cụ ngành bánh/pha chế cho cả vùng ĐBSCL | Cái Răng, Cần Thơ | 1900 636 340 / 0919 967 645, contact@vuphucbaking.com, [FB 22.584 thích](https://www.facebook.com/vuphucbaking/) | [link](https://www.vuphucbaking.com/) |
 | Việt Tuấn Tea | Nguyên liệu pha chế/trà giá sỉ | Thanh Xuân, Hà Nội | 0947800758 (Zalo), admin@viettuantea.vn | [link](https://viettuantea.vn/viet-tuan-nguyen-lieu-pha-che-gia-si-ha-noi/) |
+| Vinbar | Nguyên liệu trà sữa giá sỉ, 1.001+ sản phẩm _(mới 2026-09-02)_ | 625 Xô Viết Nghệ Tĩnh, Bình Thạnh, TP.HCM | 0907 095 295 | kết quả tìm kiếm |
+| Nguyên Liệu Higo | Nguyên liệu pha chế _(mới 2026-09-02)_ | Số 7, Đường số 8, KDC Sông Đà, Thủ Đức, TP.HCM | 0903726796 | kết quả tìm kiếm |
+| TOBEE FOOD | Nguyên liệu trà sữa giá rẻ, sỉ toàn quốc _(mới 2026-09-02)_ | 79 Tăng Nhơn Phú, TP. Thủ Đức, TP.HCM | chưa tìm được SĐT, chỉ có địa chỉ | kết quả tìm kiếm |
+| Tường Vy - Nguyên Liệu Pha Chế | Nguyên liệu pha chế đồ uống sỉ/lẻ _(mới 2026-09-02)_ | 82 Bạch Đằng, Phú Xuân, TP Huế | 093 556 37 65 | facebook.com/nguyenlieuphachegiarehue |
 
 **Hội nhóm Facebook mua bán sỉ nguyên liệu** (vào bằng tài khoản Facebook cá nhân để xem/đăng bài):
 - Hội nấu chè và sỉ nguyên liệu nấu chè — https://www.facebook.com/groups/nguyenlieunauche/
@@ -92,6 +96,11 @@ thể (chưa có SĐT công khai, cần đến tận nơi):
 | Chè Ngọc Hiền (Chè Huế 20 Món) | 67 Trần Hưng Đạo, TP Huế | Chuỗi chè cung đình lâu đời, quy mô lớn, bán xuyên Tết | 0948 493 518, [FB](https://www.facebook.com/p/Ng%E1%BB%8Dc-Hi%E1%BB%81n_-Ch%C3%A8-Hu%E1%BA%BF-20-M%C3%B3n-100063747150334/) | [link](https://www.foody.vn/hue/che-ngoc-hien-che-hue-20-mon) |
 | Chè Thái Lệ | 116 Lê Thánh Tôn, P. Thuận Thành, TP Huế | Chè cung đình Huế, dùng bột sắn dây làm thạch/tạo độ sánh | chưa tìm được (đã thử Foody/ShopeeFood/GrabFood) | [link](https://vinwonders.com/vi/wonderpedia/news/top-quan-che-hue-ngon-tru-danh/) |
 | Chè Cung Đình Huế 21 Món | Lê Lợi, P. Phú Hội, TP Huế (tên quán thật, đã xác nhận) | Chuỗi lớn, đa dạng món dùng bột sắn dây | chưa tìm được | [link](https://www.foody.vn/hue/che-cung-dinh-hue-21-mon) |
+
+**Mở rộng Đà Nẵng/TP.HCM (thêm 2026-09-02)**: Chè Liên — chuỗi chè nổi tiếng nhiều cơ sở tại Đà Nẵng
+(hotline 1900 638 057) + 1 chi nhánh TP.HCM (1230 Phạm Văn Đồng, Thủ Đức, 078888 7357). Chuyên chè
+sầu riêng chứ không phải chè sắn dây sẵn — chào hàng theo hướng "mở rộng thêm topping/nguyên liệu
+mới" chứ không giả định họ đã dùng sắn dây.
 
 **Đã loại bỏ khỏi danh sách** (nhầm nguyên liệu): ToCoToCo — trân châu dùng bột sắn/khoai mì
 (cassava), KHÔNG phải sắn dây/kudzu dù tên gây hiểu lầm; bánh sắn Phú Thọ — cũng dùng cassava
@@ -200,6 +209,7 @@ và chờ khách liên hệ, không phải nguồn lead có sẵn để lấy tr
 | Cửa Hàng Việt Nam tại Nhật Bản | Nhật Bản | facebook.com/CuaHangVietNamtaiNhatBan | fetch trực tiếp | Bán đồ tươi/đông lạnh/khô/gia vị Việt |
 | Xuân Shop Việt Nhật | Yokohama, Nhật | facebook.com/xuanshopvietnhatyokohama | kết quả tìm kiếm | Bán lẻ giá gần bằng giá sỉ |
 | Hội Người Việt Nam ở Tokyo Nhật Bản | Tokyo, Nhật | facebook.com/groups/1669187583362213 | kết quả tìm kiếm | Cần vào bằng tài khoản Facebook để xem thêm |
+| Chợ Việt 93 (choviet93.fr) | 93290 Tremblay-en-France, Pháp | ĐT +33 7.6666.3338, Zalo/WhatsApp +33769553489, email linna@choviet93.fr | choviet93.fr, xác minh 2026-09-02 | **Mới 2026-09-02.** Có mục hàng khô riêng (78 sản phẩm) — trước đây Pháp chỉ có tên công ty lớn (Tang Frères) chưa lấy được liên hệ trực tiếp, đây là lead cụ thể đầu tiên có Zalo/WhatsApp, dùng được ngay như 3 shop Nhật |
 
 ### Chợ/trung tâm thương mại Việt kiều thật (điểm ký gửi quy mô lớn)
 
@@ -249,6 +259,15 @@ nhóm khách này chưa từng khai thác trước đây, độ khớp sản ph�
 | Spa Tuệ San | Trung tâm chăm sóc mẹ&bé | Liên Chiểu, Đà Nẵng | 0393 364 128 | [link](https://drt.danang.vn/cham-soc-me-va-be-sau-sinh-da-nang/) |
 | Baby Shark Spa | Trung tâm chăm sóc mẹ&bé | Hải Châu, Đà Nẵng | 0934 710 750 | [link](https://www.facebook.com/babysharkspa.danang/) |
 | Happy Mom | Trung tâm chăm sóc mẹ&bé | Cẩm Lệ, Đà Nẵng | 0982 198 179 | [link](https://drt.danang.vn/cham-soc-me-va-be-sau-sinh-da-nang/) |
+| Family Home Care | Chăm sóc mẹ&bé sau sinh _(mới 2026-09-02)_ | Nha Trang | +84 98 615 03 00 | [FB](https://www.facebook.com/familyhomecare.vn/) |
+| Vietcare | Chăm sóc và làm đẹp sau sinh _(mới 2026-09-02)_ | Hải Phòng | 0975 616 669 / hotline 024 4451 1111 | kết quả tìm kiếm |
+| EvaCare | Chăm sóc mẹ và bé _(mới 2026-09-02)_ | Hải Phòng | 0903 495 357 | kết quả tìm kiếm |
+| Tam Phúc Mom & Baby care | Chăm sóc mẹ và bé _(mới 2026-09-02)_ | 10 Hồ Sen, Lê Chân, Hải Phòng | 0393 806 187 | kết quả tìm kiếm |
+| Mombb Care Spa | Chăm sóc mẹ và bé _(mới 2026-09-02)_ | 130 Hoàng Thiết Tâm, Hải Phòng | 0963 812 023 | kết quả tìm kiếm |
+| Ly House Spa | Chăm sóc sau sinh _(mới 2026-09-02)_ | Cái Răng, Cần Thơ | 0919 624 627 | kết quả tìm kiếm |
+| Song Hà | Chăm sóc mẹ&bé tại nhà _(mới 2026-09-02)_ | Ninh Kiều, Cần Thơ | 0939 15 25 05 | kết quả tìm kiếm |
+| Nurse Care | Chăm sóc sau sinh _(mới 2026-09-02)_ | Cái Răng, Cần Thơ | 0794 115 265 | kết quả tìm kiếm |
+| Giúp Việc Phương Nam | Chăm sóc sau sinh _(mới 2026-09-02)_ | Cần Thơ | 0904 178 049 | kết quả tìm kiếm |
 | RESTA — Cơm ở cữ dinh dưỡng | Dịch vụ cơm cữ chuyên biệt | Hà Nội | chưa có SĐT công khai, chỉ có Facebook | [link](https://www.facebook.com/p/RESTA-C%C6%A1m-%E1%BB%9F-c%E1%BB%AF-dinh-d%C6%B0%E1%BB%A1ng-61563327641921/) |
 
 **Ghi chú thực tế**: thị trường khá phân mảnh, chủ yếu là trung tâm/spa nhỏ độc lập — nguồn nguyên
@@ -326,6 +345,73 @@ trong 1 buổi. Sau đó ghé Sở NN&MT hỏi thủ tục đăng ký OCOP nếu
 OCOP sẽ mở khoá cả mạng lưới điểm bán của tỉnh cùng lúc (không phải đi chào từng điểm một).
 
 ---
+
+## Nhóm J — Cửa hàng thực phẩm sạch/hữu cơ (mới, thêm 2026-09-02)
+
+Nhóm hoàn toàn mới, chưa từng khai thác — khớp định vị "không hoá chất, không tẩy trắng" tự nhiên
+hơn cả Nhóm A (nơi phải cạnh tranh với bột năng rẻ). Các chuỗi này đã quen tiêu chuẩn "sạch/nguồn
+gốc rõ ràng" nên không cần thuyết phục nhiều về khái niệm, chỉ cần chứng minh bằng thật.
+
+| Tên | Khu vực | Liên hệ | Nguồn | Ghi chú |
+|---|---|---|---|---|
+| Nông Sản Ngon | 224B Hoàng Ngân, Trung Hòa, Cầu Giấy, Hà Nội | 04.38.56.8888 | kết quả tìm kiếm 2026-09-02 | Chỉ hợp tác nhà cung cấp uy tín — cần mẫu + minh chứng nguồn gốc rõ khi liên hệ |
+| CleverFood | Liền kề 7 Tràng An Complex, Hà Nội | 096 224 3863 | kết quả tìm kiếm 2026-09-02 | Chưa xác minh quy mô, cần gọi hỏi trực tiếp |
+| Sói Biển | Chuỗi 37 cửa hàng tại Hà Nội | Hotline 1900636326, contact@soibien.vn | soibien.vn, 2026-09-02 | **Số các cửa hàng lẻ tìm được (vd 0963 823 461) là số nhận đơn COD của khách, KHÔNG phải đầu mối nhà cung cấp** — chỉ dùng hotline chung để hỏi quy trình trở thành nhà cung cấp, tránh gọi nhầm số cửa hàng lẻ |
+| Nam An Market | Chuỗi tại TP.HCM (Thảo Điền, Tân Bình, Q1, Q7) | Email **tam.nt@namanmarket.com.vn** (đúng bộ phận đối tác/phát triển sản phẩm), hotline chung 0903.166.228 | namanmarket.com, xác minh 2026-09-02 | Siêu thị thực phẩm cao cấp — định vị "sành ăn", khớp góc độ thủ công/chất lượng cao hơn là góc rẻ |
+
+**Không đưa vào**: Nông Sản Dũng Hà xuất hiện lại trong kết quả tìm kiếm này — đã có sẵn trong
+Nhóm A (ghi chú đặc biệt vừa là đối thủ vừa khách tiềm năng), không thêm trùng ở đây.
+
+### Mở rộng sang TP.HCM + Đà Nẵng (thêm 2026-09-02)
+
+| Tên | Khu vực | Liên hệ | Nguồn |
+|---|---|---|---|
+| Organicfood.vn | 3 chi nhánh TP.HCM (Q2/Q1/Phú Nhuận) | 0287 307 1088 | organicfood.vn |
+| Vườn Xanh Organic | 39 Phạm Viết Chánh, Q1, TP.HCM | 0903 061 509 | kết quả tìm kiếm |
+| Go Green | 385A Cách Mạng T8, Q10, TP.HCM | 096 584 3566, cskh@gogreenvn.com | kết quả tìm kiếm |
+| Organica | Thảo Điền, TP. Thủ Đức (+ chi nhánh HN, Đà Nẵng) | 0911.103.366 | kết quả tìm kiếm |
+| Holand's Mart | Ngũ Hành Sơn + Hải Châu, Đà Nẵng | 0909 568 368 | kết quả tìm kiếm |
+| Tí Garden | Hải Châu, Đà Nẵng | 0901 138 999 | kết quả tìm kiếm |
+| An Phú Farm | 3 chi nhánh Đà Nẵng | 0932 511 555 | anphufarm.com |
+| Organica (chi nhánh Đà Nẵng) | Đà Nẵng | 0901818184 | kết quả tìm kiếm |
+| Minhphufoods | Cái Răng, Cần Thơ | 0796 530 979 | kết quả tìm kiếm |
+| Vietnam VEG | Lê Chân, Hải Phòng | 0936 588 825 | kết quả tìm kiếm |
+| Cánh Buồm Food | Dương Kinh, Hải Phòng | 0904 831 775 | kết quả tìm kiếm |
+| Green Mart 86 | Kiến An, Hải Phòng | 0865 216 191 | kết quả tìm kiếm |
+| Bigfarm | Hải Phòng (4 chi nhánh) | 0904.30.64.68 | kết quả tìm kiếm |
+| Co.op Food (Cần Thơ) | Cần Thơ (4 chi nhánh) | Hotline 1900 555 568 | kết quả tìm kiếm — **chuỗi lớn, quy trình làm nhà cung cấp có thể chính thức/phức tạp hơn cửa hàng nhỏ** |
+| SATRAFOODS (Cần Thơ) | Cần Thơ (8 chi nhánh) | 0911 678 162 | kết quả tìm kiếm — cùng lưu ý chuỗi lớn như trên |
+
+## Nhóm K — Cửa hàng đặc sản vùng miền chuyên quà biếu (mới, thêm 2026-09-02, mở rộng sang TP.HCM cùng ngày)
+
+Khác Nhóm I (điểm bán tại chỗ Lạng Sơn) — đây là cửa hàng ở Hà Nội chuyên gom đặc sản nhiều tỉnh
+thành để bán làm quà biếu, khách hàng đã quen trả giá cao hơn chợ thường cho hàng "quà quê" đóng gói
+đẹp. Vị trí thị trường gần giống Nhóm I nhưng ở thị trường lớn hơn (Hà Nội) thay vì tại chỗ.
+
+| Tên | Khu vực | Liên hệ | Nguồn | Ghi chú |
+|---|---|---|---|---|
+| Nếp Hương | 42 Nguyễn Đình Chiểu, Hà Nội | (024) 63 282 720 | kết quả tìm kiếm 2026-09-02 | Chưa xác minh có ký gửi hàng mới hay chỉ tự nhập |
+| DOGIFOOD | Số 6 Ninh Sơn, Chúc Sơn, Chương Mỹ, Hà Nội | 0986336449 | kết quả tìm kiếm 2026-09-02 | Chưa xác minh mô hình kinh doanh cụ thể |
+| Sành Ăn - Đặc sản vùng miền | A27 Xuân Phương Garden, Trịnh Văn Bô, Nam Từ Liêm, Hà Nội | +84 94 264 74 74 | facebook.com/sanhan.dacsanvungmien, 2026-09-02 | Có trang Facebook riêng, dễ nhắn tin trước khi gọi |
+
+**Không đưa vào**: "Đặc Sản Hà Nội Thanh Phương" xuất hiện trong kết quả tìm kiếm nhưng chỉ có SĐT,
+chưa xác minh thêm gì khác — độ tin cậy thấp hơn 3 mối trên, tạm để riêng, thêm sau nếu 3 mối này
+không có kết quả.
+
+### Mở rộng sang TP.HCM (thêm 2026-09-02)
+
+| Tên | Khu vực | Liên hệ | Nguồn |
+|---|---|---|---|
+| Khonia | 687/12 Lạc Long Quân, Tân Bình, TP.HCM | (028) 3869 1153 / 0902.929.878 | khonia.vn |
+| Hương Việt | Quận 4 + Phú Nhuận, TP.HCM | (028) 2253 3774 / 0963 313 849 | dacsanhuongviet.vn |
+| Út Hà Đặc Sản | Linh Trung, Thủ Đức, TP.HCM | 0908 157 675 | uthadacsan.com |
+| Đặc Sản Chính Gốc | chưa rõ | 0394 116 803 | dacsanchinhgoc.vn |
+
+## Nhóm E mở rộng — Úc (mới, thêm 2026-09-02, RỦI RO CAO — đọc kỹ trước khi dùng)
+
+| Tên | Khu vực | Liên hệ | Nguồn | Ghi chú |
+|---|---|---|---|---|
+| Tran's Oriental Supermarket (kho sỉ) | 358-364 Newcastle Street, Northbridge, WA 6003, Úc | (08) 9228 3099 | foursquare/yelp/o2osell, xác minh chéo 2026-09-02 | Siêu thị châu Á có khu wholesale riêng — nhưng theo `KE_HOACH_BAN_HANG.md`, **Úc là thị trường rủi ro hải quan cao nhất** (máy quét + chó nghiệp vụ). **KHÔNG gửi mẫu tới đây trước khi tự tra BICON (bicon.agriculture.gov.au)** — chỉ nên thử sau khi đã có kết quả tốt ở Nhật/Pháp |
 
 ## Bước tiếp theo gợi ý
 

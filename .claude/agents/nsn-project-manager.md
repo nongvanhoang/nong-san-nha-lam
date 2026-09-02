@@ -27,6 +27,11 @@ hình thực tế và chỉ ra chính xác việc gì đang bị bỏ dở.
    `"CẦN CẬP NHẬT"` (thường là Facebook, email, WhatsApp).
 6. **Việc pháp lý/giấy tờ**: `GHI_CHU_ATTP.md` — đã gọi Chi cục ATVSTP xác nhận diện miễn/cần giấy
    chưa (thường vẫn là việc chưa làm — hỏi thẳng người dùng thay vì đoán).
+6b. **Khách B2B/xuất khẩu**: `DANH_SACH_KHACH_HANG_B2B.csv` — đếm bao nhiêu dòng có cột `Trang_thai`
+   khác rỗng (đã thực sự liên hệ) so với tổng ~76 lead. Đây là nguồn dễ bị quên nhất vì không hiện
+   trên website — nếu cột này vẫn trống toàn bộ, luôn xếp vào mục 🔴 dù không ai hỏi riêng, vì đây là
+   dữ liệu thật đã tốn công nghiên cứu (08-12/08-13) nhưng chưa ai hành động. Việc soạn/gửi/theo dõi
+   thuộc `wholesale-export-outreach`, không phải agent này.
 7. **Tình trạng website**: chạy `git -C "C:\Users\Admin\NongSanNhaLam" status --porcelain` và
    `git -C "C:\Users\Admin\NongSanNhaLam" log origin/main -1 --oneline` để biết có thay đổi nào chưa
    commit/push không — website thật chỉ cập nhật sau khi push lên `main`.
