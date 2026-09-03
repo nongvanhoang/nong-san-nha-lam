@@ -1,6 +1,6 @@
 {
   "brand": "Nông Sản Nhà Làm",
-  "updated_at": "2026-07-02",
+  "updated_at": "2026-09-03",
   "products": [
     {
       "id": "tinh-bot-san-day",
@@ -11,12 +11,12 @@
         {
           "unit": "kg",
           "package": "túi 0.5kg",
-          "price_vnd": 65000
+          "price_vnd": 80000
         },
         {
           "unit": "kg",
           "package": "túi 1kg",
-          "price_vnd": 120000
+          "price_vnd": 155000
         }
       ],
       "stock_note": "Luôn có sẵn, đặt là giao ngay"

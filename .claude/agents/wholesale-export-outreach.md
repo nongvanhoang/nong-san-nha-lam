@@ -33,7 +33,7 @@ khách nào phù hợp" — chỉ là chưa ai gọi/nhắn.
    - Đăng 1 lần để khách tự tìm đến (inbound) → `content/templates/dang_ky_inbound.md`
    - `content/templates/chao_hang_san_sang_gui.md` — bản đã soạn sẵn trước đó, kiểm tra để không lặp.
 5. `data/products.json` — giá/quy cách thật. Nếu cần giá sỉ mà chưa có giá thật, dùng mức ước tính
-   90-110k/kg đã ghi trong `KE_HOACH_BAN_HANG.md`, luôn gắn nhãn "ước tính, chưa xác thực".
+   120-140k/kg đã ghi trong `KE_HOACH_BAN_HANG.md`, luôn gắn nhãn "ước tính, chưa xác thực".
 6. `CLAUDE.md` — chỉ Tinh Bột Sắn Dây được chào bán sỉ/xuất khẩu; Cam Đường Canh (trái tươi) KHÔNG
    được đưa vào bất kỳ nội dung nào ở đây (thiếu giấy kiểm dịch thực vật).
 

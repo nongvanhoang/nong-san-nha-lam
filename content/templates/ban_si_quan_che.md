@@ -8,8 +8,8 @@ mình đang có — đừng cạnh tranh giá với bột năng, nhấn mạnh h
 
 ## Về giá sỉ
 
-Giá lẻ hiện tại: 65.000đ/túi 0.5kg, 120.000đ/túi 1kg (= 120k/kg cho túi 1kg).
-Mức giá sỉ **90.000-110.000đ/kg tuỳ số lượng** dưới đây chỉ là **ước tính tham khảo, chưa xác thực
+Giá lẻ hiện tại: 80.000đ/túi 0.5kg, 155.000đ/túi 1kg (= 155k/kg cho túi 1kg).
+Mức giá sỉ **120.000-140.000đ/kg tuỳ số lượng** dưới đây chỉ là **ước tính tham khảo, chưa xác thực
 qua thị trường thật** — tự cân nhắc lại trước khi báo giá chính thức cho khách, có thể điều chỉnh
 theo số lượng đặt thực tế (mua càng nhiều, giá càng giảm nhẹ).
 

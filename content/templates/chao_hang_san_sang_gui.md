@@ -36,7 +36,7 @@ Gửi kèm 1-2 ảnh: `docs/assets/tinh-bot-san-day-real-01.jpg` và
 > nên nhà mình rất muốn gửi mẫu dùng thử trước, ưng thì báo giá sỉ theo số lượng đặt hàng tháng luôn
 > ạ. Anh/chị có quan tâm không để mình gửi mẫu (ship từ Lạng Sơn vào Huế)?
 
-_Lưu ý giá sỉ 90-110k/kg vẫn chỉ là ước tính tham khảo (xem `ban_si_quan_che.md`) — nếu họ hỏi giá
+_Lưu ý giá sỉ 120-140k/kg vẫn chỉ là ước tính tham khảo (xem `ban_si_quan_che.md`) — nếu họ hỏi giá
 ngay, có thể báo khoảng này, chốt số cụ thể sau khi biết số lượng đặt._
 
 ---

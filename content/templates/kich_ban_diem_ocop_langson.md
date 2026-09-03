@@ -31,7 +31,7 @@ quen bán "tinh bột đặc sản làm quà".
 ### Mang theo
 
 - 2-3 gói mẫu nhỏ (đã có nhãn in sẵn từ `content/nhan_bao_bi/nhan-say-day-500g.svg`).
-- Bảng giá thật: túi 0,5kg = 65.000đ · túi 1kg = 120.000đ (không đưa giá sỉ tại chỗ nếu chưa rõ hình
+- Bảng giá thật: túi 0,5kg = 80.000đ · túi 1kg = 155.000đ (không đưa giá sỉ tại chỗ nếu chưa rõ hình
   thức hợp tác — hỏi trước, tính sau).
 - Số Zalo/WhatsApp thật (+84 363 589 920) để họ liên hệ lại.
 

@@ -31,7 +31,7 @@ khớp quy trình sấy lò hiện tại, video vẫn dùng bình thường.
 | 0:00–0:05 | Nước tinh bột lắng, lọc qua vải | **TỪ NƯỚC BỘT LẮNG TRONG...** |
 | 0:05–0:10 | Xếp bột ướt lên khay đem sấy | **...ĐẾN KHI SẤY BẰNG LÒ SẤY CHUYÊN DỤNG** |
 | 0:10–0:13 | Cận cảnh bột khô vụn, thành phẩm | Không hoá chất, không tẩy trắng |
-| 0:13–0:15.5 | Giữ nguyên khung hình cuối / logo | **Túi 0.5kg: 65.000đ · Túi 1kg: 120.000đ**<br>Đặt hàng: Zalo 0979 502 000 |
+| 0:13–0:15.5 | Giữ nguyên khung hình cuối / logo | **Túi 0.5kg: 80.000đ · Túi 1kg: 155.000đ**<br>Đặt hàng: Zalo 0979 502 000 |
 
 ## Video 3 — Quy trình sấy mới (`quy-trinh-say-san-day.mp4`, 18.5s, dựng 2026-08-11)
 

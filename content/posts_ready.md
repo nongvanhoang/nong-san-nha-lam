@@ -10,7 +10,7 @@ copy-paste đăng thủ công lên Facebook/Zalo/Shopee/TikTok. Sau khi đăng x
 
 🌾 Gốc củ to cỡ nào mới cần máy xúc đào? Từ đào đất đến kéo dây lên — quy trình thật, không dàn dựng.
 
-Đặt hàng nhắn Zalo 0979 502 000 — túi 0.5kg 65k, túi 1kg 120k, giao toàn quốc.
+Đặt hàng nhắn Zalo 0979 502 000 — túi 0.5kg 80k, túi 1kg 155k, giao toàn quốc.
 
 *(Video thật 100%, dựng từ 5 clip thật quay tại vườn: máy xúc đào đất → người nhà phụ đào tay →
 bẩy cả gốc rễ lên → cận cảnh gốc củ dính đất → kéo dây lên. File:
@@ -31,8 +31,8 @@ xịt gì thêm ngoài chăm bón tự nhiên.
 Từ giàn dây này đến túi bột trắng mịn là cả một quá trình — đào củ, nghiền lọc, sấy khô, đóng gói,
 mình sẽ show dần từng bước cho mọi người xem.
 
-🔸 Túi 0.5kg: 65.000đ
-🔸 Túi 1kg: 120.000đ
+🔸 Túi 0.5kg: 80.000đ
+🔸 Túi 1kg: 155.000đ
 
 Cần túi nào nhắn Zalo mình chuẩn bị nhé — 0979 502 000, gửi hàng toàn quốc.
 
@@ -44,8 +44,8 @@ xuống đăng luôn: https://www.canva.com/d/2tzcazwJLseEloQ
 
 ## Zalo — Giàn sắn dây trước khi đào củ (2026-08-15)
 
-Giàn sắn dây nhà mình đây ạ 🌾 Để tự nhiên cả năm mới đào, không phun xịt gì thêm. Túi 0.5kg 65k,
-túi 1kg 120k, có sẵn giao ngay — cần thì nhắn mình nha!
+Giàn sắn dây nhà mình đây ạ 🌾 Để tự nhiên cả năm mới đào, không phun xịt gì thêm. Túi 0.5kg 80k,
+túi 1kg 155k, có sẵn giao ngay — cần thì nhắn mình nha!
 
 ---
 
@@ -59,8 +59,8 @@ gốc.
 
 Không phải củ nào cũng đào kiểu này, nhưng những gốc to như vậy mới cho ra được nhiều bột nhất.
 
-🔸 Túi 0.5kg: 65.000đ
-🔸 Túi 1kg: 120.000đ
+🔸 Túi 0.5kg: 80.000đ
+🔸 Túi 1kg: 155.000đ
 
 Đặt hàng nhắn Zalo 0979 502 000, giao toàn quốc.
 
@@ -78,7 +78,7 @@ file này) — dùng 4 clip còn lại cùng chủ đề (`san-day-thuhoach-mayx
 ## Zalo — Gốc củ to cỡ nào mới cần máy xúc đào (2026-08-15)
 
 Gốc củ to thế này máy xúc mới bẩy nổi 😄 Đào xong là bắt tay nghiền lọc luôn trong ngày cho bột
-tươi nhất. Túi 0.5kg 65k, túi 1kg 120k — cần thì nhắn mình gửi liền!
+tươi nhất. Túi 0.5kg 80k, túi 1kg 155k — cần thì nhắn mình gửi liền!
 
 ---
 
@@ -94,8 +94,8 @@ củ.
 Đây là công đoạn tốn công nhất trong cả quy trình, làm hoàn toàn bằng tay chứ không rút gọn qua
 máy móc — cũng là lý do mỗi mẻ bột ra không được nhiều, nhưng sạch và mịn thật sự.
 
-🔸 Túi 0.5kg: 65.000đ
-🔸 Túi 1kg: 120.000đ
+🔸 Túi 0.5kg: 80.000đ
+🔸 Túi 1kg: 155.000đ
 
 Cần túi nào cứ nhắn Zalo mình chuẩn bị nhé — 0979 502 000, gửi hàng toàn quốc.
 
@@ -116,7 +116,7 @@ ghép nhiều cảnh (mục Tuần 1, Thứ 6).
 Trưa nay nhà mình đang lọc mẻ bột mới nè 🌾 Nước bột đục lúc đầu, lọc qua vải vài lượt là trong
 dần, bột lắng xuống đáy chậu trắng mịn. Công đoạn này làm tay hết, hơi lâu nhưng sạch.
 
-Túi 0.5kg 65k, túi 1kg 120k, có sẵn giao ngay — cần thì nhắn mình gửi liền nha!
+Túi 0.5kg 80k, túi 1kg 155k, có sẵn giao ngay — cần thì nhắn mình gửi liền nha!
 
 ---
 
@@ -124,7 +124,7 @@ Túi 0.5kg 65k, túi 1kg 120k, có sẵn giao ngay — cần thì nhắn mình g
 
 🌾 Từ củ tươi đến chậu bột mịn — 4 bước nghiền lọc nhà mình làm mỗi ngày, không giấu công đoạn nào.
 
-Đặt hàng nhắn Zalo 0979 502 000 — túi 0.5kg 65k, túi 1kg 120k, giao toàn quốc.
+Đặt hàng nhắn Zalo 0979 502 000 — túi 0.5kg 80k, túi 1kg 155k, giao toàn quốc.
 
 *(Video thật 100%, dựng từ 5 clip thật quay tại xưởng: rửa củ → máy nghiền ép bã → lọc tay qua vải
 → đổ bể lắng → bột lắng dần. File: `content/video/output/quy-trinh-nghien-loc-san-day.mp4` (~17s,
@@ -144,7 +144,7 @@ Caption đăng kèm video:
 🌾 Bên trong lò sấy tinh bột sắn dây nhà mình đây ạ — khay nhiều tầng, cài nhiệt độ tự động, sấy
 đều không phải canh nắng như trước nữa.
 
-Túi 0.5kg 65k, túi 1kg 120k — đặt hàng nhắn Zalo 0979 502 000, giao toàn quốc.
+Túi 0.5kg 80k, túi 1kg 155k — đặt hàng nhắn Zalo 0979 502 000, giao toàn quốc.
 
 ---
 
@@ -161,8 +161,8 @@ Cách làm đơn giản, ai cũng nấu được:
 Tinh bột sắn dây nhà mình lọc thủ công, sấy bằng lò sấy riêng, không hoá chất, không tẩy trắng, nấu lên sánh
 mịn, thơm tự nhiên đúng vị.
 
-🔸 Túi 0.5kg: 65.000đ
-🔸 Túi 1kg: 120.000đ
+🔸 Túi 0.5kg: 80.000đ
+🔸 Túi 1kg: 155.000đ
 
 Đặt hàng nhắn Zalo 0979 502 000 nhé, giao hàng toàn quốc 🍊
 
@@ -175,7 +175,7 @@ mịn, thơm tự nhiên đúng vị.
 Sắn dây nhà mình lọc thủ công, sấy bằng lò sấy riêng, hoà nước lạnh cho tan rồi đổ vào nồi đường phèn đang sôi, khuấy
 đều đến khi sánh trong, thêm hạt sen là xong nồi chè mát lành cho cả nhà 🍊
 
-Túi 0.5kg 65k, túi 1kg 120k — cần thì nhắn mình gửi liền, giao toàn quốc nha!
+Túi 0.5kg 80k, túi 1kg 155k — cần thì nhắn mình gửi liền, giao toàn quốc nha!
 
 ---
 
@@ -217,8 +217,8 @@ món giải nhiệt quen thuộc mùa hè.
 
 Tất cả đều dùng tinh bột sắn dây nhà làm 100%, không hoá chất, không tẩy trắng 🌾
 
-🔸 Túi 0.5kg: 65.000đ
-🔸 Túi 1kg: 120.000đ
+🔸 Túi 0.5kg: 80.000đ
+🔸 Túi 1kg: 155.000đ
 
 Đặt hàng nhắn Zalo: 0979 502 000 — giao hàng toàn quốc nhé!
 
@@ -251,8 +251,8 @@ không để qua đêm, không thu mua lại củ ở đâu khác.
 Đúng nghĩa "nhà làm" từ khâu đầu tiên: tự trồng, tự đào, tự chế biến. Video thật quay tại vườn
 nhà mình, không dàn dựng.
 
-🔸 Túi 0.5kg: 65.000đ
-🔸 Túi 1kg: 120.000đ
+🔸 Túi 0.5kg: 80.000đ
+🔸 Túi 1kg: 155.000đ
 
 Đặt hàng nhắn Zalo: 0979 502 000 — giao hàng toàn quốc nhé!
 
@@ -275,7 +275,7 @@ TikTok/Reels). Ghép từ:
 
 Chữ chốt cũ (KHÔNG dùng nữa vì nhắc "nắng"): ~~"Tinh bột sắn dây nhà làm 100% — nắng lên là phơi,
 không vội"~~ — đổi thành: "Tinh bột sắn dây nhà làm — lọc tay, sấy bằng lò sấy chuyên dụng, không
-hoá chất" + giá 2 loại túi (65k/0.5kg, 120k/1kg) + "Đặt hàng: nhắn Zalo 0979 502 000".
+hoá chất" + giá 2 loại túi (80k/0.5kg, 155k/1kg) + "Đặt hàng: nhắn Zalo 0979 502 000".
 
 *(Bài TikTok cũ ngày 2026-07-05 bên dưới chỉ là kịch bản dự kiến lúc chưa có clip thật — có thể
 xoá, video này đã thay thế. Ngoài ra từ 2026-08-11 còn có video mới "quy-trinh-say-san-day.mp4"
@@ -288,7 +288,7 @@ thay hoặc dùng thêm cho bài khác.)*
 
 Nhà mình vừa quay lại toàn bộ quy trình làm tinh bột sắn dây — từ lúc đào củ đến khi ra bột khô,
 video thật 100% ạ 🌾 Mọi người ghé fanpage/web xem cho vui, có gì thắc mắc cứ nhắn mình nha.
-Hàng vẫn luôn có sẵn: túi 0.5kg 65k, túi 1kg 120k.
+Hàng vẫn luôn có sẵn: túi 0.5kg 80k, túi 1kg 155k.
 
 ---
 
@@ -306,8 +306,8 @@ mảng bột khô trắng vụn ra — tất cả đều quay thật tại nhà,
 
 Làm thủ công nên hơi chậm, nhưng đổi lại là bột trắng tự nhiên, không hoá chất, không tẩy trắng.
 
-🔸 Túi 0.5kg: 65.000đ
-🔸 Túi 1kg: 120.000đ
+🔸 Túi 0.5kg: 80.000đ
+🔸 Túi 1kg: 155.000đ
 
 Đặt hàng nhắn Zalo: 0979 502 000 — giao hàng toàn quốc nhé!
 
@@ -388,8 +388,8 @@ nay bật mí luôn quy trình:
 Cả nhà cùng làm, cùng canh nắng, cùng đóng gói — nên mỗi túi ra đời đều có công sức thật ở
 trong đó 💛
 
-🔸 Túi 0.5kg: 65.000đ
-🔸 Túi 1kg: 120.000đ
+🔸 Túi 0.5kg: 80.000đ
+🔸 Túi 1kg: 155.000đ
 
 Đặt hàng nhắn Zalo: 0979 502 000 — giao hàng toàn quốc nhé!
 
@@ -418,8 +418,8 @@ Nhà mình tự tay lọc tinh bột sắn dây, sấy bằng lò sấy chuyên 
 không chất tẩy trắng, đóng gói khi bột đã khô hoàn toàn.
 
 Giá:
-🔸 Túi 0.5kg: 65.000đ
-🔸 Túi 1kg: 120.000đ
+🔸 Túi 0.5kg: 80.000đ
+🔸 Túi 1kg: 155.000đ
 
 Mùa hè pha 1 ly sắn dây mát lạnh, nấu chè cũng ngon, cả nhà ai cũng thích 💛
 
@@ -435,8 +435,8 @@ Cách pha đơn giản: 1-2 thìa tinh bột sắn dây + chút đường + nư�
 ly nước giải nhiệt mát lành. Thích ăn kiểu sệt thì nấu chè sắn dây với đậu xanh cũng hợp.
 
 Hàng nhà mình làm thủ công, không hoá chất, không tẩy trắng — có sẵn giao ngay:
-🔸 Túi 0.5kg: 65.000đ
-🔸 Túi 1kg: 120.000đ
+🔸 Túi 0.5kg: 80.000đ
+🔸 Túi 1kg: 155.000đ
 
 Đặt hàng nhắn Zalo: 0979 502 000
 
@@ -451,7 +451,7 @@ có quanh năm._
 
 Có người hỏi mình mùa này còn hàng không — có chứ ạ, khác cam đường canh phải chờ đúng mùa, tinh
 bột sắn dây nhà mình làm quanh năm nên lúc nào đặt cũng có 🌾
-Túi 0.5kg: 65.000đ · Túi 1kg: 120.000đ
+Túi 0.5kg: 80.000đ · Túi 1kg: 155.000đ
 Ai đang cần cứ nhắn mình, không phải đợi đợt nào cả!
 
 ---
@@ -461,7 +461,7 @@ Ai đang cần cứ nhắn mình, không phải đợi đợt nào cả!
 **Tinh Bột Sắn Dây Nhà Làm - Thủ công tại nhà, không hoá chất**
 
 ✅ Nguồn gốc: tự lọc thủ công, sấy bằng lò sấy chuyên dụng tại nhà
-✅ Quy cách: túi 0.5kg (65.000đ) hoặc túi 1kg (120.000đ)
+✅ Quy cách: túi 0.5kg (80.000đ) hoặc túi 1kg (155.000đ)
 ✅ Bảo quản: nơi khô ráo, thoáng mát, tránh ẩm
 ✅ Cam kết: hàng thật như mô tả, luôn có sẵn giao ngay, ship toàn quốc
 
