@@ -34,12 +34,14 @@ MEDIA_ROOT = ROOT / "Hình Ảnh, Video"
 OUTPUT_DIR = HERE / "output"
 WIDTH, HEIGHT, FPS = 1080, 1920, 30
 
-FONT_BOLD = "C:/Windows/Fonts/arialbd.ttf"
-FONT_REG = "C:/Windows/Fonts/arial.ttf"
+FONT_BOLD = "C:/Windows/Fonts/cambriab.ttf"  # đổi từ Arial sang Cambria — đúng bộ nhận diện thương hiệu
+FONT_REG = "C:/Windows/Fonts/cambriab.ttf"
 LOGO = ROOT / "docs" / "assets" / "icon-512.png"
 
 END_CARD_SECONDS = 3.0
 TRANSITION_SECONDS = 0.35  # crossfade mượt giữa các clip quy trình (không áp dụng vào thẻ kết thúc)
+ZOOM_START = 1.12  # phóng nhẹ rồi zoom in dần trong mỗi đoạn clip, bớt cảm giác đứng yên
+TEXT_FADE_SECONDS = 0.25  # chữ đè fade in/out thay vì bật/tắt cứng
 
 
 def esc_filter_path(p):
@@ -62,12 +64,20 @@ def run(cmd):
 
 def trim_clip(src, start, duration, out_path):
     """Cắt 1 đoạn từ clip thật, resize/crop phủ kín khung 1080x1920, mã hoá
-    thống nhất để nối (concat) an toàn ở bước sau."""
+    thống nhất để nối (concat) an toàn ở bước sau. Zoom nhẹ cố định (ZOOM_START)
+    để khung hình chặt/có chủ đích hơn, bớt khoảng trống rìa ảnh — đã thử zoom
+    ĐỘNG (phóng to dần theo thời gian) nhưng bản ffmpeg trên máy này không hỗ
+    trợ eval=frame cho crop filter nên dùng bản tĩnh, chắc chắn chạy được."""
+    ow, oh = round(WIDTH * ZOOM_START), round(HEIGHT * ZOOM_START)
+    ow += ow % 2
+    oh += oh % 2
     cmd = [
         "ffmpeg", "-y",
         "-ss", str(start), "-t", str(duration), "-i", str(src),
-        "-vf", f"scale={WIDTH}:{HEIGHT}:force_original_aspect_ratio=increase,"
-               f"crop={WIDTH}:{HEIGHT},setsar=1,fps={FPS}",
+        "-vf", (
+            f"scale={ow}:{oh}:force_original_aspect_ratio=increase,"
+            f"crop={WIDTH}:{HEIGHT},setsar=1,fps={FPS}"
+        ),
         "-an",
         "-c:v", "libx264", "-pix_fmt", "yuv420p",
         str(out_path),
@@ -89,7 +99,7 @@ def build_end_card(text_lines, out_path, tmp):
             f"[0:v][logo]overlay=(W-w)/2:260[bg];"
             f"[bg]drawtext=fontfile='{esc_filter_path(FONT_BOLD)}':"
             f"textfile='{esc_filter_path(lines_txt)}':fontcolor=white:fontsize=44:"
-            f"line_spacing=14:x=(w-text_w)/2:y=680[vout]"
+            f"line_spacing=14:x=(w-text_w)/2:y=680:alpha='min(1,t/0.4)'[vout]"
         )
         cmd += ["-filter_complex", filter_complex, "-map", "[vout]"]
     else:
@@ -97,7 +107,7 @@ def build_end_card(text_lines, out_path, tmp):
             "-vf",
             f"drawtext=fontfile='{esc_filter_path(FONT_BOLD)}':"
             f"textfile='{esc_filter_path(lines_txt)}':fontcolor=white:fontsize=44:"
-            f"line_spacing=14:x=(w-text_w)/2:y=(h-text_h)/2",
+            f"line_spacing=14:x=(w-text_w)/2:y=(h-text_h)/2:alpha='min(1,t/0.4)'",
         ]
     cmd += ["-an", "-c:v", "libx264", "-pix_fmt", "yuv420p", str(out_path)]
     run(cmd)
@@ -223,10 +233,15 @@ def build_video(config):
                     f"[{cur}]drawbox=x=0:y={HEIGHT-260}:w={WIDTH}:h=260:"
                     f"color=black@0.55:t=fill:enable='between(t,{start_abs},{end_abs})'[{box_out}]"
                 )
+                fade_alpha = (
+                    f"if(lt(t,{start_abs}+{TEXT_FADE_SECONDS}),(t-{start_abs})/{TEXT_FADE_SECONDS},"
+                    f"if(gt(t,{end_abs}-{TEXT_FADE_SECONDS}),({end_abs}-t)/{TEXT_FADE_SECONDS},1))"
+                )
                 filter_lines.append(
                     f"[{box_out}]drawtext=fontfile='{esc_filter_path(FONT_BOLD)}':"
                     f"textfile='{esc_filter_path(txt_file)}':fontcolor=white:fontsize=48:"
                     f"line_spacing=8:x=(w-text_w)/2:y={HEIGHT-190}:"
+                    f"alpha='{fade_alpha}':"
                     f"enable='between(t,{start_abs},{end_abs})'[{text_out}]"
                 )
                 cur = text_out
