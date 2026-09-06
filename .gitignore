@@ -6,6 +6,12 @@ __pycache__/
 data/orders.csv
 data/production_log.csv
 
+# Danh sách khách B2B/xuất khẩu (tên/email/SĐT công ty bên thứ 3) - phát hiện 2026-09-06 đã lỡ
+# public 3 commit trước, gỡ khỏi tracking ngay (xem git rm --cached), giữ file local để dùng tiếp
+DANH_SACH_KHACH_HANG_B2B.csv
+DANH_SACH_KHACH_HANG_B2B.md
+DANH_SACH_GUI_HANG_LOAT.md
+
 # Kho ảnh/video gốc (quá nặng cho GitHub Pages) - chỉ dùng bản đã resize/nén trong docs/assets/
 Hình Ảnh, Video/
 
