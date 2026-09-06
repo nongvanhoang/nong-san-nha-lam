@@ -34,15 +34,15 @@ _Bảng duy nhất theo dõi đã đăng kênh nào — tick ✅ trực tiếp v
 
 | Ngày | Chủ đề | FB | Zalo | Instagram | LinkedIn | YouTube |
 |---|---|---|---|---|---|---|
-| Chưa xếp | Một góc khác của vườn (ảnh, mới 04/09) | ⬜ | ⬜ | ⬜ | — | — |
-| Chưa xếp | Củ sắn dây tươi (video, dựng xong 04/09) | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ (chờ có kênh) |
-| Chưa xếp | Một buổi sáng trên nương (video, dựng xong 06/09) | ⬜ | ⬜ | ⬜ | — | — |
-| Chưa xếp | Company intro tiếng Anh (video, dựng xong 06/09) | — | — | — | ⬜ | — |
-| Chưa xếp | Cam Đường Canh: hoa đến quả non (video hâm nóng, dựng xong 06/09) | ⬜ | ⬜ | ⬜ | — | — |
 | 08/09 | Hành trình đầy đủ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ (chờ có kênh) |
 | 11/09 | Bên trong lò sấy | ⬜ | ⬜ | ⬜ | — | ⬜ (chờ có kênh) |
 | 15/09 | Nhìn lại vườn cam mùa trước | ⬜ | ⬜ | ⬜ | — | — |
 | 18/09 | Mở rộng vùng trồng sắn dây | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ (chờ có kênh) |
+| 22/09 | Củ sắn dây tươi (video, dựng xong 04/09) | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ (chờ có kênh) |
+| 25/09 | Một góc khác của vườn (ảnh, mới 04/09) | ⬜ | ⬜ | ⬜ | — | — |
+| 29/09 | Một buổi sáng trên nương (video, dựng xong 06/09) | ⬜ | ⬜ | ⬜ | — | — |
+| 02/10 | Cam Đường Canh: hoa đến quả non (video hâm nóng, dựng xong 06/09) | ⬜ | ⬜ | ⬜ | — | — |
+| Bất kỳ lúc nào | Company intro tiếng Anh (video, dựng xong 06/09) | — | — | — | ⬜ | — |
 
 **Ghi chú 2026-08-17**: rà lại lịch, thấy đã trễ 4 mốc liên tiếp (04/08, 07/08, 11/08, 14/08) —
 đồng thời phát hiện `posts_ready.md` đã có thêm nội dung mới hơn (video đào củ 15-16/08) mà lịch
@@ -198,7 +198,23 @@ xanh". Cả 2 đã có caption đủ 3 kênh (Facebook/Zalo/Instagram) trong `po
   `san-day-vuon-18.jpg`, `-26.jpg`, `-34.jpg`, `-42.jpg`, chưa từng lên bài):
   - Facebook + Zalo + Instagram (carousel 4 ảnh): bản đầy đủ trong posts_ready.md
 
-## Từ tuần 9 trở đi
+## Tuần 9
+
+_Xếp 2026-09-06 — 3 nội dung dựng xong hôm nay (buổi sáng trên nương, company intro tiếng Anh, Cam
+hâm nóng) nối tiếp đúng nhịp 2 lần/tuần từ mốc 25/09._
+
+- [ ] **Thứ 3, 29/09/2026** — "Một buổi sáng trên nương sắn dây" (video
+  `san-day-buoi-sang-tren-nuong.mp4`, 24s, 5 cảnh chưa từng lên bài):
+  - Facebook + Zalo + Instagram (Reels): bản đầy đủ trong posts_ready.md
+- [ ] **Thứ 6, 02/10/2026** — "Cam Đường Canh: hoa đến quả non" (video
+  `cam-duongcanh-ham-nong.mp4`, 31s, hâm nóng trái mùa — KHÔNG chào bán, chỉ cập nhật tiến độ):
+  - Facebook + Zalo + Instagram (Reels): bản đầy đủ trong posts_ready.md
+- [ ] **Bất kỳ lúc nào** — "Company intro" tiếng Anh (video `san-day-gioi-thieu-xuat-khau.mp4`, 33s):
+  - LinkedIn: bản đầy đủ trong posts_ready.md, không cần đúng ngày. Bản nén nhẹ để đính kèm email
+    (`docs/assets/san-day-gioi-thieu-xuat-khau-email.mp4`) CHỈ dùng cho Nhóm E, xem
+    `.claude/agents/wholesale-export-outreach.md`.
+
+## Từ tuần 10 trở đi
 
 Không lên lịch cứng trước. Ưu tiên chờ có dữ liệu thật (đơn hàng đầu tiên ghi qua app, feedback
 khách) để bài tiếp theo có góc độ mới thay vì viết thêm bài chung chung. Giữ nguyên 2 bài Cam
