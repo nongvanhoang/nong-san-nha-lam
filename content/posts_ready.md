@@ -6,6 +6,475 @@ copy-paste đăng thủ công lên Facebook/Zalo/Shopee/TikTok. Sau khi đăng x
 
 ---
 
+## LinkedIn — Company intro video, tiếng Anh (video mới 2026-09-06)
+
+Dùng `content/video/output/san-day-gioi-thieu-xuat-khau.mp4` (33s, giọng đọc + phụ đề tiếng Anh) —
+dựng lại từ 5 clip cảnh nổi bật đã dùng trước đó (vườn, đào củ, nghiền, sấy, thành phẩm), phù hợp
+đăng công khai vì chỉ mô tả đúng thực tế hiện có (gia đình sản xuất nhỏ, thủ công), KHÔNG có tuyên
+bố chính ngạch xuất khẩu nào. Bản nén nhẹ để đính kèm email riêng cho Nhóm E:
+`docs/assets/san-day-gioi-thieu-xuat-khau-email.mp4` (~2.8MB, KHÔNG gửi cho Nhóm D — xem
+`.claude/agents/wholesale-export-outreach.md`).
+
+We are Nong San Nha Lam, a small family workshop in Lang Son, Vietnam 🇻🇳
+
+Our kudzu root starch is grown and harvested right here on our own land — hand-washed, ground, and
+filtered the traditional way, then dried slowly in a dedicated kiln, with no chemicals and no
+bleaching agents added.
+
+We're open to wholesale and export partnerships, and happy to send samples on request.
+📩 hello@nongsannhalam.com
+
+---
+
+## Facebook — Cam Đường Canh: hoa đến quả non (hâm nóng trái mùa, video mới 2026-09-06)
+
+Dùng `content/video/output/cam-duongcanh-ham-nong.mp4` (31s, 5 cảnh, giọng đọc AI + phụ đề Anh) —
+dựng từ clip/ảnh thật nhóm `hoaquanon` (hoa, quả non), CHỌN RIÊNG để tránh nhầm lẫn: nhóm
+`quarienglai` có sẵn trong kho thực ra là quả đã chín/cắt sẵn từ mùa trước, nếu dùng bây giờ (trái
+mùa) dễ khiến khách hiểu lầm là đang có hàng — nên bỏ qua, chỉ dùng hoa/quả xanh non đúng thực tế
+hiện tại. Bài này KHÔNG chào bán (đang trái mùa theo đúng nguyên tắc dự án), chỉ cập nhật tiến độ.
+Ảnh bìa: `docs/assets/cam-duongcanh-ham-nong-poster.jpg`.
+
+🍊 CAM ĐƯỜNG CANH NHÀ MÌNH ĐẾN ĐÂU RỒI?
+
+Nhiều người hỏi thăm nên khoe luôn cả chặng đường mùa này. Hồi đầu mùa cây mới ra mấy nụ hoa nhỏ
+xíu, rồi hoa nở trắng cả vườn, thơm dịu mỗi sáng ra thăm cây. Hoa rụng xong mới đậu thành quả non,
+xanh mướt như hạt đỗ — giờ quả đã lớn hơn nhiều, nhưng vẫn còn xanh nguyên, chưa chuyển màu.
+
+Chắc phải còn vài tháng nữa, đến khoảng tháng 11 âm lịch, mới đến mùa thu hoạch. Cả nhà cứ theo
+dõi, có gì mới mình cập nhật tiếp — Cam nhà trồng, đạt chuẩn VietGAP, mùa nào cũng chắc tay như mùa
+nào 🍊
+
+---
+
+## Zalo — Cam Đường Canh: hoa đến quả non (hâm nóng trái mùa, video mới 2026-09-06)
+
+Khoe tiến độ vườn cam nhà mình: từ hoa nhỏ xíu đến giờ đã đậu quả non xanh mướt rồi 🍊 Còn vài
+tháng nữa mới đến mùa (khoảng tháng 11 âm lịch), chưa có hàng đâu nhé, cứ theo dõi để biết khi nào
+thu hoạch.
+
+---
+
+## Instagram — Cam Đường Canh: hoa đến quả non (hâm nóng trái mùa, video mới 2026-09-06)
+
+_Đăng Reels bằng `cam-duongcanh-ham-nong.mp4`, ảnh bìa
+`docs/assets/cam-duongcanh-ham-nong-poster.jpg`._
+
+🍊 Từ nụ hoa nhỏ đến quả non xanh mướt — hành trình mùa cam đường canh nhà mình đang đi.
+
+Còn vài tháng nữa mới đến mùa thu hoạch (khoảng tháng 11 âm lịch). Theo dõi để cập nhật khi có
+hàng nhé.
+
+#camduongcanh #nongsannhalam #langson #vietgap #camnhatrong #nonglamnhanong
+
+---
+
+## Facebook — Một buổi sáng trên nương sắn dây (video mới 2026-09-06)
+
+Dùng `content/video/output/san-day-buoi-sang-tren-nuong.mp4` (24.1s, 5 cảnh, giọng đọc AI + phụ đề
+Anh) — dựng từ clip cảnh nương chưa từng dùng (`san-day-vuon-07/11/16`, `vuon-toan-canh-04`,
+`vuon-day-leo-01`), có cả cận cảnh dây quấn giàn lần đầu lên bài. Ảnh bìa:
+`docs/assets/san-day-buoi-sang-tren-nuong-poster.jpg`.
+
+🌾 MỘT BUỔI SÁNG TRÊN NƯƠNG SẮN DÂY
+
+Nương nhà mình nằm giữa mấy quả núi đá vôi, sáng nào cũng mát rượi. Dây leo phủ kín cả luống, quấn
+lấy từng sợi dây căng, cứ thế lớn dần suốt mấy tháng trời. Đứng giữa nương nhìn ra, toàn một màu
+xanh, đẹp đến mức nhiều khi tự mình cũng phải dừng lại ngắm.
+
+Còn vài tháng nữa mới đến ngày đào — giờ thì cứ để cây leo cho khoẻ đã. Tinh bột sắn dây thì vẫn có
+sẵn quanh năm nhé, đợt trước làm còn tồn.
+
+🔸 Túi 0.5kg: 80.000đ
+🔸 Túi 1kg: 155.000đ
+
+Đặt hàng nhắn Zalo 0979 502 000, giao hàng toàn quốc.
+
+---
+
+## Zalo — Một buổi sáng trên nương sắn dây (video mới 2026-09-06)
+
+Khoe cảnh nương sắn dây nhà mình buổi sáng, xanh mướt giữa mấy quả núi đá vôi 🌿 Còn lâu mới đào,
+nhưng tinh bột thì vẫn có sẵn quanh năm, cần đặt cứ nhắn mình nhé.
+
+---
+
+## Instagram — Một buổi sáng trên nương sắn dây (video mới 2026-09-06)
+
+_Đăng Reels bằng `san-day-buoi-sang-tren-nuong.mp4`, ảnh bìa
+`docs/assets/san-day-buoi-sang-tren-nuong-poster.jpg`._
+
+🌿 Một sáng trên nương sắn dây, giữa lòng núi đá vôi Lạng Sơn.
+
+Còn vài tháng nữa mới đào — giờ là lúc dây leo xanh mướt nhất năm.
+
+Tinh bột sắn dây thủ công vẫn có sẵn quanh năm, đặt hàng nhắn Zalo 0979 502 000.
+
+#tinhbotsanday #nongsannhalam #langson #nuongsanday #dacsanlangson #nonglamnhanong
+
+---
+
+## Facebook — Củ sắn dây tươi, trước khi thành tinh bột (video mới 2026-09-04)
+
+Dùng `content/video/output/san-day-cu-tuoi.mp4` (23.1s, 5 cảnh, có giọng đọc AI + phụ đề Anh — dựng
+lại 04/09 với cảnh giữ lâu hơn cho dễ theo dõi, bản đầu 7 cảnh/2.8s quá nhanh) — dựng từ clip cận
+cảnh củ tươi chưa từng lên bài, quay lúc vừa đào, rửa sạch, trước khi đưa vào nghiền lọc. Ảnh bìa:
+`docs/assets/san-day-cu-tuoi-poster.jpg` (cảnh ôm củ to hơn người).
+
+🌾 CỦ SẮN DÂY TƯƠI TRÔNG THẾ NÀO TRƯỚC KHI THÀNH TINH BỘT?
+
+Nhiều người theo dõi nhà mình lâu mà chưa từng thấy mặt củ tươi — toàn xem cảnh nghiền, cảnh sấy.
+Hôm nay khoe đúng khúc đầu tiên: củ vừa đào lên, còn dính đất, để cạnh đồng hồ mới thấy to cỡ nào.
+
+Mỗi mùa đào được cả đống lớn, củ nào cũng chắc, rồi rửa sạch bằng tay trước khi đưa vào nghiền lọc
+— bước này ít ai để ý, nhưng quyết định tinh bột có sạch hay không.
+
+🔸 Túi 0.5kg: 80.000đ
+🔸 Túi 1kg: 155.000đ
+
+Xem hết video rồi nhắn Zalo đặt nhé — 0979 502 000, giao hàng toàn quốc.
+
+---
+
+## Zalo — Củ sắn dây tươi, trước khi thành tinh bột (video mới 2026-09-04)
+
+Video mới: củ sắn dây tươi lúc vừa đào, để cạnh đồng hồ mới thấy to thật sự 😄 Đây là bước đầu
+tiên, trước khi nghiền lọc/sấy mà mọi người hay xem. Giá vẫn cũ: 0.5kg 80k, 1kg 155k, cần đặt nhắn
+mình nhé.
+
+---
+
+## Instagram — Củ sắn dây tươi, trước khi thành tinh bột (video mới 2026-09-04)
+
+_Đăng Reels bằng `san-day-cu-tuoi.mp4`, ảnh bìa `docs/assets/san-day-cu-tuoi-poster.jpg`._
+
+🌾 To cỡ nào? Để cạnh đồng hồ là biết ngay 👀
+
+Củ sắn dây tươi, vừa đào lên khỏi đất — rửa sạch bằng tay trước khi đưa vào nghiền lọc. Không hoá
+chất, không tẩy trắng, thủ công 100% tại Lạng Sơn.
+
+🔸 Túi 0.5kg: 80.000đ
+🔸 Túi 1kg: 155.000đ
+
+Đặt hàng nhắn Zalo 0979 502 000 📦
+
+#tinhbotsanday #nongsannhalam #langson #cusandây #nonglamnhanong #dacsanlangson
+
+---
+
+## YouTube Shorts — Củ sắn dây tươi, trước khi thành tinh bột (video mới 2026-09-04)
+
+_Đăng bằng `san-day-cu-tuoi.mp4` — cần tạo kênh YouTube trước (xem ghi chú ở các mục Shorts khác)._
+
+**Tiêu đề:**
+> Củ sắn dây tươi to cỡ nào? Xem trước khi thành tinh bột #Shorts
+
+**Mô tả:**
+> Củ sắn dây tươi, vừa đào lên khỏi đất tại Lạng Sơn — cận cảnh, so sánh kích thước, rửa sạch
+> trước khi đưa vào nghiền lọc. Không hoá chất, không chất tẩy trắng.
+>
+> 🔸 Túi 0.5kg: 80.000đ
+> 🔸 Túi 1kg: 155.000đ
+> Đặt hàng nhắn Zalo 0979 502 000 — giao hàng toàn quốc.
+>
+> #tinhbotsanday #nongsannhalam #dacsanlangson #Shorts
+
+---
+
+## Facebook — Một góc khác của vườn sắn dây (ảnh mới 2026-09-04)
+
+Dùng 4 ảnh thật chưa từng lên bài: `Hình Ảnh, Video/Sắn Dây/san-day-vuon-18.jpg`,
+`san-day-vuon-34.jpg` (toàn cảnh nương sắn dây với dãy núi đá vôi phía sau — góc chưa từng kể),
+`san-day-vuon-26.jpg` (ngước nhìn tán lá lên trời), `san-day-vuon-42.jpg` (cận cảnh hàng dây leo).
+
+🌾 MỘT GÓC KHÁC CỦA VƯỜN SẮN DÂY
+
+Mọi người hay thấy nhà mình khoe cảnh đào củ, nghiền lọc, sấy khô — hôm nay đổi nhịp, khoe vườn lúc
+còn xanh mướt, trước khi đào.
+
+Nương sắn dây nhà mình nằm giữa mấy quả núi đá vôi, sáng nào cũng mây vờn trên đỉnh. Dây leo phủ
+kín cả luống, lá to bằng bàn tay, đứng dưới tán nhìn lên chỉ thấy trời qua từng khe lá.
+
+Cảnh đẹp vậy, nhưng gốc dưới đất mới là thứ mình cần — vài tháng nữa mới đào, giờ cứ để leo cho
+khoẻ đã.
+
+🔸 Tinh bột sắn dây hiện có sẵn: túi 0.5kg 80.000đ, túi 1kg 155.000đ.
+Đặt hàng nhắn Zalo 0979 502 000, giao hàng toàn quốc.
+
+---
+
+## Zalo — Một góc khác của vườn sắn dây (ảnh mới 2026-09-04)
+
+Hôm nay khoe ảnh vườn sắn dây lúc còn xanh, chưa đào 🌿 Nương nằm giữa mấy quả núi đá vôi, đẹp lắm.
+Tinh bột vẫn có sẵn nha, cần đặt cứ nhắn mình.
+
+---
+
+## Instagram — Một góc khác của vườn sắn dây (ảnh mới 2026-09-04)
+
+_Đăng dạng carousel 4 ảnh: `san-day-vuon-34.jpg` (ảnh bìa — núi đá vôi + nương xanh, đẹp nhất),
+`san-day-vuon-18.jpg`, `san-day-vuon-26.jpg`, `san-day-vuon-42.jpg`._
+
+🌿 Vườn sắn dây nhà mình, giữa lòng núi đá vôi Lạng Sơn.
+
+Vài tháng nữa mới đào — giờ là lúc dây leo xanh mướt nhất trong năm.
+
+Tinh bột sắn dây thủ công vẫn có sẵn quanh năm, đặt hàng nhắn Zalo 0979 502 000.
+
+#tinhbotsanday #nongsannhalam #langson #nuongsanday #dacsanlangson #nonglamnhanong #vietnamfarm
+
+---
+
+## Facebook — Mở rộng vùng trồng sắn dây (video mới 2026-09-04)
+
+Dùng cho `content/video/output/san-day-mo-rong-vung-trong.json` → `.mp4` (dựng từ 4 clip
+`san-day-vuonmoi-*.mp4`, ruộng mới trồng, xác nhận với người dùng 2026-09-03 là "mở rộng diện
+tích", không phải ruộng cũ). Góc độ hoàn toàn mới, chưa từng lên bài — giải quyết đúng điểm nghẽn
+"kho bài Sắn Dây đã hết" từ Tuần 6.
+
+🌾 NHÀ MÌNH VỪA MỞ THÊM MỘT RUỘNG SẮN DÂY MỚI
+
+Ngoài giàn cũ vẫn thu hoạch đều, nhà mình mới trồng thêm một ruộng nữa — dây đã bắt đầu leo giàn,
+trải dài theo từng hàng ngay ngắn. Chuẩn bị dần cho những vụ thu hoạch sau này, để lúc nào cũng có
+đủ củ tươi mà làm, không sợ thiếu nguồn.
+
+🔸 Túi 0.5kg: 80.000đ
+🔸 Túi 1kg: 155.000đ
+
+Hàng hiện tại vẫn có sẵn giao ngay nhé — nhắn Zalo 0979 502 000 để đặt.
+
+---
+
+## Zalo — Mở rộng vùng trồng sắn dây (video mới 2026-09-04)
+
+Khoe nhà mình mới mở thêm ruộng sắn dây nữa nè 🌾 dây mới leo giàn thôi nhưng trải dài đẹp lắm.
+Hàng hiện có vẫn giao bình thường nha, túi 0.5kg 80k/túi 1kg 155k, cần đặt nhắn mình nhé.
+
+---
+
+## Instagram — Mở rộng vùng trồng sắn dây (video mới 2026-09-05)
+
+_Đăng Reels bằng `san-day-mo-rong-vung-trong.mp4`._
+
+🌾 Nhà mình vừa mở thêm một ruộng sắn dây mới!
+
+Ngoài giàn cũ vẫn thu hoạch đều, ruộng mới này dây mới bắt đầu leo giàn thôi — chuẩn bị dần cho
+những vụ sau, để lúc nào cũng có đủ củ tươi mà làm.
+
+🔸 Túi 0.5kg: 80.000đ
+🔸 Túi 1kg: 155.000đ
+
+Hàng hiện có vẫn giao ngay — nhắn Zalo 0979 502 000 📦
+
+#tinhbotsanday #nongsannhalam #langson #mororong #nonglamnhanong #dacsanlangson
+
+---
+
+## Facebook — Nhìn lại vườn cam mùa trước (video mới 2026-09-03)
+
+Dùng cho `content/video/output/cam-vuon-mua-truoc.mp4` (16s) — video đầu tiên từng dựng cho Cam
+Đường Canh, dùng tư liệu THẬT từ mùa trước (~11/2025-1/2026, đã xác nhận với người dùng
+2026-09-03, xem `content/video/configs/cam-vuon-mua-truoc.json`). Viết ở **thì quá khứ**, không
+nói quả đang chín — đúng lúc là giai đoạn "hâm nóng" trước mùa mới theo Giai đoạn 2
+`KE_HOACH_BAN_HANG.md`, KHÔNG chào bán (đúng mùa chưa tới).
+
+🍊 NHÌN LẠI VƯỜN CAM ĐƯỜNG CANH NHÀ MÌNH MÙA TRƯỚC
+
+Lục lại ảnh/video mùa cam vừa rồi, thấy vườn nhà mình xanh mướt, quả chín mọng cả cây mà thấy nhớ
+ghê. Cam nhà mình chín tự nhiên trên cây, không thúc chín, đạt chứng nhận VietGAP thật (số
+112/CN-TĐC-TT-20-0012) — thu hoạch xong là đóng gói gửi đi ngay trong ngày.
+
+Mùa mới khoảng tháng 11 âm lịch sắp tới rồi. Ai muốn được báo ngay khi có hàng thì để lại comment
+hoặc inbox, mình lưu lại danh sách nhắn trước nhé — chưa nhận đặt hàng lúc này vì chưa vào mùa.
+
+---
+
+## Zalo — Nhìn lại vườn cam mùa trước (video mới 2026-09-03)
+
+Dọn lại video mùa cam trước thấy đẹp quá nên chia sẻ lại cho mọi người xem 🍊 Vườn nhà mình đó,
+quả chín mọng, VietGAP đàng hoàng. Mùa mới ~tháng 11 âm lịch nữa là tới, ai muốn mình báo trước
+khi có hàng thì nhắn mình để lại số nha, chưa nhận đặt lúc này vì chưa đúng mùa.
+
+---
+
+## Instagram — Nhìn lại vườn cam mùa trước (video mới 2026-09-05)
+
+_Đăng Reels bằng `cam-vuon-mua-truoc.mp4`. Giữ đúng CTA "để lại inbox" — KHÔNG chào bán vì chưa
+vào mùa (xem ghi chú trong `content/video/configs/cam-vuon-mua-truoc.json`)._
+
+🍊 Nhìn lại vườn cam đường canh nhà mình mùa trước
+
+Quả chín mọng, chín tự nhiên trên cây, không thúc chín — đạt chứng nhận VietGAP thật.
+
+Mùa mới khoảng tháng 11 âm lịch sắp tới. Ai muốn được báo ngay khi có hàng thì để lại comment hoặc
+inbox nhé — chưa nhận đặt hàng lúc này vì chưa vào mùa 🙏
+
+#camduongcanh #nongsannhalam #langson #vietgap #dacsanlangson
+
+---
+
+## Facebook — Hành trình đầy đủ, từ gốc củ đến túi tinh bột (video mới 2026-09-04)
+
+Dùng cho `content/video/output/san-day-hanh-trinh-day-du.mp4` (33.9s, 7 cảnh, có giọng đọc AI +
+phụ đề Anh — dựng lại 04/09 với cảnh giữ lâu hơn, bản đầu 14 cảnh/54s chuyển cảnh quá nhanh) — ghép
+đủ cả 3 công đoạn (đào củ → nghiền lọc → sấy) liền mạch trong 1 video, trước giờ chỉ đăng từng đoạn
+rời.
+
+🌾 HÀNH TRÌNH ĐẦY ĐỦ — TỪ MỘT GỐC CỦ SẮN DÂY, ĐẾN MỘT TÚI TINH BỘT
+
+Bao lâu nay nhà mình chỉ đăng từng đoạn nhỏ — lúc thì đào củ, lúc thì nghiền lọc, lúc thì sấy lò.
+Hôm nay ghép đủ cả 3 công đoạn liền mạch trong 1 video gần 1 phút, để mọi người xem trọn vẹn hành
+trình thật, không cắt đoạn nào.
+
+Từ giàn dây leo trên nương, đào nguyên gốc, rửa sạch, nghiền lọc bằng tay nhiều lượt, đến khi bột
+được xếp khay, sấy đều trong lò nhiều tầng — mỗi bước đều làm thủ công tại nhà, không hoá chất,
+không chất tẩy trắng.
+
+🔸 Túi 0.5kg: 80.000đ
+🔸 Túi 1kg: 155.000đ
+
+Xem hết video rồi nhắn Zalo đặt nhé — 0979 502 000, giao hàng toàn quốc.
+
+---
+
+## Zalo — Hành trình đầy đủ, từ gốc củ đến túi tinh bột (video mới 2026-09-04)
+
+Mình vừa dựng xong video đủ cả hành trình làm tinh bột sắn dây — từ đào củ đến ra thành phẩm, gói
+trong gần 1 phút 🌾 Ai tò mò quy trình thật thì xem thử, túi 0.5kg 80k / túi 1kg 155k vẫn y giá
+cũ, cần đặt cứ nhắn mình nhé.
+
+---
+
+## LinkedIn — Hành trình đầy đủ, từ gốc củ đến túi tinh bột (video mới 2026-09-04)
+
+_Kênh mới, hướng đối tượng sỉ/xuất khẩu quốc tế — dùng đúng bản video có phụ đề tiếng Anh
+(`san-day-hanh-trinh-day-du.mp4`). Chỉ dùng cho Tinh Bột Sắn Dây (sản phẩm duy nhất hướng xuất
+khẩu theo `CLAUDE.md`), không đăng nội dung Cam Đường Canh lên kênh này._
+
+📦 Từ nương sắn dây đến túi tinh bột — quy trình thủ công tại Lạng Sơn, Việt Nam
+
+Nông Sản Nhà Làm là cơ sở gia đình nhỏ tại Lạng Sơn, chuyên sản xuất Tinh Bột Sắn Dây (Kudzu Root
+Starch) hoàn toàn thủ công — từ thu hoạch, nghiền lọc, đến sấy khô bằng lò sấy chuyên dụng, không
+hoá chất, không chất tẩy trắng.
+
+Video dưới đây ghi lại đầy đủ quy trình thật (phụ đề tiếng Anh đi kèm) — chúng tôi hiện đang tìm
+kiếm đối tác sỉ/nhập khẩu quan tâm đến sản phẩm nông sản thủ công, chất lượng ổn định.
+
+Liên hệ: hello@nongsannhalam.com
+
+---
+
+A whole handmade journey — from a single kudzu root to a bag of starch, made by a small family
+workshop in Lạng Sơn, Vietnam. We're open to wholesale/export inquiries — reach us at
+hello@nongsannhalam.com.
+
+---
+
+## Instagram — Hành trình đầy đủ, từ gốc củ đến túi tinh bột (video mới 2026-09-04)
+
+_Đăng Reels bằng `san-day-hanh-trinh-day-du.mp4`, ảnh bìa `docs/assets/san-day-hanh-trinh-day-du-poster.jpg`._
+
+🌾 Từ một gốc củ sắn dây... đến một túi tinh bột.
+
+Đào củ → nghiền lọc bằng tay → sấy lò nhiều tầng. Tất cả làm thủ công tại nhà ở Lạng Sơn, không hoá chất, không chất tẩy trắng 🙌
+
+🔸 Túi 0.5kg: 80.000đ
+🔸 Túi 1kg: 155.000đ
+
+Đặt hàng nhắn Zalo 0979 502 000, giao toàn quốc 📦
+
+#tinhbotsanday #nongsannhalam #langson #nonglamnhanong #dacsanlangson #ansachsong #handmadevietnam
+
+---
+
+## YouTube Shorts — Hành trình đầy đủ, từ gốc củ đến túi tinh bột (video mới 2026-09-04)
+
+_Đăng bằng `san-day-hanh-trinh-day-du.mp4` — **cần tạo kênh YouTube trước** (chưa có kênh tính đến
+2026-09-04), nội dung soạn sẵn để dùng ngay khi kênh xong. Video đã có phụ đề Anh sẵn nên hợp cả
+người xem nước ngoài._
+
+**Tiêu đề:**
+> Từ gốc củ sắn dây đến túi tinh bột — quy trình thủ công tại Lạng Sơn #Shorts
+
+**Mô tả:**
+> Hành trình đầy đủ làm tinh bột sắn dây thủ công tại nhà — đào củ, nghiền lọc bằng tay, sấy khô
+> nhiều tầng, sạch từ khâu đầu đến khâu cuối, không cần chất tẩy.
+>
+> 🔸 Túi 0.5kg: 80.000đ
+> 🔸 Túi 1kg: 155.000đ
+> Đặt hàng nhắn Zalo 0979 502 000 — giao hàng toàn quốc.
+>
+> #tinhbotsanday #nongsannhalam #dacsanlangson #Shorts
+
+---
+
+## Facebook — Bên trong lò sấy, từ bột ướt đến khô giòn (video mới 2026-09-04)
+
+Dùng cho `content/video/output/quy-trinh-say-san-day.mp4` (31.3s, 6 cảnh, dựng lại lần 2 ngày 04/09
+với cảnh giữ lâu hơn cho dễ theo dõi — bản dựng lần 1 cùng ngày có 11 cảnh/47s hơi nhanh, còn trước
+đó nữa là bản 5 cảnh/24s mà mục "TikTok/Reels — Caption riêng cho video quy trình sấy lò"
+(2026-08-12) phía dưới đang mô tả, xem ghi chú tại đó).
+
+🌾 BỘT ƯỚT THÀNH BỘT KHÔ TRONG LÒ SẤY — TOÀN CẢNH TỪ ĐẦU ĐẾN CUỐI
+
+Video này nhà mình dựng lại đầy đủ hơn bản cũ — từ lúc nặn bột còn ướt, xếp lên khay, đưa vào lò
+sấy nhiều tầng, cài nhiệt độ, đến khi bột khô dần, rạn ra từng đường vân trắng, rồi vỡ giòn thành
+phẩm.
+
+Cả quy trình khoảng 47 giây, quay đúng lò sấy thật nhà đang dùng — không phơi nắng, không hoá
+chất, không chất tẩy trắng.
+
+🔸 Túi 0.5kg: 80.000đ
+🔸 Túi 1kg: 155.000đ
+
+Đặt hàng nhắn Zalo 0979 502 000, giao hàng toàn quốc.
+
+---
+
+## Zalo — Bên trong lò sấy, từ bột ướt đến khô giòn (video mới 2026-09-04)
+
+Bản video lò sấy nhà mình vừa dựng lại đầy đủ hơn — coi được cả đoạn bột rạn vân trắng lúc khô
+dần, ưng lắm 😄 Vẫn giá cũ nha: 0.5kg 80k, 1kg 155k, cần đặt nhắn mình nhé.
+
+---
+
+## Instagram — Bên trong lò sấy, từ bột ướt đến khô giòn (video mới 2026-09-04)
+
+_Đăng Reels bằng `quy-trinh-say-san-day.mp4`, ảnh bìa `docs/assets/san-day-quy-trinh-say-poster.jpg`._
+
+🌾 Bột ướt → bột khô giòn, ngay trong lò sấy nhà mình.
+
+Xếp khay → cài nhiệt → chờ bột rạn từng đường vân trắng → giòn tan. Toàn cảnh 47 giây, quay đúng lò sấy thật ✨ Không phơi nắng, không pha thêm gì khác.
+
+🔸 Túi 0.5kg: 80.000đ
+🔸 Túi 1kg: 155.000đ
+
+Đặt hàng nhắn Zalo 0979 502 000 📦
+
+#tinhbotsanday #nongsannhalam #langson #quytrinhsanxuat #nonglamnhanong #dacsanlangson
+
+---
+
+## YouTube Shorts — Bên trong lò sấy, từ bột ướt đến khô giòn (video mới 2026-09-04)
+
+_Đăng bằng `quy-trinh-say-san-day.mp4` — cần tạo kênh YouTube trước (xem ghi chú ở mục Shorts phía
+trên)._
+
+**Tiêu đề:**
+> Bên trong lò sấy tinh bột sắn dây — từ bột ướt đến khô giòn #Shorts
+
+**Mô tả:**
+> Toàn cảnh 47 giây trong lò sấy tinh bột sắn dây tại nhà — xếp khay, cài nhiệt, bột rạn từng
+> đường vân trắng rồi giòn tan. Không phơi nắng, không có phụ gia nào.
+>
+> 🔸 Túi 0.5kg: 80.000đ
+> 🔸 Túi 1kg: 155.000đ
+> Đặt hàng nhắn Zalo 0979 502 000 — giao hàng toàn quốc.
+>
+> #tinhbotsanday #nongsannhalam #dacsanlangson #Shorts
+
+---
+
 ## TikTok/Reels — Video quy trình đào củ bằng máy xúc (dựng mới 2026-08-16)
 
 🌾 Gốc củ to cỡ nào mới cần máy xúc đào? Từ đào đất đến kéo dây lên — quy trình thật, không dàn dựng.
@@ -135,6 +604,14 @@ cắt cứng — nâng cấp 12/08, dựng bằng `make_process_video.py`). Chư
 
 ## TikTok/Reels — Caption riêng cho video quy trình sấy lò (2026-08-12)
 
+**[Cập nhật 2026-09-04 — `content/video/output/quy-trinh-say-san-day.mp4` đã được dựng lại đầy đủ
+hơn, rồi dựng lại lần 2 cùng ngày với cảnh giữ lâu hơn (giờ là 6 cảnh/31.3s, có giọng đọc AI + phụ
+đề Anh, thay cho bản 5 cảnh/24s mô tả dưới đây). Dùng bản caption mới ở mục "Facebook/Zalo — Bên
+trong lò sấy, từ bột ướt đến khô giòn" phía trên thay cho
+caption ngắn dưới đây. Lưu ý: `docs/assets/san-day-quy-trinh-say.mp4` (bản nhúng trên website) vẫn
+là bản CŨ 5 cảnh — chưa đồng bộ với bản mới, cần nén lại + thay file nếu muốn website cũng dùng
+bản đầy đủ.]**
+
 Dùng cho video đã dựng sẵn `docs/assets/san-day-quy-trinh-say.mp4` (= bản gốc
 `content/video/output/quy-trinh-say-san-day.mp4`, 5 clip thật ghép sẵn, đã có chữ đè từng bước +
 end card Zalo) — video này hiện chỉ nhúng trên website, chưa từng đăng riêng lên mạng xã hội.
@@ -158,7 +635,7 @@ Cách làm đơn giản, ai cũng nấu được:
 3️⃣ Đun nước đường phèn sôi nhẹ, đổ từ từ hỗn hợp sắn dây vào, khuấy đều tay đến khi sánh trong.
 4️⃣ Cho hạt sen vào, tắt bếp — ăn ấm hay để nguội đều ngon, giải nhiệt ngày hè.
 
-Tinh bột sắn dây nhà mình lọc thủ công, sấy bằng lò sấy riêng, không hoá chất, không tẩy trắng, nấu lên sánh
+Tinh bột sắn dây nhà mình lọc thủ công, sấy bằng lò sấy riêng, không pha thêm gì khác, nấu lên sánh
 mịn, thơm tự nhiên đúng vị.
 
 🔸 Túi 0.5kg: 80.000đ
@@ -215,7 +692,7 @@ sen đang sôi, khuấy đều tay tới khi sánh lại. Ăn nóng hay để m�
 3️⃣ Sắn dây đậu xanh — kết hợp đậu xanh đãi vỏ nấu chín nhuyễn với sắn dây, thêm chút đường phèn —
 món giải nhiệt quen thuộc mùa hè.
 
-Tất cả đều dùng tinh bột sắn dây nhà làm 100%, không hoá chất, không tẩy trắng 🌾
+Tất cả đều dùng tinh bột sắn dây nhà làm 100%, không có phụ gia, giữ đúng màu bột thật 🌾
 
 🔸 Túi 0.5kg: 80.000đ
 🔸 Túi 1kg: 155.000đ
@@ -304,7 +781,7 @@ Từ nước bột lắng trong, tới lúc xếp từng lớp bột ướt lên
 mảng bột khô trắng vụn ra — tất cả đều quay thật tại nhà, không dàn dựng. Ảnh trên website
 (nongsannhalam.com) cũng đã đổi thành ảnh thật luôn rồi, mọi người ghé xem nhé!
 
-Làm thủ công nên hơi chậm, nhưng đổi lại là bột trắng tự nhiên, không hoá chất, không tẩy trắng.
+Làm thủ công nên hơi chậm, nhưng đổi lại là bột lên màu tự nhiên, không cần đến chất tẩy.
 
 🔸 Túi 0.5kg: 80.000đ
 🔸 Túi 1kg: 155.000đ
@@ -434,7 +911,7 @@ Mùa nóng thế này nhà ai cũng nên có sẵn hũ tinh bột sắn dây �
 Cách pha đơn giản: 1-2 thìa tinh bột sắn dây + chút đường + nước sôi, khuấy đều là có ngay
 ly nước giải nhiệt mát lành. Thích ăn kiểu sệt thì nấu chè sắn dây với đậu xanh cũng hợp.
 
-Hàng nhà mình làm thủ công, không hoá chất, không tẩy trắng — có sẵn giao ngay:
+Hàng nhà mình làm thủ công, sạch từ đầu đến cuối, không tẩy trắng — có sẵn giao ngay:
 🔸 Túi 0.5kg: 80.000đ
 🔸 Túi 1kg: 155.000đ
 

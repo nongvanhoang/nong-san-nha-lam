@@ -1,18 +1,26 @@
 {
   "slug": "quy-trinh-say-san-day",
   "clips": [
-    {"file": "Sắn Dây/san-day-phoisay-nhaobotxepkhay-13.mp4", "start": 1, "duration": 3},
-    {"file": "Sắn Dây/san-day-phoisay-hainguoixepcatbanh-09.mp4", "start": 1, "duration": 3},
-    {"file": "Sắn Dây/san-day-phoisay-tunhieutang-04.mp4", "start": 1, "duration": 3.5},
-    {"file": "Sắn Dây/san-day-phoisay-baodieukhien-03.mp4", "start": 1, "duration": 3},
-    {"file": "Sắn Dây/san-day-phoisay-canhbanhkhonut-02.mp4", "start": 1, "duration": 3}
+    {"file": "Sắn Dây/san-day-phoisay-xepbanhuotlenkhay-01.mp4", "start": 1, "duration": 5, "motion": "zoom"},
+    {"file": "Sắn Dây/san-day-phoisay-nhieunguoixepbanh-11.mp4", "start": 2, "duration": 5, "motion": "pan_right"},
+    {"file": "Sắn Dây/san-day-phoisay-tunhieutang-04.mp4", "start": 1, "duration": 5.5, "motion": "zoom_detail"},
+    {"file": "Sắn Dây/san-day-phoisay-baodieukhien-03.mp4", "start": 2, "duration": 4.5, "motion": "pan_left"},
+    {"file": "Sắn Dây/san-day-phoisay-gatnuoctrensanbot-10.mp4", "start": 2, "duration": 5, "motion": "pan_right"},
+    {"file": "Sắn Dây/san-day-phoisay-botkhovovun-06.mp4", "start": 2, "duration": 5, "motion": "zoom_detail"}
   ],
   "captions": [
-    {"text": "Bước 1: Nặn bột, xếp lên khay", "clip_index": 0, "start": 0, "duration": 3},
-    {"text": "Bước 2: Cả nhà cùng xếp khay", "clip_index": 1, "start": 0, "duration": 3},
-    {"text": "Bước 3: Đưa vào lò sấy nhiều tầng", "clip_index": 2, "start": 0, "duration": 3.5},
-    {"text": "Bước 4: Cài nhiệt độ, sấy đều tự động", "clip_index": 3, "start": 0, "duration": 3},
-    {"text": "Bột khô đều - không hoá chất, không tẩy trắng", "clip_index": 4, "start": 0, "duration": 3}
+    {"text": "Nặn bột thành từng miếng, xếp đều lên khay", "text_en": "Shaped by hand, arranged on trays", "clip_index": 0, "start": 0, "duration": 5},
+    {"text": "Cả nhà cùng xếp, không vội", "text_en": "The whole family works together, no rush", "clip_index": 1, "start": 0, "duration": 5},
+    {"text": "Xếp lên giá nhiều tầng, đưa vào lò sấy chuyên dụng", "text_en": "Loaded onto multi-tier racks, into the drying kiln", "clip_index": 2, "start": 0, "duration": 5.5},
+    {"text": "Cài nhiệt độ, sấy đều tự động", "text_en": "Temperature set, drying evenly and automatically", "clip_index": 3, "start": 0, "duration": 4.5},
+    {"text": "Gạt bớt nước đọng để bột khô đều hơn", "text_en": "Excess water scraped off for even drying", "clip_index": 4, "start": 0, "duration": 5},
+    {"text": "Thành phẩm khô đều, giữ đúng màu bột thật", "text_en": "Evenly dried, keeping its true natural color", "clip_index": 5, "start": 0, "duration": 5}
   ],
-  "end_card_text": "Tinh Bột Sắn Dây - Nhà làm\nSấy bằng lò sấy chuyên dụng\nĐặt hàng: Zalo 0979 502 000"
+  "narration": {
+    "text": "Bột sau khi lọc xong, mịn nhất rồi, nhà mình mới nặn thành từng miếng, xếp lên khay. Cả nhà ngồi quây quần làm cùng nhau, chẳng ai vội, xếp đến đâu chắc đến đó. Khay đầy thì đưa lên giá nhiều tầng, cho vào lò sấy riêng, cài nhiệt độ xong là để lò lo phần còn lại. À, trước khi sấy còn phải gạt bớt nước đọng trên mặt bột nữa, không thì khô không đều đâu. Cứ thế đợi từng mẻ, đến khi bột trắng đều, không cần thêm bất cứ thứ gì khác.",
+    "voice": "vi-VN-HoaiMyNeural"
+  },
+  "music": {"file": "content/video/music/warm-acoustic-music.mp3", "volume": 0.16},
+  "end_card_text": "Tinh Bột Sắn Dây - Nhà làm\nSấy bằng lò sấy chuyên dụng\nĐặt hàng: Zalo 0979 502 000",
+  "end_card_text_en": "Homemade Kudzu Root Starch\nDried in a dedicated kiln\nOrder via Zalo: +84 979 502 000"
 }

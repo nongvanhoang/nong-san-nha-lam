@@ -1,0 +1,24 @@
+{
+  "slug": "san-day-cu-tuoi",
+  "clips": [
+    {"file": "Sắn Dây/san-day-cutuoi-nguoiombocu-02.mp4", "start": 0, "duration": 3.5, "motion": "zoom"},
+    {"file": "Sắn Dây/san-day-cutuoi-candongho-07.mp4", "start": 5, "duration": 4.5, "motion": "zoom_detail"},
+    {"file": "Sắn Dây/san-day-cutuoi-cancanh-06.mp4", "start": 12, "duration": 4.5, "motion": "pan_right"},
+    {"file": "Sắn Dây/san-day-cutuoi-ruavoinuoc-12.mp4", "start": 8, "duration": 4.5, "motion": "pan_left"},
+    {"file": "Sắn Dây/san-day-cutuoi-uotcancanh-10.mp4", "start": 6, "duration": 4.5, "motion": "zoom"}
+  ],
+  "captions": [
+    {"text": "Củ sắn dây vừa đào lên khỏi đất", "text_en": "Kudzu root, freshly dug up", "clip_index": 0, "start": 0, "duration": 3.5},
+    {"text": "So với đồng hồ mới thấy củ to cỡ nào", "text_en": "Compared to a watch - see how big it is", "clip_index": 1, "start": 0, "duration": 4.5},
+    {"text": "Vỏ ngoài thô ráp, ruột bên trong mới là tinh bột", "text_en": "Rough skin outside, starch hidden inside", "clip_index": 2, "start": 0, "duration": 4.5},
+    {"text": "Rửa sạch đất cát trước khi đưa vào nghiền", "text_en": "Washed clean before grinding", "clip_index": 3, "start": 0, "duration": 4.5},
+    {"text": "Sạch, ướt, sẵn sàng cho công đoạn tiếp theo", "text_en": "Clean and ready for the next step", "clip_index": 4, "start": 0, "duration": 4.5}
+  ],
+  "narration": {
+    "text": "Củ này vừa đào lên đấy, đất còn dính nguyên chưa kịp rửa. Để cạnh cái đồng hồ cho dễ hình dung, chứ không nói chắc chẳng ai tin nó to đến vậy đâu. Trước khi đưa vào nghiền, mình phải rửa tay từng chút một, kỳ cho sạch hết đất cát mới yên tâm được.",
+    "voice": "vi-VN-HoaiMyNeural"
+  },
+  "music": {"file": "content/video/music/warm-acoustic-music.mp3", "volume": 0.16},
+  "end_card_text": "Tinh Bột Sắn Dây - Nhà làm\nTừ củ tươi, không hoá chất\nĐặt hàng: Zalo 0979 502 000",
+  "end_card_text_en": "Handmade Kudzu Starch - From fresh root, no chemicals\nOrder via Zalo: +84 979 502 000"
+}

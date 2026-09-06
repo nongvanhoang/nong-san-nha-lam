@@ -1,0 +1,24 @@
+{
+  "slug": "san-day-buoi-sang-tren-nuong",
+  "clips": [
+    {"file": "Sắn Dây/san-day-vuon-toan-canh-04.mp4", "start": 2, "duration": 4.5, "motion": "pan_right"},
+    {"file": "Sắn Dây/san-day-vuon-07.mp4", "start": 2, "duration": 4.5, "motion": "zoom"},
+    {"file": "Sắn Dây/san-day-vuon-11.mp4", "start": 1, "duration": 4, "motion": "zoom_detail"},
+    {"file": "Sắn Dây/san-day-vuon-16.mp4", "start": 3, "duration": 5, "motion": "pan_left"},
+    {"file": "Sắn Dây/san-day-vuon-day-leo-01.mp4", "start": 2, "duration": 4.5, "motion": "zoom"}
+  ],
+  "captions": [
+    {"text": "Nương sắn dây nhà mình, giữa lòng núi đá vôi", "text_en": "Our kudzu field, among the limestone mountains", "clip_index": 0, "start": 0, "duration": 4.5},
+    {"text": "Sáng nào cũng mát, dây leo xanh mướt", "text_en": "Cool mornings, lush green vines", "clip_index": 1, "start": 0, "duration": 4.5},
+    {"text": "Từng sợi dây quấn chặt lấy giàn", "text_en": "Every vine wraps tightly around the trellis", "clip_index": 2, "start": 0, "duration": 4},
+    {"text": "Đứng đây nhìn ra, chỉ thấy một màu xanh", "text_en": "Standing here, all you see is green", "clip_index": 3, "start": 0, "duration": 5},
+    {"text": "Vài tháng nữa mới đào - giờ cứ để cây leo cho khoẻ", "text_en": "Still months until harvest - for now, just let it grow", "clip_index": 4, "start": 0, "duration": 4.5}
+  ],
+  "narration": {
+    "text": "Đây là nương sắn dây nhà mình, nằm giữa mấy quả núi đá vôi, sáng nào cũng mát rượi thế này. Dây leo phủ kín cả luống, quấn lấy từng sợi dây căng, cứ thế lớn dần suốt mấy tháng trời. Đứng giữa nương nhìn ra, toàn một màu xanh, đẹp đến mức nhiều khi mình cũng phải dừng lại ngắm một lúc. Còn vài tháng nữa mới đến ngày đào, giờ thì cứ để cây leo cho khoẻ đã.",
+    "voice": "vi-VN-HoaiMyNeural"
+  },
+  "music": {"file": "content/video/music/morning-garden-acoustic-chill.mp3", "volume": 0.16},
+  "end_card_text": "Tinh Bột Sắn Dây - Nhà làm\nCó sẵn quanh năm\nĐặt hàng: Zalo 0979 502 000",
+  "end_card_text_en": "Handmade Kudzu Starch - Available year-round\nOrder via Zalo: +84 979 502 000"
+}

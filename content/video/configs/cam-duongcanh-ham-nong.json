@@ -1,0 +1,24 @@
+{
+  "slug": "cam-duongcanh-ham-nong",
+  "clips": [
+    {"file": "Cam Đường Canh/cam-duongcanh-hoaquanon-07.jpg", "duration": 4, "motion": "zoom_detail"},
+    {"file": "Cam Đường Canh/cam-duongcanh-hoaquanon-02.jpg", "duration": 4, "motion": "zoom"},
+    {"file": "Cam Đường Canh/cam-duongcanh-hoaquanon-10.jpg", "duration": 4, "motion": "zoom_detail"},
+    {"file": "Cam Đường Canh/cam-duongcanh-hoaquanon-12.mp4", "start": 2, "duration": 4.5, "motion": "pan_right"},
+    {"file": "Cam Đường Canh/cam-duongcanh-hoaquanon-11.mp4", "start": 2, "duration": 4.5, "motion": "pan_left"}
+  ],
+  "captions": [
+    {"text": "Hồi đầu mùa, cây mới ra mấy nụ hoa nhỏ xíu thế này", "text_en": "Early in the season, just tiny flower buds", "clip_index": 0, "start": 0, "duration": 4},
+    {"text": "Rồi hoa nở trắng cả vườn, thơm dịu mỗi sáng", "text_en": "Then the whole orchard bloomed white", "clip_index": 1, "start": 0, "duration": 4},
+    {"text": "Hoa rụng, đậu thành quả non xanh mướt", "text_en": "Flowers fell, young green fruit began to form", "clip_index": 2, "start": 0, "duration": 4},
+    {"text": "Giờ quả đã lớn hơn, vẫn còn xanh nguyên", "text_en": "Now the fruit is bigger, but still green", "clip_index": 3, "start": 0, "duration": 4.5},
+    {"text": "Còn vài tháng nữa mới đến mùa thu hoạch", "text_en": "Still a few months until harvest season", "clip_index": 4, "start": 0, "duration": 4.5}
+  ],
+  "narration": {
+    "text": "Nhiều người hỏi cam đường canh nhà mình đến đâu rồi, nhân tiện khoe luôn cả chặng đường. Hồi đầu mùa cây mới ra mấy nụ hoa nhỏ xíu, rồi hoa nở trắng cả vườn, thơm dịu mỗi sáng ra thăm cây. Hoa rụng xong mới đậu thành quả non, xanh mướt như hạt đỗ. Giờ quả đã lớn hơn nhiều rồi, nhưng vẫn còn xanh nguyên, chưa chuyển màu. Chắc phải còn vài tháng nữa, đến khoảng tháng 11 âm lịch, mới đến mùa thu hoạch. Cả nhà cứ theo dõi, có gì mới mình cập nhật tiếp nhé.",
+    "voice": "vi-VN-HoaiMyNeural"
+  },
+  "music": {"file": "content/video/music/nostalgic-acoustic-music.mp3", "volume": 0.16},
+  "end_card_text": "Cam Đường Canh - Nhà trồng, đạt chuẩn VietGAP\nMùa thu hoạch: khoảng tháng 11 âm lịch - tháng 1\nTheo dõi để cập nhật mùa vụ",
+  "end_card_text_en": "Cam Duong Canh - VietGAP certified\nHarvest season: around Nov-Jan (lunar calendar)\nFollow for season updates"
+}

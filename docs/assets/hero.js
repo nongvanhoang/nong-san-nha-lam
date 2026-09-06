@@ -311,6 +311,29 @@
   applyHeroMode();
 
   initRevealAndPause();
+  initMobileNav();
+
+  function initMobileNav(){
+    const toggle = document.getElementById('navToggle');
+    const links = document.getElementById('navLinks');
+    if (!toggle || !links) return;
+    toggle.addEventListener('click', function(){
+      const open = links.classList.toggle('open');
+      toggle.setAttribute('aria-expanded', open ? 'true' : 'false');
+    });
+    links.addEventListener('click', function(e){
+      if (e.target.tagName === 'A'){
+        links.classList.remove('open');
+        toggle.setAttribute('aria-expanded', 'false');
+      }
+    });
+    document.addEventListener('click', function(e){
+      if (links.classList.contains('open') && !links.contains(e.target) && !toggle.contains(e.target)){
+        links.classList.remove('open');
+        toggle.setAttribute('aria-expanded', 'false');
+      }
+    });
+  }
 
   function initRevealAndPause(){
     const revealEls = document.querySelectorAll('.reveal, .reveal-stagger');

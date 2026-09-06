@@ -1,0 +1,28 @@
+{
+  "slug": "san-day-hanh-trinh-day-du",
+  "clips": [
+    {"file": "Sắn Dây/san-day-vuon-12.mp4", "start": 1, "duration": 4.5, "motion": "pan_right"},
+    {"file": "Sắn Dây/san-day-thuhoach-mayxuc-daodat-02.mp4", "start": 13, "duration": 4.5, "motion": "zoom"},
+    {"file": "Sắn Dây/san-day-cutuoi-ruavoinuoc-11.mp4", "start": 2, "duration": 4.5, "motion": "pan_left"},
+    {"file": "Sắn Dây/san-day-nghienloc-mayduacuvao-01.mp4", "start": 10, "duration": 5, "motion": "zoom_detail"},
+    {"file": "Sắn Dây/san-day-nghienloc-khuaybelang-02.mp4", "start": 3, "duration": 4.5, "motion": "pan_right"},
+    {"file": "Sắn Dây/san-day-phoisay-tunhieutang-04.mp4", "start": 1, "duration": 5, "motion": "zoom"},
+    {"file": "Sắn Dây/san-day-phoisay-botkhovovun-05.mp4", "start": 2, "duration": 5, "motion": "zoom_detail"}
+  ],
+  "captions": [
+    {"text": "Giàn sắn dây nhà mình trước ngày thu hoạch", "text_en": "Our kudzu field, before harvest day", "clip_index": 0, "start": 0, "duration": 4.5},
+    {"text": "Đào cả gốc củ lên khỏi đất", "text_en": "Digging up the whole root", "clip_index": 1, "start": 0, "duration": 4.5},
+    {"text": "Rửa sạch đất cát trước khi nghiền", "text_en": "Washed clean before grinding", "clip_index": 2, "start": 0, "duration": 4.5},
+    {"text": "Đưa vào máy nghiền nát, ép lấy nước bột", "text_en": "Fed into the grinder, pressed for starch", "clip_index": 3, "start": 0, "duration": 5},
+    {"text": "Khuấy đều, để bột lắng xuống đáy bể", "text_en": "Stirred, then left to settle", "clip_index": 4, "start": 0, "duration": 4.5},
+    {"text": "Đưa vào lò sấy nhiều tầng", "text_en": "Into the multi-tier drying kiln", "clip_index": 5, "start": 0, "duration": 5},
+    {"text": "Thành phẩm khô đều, sạch từ đầu đến cuối", "text_en": "Evenly dried, clean from start to finish", "clip_index": 6, "start": 0, "duration": 5}
+  ],
+  "narration": {
+    "text": "Trước khi thành túi tinh bột trắng mịn các bạn hay mua, mọi thứ bắt đầu từ giàn sắn dây xanh um trên nương nhà mình đây. Đến mùa, cả nhà ra đào nguyên gốc lên, rửa sạch đất cát rồi đưa vào máy nghiền, ép lấy nước bột. Nước bột đó phải khuấy đều rồi để lắng cả mấy tiếng đồng hồ, không vội được đâu. Lắng xong mới nặn thành từng miếng, đưa vào lò sấy nhiều tầng, cài nhiệt rồi đợi đến khi khô hẳn, không pha thêm bất cứ thứ gì. Đấy, cả một hành trình dài, từ một gốc củ trên nương, thành túi tinh bột nhà mình làm bằng tay, từng chút một.",
+    "voice": "vi-VN-HoaiMyNeural"
+  },
+  "music": {"file": "content/video/music/warm-acoustic-music.mp3", "volume": 0.16},
+  "end_card_text": "Tinh Bột Sắn Dây - Nhà làm\nTừ củ tươi đến thành phẩm, thủ công 100%\nhello@nongsannhalam.com | Zalo 0979 502 000",
+  "end_card_text_en": "Homemade Kudzu Root Starch\nFrom fresh root to finished product, 100% handmade\nhello@nongsannhalam.com"
+}

@@ -16,6 +16,34 @@ bên dưới **vẫn đăng được bình thường**, chỉ cần đổi đún
 Sau khi đăng, quay lại tick `[x]` ở dòng dưới đây VÀ đánh dấu `[Đã đăng]` vào đầu tiêu đề bài đó
 trong `posts_ready.md` (để không đăng trùng lần sau).
 
+**Quy tắc dùng chung ảnh/video cho nhiều kênh (chốt 2026-09-04)**:
+- **Video**: pipeline `make_process_video.py` xuất sẵn 1080×1920 (dọc, chuẩn 9:16) — dùng **nguyên 1
+  file** cho Facebook, Zalo, Instagram Reels, TikTok, YouTube Shorts, không cần dựng riêng. LinkedIn
+  cũng phát được video dọc bình thường (không chuẩn gu ngang/vuông của họ, nhưng không đáng dựng
+  riêng chỉ vì 1 kênh) — vẫn dùng chung. Giữ nguyên cấu hình 1080×1920 khi dựng video mới về sau.
+- **Ảnh**: kho ảnh hiện có tỷ lệ không đồng nhất (có ảnh ngang ~900×506, có ảnh dọc ~720×1280/540×960)
+  — **không dùng chung được như video**, chọn theo kênh:
+  - Ảnh dọc/vuông → Instagram feed, ảnh bìa video (nơi bị crop nếu dùng ảnh ngang).
+  - Ảnh ngang → Facebook, Zalo, website (không bị crop, ảnh ngang hiển thị đẹp hơn ở đây).
+
+## Checklist đăng theo kênh (chốt 2026-09-04)
+
+_Bảng duy nhất theo dõi đã đăng kênh nào — tick ✅ trực tiếp vào đây, không cần sửa thêm ở
+`posts_ready.md` nữa (chỉ sửa `posts_ready.md` khi thêm bài mới). LinkedIn/YouTube không bắt buộc
+đúng ngày, tick khi nào đăng xong._
+
+| Ngày | Chủ đề | FB | Zalo | Instagram | LinkedIn | YouTube |
+|---|---|---|---|---|---|---|
+| Chưa xếp | Một góc khác của vườn (ảnh, mới 04/09) | ⬜ | ⬜ | ⬜ | — | — |
+| Chưa xếp | Củ sắn dây tươi (video, dựng xong 04/09) | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ (chờ có kênh) |
+| Chưa xếp | Một buổi sáng trên nương (video, dựng xong 06/09) | ⬜ | ⬜ | ⬜ | — | — |
+| Chưa xếp | Company intro tiếng Anh (video, dựng xong 06/09) | — | — | — | ⬜ | — |
+| Chưa xếp | Cam Đường Canh: hoa đến quả non (video hâm nóng, dựng xong 06/09) | ⬜ | ⬜ | ⬜ | — | — |
+| 08/09 | Hành trình đầy đủ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ (chờ có kênh) |
+| 11/09 | Bên trong lò sấy | ⬜ | ⬜ | ⬜ | — | ⬜ (chờ có kênh) |
+| 15/09 | Nhìn lại vườn cam mùa trước | ⬜ | ⬜ | ⬜ | — | — |
+| 18/09 | Mở rộng vùng trồng sắn dây | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ (chờ có kênh) |
+
 **Ghi chú 2026-08-17**: rà lại lịch, thấy đã trễ 4 mốc liên tiếp (04/08, 07/08, 11/08, 14/08) —
 đồng thời phát hiện `posts_ready.md` đã có thêm nội dung mới hơn (video đào củ 15-16/08) mà lịch
 này chưa cập nhật, số dòng tham chiếu trong các mục cũ cũng đã lệch vì nội dung mới chèn lên đầu
@@ -103,15 +131,87 @@ thật và logo đã chèn sẵn, chỉ cần mở link và tải xuống đăng
     5 clip thật: đào đất → người phụ đào → bẩy gốc → cận cảnh gốc củ → kéo dây lên), caption trong
     posts_ready.md. Nếu đăng cả ảnh tĩnh lẫn video trong tuần, cách nhau vài ngày để không trùng lúc.
 
-## Từ tuần 6 trở đi
+## Tuần 6
 
-Không lên lịch cứng trước — kho bài Sắn Dây mới coi như dùng hết đến đây, còn 1 bài tồn "Thông báo
-hàng có sẵn" (Zalo) **đã làm mới 2026-09-02** — đổi góc độ (quanh năm có sẵn, khác Cam Đường Canh
-theo mùa) và CTA để không lặp bài gần nhất, dùng lấp chỗ nếu cần đăng mà chưa có dữ liệu thật mới. Ưu tiên chờ có dữ liệu thật (đơn hàng đầu
-tiên ghi qua app, feedback khách) để bài tiếp theo có góc độ mới thay vì viết thêm bài chung chung.
-Giữ nguyên 2 bài Cam Đường Canh nhấn VietGAP / chín tự nhiên trên cây (chưa dùng, để dành đúng
-T9-10/2026 theo Giai đoạn 2 của `KE_HOACH_BAN_HANG.md` — đừng đăng sớm hơn, tránh lặp ý với bài
-"quả non đậu trên cành" ở Tuần 2).
+_Soạn 2026-09-04 — kho bài cũ đã hết đúng như dự kiến, nhưng cùng ngày này vừa dựng xong 2 video
+Sắn Dây dựng lại đầy đủ hơn nhiều (giọng đọc AI + phụ đề Anh + nhiều cảnh thật chưa từng dùng), gỡ
+đúng điểm nghẽn đã ghi ở đây trước đó. Caption đầy đủ ở `content/posts_ready.md`._
+
+**Từ mốc này trở đi (04/09): đăng đồng thời trên TẤT CẢ kênh đang có mỗi lần đến lịch**, thay vì
+chia chủ đề khác nhau theo từng tuần như trước — 1 nội dung, nhiều bản theo từng kênh, đăng cùng
+ngày. Instagram chính thức vào nhịp 2 lần/tuần từ đây (tài khoản đã có sẵn). **YouTube Shorts đã
+soạn sẵn nội dung nhưng CHƯA có kênh** — cần tự tạo kênh YouTube trước (Claude không tự tạo tài
+khoản được), xong thì đăng theo nội dung đã có trong posts_ready.md, không cần đúng ngày.
+
+**Cập nhật 2026-09-05**: sau phản hồi thật "chuyển cảnh nhanh, chưa kịp hiểu", đã chỉnh lại nhịp độ
+toàn bộ script dựng video (xem `content/video/configs/README.md`) — cảnh dài hơn (4-5s thay vì
+2.5-3s), ít cảnh hơn/video. 2 video Tuần 6 dưới đây đã dựng lại theo nhịp mới, thời lượng/số cảnh
+đổi khác so với lúc soạn lịch (04/09): "Hành trình đầy đủ" còn **34s/7 cảnh** (trước ghi 54s/14
+cảnh), "Bên trong lò sấy" còn **31s/6 cảnh** (trước ghi 47s/11 cảnh) — nội dung/câu chuyện vẫn y
+nguyên, chỉ đổi nhịp xem cho dễ theo dõi hơn.
+
+- [ ] **Thứ 3, 08/09/2026** — "Hành trình đầy đủ, từ gốc củ đến túi tinh bột" (video
+  `san-day-hanh-trinh-day-du.mp4`, 34s, 7 cảnh, có giọng đọc AI + phụ đề Anh):
+  - Facebook: bản đầy đủ trong posts_ready.md
+  - Zalo: bản ngắn cùng mục
+  - Instagram (Reels): bản mới soạn 04/09, có hashtag — cùng mục trong posts_ready.md
+  - LinkedIn: bản tiếng Anh, hướng đối tác sỉ/xuất khẩu — không cần đúng ngày, đăng khi thuận tiện
+  - YouTube Shorts: tiêu đề + mô tả đã soạn sẵn — **đợi có kênh mới đăng**
+- [ ] **Thứ 6, 11/09/2026** — "Bên trong lò sấy, từ bột ướt đến khô giòn" (video
+  `quy-trinh-say-san-day.mp4`, bản dựng lại 31s, 6 cảnh):
+  - Facebook: bản đầy đủ trong posts_ready.md
+  - Zalo: bản ngắn cùng mục
+  - Instagram (Reels): bản mới soạn 04/09, có hashtag — cùng mục trong posts_ready.md
+  - YouTube Shorts: tiêu đề + mô tả đã soạn sẵn — **đợi có kênh mới đăng**
+
+## Tuần 7
+
+_Đổi sang Cam Đường Canh 1 tuần để không dồn hết vào Sắn Dây liên tiếp — đúng lúc video vườn cam
+mùa trước vừa dựng xong (2026-09-03), và đang là giai đoạn "hâm nóng" trước mùa mới (~T11 âm lịch)
+theo Giai đoạn 2 của `KE_HOACH_BAN_HANG.md`._
+
+- [ ] **Thứ 3, 15/09/2026**:
+  - Facebook + Zalo: "Nhìn lại vườn cam mùa trước" — video
+    `content/video/output/cam-vuon-mua-truoc.mp4` (16s), caption đã có sẵn trong posts_ready.md
+    (viết ở thì quá khứ, KHÔNG chào bán vì chưa vào mùa — CTA là "để lại inbox nhận tin" chứ không
+    phải "đặt hàng ngay").
+  - Instagram (Reels): bản mới soạn 05/09, giữ đúng CTA "để lại inbox" — cùng mục trong
+    posts_ready.md
+- [ ] **Thứ 6, 18/09/2026**:
+  - Facebook + Zalo: "Mở rộng vùng trồng sắn dây" — video
+    `content/video/output/san-day-mo-rong-vung-trong.mp4` (dựng 2026-09-04 từ 4 clip
+    `san-day-vuonmoi-*.mp4`, ruộng mới trồng), caption đã có sẵn trong posts_ready.md — góc độ hoàn
+    toàn mới, chưa từng kể.
+  - Instagram (Reels): bản mới soạn 05/09 — cùng mục trong posts_ready.md
+
+## Tuần 8
+
+_Soạn 2026-09-05 — 2 nội dung Sắn Dây đã dựng/viết xong (04/09) nhưng chưa có ngày cụ thể: video
+"củ tươi" (góc độ chưa từng kể — hình dạng thật của củ trước khi chế biến) và bộ ảnh "vườn lúc còn
+xanh". Cả 2 đã có caption đủ 3 kênh (Facebook/Zalo/Instagram) trong `posts_ready.md`._
+
+- [ ] **Thứ 3, 22/09/2026** — "Củ sắn dây tươi, trước khi thành tinh bột" (video
+  `san-day-cu-tuoi.mp4`, 23s, 5 cảnh, có giọng đọc AI + phụ đề Anh):
+  - Facebook + Zalo + Instagram (Reels): bản đầy đủ trong posts_ready.md
+  - YouTube Shorts: tiêu đề + mô tả đã soạn sẵn — **đợi có kênh mới đăng**
+- [ ] **Thứ 6, 25/09/2026** — "Một góc khác của vườn sắn dây" (4 ảnh thật:
+  `san-day-vuon-18.jpg`, `-26.jpg`, `-34.jpg`, `-42.jpg`, chưa từng lên bài):
+  - Facebook + Zalo + Instagram (carousel 4 ảnh): bản đầy đủ trong posts_ready.md
+
+## Từ tuần 9 trở đi
+
+Không lên lịch cứng trước. Ưu tiên chờ có dữ liệu thật (đơn hàng đầu tiên ghi qua app, feedback
+khách) để bài tiếp theo có góc độ mới thay vì viết thêm bài chung chung. Giữ nguyên 2 bài Cam
+Đường Canh nhấn VietGAP / chín tự nhiên trên cây (chưa dùng, để dành đúng T9-10/2026 theo Giai
+đoạn 2 của `KE_HOACH_BAN_HANG.md` — đừng đăng sớm hơn, tránh lặp ý với bài "quả non đậu trên cành"
+ở Tuần 2). Video đóng gói cam (`cam-dong-goi-can-than.mp4`, dựng 2026-09-03) **để dành tới tháng
+11** khi mùa thật bắt đầu — không đăng sớm, caption đã viết sẵn ở thì quá khứ nên không sai nếu lỡ
+đăng sớm, nhưng nội dung hợp lý nhất là đăng đúng lúc mùa mới bắt đầu.
+
+**Ghi chú 2026-09-06**: video mới `cam-duongcanh-ham-nong.mp4` (hoa → quả non, xem checklist ở
+trên) VẪN nên đăng sớm hơn (không cần đợi T9-10), vì đây là góc "tiến độ tiếp theo" sau bài đã đăng
+Tuần 2 (11/08, "quả non đã đậu trên cành") chứ không lặp lại — quả trong video mới đã lớn hơn hẳn.
+2 bài dành riêng T9-10 (VietGAP / chín tự nhiên trên cây) vẫn giữ nguyên, không đụng tới.
 
 ## Bài cũ nên bỏ qua hẳn (không đưa vào lịch — đã có bản mới hơn thay thế)
 

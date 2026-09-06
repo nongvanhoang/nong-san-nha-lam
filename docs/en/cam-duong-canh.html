@@ -37,9 +37,17 @@
       "image": "https://nongsannhalam.com/assets/cam-duong-canh-real-qua.jpg",
       "brand": { "@type": "Brand", "name": "Nong San Nha Lam" },
       "offers": [
-        { "@type": "Offer", "url": "https://nongsannhalam.com/en/cam-duong-canh.html", "priceCurrency": "VND", "price": "275000", "name": "5 kg box", "availability": "https://schema.org/InStock", "eligibleRegion": { "@type": "Country", "name": "VN" } },
-        { "@type": "Offer", "url": "https://nongsannhalam.com/en/cam-duong-canh.html", "priceCurrency": "VND", "price": "500000", "name": "10 kg box", "availability": "https://schema.org/InStock", "eligibleRegion": { "@type": "Country", "name": "VN" } }
+        { "@type": "Offer", "url": "https://nongsannhalam.com/en/cam-duong-canh.html", "priceCurrency": "VND", "price": "275000", "name": "5 kg box", "availability": "https://schema.org/PreOrder", "eligibleRegion": { "@type": "Country", "name": "VN" } },
+        { "@type": "Offer", "url": "https://nongsannhalam.com/en/cam-duong-canh.html", "priceCurrency": "VND", "price": "500000", "name": "10 kg box", "availability": "https://schema.org/PreOrder", "eligibleRegion": { "@type": "Country", "name": "VN" } }
       ]
+    },
+    {
+      "@type": "VideoObject",
+      "name": "Our Canh Mandarin orchard, last season",
+      "description": "Real footage from our own orchard during last season's harvest (~November to January, lunar calendar) — fruit ripened naturally on the tree, no ripening agents, VietGAP certified. On-screen text is in Vietnamese.",
+      "thumbnailUrl": "https://nongsannhalam.com/assets/cam-vuon-mua-truoc-poster.jpg",
+      "uploadDate": "2026-09-03",
+      "contentUrl": "https://nongsannhalam.com/assets/cam-vuon-mua-truoc.mp4"
     },
     {
       "@type": "FAQPage",
@@ -79,12 +87,15 @@
       <img src="../assets/logo-transparent.svg" alt="Nong San Nha Lam">
       <span>Nong San Nha Lam</span>
     </a>
-    <ul class="nav-links">
+    <ul class="nav-links" id="navLinks">
       <li><a href="san-day.html">Kudzu Starch</a></li>
       <li><a href="cam-duong-canh.html" aria-current="page">Canh Oranges</a></li>
       <li><a href="index.html#faq">FAQ</a></li>
       <li><a href="index.html#lien-he">Contact</a></li>
     </ul>
+<button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="navLinks" aria-label="Menu">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+    </button>
     <div class="nav-side">
       <div class="lang-switch">
         <a href="../cam-duong-canh.html">VI</a>
@@ -170,7 +181,7 @@
     <div class="product">
       <div class="product-grid">
         <div class="product-media">
-          <img src="../assets/cam-duong-canh-real-qua.jpg" alt="Canh Mandarin Oranges ripe on the tree">
+          <img src="../assets/cam-duong-canh-real-qua.jpg" alt="Canh Mandarin Oranges ripe on the tree" loading="lazy">
         </div>
         <div class="product-body">
           <h3>Canh Mandarin Oranges</h3>
@@ -194,6 +205,17 @@
     </div>
   </section>
 
+  <section class="reveal" id="quy-trinh">
+    <div class="section-heading">
+      <span class="eyebrow">Last season</span>
+      <h2>A look back at our orchard</h2>
+      <p>Real footage from last season's harvest — on-screen text is in Vietnamese. New season expected around November (lunar calendar).</p>
+    </div>
+    <div class="video-frame">
+      <video src="../assets/cam-vuon-mua-truoc.mp4" poster="../assets/cam-vuon-mua-truoc-poster.jpg" controls playsinline preload="none"></video>
+    </div>
+  </section>
+
   <section class="reveal" id="xuat-khau">
     <div class="section-heading">
       <span class="eyebrow">Export status</span>
@@ -209,14 +231,17 @@
     </div>
     <div class="commit-grid reveal-stagger">
       <div class="commit-card part">
+        <span class="commit-icon" aria-hidden="true"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg></span>
         <h3>Real certification</h3>
         <p>VietGAP certified, No. 112/CN-TĐC-TT-20-0012, issued by NATEK JSC, publicly verifiable.</p>
       </div>
       <div class="commit-card part">
+        <span class="commit-icon" aria-hidden="true"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg></span>
         <h3>Naturally ripened</h3>
         <p>Grown and harvested naturally, in season — no ripening agents used.</p>
       </div>
       <div class="commit-card part">
+        <span class="commit-icon" aria-hidden="true"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg></span>
         <h3>We ship to you</h3>
         <p>Carefully packed, domestic delivery nationwide once in season.</p>
       </div>

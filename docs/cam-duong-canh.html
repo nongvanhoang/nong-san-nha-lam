@@ -37,9 +37,17 @@
       "image": "https://nongsannhalam.com/assets/cam-duong-canh-real-qua.jpg",
       "brand": { "@type": "Brand", "name": "Nông Sản Nhà Làm" },
       "offers": [
-        { "@type": "Offer", "url": "https://nongsannhalam.com/cam-duong-canh.html", "priceCurrency": "VND", "price": "275000", "name": "Thùng 5kg" },
-        { "@type": "Offer", "url": "https://nongsannhalam.com/cam-duong-canh.html", "priceCurrency": "VND", "price": "500000", "name": "Thùng 10kg" }
+        { "@type": "Offer", "url": "https://nongsannhalam.com/cam-duong-canh.html", "priceCurrency": "VND", "price": "275000", "name": "Thùng 5kg", "availability": "https://schema.org/PreOrder" },
+        { "@type": "Offer", "url": "https://nongsannhalam.com/cam-duong-canh.html", "priceCurrency": "VND", "price": "500000", "name": "Thùng 10kg", "availability": "https://schema.org/PreOrder" }
       ]
+    },
+    {
+      "@type": "VideoObject",
+      "name": "Vườn Cam Đường Canh nhà mình, mùa trước",
+      "description": "Video thật quay tại vườn nhà Nông Sản Nhà Làm mùa thu hoạch trước (~tháng 11 âm lịch - tháng 1) — quả chín tự nhiên trên cây, không thúc chín, đạt chứng nhận VietGAP.",
+      "thumbnailUrl": "https://nongsannhalam.com/assets/cam-vuon-mua-truoc-poster.jpg",
+      "uploadDate": "2026-09-03",
+      "contentUrl": "https://nongsannhalam.com/assets/cam-vuon-mua-truoc.mp4"
     },
     {
       "@type": "FAQPage",
@@ -79,12 +87,15 @@
       <img src="assets/logo-transparent.svg" alt="Nông Sản Nhà Làm">
       <span>Nông Sản Nhà Làm</span>
     </a>
-    <ul class="nav-links">
+    <ul class="nav-links" id="navLinks">
       <li><a href="san-day.html">Sắn Dây</a></li>
       <li><a href="cam-duong-canh.html" aria-current="page">Cam Đường Canh</a></li>
       <li><a href="index.html#faq">Hỏi đáp</a></li>
       <li><a href="index.html#lien-he">Liên hệ</a></li>
     </ul>
+<button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="navLinks" aria-label="Menu">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+    </button>
     <div class="nav-side">
       <div class="lang-switch">
         <a class="active" href="cam-duong-canh.html">VI</a>
@@ -174,7 +185,7 @@
     <div class="product">
       <div class="product-grid">
         <div class="product-media">
-          <img src="assets/cam-duong-canh-real-qua.jpg" alt="Cam Đường Canh chín trên cây">
+          <img src="assets/cam-duong-canh-real-qua.jpg" alt="Cam Đường Canh chín trên cây" loading="lazy">
         </div>
         <div class="product-body">
           <h3>Cam Đường Canh</h3>
@@ -198,6 +209,17 @@
     </div>
   </section>
 
+  <section class="reveal" id="quy-trinh">
+    <div class="section-heading">
+      <span class="eyebrow">Mùa trước</span>
+      <h2>Nhìn lại vườn cam nhà mình</h2>
+      <p>Video thật quay mùa vừa rồi — mùa mới khoảng tháng 11 âm lịch sắp tới.</p>
+    </div>
+    <div class="video-frame">
+      <video src="assets/cam-vuon-mua-truoc.mp4" poster="assets/cam-vuon-mua-truoc-poster.jpg" controls playsinline preload="none"></video>
+    </div>
+  </section>
+
   <section class="reveal">
     <div class="section-heading glow-pulse">
       <span class="eyebrow">Cam kết</span>
@@ -205,14 +227,17 @@
     </div>
     <div class="commit-grid reveal-stagger">
       <div class="commit-card part">
+        <span class="commit-icon" aria-hidden="true"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg></span>
         <h3>Có chứng nhận rõ ràng</h3>
         <p>Đạt VietGAP, số 112/CN-TĐC-TT-20-0012, cấp bởi NATEK JSC, có thể tra cứu.</p>
       </div>
       <div class="commit-card part">
+        <span class="commit-icon" aria-hidden="true"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg></span>
         <h3>Không thúc chín</h3>
         <p>Trồng và thu hoạch tự nhiên theo đúng mùa vụ, không dùng thuốc thúc chín.</p>
       </div>
       <div class="commit-card part">
+        <span class="commit-icon" aria-hidden="true"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg></span>
         <h3>Giao tận nơi</h3>
         <p>Đóng gói cẩn thận, giao hàng toàn quốc khi vào mùa.</p>
       </div>

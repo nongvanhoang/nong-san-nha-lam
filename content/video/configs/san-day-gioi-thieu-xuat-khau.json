@@ -1,0 +1,24 @@
+{
+  "slug": "san-day-gioi-thieu-xuat-khau",
+  "clips": [
+    {"file": "Sắn Dây/san-day-vuon-toan-canh-04.mp4", "start": 2, "duration": 4, "motion": "pan_right"},
+    {"file": "Sắn Dây/san-day-cutuoi-nguoiombocu-02.mp4", "start": 0, "duration": 3.5, "motion": "zoom_detail"},
+    {"file": "Sắn Dây/san-day-nghienloc-mayduacuvao-01.mp4", "start": 10, "duration": 4.5, "motion": "zoom"},
+    {"file": "Sắn Dây/san-day-phoisay-tunhieutang-04.mp4", "start": 1, "duration": 4.5, "motion": "pan_left"},
+    {"file": "Sắn Dây/san-day-phoisay-botkhovovun-06.mp4", "start": 2, "duration": 4.5, "motion": "zoom_detail"}
+  ],
+  "captions": [
+    {"text": "Nông Sản Nhà Làm - cơ sở gia đình tại Lạng Sơn", "text_en": "Nong San Nha Lam - a family workshop in Lang Son, Vietnam", "clip_index": 0, "start": 0, "duration": 4},
+    {"text": "Sắn dây trồng và thu hoạch ngay tại nương nhà", "text_en": "Kudzu root, grown and harvested on our own land", "clip_index": 1, "start": 0, "duration": 3.5},
+    {"text": "Nghiền lọc thủ công theo cách truyền thống", "text_en": "Hand-ground and filtered, the traditional way", "clip_index": 2, "start": 0, "duration": 4.5},
+    {"text": "Sấy chậm trong lò chuyên dụng, không hoá chất", "text_en": "Slowly dried in a dedicated kiln, no chemicals added", "clip_index": 3, "start": 0, "duration": 4.5},
+    {"text": "Thành phẩm tinh khiết, đều tay từng mẻ", "text_en": "A pure starch, made with care, batch after batch", "clip_index": 4, "start": 0, "duration": 4.5}
+  ],
+  "narration": {
+    "text": "We are Nong San Nha Lam, a small family workshop in Lang Son, Vietnam. Our kudzu root starch is grown and harvested right here, on our own land. Each root is hand-washed, ground, and filtered the traditional way, then dried slowly in a dedicated kiln, with no chemicals and no bleaching agents added. The result is a pure, natural starch, made the same careful way, batch after batch. We're open to wholesale and export partnerships, and happy to send samples on request.",
+    "voice": "en-US-AriaNeural"
+  },
+  "music": {"file": "content/video/music/instrumental-acoustic-guitar-music.mp3", "volume": 0.16},
+  "end_card_text": "Nông Sản Nhà Làm\nTinh Bột Sắn Dây Thủ Công\nhello@nongsannhalam.com",
+  "end_card_text_en": "Handmade Kudzu Root Starch\nWholesale & Export Inquiries Welcome"
+}
