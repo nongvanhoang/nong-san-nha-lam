@@ -12,6 +12,11 @@ DANH_SACH_KHACH_HANG_B2B.csv
 DANH_SACH_KHACH_HANG_B2B.md
 DANH_SACH_GUI_HANG_LOAT.md
 
+# Cùng lý do trên - các file chào hàng có SĐT/email THẬT của bên thứ 3 (quán chè, dịch vụ quà Tết)
+content/templates/chao_hang_san_sang_gui.md
+content/templates/email_qua_tet_doanh_nghiep.md
+content/templates/kich_ban_goi_dien_quan_che.md
+
 # Kho ảnh/video gốc (quá nặng cho GitHub Pages) - chỉ dùng bản đã resize/nén trong docs/assets/
 Hình Ảnh, Video/
 

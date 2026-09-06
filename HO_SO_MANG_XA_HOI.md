@@ -103,6 +103,41 @@ Cam Đường Canh lên sàn — trái tươi khó đáp ứng SLA giao hàng/đ
   cần bạn quyết định trước (ví dụ: "đổi/hoàn tiền nếu hàng lỗi/hư hỏng khi nhận, báo trong 24h kèm
   ảnh/video mở hàng").
 
+## 4b. TikTok (kênh đăng video — khác với TikTok Shop ở mục 3)
+
+**Lưu ý quan trọng**: mục 3 ở trên là **TikTok Shop** (gian hàng bán hàng trong app) — theo
+`KE_HOACH_BAN_HANG.md` đã QUYẾT ĐỊNH mở từ 2026-07-05 nhưng **vẫn CHƯA đăng ký**, tức hiện tại
+nhà mình **chưa có bất kỳ tài khoản TikTok nào**, kể cả để đăng video. Mục này hướng dẫn tạo tài
+khoản TikTok để đăng video công khai (kênh nội dung) — cần làm sớm vì `LICH_DANG_BAI.md` đã có
+sẵn nhiều video thật chờ đăng (quy trình sấy, thu hoạch, đào củ...) mà chưa có kênh để đăng lên.
+
+**Các bước tạo**:
+1. Tải app TikTok → Đăng ký bằng số điện thoại đang dùng để bán hàng (`0979 502 000`) — nên dùng số
+   điện thoại thay vì email vì dễ khôi phục tài khoản hơn nếu quên mật khẩu.
+2. **Tên hiển thị**: `Nông Sản Nhà Làm`
+3. **Username (@...)**: thử `nongsannhalam` trước; nếu bị trùng, thử `nongsannhalamlangson` hoặc
+   `nongsannhalam.vn`. Username không quan trọng bằng tên hiển thị (là cái khách nhìn thấy đầu tiên).
+4. **Ảnh đại diện**: `docs/assets/icon-512.png` (ảnh dùng chung, mục 0 ở trên).
+5. **Tiểu sử** (bio, giới hạn 80 ký tự):
+   ```
+   🌾🍊 Sắn Dây & Cam Đường Canh nhà làm, Lạng Sơn. Video thật 100%. Đặt hàng ⬇️
+   ```
+6. **Link ngoài trong bio**: TikTok thường chỉ mở tính năng gắn link (website) sau khi chuyển sang
+   tài khoản Doanh nghiệp và/hoặc đạt một mốc follower nhất định (chính sách hay đổi, kiểm tra lúc
+   đăng ký). Khi bật được, dùng `https://nongsannhalam.com`.
+7. **Chuyển sang tài khoản Doanh nghiệp** (Cài đặt → Quản lý tài khoản → Chuyển đổi tài khoản →
+   Doanh nghiệp): mở khoá thống kê (analytics), nút liên hệ nhanh (gọi/nhắn/email), chọn danh mục
+   "Thực phẩm & Đồ uống". Bước này KHÔNG cần giấy phép hộ kinh doanh (khác với Zalo OA doanh nghiệp
+   ở mục 2 — nhà mình chưa đăng ký hộ kinh doanh nên vẫn làm được bước này bình thường).
+8. **Đăng video đầu tiên**: dùng ngay video đã dựng sẵn — ví dụ `docs/assets/san-day-quy-trinh-say.mp4`
+   kèm caption có sẵn trong `content/posts_ready.md` (mục "Caption riêng cho video quy trình sấy lò").
+
+**[CẦN BẠN QUYẾT ĐỊNH]** Khi đăng ký TikTok Shop sau này (mục 3), nên dùng **chung tài khoản** vừa
+tạo ở đây hay tách riêng? TikTok cho phép gắn Shop vào tài khoản nội dung đã có — dùng chung thường
+tốt hơn (video quảng cáo sản phẩm dẫn thẳng khách sang mua), nhưng nếu muốn kênh nội dung "đời sống
+nhà nông" tự nhiên, không lộ rõ mục đích bán hàng, có thể tách riêng. Nói mình biết khi bạn quyết
+định để cập nhật lại mục 3.
+
 ## 4. Google Business Profile (Google Maps / Google Doanh Nghiệp Của Tôi)
 
 Chưa có ghi chú nào về kênh này trước đây — đây là gợi ý mới, giúp khách tìm được bằng Google Maps/
@@ -132,6 +167,7 @@ Google Search khi gõ "nông sản Lạng Sơn" và cho phép khách để lại
 2. Facebook: giờ hoạt động thật là gì (mình chỉ đang gợi ý mặc định)?
 3. Zalo: có muốn tìm hiểu nâng lên Zalo OA không, hay giữ Zalo cá nhân như hiện tại?
 4. Shopee/TikTok Shop: chính sách đổi/trả cụ thể là gì (sàn bắt buộc phải khai mới mở được gian hàng)?
+5. TikTok: đăng ký TikTok Shop sau này dùng chung tài khoản nội dung vừa tạo, hay tách riêng?
 
 Những mục còn lại (ảnh, giới thiệu, thông tin liên hệ, mô tả sản phẩm) đều dùng số liệu thật đã có
 sẵn — copy-paste được ngay, không cần chờ quyết định gì thêm.

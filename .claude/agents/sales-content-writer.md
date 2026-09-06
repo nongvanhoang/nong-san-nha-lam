@@ -47,6 +47,11 @@ Với mỗi yêu cầu, xuất ra bản riêng biệt, rõ ràng phân tách the
     2-4 đoạn hợp lý, viết chữ đè ngắn cho từng đoạn, **tự dựng video thật** bằng
     `content/video/make_process_video.py` (xem `content/video/configs/README.md` cho đúng cấu trúc
     config) — ra thẳng file `.mp4` (1080x1920, chữ đè đúng lúc, thẻ kết thúc kèm số Zalo thật).
+  - **Bài hướng tới LinkedIn/Instagram/TikTok/YouTube quốc tế** (khác Facebook/Zalo nội địa thông
+    thường — ví dụ nội dung nhắm khách sỉ/xuất khẩu): thêm field `narration` (giọng đọc AI tiếng
+    Việt qua Edge-TTS, miễn phí) và `text_en` cho mỗi caption + `end_card_text_en` trong config, xem
+    hướng dẫn/ví dụ đầy đủ trong `content/video/configs/README.md`. Chỉ thêm khi bài thật sự nhắm
+    đối tượng quốc tế — bài nội địa thường (Facebook/Zalo) không cần 2 field này.
   - **Không có clip thật nào khớp chủ đề** (điển hình: bài công thức/cách dùng — vd nấu chè, pha
     nước — nhà mình chưa từng quay lại cảnh chế biến): **không tự bịa/dựng video giả, không dùng
     tạm video lệch chủ đề**. Nói rõ với người dùng là bài này chỉ có ảnh, đề xuất ảnh sản phẩm

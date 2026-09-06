@@ -72,6 +72,12 @@ b2b-quan-che/xuat-khau-nhe) — không tự ghi đơn hàng thay, đó là việ
 
 ## Khi viết nội dung kênh xuất khẩu nhẹ (Nhóm E)
 
+- **Video giới thiệu tiếng Anh có sẵn** (thêm 2026-09-06): `content/video/output/san-day-gioi-thieu-xuat-khau.mp4`
+  (33s, giọng đọc + phụ đề tiếng Anh, giới thiệu ngắn gọn quy trình thật) — có bản nén nhẹ để đính
+  kèm email tại `docs/assets/san-day-gioi-thieu-xuat-khau-email.mp4` (~2.8MB). **CHỈ dùng cho Nhóm E**
+  (Chợ Việt 93, Tamda Foods, 3 cửa hàng Việt tại Nhật...) — **KHÔNG gửi cho Nhóm D** (Longdan, JK
+  Foods, Mountain Rose Herbs, Eden Foods...) vì Nhóm D vẫn đang bị khoá chờ ATTP, gửi video giới
+  thiệu cho họ dễ bị hiểu nhầm là đang chào hàng xuất khẩu chính ngạch.
 - Khung nội dung: "gửi quà quê nhà" cho người quen/kiều bào, không phải rao bán thương mại công khai.
 - **Bắt buộc đính kèm checklist rủi ro hải quan đúng quốc gia người nhận**, đúng mức độ chắc chắn đã
   xác minh trong `KE_HOACH_BAN_HANG.md`/`DANH_SACH_KHACH_HANG_B2B.md` Nhóm E — không tự nâng mức chắc

@@ -58,6 +58,11 @@ file PDF gốc hay tên/địa chỉ của 3 thành viên kia lên bất kỳ đ
   thật khớp chủ đề không rồi dựng bằng `content/video/make_process_video.py`. Nếu chủ đề không có
   clip thật nào khớp (thường gặp ở bài công thức/cách dùng), nói rõ là chỉ có ảnh, không tự dựng/bịa
   video giả — đây là giới hạn thật của kho tư liệu, không phải lỗi.
+- **Giọng đọc AI + phụ đề tiếng Anh (từ 2026-09-03, tuỳ chọn)**: `make_process_video.py` hỗ trợ thêm
+  giọng đọc AI tiếng Việt (Edge-TTS, miễn phí — không vi phạm quy tắc "không gọi API trả phí" ở
+  dưới) và phụ đề tiếng Anh chèn cứng, dùng khi bài hướng tới LinkedIn/Instagram/TikTok/YouTube quốc
+  tế. HÌNH ẢNH vẫn luôn 100% clip thật — chỉ thêm lớp âm thanh/chữ, không dựng cảnh giả. Chi tiết
+  cách bật 2 field `narration`/`text_en` xem `content/video/configs/README.md`.
 - **Lưu ý môi trường (2026-08-02)**: lệnh `python`/`py` trên máy này không trỏ đúng Python thật (bị Windows Store
   alias/launcher lỗi chặn). Python thật nằm ở `C:\Users\Admin\AppData\Local\Python\bin\python.exe` — dùng đường
   dẫn đầy đủ này khi chạy các script bên dưới, trừ khi người dùng xác nhận đã sửa PATH.

@@ -58,11 +58,16 @@ _Cập nhật: 2026-07-03. Xem lại và điều chỉnh khi có số liệu đ�
 
 1. Đăng bài chính thức (bài đã soạn trước, đánh dấu "chỉ đăng khi vào mùa cam thật") ngay khi có
    hàng, ưu tiên nhắn trước cho danh sách khách đã chờ từ Giai đoạn 2.
-2. Bán chéo: khách hỏi mua cam thì giới thiệu thêm Tinh Bột Sắn Dây (bán quanh năm) để tăng giá trị
+2. **Việc kỹ thuật cần làm ngay khi vào mùa (phát hiện 2026-09-06)**: đổi `"availability"` trong
+   schema.org của Cam Đường Canh từ `PreOrder` sang `InStock` ở CẢ 2 file `docs/cam-duong-canh.html`
+   và `docs/en/cam-duong-canh.html` (hiện đang để `PreOrder` vì đang trái mùa — để `InStock` lúc
+   trái mùa là sai, Google có thể hiện nhầm "còn hàng" trong kết quả tìm kiếm). Cuối mùa (hết hàng)
+   nhớ đổi lại về `PreOrder` hoặc `OutOfStock`.
+3. Bán chéo: khách hỏi mua cam thì giới thiệu thêm Tinh Bột Sắn Dây (bán quanh năm) để tăng giá trị
    đơn hàng.
-3. Theo dõi sát tồn kho qua `weekly_report.py` — vì chỉ bán theo thùng 5kg/10kg và mùa vụ ngắn, cần
+4. Theo dõi sát tồn kho qua `weekly_report.py` — vì chỉ bán theo thùng 5kg/10kg và mùa vụ ngắn, cần
    chủ động báo hết mùa/hết hàng đúng lúc, tránh nhận đơn vượt sản lượng thực tế.
-4. Cuối mùa, nếu còn tồn, có thể ưu tiên khách quen / giảm nhẹ để bán hết trước khi cam hết mùa
+5. Cuối mùa, nếu còn tồn, có thể ưu tiên khách quen / giảm nhẹ để bán hết trước khi cam hết mùa
    (không thúc chín trái nên không giữ được lâu ngoài mùa).
 
 ## Ma trận kênh B2B + B2C, trong nước + nước ngoài (cập nhật 2026-08-12)
