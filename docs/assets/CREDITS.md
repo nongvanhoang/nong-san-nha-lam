@@ -70,3 +70,15 @@ mạng xã hội) đã kiểm tra lại 2026-08-11: KHÔNG quay cảnh phơi n�
 Ảnh/video gốc (độ phân giải cao hơn) lưu trong `Hình Ảnh, Video/` ở thư mục gốc dự án (không đưa vào
 repo git vì dung lượng lớn — xem README.md). Khi muốn đổi ảnh/video khác, chọn từ thư mục đó rồi nhờ
 Claude resize/nén lại trước khi đưa vào đây.
+
+**2026-09-07**: thêm 2 video "mồ côi" lên web — đã dựng xong + có caption MXH từ 06/09 nhưng chưa
+từng gắn vào trang nào cho tới hôm nay:
+- `san-day-buoi-sang-tren-nuong.mp4` — thêm vào `san-day.html`/`en/san-day.html` (mục "Nhà mình làm
+  thế nào"), cảnh nương sắn dây giữa núi đá vôi, có giọng đọc + phụ đề Anh. Nén 540x960 còn ~4.6MB.
+- `cam-duongcanh-ham-nong.mp4` — thêm vào `cam-duong-canh.html`/`en/cam-duong-canh.html` (mục
+  "Nhìn lại và cập nhật vườn cam"), cập nhật tiến độ mùa thật (hoa → quả non), có giọng đọc + phụ đề
+  Anh, KHÔNG chào bán vì chưa vào mùa. Nén còn ~2.9MB. Trang Cam giờ có 2 video, đã đổi từ
+  `.video-frame` đơn sang `.video-grid` (2 cột) cho khớp cách làm ở trang Sắn Dây.
+
+CSS `.video-grid` đổi từ flex sang CSS Grid `auto-fit` cùng ngày — tự co giãn hợp lý dù có 1, 2, 3
+hay 4+ video trong 1 mục, không cần sửa CSS mỗi lần thêm video mới.
