@@ -54,6 +54,7 @@
   if (!hasHero){
     /* Page has no scroll hero (e.g. the home page) — still run below-fold choreography. */
     initRevealAndPause();
+    initMobileNav();
     return;
   }
 

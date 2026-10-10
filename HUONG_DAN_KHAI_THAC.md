@@ -118,3 +118,17 @@ Nhóm 2, và ảnh #1 chờ nhãn in xong), mọi nội dung cần điền đã 
 - Mỗi tối hoặc cuối tuần nhắn Claude **"đồng bộ đơn"** → đơn tự chép về `data/orders.csv` (quy ra kg đúng
   luật sổ) và sổ của Tiệm Cháo, rồi báo cáo tuần chạy như cũ.
 - Dữ liệu khách (tên, SĐT) nằm trong kho riêng tư trên claude.ai của bạn — không ai khác đọc được.
+
+## 9. Trang đặt trước trên website (thêm 2026-10-10)
+
+`https://nongsannhalam.com/dat-truoc.html` — khách tự chọn hàng (cam 5kg/10kg, hộp quà Tết, sắn dây),
+điền tên + SĐT, bấm gửi → tin nhắn soạn sẵn tới **Zalo 0979 502 000** (khách dán rồi gửi), WhatsApp
+hoặc email `hello@`. Web KHÔNG lưu gì — mọi phiếu đến qua tin nhắn, nên:
+
+- Nhận được tin "ĐẶT TRƯỚC — nongsannhalam.com" → ghi vào `data/danh_sach_cho.csv` (hoặc nhắn Claude
+  "ghi danh sách chờ: ..."), nguồn = `web`.
+- **Link chọn sẵn hàng để dán vào bài đăng**: thêm `?chon=` vào cuối link — `dat-truoc.html?chon=cam5`,
+  `?chon=cam10`, `?chon=qua-nho`, `?chon=qua-lon`, `?chon=sd05`, `?chon=sd1`, nhiều món cách nhau dấu
+  phẩy (`?chon=qua-nho,sd1`).
+- Khi chốt giá hộp quà: nhắn Claude để thay dòng "giá báo khi nhà mình nhắn lại" bằng giá thật
+  (`data-price` trong `docs/dat-truoc.html`).
