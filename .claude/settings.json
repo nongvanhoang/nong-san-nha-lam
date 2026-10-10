@@ -1,0 +1,39 @@
+{
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "\"C:/Users/Admin/AppData/Local/Python/bin/python.exe\" \"$CLAUDE_PROJECT_DIR/.claude/hooks/ecc_hooks.py\" session-start",
+            "timeout": 20
+          }
+        ]
+      }
+    ],
+    "PreToolUse": [
+      {
+        "matcher": "Bash|PowerShell",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "\"C:/Users/Admin/AppData/Local/Python/bin/python.exe\" \"$CLAUDE_PROJECT_DIR/.claude/hooks/ecc_hooks.py\" pre-commit",
+            "timeout": 30
+          }
+        ]
+      }
+    ],
+    "PostToolUse": [
+      {
+        "matcher": "Edit|Write|MultiEdit",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "\"C:/Users/Admin/AppData/Local/Python/bin/python.exe\" \"$CLAUDE_PROJECT_DIR/.claude/hooks/ecc_hooks.py\" post-edit",
+            "timeout": 60
+          }
+        ]
+      }
+    ]
+  }
+}

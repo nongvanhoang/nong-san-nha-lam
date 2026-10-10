@@ -29,7 +29,7 @@
 
   <!-- Tên sản phẩm + thương hiệu -->
   <text x="52" y="14" font-family="Cambria, Georgia, serif" font-weight="500" font-size="6.4" letter-spacing="0.3" fill="#2e4630">TINH BỘT SẮN DÂY</text>
-  <text x="52" y="20" font-family="Georgia, serif" font-style="italic" font-size="3.2" letter-spacing="0.3" fill="#5b4a2a">Nông Sản Nhà Làm &#183; Lạng Sơn</text>
+  <text x="52" y="20" font-family="Cambria, Georgia, serif" font-style="italic" font-size="3.2" letter-spacing="0.3" fill="#5b4a2a">Nông Sản Nhà Làm &#183; Lạng Sơn</text>
   <line x1="52" y1="23" x2="136" y2="23" stroke="#2e4630" stroke-width="0.25" opacity="0.55"/>
 
   <!-- Thông tin bắt buộc theo luật (giữ trong khổ x=52..138 để không đụng mã QR) -->

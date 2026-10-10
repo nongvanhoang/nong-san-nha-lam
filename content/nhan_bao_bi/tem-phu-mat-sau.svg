@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="50mm" height="32mm" viewBox="0 0 50 32">
+  <!-- Tem phụ mặt sau, dùng chung cho 250g / 500g / 1kg (soạn 2026-10-10) -->
+  <rect x="0" y="0" width="50" height="32" rx="1.5" fill="#f4ead7"/>
+  <rect x="0.6" y="0.6" width="48.8" height="30.8" rx="1.2" fill="none" stroke="#3e2e10" stroke-width="0.25" opacity="0.5"/>
+
+  <!-- Ô MÃ VẠCH: thay bằng mã vạch thật (GS1 Việt Nam cấp cho công ty) -->
+  <rect x="3" y="3" width="26" height="15" fill="none" stroke="#a3361f" stroke-width="0.3" stroke-dasharray="1,0.8"/>
+  <text x="16" y="10" text-anchor="middle" font-family="Arial, sans-serif" font-weight="700" font-size="2.4" fill="#a3361f">MÃ VẠCH</text>
+  <text x="16" y="13" text-anchor="middle" font-family="Arial, sans-serif" font-size="1.6" fill="#a3361f">893 xxxx xxxxx</text>
+
+  <!-- Ô QR TRUY XUẤT: thay bằng QR của hệ thống truy xuất nguồn gốc tỉnh/công ty dùng -->
+  <rect x="32" y="3" width="15" height="15" fill="none" stroke="#a3361f" stroke-width="0.3" stroke-dasharray="1,0.8"/>
+  <text x="39.5" y="10" text-anchor="middle" font-family="Arial, sans-serif" font-weight="700" font-size="2" fill="#a3361f">QR</text>
+  <text x="39.5" y="12.6" text-anchor="middle" font-family="Arial, sans-serif" font-size="1.4" fill="#a3361f">truy xuất</text>
+  <text x="39.5" y="20.2" text-anchor="middle" font-family="Arial, sans-serif" font-size="1.6" fill="#3a2f18">Truy xuất nguồn gốc</text>
+
+  <!-- Đóng dấu tay theo từng mẻ -->
+  <line x1="3" y1="21.8" x2="47" y2="21.8" stroke="#3e2e10" stroke-width="0.2" opacity="0.5"/>
+  <text x="3" y="25" font-family="Arial, sans-serif" font-size="2.2" fill="#3a2f18">NSX: ___/___/______     Lô: ________</text>
+  <text x="3" y="28.6" font-family="Arial, sans-serif" font-size="2.2" fill="#3a2f18">HSD: 12 tháng kể từ ngày sản xuất</text>
+</svg>

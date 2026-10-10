@@ -1,5 +1,8 @@
 # Bản Nháp Mô Tả Sản Phẩm — Hồ Sơ OCOP (Cam Đường Canh)
 
+> **[CŨ — 2026-09-30]** Đã được thay bằng `OCOP_2026.md` ở thư mục gốc (theo QĐ 26/2026/QĐ-TTg, cả 2 sản
+> phẩm, công ty cô chú đứng tên). Giữ file này chỉ để tham khảo.
+
 _Soạn 2026-08-04, hỗ trợ ý "Đăng ký OCOP tỉnh Lạng Sơn" từng nhắc trong `KE_HOACH_BAN_HANG.md`
 Tầng 2. Đây chỉ là bản nháp nội dung mô tả để bạn dùng khi chuẩn bị hồ sơ — việc nộp hồ sơ và các
 biểu mẫu chính thức của chương trình OCOP (theo Quyết định của tỉnh/Bộ NN&PTNT) bạn cần tự tìm hiểu

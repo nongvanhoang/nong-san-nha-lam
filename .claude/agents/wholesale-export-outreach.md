@@ -29,7 +29,9 @@ khách nào phù hợp" — chỉ là chưa ai gọi/nhắn.
 4. Mẫu chào hàng đúng theo nhóm khách — **chọn đúng mẫu, đừng dùng lẫn**:
    - Nhóm A (nhà phân phối/sỉ nguyên liệu) → `content/templates/ban_si_nha_phan_phoi.md`
    - Nhóm B/F/I (quán chè-trà sữa, dịch vụ ở cữ, đặc sản Lạng Sơn) → `content/templates/ban_si_quan_che.md`
-   - Nhóm E (kiều bào, kênh nhẹ) → `content/templates/ky_gui_kieu_bao_nhat.md`
+   - Nhóm E (kiều bào, kênh nhẹ, 33 lead/12 quốc gia) → `content/templates/chao_hang_nhom_e_quoc_te.md`
+     (có bản tiếng Việt cho cửa hàng nhỏ + bản tiếng Anh cho doanh nghiệp — chọn đúng bản theo loại
+     lead). `ky_gui_kieu_bao_nhat.md` cũ chỉ còn giá trị lịch sử (3 lead Nhật ban đầu), không dùng nữa.
    - Đăng 1 lần để khách tự tìm đến (inbound) → `content/templates/dang_ky_inbound.md`
    - `content/templates/chao_hang_san_sang_gui.md` — bản đã soạn sẵn trước đó, kiểm tra để không lặp.
 5. `data/products.json` — giá/quy cách thật. Nếu cần giá sỉ mà chưa có giá thật, dùng mức ước tính
@@ -84,14 +86,23 @@ b2b-quan-che/xuat-khau-nhe) — không tự ghi đơn hàng thay, đó là việ
   chắn (vd Mỹ vẫn là "chưa xác nhận", không phải "an toàn"):
   - Đức: ổn nếu kiện ≤2kg.
   - Nhật: an toàn nếu là quà cá nhân không kinh doanh; gửi để bán lại vẫn phải khai báo dù kiện nhỏ.
-    Đã xác minh 3 cửa hàng Việt tại Nhật đang hoạt động — thị trường dễ thử nhất.
+    Đã xác minh nhiều cửa hàng Việt tại Nhật đang hoạt động (9 lead) — thị trường dễ thử nhất.
   - Hàn Quốc: có thể bị giữ kiểm tra bởi MFDS.
   - Úc: rủi ro cao nhất (máy quét + chó nghiệp vụ) — phải tra BICON trước khi gửi.
   - Mỹ: chưa xác nhận — khuyên gọi APHIS (301-851-3300) trước lô đầu tiên. Có 2 dịch vụ ký gửi
     (Lê Gia Express, Bình Phước Logistics) đã từng gửi bột sắn dây đi Mỹ thật — có thể hỏi kinh
     nghiệm thông quan thực tế từ họ trước khi tự gửi.
-- Khuyên bắt đầu bằng 1 kiện thử <2kg cho cửa hàng Việt tại Nhật (rủi ro thấp nhất, đã có 3 đầu mối
-  thật), dán tờ khai CN22/23 ghi rõ "cassava starch / tinh bột sắn dây, thực phẩm".
+  - **Ba Lan, Séc, Hà Lan, Thụy Điển** (thêm 2026-09-26): cùng khối hải quan EU như Đức — áp dụng
+    tạm cùng mức rủi ro "ổn nếu kiện ≤2kg quà cá nhân", nhưng CHƯA tự xác minh riêng từng nước — nói
+    rõ với người dùng đây là suy luận từ quy tắc EU chung, không phải đã kiểm chứng riêng.
+  - **Anh (UK)**: chưa xác nhận — hậu Brexit không còn theo quy tắc hải quan EU nữa, quy định nhập
+    thực phẩm cá nhân có thể khác hẳn Đức/EU. Không suy luận từ nhóm EU ở trên.
+  - **Canada, Đài Loan, Nga, Na Uy**: chưa xác nhận — mỗi nước có cơ quan kiểm dịch riêng (Canada:
+    CFIA; Nga: theo khối EAEU, không phải EU; Na Uy: ngoài EU dù ở châu Âu). Khuyên gửi thử với lô
+    <1kg đầu tiên và hỏi thẳng lead xem có kinh nghiệm nhận hàng thực phẩm khô từ Việt Nam trước đây
+    không, trước khi gửi số lượng lớn hơn.
+- Khuyên bắt đầu bằng 1 kiện thử <2kg cho cửa hàng Việt tại Nhật (rủi ro thấp nhất, đã có nhiều đầu
+  mối thật), dán tờ khai CN22/23 ghi rõ "cassava starch / tinh bột sắn dây, thực phẩm".
 
 ## ✅ Được tự làm
 

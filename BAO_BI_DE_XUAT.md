@@ -1,5 +1,25 @@
 # Đề Xuất Bao Bì — Nhãn Tinh Bột Sắn Dây
 
+
+## 🆕 BẢN OCOP (soạn 2026-10-10) — dùng khi đã có chứng nhận OCOP
+
+Giữ nguyên phong cách Mộc & Thật, chỉ sửa phần chữ. File trong `content/nhan_bao_bi/` (SVG + PDF):
+- `nhan-say-day-1kg-ocop` và `nhan-say-day-500g-ocop` — khổ 160 × 45mm như cũ
+- `nhan-say-day-250g-ocop` — **gói dùng thử mới**, thu nhỏ đúng tỷ lệ còn 130 × 36,6mm
+- `tem-phu-mat-sau` — 50 × 32mm, dùng chung 3 khổ: mã vạch + QR truy xuất + NSX/lô đóng dấu tay
+
+Thay đổi so với bản cũ: thêm ô logo OCOP; tên/địa chỉ đổi sang **công ty chịu trách nhiệm** (cô chú),
+địa chỉ Vũ Lăng chuyển thành "Sản xuất tại"; thêm số tự công bố; NSX/HSD chuyển ra tem phụ mặt sau;
+Zalo đưa lên dòng thương hiệu; khối lượng tịnh in đậm.
+
+**Chữ màu đỏ gạch = chỗ phải điền trước khi in**: `[TÊN CÔNG TY]`, `[ĐỊA CHỈ CÔNG TY THEO GPKD]`,
+`[SỐ TCB]`, ô logo OCOP (dán file logo **chính thức** + đúng số sao trên giấy chứng nhận — không tự vẽ),
+ô mã vạch (GS1 Việt Nam cấp cho công ty) và ô QR truy xuất. Có thông tin thì sửa phần chữ trong
+`scripts/tao_nhan_ocop.js` rồi chạy `node scripts/tao_nhan_ocop.js content/nhan_bao_bi` để tạo lại SVG,
+sau đó xuất PDF bằng Chrome headless như bản cũ (hoặc nhờ Claude làm).
+
+---
+
 _Soạn 2026-08-11. Xem bản có hình minh hoạ (mockup nhãn) tại link artifact đã gửi trong chat —
 file này chỉ lưu phần chữ để tra cứu lại sau, không tự vẽ lại được ảnh mockup ở đây._
 
@@ -83,6 +103,30 @@ mỗi lần đổi giá.
 
 1. ~~Chọn hướng~~ — ✅ đã chọn hướng 1 (Mộc & Thật).
 2. ~~Cho địa chỉ cơ sở sản xuất~~ — ✅ đã điền, cả PDF lẫn SVG đều sẵn sàng gửi in.
-3. ~~Tìm nơi in tem/nhãn~~ — ✅ đã gửi file PDF cho xưởng in (2026-08-12). Đang chờ báo giá/kết quả.
+3. **Gửi file nhãn cho xưởng in quen** — **[SỬA LỖI 2026-09-29, xác nhận lại 2026-09-30]** dòng
+   "đã gửi file PDF cho xưởng in 2026-08-12" ghi ở đây trước đó là SAI — chưa từng liên hệ/gửi file
+   cho xưởng nào cả. **Đã xác nhận: có sẵn xưởng in riêng quen biết** (không cần tìm mới). File thiết
+   kế (PDF + SVG, cả 2 khổ) đã sẵn sàng ở `content/nhan_bao_bi/`, chỉ cần gửi qua đúng kênh hay liên
+   hệ với xưởng (Zalo/điện thoại/email), hỏi báo giá + số lượng tối thiểu (MOQ). Đây vẫn là thứ chặn
+   ảnh sản phẩm chính cho Shopee/TikTok Shop và bao bì bán lẻ thật — mẫu tin nhắn liên hệ lần đầu ở
+   dưới (đã thay cho mẫu "hỏi lại" cũ, không còn đúng vì chưa từng gửi lần nào).
 4. Quyết định cách ghi ngày SX/HSD: đóng dấu tay (rẻ, linh hoạt, đang để trống trong file) hay tem
    phụ in sẵn dải ngày (cần đặt số lượng lớn hơn).
+5. ~~Chọn bao bì riêng cho Shopee/TikTok Shop~~ — ✅ chốt 2026-09-24: **KHÔNG tách riêng**, dùng
+   chung Hướng 1 (Mộc & Thật) cho cả bán lẻ lẫn Shopee/TikTok Shop. Lý do: tách ra nghĩa là phải đặt
+   in thêm 1 mẫu nhãn nữa (Hướng 2/4 có MOQ cao hơn) trong khi Hướng 1 còn chưa xong; định vị "gia
+   đình sản xuất nhỏ, thủ công" vốn hợp phong cách mộc/thật hơn là hào nhoáng, không bắt buộc phải
+   premium mới bán được trên sàn. Hướng 2/4 (cao cấp, cửa sổ xuyên thấu) vẫn để dành đúng lộ trình
+   ban đầu — làm riêng cho set quà Tết khi có volume/dịp xứng đáng, không làm đại trà ngay bây giờ.
+
+## Mẫu tin nhắn liên hệ xưởng in lần đầu (sửa lại 2026-09-29, thay cho mẫu "hỏi lại" sai trước đó)
+
+_Dùng khi nhắn Zalo/điện thoại/email cho 1 xưởng in tem nhãn decal bất kỳ (tìm trên Google Maps/Zalo
+gõ "in tem nhãn decal Lạng Sơn" hoặc hỏi người quen đã từng in bao bì). Kèm sẵn 2 file trong
+`content/nhan_bao_bi/`: `nhan-say-day-500g.pdf`/`.svg` và `nhan-say-day-1kg.pdf`/`.svg`._
+
+```
+Chào anh/chị, em muốn in tem nhãn dán cho sản phẩm Tinh Bột Sắn Dây nhà làm, đã có sẵn file thiết kế
+(2 khổ: 500g và 1kg, khổ 160mm x 45mm mỗi tem), em gửi kèm file PDF đây ạ. Anh/chị cho em xin báo giá
+theo số lượng, và số lượng tối thiểu 1 lần đặt (MOQ) là bao nhiêu ạ? Em cảm ơn ạ!
+```

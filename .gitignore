@@ -5,6 +5,10 @@ __pycache__/
 # Dữ liệu khách hàng/kinh doanh thật - không đưa lên repo public
 data/orders.csv
 data/production_log.csv
+data/posted_log.csv
+data/customers.csv
+data/expenses.csv
+data/muc_tieu.json
 
 # Danh sách khách B2B/xuất khẩu (tên/email/SĐT công ty bên thứ 3) - phát hiện 2026-09-06 đã lỡ
 # public 3 commit trước, gỡ khỏi tracking ngay (xem git rm --cached), giữ file local để dùng tiếp
@@ -16,6 +20,15 @@ DANH_SACH_GUI_HANG_LOAT.md
 content/templates/chao_hang_san_sang_gui.md
 content/templates/email_qua_tet_doanh_nghiep.md
 content/templates/kich_ban_goi_dien_quan_che.md
+content/templates/mail_merge_nhom_J.csv
+content/templates/mail_merge_nhom_K.csv
+content/templates/danh_sach_email_tong_hop.md
+content/templates/email_chao_hang_1_toi_10.md
+content/templates/danh_sach_theo_kenh_lien_he.md
+content/templates/email_chao_hang_11_toi_20.md
+content/templates/email_chao_hang_tiep_theo.md
+content/templates/email_chao_hang_nhom_ELO.md
+content/templates/email_html_1_toi_11.md
 
 # Kho ảnh/video gốc (quá nặng cho GitHub Pages) - chỉ dùng bản đã resize/nén trong docs/assets/
 Hình Ảnh, Video/
@@ -28,3 +41,10 @@ content/video/output/
 web-10k/
 web-10k-raw/
 review/
+data/danh_sach_cho.csv
+
+# Bản chào hàng cá nhân hoá có email/SĐT thật của 32 lead Nhóm E (bên thứ 3) - giữ local (2026-10-10)
+content/templates/chao_hang_nhom_e_ca_nhan_hoa.md
+# File tự sinh mỗi lần chạy nhắc việc/báo cáo tuần (sẽ chứa doanh thu thật) - không đưa lên repo public
+BAI_DANG_HOM_NAY.txt
+BAO_CAO_TUAN.txt

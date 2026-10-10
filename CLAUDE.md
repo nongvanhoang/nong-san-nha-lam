@@ -1,5 +1,20 @@
 # Nông Sản Nhà Làm — Bộ nhớ dự án cho Claude
 
+**Hệ thống vận hành doanh nghiệp 1 người**: `HE_THONG_VAN_HANH_1_NGUOI.md` (từ 2026-10-01) — file
+ĐẦU TIÊN nên đọc khi không biết bắt đầu từ đâu, gói gọn 4 mảng (nhịp vận hành hàng ngày/tuần/tháng,
+quy trình chuẩn `SOP.md`, tài chính thu-chi-lãi-lỗ, mục tiêu tăng trưởng) thành 1 chỗ, trỏ sang file
+chi tiết khi cần. `VIEC_CAN_LAM.md` và `HUONG_DAN_KHAI_THAC.md` vẫn giữ nguyên vai trò riêng (việc
+đang treo / cách dùng từng công cụ) — file hệ thống chỉ là lớp trên cùng nối chúng lại.
+
+**Checklist hành động tổng hợp**: `VIEC_CAN_LAM.md` (từ 2026-09-26) — gom mọi việc thật đang treo
+(tin nhắn cần gửi, cuộc gọi cần gọi, quyết định cần chốt, tài khoản cần tạo) từ nhiều file rải rác
+vào 1 chỗ. Cập nhật (tick `[x]`) file này mỗi khi người dùng báo đã xong việc gì, và thêm việc mới
+vào đúng nhóm khi phát sinh — đừng để lại thành rải rác như trước.
+
+**Hướng dẫn khai thác công cụ đã xây**: `HUONG_DAN_KHAI_THAC.md` (từ 2026-09-28) — trả lời "đã có
+sẵn công cụ gì, dùng thế nào mỗi ngày/mỗi tuần" (khác `VIEC_CAN_LAM.md` là liệt kê việc còn treo).
+Cập nhật file này mỗi khi thêm 1 hệ thống/công cụ mới mà người dùng sẽ cần tự dùng lại sau này.
+
 Đây là dự án kinh doanh nông sản gia đình. Khi làm việc trong thư mục này, Claude đóng vai trò
 trợ lý riêng cho chủ shop: viết nội dung quảng cáo, ghi sổ đơn hàng, ghi sổ sản xuất, tính báo cáo.
 Không có script nào tự động gọi API trả phí — mọi nội dung do Claude tạo trực tiếp trong phiên chat.
@@ -49,6 +64,10 @@ file PDF gốc hay tên/địa chỉ của 3 thành viên kia lên bất kỳ đ
 
 ## Việc Claude thường được nhờ làm
 
+- **Chuẩn chất lượng content (từ 2026-09-21)**: mọi bài viết mới đọc `content/templates/chuan_chat_luong_content.md`
+  trước — đa dạng hook mở đầu (không mặc định "emoji + TIÊU ĐỀ IN HOA"), bài thuần cập nhật/hậu
+  trường chốt bằng câu hỏi mời bình luận thay vì luôn nhắc giá, hashtag Instagram đổi theo đúng chủ
+  đề thay vì lặp y hệt bộ tag cũ mọi bài.
 - **Viết caption/bài đăng**: dùng góc độ và cấu trúc trong `content/templates/` (facebook.md, zalo.md,
   shopee_tiktok.md). Sau khi viết xong, hỏi người dùng có muốn lưu vào `content/posts_ready.md` không.
   Khi người dùng muốn nội dung cho NHIỀU kênh cùng lúc từ một yêu cầu, dùng subagent
@@ -66,16 +85,44 @@ file PDF gốc hay tên/địa chỉ của 3 thành viên kia lên bất kỳ đ
 - **Lưu ý môi trường (2026-08-02)**: lệnh `python`/`py` trên máy này không trỏ đúng Python thật (bị Windows Store
   alias/launcher lỗi chặn). Python thật nằm ở `C:\Users\Admin\AppData\Local\Python\bin\python.exe` — dùng đường
   dẫn đầy đủ này khi chạy các script bên dưới, trừ khi người dùng xác nhận đã sửa PATH.
-- **App quản lý local (2026-08-02)**: ngoài việc nhờ Claude chạy script qua chat, người dùng có thể tự bấm
-  `MO_APP_QUAN_LY.bat` để mở app web local (`scripts/webapp.py`, cổng 8943) — giao diện có 4 mục: ghi đơn hàng,
-  ghi mẻ sản xuất, báo cáo, sửa giá. Logic dùng chung nằm ở `scripts/nsn_core.py`; 3 script CLI cũ
-  (`add_order.py`, `add_batch.py`, `weekly_report.py`) giờ chỉ là wrapper mỏng gọi `nsn_core.py` — khi sửa
-  logic ghi sổ/báo cáo, sửa ở `nsn_core.py` để cả CLI và app web cùng nhất quán, đừng sửa riêng từng nơi.
+- **Thư viện Media (2026-09-22)**: tab mới trong app quản lý local — quét toàn bộ ảnh/video trong
+  `Hình Ảnh, Video/`, `docs/assets/`, `content/video/output/` (361 file tính đến lúc thêm), đối
+  chiếu tên file với `content/posts_ready.md` để tự gắn nhãn "Đã dùng" (kèm bài nào) hay "Chưa
+  dùng", cho tìm/lọc theo tên/sản phẩm/loại, bấm vào 1 ảnh/video để copy đường dẫn tương đối vào
+  clipboard. Giải quyết đúng việc tốn thời gian dò tay xem 1 file đã lên bài chưa/đường dẫn đầy đủ
+  là gì. Logic quét ở `scan_media_library()` trong `nsn_core.py`, phục vụ file qua route
+  `/media/<đường dẫn>` trong `webapp.py` (có chặn path traversal, hỗ trợ HTTP Range để xem video mượt).
+- **App quản lý local (2026-08-02, thêm mục "Bán hàng hôm nay" 2026-09-08, thêm tab "Tổng quan"
+  2026-10-01 làm màn hình mặc định)**: tab "Tổng quan" gộp bài cần đăng hôm nay + hạn chót sắp tới
+  (đọc từ mục `## ⏰` đầu `VIEC_CAN_LAM.md` qua `find_upcoming_deadlines()`) + cảnh báo tồn kho +
+  tài chính tháng này + khách quen lâu chưa quay lại (`find_customers_to_followup()`, ngưỡng mặc
+  định 21 ngày) + **"Hôm nay nên gọi/nhắn B2B"** (`get_today_call_list()`, 10 lead "Chưa liên hệ" sắp
+  theo đúng thứ tự ưu tiên Giai đoạn 0→4, thêm 2026-10-01 — tự rơi khỏi danh sách khi đổi trạng thái,
+  không cần con trỏ/hàng đợi riêng như bài đăng) — tất cả gộp trong `compute_today_overview()`. Ngoài
+  việc nhờ Claude chạy
+  script qua chat, người dùng có thể tự bấm `MO_APP_QUAN_LY.bat` để mở app web local (`scripts/webapp.py`,
+  cổng 8943) — giao diện có 5 mục: ghi đơn hàng, ghi mẻ sản xuất, báo cáo, sửa giá, và **Bán hàng hôm nay**
+  (đọc live từ `LICH_DANG_BAI.md`/`content/posts_ready.md` để hiện đúng bài cần đăng hôm nay kèm nút copy,
+  với nút "Đã đăng" ghi vào `data/posted_log.csv` để tự nhớ trong ngày, và bảng khách B2B đọc trực tiếp từ
+  `DANH_SACH_KHACH_HANG_B2B.csv` (tự xếp theo đúng thứ tự ưu tiên Giai đoạn 0→4 trong
+  `KE_HOACH_KHAI_THAC_B2B.md`) với nút gọi/email + cập nhật trạng thái ngay tại chỗ — luôn khớp CSV 100%
+  vì đọc live, không như bản hosted "Sổ Gọi Khách" cần đồng bộ tay). Logic
+  dùng chung nằm ở `scripts/nsn_core.py`; 3 script CLI cũ (`add_order.py`, `add_batch.py`, `weekly_report.py`)
+  giờ chỉ là wrapper mỏng gọi `nsn_core.py` — khi sửa logic ghi sổ/báo cáo, sửa ở `nsn_core.py` để cả CLI và
+  app web cùng nhất quán, đừng sửa riêng từng nơi. **Quan trọng khi sửa các hàm ghi CSV/JSON trong
+  `nsn_core.py`**: LUÔN ghi ra file tạm rồi `os.replace()` vào file thật (không ghi đè trực tiếp) — sự cố
+  thật 2026-09-08: 1 dòng dữ liệu cũ lỗi định dạng (thiếu quote quanh field có dấu phẩy) khiến
+  `csv.DictWriter` ném lỗi giữa chừng, ghi đè trực tiếp làm mất gần hết 500 dòng `DANH_SACH_KHACH_HANG_B2B.csv`
+  (khôi phục được từ backup trong scratchpad, không mất vĩnh viễn, nhưng phải luôn phòng trước bằng ghi an toàn).
 - **Ghi đơn hàng mới**: chạy `python scripts/add_order.py` với các tham số phù hợp (xem `--help`).
   Không tự suy diễn số liệu nếu người dùng chưa cung cấp đủ (khách, sản phẩm, số lượng, đơn giá, kênh).
   QUAN TRỌNG: luôn quy đổi `--qty` ra kg (đơn vị gốc, không phải số thùng/túi) để
   `weekly_report.py` so sánh tồn kho đúng — ví dụ khách mua "2 thùng cam 10kg" thì ghi
   `--qty 20 --unit kg`, không ghi `--qty 2 --unit thùng`.
+- **Sổ địa chỉ khách (`data/customers.csv`, thêm 2026-10-01)**: `add_order()` tự lưu SĐT/địa chỉ vào
+  đây khi được cung cấp (`upsert_customer()`), và `find_customer()` tra lại cho lần ghi đơn sau — app
+  tự gọi khi gõ tên khách vào ô "Ghi đơn hàng" (`GET /api/customers/lookup?name=...`). Khớp theo tên
+  chính xác (không phân biệt hoa/thường), không tự động gộp 2 tên gọi khác nhau của cùng 1 khách.
 - **Ghi mẻ sản xuất/thu hoạch**: chạy `python scripts/add_batch.py`, cũng luôn quy ra kg.
 - **Báo cáo doanh thu/sản lượng/tồn kho**: chạy `python scripts/weekly_report.py` — báo cáo có cả
   phần cảnh báo tồn kho (tổng sản xuất trừ tổng đã bán, toàn thời gian). Nếu thấy cảnh báo
@@ -98,6 +145,132 @@ file PDF gốc hay tên/địa chỉ của 3 thành viên kia lên bất kỳ đ
 - **B2B/sàn xuất khẩu (Alibaba, sàn giao dịch nông sản...): chưa mở.** Lý do: Tinh Bột Sắn Dây chưa
   có chứng nhận ATTP/HACCP, Cam Đường Canh chưa có giấy kiểm dịch thực vật để xuất khẩu trái tươi.
   Ưu tiên xin ATTP cho Tinh Bột Sắn Dây trước khi tính đến B2B/xuất khẩu.
+
+## Chào hàng Nhóm E cá nhân hoá + nội dung gian hàng Shopee/TikTok Shop (từ 2026-09-28)
+
+- **`content/templates/chao_hang_nhom_e_ca_nhan_hoa.md`**: bản viết sẵn nguyên văn cho từng lead
+  trong 32 lead Nhóm E (thay vì phải tự điền `[tên shop]`/`[tên nước]` vào
+  `chao_hang_nhom_e_quoc_te.md` mỗi lần) — sắp theo thứ tự rủi ro hải quan tăng dần (Nhật trước, Úc
+  cuối), có ghi kênh liên hệ đúng thật (email/điện thoại/Facebook) theo `DANH_SACH_KHACH_HANG_B2B.csv`,
+  và ghi chú riêng cho các lead đặc biệt (Đồng Xuân = đầu mối BQL không phải quầy hàng, Miss Linh/
+  Tamda = xin làm nhà cung cấp chứ không chào mẫu thường, Úc = chưa gửi mẫu cho đến khi tự tra BICON,
+  2 lead Mỹ = dịch vụ vận chuyển chứ không phải khách hàng).
+- **`HO_SO_MANG_XA_HOI.md` mục 3** bổ sung "Tên sản phẩm + phân loại hàng khi đăng thật": tiêu đề
+  SEO sẵn dùng, bảng phân loại 0.5kg/155k-1kg theo đúng giá `products.json`, gợi ý từ khoá chọn
+  ngành hàng, và 4 câu Q&A soạn sẵn cho khung chat của sàn (hạn dùng đánh dấu **[CẦN BẠN XÁC NHẬN]**
+  vì chưa có mốc kiểm nghiệm chính thức — không bịa số ngày cụ thể).
+
+## Thẻ treo Quà Tết + Thiệp chúc Tết (từ 2026-10-03)
+
+- `content/nhan_bao_bi/the-qua-tet.svg` — thẻ treo 80mm×120mm cho combo quà Tết (Cam Đường Canh +
+  Tinh Bột Sắn Dây), đúng phong cách Mộc & Thật. Có 2 dòng trống "Gói:"/"Giá:" viết tay — dùng chung
+  được cho mọi mức giá/gói mà không cần in lại.
+- `content/nhan_bao_bi/thiep-chuc-tet.svg` — thiệp chúc Tết 100mm×150mm, mặt trước in sẵn lời chúc
+  ngắn + thương hiệu, mặt sau CHỦ ĐỊNH để trống (giấy trơn) để viết tay lời nhắn riêng từng khách.
+
+**⚠️ Lỗi font Georgia đã phát hiện (2026-10-03, đã sửa ở cả 4 file trên)**: font Georgia (cả bản
+thường lẫn in nghiêng) trên máy này KHÔNG hiển thị đúng các chữ có dấu "â" + thanh điệu (ấ, ầ, ẩ, ẫ,
+ậ) — ví dụ "tấm" thành "tâ´m", "đầu" thành "đâ`u" (dấu tách rời khỏi chữ thay vì đè lên). Đã test xác
+nhận Cambria/Times New Roman/Arial đều hiển thị đúng, chỉ Georgia sai. **Quy tắc từ nay**: mọi chữ
+nghiêng dùng `font-family="Cambria, Georgia, serif"` (Cambria trước), KHÔNG dùng riêng
+`"Georgia, serif"` — đã áp dụng lại cho cả `nhan-say-day-500g.svg`/`-1kg.svg` dù nội dung hiện tại
+chưa dính lỗi (phòng khi sửa chữ sau này). Rủi ro này cũng áp dụng khi xưởng in mở file bằng
+Illustrator nếu máy họ thiếu đúng glyph này trong Georgia — một lý do nữa nên kiểm tra kỹ bản in thử
+đầu tiên trước khi in cả lô.
+
+**Xem trước SVG bằng Chrome headless** (không cần Illustrator): `chrome --headless --screenshot=out.png
+--window-size=320,480 --force-device-scale-factor=4 "file:///<đường dẫn tuyệt đối>/file.svg"` rồi mở
+file PNG. Dùng được cho mọi file trong `content/nhan_bao_bi/`.
+
+**Xuất PDF đúng khổ thật (đã giải quyết 2026-10-10)**: KHÔNG in thẳng file SVG (ra khổ Letter/A4 +
+header/footer rác). Bọc SVG trong 1 file HTML nhỏ có `@page{size:<W>mm <H>mm;margin:0}` và
+`<img src="file:///...svg" style="width:<W>mm;height:<H>mm">`, rồi chạy `chrome --headless=new
+--allow-file-access-from-files --no-pdf-header-footer --print-to-pdf=out.pdf file:///.../wrap.html`.
+Luôn kiểm tra lại `MediaBox` trong PDF (pt ÷ 2.835 = mm) và `/Count 1` (đúng 1 trang). Đã xuất bằng
+cách này: thẻ treo (80×120mm), thiệp (100×150mm), và bộ nhãn OCOP bên dưới.
+
+## Nhãn bản OCOP (từ 2026-10-10)
+
+`nhan-say-day-{1kg,500g,250g}-ocop` + `tem-phu-mat-sau` (SVG + PDF) trong `content/nhan_bao_bi/`,
+tạo bằng `node scripts/tao_nhan_ocop.js content/nhan_bao_bi` (đọc logo + QR từ nhãn 500g gốc). Chữ
+đỏ gạch là chỗ cần điền (tên/địa chỉ công ty cô chú, số tự công bố, logo OCOP chính thức, mã vạch,
+QR truy xuất) — chi tiết ở đầu `BAO_BI_DE_XUAT.md`. Chỉ dùng khi đã thật sự có chứng nhận OCOP;
+trước đó vẫn in bản cũ `nhan-say-day-500g/1kg`. Không bao giờ tự vẽ logo OCOP hay điền số sao/mã
+vạch/số TCB khi chưa có giấy tờ thật.
+
+## Đóng thương hiệu ảnh không cần Canva (từ 2026-09-25)
+
+`content/video/make_branded_photo.py <ảnh gốc> "<chú thích>" <ảnh ra>` — dùng ffmpeg (đã cài, không
+cần thư viện Python thêm) để tự thêm logo tròn góc trên phải + dải chú thích trắng-trên-nền-đen ở
+dưới, đúng y phong cách chữ đè đã dùng trong video (`make_process_video.py` — cùng font Cambria
+Bold, cùng tỉ lệ dải chữ). Dùng khi cần bộ ảnh đồng bộ thương hiệu cho 1 kênh (đã dùng cho 7 ảnh gian
+hàng Shopee/TikTok Shop, xem `HO_SO_MANG_XA_HOI.md`) mà không có Canva. Lưu ý: PHẢI giữ
+`expansion=none` trên drawtext nếu chú thích có ký tự "%" — nếu không, cả dòng chữ biến mất im lặng
+(bug đã gặp và tránh sẵn trong `make_process_video.py`, script này áp dụng lại đúng cách né đó).
+
+## Bản tin tuần tự động (từ 2026-09-25, thêm mục nhắc-việc 2026-10-01)
+
+Windows Task Scheduler (`NongSanNhaLam_WeeklyDigest`, mỗi thứ Hai 9h sáng, chạy local — cùng cơ chế
+với mục nhắc đăng bài bên dưới) tự chạy `scripts/weekly_digest.bat` → gộp `weekly_report.py
+--nhac-viec` (hạn chót từ `VIEC_CAN_LAM.md` + cảnh báo tồn kho + khách quen lâu chưa quay lại — cùng
+tín hiệu với tab "Tổng quan" trong app, nhưng đẩy chủ động (push) thay vì phải tự mở app (pull)) +
+`weekly_report.py --days 7` + `weekly_report.py --khach-quen` → ghi ra `BAO_CAO_TUAN.txt` → tự mở
+Notepad. Mục đích: báo cáo thật khi đã có đơn hàng, tự nhắc thụ động hàng tuần nếu vẫn chưa ghi đơn
+nào (số 0 tự hiện ra thay vì phải nhắc lại trong chat), VÀ không bỏ lỡ hạn chót/khách cần nhắn lại dù
+không nhớ mở app. Kiểm tra/xoá: `schtasks /query /tn NongSanNhaLam_WeeklyDigest` /
+`schtasks /delete /tn NongSanNhaLam_WeeklyDigest /f`.
+
+## Kiểm tra sức khoẻ hệ thống (từ 2026-10-01, thêm an toàn git + backup 2026-10-02)
+
+`python scripts/kiem_tra_he_thong.py` — 1 lệnh kiểm tra 7 việc: lịch tự động, hàng đợi đăng bài còn
+đủ bao lâu, file dữ liệu đọc được không, **mọi file có dữ liệu khách/kinh doanh thật đã nằm trong
+`.gitignore` chưa** (tránh lặp lại sự cố lộ dữ liệu khách công khai lên GitHub), **đã có bản backup
+OneDrive chưa**, mục tiêu tháng đã đặt chưa, hạn chót nào sắp tới. Chạy hàng tháng (SOP.md mục 11)
+hoặc bất cứ khi nào nghi ngờ có gì đó hỏng. 2 kiểm tra an toàn git/backup được thêm sau khi phát hiện
+thật `data/customers.csv`/`data/expenses.csv` suýt bị lộ vì quên thêm vào `.gitignore` khi mới xây
+(2026-10-02) — đừng xoá 2 mục này dù có vẻ thừa, đây là lớp phòng vệ cho đúng loại lỗi đã từng xảy ra.
+
+## Nhắc đăng bài đều đặn 3 ngày/lần (từ 2026-09-22)
+
+**Chỉ là hệ thống NHẮC, không tự động đăng** — đúng luật cứng "không tự động đăng bài" bên dưới.
+Windows Task Scheduler (`NongSanNhaLam_SocialReminder`, chạy local trên máy, KHÔNG phải cloud
+routine — cloud routine không đọc được file/Python local) cứ mỗi 3 ngày (9h sáng) tự chạy
+`scripts/remind_social_post.bat` → gọi `scripts/next_social_post.py` → lấy đúng bài tiếp theo trong
+`data/social_queue.json` (theo con trỏ `data/social_queue_state.json`, tự tăng sau mỗi lần chạy,
+không phụ thuộc người dùng đã đăng thật hay chưa) → ghi ra `BAI_DANG_HOM_NAY.txt` → tự mở Notepad.
+
+Hàng đợi hiện có 11 mục (8 mục gốc Tuần 6-9 `LICH_DANG_BAI.md` + 3 mục chèn 2026-10-01 theo
+`CHIEN_DICH_TET_2027.md`: 2 lần "hẹn báo hàng mùa cam" cách nhau ~2 tuần + 1 bài VietGAP, next_index
+đã trỏ đúng để bài "hẹn báo hàng mùa cam" ra ngay lần nhắc tới) — hết 11 mục (~33 ngày từ 2026-10-01,
+khoảng đầu tháng 11/2026) cần thêm mục mới vào `data/social_queue.json` (mỗi mục: `topic_keyword`
+khớp đúng 1 phần tiêu đề trong `posts_ready.md`, `channels` là danh sách kênh muốn lấy — lưu ý khớp
+theo đúng tiền tố tiêu đề, vd bài có tiêu đề bắt đầu "Zalo/Facebook — ..." phải dùng channel
+`"Zalo/Facebook"` chứ không phải `"Facebook"` riêng, xem logic `find_block()` trong
+`next_social_post.py`). Kiểm tra/sửa task: `schtasks /query /tn NongSanNhaLam_SocialReminder`, xoá
+bằng `schtasks /delete /tn NongSanNhaLam_SocialReminder /f`.
+
+## Xin & lưu đánh giá khách hàng (từ 2026-09-20)
+
+- Mẫu tin nhắn xin đánh giá: `content/templates/zalo.md` mục 5 — chỉ gửi cho khách đã mua ≥2 lần
+  hoặc đã phản hồi tích cực, gửi sau tin cảm ơn vài ngày.
+- Khi khách trả lời qua chat, Claude thêm nguyên văn vào `data/testimonials.json` (không sửa chữ,
+  không bịa thêm nếu khách chưa gửi) rồi hỏi người dùng có muốn đăng lên website không.
+- Chỉ thêm mục "Khách nói gì" lên `docs/san-day.html`/`docs/cam-duong-canh.html` khi đã có **ít nhất
+  1 đánh giá thật** — không đăng section trống hay bịa đánh giá mẫu, vì sai với nguyên tắc trung thực
+  của cả dự án.
+
+## Công cụ nghiên cứu thị trường (Exa + browser-act, từ 2026-09-18)
+
+- **Exa AI** (`web_search_exa`/`web_fetch_exa`, dùng ngay trong phiên chat khi được hỏi): nghiên cứu
+  giá thị trường/đối thủ, tìm kênh bán mới (nhóm chợ B2B, quán chè, nhà hàng), tìm xu hướng để viết
+  content. Không nhúng vào script tự động lặp lại — chỉ dùng tương tác theo yêu cầu, không vi phạm
+  luật "không gọi API AI trả phí trong script" vì đây là Claude tự tra cứu trong chat, không phải
+  script tự chạy.
+- **browser-act** (`stealth-extract`/`screenshot`, CHỈ CHẾ ĐỘ ĐỌC): soi giá đối thủ trên
+  Shopee/chợ online, hoặc chụp ảnh kiểm tra `docs/index.html`/`docs/en/index.html` hiển thị đúng.
+  **TUYỆT ĐỐI KHÔNG** dùng để đăng nhập, đăng bài, bấm nút mua/đặt hàng hay bất kỳ hành động ghi/
+  đổi trạng thái nào trên Facebook/Zalo/Shopee/TikTok Shop — vi phạm thẳng luật "không tự động đăng
+  bài" bên dưới.
 
 ## Giới hạn đã thống nhất với người dùng
 

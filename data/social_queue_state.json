@@ -1,0 +1,5 @@
+{
+  "_note": "Trạng thái hàng đợi đăng bài — next_index là mục TIẾP THEO chưa được nhắc. Mỗi lần scripts/next_social_post.py chạy, in nội dung mục next_index ra rồi tự tăng lên 1, không phụ thuộc việc người dùng đã thực sự đăng hay chưa (đăng tay vẫn là việc của người dùng).",
+  "next_index": 6,
+  "last_sent_date": "2026-10-07"
+}

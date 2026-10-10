@@ -7,7 +7,7 @@ này làm điểm bắt đầu mỗi khi quay lại việc B2B, thay vì đọc 
 
 - **500 lead** trong `DANH_SACH_KHACH_HANG_B2B.csv`, chia 15 nhóm (A→O), 62 lead có email thật.
 - **0 lượt liên hệ xác nhận** — đây là nút thắt thật, không phải thiếu data.
-- Công cụ theo dõi: **[Sổ Gọi Khách](https://claude.ai/code/artifact/ab092815-347c-4256-95d8-a768e9d21de3)** —
+- Công cụ theo dõi: **[Sổ Gọi Khách](https://claude.ai/artifact/N7ySVZpN3mXcgBJz7SvCcJ)** —
   trang web riêng tư, mở trên điện thoại, chạm số để gọi/chạm email để gửi, đánh dấu trạng thái ngay.
   Sắp xếp sẵn theo đúng thứ tự ưu tiên bên dưới. **Đây là nơi làm việc chính**, không cần mở CSV.
 
@@ -37,7 +37,9 @@ quả hơn. Kịch bản + 25 số đầu tiên (Cao Bằng → Thái Nguyên �
 sẵn ở `content/templates/kich_ban_goi_dien_quan_che.md`. Mục tiêu: 8-10 cuộc/ngày.
 
 ### Giai đoạn 2 — Cửa hàng/khách sạn có kênh chính thức (Nhóm H, J, K)
-Gọi hoặc gửi email (nhiều mối đã có email thật). Lấy trực tiếp từ Sổ Gọi Khách, lọc theo nhóm.
+Gọi hoặc gửi email (nhiều mối đã có email thật). Nhóm J/K đã có mẫu email sẵn (2026-09-08) ở
+`content/templates/email_thucpham_sach_dacsan.md`, 38 lead — lấy trực tiếp từ tab "Bán hàng hôm nay"
+trong app local, lọc theo nhóm.
 
 ### Giai đoạn 3 — Kênh mới, thăm dò (Nhóm L, M — eat clean, nhà hàng Tây Bắc)
 Chưa có tiền lệ thương mại, thử 2-3 mối mỗi nhóm trước khi mở rộng.
@@ -57,12 +59,24 @@ nhịp từ các nhóm dễ hơn.
 
 | File | Dùng khi nào |
 |---|---|
-| [Sổ Gọi Khách](https://claude.ai/code/artifact/ab092815-347c-4256-95d8-a768e9d21de3) | Làm việc hàng ngày — xem ai cần gọi, gọi/gửi email, đánh dấu kết quả |
+| [Sổ Gọi Khách](https://claude.ai/artifact/N7ySVZpN3mXcgBJz7SvCcJ) | Dùng khi ở ngoài/trên điện thoại, không có máy tính — cần đồng bộ tay theo `scripts/sync_call_log_artifact.py` |
+| App quản lý local, mục "Bán hàng hôm nay" (2026-09-08) — bấm `MO_APP_QUAN_LY.bat` | **Ưu tiên dùng khi đang ở máy tính** — đọc trực tiếp từ CSV nên luôn khớp 100%, không cần đồng bộ tay, có cả nút gọi/email + cập nhật trạng thái tại chỗ + bài cần đăng hôm nay |
 | `DANH_SACH_KHACH_HANG_B2B.md` / `.csv` | Nguồn dữ liệu gốc, chi tiết đầy đủ từng lead |
 | `content/templates/kich_ban_goi_dien_quan_che.md` | Kịch bản gọi điện Nhóm B, có sẵn 25 số đầu |
-| `content/templates/email_qua_tet_doanh_nghiep.md` | Email 3 công ty quà Tết |
+| `content/templates/email_qua_tet_doanh_nghiep.md` | Email 4 công ty quà Tết (Nhóm N) |
+| `content/templates/email_thucpham_sach_dacsan.md` | Email mẫu Nhóm J (thực phẩm sạch) + Nhóm K (đặc sản quà biếu), 38 lead có email |
 | `content/templates/ban_si_quan_che.md` | Bài đăng Facebook + mẫu nhắn tin Nhóm A/B |
 | `DANH_SACH_GUI_HANG_LOAT.md` | Checklist chi tiết theo từng nhóm (đồng bộ đến ~418 lead, phần mới nhất lấy trực tiếp từ CSV) |
+
+## Đồng bộ Sổ Gọi Khách (quy tắc đứng, tự làm không cần nhắc)
+
+Mỗi khi `DANH_SACH_KHACH_HANG_B2B.csv` có thêm email mới hoặc thêm LEAD MỚI (sau khi tìm/xác minh),
+Claude phải đồng bộ lại vào [Sổ Gọi Khách](https://claude.ai/artifact/N7ySVZpN3mXcgBJz7SvCcJ) bằng
+`scripts/sync_call_log_artifact.py` (đọc artifact hiện tại → chạy script → publish lại đúng URL cũ)
+trước khi báo hoàn tất cho người dùng — không để lệch dữ liệu giữa CSV và công cụ như đã từng xảy ra
+(phát hiện 2026-09-08, artifact cũ dừng ở 62 email dù CSV đã có 146). Từ 2026-09-20, script này tự
+thêm cả lead hoàn toàn mới (không chỉ điền email cho lead có sẵn) và tự sửa lại số "X mối liên hệ" —
+không cần viết script riêng cho từng đợt thêm lead nữa.
 
 ## Cách cập nhật kết quả
 

@@ -15,19 +15,19 @@ loạt kiểu copy y hệt nhìn giống spam._
 ## Mẫu 1 — Người quen thân, chưa mua bao giờ
 
 > Chào [tên], lâu rồi không nói chuyện! Dạo này nhà mình đang làm tinh bột sắn dây thủ công (tự
-> lọc, sấy bằng lò sấy riêng, không hoá chất) bán ra ngoài, đúng mùa hè giải nhiệt luôn. Giá 65k/túi 0.5kg hoặc
-> 120k/túi 1kg, giao tận nơi. [tên] thử ủng hộ nhà mình 1 túi xem sao nhé, ưng thì lần sau đặt tiếp 🌾
+> lọc, sấy bằng lò sấy riêng, không hoá chất) bán ra ngoài, đúng mùa hè giải nhiệt luôn. Giá 80k/túi 0.5kg hoặc
+> 155k/túi 1kg, giao tận nơi. [tên] thử ủng hộ nhà mình 1 túi xem sao nhé, ưng thì lần sau đặt tiếp 🌾
 
 ## Mẫu 2 — Khách cũ / từng hỏi nhưng chưa chốt
 
 > Chào [tên], hôm trước [tên] có hỏi tinh bột sắn dây nhà mình đúng không ạ? Hè này nhà mình vẫn có
-> sẵn, giao ngay khi đặt. Túi 0.5kg 65k, túi 1kg 120k. [tên] cần đặt thì nhắn mình số lượng với địa
+> sẵn, giao ngay khi đặt. Túi 0.5kg 80k, túi 1kg 155k. [tên] cần đặt thì nhắn mình số lượng với địa
 > chỉ là mình gửi liền nhé!
 
 ## Mẫu 3 — Ngắn gọn, dùng cho người ít thân hơn/đồng nghiệp
 
-> Nhà mình mới làm tinh bột sắn dây thủ công, không hoá chất, đang mùa hè giải nhiệt — 65k/0.5kg,
-> 120k/1kg, giao tận nơi. Bạn ủng hộ thử 1 túi nhé, ưng thì rủ thêm người nhà mua cùng 🌾
+> Nhà mình mới làm tinh bột sắn dây thủ công, không hoá chất, đang mùa hè giải nhiệt — 80k/0.5kg,
+> 155k/1kg, giao tận nơi. Bạn ủng hộ thử 1 túi nhé, ưng thì rủ thêm người nhà mua cùng 🌾
 
 ## Sau khi có người mua
 

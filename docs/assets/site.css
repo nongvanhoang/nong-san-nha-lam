@@ -285,3 +285,19 @@ body.paused *,body.paused *::before,body.paused *::after{animation-play-state:pa
   .w.rise,.w.drift,.approach{transition:none !important}
   .glow-pulse::after{animation:none !important}
 }
+
+/* article/blog content pages */
+.plain-header{padding:3.5rem 1.25rem 1rem;text-align:center}
+.plain-header .eyebrow{display:block;margin-bottom:.6rem}
+.plain-header h1{font-size:clamp(1.7rem,4vw,2.4rem)}
+.breadcrumb{color:var(--stone);font-size:.82rem;margin-bottom:1rem}
+.breadcrumb a{color:var(--stone)}
+.breadcrumb a:hover{color:var(--accent-hover)}
+.article-body{max-width:42em;margin:0 auto;padding:1rem 1.25rem 3rem}
+.article-body h2{font-size:1.35rem;margin-top:2.2rem;color:var(--text-primary)}
+.article-body h2:first-child{margin-top:0}
+.article-body p{color:var(--text-secondary);margin:.9rem 0}
+.article-body ul,.article-body ol{color:var(--text-secondary);margin:.9rem 0;padding-left:1.3rem}
+.article-body li{margin:.4rem 0}
+.article-body strong{color:var(--text-primary)}
+.article-note{border-left:2px solid var(--accent);padding:.2rem 0 .2rem 1rem;margin:1.4rem 0;color:var(--text-secondary);font-size:.92rem}

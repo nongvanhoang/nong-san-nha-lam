@@ -11,19 +11,35 @@ import sys
 import webbrowser
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 from pathlib import Path
-from urllib.parse import parse_qs, urlparse
+from urllib.parse import parse_qs, unquote, urlparse
 
 from nsn_core import (
+    BASE_DIR,
     CHANNELS,
+    EXPENSE_CATEGORIES,
+    EXPENSE_CATEGORY_LABELS,
+    EXPENSES_CSV,
+    MEDIA_ROOTS,
     ORDERS_CSV,
     PRODUCTION_CSV,
     STATUS_LABELS,
     STATUSES,
     add_batch,
+    add_expense,
     add_order,
+    compute_month_to_date,
     compute_report,
+    compute_repeat_customers,
+    compute_today_overview,
+    find_customer,
+    get_today_call_list,
+    get_todays_post,
+    load_b2b_leads,
     load_products,
     load_rows,
+    mark_posted,
+    scan_media_library,
+    update_b2b_lead,
     update_variant_price,
 )
 
@@ -39,6 +55,28 @@ STATIC_FILES = {
     "/app.js": ("app.js", "application/javascript; charset=utf-8"),
     "/style.css": ("style.css", "text/css; charset=utf-8"),
 }
+
+MEDIA_CONTENT_TYPES = {
+    ".jpg": "image/jpeg", ".jpeg": "image/jpeg", ".png": "image/png",
+    ".webp": "image/webp", ".gif": "image/gif",
+    ".mp4": "video/mp4", ".mov": "video/quicktime", ".webm": "video/webm",
+}
+MEDIA_ROOTS_RESOLVED = [r.resolve() for r in MEDIA_ROOTS]
+
+
+def _resolve_media_path(url_tail: str):
+    """Chỉ cho phép phục vụ file nằm THẬT SỰ bên trong 1 trong MEDIA_ROOTS - chặn path
+    traversal (../..) kể cả khi url đã encode."""
+    rel = unquote(url_tail)
+    candidate = (BASE_DIR / rel).resolve()
+    for root in MEDIA_ROOTS_RESOLVED:
+        try:
+            candidate.relative_to(root)
+        except ValueError:
+            continue
+        if candidate.is_file():
+            return candidate
+    return None
 
 
 def get_lan_ip() -> str:
@@ -74,10 +112,58 @@ class Handler(BaseHTTPRequestHandler):
         raw = self.rfile.read(length)
         return json.loads(raw.decode("utf-8"))
 
+    def _serve_media(self, url_tail: str):
+        file_path = _resolve_media_path(url_tail)
+        if file_path is None:
+            self._send_error_json("Không tìm thấy file hoặc không được phép truy cập", status=404)
+            return
+
+        content_type = MEDIA_CONTENT_TYPES.get(file_path.suffix.lower(), "application/octet-stream")
+        file_size = file_path.stat().st_size
+        range_header = self.headers.get("Range")
+
+        start, end = 0, file_size - 1
+        status = 200
+        if range_header and range_header.startswith("bytes="):
+            status = 206
+            try:
+                rng = range_header.split("=", 1)[1]
+                start_s, end_s = rng.split("-", 1)
+                start = int(start_s) if start_s else 0
+                end = int(end_s) if end_s else file_size - 1
+                end = min(end, file_size - 1)
+            except (ValueError, IndexError):
+                start, end = 0, file_size - 1
+
+        length = end - start + 1
+        try:
+            self.send_response(status)
+            self.send_header("Content-Type", content_type)
+            self.send_header("Accept-Ranges", "bytes")
+            self.send_header("Content-Length", str(length))
+            if status == 206:
+                self.send_header("Content-Range", f"bytes {start}-{end}/{file_size}")
+            self.end_headers()
+            with file_path.open("rb") as f:
+                f.seek(start)
+                remaining = length
+                while remaining > 0:
+                    chunk = f.read(min(65536, remaining))
+                    if not chunk:
+                        break
+                    self.wfile.write(chunk)
+                    remaining -= len(chunk)
+        except (BrokenPipeError, ConnectionAbortedError, ConnectionResetError):
+            pass  # trình duyệt huỷ tải giữa chừng (tua video) - bình thường, không phải lỗi
+
     def do_GET(self):
         parsed = urlparse(self.path)
         path = parsed.path
         query = parse_qs(parsed.query)
+
+        if path.startswith("/media/"):
+            self._serve_media(path[len("/media/"):])
+            return
 
         if path in STATIC_FILES:
             filename, content_type = STATIC_FILES[path]
@@ -110,6 +196,8 @@ class Handler(BaseHTTPRequestHandler):
                 "statuses": STATUSES,
                 "status_labels": STATUS_LABELS,
                 "product_names": product_names,
+                "expense_categories": EXPENSE_CATEGORIES,
+                "expense_category_labels": EXPENSE_CATEGORY_LABELS,
             })
             return
 
@@ -123,6 +211,48 @@ class Handler(BaseHTTPRequestHandler):
             limit = int(query.get("limit", ["20"])[0])
             rows = load_rows(PRODUCTION_CSV)
             self._send_json(list(reversed(rows))[:limit])
+            return
+
+        if path == "/api/b2b":
+            self._send_json(load_b2b_leads())
+            return
+
+        if path == "/api/today-post":
+            self._send_json(get_todays_post())
+            return
+
+        if path == "/api/media":
+            self._send_json(scan_media_library())
+            return
+
+        if path == "/api/repeat-customers":
+            min_don = int(query.get("min_don", ["2"])[0])
+            self._send_json(compute_repeat_customers(min_don))
+            return
+
+        if path == "/api/expenses":
+            limit = int(query.get("limit", ["20"])[0])
+            rows = load_rows(EXPENSES_CSV)
+            self._send_json(list(reversed(rows))[:limit])
+            return
+
+        if path == "/api/month-summary":
+            self._send_json(compute_month_to_date())
+            return
+
+        if path == "/api/today-overview":
+            self._send_json(compute_today_overview())
+            return
+
+        if path == "/api/b2b/today-calls":
+            n = int(query.get("n", ["10"])[0])
+            self._send_json(get_today_call_list(n))
+            return
+
+        if path == "/api/customers/lookup":
+            name = query.get("name", [""])[0]
+            customer = find_customer(name)
+            self._send_json(customer or {})
             return
 
         self._send_error_json("Không tìm thấy đường dẫn này", status=404)
@@ -146,6 +276,8 @@ class Handler(BaseHTTPRequestHandler):
                     unit_price=data.get("unit_price"),
                     channel=data.get("channel", ""),
                     status=data.get("status") or "moi",
+                    phone=data.get("phone", ""),
+                    address=data.get("address", ""),
                     note=data.get("note", ""),
                 )
                 self._send_json({"ok": True, "row": row})
@@ -159,6 +291,30 @@ class Handler(BaseHTTPRequestHandler):
                     unit=data.get("unit") or "kg",
                     batch_id=data.get("batch_id") or None,
                     note=data.get("note", ""),
+                )
+                self._send_json({"ok": True, "row": row})
+                return
+
+            if path == "/api/expenses":
+                row = add_expense(
+                    date_str=data.get("date") or None,
+                    category=data.get("category", ""),
+                    amount=data.get("amount"),
+                    note=data.get("note", ""),
+                )
+                self._send_json({"ok": True, "row": row})
+                return
+
+            if path == "/api/mark-posted":
+                row = mark_posted(chu_de=data.get("chu_de", ""), channel=data.get("channel", ""))
+                self._send_json({"ok": True, "row": row})
+                return
+
+            if path == "/api/b2b/update":
+                row = update_b2b_lead(
+                    ten=data.get("ten", ""),
+                    trang_thai=data.get("trang_thai"),
+                    ghi_chu_them=data.get("ghi_chu_them", ""),
                 )
                 self._send_json({"ok": True, "row": row})
                 return

@@ -20,6 +20,8 @@ def main():
     parser.add_argument("--unit-price", required=True, type=float, dest="unit_price", help="Đơn giá (VNĐ)")
     parser.add_argument("--channel", required=True, choices=CHANNELS, help="Kênh bán hàng")
     parser.add_argument("--status", default="moi", choices=STATUSES, help="Trạng thái đơn, mặc định 'moi'")
+    parser.add_argument("--phone", default="", help="SĐT khách (không bắt buộc, tự lưu vào sổ địa chỉ)")
+    parser.add_argument("--address", default="", help="Địa chỉ giao hàng (không bắt buộc, tự lưu vào sổ địa chỉ)")
     parser.add_argument("--note", default="", help="Ghi chú thêm")
     args = parser.parse_args()
 
@@ -32,6 +34,8 @@ def main():
         unit_price=args.unit_price,
         channel=args.channel,
         status=args.status,
+        phone=args.phone,
+        address=args.address,
         note=args.note,
     )
 

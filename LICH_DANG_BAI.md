@@ -213,6 +213,11 @@ hâm nóng) nối tiếp đúng nhịp 2 lần/tuần từ mốc 25/09._
   - LinkedIn: bản đầy đủ trong posts_ready.md, không cần đúng ngày. Bản nén nhẹ để đính kèm email
     (`docs/assets/san-day-gioi-thieu-xuat-khau-email.mp4`) CHỈ dùng cho Nhóm E, xem
     `.claude/agents/wholesale-export-outreach.md`.
+- [ ] **Bất kỳ lúc nào** (thêm 2026-09-22, đăng cách bài Company intro vài ngày để không dồn cục) —
+  2 bài LinkedIn mới, đổi góc kể chuyện sang hướng B2B (năng lực cung ứng + kiểm soát chất lượng)
+  thay vì lặp giọng "khoe" của bản tiếng Việt cùng video:
+  - "Mở rộng vùng trồng, tín hiệu năng lực cung ứng" (video `san-day-mo-rong-vung-trong.mp4`)
+  - "Quy trình sấy, minh bạch từ bột ướt đến thành phẩm" (video `quy-trinh-say-san-day.mp4`)
 
 ## Từ tuần 10 trở đi
 

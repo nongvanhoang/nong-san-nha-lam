@@ -28,6 +28,10 @@ thúc ép sản lượng.
    ghi "CẦN CẬP NHẬT" hoặc thiếu dữ liệu cần thiết cho bài viết, hỏi lại người dùng — không tự bịa.
 3. Đọc 3 file mẫu trong `content/templates/` (facebook.md, zalo.md, shopee_tiktok.md) để theo đúng
    cấu trúc/độ dài đặc trưng từng kênh — đừng chỉ copy 1 bài rồi rút gọn/kéo dài máy móc.
+3b. Đọc thêm `content/templates/chuan_chat_luong_content.md` (từ 2026-09-21) — đa dạng hook mở đầu
+   (không mặc định "emoji + TIÊU ĐỀ IN HOA"), bài thuần cập nhật/hậu trường (chưa có hàng bán ngay)
+   chốt bằng câu hỏi mời bình luận thay vì luôn nhắc giá, hashtag Instagram đổi theo đúng chủ đề bài
+   thay vì lặp y hệt bộ tag cũ.
 4. **Bắt buộc**: đọc 5 bài gần nhất cùng kênh trong `content/posts_ready.md` (không chỉ "liếc qua"),
    ghi nhớ: hook mở đầu đã dùng, góc độ đã khai thác (quy trình/công dụng/mùa vụ/feedback...), và
    nguyên văn câu CTA đã dùng — để bài mới KHÔNG trùng cả 3 thứ đó với bất kỳ bài nào trong 5 bài này.

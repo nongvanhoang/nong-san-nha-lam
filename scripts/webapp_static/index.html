@@ -13,16 +13,53 @@
 </header>
 
 <nav class="tabs">
-  <button class="tab-btn active" data-tab="don-hang">Ghi đơn hàng</button>
+  <button class="tab-btn active" data-tab="tong-quan">Tổng quan</button>
+  <button class="tab-btn" data-tab="don-hang">Ghi đơn hàng</button>
   <button class="tab-btn" data-tab="san-xuat">Ghi mẻ sản xuất</button>
+  <button class="tab-btn" data-tab="chi-phi">Chi phí</button>
   <button class="tab-btn" data-tab="bao-cao">Báo cáo</button>
   <button class="tab-btn" data-tab="gia-san-pham">Giá sản phẩm</button>
+  <button class="tab-btn" data-tab="ban-hang">Bán hàng hôm nay</button>
+  <button class="tab-btn" data-tab="media">Thư viện Media</button>
 </nav>
 
 <main>
 
+  <!-- TAB: Tổng quan -->
+  <section id="tab-tong-quan" class="tab-panel active">
+    <div class="card">
+      <h2>Bài cần đăng hôm nay</h2>
+      <div id="overview-post-content"></div>
+    </div>
+
+    <div class="card">
+      <h2>Hôm nay nên gọi/nhắn B2B</h2>
+      <div id="overview-calls-content"></div>
+    </div>
+
+    <div class="card">
+      <h2>Hạn chót sắp tới</h2>
+      <div id="overview-deadlines-content"></div>
+    </div>
+
+    <div class="card">
+      <h2>Cảnh báo tồn kho</h2>
+      <div id="overview-inventory-content"></div>
+    </div>
+
+    <div class="card">
+      <h2>Tài chính tháng này</h2>
+      <div id="overview-month-content"></div>
+    </div>
+
+    <div class="card">
+      <h2>Khách quen lâu chưa quay lại</h2>
+      <div id="overview-followups-content"></div>
+    </div>
+  </section>
+
   <!-- TAB: Ghi đơn hàng -->
-  <section id="tab-don-hang" class="tab-panel active">
+  <section id="tab-don-hang" class="tab-panel">
     <div class="card">
       <h2>Ghi đơn hàng mới</h2>
       <form id="form-order">
@@ -30,8 +67,9 @@
           <input type="date" name="date" id="order-date" required>
         </label>
         <label>Khách hàng
-          <input type="text" name="customer" required placeholder="VD: Chị Lan">
+          <input type="text" name="customer" id="order-customer" required placeholder="VD: Chị Lan">
         </label>
+        <p class="hint" id="order-customer-known" style="display:none"></p>
         <label>Sản phẩm
           <select name="product" id="order-product" required></select>
         </label>
@@ -51,6 +89,12 @@
         </label>
         <label>Trạng thái
           <select name="status" id="order-status"></select>
+        </label>
+        <label>SĐT khách (không bắt buộc, tự nhớ cho lần sau)
+          <input type="text" name="phone" id="order-phone" placeholder="VD: 0912345678">
+        </label>
+        <label>Địa chỉ giao (không bắt buộc, tự nhớ cho lần sau)
+          <input type="text" name="address" id="order-address" placeholder="Để trống nếu lấy trực tiếp">
         </label>
         <label>Ghi chú
           <input type="text" name="note" placeholder="Không bắt buộc">
@@ -117,6 +161,46 @@
     </div>
   </section>
 
+  <!-- TAB: Chi phí -->
+  <section id="tab-chi-phi" class="tab-panel">
+    <div class="card">
+      <h2>Tháng này</h2>
+      <div id="month-summary-content"></div>
+    </div>
+
+    <div class="card">
+      <h2>Ghi chi phí mới</h2>
+      <form id="form-expense">
+        <label>Ngày
+          <input type="date" name="date" id="expense-date" required>
+        </label>
+        <label>Hạng mục
+          <select name="category" id="expense-category" required></select>
+        </label>
+        <label>Số tiền (VNĐ)
+          <input type="number" step="1" name="amount" required placeholder="VD: 500000">
+        </label>
+        <label>Ghi chú
+          <input type="text" name="note" placeholder="VD: in nhãn 1000 tem">
+        </label>
+        <button type="submit">Ghi chi phí</button>
+      </form>
+      <p id="expense-msg" class="msg"></p>
+    </div>
+
+    <div class="card">
+      <h2>Chi phí gần đây</h2>
+      <div class="table-wrap">
+        <table id="expenses-table">
+          <thead>
+            <tr><th>Ngày</th><th>Hạng mục</th><th>Số tiền</th><th>Ghi chú</th></tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
   <!-- TAB: Báo cáo -->
   <section id="tab-bao-cao" class="tab-panel">
     <div class="card">
@@ -139,6 +223,79 @@
       <h2>Giá sản phẩm hiện tại</h2>
       <p class="hint">Sửa giá rồi bấm "Lưu" ở dòng đó. Thay đổi sẽ ghi thẳng vào <code>data/products.json</code>.</p>
       <div id="products-editor"></div>
+    </div>
+  </section>
+
+  <!-- TAB: Bán hàng hôm nay -->
+  <section id="tab-ban-hang" class="tab-panel">
+    <div class="card">
+      <h2>Bài cần đăng hôm nay</h2>
+      <div id="today-post-content"></div>
+    </div>
+
+    <div class="card">
+      <h2>Danh sách khách B2B/xuất khẩu</h2>
+      <div class="row">
+        <label>Lọc theo nhóm
+          <select id="b2b-filter-nhom"><option value="">Tất cả</option></select>
+        </label>
+        <label>Trạng thái
+          <select id="b2b-filter-trangthai">
+            <option value="">Tất cả</option>
+            <option value="chua">Chưa liên hệ</option>
+            <option value="da">Đã liên hệ (mọi kết quả)</option>
+            <option value="quantam">Đang quan tâm (đã mở/đã phản hồi tích cực)</option>
+          </select>
+        </label>
+        <label>Tìm tên
+          <input type="text" id="b2b-search" placeholder="Gõ tên khách...">
+        </label>
+      </div>
+      <p class="hint" id="b2b-count"></p>
+      <div class="table-wrap">
+        <table id="b2b-table">
+          <thead>
+            <tr><th>Nhóm</th><th>Tên</th><th>Khu vực</th><th>Liên hệ</th><th>Trạng thái</th><th>Cập nhật</th></tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- TAB: Thư viện Media -->
+  <section id="tab-media" class="tab-panel">
+    <div class="card">
+      <h2>Thư viện ảnh/video</h2>
+      <p class="hint">Quét từ <code>Hình Ảnh, Video/</code>, <code>docs/assets/</code>,
+        <code>content/video/output/</code>. Bấm vào 1 mục để copy đường dẫn.</p>
+      <div class="row">
+        <label>Tìm tên file
+          <input type="text" id="media-search" placeholder="VD: vuon, quy-trinh...">
+        </label>
+        <label>Sản phẩm
+          <select id="media-filter-category">
+            <option value="">Tất cả</option>
+            <option value="san-day">Sắn Dây</option>
+            <option value="cam">Cam Đường Canh</option>
+            <option value="khac">Khác</option>
+          </select>
+        </label>
+        <label>Loại
+          <select id="media-filter-kind">
+            <option value="">Tất cả</option>
+            <option value="image">Ảnh</option>
+            <option value="video">Video</option>
+          </select>
+        </label>
+      </div>
+      <label class="inline-label">
+        <input type="checkbox" id="media-filter-unused" style="width:auto">
+        Chỉ hiện file CHƯA dùng ở bài nào
+      </label>
+      <p class="hint" id="media-count"></p>
+      <button type="button" id="media-refresh-btn" class="small">Quét lại</button>
+      <div id="media-grid" class="media-grid"></div>
     </div>
   </section>
 
