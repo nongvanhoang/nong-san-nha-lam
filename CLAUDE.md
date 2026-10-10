@@ -239,7 +239,7 @@ routine — cloud routine không đọc được file/Python local) cứ mỗi 3
 `data/social_queue.json` (theo con trỏ `data/social_queue_state.json`, tự tăng sau mỗi lần chạy,
 không phụ thuộc người dùng đã đăng thật hay chưa) → ghi ra `BAI_DANG_HOM_NAY.txt` → tự mở Notepad.
 
-Hàng đợi hiện có 24 mục (11 mục cũ + 13 mục thêm 2026-10-10 theo `CHIEN_DICH_TET_2027.md`: sắn dây
+Hàng đợi hiện có 27 mục (11 mục cũ + 13 mục thêm 2026-10-10 theo `CHIEN_DICH_TET_2027.md`: sắn dây
 quanh năm, "hẹn báo hàng mùa cam" 31/10 + 12/11, Bài A hộp quà Tết 15/11 + 24/11 — **phải điền giá
 trước khi đăng**, Bài B quà Tết doanh nghiệp 18/11 + 30/11) — từ 2026-10-10 thêm 3 mục "vào mùa cam" (nhắn riêng danh sách chờ → Giới thiệu Cam → chín tự nhiên, nhắc
 ~03/12, 06/12, 09/12 — chỉ đăng khi cam đã hái thật). Bài D đếm ngược Tết CHƯA vào hàng đợi (chờ chốt hạn
