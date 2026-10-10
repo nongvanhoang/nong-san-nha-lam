@@ -19,6 +19,10 @@ việc nào chặn việc nào. Cập nhật lại file này (tick `[x]`) mỗi 
   - [ ] Tuần này: gửi mẫu Tinh Bột Sắn Dây đi kiểm nghiệm
   → việc "Gọi Chi cục ATVSTP" ở Nhóm 1 giờ **chặn luôn OCOP**, nên gọi sớm.
 
+- [ ] **Chốt giá hộp quà Tết trước 15/11/2026** (thêm 2026-10-10) — Claude đề xuất 399k / 749k ở
+  `CHIEN_DICH_TET_2027.md` mục 2, chỉ cần báo giá 1 hộp trơn thật + "duyệt" để điền lên web và Bài A/B.
+- [ ] **Bài D đếm ngược Tết — đăng 21/01/2027** (thêm 2026-10-10) — hạn chốt đơn đề xuất 26/01/2027, bài có
+  sẵn trong `content/posts_ready.md`; kiểm tra lịch Tết của hãng vận chuyển trước khi đăng.
 - [ ] **Chiến dịch Mùa Cam & Tết 2027** (thêm 2026-09-30) — lịch 5 giai đoạn, hộp quà Tết, 4 bài mới, cách đo ở
   **`CHIEN_DICH_TET_2027.md`**. Việc tuần này: đăng bài "hẹn báo hàng mùa cam" + chốt có làm hộp quà Tết không.
   Khách hẹn báo hàng → ghi vào `data/danh_sach_cho.csv` (file riêng tư, không lên GitHub).
@@ -44,8 +48,9 @@ việc nào chặn việc nào. Cập nhật lại file này (tick `[x]`) mỗi 
 
 - [ ] **LinkedIn: Company Page hay hồ sơ cá nhân?** — khuyến nghị Company Page, nội dung điền sẵn ở
   `HO_SO_MANG_XA_HOI.md` mục 6.
-- [ ] **Shopee/TikTok Shop: chính sách đổi/trả cụ thể là gì?** — sàn bắt buộc phải khai mới mở được
-  gian hàng, xem gợi ý ở `HO_SO_MANG_XA_HOI.md` mục 3.
+- [x] **Shopee/TikTok Shop: chính sách đổi/trả** — 2026-10-10: dùng đúng chính sách đang đăng trên website
+  (đổi/hoàn nếu hư hỏng vận chuyển, giao sai, lỗi sản xuất; video mở hàng + báo trong 24h; không nhận đổi ý).
+  Đã điền vào `HO_SO_MANG_XA_HOI.md` mục 3. Muốn khác thì báo Claude sửa cả website.
 - [ ] **Facebook: công khai địa chỉ nhà thật hay chỉ ghi khu vực chung?** — `HO_SO_MANG_XA_HOI.md`
   mục 1.
 - [ ] **Facebook: giờ hoạt động thật là gì?** — `HO_SO_MANG_XA_HOI.md` mục 1.

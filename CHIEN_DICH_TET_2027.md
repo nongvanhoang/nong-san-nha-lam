@@ -39,6 +39,24 @@ thủ công". **Giá chưa chốt** — tính từ giá gốc + chi phí hộp +
 Cần quyết: chi phí hộp/túi quà mỗi gói · có tặng thiệp viết tay không · gửi xa (ngoài miền Bắc) cam có giữ được
 không — nếu không chắc, hộp quà chỉ nhận **giao miền Bắc**, tỉnh xa chỉ gửi sắn dây.
 
+**Đề xuất giá của Claude (2026-10-10) — CHƯA CHỐT, bạn sửa/duyệt rồi Claude mới đưa lên web và bài đăng:**
+
+| Gói | Hàng (giá lẻ) | + hộp, thẻ treo, thiệp | Giá đề xuất | Ghi chú |
+|---|---|---|---|---|
+| Gói nhỏ | 355.000đ | ~30.000đ **(giả định — thay bằng giá hộp thật)** | **399.000đ** | Dưới mốc 400k, khách dễ quyết |
+| Gói lớn | 655.000đ | ~40.000đ **(giả định)** | **749.000đ** | Dưới mốc 750k |
+
+Cơ sở: hộp quà trái cây Tết trên thị trường phổ biến 350.000–850.000đ ([Tuổi Trẻ](https://tuoitre.vn/nld-phu-nu/cho-nghia-tan.html)) —
+2 mức trên nằm giữa khoảng đó. Giá lẻ của nhà mình (cam ~50-55k/kg) đã thấp hơn mặt bằng (`VIEC_CAN_LAM.md` Nhóm 2),
+nên hộp quà KHÔNG giảm giá thêm — phần chênh chỉ bù hộp/thẻ/thiệp. Chưa gồm phí ship. Nếu 1 hộp trơn đắt hơn
+giả định, cộng phần chênh vào giá. Doanh nghiệp đặt ≥10 hộp: báo giá riêng.
+
+**Hạn chốt đơn giao trước Tết (đề xuất, Tết Đinh Mùi = 06/02/2027):** Tết 2026, GHTK chỉ nhận lấy hàng **liên miền
+trước 22 tháng Chạp**, **nội miền trước 24 tháng Chạp** ([thông báo GHTK](https://ghtk.vn/tin-cho-nha-ban/thong-bao-chi-tiet-lich-nghi-tet-am-lich-2026-cua-ghtk/)).
+Áp cùng khoảng cách cho 2027 và chừa 2 ngày đóng gói → **nhận đơn cuối 26/01/2027 (khoảng 19 tháng Chạp)** cho
+toàn quốc; miền Bắc có thể nhận đến **28/01/2027**. Bài D đăng **21/01/2027**. Kiểm tra lại khi các hãng ra lịch
+Tết 2027 (thường đầu tháng 1) — nếu khác thì dời theo hãng.
+
 **Mẫu mã đã phác sẵn (2026-10-03)**: thẻ treo `content/nhan_bao_bi/the-qua-tet.svg` — đúng phong
 cách "Mộc & Thật", dùng chung cho cả 2 gói (có dòng trống viết tay "Gói:"/"Giá:" nên không phải in
 lại khi chốt giá). Chỉ cần mua hộp/túi quà trơn (kraft hoặc trong suốt) + buộc thẻ này vào, không cần

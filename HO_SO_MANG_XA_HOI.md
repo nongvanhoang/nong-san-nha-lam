@@ -98,10 +98,10 @@ Cam Đường Canh lên sàn — trái tươi khó đáp ứng SLA giao hàng/đ
   phẩm Tinh Bột Sắn Dây đã viết theo đúng quy trình lò sấy hiện tại).
 - **Chính sách vận chuyển**: Giao hàng toàn quốc, 2–5 ngày tuỳ khu vực (theo phí đơn vị vận chuyển
   của sàn hiển thị lúc đặt).
-- **Chính sách đổi trả**: **[CẦN BẠN QUYẾT ĐỊNH]** — chưa có chính sách đổi/trả nào được thống nhất
-  trước đây (kể cả trên website). Sàn TMĐT thường bắt buộc phải khai mục này mới mở được gian hàng —
-  cần bạn quyết định trước (ví dụ: "đổi/hoàn tiền nếu hàng lỗi/hư hỏng khi nhận, báo trong 24h kèm
-  ảnh/video mở hàng").
+- **Chính sách đổi trả** (2026-10-10: lấy đúng chính sách ĐANG ĐĂNG trên website — FAQ trang chủ/trang Cam —
+  để mọi kênh nói giống nhau; muốn đổi thì sửa cả website): "Vì là thực phẩm nên không nhận đổi trả hàng đã mở/đã dùng. Được đổi hàng mới hoặc hoàn tiền nếu hàng hư hỏng do vận chuyển, giao sai loại/sai số lượng, hoặc lỗi từ khâu sản xuất — quay video lúc mở hàng và báo shop trong 24 giờ kể từ khi nhận hàng."
+  Khi điền form sàn: chọn "Chấp nhận trả hàng/hoàn tiền" cho lý do hàng lỗi/hư hỏng/giao sai, KHÔNG nhận
+  trả hàng vì "đổi ý".
 
 ### Tên sản phẩm + phân loại hàng khi đăng thật (thêm 2026-09-28)
 
@@ -133,8 +133,9 @@ Mô tả sản phẩm đã có sẵn (mục trên), nhưng **tiêu đề đăng 
   sấy bằng lò sấy riêng tại Lạng Sơn, không pha trộn — ảnh/video trong gian hàng đều là ảnh/video
   thật, không dùng ảnh mạng. Cơ sở quy mô hộ gia đình, hiện đang tìm hiểu thủ tục xác nhận miễn giấy
   ATTP (xem `GHI_CHU_ATTP.md`), sẽ cập nhật khi có kết quả."
-- *"Đổi/trả được không nếu hàng lỗi?"* → theo đúng chính sách đổi trả bạn quyết định ở mục trên —
-  chưa có câu trả lời cố định cho đến khi chốt.
+- *"Đổi/trả được không nếu hàng lỗi?"* → "Dạ được ạ — nếu hàng hư hỏng do vận chuyển, giao sai hoặc lỗi
+  sản xuất, shop đổi hàng mới hoặc hoàn tiền. Bạn quay video lúc mở hàng và nhắn shop trong 24 giờ nhé. Hàng
+  đã mở dùng rồi thì shop không nhận đổi trả vì là thực phẩm ạ."
 
 ### Bộ ảnh gian hàng (7/8 ảnh, thêm 2026-09-24)
 

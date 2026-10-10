@@ -6,6 +6,20 @@ copy-paste đăng thủ công lên Facebook/Zalo/Shopee/TikTok. Sau khi đăng x
 
 ---
 
+## Facebook/Zalo — Đếm ngược hạn giao trước Tết (Bài D chiến dịch Tết 2027, đăng ~21/01/2027)
+
+⚠️ Hạn 26/01/2027 là ĐỀ XUẤT (xem `CHIEN_DICH_TET_2027.md` mục 2) — kiểm tra lịch Tết 2027 của hãng vận
+chuyển trước khi đăng, sửa ngày nếu khác. Ảnh/video: cảnh đóng thùng cam thật mùa này (quay khi vào mùa).
+
+Còn **5 ngày** là nhà mình chốt đơn giao trước Tết rồi ạ — **hạn cuối 26/01** (miền Bắc nhận đến 28/01).
+
+Sau ngày đó bên vận chuyển nghỉ Tết, đơn đặt muộn sẽ giao sau Tết. Ai còn định biếu cam, biếu sắn dây thì đặt
+sớm cho kịp nhé 🍊
+👉 Đặt nhanh: nongsannhalam.com/dat-truoc.html
+Hoặc Zalo 0979 502 000
+
+---
+
 ## Zalo — Nhắn riêng danh sách chờ khi cam vào mùa (Tin nhắn C chiến dịch Tết 2027)
 
 ⚠️ **CHỈ GỬI KHI CAM ĐÃ HÁI ĐƯỢC THẬT.** Mở Sổ Đơn → tab "Khách chờ cam", nhắn từng người (không gửi
