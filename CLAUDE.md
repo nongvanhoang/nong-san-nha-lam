@@ -239,10 +239,11 @@ routine — cloud routine không đọc được file/Python local) cứ mỗi 3
 `data/social_queue.json` (theo con trỏ `data/social_queue_state.json`, tự tăng sau mỗi lần chạy,
 không phụ thuộc người dùng đã đăng thật hay chưa) → ghi ra `BAI_DANG_HOM_NAY.txt` → tự mở Notepad.
 
-Hàng đợi hiện có 11 mục (8 mục gốc Tuần 6-9 `LICH_DANG_BAI.md` + 3 mục chèn 2026-10-01 theo
-`CHIEN_DICH_TET_2027.md`: 2 lần "hẹn báo hàng mùa cam" cách nhau ~2 tuần + 1 bài VietGAP, next_index
-đã trỏ đúng để bài "hẹn báo hàng mùa cam" ra ngay lần nhắc tới) — hết 11 mục (~33 ngày từ 2026-10-01,
-khoảng đầu tháng 11/2026) cần thêm mục mới vào `data/social_queue.json` (mỗi mục: `topic_keyword`
+Hàng đợi hiện có 24 mục (11 mục cũ + 13 mục thêm 2026-10-10 theo `CHIEN_DICH_TET_2027.md`: sắn dây
+quanh năm, "hẹn báo hàng mùa cam" 31/10 + 12/11, Bài A hộp quà Tết 15/11 + 24/11 — **phải điền giá
+trước khi đăng**, Bài B quà Tết doanh nghiệp 18/11 + 30/11) — mục cuối nhắc khoảng **30/11/2026**.
+Trước đó cần thêm mục "vào mùa cam" (bài "chỉ đăng khi vào mùa": Giới thiệu Cam, chín tự nhiên trên
+cây, Bài D đếm ngược) vào `data/social_queue.json` (mỗi mục: `topic_keyword`
 khớp đúng 1 phần tiêu đề trong `posts_ready.md`, `channels` là danh sách kênh muốn lấy — lưu ý khớp
 theo đúng tiền tố tiêu đề, vd bài có tiêu đề bắt đầu "Zalo/Facebook — ..." phải dùng channel
 `"Zalo/Facebook"` chứ không phải `"Facebook"` riêng, xem logic `find_block()` trong

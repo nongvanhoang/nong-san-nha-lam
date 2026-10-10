@@ -1,49 +1,168 @@
 {
-  "_note": "Hàng đợi đăng bài xoay vòng 3 ngày/bài, đọc bởi scripts/next_social_post.py. Gồm nội dung Tuần 6-9 trong LICH_DANG_BAI.md (2026-09-04 trở đi, tham chiếu đúng tiêu đề trong posts_ready.md, dễ khớp tự động) + 3 mục chèn thêm 2026-10-01 theo CHIEN_DICH_TET_2027.md (2 lần 'hẹn báo hàng mùa cam' cách nhau ~2 tuần + 1 bài VietGAP) — next_index=4 nên mục 'hẹn báo hàng mùa cam' ra ngay lần nhắc tới, đúng yêu cầu 'đăng ngay tuần này' của chiến dịch. Nội dung Tuần 1-5 (cũ hơn, tham chiếu theo số dòng đã lệch) chưa đưa vào đây — dùng thủ công nếu muốn, hoặc nhờ Claude thêm vào hàng đợi sau khi hết mục dưới đây.",
+  "_note": "Hàng đợi đăng bài xoay vòng 3 ngày/bài, đọc bởi scripts/next_social_post.py. Gồm nội dung Tuần 6-9 trong LICH_DANG_BAI.md (2026-09-04 trở đi, tham chiếu đúng tiêu đề trong posts_ready.md, dễ khớp tự động) + 3 mục chèn thêm 2026-10-01 theo CHIEN_DICH_TET_2027.md (2 lần 'hẹn báo hàng mùa cam' cách nhau ~2 tuần + 1 bài VietGAP) — next_index=4 nên mục 'hẹn báo hàng mùa cam' ra ngay lần nhắc tới, đúng yêu cầu 'đăng ngay tuần này' của chiến dịch. Nội dung Tuần 1-5 (cũ hơn, tham chiếu theo số dòng đã lệch) chưa đưa vào đây — dùng thủ công nếu muốn, hoặc nhờ Claude thêm vào hàng đợi sau khi hết mục dưới đây. | 2026-10-10: thêm 13 mục (index 11-23, ~25/10-30/11) theo CHIEN_DICH_TET_2027.md: sắn dây quanh năm + 2 lần hẹn báo hàng mùa cam (31/10, 12/11) + Bài A hộp quà Tết (15/11, 24/11, PHẢI ĐIỀN GIÁ) + Bài B quà Tết doanh nghiệp (18/11, 30/11). Bỏ qua bài nhắc phơi nắng/trưa hè và bài chỉ đăng khi cam đã vào mùa.",
   "items": [
     {
       "topic_keyword": "Hành trình đầy đủ",
-      "channels": ["Facebook", "Zalo", "Instagram"]
+      "channels": [
+        "Facebook",
+        "Zalo",
+        "Instagram"
+      ]
     },
     {
       "topic_keyword": "Bên trong lò sấy",
-      "channels": ["Facebook", "Zalo", "Instagram"]
+      "channels": [
+        "Facebook",
+        "Zalo",
+        "Instagram"
+      ]
     },
     {
       "topic_keyword": "Nhìn lại vườn cam mùa trước",
-      "channels": ["Facebook", "Zalo", "Instagram"]
+      "channels": [
+        "Facebook",
+        "Zalo",
+        "Instagram"
+      ]
     },
     {
       "topic_keyword": "Mở rộng vùng trồng sắn dây",
-      "channels": ["Facebook", "Zalo", "Instagram"]
+      "channels": [
+        "Facebook",
+        "Zalo",
+        "Instagram"
+      ]
     },
     {
       "topic_keyword": "hẹn báo hàng mùa cam",
-      "channels": ["Zalo/Facebook"]
+      "channels": [
+        "Zalo/Facebook"
+      ]
     },
     {
       "topic_keyword": "Củ sắn dây tươi",
-      "channels": ["Facebook", "Zalo", "Instagram"]
+      "channels": [
+        "Facebook",
+        "Zalo",
+        "Instagram"
+      ]
     },
     {
       "topic_keyword": "nhấn chứng nhận VietGAP",
-      "channels": ["Facebook"]
+      "channels": [
+        "Facebook"
+      ]
     },
     {
       "topic_keyword": "Một góc khác của vườn sắn dây",
-      "channels": ["Facebook", "Zalo", "Instagram"]
+      "channels": [
+        "Facebook",
+        "Zalo",
+        "Instagram"
+      ]
     },
     {
       "topic_keyword": "Một buổi sáng trên nương sắn dây",
-      "channels": ["Facebook", "Zalo", "Instagram"]
+      "channels": [
+        "Facebook",
+        "Zalo",
+        "Instagram"
+      ]
     },
     {
       "topic_keyword": "hẹn báo hàng mùa cam",
-      "channels": ["Zalo/Facebook"]
+      "channels": [
+        "Zalo/Facebook"
+      ]
     },
     {
       "topic_keyword": "hoa đến quả non",
-      "channels": ["Facebook", "Zalo", "Instagram"]
+      "channels": [
+        "Facebook",
+        "Zalo",
+        "Instagram"
+      ]
+    },
+    {
+      "topic_keyword": "Gốc củ to cỡ nào",
+      "channels": [
+        "Facebook",
+        "Zalo"
+      ]
+    },
+    {
+      "topic_keyword": "Công đoạn nghiền lọc",
+      "channels": [
+        "Facebook",
+        "Zalo"
+      ]
+    },
+    {
+      "topic_keyword": "hẹn báo hàng mùa cam",
+      "channels": [
+        "Zalo/Facebook"
+      ]
+    },
+    {
+      "topic_keyword": "Giàn sắn dây trước khi đào củ",
+      "channels": [
+        "Facebook",
+        "Zalo"
+      ]
+    },
+    {
+      "topic_keyword": "Quy mô thu hoạch thật",
+      "channels": [
+        "Facebook"
+      ]
+    },
+    {
+      "topic_keyword": "Thông báo hàng có sẵn",
+      "channels": [
+        "Zalo"
+      ]
+    },
+    {
+      "topic_keyword": "hẹn báo hàng mùa cam",
+      "channels": [
+        "Zalo/Facebook"
+      ]
+    },
+    {
+      "topic_keyword": "Mở đặt trước hộp quà Tết",
+      "channels": [
+        "Facebook/Zalo"
+      ]
+    },
+    {
+      "topic_keyword": "Quà Tết doanh nghiệp",
+      "channels": [
+        "Facebook"
+      ]
+    },
+    {
+      "topic_keyword": "Từ video thật đến túi tinh bột",
+      "channels": [
+        "Facebook"
+      ]
+    },
+    {
+      "topic_keyword": "Mở đặt trước hộp quà Tết",
+      "channels": [
+        "Facebook/Zalo"
+      ]
+    },
+    {
+      "topic_keyword": "nhấn chứng nhận VietGAP",
+      "channels": [
+        "Facebook"
+      ]
+    },
+    {
+      "topic_keyword": "Quà Tết doanh nghiệp",
+      "channels": [
+        "Facebook"
+      ]
     }
   ]
 }

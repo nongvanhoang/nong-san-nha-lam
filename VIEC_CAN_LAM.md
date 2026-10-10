@@ -14,7 +14,7 @@ việc nào chặn việc nào. Cập nhật lại file này (tick `[x]`) mỗi 
   CHƯA có cả hai. **[2026-09-30] Đã chốt: cả 2 sản phẩm, công ty của cô chú đứng tên.** Kế hoạch đầy đủ,
   3 rủi ro, câu hỏi cho xã, bảng giấy tờ, lịch 4 tuần và nội dung Mẫu 02 soạn sẵn ở **`OCOP_2026.md`**.
   Nếu lỡ đợt này → đợt 1/2027 nộp trước 30/4/2027.
-  - [ ] Tuần này: gọi Sở NN&MT/UBND xã hỏi 6 câu (mục 2 `OCOP_2026.md`) + xin Mẫu 01/02 bản Word
+  - [ ] Tuần này: gọi Sở NN&MT/UBND xã + cô chú + Chi cục ATVSTP — **tờ câu hỏi in sẵn: `GOI_DIEN_OCOP.md`** (2026-10-10)
   - [ ] Tuần này: hỏi cô chú tên công ty, GPKD, giấy ATTP, hồ sơ môi trường
   - [ ] Tuần này: gửi mẫu Tinh Bột Sắn Dây đi kiểm nghiệm
   → việc "Gọi Chi cục ATVSTP" ở Nhóm 1 giờ **chặn luôn OCOP**, nên gọi sớm.

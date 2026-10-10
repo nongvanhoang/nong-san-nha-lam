@@ -6,6 +6,40 @@ copy-paste đăng thủ công lên Facebook/Zalo/Shopee/TikTok. Sau khi đăng x
 
 ---
 
+## Facebook/Zalo — Mở đặt trước hộp quà Tết (Bài A chiến dịch Tết 2027, đăng từ 15/11)
+
+⚠️ **ĐIỀN GIÁ VÀO 2 CHỖ `[GIÁ]` TRƯỚC KHI ĐĂNG** — giá chốt theo `CHIEN_DICH_TET_2027.md` mục 2. Chưa
+có video riêng cho hộp quà: dùng lại `content/video/output/cam-vuon-mua-truoc.mp4` (tư liệu thật mùa
+trước) hoặc chụp ảnh hộp quà thật khi đã có hộp.
+
+Tết năm nay biếu gì cho bố mẹ, ông bà mà vừa ngon vừa biết rõ nguồn gốc?
+
+Nhà mình ghép 2 thứ tự tay làm ra thành hộp quà Tết:
+🍊 **Cam Đường Canh** vườn nhà — thành viên HTX Nhung Giang, có chứng nhận VietGAP, chín tự nhiên trên cây
+🌾 **Tinh bột sắn dây** lọc tay, sấy lò sấy riêng, không hoá chất, không tẩy trắng
+
+Gói nhỏ: cam 5kg + sắn dây 0,5kg — `[GIÁ]`
+Gói lớn: cam 10kg + sắn dây 1kg — `[GIÁ]`
+
+Cam chỉ có khoảng 3 tháng mỗi năm nên nhà mình nhận **đặt trước**, vào mùa là hái và gửi theo thứ tự đặt.
+Nhắn Zalo 0979 502 000 để giữ suất nhé!
+
+---
+
+## Facebook — Quà Tết doanh nghiệp (Bài B chiến dịch Tết 2027, đăng từ 18/11)
+
+Dùng thêm làm tin nhắn Zalo chào khách B2B. Ảnh/video: như Bài A ở trên.
+
+Công ty mình đang chọn quà Tết cho nhân viên, đối tác?
+
+Nông Sản Nhà Làm nhận đặt **hộp quà Tết số lượng lớn**: Cam Đường Canh Lạng Sơn (VietGAP số
+112/CN-TĐC-TT-20-0012) kết hợp tinh bột sắn dây thủ công — quà đặc sản, có nguồn gốc rõ ràng, kiểm chứng được.
+
+Nhận in lời chúc theo yêu cầu. Báo giá theo số lượng — nhắn Zalo 0979 502 000 hoặc email hello@nongsannhalam.com.
+Doanh nghiệp thường chốt quà từ tháng 11, nên nhắn sớm để nhà mình giữ đủ hàng ạ.
+
+---
+
 ## LinkedIn — Company intro video, tiếng Anh (video mới 2026-09-06)
 
 Dùng `content/video/output/san-day-gioi-thieu-xuat-khau.mp4` (33s, giọng đọc + phụ đề tiếng Anh) —
