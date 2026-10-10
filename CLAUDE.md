@@ -241,9 +241,9 @@ không phụ thuộc người dùng đã đăng thật hay chưa) → ghi ra `BA
 
 Hàng đợi hiện có 24 mục (11 mục cũ + 13 mục thêm 2026-10-10 theo `CHIEN_DICH_TET_2027.md`: sắn dây
 quanh năm, "hẹn báo hàng mùa cam" 31/10 + 12/11, Bài A hộp quà Tết 15/11 + 24/11 — **phải điền giá
-trước khi đăng**, Bài B quà Tết doanh nghiệp 18/11 + 30/11) — mục cuối nhắc khoảng **30/11/2026**.
-Trước đó cần thêm mục "vào mùa cam" (bài "chỉ đăng khi vào mùa": Giới thiệu Cam, chín tự nhiên trên
-cây, Bài D đếm ngược) vào `data/social_queue.json` (mỗi mục: `topic_keyword`
+trước khi đăng**, Bài B quà Tết doanh nghiệp 18/11 + 30/11) — từ 2026-10-10 thêm 3 mục "vào mùa cam" (nhắn riêng danh sách chờ → Giới thiệu Cam → chín tự nhiên, nhắc
+~03/12, 06/12, 09/12 — chỉ đăng khi cam đã hái thật). Bài D đếm ngược Tết CHƯA vào hàng đợi (chờ chốt hạn
+giao cuối). Cách thêm mục vào `data/social_queue.json` (mỗi mục: `topic_keyword`
 khớp đúng 1 phần tiêu đề trong `posts_ready.md`, `channels` là danh sách kênh muốn lấy — lưu ý khớp
 theo đúng tiền tố tiêu đề, vd bài có tiêu đề bắt đầu "Zalo/Facebook — ..." phải dùng channel
 `"Zalo/Facebook"` chứ không phải `"Facebook"` riêng, xem logic `find_block()` trong

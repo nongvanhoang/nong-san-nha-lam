@@ -125,8 +125,12 @@ Nhóm 2, và ảnh #1 chờ nhãn in xong), mọi nội dung cần điền đã 
 điền tên + SĐT, bấm gửi → tin nhắn soạn sẵn tới **Zalo 0979 502 000** (khách dán rồi gửi), WhatsApp
 hoặc email `hello@`. Web KHÔNG lưu gì — mọi phiếu đến qua tin nhắn, nên:
 
-- Nhận được tin "ĐẶT TRƯỚC — nongsannhalam.com" → ghi vào `data/danh_sach_cho.csv` (hoặc nhắn Claude
-  "ghi danh sách chờ: ..."), nguồn = `web`.
+- Nhận được tin "ĐẶT TRƯỚC — nongsannhalam.com" trên Zalo → sao chép tin → mở **Sổ Đơn** (mục 8) → tab
+  "Khách chờ cam" → dán vào ô "Dán phiếu ĐẶT TRƯỚC" → **Tách phiếu** → kiểm tra → **Thêm**. ~10 giây.
+  Đừng ghi thẳng vào `data/danh_sach_cho.csv` — "đồng bộ đơn" ghi đè file đó từ Sổ Đơn.
+  Mã nguồn trang Sổ Đơn: `scripts/artifacts/so_don_nha_lam.html` (sửa file này rồi đăng lại cùng link).
+- Các bài trong hàng đợi nhắc đăng (hẹn báo mùa cam, hộp quà Tết, quà doanh nghiệp, bài vào mùa) đã có sẵn
+  link đặt trước chọn sẵn hàng.
 - **Link chọn sẵn hàng để dán vào bài đăng**: thêm `?chon=` vào cuối link — `dat-truoc.html?chon=cam5`,
   `?chon=cam10`, `?chon=qua-nho`, `?chon=qua-lon`, `?chon=sd05`, `?chon=sd1`, nhiều món cách nhau dấu
   phẩy (`?chon=qua-nho,sd1`).

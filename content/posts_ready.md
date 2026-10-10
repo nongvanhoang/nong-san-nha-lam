@@ -6,6 +6,18 @@ copy-paste đăng thủ công lên Facebook/Zalo/Shopee/TikTok. Sau khi đăng x
 
 ---
 
+## Zalo — Nhắn riêng danh sách chờ khi cam vào mùa (Tin nhắn C chiến dịch Tết 2027)
+
+⚠️ **CHỈ GỬI KHI CAM ĐÃ HÁI ĐƯỢC THẬT.** Mở Sổ Đơn → tab "Khách chờ cam", nhắn từng người (không gửi
+hàng loạt), điền `[tên]` và `[ngày]`, nhắn xong bấm "Chưa báo" → "Đã báo". Xong hết danh sách chờ rồi mới
+đăng bài công khai "Giới thiệu Cam Đường Canh".
+
+Chào [tên] ạ, nhà mình là Nông Sản Nhà Làm đây. Hôm trước anh/chị có hẹn báo khi có Cam Đường Canh — **cam nhà
+mình vào mùa rồi**, đợt đầu hái hôm [ngày]. Vì anh/chị đăng ký trước nên mình nhắn trước khi đăng công khai
+ạ. Anh/chị lấy thùng 5kg (275.000đ) hay 10kg (500.000đ), hay hộp quà Tết ạ?
+
+---
+
 ## Facebook/Zalo — Mở đặt trước hộp quà Tết (Bài A chiến dịch Tết 2027, đăng từ 15/11)
 
 ⚠️ **ĐIỀN GIÁ VÀO 2 CHỖ `[GIÁ]` TRƯỚC KHI ĐĂNG** — giá chốt theo `CHIEN_DICH_TET_2027.md` mục 2. Chưa
@@ -22,7 +34,8 @@ Gói nhỏ: cam 5kg + sắn dây 0,5kg — `[GIÁ]`
 Gói lớn: cam 10kg + sắn dây 1kg — `[GIÁ]`
 
 Cam chỉ có khoảng 3 tháng mỗi năm nên nhà mình nhận **đặt trước**, vào mùa là hái và gửi theo thứ tự đặt.
-Nhắn Zalo 0979 502 000 để giữ suất nhé!
+👉 Đặt trước trong 1 phút: nongsannhalam.com/dat-truoc.html?chon=qua-nho
+Hoặc nhắn Zalo 0979 502 000 để giữ suất nhé!
 
 ---
 
@@ -35,7 +48,7 @@ Công ty mình đang chọn quà Tết cho nhân viên, đối tác?
 Nông Sản Nhà Làm nhận đặt **hộp quà Tết số lượng lớn**: Cam Đường Canh Lạng Sơn (VietGAP số
 112/CN-TĐC-TT-20-0012) kết hợp tinh bột sắn dây thủ công — quà đặc sản, có nguồn gốc rõ ràng, kiểm chứng được.
 
-Nhận in lời chúc theo yêu cầu. Báo giá theo số lượng — nhắn Zalo 0979 502 000 hoặc email hello@nongsannhalam.com.
+Nhận in lời chúc theo yêu cầu. Báo giá theo số lượng — gửi phiếu nhanh tại nongsannhalam.com/dat-truoc.html?chon=qua-lon (ghi số lượng vào ô Ghi chú), hoặc nhắn Zalo 0979 502 000 / email hello@nongsannhalam.com.
 Doanh nghiệp thường chốt quà từ tháng 11, nên nhắn sớm để nhà mình giữ đủ hàng ạ.
 
 ---
@@ -727,7 +740,8 @@ chăm cây đúng quy trình, không thúc ép, để cây tự đơm hoa kết 
 Ai thích ăn cam ngọt tự nhiên, chín trên cây, để lại Zalo hoặc nhắn tin từ bây giờ nha — đến mùa
 mình báo có hàng đầu tiên, không lo hết ạ!
 
-Zalo: 0979 502 000
+👉 Giữ suất tại đây: nongsannhalam.com/dat-truoc.html?chon=cam5
+Hoặc Zalo: 0979 502 000
 
 *(Ảnh thật chụp tại vườn nhà mình tuần này — dùng file
 `Hình Ảnh, Video/Cam Đường Canh/cam-duongcanh-hoaquanon-01.jpg` hoặc `-05.jpg`)*
@@ -851,7 +865,8 @@ sớm vì mùa ngắn mà số lượng có hạn.
 Ai muốn chắc suất, để lại Zalo hoặc nhắn tin cho mình ngay từ bây giờ, đến mùa mình nhắn báo
 có hàng đầu tiên, không lo hết ạ!
 
-Zalo: 0979 502 000
+👉 Giữ suất tại đây: nongsannhalam.com/dat-truoc.html?chon=cam5
+Hoặc Zalo: 0979 502 000
 
 *(Dùng trong Giai đoạn 2 — đăng khoảng tháng 9-10 để hâm nóng khách trước mùa, xem
 KE_HOACH_BAN_HANG.md)*
@@ -870,7 +885,8 @@ tự quảng cáo suông. Ăn yên tâm hơn hẳn 🍊
 Mùa cam năm nay dự kiến khoảng tháng 11 âm lịch. Ai muốn đặt sớm, nhắn Zalo để mình báo khi
 có hàng nha!
 
-Zalo: 0979 502 000
+👉 Đặt sớm: nongsannhalam.com/dat-truoc.html?chon=cam5
+Hoặc Zalo: 0979 502 000
 
 *(Lưu ý: bài này soạn trước, chỉ đăng khi vào mùa cam thật)*
 
@@ -888,7 +904,8 @@ Chỉ bán theo thùng:
 Mùa ngắn, số lượng có hạn — ai thích ăn cam ngọt tự nhiên thì nhắn Zalo đặt sớm để mình giữ
 hàng nhé!
 
-Zalo: 0979 502 000
+👉 Đặt thùng 10kg: nongsannhalam.com/dat-truoc.html?chon=cam10
+Hoặc Zalo: 0979 502 000
 
 *(Lưu ý: bài này soạn trước, chỉ đăng khi vào mùa cam thật)*
 
@@ -1006,6 +1023,7 @@ Chỉ bán theo thùng:
 🔸 Thùng 5kg: 275.000đ
 🔸 Thùng 10kg: 500.000đ
 
-Đặt hàng nhắn Zalo: 0979 502 000 — giao hàng toàn quốc!
+👉 Đặt hàng: nongsannhalam.com/dat-truoc.html?chon=cam5
+Hoặc nhắn Zalo: 0979 502 000 — giao hàng toàn quốc!
 
 *(Lưu ý: bài này soạn trước, chỉ đăng khi vào mùa cam thật)*

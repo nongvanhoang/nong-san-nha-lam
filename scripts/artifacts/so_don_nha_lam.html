@@ -1,0 +1,406 @@
+<title>Sổ Đơn Nhà Làm</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700&display=swap">
+<style>
+:root{
+  --ground:#F1F4EF; --surface:#FFFFFF; --ink:#1A281E; --muted:#5B6B5F; --line:#D5DDD3;
+  --leaf:#2E6A3A; --leaf-soft:#E2EEE3; --orange:#C9621A; --orange-soft:#FBE9DA;
+  --ok:#2E6A3A; --warn:#A45A00; --err:#B3261E; --on-accent:#FFFFFF;
+  --radius:12px; --font:"Be Vietnam Pro",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){
+    --ground:#111713; --surface:#19211B; --ink:#E4ECE5; --muted:#9AAB9D; --line:#2C3A2F;
+    --leaf:#72C27F; --leaf-soft:#1F3324; --orange:#F09A52; --orange-soft:#3A2616;
+    --ok:#72C27F; --warn:#F0B35A; --err:#F2887F; --on-accent:#0E1510; color-scheme:dark;
+  }
+}
+:root[data-theme="dark"]{
+  --ground:#111713; --surface:#19211B; --ink:#E4ECE5; --muted:#9AAB9D; --line:#2C3A2F;
+  --leaf:#72C27F; --leaf-soft:#1F3324; --orange:#F09A52; --orange-soft:#3A2616;
+  --ok:#72C27F; --warn:#F0B35A; --err:#F2887F; --on-accent:#0E1510; color-scheme:dark;
+}
+*{box-sizing:border-box}
+body{background:var(--ground);color:var(--ink);font:15px/1.45 var(--font);-webkit-font-smoothing:antialiased}
+.wrap{max-width:560px;margin:0 auto;padding-inline:16px;padding-block:14px 48px;display:flex;flex-direction:column;gap:14px}
+header{display:flex;align-items:baseline;justify-content:space-between;gap:12px;flex-wrap:wrap}
+h1{font-size:20px;font-weight:700;margin:0;letter-spacing:-.01em}
+.today{color:var(--muted);font-size:13px;font-variant-numeric:tabular-nums}
+.seg{display:grid;grid-template-columns:1fr 1fr;background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:4px;gap:4px}
+.seg button{border:0;background:transparent;color:var(--muted);font:600 14px var(--font);padding:10px 8px;border-radius:9px;cursor:pointer}
+.seg button[aria-pressed="true"]{background:var(--leaf);color:var(--on-accent)}
+.tabs{display:flex;gap:6px;border-bottom:1px solid var(--line)}
+.tabs button{border:0;background:none;color:var(--muted);font:600 14px var(--font);padding:10px 4px;margin-bottom:-1px;border-bottom:2px solid transparent;cursor:pointer}
+.tabs button[aria-selected="true"]{color:var(--ink);border-bottom-color:var(--leaf)}
+.tabs .count{display:inline-block;min-width:20px;padding:0 6px;margin-left:4px;border-radius:10px;background:var(--leaf-soft);color:var(--leaf);font-size:12px;text-align:center}
+form{display:flex;flex-direction:column;gap:14px}
+fieldset{border:0;margin:0;padding:0;display:flex;flex-direction:column;gap:8px}
+legend,.lbl{font-size:12px;font-weight:600;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);padding:0;margin-bottom:6px}
+.chips{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}
+.chip{position:relative}
+.chip input{position:absolute;opacity:0;inset:0}
+.chip label{display:flex;flex-direction:column;gap:2px;height:100%;background:var(--surface);border:1.5px solid var(--line);border-radius:var(--radius);padding:10px 12px;cursor:pointer}
+.chip label b{font-weight:600;font-size:14px}
+.chip label span{color:var(--muted);font-size:13px;font-variant-numeric:tabular-nums}
+.chip input:checked+label{border-color:var(--leaf);background:var(--leaf-soft)}
+.chip.cam input:checked+label{border-color:var(--orange);background:var(--orange-soft)}
+.chip input:focus-visible+label{outline:2px solid var(--leaf);outline-offset:2px}
+.row{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.field{display:flex;flex-direction:column;gap:4px;min-width:0}
+.field label{font-size:13px;color:var(--muted);font-weight:500}
+input[type=text],input[type=tel],input[type=number],input[type=date],select,textarea{width:100%;font:16px var(--font);color:var(--ink);background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:10px 12px;min-height:44px}
+textarea{min-height:64px;resize:vertical}
+input:focus-visible,select:focus-visible,textarea:focus-visible,button:focus-visible{outline:2px solid var(--leaf);outline-offset:1px}
+.stepper{display:grid;grid-template-columns:44px 1fr 44px;gap:6px}
+.stepper button{border:1px solid var(--line);background:var(--surface);color:var(--ink);border-radius:10px;font:600 20px var(--font);cursor:pointer}
+.stepper input{text-align:center;font-variant-numeric:tabular-nums}
+.total{display:flex;justify-content:space-between;align-items:baseline;background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:12px 14px}
+.total strong{font-size:22px;font-variant-numeric:tabular-nums}
+.total small{color:var(--muted)}
+.primary{border:0;background:var(--leaf);color:var(--on-accent);font:700 16px var(--font);border-radius:var(--radius);padding:14px;min-height:52px;cursor:pointer}
+.primary:disabled{opacity:.5;cursor:not-allowed}
+.secondary{border:1.5px solid var(--leaf);background:transparent;color:var(--leaf);font:600 15px var(--font);border-radius:var(--radius);padding:10px;min-height:44px;cursor:pointer}
+.paste{background:var(--surface);border:1px dashed var(--orange);border-radius:var(--radius);padding:12px;display:flex;flex-direction:column;gap:8px}
+.paste summary{font-weight:600;cursor:pointer;color:var(--orange)}
+.hint{font-size:13px;color:var(--muted);margin:0}
+.banner{border-radius:10px;padding:10px 12px;font-size:14px}
+.banner.err{background:color-mix(in srgb,var(--err) 12%,transparent);color:var(--err)}
+.banner.info{background:var(--leaf-soft);color:var(--leaf)}
+.toast{position:fixed;left:50%;bottom:calc(16px + env(safe-area-inset-bottom,0px));transform:translateX(-50%);background:var(--ink);color:var(--ground);padding:10px 16px;border-radius:999px;font-weight:600;font-size:14px;max-width:calc(100% - 32px)}
+.list{display:flex;flex-direction:column;gap:8px;list-style:none;margin:0;padding:0}
+.item{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:10px 12px;display:grid;grid-template-columns:1fr auto;gap:2px 10px}
+.item .t{font-weight:600}
+.item .m{color:var(--muted);font-size:13px;grid-column:1}
+.item .v{font-variant-numeric:tabular-nums;font-weight:600;text-align:right}
+.item .acts{grid-column:2;grid-row:2 / span 2;display:flex;flex-direction:column;align-items:flex-end;gap:4px}
+.pill{font-size:11px;font-weight:600;padding:2px 8px;border-radius:999px;white-space:nowrap}
+.pill.new{background:var(--orange-soft);color:var(--orange)}
+.pill.done{background:var(--leaf-soft);color:var(--leaf)}
+.link{border:0;background:none;color:var(--err);font:500 13px var(--font);padding:4px 0;cursor:pointer}
+.sum{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px}
+.sum div{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:10px 12px}
+.sum b{display:block;font-size:18px;font-variant-numeric:tabular-nums}
+.sum span{font-size:12px;color:var(--muted)}
+.empty{color:var(--muted);text-align:center;padding:20px 0;font-size:14px}
+@media (max-width:380px){.row{grid-template-columns:1fr}}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+
+<div class="wrap">
+  <header>
+    <h1>Sổ Đơn Nhà Làm</h1>
+    <span class="today" id="todayLbl"></span>
+  </header>
+
+  <div class="seg" role="group" aria-label="Chọn cửa hàng">
+    <button type="button" id="projNsn" aria-pressed="true">🍊 Nông Sản Nhà Làm</button>
+    <button type="button" id="projTc" aria-pressed="false">🥣 Tiệm Cháo Măm Măm</button>
+  </div>
+
+  <div id="dbBanner" class="banner info">Đang kết nối kho dữ liệu…</div>
+
+  <nav class="tabs" role="tablist">
+    <button type="button" role="tab" id="tabOrder" aria-selected="true">Ghi đơn</button>
+    <button type="button" role="tab" id="tabWait" aria-selected="false">Khách chờ cam</button>
+    <button type="button" role="tab" id="tabList" aria-selected="false">Đã ghi<span class="count" id="unsyncedCount">0</span></button>
+  </nav>
+
+  <!-- GHI ĐƠN -->
+  <section id="paneOrder">
+    <form id="orderForm" autocomplete="off">
+      <fieldset>
+        <legend>Sản phẩm</legend>
+        <div class="chips" id="productChips"></div>
+      </fieldset>
+
+      <div id="customProduct" class="row" hidden>
+        <div class="field"><label for="cName">Tên sản phẩm / món</label><input type="text" id="cName" placeholder="vd. Hộp quà Tết gói nhỏ"></div>
+        <div class="field" id="cKgWrap"><label for="cKg">Quy ra kg (mỗi gói)</label><input type="number" id="cKg" inputmode="decimal" step="0.1" min="0" placeholder="vd. 5.5"></div>
+      </div>
+
+      <fieldset id="sizeSet" hidden>
+        <legend>Cỡ cốc</legend>
+        <div class="chips" id="sizeChips" style="grid-template-columns:repeat(3,minmax(0,1fr))"></div>
+      </fieldset>
+
+      <div class="row">
+        <div class="field"><label for="qty" id="qtyLbl">Số gói/thùng</label>
+          <div class="stepper"><button type="button" id="qtyMinus" aria-label="Bớt 1">−</button><input type="number" id="qty" inputmode="numeric" min="1" value="1"><button type="button" id="qtyPlus" aria-label="Thêm 1">+</button></div>
+        </div>
+        <div class="field"><label for="price" id="priceLbl">Giá mỗi gói (đ)</label><input type="number" id="price" inputmode="numeric" min="0" step="1000"></div>
+      </div>
+
+      <div class="row">
+        <div class="field"><label for="customer">Tên khách</label><input type="text" id="customer" placeholder="vd. Chị Hoa" required></div>
+        <div class="field"><label for="phone">Số điện thoại</label><input type="tel" id="phone" inputmode="tel" placeholder="không bắt buộc"></div>
+      </div>
+
+      <div class="field" id="addrWrap" hidden><label for="address">Địa chỉ giao</label><input type="text" id="address" placeholder="vd. Khu 6B, Bình Gia"></div>
+
+      <div class="row">
+        <div class="field"><label for="channel">Khách đến từ</label><select id="channel"></select></div>
+        <div class="field" id="shipWrap" hidden><label for="ship">Phí ship thêm</label><select id="ship"><option value="0">Không (≤5km)</option><option value="5000">5.000đ (&gt;5km)</option></select></div>
+        <div class="field" id="dateWrap"><label for="odate">Ngày</label><input type="date" id="odate"></div>
+      </div>
+
+      <div class="field"><label for="note">Ghi chú</label><textarea id="note" placeholder="vd. giao chiều thứ 7, khách quen"></textarea></div>
+
+      <div class="total"><small id="totalHint">Tổng đơn</small><strong id="totalVal">0đ</strong></div>
+      <button class="primary" type="submit" id="saveOrder">Lưu đơn</button>
+      <p class="hint">Đơn lưu vào kho riêng của bạn. Nhắn Claude "đồng bộ đơn" để chép về sổ trên máy tính.</p>
+    </form>
+  </section>
+
+  <!-- KHÁCH CHỜ -->
+  <section id="paneWait" hidden>
+    <details class="paste" open>
+      <summary>📋 Dán phiếu "ĐẶT TRƯỚC" từ website</summary>
+      <p class="hint">Khách gửi tin bắt đầu bằng "ĐẶT TRƯỚC — nongsannhalam.com" qua Zalo → giữ ngón tay vào tin, Sao chép → dán vào ô dưới → bấm Tách phiếu. Ô bên dưới tự điền, kiểm tra rồi bấm Thêm.</p>
+      <textarea id="pasteBox" rows="4" placeholder="Dán tin nhắn của khách vào đây"></textarea>
+      <button type="button" class="secondary" id="parseBtn">Tách phiếu</button>
+    </details>
+    <form id="waitForm" autocomplete="off">
+      <p class="hint">Khách hẹn "báo khi có cam". Vào mùa, nhắn riêng từng người trước khi đăng công khai.</p>
+      <div class="row">
+        <div class="field"><label for="wName">Tên khách</label><input type="text" id="wName" required placeholder="vd. Anh Tuấn"></div>
+        <div class="field"><label for="wContact">Zalo / SĐT / Facebook</label><input type="text" id="wContact" required placeholder="vd. 09xx xxx xxx"></div>
+      </div>
+      <div class="row">
+        <div class="field"><label for="wWant">Quan tâm</label><select id="wWant"><option>Cam Đường Canh</option><option>Hộp quà Tết</option><option>Tinh Bột Sắn Dây</option><option>Quà Tết doanh nghiệp</option></select></div>
+        <div class="field"><label for="wSrc">Từ đâu</label><select id="wSrc"><option value="facebook">Facebook</option><option value="zalo">Zalo</option><option value="offline">Người quen / trực tiếp</option><option value="website">Website</option></select></div>
+      </div>
+      <div class="field"><label for="wNote">Ghi chú</label><input type="text" id="wNote" placeholder="vd. muốn 2 thùng 10kg"></div>
+      <button class="primary" type="submit" id="saveWait">Thêm vào danh sách chờ</button>
+    </form>
+    <p class="lbl" style="margin-top:18px">Danh sách chờ</p>
+    <ul class="list" id="waitList"></ul>
+  </section>
+
+  <!-- ĐÃ GHI -->
+  <section id="paneList" hidden>
+    <div class="sum" id="sumBox"></div>
+    <p class="lbl" style="margin-top:14px">50 đơn gần nhất</p>
+    <ul class="list" id="orderList"></ul>
+  </section>
+</div>
+<div class="toast" id="toast" hidden role="status"></div>
+
+<script>
+const NSN_PRODUCTS=[
+  {id:"sd05",name:"Tinh Bột Sắn Dây",pkg:"túi 0,5kg",kg:0.5,price:80000,cls:""},
+  {id:"sd1",name:"Tinh Bột Sắn Dây",pkg:"túi 1kg",kg:1,price:155000,cls:""},
+  {id:"cam5",name:"Cam Đường Canh",pkg:"thùng 5kg",kg:5,price:275000,cls:"cam"},
+  {id:"cam10",name:"Cam Đường Canh",pkg:"thùng 10kg",kg:10,price:500000,cls:"cam"},
+  {id:"khac",name:"Khác / Hộp quà",pkg:"nhập tay",kg:null,price:null,cls:"",custom:true}
+];
+const TC_ITEMS=[
+  {id:"t1",name:"Cháo Lợn - Gà - Tim - Chim câu",p:{be:10000,vua:15000,to:20000}},
+  {id:"t2",name:"Cháo Tôm - Cá hồi",p:{be:15000,vua:20000,to:25000}},
+  {id:"t3",name:"Cháo Cá hồi - Thịt bò - Tôm",p:{be:15000,vua:20000,to:25000}},
+  {id:"cc",name:"Cháo cao cấp hôm nay",p:{be:10000,vua:15000,to:20000},custom:true}
+];
+const SIZES=[{id:"be",label:"Bé"},{id:"vua",label:"Vừa"},{id:"to",label:"To"}];
+const CH={nsn:[["zalo","Zalo"],["facebook","Facebook"],["offline","Trực tiếp / người quen"],["shopee","Shopee"],["tiktok","TikTok"],["lazada","Lazada"]],
+          tc:[["facebook","Facebook"],["zalo","Zalo"],["phone","Gọi điện"],["walk-in","Mua tại quán"]]};
+
+const $=id=>document.getElementById(id);
+const vnd=n=>(Math.round(n)||0).toLocaleString("vi-VN")+"đ";
+const pad=n=>String(n).padStart(2,"0");
+const now=()=>new Date();
+const isoDate=d=>`${d.getFullYear()}-${pad(d.getMonth()+1)}-${pad(d.getDate())}`;
+const hhmm=d=>`${pad(d.getHours())}:${pad(d.getMinutes())}`;
+const newId=()=>{const d=now();return `${isoDate(d).replace(/-/g,"")}-${pad(d.getHours())}${pad(d.getMinutes())}${pad(d.getSeconds())}-${Math.random().toString(36).slice(2,6)}`};
+
+let project="nsn", db=null, orders=[], waits=[], pendingDelete=null;
+try{const p=localStorage.getItem("soDon.project"); if(p==="tc"||p==="nsn") project=p;}catch(e){}
+
+function toast(msg){const t=$("toast");t.textContent=msg;t.hidden=false;clearTimeout(toast._t);toast._t=setTimeout(()=>t.hidden=true,2600)}
+
+function renderProducts(){
+  const box=$("productChips"); box.innerHTML="";
+  const list=project==="nsn"?NSN_PRODUCTS:TC_ITEMS;
+  list.forEach((p,i)=>{
+    const d=document.createElement("div"); d.className="chip "+(p.cls||"");
+    const sub=project==="nsn"?(p.custom?p.pkg:`${p.pkg} · ${vnd(p.price)}`):(p.custom?"nhập tên món":`${vnd(p.p.be)} – ${vnd(p.p.to)}`);
+    d.innerHTML=`<input type="radio" name="prod" id="prod_${p.id}" value="${p.id}" ${i===0?"checked":""}><label for="prod_${p.id}"><b></b><span></span></label>`;
+    d.querySelector("b").textContent=project==="nsn"&&!p.custom?`${p.name.replace("Tinh Bột ","")}`:p.name;
+    d.querySelector("span").textContent=sub;
+    box.appendChild(d);
+  });
+  box.onchange=onProductChange;
+}
+function renderSizes(){
+  const box=$("sizeChips"); box.innerHTML="";
+  SIZES.forEach((s,i)=>{
+    const d=document.createElement("div"); d.className="chip";
+    d.innerHTML=`<input type="radio" name="size" id="size_${s.id}" value="${s.id}" ${i===1?"checked":""}><label for="size_${s.id}"><b>${s.label}</b><span></span></label>`;
+    box.appendChild(d);
+  });
+  box.onchange=()=>{setDefaultPrice();updateTotal()};
+}
+function currentProduct(){
+  const v=(document.querySelector('input[name="prod"]:checked')||{}).value;
+  return (project==="nsn"?NSN_PRODUCTS:TC_ITEMS).find(p=>p.id===v);
+}
+function currentSize(){return (document.querySelector('input[name="size"]:checked')||{}).value||"vua"}
+function setDefaultPrice(){
+  const p=currentProduct(); if(!p) return;
+  if(project==="nsn") $("price").value=p.price??"";
+  else { $("price").value=p.p[currentSize()];
+    document.querySelectorAll("#sizeChips .chip").forEach((c,i)=>c.querySelector("span").textContent=vnd(p.p[SIZES[i].id])); }
+}
+function onProductChange(){
+  const p=currentProduct();
+  $("customProduct").hidden=!p?.custom;
+  $("cKgWrap").hidden=project!=="nsn";
+  setDefaultPrice(); updateTotal();
+}
+function applyProject(){
+  $("projNsn").setAttribute("aria-pressed",project==="nsn");
+  $("projTc").setAttribute("aria-pressed",project==="tc");
+  $("tabWait").hidden=project!=="nsn";
+  if(project!=="nsn" && !$("paneWait").hidden) showTab("order");
+  $("sizeSet").hidden=project!=="tc";
+  $("addrWrap").hidden=project!=="tc";
+  $("shipWrap").hidden=project!=="tc";
+  $("dateWrap").hidden=project==="tc";
+  $("qtyLbl").textContent=project==="nsn"?"Số gói/thùng":"Số cốc";
+  $("priceLbl").textContent=project==="nsn"?"Giá mỗi gói (đ)":"Giá mỗi cốc (đ)";
+  $("channel").innerHTML=CH[project].map(([v,l])=>`<option value="${v}">${l}</option>`).join("");
+  renderProducts(); if(project==="tc") renderSizes(); onProductChange(); renderLists();
+  try{localStorage.setItem("soDon.project",project)}catch(e){}
+}
+function updateTotal(){
+  const q=Math.max(0,+$("qty").value||0), pr=Math.max(0,+$("price").value||0);
+  const ship=project==="tc"?(+$("ship").value||0):0;
+  $("totalVal").textContent=vnd(q*pr+ship);
+  const p=currentProduct();
+  if(project==="nsn"&&p){const kg=p.custom?(+$("cKg").value||0):p.kg; $("totalHint").textContent=kg?`Tổng đơn · ${(kg*q).toLocaleString("vi-VN")} kg`:"Tổng đơn";}
+  else $("totalHint").textContent="Tổng đơn";
+}
+function showTab(t){
+  [["order","tabOrder","paneOrder"],["wait","tabWait","paneWait"],["list","tabList","paneList"]].forEach(([k,tb,pn])=>{
+    $(tb).setAttribute("aria-selected",k===t); $(pn).hidden=k!==t;});
+}
+
+function renderLists(){
+  const mine=orders.filter(o=>o.project===project);
+  $("unsyncedCount").textContent=orders.filter(o=>!o.synced).length;
+  const today=isoDate(now()), week=Date.now()-7*864e5;
+  const tday=mine.filter(o=>o.date===today), tweek=mine.filter(o=>o.createdAt>=week);
+  const s=a=>a.reduce((x,o)=>x+(o.total||0),0);
+  $("sumBox").innerHTML=`<div><b>${tday.length}</b><span>đơn hôm nay</span></div><div><b>${vnd(s(tday))}</b><span>doanh thu hôm nay</span></div><div><b>${vnd(s(tweek))}</b><span>7 ngày qua</span></div>`;
+  const ul=$("orderList"); ul.innerHTML="";
+  if(!mine.length){ul.innerHTML=`<li class="empty">Chưa có đơn nào của ${project==="nsn"?"Nông Sản Nhà Làm":"Tiệm Cháo"}.</li>`;}
+  mine.forEach(o=>{
+    const li=document.createElement("li"); li.className="item";
+    const desc=project==="nsn"?`${o.count} × ${o.pkg||""}`:`${o.count} cốc ${({be:"bé",vua:"vừa",to:"to"})[o.size]||""}`;
+    li.innerHTML=`<span class="t"></span><span class="v">${vnd(o.total)}</span><span class="m"></span><span class="m"></span><div class="acts"><span class="pill ${o.synced?"done":"new"}">${o.synced?"Đã vào sổ":"Chờ đồng bộ"}</span></div>`;
+    li.querySelector(".t").textContent=`${o.customer} · ${o.product}`;
+    const ms=li.querySelectorAll(".m"); ms[0].textContent=`${desc} · ${o.channel}`; ms[1].textContent=`${o.date} ${o.time||""}${o.note?" · "+o.note:""}`;
+    if(!o.synced){const b=document.createElement("button");b.className="link";b.type="button";
+      b.textContent=pendingDelete===o._id?"Bấm lần nữa để xoá":"Xoá (ghi nhầm)";
+      b.onclick=()=>delOrder(o._id); li.querySelector(".acts").appendChild(b);}
+    ul.appendChild(li);
+  });
+  const wl=$("waitList"); wl.innerHTML="";
+  if(!waits.length) wl.innerHTML=`<li class="empty">Chưa có ai trong danh sách chờ.</li>`;
+  waits.forEach(w=>{
+    const li=document.createElement("li"); li.className="item";
+    li.innerHTML=`<span class="t"></span><span class="v"></span><span class="m"></span><span class="m"></span><div class="acts"></div>`;
+    li.querySelector(".t").textContent=w.ten; li.querySelector(".v").textContent=w.quan_tam;
+    const ms=li.querySelectorAll(".m"); ms[0].textContent=w.lien_he; ms[1].textContent=`${w.ngay_dang_ky} · ${w.nguon}${w.ghi_chu?" · "+w.ghi_chu:""}`;
+    const acts=li.querySelector(".acts");
+    const b=document.createElement("button"); b.type="button"; b.className="pill "+(w.da_bao?"done":"new"); b.style.border="0"; b.style.cursor="pointer";
+    b.textContent=w.da_bao?`Đã báo ${w.da_bao.slice(5)}`:"Chưa báo"; b.title="Bấm khi đã nhắn báo có hàng";
+    b.onclick=()=>markNotified(w); acts.appendChild(b);
+    wl.appendChild(li);
+  });
+}
+
+async function delOrder(id){
+  if(pendingDelete!==id){pendingDelete=id;renderLists();setTimeout(()=>{if(pendingDelete===id){pendingDelete=null;renderLists()}},4000);return}
+  pendingDelete=null;
+  try{await db.collection("orders").doc(id).delete(); toast("Đã xoá đơn")}catch(e){toast("Không xoá được: "+(e.message||e.code))}
+}
+async function markNotified(w){
+  if(!db) return;
+  try{await db.collection("waitlist").doc(w._id).update({da_bao:w.da_bao?"":isoDate(now()),synced:false})}catch(e){toast("Không cập nhật được")}
+}
+
+// Tách phiếu "ĐẶT TRƯỚC — nongsannhalam.com" (do docs/dat-truoc.html soạn) thành các ô của danh sách chờ.
+function parseWebOrder(txt){
+  const lines=txt.split(/\r?\n/).map(l=>l.trim()).filter(Boolean);
+  const field=k=>{const l=lines.find(x=>x.toLowerCase().startsWith(k.toLowerCase()+":"));return l?l.slice(k.length+1).trim():""};
+  const items=lines.filter(l=>/^[•\-*]\s*\d+\s*[×x]/.test(l)).map(l=>l.replace(/^[•\-*]\s*/,"").replace(/\s*=\s*[\d.]+đ$/,"").replace(/\s*\(báo giá sau\)$/,"")
+    .replace("Cam Đường Canh — ","Cam ").replace("Tinh Bột Sắn Dây — ","Sắn dây ").replace(/Hộp quà Tết gói (nhỏ|lớn) \(.*\)/,"Hộp quà $1"));
+  const ten=field("Tên"), lien_he=field("SĐT/Zalo");
+  const use=field("Mua để"), all=items.join(" ");
+  let quan_tam="Tinh Bột Sắn Dây";
+  if(/Quà công ty/i.test(use)) quan_tam="Quà Tết doanh nghiệp";
+  else if(/Hộp quà/.test(all)) quan_tam="Hộp quà Tết";
+  else if(/Cam/.test(all)) quan_tam="Cam Đường Canh";
+  const extra=[items.join(", "),field("Nhận tại"),use,field("Ghi chú")].filter(Boolean);
+  return {ten,lien_he,quan_tam,ghi_chu:extra.join(" · "),items,onlySanDay:items.length>0&&!/Cam|Hộp quà/.test(all)};
+}
+$("parseBtn").addEventListener("click",()=>{
+  const r=parseWebOrder($("pasteBox").value);
+  if(!r.ten&&!r.lien_he&&!r.items.length){toast("Không đọc được phiếu — dán đúng cả tin nhắn của khách");return}
+  $("wName").value=r.ten; $("wContact").value=r.lien_he; $("wWant").value=r.quan_tam; $("wSrc").value="website"; $("wNote").value=r.ghi_chu;
+  const digits=r.lien_he.replace(/\D/g,"");
+  const dup=digits&&waits.some(w=>(w.lien_he||"").replace(/\D/g,"")===digits);
+  toast(dup?"Số này đã có trong danh sách — kiểm tra trước khi thêm":r.onlySanDay?"Chỉ có sắn dây (có sẵn) — nên chốt & ghi ở tab Ghi đơn":"Đã điền — kiểm tra rồi bấm Thêm");
+  $("saveWait").focus();
+});
+
+$("orderForm").addEventListener("submit",async e=>{
+  e.preventDefault(); if(!db){toast("Chưa kết nối kho dữ liệu");return}
+  const p=currentProduct(), q=Math.max(1,parseInt($("qty").value)||1), pr=Math.max(0,+$("price").value||0);
+  const cust=$("customer").value.trim(); if(!cust){$("customer").focus();toast("Nhập tên khách");return}
+  let name=p.name, pkg=p.pkg||"", kg=null;
+  if(p.custom){name=$("cName").value.trim(); if(!name){$("cName").focus();toast("Nhập tên sản phẩm/món");return}}
+  if(project==="nsn"){kg=p.custom?(+$("cKg").value||null):p.kg; if(p.custom) pkg="gói";}
+  if(project==="tc"&&p.custom) name="Cháo cao cấp: "+name;
+  const d=now(), ship=project==="tc"?(+$("ship").value||0):0;
+  const doc={project,date:project==="nsn"?($("odate").value||isoDate(d)):isoDate(d),time:hhmm(d),customer:cust,phone:$("phone").value.trim(),
+    address:project==="tc"?$("address").value.trim():"",product:name,pkg,size:project==="tc"?currentSize():"",count:q,kg_per_pkg:kg,price:pr,
+    delivery_fee:ship,total:q*pr+ship,channel:$("channel").value,status:"moi",note:$("note").value.trim(),synced:false,createdAt:Date.now()};
+  $("saveOrder").disabled=true;
+  try{await db.collection("orders").doc(newId()).set(doc);
+    toast(`Đã lưu: ${cust} · ${vnd(doc.total)}`);
+    ["customer","phone","address","note","cName","cKg"].forEach(i=>$(i).value=""); $("qty").value=1; setDefaultPrice(); updateTotal();
+  }catch(err){toast(err.code==="quota_exceeded"?"Kho đầy — nhắn Claude đồng bộ và dọn đơn cũ":"Chưa lưu được, thử lại: "+(err.message||err.code))}
+  finally{$("saveOrder").disabled=false}
+});
+$("waitForm").addEventListener("submit",async e=>{
+  e.preventDefault(); if(!db){toast("Chưa kết nối kho dữ liệu");return}
+  const ten=$("wName").value.trim(), lh=$("wContact").value.trim(); if(!ten||!lh){toast("Nhập tên và cách liên hệ");return}
+  const doc={ngay_dang_ky:isoDate(now()),ten,lien_he:lh,quan_tam:$("wWant").value,nguon:$("wSrc").value,da_bao:"",ghi_chu:$("wNote").value.trim(),synced:false,createdAt:Date.now()};
+  $("saveWait").disabled=true;
+  try{await db.collection("waitlist").doc(newId()).set(doc); toast(`Đã thêm ${ten} vào danh sách chờ`); ["wName","wContact","wNote","pasteBox"].forEach(i=>$(i).value="");}
+  catch(err){toast("Chưa lưu được, thử lại")} finally{$("saveWait").disabled=false}
+});
+
+$("projNsn").onclick=()=>{project="nsn";applyProject()};
+$("projTc").onclick=()=>{project="tc";applyProject()};
+$("tabOrder").onclick=()=>showTab("order"); $("tabWait").onclick=()=>showTab("wait"); $("tabList").onclick=()=>showTab("list");
+$("qtyMinus").onclick=()=>{$("qty").value=Math.max(1,(+$("qty").value||1)-1);updateTotal()};
+$("qtyPlus").onclick=()=>{$("qty").value=(+$("qty").value||0)+1;updateTotal()};
+["qty","price","ship","cKg"].forEach(i=>$(i).addEventListener("input",updateTotal));
+$("ship").addEventListener("change",updateTotal);
+$("odate").value=isoDate(now());
+$("todayLbl").textContent=now().toLocaleDateString("vi-VN",{weekday:"long",day:"numeric",month:"numeric"});
+$("saveOrder").disabled=true; $("saveWait").disabled=true;
+applyProject();
+
+(async()=>{
+  try{ db=await window.claude?.use?.("db"); }catch(e){ db=null; }
+  const b=$("dbBanner");
+  if(!db){b.className="banner err";b.textContent="Không kết nối được kho dữ liệu (cần đăng nhập claude.ai). Đơn sẽ không được lưu.";return}
+  b.hidden=true; $("saveOrder").disabled=false; $("saveWait").disabled=false;
+  const onErr=err=>{b.hidden=false;b.className="banner err";b.textContent="Mất kết nối kho dữ liệu — tải lại trang.";};
+  db.collection("orders").orderBy("createdAt","desc").limit(50).onSnapshot(s=>{orders=s.docs.map(d=>({...d.data(),_id:d.id}));renderLists()},onErr);
+  db.collection("waitlist").orderBy("createdAt","desc").limit(200).onSnapshot(s=>{waits=s.docs.map(d=>({...d.data(),_id:d.id}));renderLists()},onErr);
+})();
+</script>
