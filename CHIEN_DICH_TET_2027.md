@@ -84,7 +84,7 @@ giá, gửi thẻ này kèm file nhãn sắn dây cho xưởng in quen (cùng 1 
 
 > Công ty mình đang chọn quà Tết cho nhân viên, đối tác?
 >
-> Nông Sản Nhà Làm nhận đặt **hộp quà Tết số lượng lớn**: Cam Đường Canh Lạng Sơn (VietGAP số
+> Thế Hưng Organic nhận đặt **hộp quà Tết số lượng lớn**: Cam Đường Canh Lạng Sơn (VietGAP số
 > 112/CN-TĐC-TT-20-0012) kết hợp tinh bột sắn dây thủ công — quà đặc sản, có nguồn gốc rõ ràng, kiểm chứng được.
 >
 > Nhận in lời chúc theo yêu cầu. Báo giá theo số lượng — gửi phiếu nhanh tại nongsannhalam.com/dat-truoc.html?chon=qua-lon (ghi số lượng vào ô Ghi chú), hoặc nhắn Zalo 0979 502 000 / email hello@nongsannhalam.com.
@@ -92,7 +92,7 @@ giá, gửi thẻ này kèm file nhãn sắn dây cho xưởng in quen (cùng 1 
 
 ### Tin nhắn C — Nhắn riêng từng người trong danh sách chờ (ngày cam vào mùa)
 
-> Chào [tên] ạ, nhà mình là Nông Sản Nhà Làm đây. Hôm trước anh/chị có hẹn báo khi có Cam Đường Canh — **cam nhà
+> Chào [tên] ạ, bên mình là Thế Hưng Organic đây. Hôm trước anh/chị có hẹn báo khi có Cam Đường Canh — **cam nhà
 > mình vào mùa rồi**, đợt đầu hái hôm `[ngày]`. Vì anh/chị đăng ký trước nên mình nhắn trước khi đăng công khai
 > ạ. Anh/chị lấy thùng 5kg (275.000đ) hay 10kg (500.000đ), hay hộp quà Tết ạ?
 

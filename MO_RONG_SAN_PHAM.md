@@ -1,4 +1,4 @@
-# Đề Xuất Mở Rộng Sản Phẩm — Nông Sản Nhà Làm
+# Đề Xuất Mở Rộng Sản Phẩm — Thế Hưng Organic
 
 _Soạn ngày 2026-07-28. Đây là đề xuất/ý tưởng, CHƯA phải sản phẩm chính thức — giá và chi phí dưới
 đây là ví dụ minh hoạ để tính toán, cần thay bằng số liệu thật khi thử nghiệm thực tế (giống quy ước

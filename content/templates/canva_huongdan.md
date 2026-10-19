@@ -10,7 +10,7 @@ giả**. Đúng theo nguyên tắc của nhà mình: chỉ ảnh/video thật, k
 
 ## Bộ nhận diện (copy đúng để đồng bộ với website)
 
-- **Logo**: `docs/assets/logo-transparent.svg` (nền trong suốt, hợp mọi nền màu) hoặc
+- **Logo**: `docs/assets/logo-thoc-mark.png` (nền trong suốt, hợp mọi nền màu) hoặc
   `docs/assets/icon-512.png` nếu Canva không nhận file .svg
 - **Màu chính**:
   - Đen ngà (chữ/nền tối): `#14100c`
@@ -26,7 +26,7 @@ giả**. Đúng theo nguyên tắc của nhà mình: chỉ ảnh/video thật, k
 - Trong Canva: tìm mẫu có sẵn **"Instagram Post"** hoặc **"Facebook Post"** (kích thước 1080×1080)
 - Tải lên 1 trong các ảnh thật: `docs/assets/tinh-bot-san-day-real-01.jpg` hoặc
   `docs/assets/san-day-banhkhonut-real.jpg`
-- Đặt logo `docs/assets/logo-transparent.svg` ở góc dưới
+- Đặt logo `docs/assets/logo-thoc-mark.png` ở góc dưới
 - Chữ tiêu đề (copy nguyên): **"TINH BỘT SẮN DÂY THỦ CÔNG — GIÁ SỈ CHO QUÁN CHÈ/TRÀ SỮA/TIỆM BÁNH"**
 - Chữ phụ: **"Lạng Sơn · Tự lọc tay · Sấy bằng lò sấy riêng · Không hoá chất"**
 - Góc dưới: SĐT/Zalo **0979 502 000**
@@ -55,7 +55,7 @@ giả**. Đúng theo nguyên tắc của nhà mình: chỉ ảnh/video thật, k
 - Kích thước gợi ý trong Canva: tìm mẫu **"Facebook Cover"** rồi tự chỉnh về 1024×576 (đúng tỉ lệ
   Google Business Profile khuyến nghị)
 - Dùng ảnh `docs/assets/san-day-thu-hoach-poster.jpg` (cảnh rễ sắn dây thật rất to, ấn tượng) làm
-  nền, đặt logo + tên "Nông Sản Nhà Làm" đè lên góc
+  nền, đặt logo + tên "Thế Hưng Organic" đè lên góc
 
 ## Mẫu 4 — Ảnh cho cửa hàng đặc sản Lạng Sơn (dùng khi mang mẫu đến 211/115 Trần Đăng Ninh)
 

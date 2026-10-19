@@ -12,7 +12,7 @@ còn chỗ trống này, hỏi lại tôi điền tiếp khi có số liệu._
 
 ## 1. Tên sản phẩm
 
-Cam Đường Canh — Nông Sản Nhà Làm
+Cam Đường Canh — Thế Hưng Organic
 
 ## 2. Nguồn gốc, xuất xứ
 

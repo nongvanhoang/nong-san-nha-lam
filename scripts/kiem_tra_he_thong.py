@@ -203,7 +203,7 @@ def check_deadlines():
 
 
 def main():
-    print("=== KIỂM TRA SỨC KHOẺ HỆ THỐNG — Nông Sản Nhà Làm ===")
+    print("=== KIỂM TRA SỨC KHOẺ HỆ THỐNG — Thế Hưng Organic ===")
     print(f"(chạy lúc {datetime.now().strftime('%Y-%m-%d %H:%M')})")
 
     check_scheduled_tasks()

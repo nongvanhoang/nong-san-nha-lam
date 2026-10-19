@@ -11,14 +11,14 @@ trong app local. Khác Nhóm N (chỉ 4 công ty, viết riêng từng thư), nh
 
 > Kính gửi anh/chị phụ trách nhập hàng — [Tên cửa hàng],
 >
-> Em là đại diện Nông Sản Nhà Làm, cơ sở nhỏ tại Lạng Sơn chuyên làm tinh bột sắn dây thủ công — tự lọc tay, sấy bằng lò sấy chuyên dụng riêng, không hoá chất, không tẩy trắng, không phải bột sắn (bột năng) giá rẻ thường thấy.
+> Em là đại diện Hợp tác xã Thế Hưng Organic, hợp tác xã nhỏ tại Lạng Sơn chuyên làm tinh bột sắn dây thủ công — tự lọc tay, sấy bằng lò sấy chuyên dụng riêng, không hoá chất, không tẩy trắng, không phải bột sắn (bột năng) giá rẻ thường thấy.
 >
 > Em thấy [Tên cửa hàng] đang tập trung vào thực phẩm sạch/hữu cơ nên muốn hỏi thử: bên mình có đang tìm thêm nguồn nguyên liệu nấu chè/pha nước có nguồn gốc rõ ràng, làm thủ công tại nhà không ạ? Em có thể gửi mẫu dùng thử trước, không mất phí.
 >
 > Rất mong nhận được phản hồi ạ.
 >
 > Trân trọng,
-> Nông Sản Nhà Làm — Lạng Sơn
+> Thế Hưng Organic — Lạng Sơn
 > Zalo/Hotline: 0979 502 000
 > Email: hello@nongsannhalam.com
 
@@ -28,14 +28,14 @@ trong app local. Khác Nhóm N (chỉ 4 công ty, viết riêng từng thư), nh
 
 > Kính gửi anh/chị phụ trách sản phẩm — [Tên cửa hàng],
 >
-> Em là đại diện Nông Sản Nhà Làm, cơ sở nhỏ tại Lạng Sơn chuyên làm tinh bột sắn dây thủ công — tự lọc tay, sấy bằng lò sấy chuyên dụng riêng, không hoá chất, không tẩy trắng.
+> Em là đại diện Hợp tác xã Thế Hưng Organic, hợp tác xã nhỏ tại Lạng Sơn chuyên làm tinh bột sắn dây thủ công — tự lọc tay, sấy bằng lò sấy chuyên dụng riêng, không hoá chất, không tẩy trắng.
 >
 > Em thấy [Tên cửa hàng] đang kinh doanh đặc sản vùng miền làm quà biếu, nên muốn hỏi thử: bên mình có đang tìm thêm đặc sản mới cho gian hàng không ạ? Sắn dây Lạng Sơn có câu chuyện "đặc sản gia đình làm thủ công" thật, đóng gói đẹp, hợp làm quà.
 >
 > Em có thể gửi mẫu dùng thử và báo giá sỉ nếu anh/chị quan tâm. Rất mong nhận được phản hồi ạ.
 >
 > Trân trọng,
-> Nông Sản Nhà Làm — Lạng Sơn
+> Thế Hưng Organic — Lạng Sơn
 > Zalo/Hotline: 0979 502 000
 > Email: hello@nongsannhalam.com
 

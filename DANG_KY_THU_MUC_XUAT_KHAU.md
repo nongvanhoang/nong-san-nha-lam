@@ -34,7 +34,7 @@ lại sau khi xong `GHI_CHU_ATTP.md`.
 
 Dùng đúng số liệu thật đã có, không thêm gì mới:
 
-> Nong San Nha Lam is a small family producer based in Lang Son province, Vietnam, specializing in
+> The Hung Organic Cooperative is a small farming cooperative based in Lang Son province, Vietnam, specializing in
 > handmade Kudzu Root Starch (Tinh Bột Sắn Dây) — 100% natural, hand-filtered and dried in a
 > dedicated drying kiln, no additives or bleaching agents, available year-round. We also grow
 > VietGAP-certified Canh Mandarin Oranges (certificate No. 112/CN-TĐC-TT-20-0012) as a member of the

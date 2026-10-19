@@ -1,4 +1,4 @@
-# Nông Sản Nhà Làm
+# Thế Hưng Organic
 
 Dự án hỗ trợ kinh doanh nông sản gia đình: Tinh Bột Sắn Dây (bán quanh năm) và
 Cam Đường Canh (theo mùa, ~tháng 11 âm lịch - tháng 1). Mở Claude Code trong thư mục

@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""App quản lý local cho Nông Sản Nhà Làm — ghi đơn hàng, ghi mẻ sản xuất,
+"""App quản lý local cho Thế Hưng Organic — ghi đơn hàng, ghi mẻ sản xuất,
 xem báo cáo, sửa giá sản phẩm. Chỉ dùng thư viện chuẩn Python (không cần pip
 install gì thêm). Chạy xong mở trình duyệt vào địa chỉ được in ra.
 
@@ -342,7 +342,7 @@ def main():
     local_url = f"http://127.0.0.1:{PORT}/"
     lan_url = f"http://{lan_ip}:{PORT}/"
 
-    print("=== App quản lý Nông Sản Nhà Làm đang chạy ===")
+    print("=== App quản lý Thế Hưng Organic đang chạy ===")
     print(f"  Trên máy này:        {local_url}")
     print(f"  Từ điện thoại (cùng wifi nhà): {lan_url}")
     print("\nGiữ cửa sổ này mở khi đang dùng app. Nhấn Ctrl+C để tắt.\n")

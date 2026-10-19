@@ -1,4 +1,4 @@
-# Bộ Hồ Sơ Mạng Xã Hội — Nông Sản Nhà Làm
+# Bộ Hồ Sơ Mạng Xã Hội — Thế Hưng Organic
 
 _Soạn 2026-08-26. Toàn bộ chữ dưới đây dùng số liệu thật đã có trong `data/products.json`/`CLAUDE.md`
 — copy-paste thẳng vào từng nền tảng, không cần sửa gì trừ các mục đánh dấu **[CẦN BẠN QUYẾT ĐỊNH]**.
@@ -59,7 +59,7 @@ Vào **Cài đặt trang → Thông tin trang** để điền các mục dưới
 
 - **Ảnh đại diện**: `icon-512.png`
 - **Ảnh bìa**: `home-hero.jpg`
-- **Tên hiển thị gợi ý**: `Nông Sản Nhà Làm - Sắn Dây & Cam Đường Canh`
+- **Tên hiển thị gợi ý**: `Thế Hưng Organic - Sắn Dây & Cam Đường Canh`
 - **Giới thiệu (mục "Giới thiệu" trong hồ sơ Zalo)**:
   ```
   🌾🍊 Tinh Bột Sắn Dây & Cam Đường Canh nhà làm, Lạng Sơn. Không hoá chất, cam có VietGAP.
@@ -86,7 +86,7 @@ Cam Đường Canh lên sàn — trái tươi khó đáp ứng SLA giao hàng/đ
 
 - **Ảnh đại diện gian hàng**: `icon-512.png`
 - **Ảnh bìa gian hàng**: `hero-san-day-poster.jpg`
-- **Tên gian hàng gợi ý**: `Nông Sản Nhà Làm - Tinh Bột Sắn Dây`
+- **Tên gian hàng gợi ý**: `Thế Hưng Organic - Tinh Bột Sắn Dây`
 - **Giới thiệu gian hàng**:
   ```
   Tinh Bột Sắn Dây nhà làm tại Lạng Sơn 🌾 Củ tươi đào về, nghiền lọc thủ công, sấy bằng lò sấy
@@ -191,7 +191,7 @@ sẵn nhiều video thật chờ đăng (quy trình sấy, thu hoạch, đào c�
 **Các bước tạo**:
 1. Tải app TikTok → Đăng ký bằng số điện thoại đang dùng để bán hàng (`0979 502 000`) — nên dùng số
    điện thoại thay vì email vì dễ khôi phục tài khoản hơn nếu quên mật khẩu.
-2. **Tên hiển thị**: `Nông Sản Nhà Làm`
+2. **Tên hiển thị**: `Thế Hưng Organic`
 3. **Username (@...)**: thử `nongsannhalam` trước; nếu bị trùng, thử `nongsannhalamlangson` hoặc
    `nongsannhalam.vn`. Username không quan trọng bằng tên hiển thị (là cái khách nhìn thấy đầu tiên).
 4. **Ảnh đại diện**: `docs/assets/icon-512.png` (ảnh dùng chung, mục 0 ở trên).
@@ -221,7 +221,7 @@ nhà nông" tự nhiên, không lộ rõ mục đích bán hàng, có thể tác
 hoá phần hồ sơ (bio/avatar/link) — mục này bổ sung phần đó.
 
 - **Ảnh đại diện**: `icon-512.png` (mục 0)
-- **Tên hiển thị**: `Nông Sản Nhà Làm`
+- **Tên hiển thị**: `Thế Hưng Organic`
 - **Danh mục tài khoản** (Cài đặt → Tài khoản → Chuyển sang tài khoản chuyên nghiệp, nếu chưa
   chuyển): chọn "Nhà sản xuất thực phẩm" hoặc "Sản phẩm/dịch vụ nông nghiệp" — tài khoản chuyên
   nghiệp mở thêm nút liên hệ nhanh (gọi/nhắn/email) và thống kê bài viết.
@@ -246,7 +246,7 @@ Page, nhưng bạn quyết định trước khi mình soạn tiếp phần "Gi�
 **Nếu chọn Company Page, các mục cần điền** (đã có sẵn nội dung tiếng Anh phù hợp từ trước, dùng
 lại từ mục đăng ký thư mục xuất khẩu):
 
-- **Tên trang**: `Nong San Nha Lam`
+- **Tên trang**: `The Hung Organic`
 - **Ngành** (Industry): "Farming" hoặc "Food & Beverages"
 - **Quy mô công ty**: "1-10 employees" (đúng thực tế cơ sở hộ gia đình)
 - **Logo**: `icon-512.png`
@@ -257,7 +257,7 @@ lại từ mục đăng ký thư mục xuất khẩu):
   ```
 - **Giới thiệu (About)** — dùng nguyên văn đã soạn sẵn trong `DANG_KY_THU_MUC_XUAT_KHAU.md`:
   ```
-  Nong San Nha Lam is a small family producer based in Lang Son province, Vietnam, specializing in
+  The Hung Organic Cooperative is a small farming cooperative based in Lang Son province, Vietnam, specializing in
   handmade Kudzu Root Starch (Tinh Bột Sắn Dây) — 100% natural, hand-filtered and dried in a
   dedicated drying kiln, no additives or bleaching agents, available year-round. We also grow
   VietGAP-certified Canh Mandarin Oranges (certificate No. 112/CN-TĐC-TT-20-0012) as a member of the
@@ -281,7 +281,7 @@ soạn trước trong `content/posts_ready.md` dạng "YouTube Shorts", chỉ ch
 **Các bước tạo**:
 1. Vào youtube.com, đăng nhập bằng tài khoản Google đang dùng cho việc kinh doanh (hoặc tạo tài
    khoản Google mới riêng cho thương hiệu, tuỳ bạn) → biểu tượng tài khoản → "Tạo kênh".
-2. **Tên kênh**: `Nông Sản Nhà Làm`
+2. **Tên kênh**: `Thế Hưng Organic`
 3. **Handle (@...)**: thử `@nongsannhalam` trước, nếu trùng thử `@nongsannhalamlangson`.
 4. **Ảnh đại diện**: `icon-512.png` (mục 0).
 5. **Ảnh bìa kênh (banner)**: **[CẦN CHUẨN BỊ]** — YouTube cần banner riêng tỷ lệ rộng (khu vực hiển
@@ -290,7 +290,7 @@ soạn trước trong `content/posts_ready.md` dạng "YouTube Shorts", chỉ ch
    dựng banner riêng đúng tỷ lệ nếu muốn đẹp hơn — nói mình biết nếu muốn dựng.
 6. **Mô tả kênh** (mục Giới thiệu):
    ```
-   Nông Sản Nhà Làm — Tinh Bột Sắn Dây và Cam Đường Canh nhà làm tại Lạng Sơn.
+   Thế Hưng Organic — Tinh Bột Sắn Dây và Cam Đường Canh nhà làm tại Lạng Sơn.
 
    🌾 Tinh Bột Sắn Dây: đào củ, nghiền lọc thủ công, sấy bằng lò sấy chuyên dụng — không hoá chất,
    không chất tẩy trắng.
@@ -323,7 +323,7 @@ Google Search khi gõ "nông sản Lạng Sơn" và cho phép khách để lại
 - **Ảnh đại diện + ảnh bìa**: giống mục 0
 - **Mô tả doanh nghiệp** (giới hạn 750 ký tự):
   ```
-  Nông Sản Nhà Làm — Tinh Bột Sắn Dây và Cam Đường Canh nhà làm tại Lạng Sơn. Tinh Bột Sắn Dây được
+  Thế Hưng Organic — Tinh Bột Sắn Dây và Cam Đường Canh nhà làm tại Lạng Sơn. Tinh Bột Sắn Dây được
   nghiền lọc thủ công, sấy bằng lò sấy chuyên dụng, không hoá chất. Cam Đường Canh đạt chứng nhận
   VietGAP, chín tự nhiên trên cây, thu hoạch theo mùa. Nhận đặt hàng qua Zalo/Facebook, giao toàn
   quốc, nhận đặt sỉ và trao đổi xuất khẩu cho Tinh Bột Sắn Dây.

@@ -8,7 +8,7 @@ phí, (3) hỏi rõ quy trình nhập hàng của họ thay vì chốt giá luô
 
 ## Mẫu gọi điện/nhắn Zalo mở đầu
 
-> Chào anh/chị, em/nhà mình bên **Nông Sản Nhà Làm** ở Lạng Sơn, chuyên làm **tinh bột sắn dây** thủ
+> Chào anh/chị, em/nhà mình bên **Thế Hưng Organic** ở Lạng Sơn, chuyên làm **tinh bột sắn dây** thủ
 > công — tự lọc tay, sấy bằng lò sấy riêng, không hoá chất, không tẩy trắng. Đây là sắn dây (kudzu)
 > thật, khác với bột sắn/bột năng giá rẻ ngoài thị trường, nấu lên sánh mịn, thơm tự nhiên.
 >

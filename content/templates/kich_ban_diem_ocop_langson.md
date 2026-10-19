@@ -14,7 +14,7 @@ quen bán "tinh bột đặc sản làm quà".
 
 ### Câu mở đầu (nói trực tiếp, không cần giấy)
 
-> Chào anh/chị, em ở Nông Sản Nhà Làm, nhà em ở xã Vũ Lăng, làm tinh bột sắn dây thủ công — tự lọc
+> Chào anh/chị, em ở Thế Hưng Organic, nhà em ở xã Vũ Lăng, làm tinh bột sắn dây thủ công — tự lọc
 > tay, sấy bằng lò sấy riêng, không hoá chất, không tẩy trắng. Em thấy cửa hàng mình có bày sản phẩm
 > OCOP/đặc sản làm quà [với điểm 115: "như tinh bột nghệ bên mình đang bán"], nên muốn hỏi thử: cửa
 > hàng có nhận ký gửi thêm mặt hàng đặc sản địa phương không ạ? Em có mang theo mẫu để anh/chị dùng

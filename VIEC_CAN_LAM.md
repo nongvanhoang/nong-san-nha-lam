@@ -15,7 +15,12 @@ việc nào chặn việc nào. Cập nhật lại file này (tick `[x]`) mỗi 
   3 rủi ro, câu hỏi cho xã, bảng giấy tờ, lịch 4 tuần và nội dung Mẫu 02 soạn sẵn ở **`OCOP_2026.md`**.
   Nếu lỡ đợt này → đợt 1/2027 nộp trước 30/4/2027.
   - [ ] Tuần này: gọi Sở NN&MT/UBND xã + cô chú + Chi cục ATVSTP — **tờ câu hỏi in sẵn: `GOI_DIEN_OCOP.md`** (2026-10-10)
-  - [ ] Tuần này: hỏi cô chú tên công ty, GPKD, giấy ATTP, hồ sơ môi trường
+  - [x] ~~Hỏi tên công ty~~ → **[2026-10-19] Chủ thể = HTX Thế Hưng Organic** (GĐ Hà Quang Chiến, trụ sở Thôn
+    Liên Lạc, xã Vũ Lăng). Đã điền vào `OCOP_2026.md` mục 5.1.
+  - [ ] **GẤP**: HTX đã có **giấy chứng nhận đăng ký HTX** (mã số) chưa? OCOP bắt buộc có trước 30/10 — file
+    ngành nghề mới là bản chuẩn bị (lập 05/10). Hỏi tiếp: giấy ATTP, hồ sơ môi trường.
+  - [ ] Bao bì THOC (ảnh trong `Tài Liệu Công Ty/`): sửa "SĂN"→"SẮN", bỏ dấu "ORGANIC/Hàng sản sạch" (chưa có
+    chứng nhận hữu cơ — NĐ 109/2018), chọn 1 logo, thay ảnh củ vẽ AI (giống củ sắn) bằng ảnh sắn dây thật.
   - [ ] Tuần này: gửi mẫu Tinh Bột Sắn Dây đi kiểm nghiệm
   → việc "Gọi Chi cục ATVSTP" ở Nhóm 1 giờ **chặn luôn OCOP**, nên gọi sớm.
 

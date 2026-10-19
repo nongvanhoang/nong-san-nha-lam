@@ -1,4 +1,25 @@
-# Nông Sản Nhà Làm — Bộ nhớ dự án cho Claude
+# Thế Hưng Organic (THOC) — Bộ nhớ dự án cho Claude
+
+## ⚠️ ĐỔI THƯƠNG HIỆU 2026-10-19 — đọc trước mọi mục bên dưới
+
+- **Thương hiệu mới: THOC — Hợp tác xã Thế Hưng Organic** (EN: The Hung Organic Cooperative). Người dùng
+  chọn **đổi hẳn**, KHÔNG giữ "Nông Sản Nhà Làm". Trên web/bài viết dùng "Thế Hưng Organic"; tên pháp lý
+  đầy đủ "Hợp tác xã Thế Hưng Organic" ở footer, JSON-LD, nhãn, hồ sơ. Trụ sở: Thôn Liên Lạc, xã Vũ Lăng,
+  Lạng Sơn · GĐ Hà Quang Chiến · mã số HTX: CHƯA có. Đây cũng là chủ thể OCOP (thay "công ty cô chú").
+- Tài liệu gốc ở `Tài Liệu Công Ty/` (đã gitignore — có danh sách thành viên + vốn góp, KHÔNG đưa lên đâu
+  công khai). Logo web: `docs/assets/logo-thoc-mark.png` (+ `logo-thoc.jpg` bản đầy đủ), cắt từ logo gốc.
+- **Chứng nhận hữu cơ**: người dùng báo 2026-10-19 là CÓ, nhưng Claude CHƯA thấy giấy (số, đơn vị cấp,
+  phạm vi sản phẩm, hạn). Cho tới khi có giấy: không viết số/đơn vị cấp, không thêm dấu "chứng nhận hữu
+  cơ" lên web/bài; tên HTX chứa chữ "Organic" thì giữ nguyên. Câu "Tinh Bột Sắn Dây CHƯA có chứng nhận"
+  bên dưới sẽ sửa khi có giấy.
+- **Chưa đổi (cần làm tiếp)**: tên miền nongsannhalam.com + email hello@ (giữ tạm), tên trang Facebook/
+  Zalo/Shopee (người dùng tự đổi), nhãn in trong `content/nhan_bao_bi/` + `scripts/tao_nhan_ocop.js`
+  (còn logo/tên cũ — làm lại theo bao bì THOC), video đã dựng có tên cũ, artifact "Sổ Đơn Nhà Làm".
+  Nhiều đoạn bên dưới vẫn ghi "Nông Sản Nhà Làm"/"nhà làm" — hiểu là thương hiệu cũ.
+- Túi sắn dây 5kg/10kg đã thêm vào `data/products.json`, `price_vnd: null` — CHƯA đăng lên web/sàn đến
+  khi người dùng báo giá.
+
+# (Tên cũ: Nông Sản Nhà Làm)
 
 **Hệ thống vận hành doanh nghiệp 1 người**: `HE_THONG_VAN_HANH_1_NGUOI.md` (từ 2026-10-01) — file
 ĐẦU TIÊN nên đọc khi không biết bắt đầu từ đâu, gói gọn 4 mảng (nhịp vận hành hàng ngày/tuần/tháng,

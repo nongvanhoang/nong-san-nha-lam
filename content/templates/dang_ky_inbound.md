@@ -37,10 +37,10 @@ vực" (service-area business) thay vì hiện địa chỉ nhà chính xác cô
 (xã Vũ Lăng, Lạng Sơn). Tự cân nhắc mức riêng tư muốn giữ trước khi điền địa chỉ đầy đủ.
 
 **Nội dung điền sẵn**:
-- Tên doanh nghiệp: `Nông Sản Nhà Làm`
+- Tên doanh nghiệp: `Hợp tác xã Thế Hưng Organic`
 - Danh mục chính: `Food Producer` (Nhà sản xuất thực phẩm) — danh mục phụ: `Farm` hoặc `Herb Shop`
 - Mô tả (dưới 750 ký tự):
-  > Nông Sản Nhà Làm sản xuất tinh bột sắn dây thủ công tại Lạng Sơn — tự lọc tay, sấy bằng lò sấy
+  > Thế Hưng Organic sản xuất tinh bột sắn dây thủ công tại Lạng Sơn — tự lọc tay, sấy bằng lò sấy
   > chuyên dụng, không hoá chất, không tẩy trắng. Nhận đơn lẻ và đơn sỉ cho quán chè, trà sữa, tiệm
   > bánh, nhà phân phối nguyên liệu thực phẩm. Giao hàng toàn quốc.
 - Website: nongsannhalam.com
@@ -48,7 +48,7 @@ vực" (service-area business) thay vì hiện địa chỉ nhà chính xác cô
 - Giờ hoạt động: tự điền theo thực tế
 
 **Ảnh/video đính kèm** (Google Business Profile cho đăng cả ảnh và video ngắn):
-- Logo: `docs/assets/logo-transparent.svg` (đổi sang .png nếu Google không nhận SVG — dùng
+- Logo: `docs/assets/logo-thoc-mark.png` (đổi sang .png nếu Google không nhận SVG — dùng
   `docs/assets/icon-512.png` có sẵn)
 - Ảnh bìa: `docs/assets/tinh-bot-san-day-real-01.jpg`
 - Ảnh phụ: `docs/assets/san-day-nghienloc-loc-tay.jpg`, `docs/assets/san-day-banhkhonut-real.jpg`,

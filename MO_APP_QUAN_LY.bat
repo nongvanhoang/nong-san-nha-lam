@@ -1,5 +1,5 @@
 @echo off
-REM Bam dup lan file nay de mo app quan ly Nong San Nha Lam.
+REM Bam dup lan file nay de mo app quan ly The Hung Organic.
 REM Neu sau nay cai lai Python o duong dan khac, sua dong PYTHON_EXE ben duoi.
 
 set PYTHON_EXE=C:\Users\Admin\AppData\Local\Python\bin\python.exe

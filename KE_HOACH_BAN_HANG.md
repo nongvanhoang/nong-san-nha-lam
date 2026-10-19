@@ -1,4 +1,4 @@
-# Kế Hoạch Bán Hàng — Nông Sản Nhà Làm
+# Kế Hoạch Bán Hàng — Thế Hưng Organic
 
 _Cập nhật: 2026-07-03. Xem lại và điều chỉnh khi có số liệu đơn hàng thực tế (`data/orders.csv`)._
 

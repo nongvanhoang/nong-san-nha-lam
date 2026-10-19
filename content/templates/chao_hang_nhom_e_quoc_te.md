@@ -17,7 +17,7 @@ kiện mẫu nhỏ**, không phải chào bán sỉ chính thức — vì cơ s�
 
 ## Bản A — Nhắn Messenger/Zalo (tiếng Việt)
 
-> Chào shop, em/nhà mình là **Nông Sản Nhà Làm**, một cơ sở nhỏ làm **tinh bột sắn dây** thủ công tại
+> Chào shop, em/nhà mình là **Hợp tác xã Thế Hưng Organic**, một hợp tác xã nhỏ làm **tinh bột sắn dây** thủ công tại
 > Lạng Sơn, Việt Nam — tự lọc tay, sấy bằng lò sấy riêng, không hoá chất, không tẩy trắng. Em thấy
 > shop đang bán đồ Việt cho cộng đồng mình bên [tên nước] nên muốn hỏi thử: shop có quan tâm loại bột
 > sắn dây làm thủ công, chất lượng cao này không ạ?
@@ -32,7 +32,7 @@ kiện mẫu nhỏ**, không phải chào bán sỉ chính thức — vì cơ s�
 >
 > Dear [Company name] team,
 >
-> My name is [tên bạn], and I run **Nong San Nha Lam**, a small family producer of handmade Kudzu
+> My name is [tên bạn], and I represent **The Hung Organic Cooperative**, a small cooperative producer of handmade Kudzu
 > Root Starch (Tinh Bột Sắn Dây) based in Lạng Sơn, Vietnam. Our starch is hand-filtered from fresh
 > kudzu root and dried in a dedicated drying kiln — no additives, no bleaching agents, 100% natural.
 >
@@ -46,7 +46,7 @@ kiện mẫu nhỏ**, không phải chào bán sỉ chính thức — vì cơ s�
 >
 > Best regards,
 > [tên bạn]
-> Nong San Nha Lam, Lạng Sơn, Vietnam
+> The Hung Organic, Lạng Sơn, Vietnam
 > hello@nongsannhalam.com | https://nongsannhalam.com/en/
 
 ## Trước khi gửi kiện mẫu (áp dụng cả 2 bản)

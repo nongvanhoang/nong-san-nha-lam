@@ -18,8 +18,8 @@ Nội dung tiếng Anh lấy đúng giọng đã dùng trong video giới thiệ
 <table role="presentation" width="600" cellpadding="0" cellspacing="0" style="background-color:#ffffff;max-width:600px;width:100%;border-radius:12px;overflow:hidden;box-shadow:0 2px 12px rgba(0,0,0,0.06);">
 
 <tr><td style="background-color:#2f3a24;padding:24px 32px;text-align:center;">
-<img src="https://nongsannhalam.com/assets/icon-512.png" width="56" height="56" alt="Nong San Nha Lam" style="display:block;margin:0 auto 8px;border-radius:50%;">
-<span style="color:#f3f1ea;font-size:20px;letter-spacing:0.5px;">Nong San Nha Lam</span>
+<img src="https://nongsannhalam.com/assets/icon-512.png" width="56" height="56" alt="THOC logo – The Hung Organic Cooperative" style="display:block;margin:0 auto 8px;border-radius:50%;">
+<span style="color:#f3f1ea;font-size:20px;letter-spacing:0.5px;">The Hung Organic</span>
 </td></tr>
 
 <tr><td>
@@ -33,7 +33,7 @@ Nội dung tiếng Anh lấy đúng giọng đã dùng trong video giới thiệ
 
 <tr><td style="padding:16px 40px 0;">
 <p style="margin:0 0 16px;font-size:15px;line-height:1.7;color:#3a3a33;">Dear {{COMPANY_NAME}} team,</p>
-<p style="margin:0 0 16px;font-size:15px;line-height:1.7;color:#3a3a33;">We are <strong>Nong San Nha Lam</strong>, a small family workshop in Lang Son, Vietnam. Our <strong>kudzu root starch</strong> is grown and harvested right here on our own land — hand-washed, ground, and filtered the traditional way, then dried slowly in a dedicated kiln, with no chemicals and no bleaching agents added.</p>
+<p style="margin:0 0 16px;font-size:15px;line-height:1.7;color:#3a3a33;">We are <strong>The Hung Organic Cooperative</strong>, a small farming cooperative in Lang Son, Vietnam. Our <strong>kudzu root starch</strong> is grown and harvested right here on our own land — hand-washed, ground, and filtered the traditional way, then dried slowly in a dedicated kiln, with no chemicals and no bleaching agents added.</p>
 <p style="margin:0 0 20px;font-size:15px;line-height:1.7;color:#3a3a33;">We noticed {{COMPANY_NAME}} sources specialty and herbal ingredients, and wanted to reach out: would you be interested in a pure, small-batch kudzu starch from a real family farm? We're open to wholesale and export partnerships, and happy to send samples on request.</p>
 </td></tr>
 
@@ -69,7 +69,7 @@ Nội dung tiếng Anh lấy đúng giọng đã dùng trong video giới thiệ
 </td></tr>
 
 <tr><td style="background-color:#f3f1ea;padding:24px 40px;border-top:1px solid #ece9de;">
-<p style="margin:0 0 4px;font-size:13px;color:#5c5c4f;">Best regards,<br><strong>Nong San Nha Lam</strong> — Lang Son, Vietnam</p>
+<p style="margin:0 0 4px;font-size:13px;color:#5c5c4f;">Best regards,<br><strong>The Hung Organic</strong> — Lang Son, Vietnam</p>
 <p style="margin:0;font-size:13px;color:#5c5c4f;">Email: hello@nongsannhalam.com &nbsp;|&nbsp; <a href="https://nongsannhalam.com/en/" style="color:#8a6b3d;">nongsannhalam.com/en</a></p>
 </td></tr>
 

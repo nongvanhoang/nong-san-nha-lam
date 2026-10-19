@@ -8,7 +8,7 @@ mẫu <2kg để xem có bị giữ ở hải quan không và họ có phản h�
 
 ## Mẫu nhắn Facebook Page
 
-> Chào shop, em/nhà mình là **Nông Sản Nhà Làm**, một cơ sở nhỏ làm **tinh bột sắn dây** thủ công tại
+> Chào shop, em/nhà mình là **Hợp tác xã Thế Hưng Organic**, một hợp tác xã nhỏ làm **tinh bột sắn dây** thủ công tại
 > Lạng Sơn, Việt Nam — tự lọc tay, sấy bằng lò sấy riêng, không hoá chất, không tẩy trắng. Em thấy
 > shop đang bán đồ Việt cho cộng đồng mình bên Nhật nên muốn hỏi thử: shop có quan tâm loại bột sắn
 > dây làm thủ công, chất lượng cao này không ạ?

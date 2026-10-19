@@ -494,7 +494,7 @@ async function loadProductsEditor() {
           (v, i) => `
         <div class="variant-row">
           <span class="package-name">${v.package}</span>
-          <input type="number" step="1000" data-product="${p.id}" data-package="${v.package}" value="${v.price_vnd}">
+          <input type="number" step="1000" data-product="${p.id}" data-package="${v.package}" value="${v.price_vnd ?? ""}" placeholder="Chưa có giá">
           <span>đ</span>
           <button type="button" class="small save-price-btn" data-product="${p.id}" data-package="${v.package}">Lưu</button>
         </div>`

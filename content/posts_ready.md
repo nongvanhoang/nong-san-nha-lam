@@ -26,7 +26,7 @@ Hoặc Zalo 0979 502 000
 hàng loạt), điền `[tên]` và `[ngày]`, nhắn xong bấm "Chưa báo" → "Đã báo". Xong hết danh sách chờ rồi mới
 đăng bài công khai "Giới thiệu Cam Đường Canh".
 
-Chào [tên] ạ, nhà mình là Nông Sản Nhà Làm đây. Hôm trước anh/chị có hẹn báo khi có Cam Đường Canh — **cam nhà
+Chào [tên] ạ, bên mình là Thế Hưng Organic đây. Hôm trước anh/chị có hẹn báo khi có Cam Đường Canh — **cam nhà
 mình vào mùa rồi**, đợt đầu hái hôm [ngày]. Vì anh/chị đăng ký trước nên mình nhắn trước khi đăng công khai
 ạ. Anh/chị lấy thùng 5kg (275.000đ) hay 10kg (500.000đ), hay hộp quà Tết ạ?
 
@@ -59,7 +59,7 @@ Dùng thêm làm tin nhắn Zalo chào khách B2B. Ảnh/video: như Bài A ở 
 
 Công ty mình đang chọn quà Tết cho nhân viên, đối tác?
 
-Nông Sản Nhà Làm nhận đặt **hộp quà Tết số lượng lớn**: Cam Đường Canh Lạng Sơn (VietGAP số
+Thế Hưng Organic nhận đặt **hộp quà Tết số lượng lớn**: Cam Đường Canh Lạng Sơn (VietGAP số
 112/CN-TĐC-TT-20-0012) kết hợp tinh bột sắn dây thủ công — quà đặc sản, có nguồn gốc rõ ràng, kiểm chứng được.
 
 Nhận in lời chúc theo yêu cầu. Báo giá theo số lượng — gửi phiếu nhanh tại nongsannhalam.com/dat-truoc.html?chon=qua-lon (ghi số lượng vào ô Ghi chú), hoặc nhắn Zalo 0979 502 000 / email hello@nongsannhalam.com.
@@ -76,7 +76,7 @@ bố chính ngạch xuất khẩu nào. Bản nén nhẹ để đính kèm email
 `docs/assets/san-day-gioi-thieu-xuat-khau-email.mp4` (~2.8MB, KHÔNG gửi cho Nhóm D — xem
 `.claude/agents/wholesale-export-outreach.md`).
 
-We are Nong San Nha Lam, a small family workshop in Lang Son, Vietnam 🇻🇳
+We are The Hung Organic Cooperative, a small farming cooperative in Lang Son, Vietnam 🇻🇳
 
 Our kudzu root starch is grown and harvested right here on our own land — hand-washed, ground, and
 filtered the traditional way, then dried slowly in a dedicated kiln, with no chemicals and no
@@ -95,7 +95,7 @@ cung, không lặp giọng "khoe" như bản tiếng Việt. Chỉ Tinh Bột S�
 
 Growing our own supply, one field at a time.
 
-Nông Sản Nhà Làm vừa mở thêm một ruộng sắn dây mới bên cạnh diện tích đang canh tác — dây đã bắt
+Thế Hưng Organic vừa mở thêm một ruộng sắn dây mới bên cạnh diện tích đang canh tác — dây đã bắt
 đầu leo giàn, chuẩn bị cho những vụ thu hoạch sắp tới. Với một cơ sở gia đình quy mô nhỏ, việc chủ
 động mở rộng vùng nguyên liệu là bước đi có tính toán để đảm bảo nguồn củ sắn dây tươi ổn định
 quanh năm, không phụ thuộc vào nguồn thu mua bên ngoài.
@@ -114,7 +114,7 @@ chuyện sang nhấn kiểm soát chất lượng/quy trình cho đối tác B2B
 Behind every bag of starch: a controlled, repeatable drying process.
 
 Từ bột ướt mới lọc, xếp khay, đến khi sấy khô đều trong lò sấy chuyên dụng nhiều tầng — mỗi mẻ tại
-Nông Sản Nhà Làm đều qua đúng quy trình này, không phơi nắng tự nhiên (vốn phụ thuộc thời tiết và
+Thế Hưng Organic đều qua đúng quy trình này, không phơi nắng tự nhiên (vốn phụ thuộc thời tiết và
 khó kiểm soát đồng đều). Đây là lý do nhà mình chuyển hẳn sang lò sấy từ tháng 8/2026: để chất lượng
 mỗi mẻ ổn định hơn, không chỉ đẹp trên video.
 
@@ -444,7 +444,7 @@ khẩu theo `CLAUDE.md`), không đăng nội dung Cam Đường Canh lên kênh
 
 📦 Từ nương sắn dây đến túi tinh bột — quy trình thủ công tại Lạng Sơn, Việt Nam
 
-Nông Sản Nhà Làm là cơ sở gia đình nhỏ tại Lạng Sơn, chuyên sản xuất Tinh Bột Sắn Dây (Kudzu Root
+Hợp tác xã Thế Hưng Organic là hợp tác xã nhỏ tại Lạng Sơn, chuyên sản xuất Tinh Bột Sắn Dây (Kudzu Root
 Starch) hoàn toàn thủ công — từ thu hoạch, nghiền lọc, đến sấy khô bằng lò sấy chuyên dụng, không
 hoá chất, không chất tẩy trắng.
 
