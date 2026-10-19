@@ -12,9 +12,17 @@
   phạm vi sản phẩm, hạn). Cho tới khi có giấy: không viết số/đơn vị cấp, không thêm dấu "chứng nhận hữu
   cơ" lên web/bài; tên HTX chứa chữ "Organic" thì giữ nguyên. Câu "Tinh Bột Sắn Dây CHƯA có chứng nhận"
   bên dưới sẽ sửa khi có giấy.
+- **Nhãn/ảnh kênh đã đổi (2026-10-19)**: `scripts/tao_nhan_ocop.js` giờ nhúng logo THOC (cắt theo viền bầu
+  dục) và điền sẵn "Chịu trách nhiệm: Hợp tác xã Thế Hưng Organic" + địa chỉ trụ sở; tạo thêm
+  `nhan-thoc-{500g,1kg}` (bản thường, ẩn ô OCOP) — DÙNG THAY `nhan-say-day-500g/1kg.svg` (bản cũ chỉ còn làm
+  nguồn nền kraft + QR cho script, không in nữa). Thẻ quà Tết, thiệp, ảnh bìa Shopee/Facebook/YouTube, ảnh
+  đại diện trong `content/kenh_assets/` đã đổi. Còn chỗ đỏ: [SỐ TCB], logo OCOP, mã vạch.
+- **Xuất PDF/ảnh bằng Chrome headless**: khi Chrome của người dùng đang mở, PHẢI thêm
+  `--user-data-dir=<thư mục scratchpad riêng>`, và đường dẫn `--print-to-pdf`/`--screenshot` phải là đường dẫn
+  ĐẦY ĐỦ (đường dẫn tương đối bị ghi sai chỗ, lệnh vẫn báo thành công) — gặp thật 2026-10-19.
 - **Chưa đổi (cần làm tiếp)**: tên miền nongsannhalam.com + email hello@ (giữ tạm), tên trang Facebook/
-  Zalo/Shopee (người dùng tự đổi), nhãn in trong `content/nhan_bao_bi/` + `scripts/tao_nhan_ocop.js`
-  (còn logo/tên cũ — làm lại theo bao bì THOC), video đã dựng có tên cũ, artifact "Sổ Đơn Nhà Làm".
+  Zalo/Shopee (người dùng tự đổi + tải ảnh mới trong `content/kenh_assets/`), video đã dựng có tên cũ,
+  artifact "Sổ Đơn Nhà Làm", dấu chứng nhận hữu cơ (chờ giấy).
   Nhiều đoạn bên dưới vẫn ghi "Nông Sản Nhà Làm"/"nhà làm" — hiểu là thương hiệu cũ.
 - Túi sắn dây 5kg/10kg đã thêm vào `data/products.json`, `price_vnd: null` — CHƯA đăng lên web/sàn đến
   khi người dùng báo giá.

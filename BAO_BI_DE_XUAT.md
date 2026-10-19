@@ -1,5 +1,18 @@
 # Đề Xuất Bao Bì — Nhãn Tinh Bột Sắn Dây
 
+## 🆕🆕 ĐỔI SANG THOC (2026-10-19) — đọc mục này trước
+
+Tất cả nhãn đã đổi sang logo **THOC – Hợp tác xã Thế Hưng Organic**, "Chịu trách nhiệm: Hợp tác xã Thế Hưng
+Organic", địa chỉ Thôn Liên Lạc, xã Vũ Lăng (tạo lại bằng `node scripts/tao_nhan_ocop.js content/nhan_bao_bi`):
+- **In ngay (chưa có OCOP)**: `nhan-thoc-500g`, `nhan-thoc-1kg` (SVG + PDF, 160 × 45mm). **Không in** bản cũ
+  `nhan-say-day-500g/1kg` nữa (còn logo + tên Nông Sản Nhà Làm).
+- **Khi có OCOP**: các file `*-ocop` bên dưới (cũng đã đổi sang THOC).
+- Thẻ quà Tết + thiệp chúc Tết: đã đổi logo và tên.
+- Còn chỗ đỏ cần điền: số tự công bố, logo OCOP thật, mã vạch. **Chưa** in chữ/dấu "chứng nhận hữu cơ" — thêm
+  khi có giấy chứng nhận (số, đơn vị cấp).
+- Mẫu bao bì AI trong `Tài Liệu Công Ty/` (túi 500g/1kg/5kg/10kg): nếu in theo mẫu đó, phải sửa "SĂN DÂY" →
+  "SẮN DÂY", bỏ chữ "Hàng sản sạch", chọn 1 logo, thay ảnh củ vẽ (giống củ sắn) bằng ảnh sắn dây thật.
+
 
 ## 🆕 BẢN OCOP (soạn 2026-10-10) — dùng khi đã có chứng nhận OCOP
 
