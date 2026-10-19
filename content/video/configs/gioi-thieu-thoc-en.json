@@ -3,7 +3,19 @@
   "format": "landscape",
   "clips": [
     {
-      "file": "Sắn Dây/san-day-vuon-nuidavoi-01.mp4",
+      "file": "Cam Đường Canh/cam-duongcanh-quarienglai-08.mp4",
+      "start": 11,
+      "duration": 4.5,
+      "motion": "zoom"
+    },
+    {
+      "file": "Sắn Dây/san-day-vuon-34.jpg",
+      "start": 0,
+      "duration": 4.5,
+      "motion": "pan_right"
+    },
+    {
+      "file": "../web-10k-raw/segA2-graded.mp4",
       "start": 1,
       "duration": 4.5,
       "motion": "pan_right"
@@ -13,12 +25,6 @@
       "start": 2,
       "duration": 4.5,
       "motion": "zoom_detail"
-    },
-    {
-      "file": "Sắn Dây/san-day-vuon-gian-01.mp4",
-      "start": 3,
-      "duration": 4.5,
-      "motion": "pan_left"
     },
     {
       "file": "Sắn Dây/san-day-thuhoach-mayxuc-daodat-02.mp4",
@@ -69,10 +75,10 @@
       "motion": "pan_right"
     },
     {
-      "file": "Sắn Dây/san-day-losay-nhieutang-01.mp4",
-      "start": 3,
+      "file": "Sắn Dây/san-day-losay-xepkhay-01.jpg",
+      "start": 0,
       "duration": 4.5,
-      "motion": "pan_left"
+      "motion": "pan_right"
     },
     {
       "file": "Sắn Dây/san-day-losay-bangdieukhien-01.mp4",
@@ -81,10 +87,10 @@
       "motion": "zoom_detail"
     },
     {
-      "file": "Sắn Dây/san-day-losay-taycambanh-02.mp4",
-      "start": 12,
+      "file": "Sắn Dây/san-day-phoisay-botkhovovun-05.mp4",
+      "start": 2,
       "duration": 4.5,
-      "motion": "zoom"
+      "motion": "zoom_detail"
     },
     {
       "file": "Sắn Dây/san-day-donggoi-dobotvaobao-01.jpg",
@@ -93,10 +99,10 @@
       "motion": "zoom"
     },
     {
-      "file": "Sắn Dây/san-day-donggoi-tuibot-01.mp4",
-      "start": 8.5,
+      "file": "Sắn Dây/san-day-donggoi-tuibot-03.jpg",
+      "start": 0,
       "duration": 4.3,
-      "motion": "zoom_detail"
+      "motion": "zoom"
     },
     {
       "file": "Cam Đường Canh/cam-duongcanh-vuon-12.mp4",
@@ -105,8 +111,8 @@
       "motion": "pan_right"
     },
     {
-      "file": "Cam Đường Canh/cam-duongcanh-thuhoach-06.mp4",
-      "start": 4,
+      "file": "Cam Đường Canh/cam-duongcanh-vuon-34.mp4",
+      "start": 14,
       "duration": 4.5,
       "motion": "pan_left"
     },
@@ -155,116 +161,122 @@
       "duration": 4.0
     },
     {
-      "text": "At harvest, whole roots are dug up",
+      "text": "Purple kudzu flowers across the field",
       "clip_index": 3,
       "start": 0.3,
       "duration": 4.0
     },
     {
-      "text": "Big, firm roots, fresh from the soil",
+      "text": "At harvest, whole roots are dug up",
       "clip_index": 4,
+      "start": 0.3,
+      "duration": 4.0
+    },
+    {
+      "text": "Big, firm roots, fresh from the soil",
+      "clip_index": 5,
       "start": 0.3,
       "duration": 3.5
     },
     {
       "text": "Weighed right at the workshop",
-      "clip_index": 5,
-      "start": 0.3,
-      "duration": 4.0
-    },
-    {
-      "text": "Washed clean of soil",
       "clip_index": 6,
       "start": 0.3,
       "duration": 4.0
     },
     {
-      "text": "Ground and pressed for starch milk",
+      "text": "Washed clean of soil",
       "clip_index": 7,
       "start": 0.3,
       "duration": 4.0
     },
     {
-      "text": "Stirred, then left to settle",
+      "text": "Ground and pressed for starch milk",
       "clip_index": 8,
       "start": 0.3,
       "duration": 4.0
     },
     {
-      "text": "Rinsed and settled again, several times",
+      "text": "Stirred, then left to settle",
       "clip_index": 9,
+      "start": 0.3,
+      "duration": 4.0
+    },
+    {
+      "text": "Rinsed and settled again, several times",
+      "clip_index": 10,
       "start": 0.3,
       "duration": 3.5
     },
     {
       "text": "Wet starch shaped by hand onto trays",
-      "clip_index": 10,
-      "start": 0.3,
-      "duration": 4.0
-    },
-    {
-      "text": "Into a multi-tier drying kiln",
       "clip_index": 11,
       "start": 0.3,
       "duration": 4.0
     },
     {
-      "text": "Temperature-controlled, not weather-dependent",
+      "text": "Into a multi-tier drying kiln",
       "clip_index": 12,
+      "start": 0.3,
+      "duration": 4.0
+    },
+    {
+      "text": "Temperature-controlled, not weather-dependent",
+      "clip_index": 13,
       "start": 0.3,
       "duration": 3.5
     },
     {
       "text": "Dry and naturally white, no bleaching",
-      "clip_index": 13,
+      "clip_index": 14,
       "start": 0.3,
       "duration": 4.0
     },
     {
       "text": "Bagged straight out of the kiln",
-      "clip_index": 14,
+      "clip_index": 15,
       "start": 0.3,
       "duration": 3.5
     },
     {
       "text": "Kudzu root starch, available year-round",
-      "clip_index": 15,
+      "clip_index": 16,
       "start": 0.3,
       "duration": 3.8
     },
     {
       "text": "And Canh mandarins from VietGAP-certified orchards",
-      "clip_index": 16,
-      "start": 0.3,
-      "duration": 4.0
-    },
-    {
-      "text": "Ripened naturally on the tree",
       "clip_index": 17,
       "start": 0.3,
       "duration": 4.0
     },
     {
-      "text": "Juicy and sweet",
+      "text": "Ripened naturally on the tree",
       "clip_index": 18,
+      "start": 0.3,
+      "duration": 4.0
+    },
+    {
+      "text": "Juicy and sweet",
+      "clip_index": 19,
       "start": 0.3,
       "duration": 3.5
     },
     {
       "text": "Hand-picked in season, around Nov - Jan (lunar)",
-      "clip_index": 19,
-      "start": 0.3,
-      "duration": 4.0
-    },
-    {
-      "text": "Sorted and packed with care",
       "clip_index": 20,
       "start": 0.3,
       "duration": 4.0
     },
     {
-      "text": "Delivered nationwide",
+      "text": "Sorted and packed with care",
       "clip_index": 21,
+      "start": 0.3,
+      "duration": 4.0
+    },
+    {
+      "text": "Delivered nationwide",
+      "clip_index": 22,
       "start": 0.3,
       "duration": 4.0
     }
