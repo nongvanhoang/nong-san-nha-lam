@@ -1,14 +1,58 @@
 {
   "slug": "quy-trinh-san-day",
   "clips": [
-    {"file": "Sắn Dây/san-day-cutuoi-dongmoithuhoach-03.mp4", "start": 0, "duration": 3},
-    {"file": "Sắn Dây/san-day-nghienloc-nuocdanglang-08.mp4", "start": 0, "duration": 3.5},
-    {"file": "Sắn Dây/san-day-phoisay-botkhoduoinangvang-07.mp4", "start": 0, "duration": 3.5}
+    {
+      "file": "Sắn Dây/san-day-cutuoi-dongmoithuhoach-03.mp4",
+      "start": 0,
+      "duration": 4.5
+    },
+    {
+      "file": "Sắn Dây/san-day-nghienloc-nuocdanglang-08.mp4",
+      "start": 0,
+      "duration": 4.5
+    },
+    {
+      "file": "Sắn Dây/san-day-losay-nhieutang-01.mp4",
+      "start": 3,
+      "duration": 4.5,
+      "motion": "pan_left"
+    },
+    {
+      "file": "Sắn Dây/san-day-donggoi-tuibot-01.mp4",
+      "start": 8.5,
+      "duration": 4.3,
+      "motion": "zoom_detail"
+    }
   ],
   "captions": [
-    {"text": "Bước 1: Thu hoạch tận vườn", "clip_index": 0, "start": 0, "duration": 3},
-    {"text": "Bước 2: Nghiền lọc, gạn lắng thủ công", "clip_index": 1, "start": 0, "duration": 3.5},
-    {"text": "Bước 3: Sấy khô bằng lò sấy chuyên dụng", "clip_index": 2, "start": 0, "duration": 3.5}
+    {
+      "text": "Bước 1: Thu hoạch tận vườn",
+      "clip_index": 0,
+      "start": 0,
+      "duration": 4.0
+    },
+    {
+      "text": "Bước 2: Nghiền lọc, gạn lắng thủ công",
+      "clip_index": 1,
+      "start": 0,
+      "duration": 4.0
+    },
+    {
+      "text": "Bước 3: Sấy khô bằng lò sấy chuyên dụng",
+      "clip_index": 2,
+      "start": 0,
+      "duration": 4.0
+    },
+    {
+      "text": "Bước 4: Ra lò là đóng túi ngay",
+      "clip_index": 3,
+      "start": 0,
+      "duration": 3.8
+    }
   ],
-  "end_card_text": "Tinh Bột Sắn Dây - Nhà làm 100%\nĐặt hàng: Zalo 0979 502 000"
+  "end_card_text": "Tinh Bột Sắn Dây - Thế Hưng Organic\nĐặt hàng: Zalo 0979 502 000",
+  "music": {
+    "file": "content/video/music/warm-acoustic-music.mp3",
+    "volume": 0.5
+  }
 }

@@ -224,6 +224,8 @@ section:last-child{margin-bottom:0}
 .video-frame{max-width:560px;margin:0 auto}
 .video-frame video{width:100%;aspect-ratio:9/16;border-radius:var(--radius);border:1px solid var(--accent-muted);background:var(--panel);display:block}
 .video-frame p{text-align:center;margin:0 0 10px;font-size:.95rem;color:var(--text-secondary)}
+.video-frame.video-wide{max-width:960px}
+.video-frame.video-wide video{aspect-ratio:16/9}
 
 /* Nhiều video quy trình: xếp dọc (điện thoại, giữ như cũ) — từ 860px trở lên chuyển sang lưới
    (CSS grid auto-fit), tự xếp hàng theo số video thực tế (1, 2, 3, 4+ đều tự co giãn hợp lý) thay

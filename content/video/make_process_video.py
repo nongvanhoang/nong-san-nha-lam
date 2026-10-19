@@ -45,7 +45,28 @@ WIDTH, HEIGHT, FPS = 1080, 1920, 30
 FONT_BOLD = "C:/Windows/Fonts/cambriab.ttf"  # chữ tiếng Việt (chính) — đúng bộ nhận diện thương hiệu
 FONT_REG = "C:/Windows/Fonts/cambriab.ttf"
 FONT_ITALIC = "C:/Windows/Fonts/cambriai.ttf"  # phụ đề tiếng Anh (phụ) — nghiêng để phân biệt với chữ chính
-LOGO = ROOT / "docs" / "assets" / "icon-512.png"
+LOGO = HERE / "logo-thoc-tron.png"  # logo THOC tròn nền trong suốt (đổi thương hiệu 2026-10-19)
+WATERMARK_SIZE = 110  # logo nhỏ góc trên phải suốt phần quy trình — tắt bằng "watermark": false trong config
+
+# Bố cục chữ theo khổ video. "portrait" (1080x1920, mặc định, đăng Reels/TikTok) giữ y hệt số cũ;
+# "landscape" (1920x1080, thêm 2026-10-19 cho video trên website/YouTube) thu nhỏ dải chữ cho vừa khung thấp.
+LAYOUTS = {
+    "portrait": dict(w=1080, h=1920, band=260, font=48, text_dy=190, en_band=78, en_font=32,
+                     logo_w=320, logo_y=260, card_y=680, wm_margin=40),
+    "landscape": dict(w=1920, h=1080, band=150, font=42, text_dy=108, en_band=60, en_font=28,
+                      logo_w=260, logo_y=110, card_y=440, wm_margin=36),
+}
+L = LAYOUTS["portrait"]
+
+
+def configure_format(fmt):
+    """Đặt khổ video toàn cục theo config["format"] (mặc định "portrait")."""
+    global WIDTH, HEIGHT, L
+    if fmt not in LAYOUTS:
+        print(f"ERROR: format phải là một trong {list(LAYOUTS)}")
+        sys.exit(1)
+    L = LAYOUTS[fmt]
+    WIDTH, HEIGHT = L["w"], L["h"]
 
 END_CARD_SECONDS = 3.0
 MAX_END_CARD_SECONDS = 20.0  # chặn trần — nếu lời đọc dài bất thường so với video, script sẽ báo thay vì tự kéo dài vô hạn
@@ -105,7 +126,7 @@ def ffprobe_duration(path):
     return float(result.stdout.strip())
 
 
-def generate_narration(text, voice, out_path):
+def generate_narration(text, voice, out_path, rate=None):
     """Tạo giọng đọc AI qua Edge-TTS (Microsoft, miễn phí, không cần API key,
     không tốn phí — đúng giới hạn "không gọi API AI trả phí" trong CLAUDE.md).
     Đây chỉ là LỜI ĐỌC diễn giải thêm — hình ảnh vẫn 100% clip thật, không
@@ -116,6 +137,8 @@ def generate_narration(text, voice, out_path):
         "--text", text,
         "--write-media", str(out_path),
     ]
+    if rate:  # vd "-8%" đọc chậm hơn chút cho video giới thiệu
+        cmd.append(f"--rate={rate}")
     result = subprocess.run(cmd, capture_output=True, text=True, encoding="utf-8", errors="replace")
     if result.returncode != 0 or not out_path.exists():
         print(
@@ -174,12 +197,24 @@ def trim_clip(src, start, duration, out_path, motion="zoom"):
     else:
         input_args = ["-ss", str(start), "-t", str(duration), "-i", str(src)]
 
+    if WIDTH > HEIGHT:
+        # Khung ngang: clip gốc gần như đều quay dọc — cắt phủ kín sẽ mất 2/3 hình. Thay vào đó đặt
+        # nguyên clip ở giữa, 2 bên là chính clip đó phóng to + làm mờ (làm mờ ở độ phân giải thấp
+        # cho nhẹ máy). Vẫn 100% hình thật, chỉ là cách lấp khoảng trống.
+        fill = (
+            f"split[a][b];"
+            f"[a]scale=480:270:force_original_aspect_ratio=increase,crop=480:270,boxblur=12:2,"
+            f"eq=brightness=-0.06:saturation=0.9,scale={WIDTH}:{HEIGHT}[bg];"
+            f"[b]scale=-2:{HEIGHT}[fg];[bg][fg]overlay=(W-w)/2:(H-h)/2,"
+        )
+    else:
+        fill = f"scale={WIDTH}:{HEIGHT}:force_original_aspect_ratio=increase,crop={WIDTH}:{HEIGHT},"
+
     cmd = [
         "ffmpeg", "-y",
         *input_args,
         "-vf", (
-            f"scale={WIDTH}:{HEIGHT}:force_original_aspect_ratio=increase,"
-            f"crop={WIDTH}:{HEIGHT},setsar=1,fps={FPS},"
+            f"{fill}setsar=1,fps={FPS},"
             f"eq=contrast=1.05:saturation=1.08,"
             f"zoompan=z='{z_expr}':d=1:x='{x_expr}':y='{y_expr}':s={WIDTH}x{HEIGHT}:fps={FPS}"
         ),
@@ -209,15 +244,15 @@ def build_end_card(text_lines, out_path, tmp, duration=END_CARD_SECONDS, text_li
     if LOGO.exists():
         cmd += ["-loop", "1", "-t", str(duration), "-i", str(LOGO)]
         filter_parts = [
-            f"[1:v]scale=320:-1,format=rgba,fade=in:st=0:d=0.4:alpha=1[logo]",
-            f"[0:v][logo]overlay=(W-w)/2:260[bg]",
+            f"[1:v]scale={L['logo_w']}:-1,format=rgba,fade=in:st=0:d=0.4:alpha=1[logo]",
+            f"[0:v][logo]overlay=(W-w)/2:{L['logo_y']}[bg]",
             f"[bg]drawtext=fontfile='{esc_filter_path(FONT_BOLD)}':expansion=none:"
             f"textfile='{esc_filter_path(lines_txt)}':fontcolor=white:fontsize=44:"
-            f"line_spacing=14:x=(w-text_w)/2:y=680:alpha='min(1,t/0.4)'[vi]",
+            f"line_spacing=14:x=(w-text_w)/2:y={L['card_y']}:alpha='min(1,t/0.4)'[vi]",
         ]
         cur = "vi"
         if text_lines_en:
-            en_y = 680 + len(text_lines) * END_CARD_LINE_PITCH + 20
+            en_y = L['card_y'] + len(text_lines) * END_CARD_LINE_PITCH + 20
             filter_parts.append(
                 f"[{cur}]drawtext=fontfile='{esc_filter_path(FONT_ITALIC)}':expansion=none:"
                 f"textfile='{esc_filter_path(en_txt)}':fontcolor=0xCFE0CF:fontsize=30:"
@@ -280,6 +315,7 @@ def crossfade_sequence(segment_paths, durations, transition, out_path):
 
 
 def build_video(config):
+    configure_format(config.get("format", "portrait"))
     slug = config["slug"]
     clips = config["clips"]
     captions = config.get("captions", [])
@@ -325,7 +361,7 @@ def build_video(config):
         if narration_cfg:
             narration_path = tmp / "narration.mp3"
             voice = narration_cfg.get("voice", DEFAULT_VOICE)
-            generate_narration(narration_cfg["text"], voice, narration_path)
+            generate_narration(narration_cfg["text"], voice, narration_path, rate=narration_cfg.get("rate"))
             narration_duration = ffprobe_duration(narration_path)
             needed_total = narration_duration + 0.3  # đệm nhỏ để lời đọc không bị cắt cụt
             if needed_total > body_duration + end_card_duration:
@@ -364,7 +400,8 @@ def build_video(config):
         #    không bị lỗi escape trong ffmpeg filter). Video-only ở bước này
         #    — âm thanh (nếu có lời đọc) được ghép ở bước 5, sau cùng.
         visual_path = tmp / "visual.mp4" if (narration_path or music_cfg) else out_path
-        if captions:
+        watermark = config.get("watermark", True) and LOGO.exists()
+        if captions or watermark:
             # Tính trước mọi mốc bắt đầu, rồi CẮT BỚT mốc kết thúc của mỗi chữ
             # tại đúng lúc chữ tiếp theo xuất hiện — nếu không, 2 chữ liền
             # nhau sẽ đè lên nhau trong đúng khoảng crossfade (chữ cũ chưa
@@ -386,6 +423,14 @@ def build_video(config):
 
             filter_lines = ["[0:v]null[v0]"]
             cur = "v0"
+            if watermark:
+                # Logo THOC nhỏ góc trên phải, chỉ trong phần quy trình (thẻ kết thúc đã có logo to).
+                m = L["wm_margin"]
+                filter_lines.append(f"[1:v]scale={WATERMARK_SIZE}:-1,format=rgba,colorchannelmixer=aa=0.92[wm]")
+                filter_lines.append(
+                    f"[v0][wm]overlay=W-w-{m}:{m}:shortest=1:enable='lt(t,{body_duration:.3f})'[vw]"
+                )
+                cur = "vw"
             stage = 0
             for i, cap in enumerate(captions):
                 start_abs = starts_abs[i]
@@ -402,7 +447,7 @@ def build_video(config):
                 stage += 1
                 box_out = f"s{stage}"
                 filter_lines.append(
-                    f"[{cur}]drawbox=x=0:y={HEIGHT-260}:w={WIDTH}:h=260:"
+                    f"[{cur}]drawbox=x=0:y={HEIGHT-L['band']}:w={WIDTH}:h={L['band']}:"
                     f"color=black@0.55:t=fill:{enable}[{box_out}]"
                 )
                 cur = box_out
@@ -410,8 +455,8 @@ def build_video(config):
                 text_out = f"s{stage}"
                 filter_lines.append(
                     f"[{cur}]drawtext=fontfile='{esc_filter_path(FONT_BOLD)}':expansion=none:"
-                    f"textfile='{esc_filter_path(txt_file)}':fontcolor=white:fontsize=48:"
-                    f"line_spacing=8:x=(w-text_w)/2:y={HEIGHT-190}:"
+                    f"textfile='{esc_filter_path(txt_file)}':fontcolor=white:fontsize={L['font']}:"
+                    f"line_spacing=8:x=(w-text_w)/2:y={HEIGHT-L['text_dy']}:"
                     f"alpha='{fade_alpha}':{enable}[{text_out}]"
                 )
                 cur = text_out
@@ -422,11 +467,11 @@ def build_video(config):
                 if text_en:
                     en_txt_file = tmp / f"cap{i}_en.txt"
                     en_txt_file.write_text(text_en, encoding="utf-8")
-                    en_band_y = HEIGHT - 260 - EN_BAND_HEIGHT
+                    en_band_y = HEIGHT - L['band'] - L['en_band']
                     stage += 1
                     en_box_out = f"s{stage}"
                     filter_lines.append(
-                        f"[{cur}]drawbox=x=0:y={en_band_y}:w={WIDTH}:h={EN_BAND_HEIGHT}:"
+                        f"[{cur}]drawbox=x=0:y={en_band_y}:w={WIDTH}:h={L['en_band']}:"
                         f"color=black@0.4:t=fill:{enable}[{en_box_out}]"
                     )
                     cur = en_box_out
@@ -434,8 +479,8 @@ def build_video(config):
                     en_text_out = f"s{stage}"
                     filter_lines.append(
                         f"[{cur}]drawtext=fontfile='{esc_filter_path(FONT_ITALIC)}':expansion=none:"
-                        f"textfile='{esc_filter_path(en_txt_file)}':fontcolor=0xE8E8E8:fontsize=32:"
-                        f"line_spacing=6:x=(w-text_w)/2:y={en_band_y + 20}:"
+                        f"textfile='{esc_filter_path(en_txt_file)}':fontcolor=0xE8E8E8:fontsize={L['en_font']}:"
+                        f"line_spacing=6:x=(w-text_w)/2:y={en_band_y + (L['en_band'] - L['en_font']) // 2}:"
                         f"alpha='{fade_alpha}':{enable}[{en_text_out}]"
                     )
                     cur = en_text_out
@@ -446,6 +491,7 @@ def build_video(config):
 
             run([
                 "ffmpeg", "-y", "-i", str(concatenated),
+                *(["-loop", "1", "-i", str(LOGO)] if watermark else []),
                 "-filter_complex_script", str(filter_script),
                 "-map", "[vout]",
                 "-c:v", "libx264", "-pix_fmt", "yuv420p", "-movflags", "+faststart",

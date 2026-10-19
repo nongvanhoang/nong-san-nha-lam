@@ -1,0 +1,305 @@
+{
+  "slug": "gioi-thieu-thoc",
+  "format": "landscape",
+  "clips": [
+    {
+      "file": "Sắn Dây/san-day-vuon-nuidavoi-01.mp4",
+      "start": 1,
+      "duration": 4.5,
+      "motion": "pan_right"
+    },
+    {
+      "file": "Sắn Dây/san-day-vuon-hoa-01.mp4",
+      "start": 2,
+      "duration": 4.5,
+      "motion": "zoom_detail"
+    },
+    {
+      "file": "Sắn Dây/san-day-vuon-gian-01.mp4",
+      "start": 3,
+      "duration": 4.5,
+      "motion": "pan_left"
+    },
+    {
+      "file": "Sắn Dây/san-day-thuhoach-mayxuc-daodat-02.mp4",
+      "start": 13,
+      "duration": 4.5,
+      "motion": "zoom"
+    },
+    {
+      "file": "Sắn Dây/san-day-thuhoach-goccu-dinhdat-06.mp4",
+      "start": 2,
+      "duration": 4,
+      "motion": "zoom_detail"
+    },
+    {
+      "file": "Sắn Dây/san-day-cutuoi-cancu-01.mp4",
+      "start": 22,
+      "duration": 4.5,
+      "motion": "zoom"
+    },
+    {
+      "file": "Sắn Dây/san-day-cutuoi-ruavoinuoc-11.mp4",
+      "start": 2,
+      "duration": 4.5,
+      "motion": "pan_left"
+    },
+    {
+      "file": "Sắn Dây/san-day-nghienloc-mayduacuvao-01.mp4",
+      "start": 10,
+      "duration": 4.5,
+      "motion": "zoom_detail"
+    },
+    {
+      "file": "Sắn Dây/san-day-nghienloc-khuaybelang-02.mp4",
+      "start": 3,
+      "duration": 4.5,
+      "motion": "pan_right"
+    },
+    {
+      "file": "Sắn Dây/san-day-nghienloc-nuocdanglang-08.mp4",
+      "start": 6,
+      "duration": 4,
+      "motion": "zoom"
+    },
+    {
+      "file": "Sắn Dây/san-day-phoisay-nhieunguoixepbanh-11.mp4",
+      "start": 2,
+      "duration": 4.5,
+      "motion": "pan_right"
+    },
+    {
+      "file": "Sắn Dây/san-day-losay-nhieutang-01.mp4",
+      "start": 3,
+      "duration": 4.5,
+      "motion": "pan_left"
+    },
+    {
+      "file": "Sắn Dây/san-day-losay-bangdieukhien-01.mp4",
+      "start": 8,
+      "duration": 4,
+      "motion": "zoom_detail"
+    },
+    {
+      "file": "Sắn Dây/san-day-losay-taycambanh-02.mp4",
+      "start": 12,
+      "duration": 4.5,
+      "motion": "zoom"
+    },
+    {
+      "file": "Sắn Dây/san-day-donggoi-dobotvaobao-01.jpg",
+      "start": 0,
+      "duration": 4,
+      "motion": "zoom"
+    },
+    {
+      "file": "Sắn Dây/san-day-donggoi-tuibot-01.mp4",
+      "start": 8.5,
+      "duration": 4.3,
+      "motion": "zoom_detail"
+    },
+    {
+      "file": "Cam Đường Canh/cam-duongcanh-vuon-12.mp4",
+      "start": 1,
+      "duration": 4.5,
+      "motion": "pan_right"
+    },
+    {
+      "file": "Cam Đường Canh/cam-duongcanh-thuhoach-06.mp4",
+      "start": 4,
+      "duration": 4.5,
+      "motion": "pan_left"
+    },
+    {
+      "file": "Cam Đường Canh/cam-duongcanh-quarienglai-01.mp4",
+      "start": 2,
+      "duration": 4,
+      "motion": "zoom_detail"
+    },
+    {
+      "file": "Cam Đường Canh/cam-duongcanh-thuhoach-04.mp4",
+      "start": 2,
+      "duration": 4.5,
+      "motion": "zoom"
+    },
+    {
+      "file": "Cam Đường Canh/cam-duongcanh-donggoi-24.mp4",
+      "start": 1,
+      "duration": 4.5,
+      "motion": "zoom_detail"
+    },
+    {
+      "file": "Cam Đường Canh/cam-duongcanh-vanchuyen-02.mp4",
+      "start": 2,
+      "duration": 4.5,
+      "motion": "pan_right"
+    }
+  ],
+  "captions": [
+    {
+      "text": "Hợp tác xã Thế Hưng Organic",
+      "text_en": "The Hung Organic Cooperative",
+      "clip_index": 0,
+      "start": 0.3,
+      "duration": 4.0
+    },
+    {
+      "text": "Sắn dây trồng giữa núi đá vôi Bắc Sơn, Lạng Sơn",
+      "text_en": "Kudzu grown among the limestone hills of Bac Son",
+      "clip_index": 1,
+      "start": 0.3,
+      "duration": 4.0
+    },
+    {
+      "text": "Dây leo kín giàn, củ lớn dần dưới đất",
+      "text_en": "Vines climb the trellis, roots grow underground",
+      "clip_index": 2,
+      "start": 0.3,
+      "duration": 4.0
+    },
+    {
+      "text": "Đến mùa, đào cả gốc củ lên khỏi đất",
+      "text_en": "At harvest, whole roots are dug up",
+      "clip_index": 3,
+      "start": 0.3,
+      "duration": 4.0
+    },
+    {
+      "text": "Củ to, chắc, còn nguyên đất",
+      "text_en": "Big, firm roots, fresh from the soil",
+      "clip_index": 4,
+      "start": 0.3,
+      "duration": 3.5
+    },
+    {
+      "text": "Cân củ ngay tại xưởng",
+      "text_en": "Weighed right at the workshop",
+      "clip_index": 5,
+      "start": 0.3,
+      "duration": 4.0
+    },
+    {
+      "text": "Rửa sạch đất cát",
+      "text_en": "Washed clean of soil",
+      "clip_index": 6,
+      "start": 0.3,
+      "duration": 4.0
+    },
+    {
+      "text": "Nghiền nát, ép lấy nước bột",
+      "text_en": "Ground and pressed for starch milk",
+      "clip_index": 7,
+      "start": 0.3,
+      "duration": 4.0
+    },
+    {
+      "text": "Khuấy đều, để bột lắng xuống đáy bể",
+      "text_en": "Stirred, then left to settle",
+      "clip_index": 8,
+      "start": 0.3,
+      "duration": 4.0
+    },
+    {
+      "text": "Thay nước, lọc đi lọc lại nhiều lượt",
+      "text_en": "Rinsed and settled again, several times",
+      "clip_index": 9,
+      "start": 0.3,
+      "duration": 3.5
+    },
+    {
+      "text": "Bột ướt nặn thành miếng, xếp lên khay",
+      "text_en": "Wet starch shaped by hand onto trays",
+      "clip_index": 10,
+      "start": 0.3,
+      "duration": 4.0
+    },
+    {
+      "text": "Đưa vào lò sấy nhiều tầng",
+      "text_en": "Into a multi-tier drying kiln",
+      "clip_index": 11,
+      "start": 0.3,
+      "duration": 4.0
+    },
+    {
+      "text": "Cài nhiệt độ, sấy đều, không phụ thuộc thời tiết",
+      "text_en": "Temperature-controlled, not weather-dependent",
+      "clip_index": 12,
+      "start": 0.3,
+      "duration": 3.5
+    },
+    {
+      "text": "Bột khô, trắng tự nhiên, không tẩy trắng",
+      "text_en": "Dry and naturally white, no bleaching",
+      "clip_index": 13,
+      "start": 0.3,
+      "duration": 4.0
+    },
+    {
+      "text": "Ra lò là đóng túi ngay",
+      "text_en": "Bagged straight out of the kiln",
+      "clip_index": 14,
+      "start": 0.3,
+      "duration": 3.5
+    },
+    {
+      "text": "Tinh Bột Sắn Dây - có sẵn quanh năm",
+      "text_en": "Kudzu root starch, available year-round",
+      "clip_index": 15,
+      "start": 0.3,
+      "duration": 3.8
+    },
+    {
+      "text": "Và Cam Đường Canh, vườn đạt chuẩn VietGAP",
+      "text_en": "And Canh mandarins from VietGAP-certified orchards",
+      "clip_index": 16,
+      "start": 0.3,
+      "duration": 4.0
+    },
+    {
+      "text": "Chín tự nhiên trên cây, không thúc chín",
+      "text_en": "Ripened naturally on the tree",
+      "clip_index": 17,
+      "start": 0.3,
+      "duration": 4.0
+    },
+    {
+      "text": "Mọng nước, ngọt thanh",
+      "text_en": "Juicy and sweet",
+      "clip_index": 18,
+      "start": 0.3,
+      "duration": 3.5
+    },
+    {
+      "text": "Hái tay đúng mùa, khoảng tháng 11 âm lịch - tháng 1",
+      "text_en": "Hand-picked in season, around Nov - Jan (lunar)",
+      "clip_index": 19,
+      "start": 0.3,
+      "duration": 4.0
+    },
+    {
+      "text": "Phân loại, đóng thùng cẩn thận",
+      "text_en": "Sorted and packed with care",
+      "clip_index": 20,
+      "start": 0.3,
+      "duration": 4.0
+    },
+    {
+      "text": "Giao hàng trên toàn quốc",
+      "text_en": "Delivered nationwide",
+      "clip_index": 21,
+      "start": 0.3,
+      "duration": 4.0
+    }
+  ],
+  "narration": {
+    "text": "Ở xã Vũ Lăng, giữa những dãy núi đá vôi của Bắc Sơn, Lạng Sơn, Hợp tác xã Thế Hưng Organic trồng sắn dây trên chính mảnh đất quê mình. Mây còn vờn trên đỉnh núi, dây leo đã phủ kín giàn. Hoa sắn dây nở tím cả nương, còn củ thì lặng lẽ lớn dần dưới đất. Đến mùa thu hoạch, cả gốc củ được đào lên, củ to, chắc, còn nguyên đất. Củ được cân ngay tại xưởng, rửa thật sạch đất cát, rồi đưa vào máy nghiền để ép lấy nước bột. Nước bột được khuấy đều, để lắng xuống đáy bể. Sau đó thay nước, khuấy, lắng, lọc đi lọc lại nhiều lượt, cho đến khi bột thật trắng và trong. Bột ướt được nặn thành từng miếng, xếp đều lên khay, rồi đưa vào lò sấy nhiều tầng. Nhiệt độ được cài đặt sẵn, nên bột khô đều, không phụ thuộc nắng mưa. Không hoá chất, không chất tẩy trắng, màu trắng là màu tự nhiên của bột. Bột ra lò là đóng túi ngay, có sẵn quanh năm. Cùng với sắn dây là Cam Đường Canh, trồng theo tiêu chuẩn VietGAP. Cam được để chín tự nhiên trên cây, không thúc chín, quả mọng nước, ngọt thanh. Khoảng tháng mười một âm lịch, cam được hái tay đúng mùa, phân loại, đóng thùng cẩn thận, rồi gửi đi khắp cả nước. Thế Hưng Organic. Nông sản thật, từ vùng núi Bắc Sơn.",
+    "voice": "vi-VN-HoaiMyNeural",
+    "rate": "-6%"
+  },
+  "music": {
+    "file": "content/video/music/warm-acoustic-music.mp3",
+    "volume": 0.14
+  },
+  "end_card_text": "Hợp tác xã Thế Hưng Organic\nTinh Bột Sắn Dây · Cam Đường Canh\nZalo 0979 502 000 · nongsannhalam.com",
+  "end_card_text_en": "The Hung Organic Cooperative - Vu Lang, Lang Son, Vietnam"
+}

@@ -90,3 +90,21 @@ sửa chữ caption trong `quy-trinh-san-day.json` cho đúng, nhưng **clip g�
 không đủ, vì hình vẫn cho thấy quy trình cũ. `content/video_final/san-day-phoibot-final.mp4` (video
 đã dựng từ config này) coi như lỗi thời, đừng dùng cho tới khi có clip mới quay cảnh lò sấy để thay
 vào bước 3 rồi chạy lại script.
+**[2026-10-19] ĐÃ SỬA**: bước 3 giờ dùng `san-day-losay-nhieutang-01.mp4` (lò sấy thật, clip mới), thêm bước 4
+đóng túi (`san-day-donggoi-tuibot-01.mp4`).
+
+## Tính năng thêm 2026-10-19 (đổi thương hiệu THOC)
+
+- `format` — **tuỳ chọn**, `"portrait"` (mặc định, 1080x1920 cho Reels/TikTok) hoặc `"landscape"`
+  (1920x1080 cho website/YouTube). Khổ ngang: clip dọc được đặt giữa, 2 bên là chính clip đó phóng to
+  + làm mờ (vẫn 100% hình thật). Dải chữ/thẻ kết thúc tự co theo khổ.
+- `watermark` — mặc định `true`: logo THOC tròn nhỏ góc trên phải suốt phần quy trình (thẻ kết thúc
+  không có). Logo: `content/video/logo-thoc-tron.png`. Tắt bằng `"watermark": false`.
+- `narration.rate` — **tuỳ chọn**, tốc độ giọng đọc Edge-TTS, vd `"-6%"` (chậm hơn chút).
+- Edge-TTS báo lỗi **403** = thư viện cũ, Microsoft đổi khoá → `python -m pip install -U edge-tts`
+  (đã gặp 2026-10-19, 7.2.8 → 7.3.1 là chạy lại).
+- Dựng lại hàng loạt + xuất bản nhẹ cho website: `bash content/video/dung_lai_va_xuat_web.sh [slug...]`
+  (tuần tự, log `output/dung_lai.log`). Máy này: video 90s khổ ngang ~17 phút, video dọc 30s vài phút.
+- Video giới thiệu doanh nghiệp: `gioi-thieu-thoc.json` (lời Việt + phụ đề Anh) và
+  `gioi-thieu-thoc-en.json` (lời Anh) — 22 cảnh trồng → thu hoạch → nghiền lọc → sấy → đóng túi + cam
+  VietGAP, khổ ngang, đặt ở trang chủ `docs/index.html` / `docs/en/index.html` mục "Video giới thiệu".
