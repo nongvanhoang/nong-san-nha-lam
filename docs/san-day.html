@@ -83,8 +83,8 @@
         },
         {
           "@type": "Question",
-          "name": "Sản phẩm có chứng nhận an toàn không?",
-          "acceptedAnswer": { "@type": "Answer", "text": "Tinh Bột Sắn Dây là cơ sở hộ gia đình quy mô nhỏ, hiện chưa có chứng nhận chính thức nào — nhà mình nói rõ điều này để khách hiểu đúng thực tế, không hoá chất, không tẩy trắng vẫn là cam kết thật." }
+          "name": "Sản phẩm có chứng nhận gì?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Giấy tờ của Tinh Bột Sắn Dây sẽ được công khai khi hợp tác xã hoàn tất hồ sơ. Không hoá chất, không tẩy trắng là cam kết của hợp tác xã." }
         },
         {
           "@type": "Question",
@@ -107,7 +107,7 @@
 }
 </script>
 </head>
-<body>
+<body class="home">
 <a href="#main" class="skip-link">Bỏ qua tới nội dung</a>
 
 <nav class="site-nav">
@@ -136,86 +136,94 @@
   </div>
 </nav>
 
-<!-- Scroll-scrub hero (desktop, motion-enabled) -->
-<div class="hero-pin" style="height:850vh" aria-hidden="false">
-  <div class="hero-stage" id="heroStage">
-    <div class="hero-media">
-      <div class="poster" id="heroPoster"></div>
-      <video id="heroVideo" preload="none" muted playsinline aria-hidden="true" tabindex="-1"></video>
+<header class="h-hero sp" id="top" style="background-image:url('assets/sp/sd-hero.jpg')">
+  <video class="h-hero-media" autoplay muted loop playsinline preload="metadata" poster="assets/sp/sd-hero.jpg" aria-hidden="true">
+    <source src="assets/sp/sd-loop.mp4" type="video/mp4">
+  </video>
+  <div class="h-hero-inner">
+    <span class="eyebrow">Có sẵn quanh năm · Hợp tác xã Thế Hưng Organic</span>
+    <h1>Tinh Bột Sắn Dây <em>Thế Hưng</em></h1>
+    <p class="h-hero-lead">Từ củ sắn dây trồng giữa núi đá vôi Bắc Sơn — lọc nhiều lượt, sấy lò kiểm soát nhiệt. Bột trắng tự nhiên, không tẩy trắng, không phụ gia.</p>
+    <div class="h-price">Túi 0,5kg <b>80.000đ</b> · Túi 1kg <b>155.000đ</b></div>
+    <div class="h-cta">
+      <a class="btn btn-gold" href="dat-truoc.html?chon=sd1">Đặt hàng ngay</a>
+      <a class="btn btn-zalo" href="https://zalo.me/0979502000">Nhắn Zalo 0979 502 000</a>
+      <a class="btn btn-outline" href="#mua">Xem quy cách</a>
     </div>
-    <div class="scrim" aria-hidden="true"></div>
-
-    <svg class="ld-ring" id="ldRing" viewBox="0 0 48 48" aria-hidden="true">
-      <circle cx="24" cy="24" r="20" fill="none" stroke="currentColor" stroke-width="3" stroke-dasharray="126" style="stroke-dashoffset:var(--ld,126)"/>
-    </svg>
-
-    <!-- Band 1 -->
-    <div class="band" id="band1" data-band data-range="0,0.18">
-      <div class="band-inner">
-        <span class="eyebrow">Lạng Sơn · Nhà làm</span>
-        <h2 class="split-target" data-entrance="rise">Tinh Bột Sắn Dây, từ ruộng nhà mình</h2>
-      </div>
-    </div>
-
-    <!-- Band 2 -->
-    <div class="band" id="band2" data-band data-range="0.18,0.42">
-      <div class="band-inner">
-        <h2 class="split-target" data-entrance="drift">Trồng quanh năm, không phụ thuộc mùa vụ</h2>
-      </div>
-    </div>
-
-    <!-- Band 3 (crossfade zone ~0.5) -->
-    <div class="band" id="band3" data-band data-range="0.42,0.65">
-      <div class="band-inner blur-wrap">
-        <h2 class="split-target" data-entrance="blur">Lọc thủ công, sấy bằng lò chuyên dụng</h2>
-      </div>
-    </div>
-
-    <!-- Band 4: settle -->
-    <div class="band settle" id="band4" data-band data-range="0.65,1.0">
-      <div class="band-inner">
-        <div class="brand-mark" style="opacity:var(--kc,0)">
-          <img src="assets/logo-thoc-mark.png" alt="">
-        </div>
-        <h2 class="split-target" data-entrance="rise">Tinh Bột Sắn Dây</h2>
-        <p style="opacity:var(--ks,0)">Không hoá chất, không tẩy trắng — có sẵn quanh năm.</p>
-        <div class="btn-row" id="settleBtns">
-          <a href="https://zalo.me/0979502000" class="btn btn-gold">Nhắn Zalo đặt hàng</a>
-          <a href="#gia" class="btn btn-outline">Xem giá</a>
-        </div>
-      </div>
-    </div>
-
-    <div class="scroll-cue" id="scrollCue">
-      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 5v14M6 13l6 6 6-6"/></svg>
-    </div>
+    <ul class="h-chips">
+      <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>Đặt là giao ngay</li>
+      <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>Giao toàn quốc 2–5 ngày</li>
+      <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>Đổi mới nếu hư hỏng khi giao</li>
+    </ul>
   </div>
-</div>
-
-<!-- Static hero (phones, tablets, reduced motion) -->
-<div class="static-hero" id="staticHero" style="background-image:url('assets/hero-san-day-poster.jpg')">
-  <div class="band-inner">
-    <span class="eyebrow">Lạng Sơn · Nhà làm</span>
-    <h1>Tinh Bột Sắn Dây, từ ruộng nhà mình</h1>
-    <p>Lọc thủ công, sấy bằng lò chuyên dụng — không hoá chất, không tẩy trắng. Có sẵn quanh năm, đặt là giao ngay.</p>
-    <div class="btn-row" style="opacity:1">
-      <a href="https://zalo.me/0979502000" class="btn btn-gold">Nhắn Zalo đặt hàng</a>
-      <a href="#gia" class="btn btn-outline">Xem giá</a>
-    </div>
-  </div>
-</div>
+</header>
 
 <main id="main" tabindex="-1">
 
+  <section class="reveal" id="mua">
+    <div class="h-buy">
+      <div class="h-buy-media">
+        <img src="assets/home/sp-san-day.jpg" alt="Tinh bột sắn dây khô, trắng tự nhiên" width="720" height="900">
+        <img src="assets/sp/sd-g2.jpg" alt="Tinh bột sắn dây đóng túi" loading="lazy" width="600" height="600">
+        <img src="assets/sp/sd-g3.jpg" alt="Bánh bột sắn dây trên khay sấy" loading="lazy" width="600" height="600">
+      </div>
+      <div class="h-buy-body">
+        <span class="eyebrow">Chọn quy cách</span>
+        <h3>Tinh Bột Sắn Dây</h3>
+        <p class="lead">Thành phần: 100% tinh bột sắn dây. Bảo quản nơi khô ráo, thoáng mát, tránh ánh nắng trực tiếp.</p>
+        <ul class="h-variants">
+          <li><a href="dat-truoc.html?chon=sd05"><span>Túi 0,5kg<small>Dùng thử, làm quà nhỏ</small></span><b>80.000đ</b></a></li>
+          <li><a href="dat-truoc.html?chon=sd1"><span>Túi 1kg<small>Gia đình dùng thường xuyên · lợi hơn</small></span><b>155.000đ</b></a></li>
+        </ul>
+        <a class="btn btn-gold" href="dat-truoc.html?chon=sd1">Đặt hàng ngay</a>
+        <a class="btn btn-zalo" href="https://zalo.me/0979502000">Hỏi nhanh qua Zalo</a>
+        <ul class="h-ticks">
+          <li>Bấm vào quy cách → phiếu đặt hàng tự điền sẵn, gửi qua Zalo trong 1 phút</li>
+          <li>Nhà mình xác nhận đơn, báo phí ship và cách thanh toán trước khi gửi</li>
+          <li>Luôn có sẵn hàng — đặt là đóng gói gửi đi</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="reveal" id="cong-dung">
+    <div class="section-heading">
+      <span class="eyebrow">Dùng thế nào</span>
+      <h2>Một túi bột, nhiều món quen</h2>
+    </div>
+    <div class="h-uses">
+      <div class="h-use"><span class="ico"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M6 8h11v5a5 5 0 0 1-5 5h-1a5 5 0 0 1-5-5z"/><path d="M17 9h1.5a2.5 2.5 0 0 1 0 5H17"/><path d="M9 3v2M12 3v2"/></svg></span><h3>Pha uống thanh mát</h3><p>Pha nước sắn dây ngày nắng — món giải nhiệt quen thuộc theo kinh nghiệm dân gian.</p></div>
+      <div class="h-use"><span class="ico"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 11h18a9 9 0 0 1-18 0z"/><path d="M8 16h8"/></svg></span><h3>Nấu chè, tráng miệng</h3><p>Chè sắn dây hạt sen, chè bưởi, thạch — bột sánh mịn, trong veo khi chín.</p></div>
+      <div class="h-use"><span class="ico"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 14a8 8 0 0 0 16 0z"/><path d="M14 4l-3 10"/></svg></span><h3>Làm bánh, nấu ăn</h3><p>Tạo độ sánh cho súp, nước sốt; làm bánh mềm, dẻo.</p></div>
+      <div class="h-use"><span class="ico"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M8 3h8l-1 18H9z"/><path d="M8.5 9h7"/></svg></span><h3>Pha với sữa, đồ uống</h3><p>Kết hợp sữa, nước cốt chanh, mật ong tuỳ khẩu vị.</p></div>
+    </div>
+    <p class="h-uses-note">Chưa biết pha sao cho không vón cục? <a href="cach-dung-tinh-bot-san-day.html">Xem hướng dẫn cách dùng →</a> · Tinh bột sắn dây là thực phẩm, không thay thế thuốc chữa bệnh.</p>
+  </section>
+
   <section class="reveal" id="quy-trinh">
     <div class="section-heading">
-      <span class="eyebrow">Quy trình thật</span>
-      <h2>Nhà mình làm thế nào</h2>
-      <p>Không phải chuyện kể, đây là video quay thật từ ngoài ruộng đến trong xưởng.</p>
+      <span class="eyebrow">Quy trình</span>
+      <h2>6 bước, làm thật, không đi tắt</h2>
+      <p>Toàn bộ ảnh chụp tại nương và xưởng của hợp tác xã ở xã Vũ Lăng.</p>
+    </div>
+    <div class="h-steps">
+      <div class="h-step"><img src="assets/home/b1-trong.jpg" alt="Nương sắn dây xanh dưới chân núi đá vôi" loading="lazy" width="800" height="600"><div class="h-step-body"><h3>Trồng giữa núi đá</h3><p>Dây leo phủ kín giàn, củ lớn dần dưới đất trên nương xã Vũ Lăng.</p></div></div>
+      <div class="h-step"><img src="assets/home/b2-thuhoach.jpg" alt="Máy xúc đào cả gốc củ sắn dây lên khỏi đất" loading="lazy" width="800" height="600"><div class="h-step-body"><h3>Đào cả gốc củ</h3><p>Đến mùa, đào tận gốc, củ to chắc, đưa về xưởng trong ngày.</p></div></div>
+      <div class="h-step"><img src="assets/home/b3-rua.jpg" alt="Rửa sạch củ sắn dây bằng vòi nước" loading="lazy" width="800" height="600"><div class="h-step-body"><h3>Rửa sạch, nghiền</h3><p>Rửa hết đất cát rồi nghiền nát, ép lấy nước bột.</p></div></div>
+      <div class="h-step"><img src="assets/home/b4-loc.jpg" alt="Khuấy bột sắn dây trắng trong bể lắng" loading="lazy" width="800" height="600"><div class="h-step-body"><h3>Lọc &amp; lắng nhiều lượt</h3><p>Khuấy, để lắng, thay nước, lọc lại — đến khi bột thật trắng và trong.</p></div></div>
+      <div class="h-step"><img src="assets/home/b5-say.jpg" alt="Đẩy khay bột vào lò sấy nhiều tầng" loading="lazy" width="800" height="600"><div class="h-step-body"><h3>Sấy lò nhiều tầng</h3><p>Nhiệt độ cài sẵn, bột khô đều, không phụ thuộc nắng mưa.</p></div></div>
+      <div class="h-step"><img src="assets/home/b6-donggoi.jpg" alt="Tinh bột sắn dây đã sấy khô được đóng túi" loading="lazy" width="800" height="600"><div class="h-step-body"><h3>Ra lò là đóng túi</h3><p>Đóng túi ngay khi bột vừa khô, giữ trọn màu trắng tự nhiên.</p></div></div>
+    </div>
+  </section>
+
+  <section class="reveal" id="video">
+    <div class="section-heading">
+      <span class="eyebrow">Video quay thật</span>
+      <h2>Xem tận mắt từ nương đến xưởng</h2>
     </div>
     <div class="video-grid">
       <div class="video-frame">
-        <p>Đầy đủ cả hành trình — đào củ, nghiền lọc, sấy khô (34s)</p>
+        <p>Cả hành trình — đào củ, nghiền lọc, sấy khô</p>
         <video src="assets/san-day-hanh-trinh-day-du.mp4" poster="assets/san-day-hanh-trinh-day-du-poster.jpg" controls playsinline preload="none"></video>
       </div>
       <div class="video-frame">
@@ -227,60 +235,25 @@
         <video src="assets/san-day-quy-trinh-say.mp4" poster="assets/san-day-quy-trinh-say-poster.jpg" controls playsinline preload="none"></video>
       </div>
       <div class="video-frame">
-        <p>Một buổi sáng trên nương, giữa núi đá vôi (24s)</p>
+        <p>Một buổi sáng trên nương, giữa núi đá vôi</p>
         <video src="assets/san-day-buoi-sang-tren-nuong.mp4" poster="assets/san-day-buoi-sang-tren-nuong-poster.jpg" controls playsinline preload="none"></video>
       </div>
     </div>
   </section>
 
-  <section id="gia" class="reveal">
+  <section class="reveal" id="yen-tam">
     <div class="section-heading">
-      <span class="eyebrow">Có sẵn quanh năm</span>
-      <h2>Giá &amp; quy cách</h2>
+      <span class="eyebrow">Mua yên tâm</span>
+      <h2>Giao tận nơi, lỗi là đổi</h2>
     </div>
-    <div class="product">
-      <div class="product-grid">
-        <div class="product-media">
-          <img src="assets/tinh-bot-san-day-real-01.jpg" alt="Tinh Bột Sắn Dây thành phẩm" loading="lazy">
-        </div>
-        <div class="product-body">
-          <h3>Tinh Bột Sắn Dây</h3>
-          <p class="tagline">Làm thủ công tại nhà, lọc thủ công và sấy bằng lò sấy chuyên dụng — không hoá chất, không chất tẩy trắng.</p>
-          <table class="price-table mono">
-            <tr><th>Quy cách</th><th>Giá</th></tr>
-            <tr><td>Túi 0.5kg</td><td>80.000đ</td></tr>
-            <tr><td>Túi 1kg</td><td>155.000đ</td></tr>
-          </table>
-          <p class="stock-note">Luôn có sẵn, đặt là giao ngay.</p>
-          <span class="cert-badge">🛒 Sắp có mặt trên Shopee &amp; TikTok Shop</span>
-          <br>
-          <a href="https://zalo.me/0979502000" class="btn btn-gold" style="margin-top:.9rem">Nhắn Zalo đặt Sắn Dây</a>
-        </div>
-      </div>
+    <div class="h-policy">
+      <div><b>Giao toàn quốc</b><p>Qua đơn vị vận chuyển, thường 2–5 ngày tuỳ khu vực. Phí ship báo trước khi bạn xác nhận đơn.</p></div>
+      <div><b>Đổi mới hoặc hoàn tiền</b><p>Nếu hàng hư hỏng do vận chuyển, giao sai loại/sai số lượng hoặc lỗi sản xuất — quay video lúc mở hàng, báo Zalo trong 24 giờ.</p></div>
+      <div><b>Xác nhận trước khi gửi</b><p>Nhà mình gọi/nhắn xác nhận đơn và cách thanh toán phù hợp rồi mới đóng hàng.</p></div>
     </div>
-  </section>
-
-  <section class="reveal">
-    <div class="section-heading glow-pulse">
-      <span class="eyebrow">Cam kết</span>
-      <h2>Vì sao chọn nhà mình</h2>
-    </div>
-    <div class="commit-grid reveal-stagger">
-      <div class="commit-card part">
-        <span class="commit-icon" aria-hidden="true"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg></span>
-        <h3>Nhà làm, không hoá chất</h3>
-        <p>Lọc thủ công, sấy bằng lò chuyên dụng — không tẩy trắng, không phụ gia.</p>
-      </div>
-      <div class="commit-card part">
-        <span class="commit-icon" aria-hidden="true"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg></span>
-        <h3>Luôn có sẵn</h3>
-        <p>Sản xuất quanh năm, không phụ thuộc mùa vụ — đặt là giao ngay.</p>
-      </div>
-      <div class="commit-card part">
-        <span class="commit-icon" aria-hidden="true"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg></span>
-        <h3>Giao tận nơi</h3>
-        <p>Đóng gói cẩn thận, giao hàng toàn quốc, thường 2–5 ngày tuỳ khu vực.</p>
-      </div>
+    <div class="h-wholesale" style="margin-top:1.5rem">
+      <div><b>Mua sỉ: túi 5kg, 10kg</b><span>Quán chè, tiệm bánh, cửa hàng đặc sản, đối tác xuất khẩu — nhắn để nhận báo giá sỉ.</span></div>
+      <a class="btn btn-outline" href="https://zalo.me/0979502000">Hỏi giá sỉ</a>
     </div>
   </section>
 
@@ -292,15 +265,15 @@
     <div class="faq-list">
       <details class="faq-item">
         <summary>Tinh Bột Sắn Dây bảo quản được bao lâu?</summary>
-        <p>Đã sấy khô hoàn toàn nên bảo quản được lâu — để nơi khô ráo, thoáng mát, tránh ẩm là dùng tốt. Bán quanh năm, nhà mình luôn có hàng mới, đặt là giao ngay.</p>
+        <p>Đã sấy khô hoàn toàn nên bảo quản được lâu — để nơi khô ráo, thoáng mát, tránh ẩm là dùng tốt. Bán quanh năm, luôn có hàng mới, đặt là giao ngay.</p>
       </details>
       <details class="faq-item">
-        <summary>Sản phẩm có chứng nhận an toàn không?</summary>
-        <p>Tinh Bột Sắn Dây là cơ sở hộ gia đình quy mô nhỏ, hiện chưa có chứng nhận chính thức nào — nhà mình nói rõ điều này để khách hiểu đúng thực tế, không hoá chất, không tẩy trắng vẫn là cam kết thật.</p>
+        <summary>Sản phẩm có chứng nhận gì?</summary>
+        <p>Giấy tờ của Tinh Bột Sắn Dây sẽ được công khai tại đây khi hợp tác xã hoàn tất hồ sơ — nhà mình chỉ ghi những gì có giấy thật. Không hoá chất, không tẩy trắng là cam kết của hợp tác xã.</p>
       </details>
       <details class="faq-item">
         <summary>Ở xa (ngoại tỉnh, vùng núi) có giao được không?</summary>
-        <p>Giao hàng toàn quốc qua đơn vị vận chuyển, thường 2–5 ngày tuỳ khu vực (nội thành nhanh hơn, vùng xa lâu hơn). Phí ship theo bảng giá đơn vị vận chuyển, hiển thị trước khi bạn xác nhận đặt hàng.</p>
+        <p>Giao hàng toàn quốc qua đơn vị vận chuyển, thường 2–5 ngày tuỳ khu vực (nội thành nhanh hơn, vùng xa lâu hơn). Phí ship theo bảng giá đơn vị vận chuyển, báo trước khi bạn xác nhận đặt hàng.</p>
       </details>
       <details class="faq-item">
         <summary>Hàng lỗi hoặc giao sai thì đổi trả thế nào?</summary>
@@ -308,21 +281,22 @@
       </details>
       <details class="faq-item">
         <summary>Mua sỉ/số lượng lớn được không?</summary>
-        <p>Có, nhà mình nhận đặt sỉ và trao đổi xuất khẩu — nhắn Zalo để trao đổi số lượng, giá, cách đóng gói phù hợp.</p>
+        <p>Có — hợp tác xã nhận đặt sỉ (túi 5kg, 10kg) và trao đổi xuất khẩu. Nhắn Zalo để trao đổi số lượng, giá, cách đóng gói phù hợp.</p>
       </details>
     </div>
   </section>
 
   <section class="reveal" id="lien-he">
-    <div class="cta-section">
-      <span class="eyebrow">Liên hệ</span>
-      <h2>Đặt hàng hoặc hỏi thêm</h2>
-      <p style="color:var(--text-secondary)">Nhắn trực tiếp, nhà mình trả lời và trao đổi cách thanh toán, giao hàng phù hợp.</p>
-      <div class="cta-links">
-        <a href="https://zalo.me/0979502000" class="btn btn-gold">Zalo: 0979 502 000</a>
-        <a href="mailto:hello@nongsannhalam.com" class="btn btn-outline">hello@nongsannhalam.com</a>
+    <div class="h-final" style="background-image:url('assets/home/vung-35.jpg')">
+      <span class="eyebrow">Đặt hàng</span>
+      <h2>Đặt hôm nay, giao tận nhà</h2>
+      <p>Túi 0,5kg 80.000đ · túi 1kg 155.000đ. Nhắn Zalo hoặc gọi — giao tận nơi trên toàn quốc.</p>
+      <div class="h-cta">
+        <a class="btn btn-gold" href="dat-truoc.html?chon=sd1">Đặt hàng ngay</a>
+        <a class="btn btn-zalo" href="https://zalo.me/0979502000">Zalo 0979 502 000</a>
+        <a class="btn btn-outline" href="tel:0979502000">Gọi 0979 502 000</a>
       </div>
-      <p class="cta-note">Giao hàng toàn quốc. Muốn xem cả Cam Đường Canh? <a href="cam-duong-canh.html">Sang trang Cam Đường Canh</a>. Chưa biết pha sao cho không vón cục? <a href="cach-dung-tinh-bot-san-day.html">Xem hướng dẫn cách dùng</a>.</p>
+      <p class="cta-note">Muốn xem cả Cam Đường Canh? <a href="cam-duong-canh.html">Sang trang Cam Đường Canh →</a></p>
     </div>
   </section>
 
@@ -330,12 +304,20 @@
 
 <footer>© Hợp tác xã Thế Hưng Organic (THOC) — Vũ Lăng, Lạng Sơn</footer>
 
+<nav class="h-sticky" id="hSticky" aria-label="Đặt hàng nhanh">
+  <a href="tel:0979502000">📞 Gọi</a>
+  <a class="zalo" href="https://zalo.me/0979502000">Zalo</a>
+  <a class="buy" href="dat-truoc.html?chon=sd1">Đặt hàng</a>
+</nav>
 <script>
-  window.HERO_CONFIG = {
-    videoUrl: 'assets/hero-san-day.mp4',
-    videoBytes: 19939935,
-    posterUrl: 'assets/hero-san-day-poster.jpg'
-  };
+(function(){
+  var bar=document.getElementById('hSticky'), hero=document.getElementById('top');
+  if(!bar||!hero||!('IntersectionObserver' in window)) return;
+  document.body.classList.add('has-sticky');
+  new IntersectionObserver(function(e){ bar.classList.toggle('show', !e[0].isIntersecting); },{threshold:0.15}).observe(hero);
+  var v=hero.querySelector('video');
+  if(v && navigator.connection && navigator.connection.saveData){ v.removeAttribute('autoplay'); v.pause(); }
+})();
 </script>
 <script src="assets/hero.js"></script>
 </body>

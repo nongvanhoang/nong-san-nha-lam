@@ -86,7 +86,7 @@
 }
 </script>
 </head>
-<body>
+<body class="home">
 <a href="#main" class="skip-link">Skip to content</a>
 
 <nav class="site-nav">
@@ -114,151 +114,104 @@
   </div>
 </nav>
 
-<!-- Scroll-scrub hero (desktop, motion-enabled) -->
-<div class="hero-pin" style="height:1000vh" aria-hidden="false">
-  <div class="hero-stage" id="heroStage">
-    <div class="hero-media">
-      <div class="poster" id="heroPoster"></div>
-      <video id="heroVideo" preload="none" muted playsinline aria-hidden="true" tabindex="-1"></video>
+<header class="h-hero sp" id="top" style="background-image:url('../assets/sp/cam-hero.jpg')">
+  <video class="h-hero-media" autoplay muted loop playsinline preload="metadata" poster="../assets/sp/cam-hero.jpg" aria-hidden="true">
+    <source src="../assets/sp/cam-loop.mp4" type="video/mp4">
+  </video>
+  <div class="h-hero-inner">
+    <span class="eyebrow">Seasonal · VietGAP certified</span>
+    <h1>Canh mandarins, <em>ripened on the tree</em></h1>
+    <p class="h-hero-lead">No ripening agents, hand-picked in season — roughly November to January (lunar calendar). Fresh fruit, delivered within Vietnam only.</p>
+    <div class="h-price">5 kg box <b>275,000 VND</b> · 10 kg box <b>500,000 VND</b></div>
+    <div class="h-cta">
+      <a class="btn btn-gold" href="https://wa.me/84363589920?text=Hello%2C%20I%27d%20like%20to%20pre-order%20Canh%20mandarins.">Pre-order via WhatsApp</a>
+      <a class="btn btn-zalo" href="https://zalo.me/0979502000">Zalo +84 979 502 000</a>
+      <a class="btn btn-outline" href="#buy">Box sizes</a>
     </div>
-    <div class="scrim" aria-hidden="true"></div>
-
-    <svg class="ld-ring" id="ldRing" viewBox="0 0 48 48" aria-hidden="true">
-      <circle cx="24" cy="24" r="20" fill="none" stroke="currentColor" stroke-width="3" stroke-dasharray="126" style="stroke-dashoffset:var(--ld,126)"/>
-    </svg>
-
-    <div class="band" id="band1" data-band data-range="0,0.18">
-      <div class="band-inner">
-        <span class="eyebrow">Lang Son, Vietnam · VietGAP</span>
-        <h2 class="split-target" data-entrance="rise">Canh Mandarin Oranges, grown by our family</h2>
-      </div>
-    </div>
-
-    <div class="band" id="band2" data-band data-range="0.2,0.42">
-      <div class="band-inner">
-        <h2 class="split-target" data-entrance="drift">Left to ripen naturally, harvested in season</h2>
-      </div>
-    </div>
-
-    <div class="band" id="band3" data-band data-range="0.46,0.68">
-      <div class="band-inner">
-        <h2 class="split-target" data-entrance="approach">VietGAP certified, with a real certificate number</h2>
-      </div>
-    </div>
-
-    <div class="band settle" id="band4" data-band data-range="0.76,1.0">
-      <div class="band-inner">
-        <div class="brand-mark" style="opacity:var(--kc,0)">
-          <img src="../assets/logo-thoc-mark.png" alt="">
-        </div>
-        <h2 class="split-target" data-entrance="rise">Canh Mandarin Oranges</h2>
-        <p style="opacity:var(--ks,0)">Reserve ahead on Zalo, delivered right in season.</p>
-        <div class="btn-row" id="settleBtns">
-          <a href="https://zalo.me/0979502000" class="btn btn-gold">Reserve on Zalo</a>
-          <a href="#gia" class="btn btn-outline">See pricing</a>
-        </div>
-      </div>
-    </div>
-
-    <div class="scroll-cue" id="scrollCue">
-      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 5v14M6 13l6 6 6-6"/></svg>
-    </div>
+    <ul class="h-chips">
+      <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>VietGAP No. 112/CN-TĐC-TT-20-0012</li>
+      <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>No ripening agents</li>
+      <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>Domestic delivery in season</li>
+    </ul>
   </div>
-</div>
-
-<!-- Static hero (phones, tablets, reduced motion) -->
-<div class="static-hero" id="staticHero" style="background-image:url('../assets/hero-cam-poster.jpg')">
-  <div class="band-inner">
-    <span class="eyebrow">Lang Son, Vietnam · VietGAP</span>
-    <h1>Canh Mandarin Oranges, grown by our family</h1>
-    <p>Left to ripen naturally, harvested in season, VietGAP certified. Reserve ahead on Zalo, domestic delivery within Vietnam.</p>
-    <div class="btn-row" style="opacity:1">
-      <a href="https://zalo.me/0979502000" class="btn btn-gold">Reserve on Zalo</a>
-      <a href="#gia" class="btn btn-outline">See pricing</a>
-    </div>
-  </div>
-</div>
+</header>
 
 <main id="main" tabindex="-1">
 
-  <section class="reveal" id="gia">
-    <div class="section-heading">
-      <span class="eyebrow">Seasonal · VietGAP</span>
-      <h2>Pricing &amp; certification</h2>
-    </div>
-    <div class="product">
-      <div class="product-grid">
-        <div class="product-media">
-          <img src="../assets/cam-duong-canh-real-qua.jpg" alt="Canh Mandarin Oranges ripe on the tree" loading="lazy">
+  <section class="reveal" id="buy">
+    <div class="h-buy">
+      <div class="h-buy-media">
+        <img src="../assets/sp/cam-main.jpg" alt="Branches heavy with ripe Canh mandarins" width="800" height="600">
+        <img src="../assets/sp/cam-g1.jpg" alt="Canh mandarin cut in half" loading="lazy" width="600" height="600">
+        <img src="../assets/sp/cam-g2.jpg" alt="A packed box of Canh mandarins" loading="lazy" width="600" height="600">
+      </div>
+      <div class="h-buy-body">
+        <span class="eyebrow">Pre-order the new season</span>
+        <h3>Canh Mandarins</h3>
+        <div class="h-cert">
+          <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#7fa66a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l7 3v6c0 4.5-3 7.5-7 9-4-1.5-7-4.5-7-9V6z"/><path d="M9 12l2 2 4-4"/></svg>
+          <div><b>VietGAP certified · No. 112/CN-TĐC-TT-20-0012</b><span>Issued by NATEK JSC, valid until 22 Dec 2028, per TCVN 11892-1:2017. Issued to Nhung Giang Fruit Cooperative — the orchard is a member household.</span></div>
         </div>
-        <div class="product-body">
-          <h3>Canh Mandarin Oranges</h3>
-          <p class="tagline">Grown by a family member of the Nhung Giang Fruit Tree Cooperative (Lang Son province) — left to ripen naturally, harvested in season.</p>
-          <span class="cert-badge">
-            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>
-            VietGAP Certified · No. 112/CN-TĐC-TT-20-0012
-          </span>
-          <p class="cert-note">Issued by NATEK JSC, valid until 22 Dec 2028, per TCVN 11892-1:2017.</p>
-          <table class="price-table mono">
-            <tr><th>Pack size</th><th>Domestic price</th></tr>
-            <tr><td>5 kg box</td><td>275,000 VND</td></tr>
-            <tr><td>10 kg box</td><td>500,000 VND</td></tr>
-          </table>
-          <p class="stock-note">Sold by the box (5 kg or 10 kg) only, no loose kg sales. Harvest season is roughly November to January, lunar calendar.</p>
-          <div class="waitlist-box">
-            Out of season right now. <a href="https://zalo.me/0979502000">Message us on Zalo and we'll notify you when the next harvest is ready</a> 🍊
-          </div>
-        </div>
+        <p class="h-season">Currently <b>out of season</b>. Pre-order to reserve a box and be notified first when the fruit ripens (around November, lunar calendar).</p>
+        <ul class="h-variants">
+          <li><a href="https://wa.me/84363589920?text=Hello%2C%20I%27d%20like%20to%20pre-order%20a%205%20kg%20box%20of%20Canh%20mandarins."><span>5 kg box<small>Right for a family</small></span><b>275,000 VND</b></a></li>
+          <li><a href="https://wa.me/84363589920?text=Hello%2C%20I%27d%20like%20to%20pre-order%20a%2010%20kg%20box%20of%20Canh%20mandarins."><span>10 kg box<small>For gifting or longer use · better value</small></span><b>500,000 VND</b></a></li>
+        </ul>
+        <a class="btn btn-gold" href="https://wa.me/84363589920">Pre-order via WhatsApp</a>
+        <a class="btn btn-zalo" href="https://zalo.me/0979502000">Zalo +84 979 502 000</a>
+        <ul class="h-ticks">
+          <li>Sold by the box only (5 kg or 10 kg)</li>
+          <li>No payment needed to pre-order — we confirm when the fruit is ready</li>
+          <li>Fresh fruit: delivery within Vietnam only (no export)</li>
+        </ul>
       </div>
     </div>
   </section>
 
-  <section class="reveal" id="quy-trinh">
+  <section class="reveal" id="season">
     <div class="section-heading">
-      <span class="eyebrow">Following the season</span>
-      <h2>A look back, and a season update</h2>
-      <p>Real footage, no staging — new season expected around November (lunar calendar).</p>
+      <span class="eyebrow">One season</span>
+      <h2>From blossom to the box in your hands</h2>
+      <p>Real photos from the orchard — the trees flower, set fruit and ripen in their own time.</p>
+    </div>
+    <div class="h-steps">
+      <div class="h-step"><img src="../assets/sp/t1-nu.jpg" alt="Early-season orange buds" loading="lazy" width="800" height="600"><div class="h-step-body"><h3>First buds</h3><p>The trees put out tiny flower buds.</p></div></div>
+      <div class="h-step"><img src="../assets/sp/t2-hoa.jpg" alt="White orange blossoms" loading="lazy" width="800" height="600"><div class="h-step-body"><h3>Blossom</h3><p>White blossoms, gently fragrant every morning.</p></div></div>
+      <div class="h-step"><img src="../assets/sp/t3-quanon.jpg" alt="Young green fruit on the branch" loading="lazy" width="800" height="600"><div class="h-step-body"><h3>Young fruit</h3><p>Petals fall and the fruit grows for months.</p></div></div>
+      <div class="h-step"><img src="../assets/sp/t4-chin.jpg" alt="Ripe oranges on the tree" loading="lazy" width="800" height="600"><div class="h-step-body"><h3>Ripened on the tree</h3><p>No ripening agents — we wait until it's ready.</p></div></div>
+      <div class="h-step"><img src="../assets/sp/t5-hai.jpg" alt="Hand-picking oranges" loading="lazy" width="800" height="600"><div class="h-step-body"><h3>Hand-picked in season</h3><p>Around November to January, fruit by fruit.</p></div></div>
+      <div class="h-step"><img src="../assets/sp/t6-donggoi.jpg" alt="Oranges packed into a box with leaves" loading="lazy" width="800" height="600"><div class="h-step-body"><h3>Sorted and boxed</h3><p>Packed with care the same day, shipped across Vietnam.</p></div></div>
+    </div>
+  </section>
+
+  <section class="reveal" id="orchard">
+    <div class="section-heading">
+      <span class="eyebrow">The orchard</span>
+      <h2>In the limestone valleys of Lang Son</h2>
+    </div>
+    <div class="h-gallery">
+      <figure class="big"><img src="../assets/sp/vuon-25.jpg" alt="Orange trees heavy with ripe fruit" loading="lazy"></figure>
+      <figure><img src="../assets/sp/cam-g3.jpg" alt="Rows of orange trees" loading="lazy"></figure>
+      <figure><img src="../assets/sp/cam-g4.jpg" alt="Boxes of Canh mandarins ready to ship" loading="lazy"></figure>
+      <figure class="wide"><img src="../assets/sp/vuon-suong.jpg" alt="Morning light through the mist" loading="lazy"></figure>
+      <figure class="wide"><img src="../assets/sp/vuon-12.jpg" alt="The orchard below the hills" loading="lazy"></figure>
+      <figure class="wide"><img src="../assets/sp/vuon-14.jpg" alt="Orange trees with branch supports" loading="lazy"></figure>
+    </div>
+  </section>
+
+  <section class="reveal" id="video">
+    <div class="section-heading">
+      <span class="eyebrow">Real footage</span>
+      <h2>Last season, and this one</h2>
     </div>
     <div class="video-grid">
       <div class="video-frame">
-        <p>Last season's harvest (on-screen text in Vietnamese)</p>
+        <p>The orchard last season</p>
         <video src="../assets/cam-vuon-mua-truoc.mp4" poster="../assets/cam-vuon-mua-truoc-poster.jpg" controls playsinline preload="none"></video>
       </div>
       <div class="video-frame">
-        <p>This season so far: flower to young fruit (31s)</p>
+        <p>This season: from blossom to young fruit</p>
         <video src="../assets/cam-duongcanh-ham-nong.mp4" poster="../assets/cam-duongcanh-ham-nong-poster.jpg" controls playsinline preload="none"></video>
-      </div>
-    </div>
-  </section>
-
-  <section class="reveal" id="xuat-khau">
-    <div class="section-heading">
-      <span class="eyebrow">Export status</span>
-      <h2>Domestic delivery only, for now</h2>
-      <p>Even with VietGAP certification, exporting fresh fruit also requires phytosanitary certificates and customs procedures our operation does not yet have. We are not able to fulfil international orders for this product at this time — Kudzu Root Starch is our export-ready product.</p>
-    </div>
-  </section>
-
-  <section class="reveal">
-    <div class="section-heading glow-pulse">
-      <span class="eyebrow">Why choose us</span>
-      <h2>Our commitment</h2>
-    </div>
-    <div class="commit-grid reveal-stagger">
-      <div class="commit-card part">
-        <span class="commit-icon" aria-hidden="true"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg></span>
-        <h3>Real certification</h3>
-        <p>VietGAP certified, No. 112/CN-TĐC-TT-20-0012, issued by NATEK JSC, publicly verifiable.</p>
-      </div>
-      <div class="commit-card part">
-        <span class="commit-icon" aria-hidden="true"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg></span>
-        <h3>Naturally ripened</h3>
-        <p>Grown and harvested naturally, in season — no ripening agents used.</p>
-      </div>
-      <div class="commit-card part">
-        <span class="commit-icon" aria-hidden="true"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg></span>
-        <h3>We ship to you</h3>
-        <p>Carefully packed, domestic delivery nationwide once in season.</p>
       </div>
     </div>
   </section>
@@ -270,34 +223,35 @@
     </div>
     <div class="faq-list">
       <details class="faq-item">
-        <summary>When are Canh Mandarin Oranges in season?</summary>
-        <p>Harvest season is roughly November to January (lunar calendar) only. Outside the season you can still reserve ahead — message us on Zalo and we'll notify you first when the new harvest is ready.</p>
+        <summary>When are Canh mandarins in season?</summary>
+        <p>Harvest season is roughly November to January (lunar calendar) only. Outside the season you can still reserve ahead — we'll notify you first when the new harvest is ready.</p>
       </details>
       <details class="faq-item">
-        <summary>Is your production certified?</summary>
-        <p>Yes, Canh Mandarin Oranges are VietGAP certified (certificate No. 112/CN-TĐC-TT-20-0012), issued by NATEK JSC, per TCVN 11892-1:2017.</p>
+        <summary>Is the fruit certified?</summary>
+        <p>Yes — VietGAP certified (No. 112/CN-TĐC-TT-20-0012), issued by NATEK JSC to Nhung Giang Fruit Cooperative, per TCVN 11892-1:2017, valid until 22 Dec 2028.</p>
       </details>
       <details class="faq-item">
         <summary>Do you ship this internationally?</summary>
-        <p>Not at this time. As fresh fruit, export requires phytosanitary certificates and customs procedures our operation does not yet have. Domestic delivery within Vietnam only.</p>
+        <p>Not at this time. As fresh fruit, export requires phytosanitary certificates and customs procedures we do not yet have. Delivery within Vietnam only — for export, see our <a href="san-day.html">kudzu root starch</a>.</p>
       </details>
       <details class="faq-item">
         <summary>What if my order arrives damaged or wrong?</summary>
-        <p>As this is a food product, we don't accept returns on opened or used items. We'll replace the item or refund if it arrives damaged, the wrong item/quantity was sent, or there's a production defect — film an unboxing video and message us on Zalo within 24 hours of delivery.</p>
+        <p>As this is a food product, we don't accept returns on opened or used items. We'll replace the item or refund if it arrives damaged, the wrong item/quantity was sent, or there's a production defect — film an unboxing video and message us within 24 hours of delivery.</p>
       </details>
     </div>
   </section>
 
   <section class="reveal" id="lien-he">
-    <div class="cta-section">
-      <span class="eyebrow">Contact</span>
-      <h2>Reserve ahead or ask a question</h2>
-      <p style="color:var(--text-secondary)">Message us on Zalo and we'll notify you as soon as the season starts.</p>
-      <div class="cta-links">
-        <a href="https://zalo.me/0979502000" class="btn btn-gold">Zalo: +84 979 502 000</a>
-        <a href="mailto:hello@nongsannhalam.com" class="btn btn-outline">hello@nongsannhalam.com</a>
+    <div class="h-final" style="background-image:url('../assets/sp/vuon-20.jpg')">
+      <span class="eyebrow">Pre-order</span>
+      <h2>Reserve a box for the new season</h2>
+      <p>5 kg box 275,000 VND · 10 kg box 500,000 VND. Delivered within Vietnam when the fruit is ripe.</p>
+      <div class="h-cta">
+        <a class="btn btn-gold" href="https://wa.me/84363589920">WhatsApp +84 363 589 920</a>
+        <a class="btn btn-zalo" href="https://zalo.me/0979502000">Zalo +84 979 502 000</a>
+        <a class="btn btn-outline" href="mailto:hello@nongsannhalam.com">hello@nongsannhalam.com</a>
       </div>
-      <p class="cta-note">Looking for Kudzu Root Starch (available year-round, export-ready)? <a href="san-day.html">See the Kudzu Starch page</a>.</p>
+      <p class="cta-note">Need kudzu root starch (year-round, export available)? <a href="san-day.html">See the kudzu page →</a></p>
     </div>
   </section>
 
@@ -305,12 +259,20 @@
 
 <footer>© The Hung Organic Cooperative (THOC) — Lang Son, Vietnam</footer>
 
+<nav class="h-sticky" id="hSticky" aria-label="Quick contact">
+  <a href="mailto:hello@nongsannhalam.com">✉ Email</a>
+  <a class="zalo" href="https://zalo.me/0979502000">Zalo</a>
+  <a class="buy" href="https://wa.me/84363589920">WhatsApp</a>
+</nav>
 <script>
-  window.HERO_CONFIG = {
-    videoUrl: '../assets/hero-cam.mp4',
-    videoBytes: 26006129,
-    posterUrl: '../assets/hero-cam-poster.jpg'
-  };
+(function(){
+  var bar=document.getElementById('hSticky'), hero=document.getElementById('top');
+  if(!bar||!hero||!('IntersectionObserver' in window)) return;
+  document.body.classList.add('has-sticky');
+  new IntersectionObserver(function(e){ bar.classList.toggle('show', !e[0].isIntersecting); },{threshold:0.15}).observe(hero);
+  var v=hero.querySelector('video');
+  if(v && navigator.connection && navigator.connection.saveData){ v.removeAttribute('autoplay'); v.pause(); }
+})();
 </script>
 <script src="../assets/hero.js"></script>
 </body>

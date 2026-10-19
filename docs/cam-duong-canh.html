@@ -86,7 +86,7 @@
 }
 </script>
 </head>
-<body>
+<body class="home">
 <a href="#main" class="skip-link">Bỏ qua tới nội dung</a>
 
 <nav class="site-nav">
@@ -115,114 +115,107 @@
   </div>
 </nav>
 
-<!-- Scroll-scrub hero (desktop, motion-enabled) -->
-<div class="hero-pin" style="height:1000vh" aria-hidden="false">
-  <div class="hero-stage" id="heroStage">
-    <div class="hero-media">
-      <div class="poster" id="heroPoster"></div>
-      <video id="heroVideo" preload="none" muted playsinline aria-hidden="true" tabindex="-1"></video>
+<header class="h-hero sp" id="top" style="background-image:url('assets/sp/cam-hero.jpg')">
+  <video class="h-hero-media" autoplay muted loop playsinline preload="metadata" poster="assets/sp/cam-hero.jpg" aria-hidden="true">
+    <source src="assets/sp/cam-loop.mp4" type="video/mp4">
+  </video>
+  <div class="h-hero-inner">
+    <span class="eyebrow">Theo mùa · Chứng nhận VietGAP</span>
+    <h1>Cam Đường Canh <em>chín trên cây</em>, vườn VietGAP Lạng Sơn</h1>
+    <p class="h-hero-lead">Không thúc chín, hái tay đúng mùa — khoảng tháng 11 âm lịch đến tháng 1. Đặt trước để được giữ hàng và giao sớm nhất khi vào mùa.</p>
+    <div class="h-price">Thùng 5kg <b>275.000đ</b> · Thùng 10kg <b>500.000đ</b></div>
+    <div class="h-cta">
+      <a class="btn btn-gold" href="dat-truoc.html?chon=cam10">Đặt trước mùa mới</a>
+      <a class="btn btn-zalo" href="https://zalo.me/0979502000">Nhắn Zalo 0979 502 000</a>
+      <a class="btn btn-outline" href="#mua">Xem quy cách</a>
     </div>
-    <div class="scrim" aria-hidden="true"></div>
-
-    <svg class="ld-ring" id="ldRing" viewBox="0 0 48 48" aria-hidden="true">
-      <circle cx="24" cy="24" r="20" fill="none" stroke="currentColor" stroke-width="3" stroke-dasharray="126" style="stroke-dashoffset:var(--ld,126)"/>
-    </svg>
-
-    <!-- Band 1 -->
-    <div class="band" id="band1" data-band data-range="0,0.18">
-      <div class="band-inner">
-        <span class="eyebrow">Lạng Sơn · VietGAP</span>
-        <h2 class="split-target" data-entrance="rise">Cam Đường Canh, trồng bởi gia đình</h2>
-      </div>
-    </div>
-
-    <!-- Band 2 -->
-    <div class="band" id="band2" data-band data-range="0.2,0.42">
-      <div class="band-inner">
-        <h2 class="split-target" data-entrance="drift">Không thúc chín, thu hoạch theo mùa</h2>
-      </div>
-    </div>
-
-    <!-- Band 3 -->
-    <div class="band" id="band3" data-band data-range="0.46,0.68">
-      <div class="band-inner">
-        <h2 class="split-target" data-entrance="approach">Đạt chuẩn VietGAP, có số chứng nhận rõ ràng</h2>
-      </div>
-    </div>
-
-    <!-- Band 4: settle -->
-    <div class="band settle" id="band4" data-band data-range="0.76,1.0">
-      <div class="band-inner">
-        <div class="brand-mark" style="opacity:var(--kc,0)">
-          <img src="assets/logo-thoc-mark.png" alt="">
-        </div>
-        <h2 class="split-target" data-entrance="rise">Cam Đường Canh</h2>
-        <p style="opacity:var(--ks,0)">Đặt trước qua Zalo, có hàng đúng mùa.</p>
-        <div class="btn-row" id="settleBtns">
-          <a href="dat-truoc.html?chon=cam5" class="btn btn-gold">Đặt trước mùa mới</a>
-          <a href="#gia" class="btn btn-outline">Xem giá</a>
-        </div>
-      </div>
-    </div>
-
-    <div class="scroll-cue" id="scrollCue">
-      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 5v14M6 13l6 6 6-6"/></svg>
-    </div>
+    <ul class="h-chips">
+      <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>VietGAP 112/CN-TĐC-TT-20-0012</li>
+      <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>Không thúc chín</li>
+      <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>Giao toàn quốc khi vào mùa</li>
+    </ul>
   </div>
-</div>
-
-<!-- Static hero (phones, tablets, reduced motion) -->
-<div class="static-hero" id="staticHero" style="background-image:url('assets/hero-cam-poster.jpg')">
-  <div class="band-inner">
-    <span class="eyebrow">Lạng Sơn · VietGAP</span>
-    <h1>Cam Đường Canh, trồng bởi gia đình</h1>
-    <p>Không thúc chín, thu hoạch theo mùa, đạt chuẩn VietGAP. Đặt trước qua Zalo, giao toàn quốc.</p>
-    <div class="btn-row" style="opacity:1">
-      <a href="dat-truoc.html?chon=cam5" class="btn btn-gold">Đặt trước mùa mới</a>
-      <a href="#gia" class="btn btn-outline">Xem giá</a>
-    </div>
-  </div>
-</div>
+</header>
 
 <main id="main" tabindex="-1">
 
-  <section class="reveal" id="gia">
-    <div class="section-heading">
-      <span class="eyebrow">Theo mùa · VietGAP</span>
-      <h2>Giá &amp; chứng nhận</h2>
-    </div>
-    <div class="product">
-      <div class="product-grid">
-        <div class="product-media">
-          <img src="assets/cam-duong-canh-real-qua.jpg" alt="Cam Đường Canh chín trên cây" loading="lazy">
+  <section class="reveal" id="mua">
+    <div class="h-buy">
+      <div class="h-buy-media">
+        <img src="assets/sp/cam-main.jpg" alt="Cành Cam Đường Canh trĩu quả chín vàng" width="800" height="600">
+        <img src="assets/sp/cam-g1.jpg" alt="Cam Đường Canh bổ đôi, múi vàng mọng" loading="lazy" width="600" height="600">
+        <img src="assets/sp/cam-g2.jpg" alt="Thùng Cam Đường Canh đóng sẵn" loading="lazy" width="600" height="600">
+      </div>
+      <div class="h-buy-body">
+        <span class="eyebrow">Đặt trước mùa mới</span>
+        <h3>Cam Đường Canh</h3>
+        <div class="h-cert">
+          <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#7fa66a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l7 3v6c0 4.5-3 7.5-7 9-4-1.5-7-4.5-7-9V6z"/><path d="M9 12l2 2 4-4"/></svg>
+          <div><b>Chứng nhận VietGAP · 112/CN-TĐC-TT-20-0012</b><span>NATEK JSC cấp, hiệu lực đến 22/12/2028, theo TCVN 11892-1:2017. Cấp cho HTX Cây Ăn Quả Nhung Giang — vườn cam là hộ thành viên.</span></div>
         </div>
-        <div class="product-body">
-          <h3>Cam Đường Canh</h3>
-          <p class="tagline">Trồng bởi gia đình, thành viên Hợp Tác Xã Cây Ăn Quả Nhung Giang (Lạng Sơn) — không thúc chín, thu hoạch theo mùa.</p>
-          <span class="cert-badge">
-            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>
-            Chứng nhận VietGAP · 112/CN-TĐC-TT-20-0012
-          </span>
-          <p class="cert-note">Cấp bởi NATEK JSC, hiệu lực đến 22/12/2028, theo TCVN 11892-1:2017.</p>
-          <table class="price-table mono">
-            <tr><th>Quy cách</th><th>Giá</th></tr>
-            <tr><td>Thùng 5kg</td><td>275.000đ</td></tr>
-            <tr><td>Thùng 10kg</td><td>500.000đ</td></tr>
-          </table>
-          <p class="stock-note">Chỉ bán theo thùng (5kg hoặc 10kg), không bán lẻ theo kg. Mùa vụ khoảng tháng 11 âm lịch – tháng 1 năm sau.</p>
-          <div class="waitlist-box">
-            Hiện đang hết mùa. <a href="dat-truoc.html?chon=cam5">Đặt trước để nhà mình giữ hàng và báo đầu tiên</a> 🍊 (hoặc <a href="https://zalo.me/0979502000">nhắn Zalo</a>)
-          </div>
-        </div>
+        <p class="h-season">Hiện <b>chưa vào mùa</b>. Đặt trước để được giữ hàng và báo đầu tiên khi cam chín (khoảng tháng 11 âm lịch).</p>
+        <ul class="h-variants">
+          <li><a href="dat-truoc.html?chon=cam5"><span>Thùng 5kg<small>Vừa cho gia đình</small></span><b>275.000đ</b></a></li>
+          <li><a href="dat-truoc.html?chon=cam10"><span>Thùng 10kg<small>Biếu tặng, dùng dài ngày · lợi hơn</small></span><b>500.000đ</b></a></li>
+        </ul>
+        <a class="btn btn-gold" href="dat-truoc.html?chon=cam10">Đặt trước ngay</a>
+        <a class="btn btn-zalo" href="https://zalo.me/0979502000">Hỏi nhanh qua Zalo</a>
+        <ul class="h-ticks">
+          <li>Chỉ bán theo thùng 5kg hoặc 10kg</li>
+          <li>Đặt trước chưa cần thanh toán — nhà mình nhắn xác nhận khi có hàng</li>
+          <li>Có hộp quà Tết 2027 kèm Tinh Bột Sắn Dây — <a href="dat-truoc.html?chon=qua-nho">đặt trước quà Tết</a></li>
+        </ul>
       </div>
     </div>
   </section>
 
-  <section class="reveal" id="quy-trinh">
+  <section class="reveal" id="mua-vu">
     <div class="section-heading">
-      <span class="eyebrow">Theo dõi mùa vụ</span>
-      <h2>Nhìn lại và cập nhật vườn cam nhà mình</h2>
-      <p>Video thật, không dàn dựng — mùa mới khoảng tháng 11 âm lịch sắp tới.</p>
+      <span class="eyebrow">Một mùa cam</span>
+      <h2>Từ nụ hoa đến thùng cam trên tay bạn</h2>
+      <p>Ảnh chụp thật trong vườn — cây được để ra hoa, đậu quả và chín theo đúng mùa.</p>
+    </div>
+    <div class="h-steps">
+      <div class="h-step"><img src="assets/sp/t1-nu.jpg" alt="Nụ hoa cam đầu mùa" loading="lazy" width="800" height="600"><div class="h-step-body"><h3>Ra nụ đầu mùa</h3><p>Cây bắt đầu ra những nụ hoa nhỏ xíu.</p></div></div>
+      <div class="h-step"><img src="assets/sp/t2-hoa.jpg" alt="Hoa cam nở trắng" loading="lazy" width="800" height="600"><div class="h-step-body"><h3>Hoa nở trắng vườn</h3><p>Hoa cam nở, thơm dịu mỗi sáng.</p></div></div>
+      <div class="h-step"><img src="assets/sp/t3-quanon.jpg" alt="Quả cam non xanh trên cành" loading="lazy" width="800" height="600"><div class="h-step-body"><h3>Đậu quả non</h3><p>Hoa rụng, quả non lớn dần qua nhiều tháng.</p></div></div>
+      <div class="h-step"><img src="assets/sp/t4-chin.jpg" alt="Cam chín vàng trên cây" loading="lazy" width="800" height="600"><div class="h-step-body"><h3>Chín tự nhiên trên cây</h3><p>Không thúc chín — đợi đủ ngày, quả mới vàng và ngọt.</p></div></div>
+      <div class="h-step"><img src="assets/sp/t5-hai.jpg" alt="Người làm vườn hái cam bằng tay" loading="lazy" width="800" height="600"><div class="h-step-body"><h3>Hái tay đúng mùa</h3><p>Khoảng tháng 11 âm lịch – tháng 1, hái từng quả.</p></div></div>
+      <div class="h-step"><img src="assets/sp/t6-donggoi.jpg" alt="Cam xếp vào thùng cùng lá xanh" loading="lazy" width="800" height="600"><div class="h-step-body"><h3>Phân loại, đóng thùng</h3><p>Xếp cẩn thận trong ngày, gửi đi khắp cả nước.</p></div></div>
+    </div>
+  </section>
+
+  <section class="reveal" id="phan-loai">
+    <div class="h-size">
+      <img src="assets/sp/cam-size.jpg" alt="Cam Đường Canh phân theo cỡ L, M, S" loading="lazy" width="900" height="900">
+      <div>
+        <span class="eyebrow">Phân loại theo cỡ</span>
+        <h2 style="font-size:clamp(1.4rem,3vw,1.9rem)">Cỡ L, M, S — chọn đúng nhu cầu</h2>
+        <p>Cam được phân loại theo kích cỡ quả trước khi đóng thùng. Muốn thùng cỡ đều để biếu, hay cỡ nhỏ ăn hằng ngày — nhắn Zalo để nhà mình tư vấn khi vào mùa.</p>
+        <a class="btn btn-outline" href="https://zalo.me/0979502000">Hỏi về cỡ quả</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="reveal" id="vuon">
+    <div class="section-heading">
+      <span class="eyebrow">Vườn cam</span>
+      <h2>Giữa thung lũng núi đá Lạng Sơn</h2>
+    </div>
+    <div class="h-gallery">
+      <figure class="big"><img src="assets/sp/vuon-25.jpg" alt="Cây cam trĩu quả chín trong vườn" loading="lazy"></figure>
+      <figure><img src="assets/sp/cam-g3.jpg" alt="Hàng cam trong vườn" loading="lazy"></figure>
+      <figure><img src="assets/sp/cam-g4.jpg" alt="Thùng Cam Đường Canh chuẩn bị giao" loading="lazy"></figure>
+      <figure class="wide"><img src="assets/sp/vuon-suong.jpg" alt="Nắng sớm xuyên sương trên vùng trồng" loading="lazy"></figure>
+      <figure class="wide"><img src="assets/sp/vuon-12.jpg" alt="Toàn cảnh vườn cam dưới chân núi" loading="lazy"></figure>
+      <figure class="wide"><img src="assets/sp/vuon-14.jpg" alt="Vườn cam với cọc chống cành" loading="lazy"></figure>
+    </div>
+  </section>
+
+  <section class="reveal" id="video">
+    <div class="section-heading">
+      <span class="eyebrow">Video quay thật</span>
+      <h2>Nhìn lại và cập nhật vườn cam</h2>
     </div>
     <div class="video-grid">
       <div class="video-frame">
@@ -230,33 +223,21 @@
         <video src="assets/cam-vuon-mua-truoc.mp4" poster="assets/cam-vuon-mua-truoc-poster.jpg" controls playsinline preload="none"></video>
       </div>
       <div class="video-frame">
-        <p>Cập nhật mùa này: từ hoa đến quả non (31s)</p>
+        <p>Mùa này: từ hoa đến quả non</p>
         <video src="assets/cam-duongcanh-ham-nong.mp4" poster="assets/cam-duongcanh-ham-nong-poster.jpg" controls playsinline preload="none"></video>
       </div>
     </div>
   </section>
 
-  <section class="reveal">
-    <div class="section-heading glow-pulse">
-      <span class="eyebrow">Cam kết</span>
-      <h2>Vì sao chọn nhà mình</h2>
+  <section class="reveal" id="yen-tam">
+    <div class="section-heading">
+      <span class="eyebrow">Mua yên tâm</span>
+      <h2>Giao tận nơi, lỗi là đổi</h2>
     </div>
-    <div class="commit-grid reveal-stagger">
-      <div class="commit-card part">
-        <span class="commit-icon" aria-hidden="true"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg></span>
-        <h3>Có chứng nhận rõ ràng</h3>
-        <p>Đạt VietGAP, số 112/CN-TĐC-TT-20-0012, cấp bởi NATEK JSC, có thể tra cứu.</p>
-      </div>
-      <div class="commit-card part">
-        <span class="commit-icon" aria-hidden="true"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg></span>
-        <h3>Không thúc chín</h3>
-        <p>Trồng và thu hoạch tự nhiên theo đúng mùa vụ, không dùng thuốc thúc chín.</p>
-      </div>
-      <div class="commit-card part">
-        <span class="commit-icon" aria-hidden="true"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg></span>
-        <h3>Giao tận nơi</h3>
-        <p>Đóng gói cẩn thận, giao hàng toàn quốc khi vào mùa.</p>
-      </div>
+    <div class="h-policy">
+      <div><b>Giao toàn quốc khi vào mùa</b><p>Qua đơn vị vận chuyển, thường 2–5 ngày tuỳ khu vực. Phí ship báo trước khi bạn xác nhận đơn.</p></div>
+      <div><b>Đổi mới hoặc hoàn tiền</b><p>Nếu hàng hư hỏng do vận chuyển, giao sai loại/sai số lượng — quay video lúc mở thùng, báo Zalo trong 24 giờ.</p></div>
+      <div><b>Đặt trước chưa cần thanh toán</b><p>Để lại thông tin, đến mùa nhà mình nhắn xác nhận đơn và cách thanh toán rồi mới giao.</p></div>
     </div>
   </section>
 
@@ -268,33 +249,38 @@
     <div class="faq-list">
       <details class="faq-item">
         <summary>Cam Đường Canh mùa nào có hàng? Đặt trước được không?</summary>
-        <p>Chỉ thu hoạch theo mùa, khoảng tháng 11 âm lịch đến tháng 1 năm sau. Ngoài mùa vẫn đặt trước được — nhắn Zalo để lại số, đến mùa nhà mình báo có hàng đầu tiên.</p>
+        <p>Chỉ thu hoạch theo mùa, khoảng tháng 11 âm lịch đến tháng 1 năm sau. Ngoài mùa vẫn đặt trước được — để lại thông tin, đến mùa nhà mình báo có hàng đầu tiên.</p>
       </details>
       <details class="faq-item">
         <summary>Sản phẩm có chứng nhận an toàn không?</summary>
-        <p>Cam Đường Canh đạt chứng nhận VietGAP thật (số 112/CN-TĐC-TT-20-0012), cấp bởi NATEK JSC, theo TCVN 11892-1:2017.</p>
+        <p>Cam Đường Canh đạt chứng nhận VietGAP (số 112/CN-TĐC-TT-20-0012), cấp bởi NATEK JSC cho HTX Cây Ăn Quả Nhung Giang, theo TCVN 11892-1:2017, hiệu lực đến 22/12/2028.</p>
       </details>
       <details class="faq-item">
         <summary>Ở xa (ngoại tỉnh, vùng núi) có giao được không?</summary>
-        <p>Giao hàng toàn quốc qua đơn vị vận chuyển khi vào mùa, thường 2–5 ngày tuỳ khu vực. Phí ship theo bảng giá đơn vị vận chuyển, hiển thị trước khi bạn xác nhận đặt hàng.</p>
+        <p>Giao hàng toàn quốc qua đơn vị vận chuyển khi vào mùa, thường 2–5 ngày tuỳ khu vực. Phí ship theo bảng giá đơn vị vận chuyển, báo trước khi bạn xác nhận đặt hàng.</p>
       </details>
       <details class="faq-item">
         <summary>Hàng lỗi hoặc giao sai thì đổi trả thế nào?</summary>
         <p>Vì là thực phẩm nên không nhận đổi trả hàng đã mở/đã dùng. Được đổi hàng mới hoặc hoàn tiền nếu hàng hư hỏng do vận chuyển, giao sai loại/sai số lượng, hoặc lỗi từ khâu sản xuất — quay video lúc mở hàng và báo Zalo trong 24 giờ kể từ khi nhận hàng.</p>
       </details>
+      <details class="faq-item">
+        <summary>Có bán lẻ theo kg không?</summary>
+        <p>Cam chỉ bán theo thùng 5kg hoặc 10kg để đảm bảo đóng gói, vận chuyển an toàn.</p>
+      </details>
     </div>
   </section>
 
   <section class="reveal" id="lien-he">
-    <div class="cta-section">
-      <span class="eyebrow">Liên hệ</span>
-      <h2>Đặt trước hoặc hỏi thêm</h2>
-      <p style="color:var(--text-secondary)">Nhắn Zalo để lại số, nhà mình báo ngay khi vào mùa.</p>
-      <div class="cta-links">
-        <a href="https://zalo.me/0979502000" class="btn btn-gold">Zalo: 0979 502 000</a>
-        <a href="mailto:hello@nongsannhalam.com" class="btn btn-outline">hello@nongsannhalam.com</a>
+    <div class="h-final" style="background-image:url('assets/sp/vuon-20.jpg')">
+      <span class="eyebrow">Đặt trước</span>
+      <h2>Giữ một thùng cam cho mùa mới</h2>
+      <p>Thùng 5kg 275.000đ · thùng 10kg 500.000đ. Đặt trước để được báo và giao sớm nhất khi cam chín.</p>
+      <div class="h-cta">
+        <a class="btn btn-gold" href="dat-truoc.html?chon=cam10">Đặt trước ngay</a>
+        <a class="btn btn-zalo" href="https://zalo.me/0979502000">Zalo 0979 502 000</a>
+        <a class="btn btn-outline" href="tel:0979502000">Gọi 0979 502 000</a>
       </div>
-      <p class="cta-note">Cần Tinh Bột Sắn Dây (có sẵn quanh năm)? <a href="san-day.html">Sang trang Sắn Dây</a>.</p>
+      <p class="cta-note">Cần Tinh Bột Sắn Dây (có sẵn quanh năm)? <a href="san-day.html">Sang trang Sắn Dây →</a></p>
     </div>
   </section>
 
@@ -302,12 +288,20 @@
 
 <footer>© Hợp tác xã Thế Hưng Organic (THOC) — Vũ Lăng, Lạng Sơn</footer>
 
+<nav class="h-sticky" id="hSticky" aria-label="Đặt hàng nhanh">
+  <a href="tel:0979502000">📞 Gọi</a>
+  <a class="zalo" href="https://zalo.me/0979502000">Zalo</a>
+  <a class="buy" href="dat-truoc.html?chon=cam10">Đặt trước</a>
+</nav>
 <script>
-  window.HERO_CONFIG = {
-    videoUrl: 'assets/hero-cam.mp4',
-    videoBytes: 26006129,
-    posterUrl: 'assets/hero-cam-poster.jpg'
-  };
+(function(){
+  var bar=document.getElementById('hSticky'), hero=document.getElementById('top');
+  if(!bar||!hero||!('IntersectionObserver' in window)) return;
+  document.body.classList.add('has-sticky');
+  new IntersectionObserver(function(e){ bar.classList.toggle('show', !e[0].isIntersecting); },{threshold:0.15}).observe(hero);
+  var v=hero.querySelector('video');
+  if(v && navigator.connection && navigator.connection.saveData){ v.removeAttribute('autoplay'); v.pause(); }
+})();
 </script>
 <script src="assets/hero.js"></script>
 </body>
