@@ -6,6 +6,108 @@ copy-paste đăng thủ công lên Facebook/Zalo/Shopee/TikTok. Sau khi đăng x
 
 ---
 
+## Facebook — Ra mắt tên mới Thế Hưng Organic + video 90 giây (2026-10-20)
+
+Video: `content/video/output/gioi-thieu-thoc.mp4` (bản ngang 92 giây, lời Việt + phụ đề Anh). Ghim bài này lên đầu trang.
+
+Mấy hôm nay ai thấy trang nhà mình đổi tên, đổi logo thì không phải nhầm đâu ạ 🌱
+
+**Nông Sản Nhà Làm giờ là Thế Hưng Organic** — tên hợp tác xã ở xã Vũ Lăng (Lạng Sơn) đứng sau mọi túi Tinh Bột Sắn Dây và mọi thùng Cam Đường Canh nhà mình gửi đi. Vẫn những người đó, vẫn nương sắn dây giữa núi đá vôi Bắc Sơn, vẫn vườn cam VietGAP — giờ có chung một cái tên rõ ràng.
+
+Nhân dịp này nhà mình làm hẳn một video 90 giây, quay thật cả quy trình: dây leo kín giàn, hoa sắn dây nở tím, đào cả gốc củ, cân ngay tại xưởng, rửa, nghiền, khuấy lắng lọc nhiều lượt, sấy lò cài nhiệt độ, ra lò là đóng túi. Cuối video là vườn cam chín trên cây và lúc đóng thùng.
+
+Tinh Bột Sắn Dây đang có sẵn: túi 0,5kg 80.000đ · túi 1kg 155.000đ
+Cam Đường Canh mùa mới (khoảng tháng 11 âm lịch): nhận đặt trước, chưa cần thanh toán.
+
+👉 Đặt nhanh: nongsannhalam.com/dat-truoc.html
+💬 Zalo 0979 502 000
+
+---
+
+## Zalo — Ra mắt tên mới Thế Hưng Organic (2026-10-20)
+
+Video: `content/video/output/gioi-thieu-thoc-doc.mp4` (bản dọc 40 giây, xem tốt trên điện thoại).
+
+Chào anh/chị ạ 🌱 Nhà mình báo một tin nhỏ: từ nay sản phẩm mang tên **Thế Hưng Organic** — hợp tác xã ở Vũ Lăng, Lạng Sơn. Vẫn sắn dây nương núi đá, vẫn cam vườn VietGAP như mọi khi, chỉ là có tên chung rõ ràng hơn.
+
+Gửi anh/chị video 40 giây quay thật từ nương tới lúc đóng túi ạ.
+
+Tinh Bột Sắn Dây đang có sẵn: 0,5kg 80k · 1kg 155k. Cam mùa mới nhận đặt trước.
+Đặt nhanh: nongsannhalam.com/dat-truoc.html
+
+---
+
+## Instagram — Ra mắt tên mới Thế Hưng Organic (2026-10-20)
+
+Video: `content/video/output/gioi-thieu-thoc-doc.mp4` (đăng dạng Reels).
+
+Từ nương núi đá vôi Bắc Sơn đến túi bột trên tay bạn — 40 giây, quay thật, không dàn dựng 🌱
+
+Nông Sản Nhà Làm giờ là **Thế Hưng Organic**, hợp tác xã ở Vũ Lăng, Lạng Sơn. Đào cả gốc củ, lọc lắng nhiều lượt, sấy lò cài nhiệt độ — bột trắng tự nhiên, không tẩy trắng.
+
+Bạn đã từng thấy hoa sắn dây màu tím chưa? 👀
+
+Đặt hàng: link ở bio · Zalo 0979 502 000
+
+#thehungorganic #langson #tinhbotsanday #hoasanday #quytrinhthucong #nongsanviet
+
+---
+
+## TikTok/Reels — Ra mắt tên mới Thế Hưng Organic, video dọc 40 giây (2026-10-20)
+
+Video: `content/video/output/gioi-thieu-thoc-doc.mp4`. Chữ đầu video (gõ thêm trong app nếu muốn): "Bột sắn dây trắng tự nhiên làm ra thế nào?"
+
+Caption:
+Bột sắn dây trắng tự nhiên làm ra thế nào? Từ nương núi đá đến túi bột — quay thật 100% 🌱 Thế Hưng Organic · Lạng Sơn
+#sanday #tinhbotsanday #langson #nongsanviet #thehungorganic
+
+---
+
+## Facebook — Khách nói gì sau mùa cam trên Shopee (2026-10-20)
+
+⚠️ Đăng khi đã áp dụng cách đóng thùng chống dập ở `SOP.md` mục "Đóng thùng cam chống dập" (bài có hứa điều này).
+Ảnh: chụp màn hình phần đánh giá trên app Shopee (che tên khách) + 1 ảnh cam thật. Hoặc chụp mục "Khách nói gì" trên website.
+
+“Nếu biết chất lượng tốt như vậy sẽ đặt gấp đôi hiện tại.”
+
+Đây là nguyên văn một khách mua thùng 10kg Cam Đường Canh trên Shopee mùa vừa rồi để lại. Cả mùa shop nhận 106 đánh giá, 97 cái 5 sao (trung bình 4,85/5). Vài câu nhà mình đọc lại vẫn thấy vui:
+
+🍊 “Ăn khác hẳn cam mình mua bên ngoài luôn huhu” — thùng 5kg
+🍊 “Nhận được cam vẫn tươi rói ạ. Cam có vị ngọt thanh, dễ ăn” — thùng 5kg
+🍊 “Đã nhận sau 2 ngày. Quả mọng và ngọt ăn hết sẽ ủng hộ lần sau.” — thùng 5kg
+
+Cũng có khách phàn nàn cam bị dập khi đi đường xa — nhà mình ghi nhận. Mùa này đóng thùng chèn kỹ hơn, và nếu cam hư do vận chuyển thì anh/chị quay video lúc mở thùng, báo Zalo trong 24 giờ là được đổi mới hoặc hoàn tiền.
+
+Cam mùa mới khoảng tháng 11 âm lịch. Ai muốn giữ một thùng thì đặt trước — chưa cần thanh toán:
+👉 nongsannhalam.com/dat-truoc.html
+💬 Zalo 0979 502 000
+
+---
+
+## Zalo — Khách nói gì sau mùa cam trên Shopee (2026-10-20)
+
+Ảnh: chụp mục "Khách nói gì" trên nongsannhalam.com (đã che tên khách).
+
+Mùa cam vừa rồi trên Shopee nhà mình được 106 đánh giá, 97 cái 5 sao (4,85/5) — cảm ơn anh/chị đã ủng hộ ạ 🍊
+Có khách viết: “Nếu biết chất lượng tốt như vậy sẽ đặt gấp đôi hiện tại.”
+
+Mùa mới khoảng tháng 11 âm lịch. Anh/chị muốn giữ thùng 5kg (275k) hay 10kg (500k) thì đặt trước ở đây, chưa cần thanh toán: nongsannhalam.com/dat-truoc.html
+
+---
+
+## Instagram — Khách nói gì sau mùa cam trên Shopee (2026-10-20)
+
+Ảnh: chụp mục "Khách nói gì" trên website + 1 ảnh cam bổ đôi.
+
+106 đánh giá · 97 cái 5 sao · 4,85/5 ⭐
+“Ăn khác hẳn cam mình mua bên ngoài luôn” — một khách mua thùng 5kg mùa trước.
+
+Cam Đường Canh chín tự nhiên trên cây, vườn VietGAP ở Lạng Sơn. Mùa mới khoảng tháng 11 âm lịch — bạn thích ăn cam tươi hay vắt nước hơn? 🍊
+
+#camduongcanh #thehungorganic #langson #camvietgap #traicayviet
+
+---
+
 ## Facebook/Zalo — Đếm ngược hạn giao trước Tết (Bài D chiến dịch Tết 2027, đăng ~21/01/2027)
 
 ⚠️ Hạn 26/01/2027 là ĐỀ XUẤT (xem `CHIEN_DICH_TET_2027.md` mục 2) — kiểm tra lịch Tết 2027 của hãng vận

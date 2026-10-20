@@ -1,0 +1,174 @@
+{
+  "slug": "gioi-thieu-thoc-doc",
+  "clips": [
+    {
+      "file": "Sắn Dây/san-day-vuon-hoa-01.mp4",
+      "start": 2,
+      "duration": 3.8,
+      "motion": "zoom_detail"
+    },
+    {
+      "file": "Sắn Dây/san-day-vuon-nuidavoi-01.mp4",
+      "start": 1,
+      "duration": 3.8,
+      "motion": "pan_right"
+    },
+    {
+      "file": "Sắn Dây/san-day-thuhoach-mayxuc-daodat-02.mp4",
+      "start": 13,
+      "duration": 3.8,
+      "motion": "zoom"
+    },
+    {
+      "file": "Sắn Dây/san-day-cutuoi-cancu-01.mp4",
+      "start": 22,
+      "duration": 3.8,
+      "motion": "zoom"
+    },
+    {
+      "file": "Sắn Dây/san-day-cutuoi-ruavoinuoc-11.mp4",
+      "start": 2,
+      "duration": 3.8,
+      "motion": "pan_left"
+    },
+    {
+      "file": "Sắn Dây/san-day-nghienloc-khuaybelang-02.mp4",
+      "start": 3,
+      "duration": 3.8,
+      "motion": "pan_right"
+    },
+    {
+      "file": "Sắn Dây/san-day-phoisay-nhieunguoixepbanh-11.mp4",
+      "start": 2,
+      "duration": 3.8,
+      "motion": "pan_right"
+    },
+    {
+      "file": "Sắn Dây/san-day-losay-bangdieukhien-01.mp4",
+      "start": 8,
+      "duration": 3.8,
+      "motion": "zoom_detail"
+    },
+    {
+      "file": "Sắn Dây/san-day-phoisay-botkhovovun-05.mp4",
+      "start": 2,
+      "duration": 3.8,
+      "motion": "zoom_detail"
+    },
+    {
+      "file": "Sắn Dây/san-day-donggoi-tuibot-01.mp4",
+      "start": 8.5,
+      "duration": 3.8,
+      "motion": "zoom"
+    },
+    {
+      "file": "Cam Đường Canh/cam-duongcanh-quarienglai-01.mp4",
+      "start": 2,
+      "duration": 3.8,
+      "motion": "zoom_detail"
+    },
+    {
+      "file": "Cam Đường Canh/cam-duongcanh-donggoi-24.mp4",
+      "start": 1,
+      "duration": 3.8,
+      "motion": "zoom"
+    }
+  ],
+  "captions": [
+    {
+      "text": "Hợp tác xã Thế Hưng Organic · Lạng Sơn",
+      "text_en": "The Hung Organic Cooperative",
+      "clip_index": 0,
+      "start": 0.2,
+      "duration": 3.3
+    },
+    {
+      "text": "Sắn dây giữa núi đá vôi Bắc Sơn",
+      "text_en": "Kudzu among the Bac Son limestone hills",
+      "clip_index": 1,
+      "start": 0.2,
+      "duration": 3.3
+    },
+    {
+      "text": "Đào cả gốc củ",
+      "text_en": "Whole roots dug up",
+      "clip_index": 2,
+      "start": 0.2,
+      "duration": 3.3
+    },
+    {
+      "text": "Cân ngay tại xưởng",
+      "text_en": "Weighed at the workshop",
+      "clip_index": 3,
+      "start": 0.2,
+      "duration": 3.3
+    },
+    {
+      "text": "Rửa sạch, nghiền lấy nước bột",
+      "text_en": "Washed and ground",
+      "clip_index": 4,
+      "start": 0.2,
+      "duration": 3.3
+    },
+    {
+      "text": "Khuấy, lắng, lọc nhiều lượt",
+      "text_en": "Filtered and settled many times",
+      "clip_index": 5,
+      "start": 0.2,
+      "duration": 3.3
+    },
+    {
+      "text": "Nặn bánh, xếp khay",
+      "text_en": "Shaped by hand onto trays",
+      "clip_index": 6,
+      "start": 0.2,
+      "duration": 3.3
+    },
+    {
+      "text": "Sấy lò cài nhiệt độ",
+      "text_en": "Kiln-dried at a set temperature",
+      "clip_index": 7,
+      "start": 0.2,
+      "duration": 3.3
+    },
+    {
+      "text": "Trắng tự nhiên, không tẩy trắng",
+      "text_en": "Naturally white, no bleaching",
+      "clip_index": 8,
+      "start": 0.2,
+      "duration": 3.3
+    },
+    {
+      "text": "Ra lò là đóng túi",
+      "text_en": "Bagged straight from the kiln",
+      "clip_index": 9,
+      "start": 0.2,
+      "duration": 3.3
+    },
+    {
+      "text": "Cam Đường Canh VietGAP, chín trên cây",
+      "text_en": "VietGAP Canh mandarins, tree-ripened",
+      "clip_index": 10,
+      "start": 0.2,
+      "duration": 3.3
+    },
+    {
+      "text": "Đóng thùng cẩn thận, giao toàn quốc",
+      "text_en": "Packed with care, shipped nationwide",
+      "clip_index": 11,
+      "start": 0.2,
+      "duration": 3.3
+    }
+  ],
+  "narration": {
+    "text": "Giữa núi đá vôi Bắc Sơn, Hợp tác xã Thế Hưng Organic trồng sắn dây trên chính quê mình. Đến mùa, củ được đào tận gốc, cân ngay tại xưởng, rửa sạch rồi nghiền lấy nước bột. Bột được khuấy, lắng, lọc nhiều lượt, nặn thành bánh, rồi sấy trong lò cài nhiệt độ. Không hoá chất, không tẩy trắng, ra lò là đóng túi. Cùng với Cam Đường Canh VietGAP, chín tự nhiên trên cây, đóng thùng cẩn thận, giao khắp cả nước. Thế Hưng Organic. Nông sản thật, từ vùng núi Bắc Sơn.",
+    "voice": "vi-VN-HoaiMyNeural",
+    "rate": "-2%"
+  },
+  "music": {
+    "file": "content/video/music/warm-acoustic-music.mp3",
+    "volume": 0.14
+  },
+  "end_card_text": "Hợp tác xã Thế Hưng Organic\nTinh Bột Sắn Dây · Cam Đường Canh\nZalo 0979 502 000",
+  "end_card_text_en": "nongsannhalam.com"
+}

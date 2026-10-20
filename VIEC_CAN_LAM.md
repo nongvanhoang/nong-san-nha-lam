@@ -5,26 +5,17 @@ HUONG_DAN_GOOGLE_SEARCH_CONSOLE.md, KE_HOACH_KHAI_THAC_B2B.md, DANG_KY_THU_MUC_X
 file gốc vẫn là nguồn chi tiết đầy đủ, file này chỉ để nhìn TẤT CẢ việc đang treo trong 1 chỗ, biết
 việc nào chặn việc nào. Cập nhật lại file này (tick `[x]`) mỗi khi báo qua chat đã xong việc gì._
 
-## ⏰ Đang làm, có hạn chót — OCOP (thêm 2026-09-30)
+## ⏰ Đang làm, có hạn chót — OCOP đã nộp, chờ giấy (cập nhật 2026-10-20)
 
-- [ ] **Hồ sơ OCOP đợt 2/2026: nộp UBND xã trước 30/10/2026** — bạn cùng cô chú đang chuẩn bị. Văn bản áp
-  dụng MỚI là **Quyết định 26/2026/QĐ-TTg** (22/5/2026, thay QĐ 148/2023 mà `content/ocop_mo_ta_san_pham.md`
-  viết theo). Hồ sơ gồm: Phiếu đăng ký (Mẫu 01) + Báo cáo tự đánh giá (Mẫu 02) + 5 sản phẩm mẫu. **Điều kiện
-  cần có trước**: chủ thể có đăng ký kinh doanh (hộ KD / HTX / DN) và giấy chứng nhận ATTP — nhà mình hiện
-  CHƯA có cả hai. **[2026-09-30] Đã chốt: cả 2 sản phẩm, công ty của cô chú đứng tên.** Kế hoạch đầy đủ,
-  3 rủi ro, câu hỏi cho xã, bảng giấy tờ, lịch 4 tuần và nội dung Mẫu 02 soạn sẵn ở **`OCOP_2026.md`**.
-  Nếu lỡ đợt này → đợt 1/2027 nộp trước 30/4/2027.
-  - [ ] Tuần này: gọi Sở NN&MT/UBND xã + cô chú + Chi cục ATVSTP — **tờ câu hỏi in sẵn: `GOI_DIEN_OCOP.md`** (2026-10-10)
-  - [x] ~~Hỏi tên công ty~~ → **[2026-10-19] Chủ thể = HTX Thế Hưng Organic** (GĐ Hà Quang Chiến, trụ sở Thôn
-    Liên Lạc, xã Vũ Lăng). Đã điền vào `OCOP_2026.md` mục 5.1.
-  - [ ] **Mới (2026-10-20)**: HTX Nhung Giang = Thế Hưng Organic (đã đổi tên) → hồ sơ OCOP cam cần **giấy tờ chứng minh
-    đổi tên**; gọi **NATEK JSC** xin cập nhật tên trên giấy VietGAP 112/CN-TĐC-TT-20-0012. Hợp đồng liên kết cam: bỏ.
-  - [ ] **GẤP**: HTX đã có **giấy chứng nhận đăng ký HTX** (mã số) chưa? OCOP bắt buộc có trước 30/10 — file
-    ngành nghề mới là bản chuẩn bị (lập 05/10). Hỏi tiếp: giấy ATTP, hồ sơ môi trường.
-  - [ ] Bao bì THOC (ảnh trong `Tài Liệu Công Ty/`): sửa "SĂN"→"SẮN", bỏ dấu "ORGANIC/Hàng sản sạch" (chưa có
-    chứng nhận hữu cơ — NĐ 109/2018), chọn 1 logo, thay ảnh củ vẽ AI (giống củ sắn) bằng ảnh sắn dây thật.
-  - [ ] Tuần này: gửi mẫu Tinh Bột Sắn Dây đi kiểm nghiệm
-  → việc "Gọi Chi cục ATVSTP" ở Nhóm 1 giờ **chặn luôn OCOP**, nên gọi sớm.
+- [x] **Hồ sơ OCOP đợt 2/2026 — ĐÃ NỘP XONG** (người dùng báo 2026-10-20). Chủ thể: HTX Thế Hưng Organic.
+  Các việc chuẩn bị hồ sơ bên dưới coi như đã xử lý xong trong lúc nộp (gọi xã/Sở, giấy tờ HTX, kiểm nghiệm...).
+- [ ] **Chờ nhận giấy chứng nhận OCOP** — khi có giấy: chụp/scan gửi Claude để (1) điền **số sao + số quyết
+  định** thật, (2) chuyển sang in bộ nhãn `content/nhan_bao_bi/*-ocop` (dán logo OCOP CHÍNH THỨC tải từ cơ quan cấp,
+  không tự vẽ), (3) thêm huy hiệu OCOP lên website. Chưa có giấy thì KHÔNG ghi "OCOP" ở bất kỳ đâu công khai.
+- [ ] Gọi **NATEK JSC** hỏi thủ tục cập nhật tên mới (HTX Thế Hưng Organic) trên giấy VietGAP 112/CN-TĐC-TT-20-0012.
+- [ ] Bao bì THOC (ảnh trong `Tài Liệu Công Ty/`): nếu in theo mẫu đó, sửa "SĂN"→"SẮN", bỏ dấu "ORGANIC/Hàng sản
+  sạch" cho tới khi có giấy hữu cơ, chọn 1 logo, thay ảnh củ vẽ AI bằng ảnh sắn dây thật. (Nhãn kraft `nhan-thoc-*`
+  đã sẵn để in ngay.)
 
 - [ ] **Chốt giá hộp quà Tết trước 15/11/2026** (thêm 2026-10-10) — Claude đề xuất 399k / 749k ở
   `CHIEN_DICH_TET_2027.md` mục 2, chỉ cần báo giá 1 hộp trơn thật + "duyệt" để điền lên web và Bài A/B.

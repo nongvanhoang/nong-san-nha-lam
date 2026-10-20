@@ -47,9 +47,10 @@ là quy trình, không phải nơi quyết định — khi 1 bước cần quy�
 
 ## 4. Khiếu nại / đổi trả
 
-**Chính sách cụ thể chưa chốt** — xem `VIEC_CAN_LAM.md` Nhóm 2. Trước khi chốt chính thức, áp dụng
-nguyên tắc tạm: nếu hàng thật sự lỗi/hư hỏng khi nhận (có ảnh/video mở hàng), đổi hoặc hoàn tiền,
-không tranh cãi với khách vì uy tín dài hạn quan trọng hơn 1 đơn nhỏ. Ghi lại khiếu nại (dù xử lý
+**Chính sách đã công bố trên website (2026-10-19)**: không nhận đổi trả hàng đã mở/đã dùng; **đổi mới hoặc
+hoàn tiền** nếu hàng hư hỏng do vận chuyển, giao sai loại/số lượng, hoặc lỗi sản xuất — khách quay video lúc mở
+hàng, báo Zalo trong 24 giờ. Website đã HỨA điều này → phải làm đúng, xử lý trong ngày, không tranh cãi (mùa cam
+trước trên Shopee có khách chấm 1 sao vì "báo shop mà không được đền" — đừng lặp lại). Ghi lại khiếu nại (dù xử lý
 xong) vào `note` của đơn hàng đó, để biết nếu 1 mẻ sản xuất nào đó có vấn đề lặp lại.
 
 ## 5. Xin đánh giá khách hàng
@@ -75,6 +76,25 @@ Theo đúng quy trình đã có ở `CLAUDE.md` mục "Xin & lưu đánh giá kh
 3. Ghi mẻ thu hoạch bằng `add_batch.py` giống mục 6.
 4. Ưu tiên nhắn trước cho danh sách chờ (`data/danh_sach_cho.csv`) trước khi đăng công khai — đúng
    Giai đoạn 3 trong `CHIEN_DICH_TET_2027.md`.
+
+## 7b. Đóng thùng cam chống dập (thêm 2026-10-20)
+
+Lý do: cả 3 đánh giá xấu (1–4 sao) mùa trước trên Shopee đều vì **cam dập/hư khi đi đường xa**; khách khen
+nhiều nhất cũng nhắc "đóng thùng xốp chắc chắn". Làm đủ các bước dưới đây cho MỌI thùng gửi qua vận chuyển.
+
+1. **Hái lúc quả ráo**: không hái khi còn mưa/sương đọng; hái xong để cam nơi thoáng mát vài giờ cho vỏ se rồi
+   mới đóng — quả ướt đóng kín dễ úng, mốc.
+2. **Loại kỹ trước khi xếp**: bỏ quả dập, nứt, mềm, có vết thâm; cắt cuống sát (cuống dài đâm thủng quả khác).
+3. **Thùng xốp có lỗ thoáng**, đáy lót giấy/lá. Xếp từng lớp, quả to nằm dưới; giữa các lớp lót giấy chống sốc
+   hoặc giấy báo; xếp **vừa khít, không để lắc**, nhưng không nén ép quả.
+4. Dán băng dính chắc, ghi ngoài thùng: **"HÀNG DỄ DẬP — NHẸ TAY — KHÔNG XẾP NẶNG LÊN TRÊN"**.
+5. **Chọn tuyến**: gửi gần (miền Bắc) bình thường; gửi xa (miền Trung/Nam) chọn dịch vụ nhanh nhất, **không gửi
+   vào chiều thứ Sáu/trước ngày lễ** (hàng dễ nằm kho qua cuối tuần).
+6. Nhắn khách khi gửi: mã vận đơn + "nhận hàng mở thùng ngay, để nơi thoáng; quay video lúc mở để nếu có quả
+   hư nhà mình đổi/bù ngay".
+7. Khách báo hư kèm video → **trong ngày** gửi bù hoặc hoàn tiền phần hư (theo mục 4), ghi vào `note` của đơn và
+   ghi lại tuyến/hãng vận chuyển để biết tuyến nào hay hỏng.
+8. (Tuỳ chọn, bạn quyết) thùng 10kg gửi xa cho thêm 2–3 quả bù hao — rẻ hơn nhiều so với 1 đánh giá 1 sao.
 
 ## 8. Đăng bài mạng xã hội theo lịch
 
