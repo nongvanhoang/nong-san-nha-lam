@@ -467,3 +467,16 @@ body.paused *,body.paused *::before,body.paused *::after{animation-play-state:pa
 .h-quote figcaption b{color:var(--text-secondary);font-weight:600}
 .h-verified{color:var(--good)}
 @media (max-width:860px){.h-reviews{grid-template-columns:1fr}.h-score{position:static}.h-quotes{grid-template-columns:1fr}}
+
+/* =================== Thanh thông báo + logo đầu trang (2026-10-20) =================== */
+.h-ann{position:relative;z-index:45;background:linear-gradient(90deg,#8e2f1b 0%,#a3361f 35%,#b8862a 100%);color:#fff;text-align:center;font-size:.86rem;line-height:1.4;padding:.55rem 2.6rem}
+.h-ann a{color:#fff;text-decoration:none}
+.h-ann a:hover{color:#fff;text-decoration:underline}
+.h-ann b{font-weight:700}
+.h-ann .more{opacity:.92}
+.h-ann button{position:absolute;right:.5rem;top:50%;transform:translateY(-50%);background:none;border:0;color:#fff;font-size:1.3rem;line-height:1;cursor:pointer;padding:.3rem .5rem;opacity:.85}
+.h-ann button:hover{opacity:1}
+.h-ann.hide{display:none}
+@media (max-width:600px){.h-ann{font-size:.8rem;padding:.5rem 2.2rem .5rem .8rem;text-align:left}.h-ann .more{display:block}}
+.h-hero-logo{width:72px;height:72px;border-radius:50%;background:#fff;box-shadow:0 4px 18px rgba(0,0,0,.45);margin-bottom:1rem;display:block}
+@media (max-width:600px){.h-hero-logo{width:56px;height:56px;margin-bottom:.8rem}.h-hero-inner{padding-top:1.6rem}}
