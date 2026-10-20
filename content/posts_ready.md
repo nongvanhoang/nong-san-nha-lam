@@ -41,7 +41,7 @@ trước) hoặc chụp ảnh hộp quà thật khi đã có hộp.
 Tết năm nay biếu gì cho bố mẹ, ông bà mà vừa ngon vừa biết rõ nguồn gốc?
 
 Nhà mình ghép 2 thứ tự tay làm ra thành hộp quà Tết:
-🍊 **Cam Đường Canh** vườn nhà — thành viên HTX Nhung Giang, có chứng nhận VietGAP, chín tự nhiên trên cây
+🍊 **Cam Đường Canh** vườn nhà — thành viên HTX Thế Hưng Organic, có chứng nhận VietGAP, chín tự nhiên trên cây
 🌾 **Tinh bột sắn dây** lọc tay, sấy lò sấy riêng, không hoá chất, không tẩy trắng
 
 Gói nhỏ: cam 5kg + sắn dây 0,5kg — `[GIÁ]`
@@ -748,7 +748,7 @@ Ghé vườn cam đường canh nhà mình mấy hôm nay, thấy hoa đã tàn 
 trên cành rồi ạ 🍊 Còn vài tháng nữa mới tới mùa thu hoạch (khoảng tháng 11 âm lịch), nhưng nhìn
 quả non lúc lỉu thế này là biết mùa cam năm nay lại sắp về.
 
-Vườn nhà mình là thành viên Hợp Tác Xã Cây Ăn Quả Nhung Giang (Lạng Sơn), đạt chứng nhận VietGAP —
+Vườn nhà mình thuộc Hợp tác xã Thế Hưng Organic (tên cũ: HTX Cây Ăn Quả Nhung Giang), Lạng Sơn, đạt chứng nhận VietGAP —
 chăm cây đúng quy trình, không thúc ép, để cây tự đơm hoa kết trái theo mùa tự nhiên.
 
 Ai thích ăn cam ngọt tự nhiên, chín trên cây, để lại Zalo hoặc nhắn tin từ bây giờ nha — đến mùa
@@ -890,7 +890,7 @@ KE_HOACH_BAN_HANG.md)*
 ## Facebook — Cam Đường Canh, nhấn chứng nhận VietGAP (soạn trước cho mùa tới) (2026-07-06)
 
 Nhiều người hỏi cam đường canh nhà mình khác gì cam trôi nổi ngoài chợ 🍊 Câu trả lời là: nhà
-mình là thành viên Hợp Tác Xã Cây Ăn Quả Nhung Giang (Lạng Sơn), vườn cam đạt chứng nhận
+mình là thành viên Hợp tác xã Thế Hưng Organic (tên cũ: HTX Cây Ăn Quả Nhung Giang), Lạng Sơn, vườn cam đạt chứng nhận
 VietGAP số 112/CN-TĐC-TT-20-0012, đúng chuẩn TCVN 11892-1:2017.
 
 Nghĩa là quy trình trồng, chăm sóc đều được kiểm tra và đánh giá đạt chuẩn thật, không phải

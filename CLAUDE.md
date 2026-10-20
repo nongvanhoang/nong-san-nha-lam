@@ -60,7 +60,8 @@ Không có script nào tự động gọi API trả phí — mọi nội dung do
 1. **Tinh Bột Sắn Dây** — làm thủ công tại nhà, lọc thủ công và sấy bằng lò sấy chuyên dụng (đã đầu
    tư lò sấy, KHÔNG còn phơi nắng tự nhiên nữa — chuyển hẳn từ 2026-08-11), không hoá chất, không
    chất tẩy trắng. Bán quanh năm (đã chế biến, bảo quản được lâu).
-2. **Cam Đường Canh** — trồng bởi gia đình, thành viên **Hợp Tác Xã Cây Ăn Quả Nhung Giang**, tỉnh
+2. **Cam Đường Canh** — trồng bởi gia đình, thành viên **Hợp tác xã Thế Hưng Organic — TÊN CŨ là Hợp Tác Xã Cây Ăn Quả
+   Nhung Giang** (cùng một HTX, đã đổi tên — người dùng xác nhận 2026-10-20; giấy VietGAP vẫn in tên cũ), tỉnh
    Lạng Sơn, đạt **chứng nhận VietGAP** số 112/CN-TĐC-TT-20-0012 (cấp 23/12/2025, hiệu lực đến
    22/12/2028, do NATEK JSC cấp, phù hợp TCVN 11892-1:2017). Thu hoạch theo mùa (khoảng tháng 11
    âm lịch đến tháng 1 năm sau). Ngoài mùa thu hoạch KHÔNG chào bán sản phẩm này — nếu khách hỏi

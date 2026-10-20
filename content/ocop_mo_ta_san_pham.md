@@ -16,7 +16,7 @@ Cam Đường Canh — Thế Hưng Organic
 
 ## 2. Nguồn gốc, xuất xứ
 
-Trồng bởi hộ gia đình, thành viên **Hợp Tác Xã Cây Ăn Quả Nhung Giang**, tỉnh Lạng Sơn. Đạt
+Trồng bởi hộ gia đình, thành viên **Hợp tác xã Thế Hưng Organic (tên cũ: HTX Cây Ăn Quả Nhung Giang)**, tỉnh Lạng Sơn. Đạt
 **chứng nhận VietGAP** số 112/CN-TĐC-TT-20-0012, cấp 23/12/2025, hiệu lực đến 22/12/2028, do Công ty
 Cổ phần Khoa học và Công nghệ NATEK cấp, phù hợp TCVN 11892-1:2017.
 

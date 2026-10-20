@@ -37,8 +37,8 @@ Dùng đúng số liệu thật đã có, không thêm gì mới:
 > The Hung Organic Cooperative is a small farming cooperative based in Lang Son province, Vietnam, specializing in
 > handmade Kudzu Root Starch (Tinh Bột Sắn Dây) — 100% natural, hand-filtered and dried in a
 > dedicated drying kiln, no additives or bleaching agents, available year-round. We also grow
-> VietGAP-certified Canh Mandarin Oranges (certificate No. 112/CN-TĐC-TT-20-0012) as a member of the
-> Nhung Giang Fruit Tree Cooperative, seasonal harvest (November–January). We welcome wholesale and
+> VietGAP-certified Canh Mandarin Oranges (certificate No. 112/CN-TĐC-TT-20-0012) as The Hung Organic Cooperative
+> (formerly Nhung Giang Fruit Tree Cooperative), seasonal harvest (November–January). We welcome wholesale and
 > export inquiries for Kudzu Root Starch — a dry, shelf-stable product well suited to long-distance
 > and sea freight. Our production is currently at household scale and does not yet hold formal food
 > safety certification, which we disclose openly to partners.

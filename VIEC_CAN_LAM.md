@@ -17,6 +17,8 @@ việc nào chặn việc nào. Cập nhật lại file này (tick `[x]`) mỗi 
   - [ ] Tuần này: gọi Sở NN&MT/UBND xã + cô chú + Chi cục ATVSTP — **tờ câu hỏi in sẵn: `GOI_DIEN_OCOP.md`** (2026-10-10)
   - [x] ~~Hỏi tên công ty~~ → **[2026-10-19] Chủ thể = HTX Thế Hưng Organic** (GĐ Hà Quang Chiến, trụ sở Thôn
     Liên Lạc, xã Vũ Lăng). Đã điền vào `OCOP_2026.md` mục 5.1.
+  - [ ] **Mới (2026-10-20)**: HTX Nhung Giang = Thế Hưng Organic (đã đổi tên) → hồ sơ OCOP cam cần **giấy tờ chứng minh
+    đổi tên**; gọi **NATEK JSC** xin cập nhật tên trên giấy VietGAP 112/CN-TĐC-TT-20-0012. Hợp đồng liên kết cam: bỏ.
   - [ ] **GẤP**: HTX đã có **giấy chứng nhận đăng ký HTX** (mã số) chưa? OCOP bắt buộc có trước 30/10 — file
     ngành nghề mới là bản chuẩn bị (lập 05/10). Hỏi tiếp: giấy ATTP, hồ sơ môi trường.
   - [ ] Bao bì THOC (ảnh trong `Tài Liệu Công Ty/`): sửa "SĂN"→"SẮN", bỏ dấu "ORGANIC/Hàng sản sạch" (chưa có

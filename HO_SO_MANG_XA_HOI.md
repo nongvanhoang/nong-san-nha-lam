@@ -37,7 +37,7 @@ Vào **Cài đặt trang → Thông tin trang** để điền các mục dưới
   (không còn phơi nắng ngoài trời), không hoá chất, không chất tẩy trắng. Là cơ sở hộ gia đình quy mô
   nhỏ, thật thà nói rõ hiện chưa có chứng nhận chính thức — điểm mạnh của nhà mình là làm tay, làm thật.
 
-  🍊 Cam Đường Canh: gia đình mình là thành viên Hợp Tác Xã Cây Ăn Quả Nhung Giang, đạt chứng nhận
+  🍊 Cam Đường Canh: trồng bởi Hợp tác xã Thế Hưng Organic (tên cũ: HTX Cây Ăn Quả Nhung Giang), đạt chứng nhận
   VietGAP (số 112/CN-TĐC-TT-20-0012, hiệu lực đến 22/12/2028). Cam chín tự nhiên trên cây, không thúc
   chín, thu hoạch theo mùa (khoảng tháng 11 âm lịch đến tháng 1 năm sau).
 
@@ -260,8 +260,8 @@ lại từ mục đăng ký thư mục xuất khẩu):
   The Hung Organic Cooperative is a small farming cooperative based in Lang Son province, Vietnam, specializing in
   handmade Kudzu Root Starch (Tinh Bột Sắn Dây) — 100% natural, hand-filtered and dried in a
   dedicated drying kiln, no additives or bleaching agents, available year-round. We also grow
-  VietGAP-certified Canh Mandarin Oranges (certificate No. 112/CN-TĐC-TT-20-0012) as a member of the
-  Nhung Giang Fruit Tree Cooperative, seasonal harvest (November–January). We welcome wholesale and
+  VietGAP-certified Canh Mandarin Oranges (certificate No. 112/CN-TĐC-TT-20-0012) as The Hung Organic Cooperative
+  (formerly Nhung Giang Fruit Tree Cooperative), seasonal harvest (November–January). We welcome wholesale and
   export inquiries for Kudzu Root Starch — a dry, shelf-stable product well suited to long-distance
   and sea freight. Our production is currently at household scale and does not yet hold formal food
   safety certification, which we disclose openly to partners.

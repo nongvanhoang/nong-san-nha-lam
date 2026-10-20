@@ -70,7 +70,7 @@ giá, gửi thẻ này kèm file nhãn sắn dây cho xưởng in quen (cùng 1 
 > Tết năm nay biếu gì cho bố mẹ, ông bà mà vừa ngon vừa biết rõ nguồn gốc?
 >
 > Nhà mình ghép 2 thứ tự tay làm ra thành hộp quà Tết:
-> 🍊 **Cam Đường Canh** vườn nhà — thành viên HTX Nhung Giang, có chứng nhận VietGAP, chín tự nhiên trên cây
+> 🍊 **Cam Đường Canh** vườn nhà — thành viên HTX Thế Hưng Organic, có chứng nhận VietGAP, chín tự nhiên trên cây
 > 🌾 **Tinh bột sắn dây** lọc tay, sấy lò sấy riêng, không hoá chất, không tẩy trắng
 >
 > Gói nhỏ: cam 5kg + sắn dây 0,5kg — `[GIÁ]`
