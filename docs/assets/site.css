@@ -447,3 +447,23 @@ body.paused *,body.paused *::before,body.paused *::after{animation-play-state:pa
 .h-size div{padding:1.3rem 1.4rem 1.3rem 0}
 .h-size p{color:var(--text-secondary);font-size:.9rem}
 @media (max-width:760px){.h-size{grid-template-columns:1fr}.h-size div{padding:0 1.2rem 1.3rem}}
+
+/* =================== Khách nói gì (đánh giá thật Shopee, 2026-10-20) =================== */
+.h-reviews{display:grid;grid-template-columns:280px 1fr;gap:1.75rem;align-items:start}
+.h-score{background:var(--panel);border:1px solid var(--accent-muted);border-radius:10px;padding:1.6rem 1.4rem;text-align:center;position:sticky;top:84px}
+.h-score .num{font-family:Cambria,Georgia,serif;font-size:3.4rem;line-height:1;color:var(--accent-hover)}
+.h-score .num small{font-size:1.2rem;color:var(--text-secondary)}
+.h-stars{color:#f5b301;letter-spacing:.12em;font-size:1.05rem}
+.h-score p{color:var(--text-secondary);font-size:.86rem;margin:.6rem 0 1rem}
+.h-bars{list-style:none;margin:0;padding:0;display:grid;gap:.3rem;font-size:.78rem;color:var(--text-secondary)}
+.h-bars li{display:grid;grid-template-columns:2.4em 1fr 2.2em;align-items:center;gap:.5rem}
+.h-bars i{display:block;height:6px;border-radius:3px;background:rgba(243,234,217,.12);overflow:hidden}
+.h-bars i b{display:block;height:100%;background:#f5b301}
+.h-score .src{font-size:.74rem;color:var(--stone);margin-top:1rem}
+.h-quotes{display:grid;grid-template-columns:1fr 1fr;gap:1rem}
+.h-quote{background:var(--panel);border:1px solid var(--accent-muted);border-radius:8px;padding:1.1rem 1.2rem;margin:0}
+.h-quote blockquote{margin:.45rem 0 .8rem;color:var(--text-primary);font-size:.95rem;line-height:1.6}
+.h-quote figcaption{display:flex;justify-content:space-between;gap:.5rem;color:var(--stone);font-size:.76rem}
+.h-quote figcaption b{color:var(--text-secondary);font-weight:600}
+.h-verified{color:var(--good)}
+@media (max-width:860px){.h-reviews{grid-template-columns:1fr}.h-score{position:static}.h-quotes{grid-template-columns:1fr}}

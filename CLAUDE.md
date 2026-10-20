@@ -24,6 +24,13 @@
   Zalo/Shopee (người dùng tự đổi + tải ảnh mới trong `content/kenh_assets/`), video đã dựng có tên cũ,
   artifact "Sổ Đơn Nhà Làm", dấu chứng nhận hữu cơ (chờ giấy).
   Nhiều đoạn bên dưới vẫn ghi "Nông Sản Nhà Làm"/"nhà làm" — hiểu là thương hiệu cũ.
+- **Đánh giá thật (2026-10-20)**: shop Shopee "Cam Đường Canh TH" mùa 2025–2026 có 106 đánh giá (97×5★, 6×4★,
+  1×3★, 2×1★, TB 4,85). 10 lời khen nguyên văn đã lưu `data/testimonials.json` (tên che như Shopee) và hiện ở mục
+  "Khách nói gì" (#danh-gia) trên trang chủ + trang Cam (VI/EN, EN là bản dịch). Video gốc `Đánh Giá Khách Hàng/`
+  có tên đăng nhập + mã đơn → gitignore, không đăng. Đã loại đánh giá rác (chép mô tả shop, nói về "chiếc set").
+  Phàn nàn đều về **cam dập/hư khi vận chuyển xa** — 1 khách nói báo shop mà không được đền: web giờ hứa "đổi mới/
+  hoàn tiền nếu hư do vận chuyển", phải làm đúng. Không gắn schema AggregateRating (đánh giá từ bên thứ ba).
+  Lưu ý: cam ĐÃ từng bán trên Shopee (khác ghi chú cũ "không đưa cam lên sàn").
 - Túi sắn dây 5kg/10kg đã thêm vào `data/products.json`, `price_vnd: null` — CHƯA đăng lên web/sàn đến
   khi người dùng báo giá.
 

@@ -1,4 +1,116 @@
 {
-  "_note": "Chỉ thêm đánh giá THẬT do khách gửi qua Zalo/Facebook, không tự bịa. Xem quy trình xin đánh giá ở content/templates/zalo.md mục 5. Khi có >=1 mục ở đây, thêm phần 'Khách nói gì' lên website (san-day.html/cam-duong-canh.html) theo đúng nguyên văn.",
-  "testimonials": []
+  "_note": "Chỉ thêm đánh giá THẬT do khách gửi qua Zalo/Facebook, không tự bịa. Xem quy trình xin đánh giá ở content/templates/zalo.md mục 5. Khi có >=1 mục ở đây, thêm phần 'Khách nói gì' lên website (san-day.html/cam-duong-canh.html) theo đúng nguyên văn. Tên khách che bớt như Shopee (ký tự đầu + cuối), không đăng mã đơn/tên đăng nhập đầy đủ.",
+  "testimonials": [
+    {
+      "product": "Cam Đường Canh",
+      "source": "Shopee — shop \"Cam Đường Canh TH\" (Quản lý đánh giá), video quay màn hình Đánh Giá Khách Hàng/danh-gia-khach-hang-01.mp4",
+      "customer_display": "m*****2",
+      "stars": 5,
+      "date": "2026-02-13",
+      "package": "10kg",
+      "text": "Chất lượng rất ngon , ngọt , tươi đẹp có lựa chọn , giá siêu tốt . Nếu biết chất lượng tốt như vậy sẽ đặt gấp đôi hiện tại. 5sao",
+      "verbatim": true
+    },
+    {
+      "product": "Cam Đường Canh",
+      "source": "Shopee — shop \"Cam Đường Canh TH\" (Quản lý đánh giá), video quay màn hình Đánh Giá Khách Hàng/danh-gia-khach-hang-01.mp4",
+      "customer_display": "t*****x",
+      "stars": 5,
+      "date": "2026-02-13",
+      "package": "10kg",
+      "text": "Hương vị:vị ngọt giao tới mình còn tươi xanh\nChất lượng:không bị dập đóng gói cẩn thận",
+      "verbatim": true
+    },
+    {
+      "product": "Cam Đường Canh",
+      "source": "Shopee — shop \"Cam Đường Canh TH\" (Quản lý đánh giá), video quay màn hình Đánh Giá Khách Hàng/danh-gia-khach-hang-01.mp4",
+      "customer_display": "h*****9",
+      "stars": 5,
+      "date": "2026-01-13",
+      "package": "5kg",
+      "text": "Cam ngon ngọt, mỏng vỏ, mọng nước. Ăn khác hẳn cam mình mua bên ngoài luôn huhu. Cả thùng 5kg nhưng bị vỡ có 2 trái bé thôi, do các trái khác đè vào nên vỡ...",
+      "verbatim": true
+    },
+    {
+      "product": "Cam Đường Canh",
+      "source": "Shopee — shop \"Cam Đường Canh TH\" (Quản lý đánh giá), video quay màn hình Đánh Giá Khách Hàng/danh-gia-khach-hang-01.mp4",
+      "customer_display": "k*****r",
+      "stars": 5,
+      "date": "2026-01-21",
+      "package": "5kg",
+      "text": "Nhận được cam vẫn tươi rói ạ. Cam có vị ngọt thanh, dễ ăn. Mn nên thử nha",
+      "verbatim": true
+    },
+    {
+      "product": "Cam Đường Canh",
+      "source": "Shopee — shop \"Cam Đường Canh TH\" (Quản lý đánh giá), video quay màn hình Đánh Giá Khách Hàng/danh-gia-khach-hang-01.mp4",
+      "customer_display": "t*****8",
+      "stars": 5,
+      "date": "2026-01-31",
+      "package": "5kg",
+      "text": "Đóng gói thùng xốp khá chắc chắn, cam ngon ngọt",
+      "verbatim": true
+    },
+    {
+      "product": "Cam Đường Canh",
+      "source": "Shopee — shop \"Cam Đường Canh TH\" (Quản lý đánh giá), video quay màn hình Đánh Giá Khách Hàng/danh-gia-khach-hang-01.mp4",
+      "customer_display": "o*****m",
+      "stars": 5,
+      "date": "2026-01-31",
+      "package": "5kg",
+      "text": "Đậm vị ngọt:shop uy tín. đóng hàng cẩn thận. quả quýt đều ,ăn rất ngọt đậm",
+      "verbatim": true
+    },
+    {
+      "product": "Cam Đường Canh",
+      "source": "Shopee — shop \"Cam Đường Canh TH\" (Quản lý đánh giá), video quay màn hình Đánh Giá Khách Hàng/danh-gia-khach-hang-01.mp4",
+      "customer_display": "h*****4",
+      "stars": 5,
+      "date": "2026-01-06",
+      "package": "5kg",
+      "text": "Đã nhận sau 2 ngày. Quả mọng và ngọt ăn hết sẽ ủng hộ lần sau.",
+      "verbatim": true
+    },
+    {
+      "product": "Cam Đường Canh",
+      "source": "Shopee — shop \"Cam Đường Canh TH\" (Quản lý đánh giá), video quay màn hình Đánh Giá Khách Hàng/danh-gia-khach-hang-01.mp4",
+      "customer_display": "r*****0",
+      "stars": 5,
+      "date": "2026-01-07",
+      "package": "5kg",
+      "text": "Cam rấtngon mọng nước ngọt vừa phải, vỏ mỏng giá hợp lí",
+      "verbatim": true
+    },
+    {
+      "product": "Cam Đường Canh",
+      "source": "Shopee — shop \"Cam Đường Canh TH\" (Quản lý đánh giá), video quay màn hình Đánh Giá Khách Hàng/danh-gia-khach-hang-01.mp4",
+      "customer_display": "v*****c",
+      "stars": 5,
+      "date": "2026-01-05",
+      "package": "5kg",
+      "text": "Quả to, tươi, ngọt",
+      "verbatim": true
+    },
+    {
+      "product": "Cam Đường Canh",
+      "source": "Shopee — shop \"Cam Đường Canh TH\" (Quản lý đánh giá), video quay màn hình Đánh Giá Khách Hàng/danh-gia-khach-hang-01.mp4",
+      "customer_display": "h*****2",
+      "stars": 5,
+      "date": "2026-01-06",
+      "package": "5kg",
+      "text": "Bao bì/Mẫu mã:chắc chắn\nHương vị:ngọt dịu, mọng...",
+      "verbatim": true
+    }
+  ],
+  "shopee_summary": {
+    "as_of": "2026-03-03",
+    "total": 106,
+    "5": 97,
+    "4": 6,
+    "3": 1,
+    "2": 0,
+    "1": 2,
+    "avg": 4.85,
+    "note": "Thống kê shop Shopee Cam Đường Canh TH mùa 2025-2026. Phàn nàn (1-4 sao) đều về cam dập/hư khi vận chuyển xa. Đã loại các đánh giá không liên quan (chép mô tả shop, nói về \"chiếc set\")."
+  }
 }
