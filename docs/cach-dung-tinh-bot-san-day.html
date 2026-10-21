@@ -52,7 +52,7 @@ b.querySelector('button').addEventListener('click',function(){b.classList.add('h
     <ul class="nav-links" id="navLinks">
       <li><a href="san-day.html">Sắn Dây</a></li>
       <li><a href="cam-duong-canh.html">Cam Đường Canh</a></li>
-      <li><a href="dat-truoc.html">Đặt trước</a></li>
+      <li><a href="dat-truoc.html">Đặt hàng</a></li>
       <li><a href="index.html#faq">Hỏi đáp</a></li>
       <li><a href="index.html#lien-he">Liên hệ</a></li>
     </ul>
@@ -97,11 +97,47 @@ b.querySelector('button').addEventListener('click',function(){b.classList.add('h
     <h2>Bảo quản</h2>
     <p>Tinh Bột Sắn Dây nhà mình đã sấy khô hoàn toàn — để nơi khô ráo, thoáng mát, đậy kín sau mỗi lần dùng để tránh ẩm, dùng được lâu dài mà không cần tủ lạnh.</p>
 
-    <p style="margin-top:2rem;text-align:center">
-      <a href="san-day.html" class="btn btn-gold">Xem giá &amp; đặt Tinh Bột Sắn Dây</a>
-    </p>
   </article>
+
+  <section class="reveal" id="mua" style="max-width:var(--max);margin:2.5rem auto 0">
+    <div class="h-buy">
+      <div class="h-buy-media">
+        <img src="assets/home/sp-san-day.jpg" alt="Tinh bột sắn dây khô, trắng tự nhiên" loading="lazy" width="720" height="900">
+        <img src="assets/sp/sd-g2.jpg" alt="Tinh bột sắn dây đóng túi" loading="lazy" width="600" height="600">
+        <img src="assets/sp/sd-g3.jpg" alt="Bánh bột sắn dây trên khay sấy" loading="lazy" width="600" height="600">
+      </div>
+      <div class="h-buy-body">
+        <span class="eyebrow">Có sẵn, giao ngay</span>
+        <h3>Tinh Bột Sắn Dây Thế Hưng</h3>
+        <p class="lead">Từ nương núi đá vôi Bắc Sơn — lọc nhiều lượt, sấy lò kiểm soát nhiệt. Trắng tự nhiên, không tẩy trắng, không phụ gia.</p>
+        <ul class="h-variants">
+          <li><a href="dat-truoc.html?chon=sd05"><span>Túi 0,5kg<small>Dùng thử, làm quà nhỏ</small></span><b>80.000đ</b></a></li>
+          <li><a href="dat-truoc.html?chon=sd1"><span>Túi 1kg<small>Gia đình dùng thường xuyên · lợi hơn</small></span><b>155.000đ</b></a></li>
+        </ul>
+        <a class="btn btn-gold" href="dat-truoc.html?chon=sd1">Đặt hàng ngay</a>
+        <a class="btn btn-zalo" href="https://zalo.me/0979502000">Hỏi nhanh qua Zalo</a>
+        <ul class="h-ticks">
+          <li>Giao toàn quốc 2–5 ngày, phí ship báo trước khi xác nhận</li>
+          <li>Đổi mới hoặc hoàn tiền nếu hư do vận chuyển</li>
+        </ul>
+      </div>
+    </div>
+  </section>
 </main>
+
+<nav class="h-sticky" id="hSticky" aria-label="Đặt hàng nhanh">
+  <a href="tel:0979502000">📞 Gọi</a>
+  <a class="zalo" href="https://zalo.me/0979502000">Zalo</a>
+  <a class="buy" href="dat-truoc.html?chon=sd1">Đặt hàng</a>
+</nav>
+<script>
+(function(){
+  var bar=document.getElementById('hSticky'); if(!bar) return;
+  document.body.classList.add('has-sticky');
+  function f(){ bar.classList.toggle('show', window.scrollY>400); }
+  window.addEventListener('scroll', f, {passive:true}); f();
+})();
+</script>
 
 <footer>© Hợp tác xã Thế Hưng Organic (THOC) — Vũ Lăng, Lạng Sơn</footer>
 
