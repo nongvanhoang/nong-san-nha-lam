@@ -274,10 +274,10 @@
 
   function vnd(n){ return n.toLocaleString("vi-VN") + "đ"; }
 
-  // Cho phép link từ bài đăng chọn sẵn hàng: dat-truoc.html?chon=cam10 hoặc ?chon=qua-nho,sd1
+  // Cho phép link từ bài đăng chọn sẵn hàng: dat-truoc.html?chon=cam10, ?chon=qua-nho,sd1 hoặc kèm số lượng ?chon=sd1:2,cam10:1
   try {
     var pre = new URLSearchParams(location.search).get("chon");
-    if (pre) pre.split(",").forEach(function(id){ qty[id.trim()] = 1; });
+    if (pre) pre.split(",").forEach(function(tok){ var p = tok.trim().split(":"); var n = parseInt(p[1], 10); qty[p[0]] = (n > 0 ? Math.min(MAX, n) : 1); });
   } catch(e){}
 
   items.forEach(function(el){

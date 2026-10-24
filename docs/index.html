@@ -9,7 +9,7 @@
 <link rel="alternate" hreflang="vi" href="https://nongsannhalam.com/">
 <link rel="alternate" hreflang="en" href="https://nongsannhalam.com/en/">
 <link rel="alternate" hreflang="x-default" href="https://nongsannhalam.com/en/">
-<meta name="theme-color" content="#14100c">
+<meta name="theme-color" content="#173f23">
 <meta name="google-site-verification" content="N76bqCXjJAMg-uAHsj5RtqKKy1jIXPP528dIqW5goeo">
 <meta property="og:type" content="website">
 <meta property="og:locale" content="vi_VN">
@@ -26,7 +26,12 @@
 <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png">
 <link rel="apple-touch-icon" href="apple-touch-icon.png">
 <link rel="manifest" href="manifest.json">
-<link rel="stylesheet" href="assets/site.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700&family=Fraunces:opsz,wght@9..144,500;9..144,600&display=swap" rel="stylesheet">
+<link rel="preload" as="image" href="assets/home/hero-1920.jpg" media="(min-width:701px)">
+<link rel="preload" as="image" href="assets/home/hero-mobile.jpg" media="(max-width:700px)">
+<link rel="stylesheet" href="assets/home.css">
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -82,254 +87,328 @@
 }
 </script>
 </head>
-<body class="home">
+<body>
 <a href="#main" class="skip-link">Bỏ qua tới nội dung</a>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="ck" viewBox="0 0 24 24"><path d="M5 12.5l4.5 4.5L19 7.5" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+  <symbol id="st" viewBox="0 0 24 24"><path d="M12 2.8l2.8 5.9 6.4.8-4.7 4.4 1.2 6.4L12 17.2l-5.7 3.1 1.2-6.4-4.7-4.4 6.4-.8z" fill="currentColor"/></symbol>
+</svg>
 
-<div class="h-ann" id="hAnn" role="region" aria-label="Thông báo"><a href="dat-truoc.html?chon=cam10"><b>🍊 Đặt trước Cam Đường Canh mùa mới &amp; quà Tết 2027</b> <span class="more">— chưa cần thanh toán, báo hàng đầu tiên →</span></a><button type="button" aria-label="Đóng thông báo">×</button></div>
+<div class="ann" id="hAnn" role="region" aria-label="Thông báo"><a href="dat-truoc.html?chon=cam10">Đặt trước Cam Đường Canh mùa mới và quà Tết 2027: chưa cần thanh toán, báo hàng đầu tiên →</a><button type="button" aria-label="Đóng thông báo">×</button></div>
 <script>
 (function(){var k='ann-tet-2027',b=document.getElementById('hAnn');if(!b)return;
 try{if(localStorage.getItem(k)){b.classList.add('hide');return;}}catch(e){}
 b.querySelector('button').addEventListener('click',function(){b.classList.add('hide');try{localStorage.setItem(k,'1')}catch(e){}});})();
+document.documentElement.classList.add('js');
 </script>
-<nav class="site-nav">
-  <div class="site-nav-inner">
-    <a class="brand" href="index.html">
-      <img src="assets/logo-thoc-mark.png" alt="Logo THOC – Hợp tác xã Thế Hưng Organic">
-      <span>Thế Hưng Organic</span>
-    </a>
-    <ul class="nav-links" id="navLinks">
-      <li><a href="san-day.html">Sắn Dây</a></li>
-      <li><a href="cam-duong-canh.html">Cam Đường Canh</a></li>
-      <li><a href="dat-truoc.html">Đặt hàng</a></li>
+
+<nav class="nav" id="nav" aria-label="Chính">
+  <div class="wrap">
+    <a class="brand" href="index.html"><img src="assets/logo-thoc-mark.png" alt="Logo THOC" width="42" height="42"><span>Thế Hưng Organic</span></a>
+    <ul>
+      <li><a href="#san-pham">Sản phẩm</a></li>
+      <li><a href="#quy-trinh">Quy trình</a></li>
+      <li><a href="#danh-gia">Đánh giá</a></li>
       <li><a href="#faq">Hỏi đáp</a></li>
-      <li><a href="#lien-he">Liên hệ</a></li>
     </ul>
-<button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="navLinks" aria-label="Menu">
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
-    </button>
-    <div class="nav-side">
-      <div class="lang-switch">
-        <a class="active" href="index.html">VI</a>
-        <a href="en/index.html">EN</a>
-      </div>
-      <a class="nav-cta" href="https://zalo.me/0979502000">Nhắn Zalo</a>
-    </div>
+    <div class="lang"><a href="index.html" aria-current="page">VI</a><a href="en/index.html" lang="en">EN</a></div>
+    <details class="menu"><summary aria-label="Mở menu"><svg width="20" height="20" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></svg></summary>
+      <ul>
+        <li><a href="#san-pham">Sản phẩm &amp; giá</a></li>
+        <li><a href="san-day.html">Tinh Bột Sắn Dây</a></li>
+        <li><a href="cam-duong-canh.html">Cam Đường Canh</a></li>
+        <li><a href="#quy-trinh">Quy trình</a></li>
+        <li><a href="#danh-gia">Đánh giá</a></li>
+        <li><a href="#faq">Hỏi đáp</a></li>
+        <li><a href="en/index.html" lang="en">English</a></li>
+      </ul>
+    </details>
+    <a class="btn" href="dat-truoc.html?chon=sd1">Đặt hàng</a>
   </div>
 </nav>
 
-<header class="h-hero" id="top" style="background-image:url('assets/home/hero-1920.jpg')">
-  <video class="h-hero-media" autoplay muted loop playsinline preload="metadata" poster="assets/home/hero-1920.jpg" aria-hidden="true">
+<header class="hero" id="top">
+  <video autoplay muted loop playsinline preload="metadata" poster="assets/home/hero-1920.jpg" aria-hidden="true">
     <source src="assets/home/hero-loop.mp4" type="video/mp4">
   </video>
-  <div class="h-hero-inner">
-    <img class="h-hero-logo" src="assets/logo-thoc-mark.png" alt="" width="72" height="72">
-    <span class="eyebrow">Hợp tác xã Thế Hưng Organic · Vũ Lăng, Lạng Sơn</span>
-    <h1>Tinh bột sắn dây <em>trắng tự nhiên</em>, từ nương núi đá Bắc Sơn</h1>
-    <p class="h-hero-lead">Củ đào tận gốc, lọc tay nhiều lượt, sấy lò kiểm soát nhiệt — không tẩy trắng, không phụ gia. Kèm Cam Đường Canh VietGAP theo mùa.</p>
-    <div class="h-price">Tinh Bột Sắn Dây chỉ từ <b>80.000đ</b> / túi 0,5kg</div>
-    <div class="h-cta">
-      <a class="btn btn-gold" href="dat-truoc.html?chon=sd1">Đặt hàng ngay</a>
-      <a class="btn btn-zalo" href="https://zalo.me/0979502000">Nhắn Zalo 0979 502 000</a>
-      <a class="btn btn-outline" href="#gioi-thieu">▶ Xem video 90 giây</a>
+  <div class="wrap">
+    <div>
+      <h1 class="rise"><span>Tinh bột sắn dây</span> <span>Bắc Sơn</span></h1>
+      <p class="lead rise" style="--i:1">Lọc tay, sấy lò, không tẩy trắng, từ <b>80.000đ</b> túi 0,5kg. Kèm Cam Đường Canh VietGAP theo mùa, từ Hợp tác xã Thế Hưng Organic ở Vũ Lăng, Lạng Sơn.</p>
+      <div class="ctas rise" style="--i:2">
+        <a class="btn" href="#san-pham">Chọn hàng &amp; xem giá</a>
+        <a class="btn glass" href="https://zalo.me/0979502000">Nhắn Zalo 0979 502 000</a>
+      </div>
+      <ul class="facts rise" style="--i:3">
+        <li><svg width="18" height="18"><use href="#ck"/></svg>Không hoá chất, không phụ gia</li>
+        <li><svg width="18" height="18"><use href="#ck"/></svg>4,85/5 từ 106 đánh giá Shopee</li>
+        <li><svg width="18" height="18"><use href="#ck"/></svg>Giao toàn quốc 2–5 ngày</li>
+      </ul>
     </div>
-    <ul class="h-chips">
-      <li><span style="color:#f5b301">★</span><a href="#danh-gia" style="color:inherit">Cam Đường Canh 4,85/5 · 106 đánh giá Shopee</a></li>
-      <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>Không tẩy trắng</li>
-      <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>Sấy lò, không phụ thuộc nắng mưa</li>
-      <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>Giao toàn quốc 2–5 ngày</li>
-    </ul>
+    <a class="pcard rise" style="--i:2" href="#san-pham" aria-label="Xem Tinh Bột Sắn Dây và chọn số lượng">
+      <img src="assets/v2/sd-tui-640.webp" alt="Ba túi tinh bột sắn dây trắng của hợp tác xã" width="640" height="480">
+      <div class="t"><b>Tinh Bột Sắn Dây</b><span>Có sẵn quanh năm</span></div>
+      <ul><li>Túi 0,5kg<b>80.000đ</b></li><li>Túi 1kg<b>155.000đ</b></li></ul>
+      <span class="btn green">Chọn số lượng</span>
+    </a>
   </div>
 </header>
 
-<div class="h-band">
-  <ul>
-    <li><span class="ico"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 20l6-12 4 7 3-4 5 9z"/></svg></span><div><b>Vùng trồng núi đá vôi</b><span>Nương sắn dây xã Vũ Lăng, Bắc Sơn</span></div></li>
-    <li><span class="ico"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2.7c3 3.8 6 7.4 6 11.3a6 6 0 0 1-12 0c0-3.9 3-7.5 6-11.3z"/></svg></span><div><b>Lọc tay nhiều lượt</b><span>Khuấy, lắng, thay nước đến khi bột trong</span></div></li>
-    <li><span class="ico"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 9v4l2 2"/><circle cx="12" cy="13" r="8"/></svg></span><div><b>Sấy lò kiểm soát nhiệt</b><span>Khô đều, sạch, không phơi ngoài trời</span></div></li>
-    <li><span class="ico"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l7 3v6c0 4.5-3 7.5-7 9-4-1.5-7-4.5-7-9V6z"/><path d="M9 12l2 2 4-4"/></svg></span><div><b>Cam VietGAP có số tra cứu</b><span>112/CN-TĐC-TT-20-0012</span></div></li>
-  </ul>
-</div>
-
 <main id="main" tabindex="-1">
 
-  <section class="reveal" id="san-pham">
-    <div class="section-heading">
-      <span class="eyebrow">Sản phẩm</span>
-      <h2>Chọn hàng, đặt trong 1 phút</h2>
-      <p>Bấm vào quy cách muốn mua — phiếu đặt hàng tự điền sẵn, gửi qua Zalo là xong.</p>
-    </div>
-    <div class="h-prod-grid">
-      <article class="h-prod">
-        <div class="h-prod-img">
-          <img src="assets/home/sp-san-day.jpg" alt="Tinh bột sắn dây khô, trắng tự nhiên sau khi ra lò sấy" loading="lazy" width="720" height="900">
-          <span class="h-badge">Có sẵn quanh năm</span>
-        </div>
-        <div class="h-prod-body">
-          <h3>Tinh Bột Sắn Dây</h3>
-          <p>Pha nước uống giải nhiệt, nấu chè, làm bánh. Bột trắng tự nhiên, không tẩy trắng, không phụ gia.</p>
-          <ul class="h-variants">
-            <li><a href="dat-truoc.html?chon=sd05"><span>Túi 0,5kg<small>Dùng thử, làm quà nhỏ</small></span><b>80.000đ</b></a></li>
-            <li><a href="dat-truoc.html?chon=sd1"><span>Túi 1kg<small>Gia đình dùng thường xuyên</small></span><b>155.000đ</b></a></li>
-          </ul>
-          <a class="btn btn-gold" href="dat-truoc.html?chon=sd1">Đặt Tinh Bột Sắn Dây</a>
-          <a class="h-more" href="san-day.html">Xem chi tiết &amp; cách pha →</a>
-        </div>
-      </article>
-      <article class="h-prod">
-        <div class="h-prod-img">
-          <img src="assets/home/sp-cam.jpg" alt="Cam Đường Canh bổ đôi, múi vàng mọng nước" loading="lazy" width="720" height="900">
-          <span class="h-badge green">VietGAP · Theo mùa</span>
-        </div>
-        <div class="h-prod-body">
-          <h3>Cam Đường Canh</h3>
-          <p>Chín tự nhiên trên cây, không thúc chín. Mùa thu hoạch khoảng tháng 11 âm lịch – tháng 1. Đặt trước để có hàng sớm nhất.</p>
-          <ul class="h-variants">
-            <li><a href="dat-truoc.html?chon=cam5"><span>Thùng 5kg<small>Đặt trước mùa mới</small></span><b>275.000đ</b></a></li>
-            <li><a href="dat-truoc.html?chon=cam10"><span>Thùng 10kg<small>Đặt trước mùa mới</small></span><b>500.000đ</b></a></li>
-          </ul>
-          <a class="btn btn-gold" href="dat-truoc.html?chon=cam10">Đặt trước Cam Đường Canh</a>
-          <a class="h-more" href="cam-duong-canh.html">Xem vườn cam →</a>
-        </div>
-      </article>
-    </div>
-    <div class="h-tet">
-      <div><b>Quà Tết Đinh Mùi 2027 — Cam Đường Canh + Tinh Bột Sắn Dây</b><span>Nhận đặt trước hộp quà biếu gia đình, đối tác. Nhắn để được báo giá.</span></div>
-      <a class="btn btn-outline" href="dat-truoc.html?chon=qua-nho">Đặt trước quà Tết</a>
-    </div>
-  </section>
-
-  <section class="reveal" id="danh-gia">
-    <div class="section-heading">
-      <span class="eyebrow">Đánh giá thật</span>
-      <h2>Khách nói gì về Cam Đường Canh</h2>
-      <p>Trích nguyên văn từ đánh giá của khách đã mua trên Shopee mùa vừa rồi — không sửa chữ, tên khách được che bớt.</p>
-    </div>
-    <div class="h-reviews">
-      <div class="h-score">
-        <div class="num">4,85<small>/5</small></div>
-        <div class="h-stars">★★★★★</div>
-        <p>106 đánh giá trên Shopee<br>97 đánh giá 5 sao</p>
-        <ul class="h-bars"><li><span>5★</span><i><b style="width:91.5%"></b></i><span>97</span></li><li><span>4★</span><i><b style="width:5.7%"></b></i><span>6</span></li><li><span>3★</span><i><b style="width:0.9%"></b></i><span>1</span></li><li><span>2★</span><i><b style="width:0.0%"></b></i><span>0</span></li><li><span>1★</span><i><b style="width:1.9%"></b></i><span>2</span></li></ul>
-        <p class="src">Nguồn: shop Shopee “Cam Đường Canh TH”, mùa 2025–2026.</p>
-        <a class="btn btn-outline" href="https://shopee.vn/shop/1700409288" target="_blank" rel="noopener" style="margin-top:1rem;display:block">Xem tất cả đánh giá trên Shopee ↗</a>
+  <section class="shop" id="san-pham" aria-labelledby="t-sp">
+    <div class="wrap">
+      <div class="head">
+        <h2 id="t-sp" class="rise">Chọn hàng</h2>
+        <p class="rise">Bấm + để thêm vào phiếu, tổng tiền hiện ngay ở cuối màn hình. Phí ship báo trước, bạn đồng ý rồi mới gửi.</p>
       </div>
-      <div class="h-quotes">
-      <figure class="h-quote"><span class="h-stars" aria-label="5 sao">★★★★★</span><blockquote>“Chất lượng rất ngon , ngọt , tươi đẹp có lựa chọn , giá siêu tốt . Nếu biết chất lượng tốt như vậy sẽ đặt gấp đôi hiện tại. 5sao”</blockquote><figcaption><b>m*****2</b><span><span class="h-verified">✓</span> Đã mua thùng 10kg · 13/02/2026</span></figcaption></figure>
-      <figure class="h-quote"><span class="h-stars" aria-label="5 sao">★★★★★</span><blockquote>“Cam ngon ngọt, mỏng vỏ, mọng nước. Ăn khác hẳn cam mình mua bên ngoài luôn huhu. Cả thùng 5kg nhưng bị vỡ có 2 trái bé thôi, do các trái khác đè vào nên vỡ...”</blockquote><figcaption><b>h*****9</b><span><span class="h-verified">✓</span> Đã mua thùng 5kg · 13/01/2026</span></figcaption></figure>
-      <figure class="h-quote"><span class="h-stars" aria-label="5 sao">★★★★★</span><blockquote>“Nhận được cam vẫn tươi rói ạ. Cam có vị ngọt thanh, dễ ăn. Mn nên thử nha”</blockquote><figcaption><b>k*****r</b><span><span class="h-verified">✓</span> Đã mua thùng 5kg · 21/01/2026</span></figcaption></figure>
-      <figure class="h-quote"><span class="h-stars" aria-label="5 sao">★★★★★</span><blockquote>“Đóng gói thùng xốp khá chắc chắn, cam ngon ngọt”</blockquote><figcaption><b>t*****8</b><span><span class="h-verified">✓</span> Đã mua thùng 5kg · 31/01/2026</span></figcaption></figure>
-      <figure class="h-quote"><span class="h-stars" aria-label="5 sao">★★★★★</span><blockquote>“Đã nhận sau 2 ngày. Quả mọng và ngọt ăn hết sẽ ủng hộ lần sau.”</blockquote><figcaption><b>h*****4</b><span><span class="h-verified">✓</span> Đã mua thùng 5kg · 06/01/2026</span></figcaption></figure>
-      <figure class="h-quote"><span class="h-stars" aria-label="5 sao">★★★★★</span><blockquote>“Cam rấtngon mọng nước ngọt vừa phải, vỏ mỏng giá hợp lí”</blockquote><figcaption><b>r*****0</b><span><span class="h-verified">✓</span> Đã mua thùng 5kg · 07/01/2026</span></figcaption></figure>
+      <div class="prods">
+        <article class="prod rise" aria-labelledby="t-sd">
+          <div class="img">
+            <img src="assets/v2/sd-tui-1200.webp" srcset="assets/v2/sd-tui-640.webp 640w, assets/v2/sd-tui-1200.webp 1200w" sizes="(max-width:700px) 100vw, 50vw" alt="Túi tinh bột sắn dây trắng tự nhiên, đóng ngay sau khi ra lò" width="1200" height="900" loading="lazy">
+            <div class="tags"><span class="tag">Có sẵn quanh năm</span></div>
+          </div>
+          <div class="body">
+            <h3 id="t-sd">Tinh Bột Sắn Dây</h3>
+            <p class="desc">Pha nước uống giải nhiệt, nấu chè, làm bánh. Bột trắng tự nhiên, không tẩy trắng, không phụ gia.</p>
+            <ul class="vars" data-group="sd">
+              <li class="var" data-id="sd05" data-price="80000"><a href="dat-truoc.html?chon=sd05" class="nm">Túi 0,5kg<small>Dùng thử, làm quà nhỏ</small></a><span class="pr">80.000đ</span><span class="step"><button type="button" data-d="-1" aria-label="Bớt 1 túi 0,5kg">−</button><output aria-live="polite">0</output><button type="button" data-d="1" aria-label="Thêm 1 túi 0,5kg">+</button></span></li>
+              <li class="var" data-id="sd1" data-price="155000"><a href="dat-truoc.html?chon=sd1" class="nm">Túi 1kg<small>Gia đình dùng thường xuyên</small></a><span class="pr">155.000đ</span><span class="step"><button type="button" data-d="-1" aria-label="Bớt 1 túi 1kg">−</button><output aria-live="polite">0</output><button type="button" data-d="1" aria-label="Thêm 1 túi 1kg">+</button></span></li>
+            </ul>
+            <div class="acts">
+              <a class="btn green" href="dat-truoc.html?chon=sd1">Đặt túi 1kg</a>
+              <a class="btn ghost" href="san-day.html">Cách pha &amp; chi tiết</a>
+            </div>
+          </div>
+        </article>
+        <article class="prod rise" style="--i:1" aria-labelledby="t-cam">
+          <div class="img">
+            <img src="assets/v2/cam-bo-1200.webp" srcset="assets/v2/cam-bo-640.webp 640w, assets/v2/cam-bo-1200.webp 1200w" sizes="(max-width:700px) 100vw, 50vw" alt="Cam Đường Canh bổ đôi trên cành, múi vàng mọng nước" width="1200" height="900" loading="lazy">
+            <div class="tags"><span class="tag o">Đặt trước mùa mới</span><span class="tag">VietGAP</span></div>
+          </div>
+          <div class="body">
+            <h3 id="t-cam">Cam Đường Canh</h3>
+            <p class="desc">Chín tự nhiên trên cây, không thúc chín. Mùa thu hoạch khoảng tháng 11 âm lịch đến tháng 1. Đặt trước để có hàng sớm nhất.</p>
+            <ul class="vars" data-group="cam">
+              <li class="var" data-id="cam5" data-price="275000"><a href="dat-truoc.html?chon=cam5" class="nm">Thùng 5kg<small>Đặt trước mùa mới</small></a><span class="pr">275.000đ</span><span class="step"><button type="button" data-d="-1" aria-label="Bớt 1 thùng 5kg">−</button><output aria-live="polite">0</output><button type="button" data-d="1" aria-label="Thêm 1 thùng 5kg">+</button></span></li>
+              <li class="var" data-id="cam10" data-price="500000"><a href="dat-truoc.html?chon=cam10" class="nm">Thùng 10kg<small>Đặt trước mùa mới</small></a><span class="pr">500.000đ</span><span class="step"><button type="button" data-d="-1" aria-label="Bớt 1 thùng 10kg">−</button><output aria-live="polite">0</output><button type="button" data-d="1" aria-label="Thêm 1 thùng 10kg">+</button></span></li>
+            </ul>
+            <p class="note">Quà Tết Đinh Mùi 2027, hộp Cam Đường Canh và Tinh Bột Sắn Dây: <a class="tlink" href="dat-truoc.html?chon=qua-nho">đặt trước, nhắn để được báo giá</a>.</p>
+            <div class="acts">
+              <a class="btn green" href="dat-truoc.html?chon=cam10">Đặt trước thùng 10kg</a>
+              <a class="btn ghost" href="cam-duong-canh.html">Xem vườn cam</a>
+            </div>
+          </div>
+        </article>
       </div>
     </div>
   </section>
 
-  <section class="reveal" id="gioi-thieu">
-    <div class="section-heading">
-      <span class="eyebrow">Video giới thiệu · 90 giây</span>
-      <h2>Từ nương đến túi bột</h2>
-      <p>Quay thật, đủ các bước: trồng, thu hoạch, nghiền lọc, sấy, đóng gói — Tinh Bột Sắn Dây và Cam Đường Canh của Hợp tác xã Thế Hưng Organic.</p>
-    </div>
-    <div class="video-frame video-wide">
-      <video src="assets/gioi-thieu-thoc.mp4" poster="assets/gioi-thieu-thoc-poster.jpg" controls playsinline preload="none"></video>
-    </div>
-  </section>
-
-  <section class="reveal" id="quy-trinh">
-    <div class="section-heading">
-      <span class="eyebrow">Quy trình</span>
-      <h2>6 bước, làm thật, không đi tắt</h2>
-      <p>Toàn bộ ảnh dưới đây chụp tại nương và xưởng của hợp tác xã.</p>
-    </div>
-    <div class="h-steps">
-      <div class="h-step"><img src="assets/home/b1-trong.jpg" alt="Nương sắn dây xanh dưới chân núi đá vôi" loading="lazy" width="800" height="600"><div class="h-step-body"><h3>Trồng giữa núi đá</h3><p>Dây leo phủ kín giàn, củ lớn dần dưới đất trên nương xã Vũ Lăng.</p></div></div>
-      <div class="h-step"><img src="assets/home/b2-thuhoach.jpg" alt="Máy xúc đào cả gốc củ sắn dây lên khỏi đất" loading="lazy" width="800" height="600"><div class="h-step-body"><h3>Đào cả gốc củ</h3><p>Đến mùa, đào tận gốc, củ to chắc, đưa về xưởng trong ngày.</p></div></div>
-      <div class="h-step"><img src="assets/home/b3-rua.jpg" alt="Rửa sạch củ sắn dây bằng vòi nước" loading="lazy" width="800" height="600"><div class="h-step-body"><h3>Rửa sạch, nghiền</h3><p>Rửa hết đất cát rồi nghiền nát, ép lấy nước bột.</p></div></div>
-      <div class="h-step"><img src="assets/home/b4-loc.jpg" alt="Khuấy bột sắn dây trắng trong bể lắng" loading="lazy" width="800" height="600"><div class="h-step-body"><h3>Lọc &amp; lắng nhiều lượt</h3><p>Khuấy, để lắng, thay nước, lọc lại — đến khi bột thật trắng và trong.</p></div></div>
-      <div class="h-step"><img src="assets/home/b5-say.jpg" alt="Đẩy khay bột vào lò sấy nhiều tầng" loading="lazy" width="800" height="600"><div class="h-step-body"><h3>Sấy lò nhiều tầng</h3><p>Nhiệt độ cài sẵn, bột khô đều, không phụ thuộc nắng mưa.</p></div></div>
-      <div class="h-step"><img src="assets/home/b6-donggoi.jpg" alt="Tinh bột sắn dây đã sấy khô được đóng túi" loading="lazy" width="800" height="600"><div class="h-step-body"><h3>Ra lò là đóng túi</h3><p>Đóng túi ngay khi bột vừa khô, giữ trọn màu trắng tự nhiên.</p></div></div>
-    </div>
-  </section>
-
-  <section class="reveal" id="vung-trong">
-    <div class="section-heading">
-      <span class="eyebrow">Vùng trồng</span>
-      <h2>Nương sắn dây giữa núi đá vôi Bắc Sơn</h2>
-    </div>
-    <div class="h-gallery">
-      <figure class="big"><img src="assets/home/vung-19.jpg" alt="Nương sắn dây xanh mướt dưới núi đá vôi, trời xanh" loading="lazy"></figure>
-      <figure><img src="assets/home/vung-24.jpg" alt="Dãy núi đá vôi sau nương sắn dây" loading="lazy"></figure>
-      <figure><img src="assets/home/vung-27.jpg" alt="Luống sắn dây mới trồng dưới chân núi" loading="lazy"></figure>
-      <figure class="wide"><img src="assets/home/vung-35.jpg" alt="Toàn cảnh nương sắn dây và núi đá vôi" loading="lazy"></figure>
-      <figure class="wide"><img src="assets/home/vung-38.jpg" alt="Lá sắn dây phủ kín nương, núi đá phía sau" loading="lazy"></figure>
-      <figure class="wide"><img src="assets/home/vung-21.jpg" alt="Nương sắn dây trải dài tới chân núi" loading="lazy"></figure>
-    </div>
-    <p class="h-gallery-note">Ảnh chụp thật tại xã Vũ Lăng, tỉnh Lạng Sơn.</p>
-  </section>
-
-  <section class="reveal" id="faq">
-    <div class="section-heading">
-      <span class="eyebrow">Hỏi đáp</span>
-      <h2>Những câu hay được hỏi</h2>
-    </div>
-    <div class="faq-list">
-      <details class="faq-item">
-        <summary>Đặt hàng thế nào, thanh toán ra sao?</summary>
-        <p>Bấm "Đặt hàng ngay", chọn quy cách, điền tên – SĐT – địa chỉ rồi gửi phiếu qua Zalo (hoặc nhắn thẳng Zalo 0979 502 000). Nhà mình gọi/nhắn xác nhận đơn, báo phí ship và cách thanh toán trước khi gửi hàng.</p>
-      </details>
-      <details class="faq-item">
-        <summary>Tinh Bột Sắn Dây và Cam Đường Canh khác nhau thế nào về mùa vụ?</summary>
-        <p>Tinh Bột Sắn Dây đã sấy khô, bảo quản được lâu nên bán quanh năm. Cam Đường Canh là trái tươi, chỉ thu hoạch theo mùa (khoảng tháng 11 âm lịch đến tháng 1 năm sau).</p>
-      </details>
-      <details class="faq-item">
-        <summary>Ở xa (ngoại tỉnh, vùng núi) có giao được không?</summary>
-        <p>Giao hàng toàn quốc qua đơn vị vận chuyển, thường 2–5 ngày tuỳ khu vực. Phí ship theo bảng giá đơn vị vận chuyển, báo trước khi bạn xác nhận đặt hàng.</p>
-      </details>
-      <details class="faq-item">
-        <summary>Sản phẩm có chứng nhận gì?</summary>
-        <p>Cam Đường Canh đạt chứng nhận VietGAP (số 112/CN-TĐC-TT-20-0012, NATEK JSC cấp, hiệu lực đến 22/12/2028). Giấy tờ của Tinh Bột Sắn Dây sẽ được công khai tại đây khi hợp tác xã hoàn tất hồ sơ — nhà mình chỉ ghi những gì có giấy thật.</p>
-      </details>
-      <details class="faq-item">
-        <summary>Mua sỉ/số lượng lớn được không?</summary>
-        <p>Có — hợp tác xã nhận đặt sỉ (túi 5kg, 10kg) và trao đổi xuất khẩu cho Tinh Bột Sắn Dây. Nhắn Zalo để trao đổi số lượng, giá, cách đóng gói phù hợp.</p>
-      </details>
-    </div>
-  </section>
-
-  <section class="reveal" id="lien-he">
-    <div class="h-final" style="background-image:url('assets/home/vung-38.jpg')">
-      <span class="eyebrow">Đặt hàng</span>
-      <h2>Mang vị núi Bắc Sơn về bếp nhà bạn</h2>
-      <p>Nhắn Zalo hoặc gọi — hợp tác xã phản hồi sớm, tư vấn quy cách và giao tận nơi trên toàn quốc.</p>
-      <div class="h-cta">
-        <a class="btn btn-gold" href="dat-truoc.html?chon=sd1">Đặt hàng ngay</a>
-        <a class="btn btn-zalo" href="https://zalo.me/0979502000">Zalo 0979 502 000</a>
-        <a class="btn btn-outline" href="tel:0979502000">Gọi 0979 502 000</a>
+  <section class="why" aria-labelledby="t-vi-sao">
+    <div class="wrap">
+      <figure class="pic rise">
+        <img src="assets/v2/sd-bot-1000.webp" srcset="assets/v2/sd-bot-560.webp 560w, assets/v2/sd-bot-1000.webp 1000w" sizes="(max-width:1000px) 100vw, 45vw" alt="Bánh bột sắn dây trắng xếp trên khay trong lò sấy" width="1000" height="1250" loading="lazy">
+        <figcaption>Bột sắn dây trên khay lò sấy của hợp tác xã</figcaption>
+      </figure>
+      <div>
+        <h2 id="t-vi-sao" class="rise">Vì sao bột trắng tự nhiên</h2>
+        <p class="intro rise">Màu trắng đến từ việc lọc và lắng nhiều lượt, không từ chất tẩy.</p>
+        <ul class="checks">
+          <li class="rise"><span class="ic"><svg width="18" height="18"><use href="#ck"/></svg></span><b>Đào cả gốc củ</b><span>Đến mùa đào tận gốc trên nương xã Vũ Lăng, đưa về xưởng ngay trong ngày.</span></li>
+          <li class="rise"><span class="ic"><svg width="18" height="18"><use href="#ck"/></svg></span><b>Lọc tay nhiều lượt</b><span>Khuấy, để lắng, thay nước, lọc lại đến khi bột thật trắng và trong.</span></li>
+          <li class="rise"><span class="ic"><svg width="18" height="18"><use href="#ck"/></svg></span><b>Sấy lò nhiều tầng</b><span>Nhiệt độ cài sẵn, khô đều, không phơi ngoài trời, không phụ thuộc nắng mưa.</span></li>
+          <li class="rise"><span class="ic"><svg width="18" height="18"><use href="#ck"/></svg></span><b>Không tẩy trắng</b><span>Không hoá chất, không phụ gia. Màu trắng là màu của bột sau khi lắng.</span></li>
+          <li class="rise"><span class="ic"><svg width="18" height="18"><use href="#ck"/></svg></span><b>Cam có VietGAP</b><span>Cam Đường Canh có chứng nhận số 112/CN-TĐC-TT-20-0012, hiệu lực đến 22/12/2028.</span></li>
+          <li class="rise"><span class="ic"><svg width="18" height="18"><use href="#ck"/></svg></span><b>Giao 2–5 ngày</b><span>Giao toàn quốc. Phí ship báo trước, bạn đồng ý rồi mới gửi hàng.</span></li>
+        </ul>
       </div>
-      <p class="cta-note">hello@nongsannhalam.com · Giao hàng toàn quốc</p>
+    </div>
+  </section>
+
+  <section id="quy-trinh" aria-labelledby="t-qt">
+    <div class="wrap">
+      <div class="head">
+        <h2 id="t-qt" class="rise">Từ nương ra túi bột</h2>
+        <p class="rise">Ảnh chụp thật tại nương và xưởng của hợp tác xã.</p>
+      </div>
+      <ol class="steps">
+        <li class="rise"><div class="img"><img src="assets/v2/p1-cu-800.webp" srcset="assets/v2/p1-cu-480.webp 480w, assets/v2/p1-cu-800.webp 800w" sizes="(max-width:1000px) 50vw, 25vw" alt="Củ sắn dây vừa đào đặt lên cân" width="800" height="1000" loading="lazy"></div><span class="n">Bước 1</span><h3>Đào cả gốc</h3><p>Củ to chắc, về xưởng trong ngày.</p></li>
+        <li class="rise"><div class="img"><img src="assets/v2/p2-loc-800.webp" srcset="assets/v2/p2-loc-480.webp 480w, assets/v2/p2-loc-800.webp 800w" sizes="(max-width:1000px) 50vw, 25vw" alt="Lọc tay bột sắn dây trong chậu nước" width="800" height="1000" loading="lazy"></div><span class="n">Bước 2</span><h3>Lắng cho thật trong</h3><p>Khuấy, lắng, thay nước, lọc lại nhiều lượt.</p></li>
+        <li class="rise"><div class="img"><img src="assets/v2/p3-say-800.webp" srcset="assets/v2/p3-say-480.webp 480w, assets/v2/p3-say-800.webp 800w" sizes="(max-width:1000px) 50vw, 25vw" alt="Xếp khay bột vào lò sấy nhiều tầng" width="800" height="1000" loading="lazy"></div><span class="n">Bước 3</span><h3>Sấy lò nhiều tầng</h3><p>Khô đều, sạch, không phụ thuộc nắng mưa.</p></li>
+        <li class="rise"><div class="img"><img src="assets/v2/p4-tui-800.webp" srcset="assets/v2/p4-tui-480.webp 480w, assets/v2/p4-tui-800.webp 800w" sizes="(max-width:1000px) 50vw, 25vw" alt="Tinh bột sắn dây vừa khô được đóng túi" width="800" height="1000" loading="lazy"></div><span class="n">Bước 4</span><h3>Ra lò là đóng túi</h3><p>Đóng ngay khi bột vừa khô, giữ trọn màu trắng tự nhiên.</p></li>
+      </ol>
+    </div>
+  </section>
+
+  <section class="revs" id="danh-gia" aria-labelledby="t-dg">
+    <div class="wrap">
+      <div class="head">
+        <div>
+          <h2 id="t-dg" class="rise">Khách nói gì</h2>
+          <p class="rise" style="margin-top:10px">Trích nguyên văn từ shop Shopee “Cam Đường Canh TH”, mùa 2025–2026. Tên khách được che bớt.</p>
+        </div>
+        <div class="score rise" aria-label="Điểm trung bình 4,85 trên 5">
+          <span class="num">4,85</span>
+          <div>
+            <span class="stars" aria-hidden="true"><svg width="22" height="22"><use href="#st"/></svg><svg width="22" height="22"><use href="#st"/></svg><svg width="22" height="22"><use href="#st"/></svg><svg width="22" height="22"><use href="#st"/></svg><svg width="22" height="22"><use href="#st"/></svg></span>
+            <small>106 đánh giá, 97 đánh giá 5 sao</small>
+          </div>
+        </div>
+      </div>
+      <div class="qs">
+        <figure class="q rise"><blockquote>“Chất lượng rất ngon, ngọt, tươi đẹp có lựa chọn, giá siêu tốt. Nếu biết chất lượng tốt như vậy sẽ đặt gấp đôi hiện tại.”</blockquote><figcaption>m*****2 · thùng 10kg · 13/02/2026</figcaption></figure>
+        <figure class="q rise"><blockquote>“Cam ngon ngọt, mỏng vỏ, mọng nước. Ăn khác hẳn cam mình mua bên ngoài luôn.”</blockquote><figcaption>h*****9 · thùng 5kg · 13/01/2026</figcaption></figure>
+        <figure class="q rise"><blockquote>“Nhận được cam vẫn tươi rói ạ. Cam có vị ngọt thanh, dễ ăn.”</blockquote><figcaption>k*****r · thùng 5kg · 21/01/2026</figcaption></figure>
+        <figure class="q rise"><blockquote>“Đã nhận sau 2 ngày. Quả mọng và ngọt, ăn hết sẽ ủng hộ lần sau.”</blockquote><figcaption>h*****4 · thùng 5kg · 06/01/2026</figcaption></figure>
+        <figure class="q rise"><blockquote>“Đóng gói thùng xốp khá chắc chắn, cam ngon ngọt.”</blockquote><figcaption>t*****8 · thùng 5kg · 31/01/2026</figcaption></figure>
+        <figure class="q rise"><blockquote>“Cam rất ngon, mọng nước, ngọt vừa phải, vỏ mỏng, giá hợp lí.”</blockquote><figcaption>r*****0 · thùng 5kg · 07/01/2026</figcaption></figure>
+      </div>
+      <div class="src rise">
+        <p>Đánh giá cho Cam Đường Canh trên Shopee.</p>
+        <a class="tlink" href="https://shopee.vn/shop/1700409288" target="_blank" rel="noopener">Xem tất cả đánh giá trên Shopee ↗</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="vid" id="gioi-thieu" aria-labelledby="t-vd">
+    <div class="wrap">
+      <div>
+        <h2 id="t-vd" class="rise">Xem 90 giây</h2>
+        <p class="rise">Quay thật đủ các bước: trồng, thu hoạch, nghiền lọc, sấy, đóng gói Tinh Bột Sắn Dây, và Cam Đường Canh từ vườn đến lúc đóng thùng.</p>
+        <a class="btn ghost rise" href="https://zalo.me/0979502000">Hỏi thêm qua Zalo</a>
+      </div>
+      <div class="player rise" id="player">
+        <video src="assets/gioi-thieu-thoc.mp4" poster="assets/gioi-thieu-thoc-poster.jpg" playsinline preload="none"></video>
+        <button class="play" type="button" aria-label="Phát video giới thiệu 90 giây"><span><svg width="30" height="30" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5.5v13l11-6.5z" fill="currentColor"/></svg></span></button>
+      </div>
+    </div>
+  </section>
+
+  <section class="land" id="vung-trong" aria-labelledby="t-vt">
+    <div class="big">
+      <img src="assets/v2/vung-suong-2000.webp" srcset="assets/v2/vung-suong-900.webp 900w, assets/v2/vung-suong-2000.webp 2000w" sizes="100vw" alt="Sương sớm trên vườn cây dưới chân núi đá vôi Bắc Sơn" width="2000" height="1125" loading="lazy">
+      <div class="wrap">
+        <h2 id="t-vt" class="rise">Vũ Lăng, Bắc Sơn</h2>
+        <p class="rise">Nương sắn dây và vườn cam giữa núi đá vôi, ảnh chụp thật tại xã Vũ Lăng, tỉnh Lạng Sơn.</p>
+      </div>
+    </div>
+    <div class="wrap gal">
+      <figure class="rise"><div class="img"><img src="assets/v2/vung-nuong-800.webp" srcset="assets/v2/vung-nuong-480.webp 480w, assets/v2/vung-nuong-800.webp 800w" sizes="(max-width:1000px) 50vw, 25vw" alt="Nương sắn dây xanh dưới núi đá vôi" width="800" height="1000" loading="lazy"></div><figcaption>Nương sắn dây</figcaption></figure>
+      <figure class="rise"><div class="img"><img src="assets/v2/vung-hoa-800.webp" srcset="assets/v2/vung-hoa-480.webp 480w, assets/v2/vung-hoa-800.webp 800w" sizes="(max-width:1000px) 50vw, 25vw" alt="Hoa sắn dây màu tím trên nương" width="800" height="1000" loading="lazy"></div><figcaption>Hoa sắn dây</figcaption></figure>
+      <figure class="rise"><div class="img"><img src="assets/v2/cam-cay-1000.webp" srcset="assets/v2/cam-cay-560.webp 560w, assets/v2/cam-cay-1000.webp 1000w" sizes="(max-width:1000px) 50vw, 25vw" alt="Chùm Cam Đường Canh chín trên cây" width="1000" height="1250" loading="lazy"></div><figcaption>Cam chín trên cây</figcaption></figure>
+      <figure class="rise"><div class="img"><img src="assets/v2/cam-thung-800.webp" srcset="assets/v2/cam-thung-480.webp 480w, assets/v2/cam-thung-800.webp 800w" sizes="(max-width:1000px) 50vw, 25vw" alt="Xe chở cam vừa hái ra khỏi vườn" width="800" height="1000" loading="lazy"></div><figcaption>Cam vừa hái ra khỏi vườn</figcaption></figure>
+    </div>
+  </section>
+
+  <section class="faq" id="faq" aria-labelledby="t-faq">
+    <div class="wrap">
+      <div class="side">
+        <h2 id="t-faq" class="rise">Hay được hỏi</h2>
+        <p class="rise">Chưa thấy câu bạn cần? Nhắn Zalo, nhà mình trả lời trong ngày.</p>
+        <a class="btn green rise" href="https://zalo.me/0979502000">Nhắn Zalo 0979 502 000</a>
+      </div>
+      <div class="acc">
+        <details name="faq" class="rise"><summary>Đặt hàng thế nào, thanh toán ra sao?<span class="pm" aria-hidden="true"></span></summary><p>Bấm "Đặt hàng", chọn quy cách, điền tên, SĐT, địa chỉ rồi gửi phiếu qua Zalo (hoặc nhắn thẳng Zalo 0979 502 000). Nhà mình gọi hoặc nhắn xác nhận đơn, báo phí ship và cách thanh toán trước khi gửi hàng.</p></details>
+        <details name="faq" class="rise"><summary>Sắn dây và cam khác nhau thế nào về mùa vụ?<span class="pm" aria-hidden="true"></span></summary><p>Tinh Bột Sắn Dây đã sấy khô, bảo quản được lâu nên bán quanh năm. Cam Đường Canh là trái tươi, chỉ thu hoạch theo mùa (khoảng tháng 11 âm lịch đến tháng 1 năm sau).</p></details>
+        <details name="faq" class="rise"><summary>Ở xa (ngoại tỉnh, vùng núi) có giao được không?<span class="pm" aria-hidden="true"></span></summary><p>Giao hàng toàn quốc qua đơn vị vận chuyển, thường 2–5 ngày tuỳ khu vực. Phí ship theo bảng giá đơn vị vận chuyển, báo trước khi bạn xác nhận đặt hàng.</p></details>
+        <details name="faq" class="rise"><summary>Sản phẩm có chứng nhận gì?<span class="pm" aria-hidden="true"></span></summary><p>Cam Đường Canh đạt chứng nhận VietGAP (số 112/CN-TĐC-TT-20-0012, NATEK JSC cấp, hiệu lực đến 22/12/2028). Giấy tờ của Tinh Bột Sắn Dây sẽ được công khai tại đây khi hợp tác xã hoàn tất hồ sơ. Nhà mình chỉ ghi những gì có giấy thật.</p></details>
+        <details name="faq" class="rise"><summary>Mua sỉ, số lượng lớn được không?<span class="pm" aria-hidden="true"></span></summary><p>Có. Hợp tác xã nhận đặt sỉ (túi 5kg, 10kg) và trao đổi xuất khẩu cho Tinh Bột Sắn Dây. Nhắn Zalo để trao đổi số lượng, giá, cách đóng gói phù hợp.</p></details>
+      </div>
+    </div>
+  </section>
+
+  <section class="cta" id="lien-he" aria-labelledby="t-lh">
+    <div class="wrap">
+      <div class="box rise">
+        <div class="txt">
+          <h2 id="t-lh">Mang vị núi Bắc Sơn về bếp nhà bạn</h2>
+          <p>Nhắn Zalo hoặc gọi, hợp tác xã phản hồi sớm, tư vấn quy cách và giao tận nơi trên toàn quốc.</p>
+          <div class="row">
+            <a class="btn" href="dat-truoc.html?chon=sd1">Đặt hàng ngay</a>
+            <a class="btn light" href="https://zalo.me/0979502000">Zalo 0979 502 000</a>
+            <a class="btn glass" href="tel:0979502000">Gọi 0979 502 000</a>
+          </div>
+        </div>
+        <div class="img"><img src="assets/v2/cta-say-800.webp" srcset="assets/v2/cta-say-480.webp 480w, assets/v2/cta-say-800.webp 800w" sizes="(max-width:700px) 100vw, 40vw" alt="" width="800" height="1000" loading="lazy"></div>
+      </div>
     </div>
   </section>
 
 </main>
 
-<nav class="h-sticky" id="hSticky" aria-label="Đặt hàng nhanh">
-  <a href="tel:0979502000">📞 Gọi</a>
-  <a class="zalo" href="https://zalo.me/0979502000">Zalo</a>
-  <a class="buy" href="dat-truoc.html?chon=sd1">Đặt hàng</a>
-</nav>
+<footer class="foot">
+  <div class="wrap">
+    <div class="top">
+      <div>
+        <p class="name">Thế Hưng Organic</p>
+        <ul>
+          <li><a href="https://zalo.me/0979502000">Zalo 0979 502 000</a></li>
+          <li><a href="tel:0979502000">Gọi 0979 502 000</a></li>
+          <li><a href="mailto:hello@nongsannhalam.com">hello@nongsannhalam.com</a></li>
+        </ul>
+      </div>
+      <ul><li><b>Sản phẩm</b></li><li><a href="san-day.html">Tinh Bột Sắn Dây</a></li><li><a href="cam-duong-canh.html">Cam Đường Canh</a></li><li><a href="cach-dung-tinh-bot-san-day.html">Cách dùng sắn dây</a></li></ul>
+      <ul><li><b>Mua hàng</b></li><li><a href="dat-truoc.html">Đặt hàng</a></li><li><a href="https://shopee.vn/shop/1700409288" target="_blank" rel="noopener">Shopee</a></li><li><a href="https://www.facebook.com/profile.php?id=61593265823967" target="_blank" rel="noopener">Facebook</a></li></ul>
+      <ul><li><b>Khác</b></li><li><a href="#faq">Hỏi đáp</a></li><li><a href="en/index.html" lang="en">English</a></li></ul>
+    </div>
+    <div class="legal"><p>© Hợp tác xã Thế Hưng Organic (THOC), Thôn Liên Lạc, xã Vũ Lăng, Lạng Sơn</p><a href="#top">Lên đầu trang ↑</a></div>
+  </div>
+</footer>
+
+<div class="bar" id="bar" role="region" aria-label="Đặt hàng nhanh">
+  <span class="sum" aria-live="polite"></span>
+  <a class="btn go" href="dat-truoc.html">Gửi phiếu đặt hàng →</a>
+  <span class="quick"><a href="tel:0979502000">Gọi</a><a href="https://zalo.me/0979502000">Zalo</a><a class="btn" href="dat-truoc.html?chon=sd1">Đặt hàng</a></span>
+</div>
+
 <script>
 (function(){
-  var bar=document.getElementById('hSticky'), hero=document.getElementById('top');
-  if(!bar||!hero||!('IntersectionObserver' in window)) return;
-  document.body.classList.add('has-sticky');
-  new IntersectionObserver(function(e){ bar.classList.toggle('show', !e[0].isIntersecting); },{threshold:0.15}).observe(hero);
+  var hero=document.getElementById('top'), nav=document.getElementById('nav');
   var v=hero.querySelector('video');
-  if(v && navigator.connection && navigator.connection.saveData){ v.removeAttribute('autoplay'); v.pause(); }
+  if(v){
+    if(innerWidth<=700) v.poster='assets/home/hero-mobile.jpg';
+    if(navigator.connection&&navigator.connection.saveData){v.removeAttribute('autoplay');v.pause();}
+  }
+
+  // thanh menu đổ bóng khi cuộn
+  function onScroll(){nav.classList.toggle('scrolled',scrollY>8);}
+  addEventListener('scroll',onScroll,{passive:true}); onScroll();
+
+  // hiện dần khi cuộn tới
+  var els=[].slice.call(document.querySelectorAll('.rise'));
+  if('IntersectionObserver' in window){
+    var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target);}});},{rootMargin:'0px 0px -6% 0px'});
+    els.forEach(function(el,i){ if(!el.style.getPropertyValue('--i')) el.style.setProperty('--i', i%3); io.observe(el); });
+  } else els.forEach(function(el){el.classList.add('in');});
+
+  // video giới thiệu: nút phát riêng, bật thanh điều khiển khi đã phát
+  var pl=document.getElementById('player');
+  if(pl){var pv=pl.querySelector('video');pl.querySelector('.play').addEventListener('click',function(){pv.controls=true;pv.play();pl.classList.add('playing');});}
+
+  // giỏ hàng: giá thật, chuyển số lượng sang phiếu đặt hàng
+  var bar=document.getElementById('bar'), sum=bar.querySelector('.sum'), go=bar.querySelector('.go');
+  var rows=[].slice.call(document.querySelectorAll('.var[data-id]')), qty={};
+  function vnd(n){return n.toLocaleString('vi-VN')+'đ';}
+  function render(){
+    var n=0,t=0,parts=[];
+    rows.forEach(function(r){var id=r.dataset.id,q=qty[id]||0;r.querySelector('output').textContent=q;r.classList.toggle('on',q>0);if(q){n+=q;t+=q*Number(r.dataset.price);parts.push(id+':'+q);}});
+    bar.classList.toggle('has-items',n>0);
+    sum.innerHTML=n?(n+' món · <b>'+vnd(t)+'</b> <span style="opacity:.75">(chưa gồm ship)</span>'):'';
+    go.href='dat-truoc.html'+(parts.length?'?chon='+parts.join(','):'');
+    update();
+  }
+  rows.forEach(function(r){r.querySelectorAll('button').forEach(function(b){b.addEventListener('click',function(){
+    var id=r.dataset.id;qty[id]=Math.max(0,Math.min(50,(qty[id]||0)+Number(b.dataset.d)));render();
+    var o=r.querySelector('output');o.classList.remove('pop');void o.offsetWidth;o.classList.add('pop');
+    bar.classList.remove('bump');void bar.offsetWidth;bar.classList.add('bump');
+  });});});
+
+  // điện thoại: thanh Gọi/Zalo/Đặt hàng hiện sau màn hình đầu; giỏ hiện khi có hàng
+  var past=false;
+  function update(){bar.classList.toggle('show', bar.classList.contains('has-items') || (past && innerWidth<=900));}
+  if('IntersectionObserver' in window){new IntersectionObserver(function(e){past=!e[0].isIntersecting;update();},{threshold:0.15}).observe(hero);}
+  render();
 })();
 </script>
-
-<footer>© Hợp tác xã Thế Hưng Organic (THOC) — Vũ Lăng, Lạng Sơn</footer>
-
-<script src="assets/hero.js"></script>
 </body>
 </html>
