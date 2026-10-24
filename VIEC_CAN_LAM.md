@@ -39,6 +39,20 @@ việc nào chặn việc nào. Cập nhật lại file này (tick `[x]`) mỗi 
 - [ ] **Bắt đầu quy trình xác minh Google Search Console** — đăng nhập Gmail, thêm property theo
   đúng 5 bước ở `HUONG_DAN_GOOGLE_SEARCH_CONSOLE.md`, gửi lại mã xác minh Google đưa ra. **Chặn**:
   biết khách tìm web qua Google bằng từ khoá gì.
+- [ ] **Kích hoạt email nhận phiếu đặt hàng web (2026-10-24)** — trang Đặt hàng giờ gửi bản sao mỗi
+  phiếu về hello@nongsannhalam.com qua FormSubmit. Phiếu ĐẦU TIÊN sẽ làm FormSubmit gửi 1 email
+  "Activate Form" về hộp thư đó → bấm nút kích hoạt 1 lần. Cách nhanh: tự đặt thử 1 phiếu trên
+  nongsannhalam.com/dat-truoc.html. Chưa kích hoạt thì phiếu vẫn qua Zalo bình thường, chỉ thiếu bản email.
+- [ ] **Tạo tài khoản đếm lượt khách GoatCounter (miễn phí, 2 phút)** — vào goatcounter.com → Sign up,
+  ô "Code" đặt `thoc` (hoặc tên khác), gửi tên đó cho Claude để điền vào `docs/assets/track.js`. Sau đó
+  xem được: bao nhiêu người vào web, bấm Zalo/Gọi/Đặt hàng/Gửi phiếu ở trang nào.
+- [ ] **Báo giá 2 gói quà Tết** (gói nhỏ Cam 5kg + Sắn Dây 0,5kg; gói lớn Cam 10kg + Sắn Dây 1kg) —
+  web đang để "Nhắn báo giá" ở mục Quà Tết trang chủ + trang Đặt hàng; có giá thì Claude điền vào.
+- [ ] **Chụp 6 ảnh sản phẩm** để thay ảnh túi bột nền khăn đỏ trên web: túi 0,5kg + 1kg trên bàn gỗ/mẹt
+  tre, cốc nước sắn dây đã pha, bát chè sắn dây, thìa bột cận cảnh, thùng cam mở nắp (khi vào mùa),
+  người nhà lọc bột/xếp khay. Ánh sáng cửa sổ ban ngày, không flash.
+- [ ] **Xin 3–5 đánh giá Tinh Bột Sắn Dây** từ khách đã mua (mẫu tin ở `content/templates/zalo.md` mục 5)
+  — web hiện chỉ có đánh giá cam.
 - [ ] **Đăng ký Yellow Pages Vietnam** (mục Agricultural Export) — nội dung điền sẵn ở
   `DANG_KY_THU_MUC_XUAT_KHAU.md`. Miễn phí, ~2 phút theo trang mô tả.
 
