@@ -107,6 +107,7 @@ document.documentElement.classList.add('js');
     <a class="brand" href="index.html"><img src="assets/logo-thoc-mark.png" alt="Logo THOC" width="42" height="42"><span>Thế Hưng Organic</span></a>
     <ul>
       <li><a href="#san-pham">Sản phẩm</a></li>
+      <li><a href="#qua-tet">Quà Tết</a></li>
       <li><a href="#quy-trinh">Quy trình</a></li>
       <li><a href="#danh-gia">Đánh giá</a></li>
       <li><a href="#faq">Hỏi đáp</a></li>
@@ -115,6 +116,8 @@ document.documentElement.classList.add('js');
     <details class="menu"><summary aria-label="Mở menu"><svg width="20" height="20" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></svg></summary>
       <ul>
         <li><a href="#san-pham">Sản phẩm &amp; giá</a></li>
+        <li><a href="#qua-tet">Quà Tết 2027</a></li>
+        <li><a href="dat-truoc.html">Đặt hàng</a></li>
         <li><a href="san-day.html">Tinh Bột Sắn Dây</a></li>
         <li><a href="cam-duong-canh.html">Cam Đường Canh</a></li>
         <li><a href="#quy-trinh">Quy trình</a></li>
@@ -156,7 +159,7 @@ document.documentElement.classList.add('js');
 
 <main id="main" tabindex="-1">
 
-  <section class="shop" id="san-pham" aria-labelledby="t-sp">
+  <section class="shop" id="san-pham" aria-labelledby="t-sp" style="padding-bottom:clamp(32px,4vw,48px)">
     <div class="wrap">
       <div class="head">
         <h2 id="t-sp" class="rise">Chọn hàng</h2>
@@ -193,13 +196,34 @@ document.documentElement.classList.add('js');
               <li class="var" data-id="cam5" data-price="275000"><a href="dat-truoc.html?chon=cam5" class="nm">Thùng 5kg<small>Đặt trước mùa mới</small></a><span class="pr">275.000đ</span><span class="step"><button type="button" data-d="-1" aria-label="Bớt 1 thùng 5kg">−</button><output aria-live="polite">0</output><button type="button" data-d="1" aria-label="Thêm 1 thùng 5kg">+</button></span></li>
               <li class="var" data-id="cam10" data-price="500000"><a href="dat-truoc.html?chon=cam10" class="nm">Thùng 10kg<small>Đặt trước mùa mới</small></a><span class="pr">500.000đ</span><span class="step"><button type="button" data-d="-1" aria-label="Bớt 1 thùng 10kg">−</button><output aria-live="polite">0</output><button type="button" data-d="1" aria-label="Thêm 1 thùng 10kg">+</button></span></li>
             </ul>
-            <p class="note">Quà Tết Đinh Mùi 2027, hộp Cam Đường Canh và Tinh Bột Sắn Dây: <a class="tlink" href="dat-truoc.html?chon=qua-nho">đặt trước, nhắn để được báo giá</a>.</p>
+            <p class="note">Có hộp quà Tết 2027 kèm Tinh Bột Sắn Dây: <a class="tlink" href="#qua-tet">xem các gói quà</a>.</p>
             <div class="acts">
               <a class="btn green" href="dat-truoc.html?chon=cam10">Đặt trước thùng 10kg</a>
               <a class="btn ghost" href="cam-duong-canh.html">Xem vườn cam</a>
             </div>
           </div>
         </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="tet" id="qua-tet" aria-labelledby="t-tet">
+    <div class="wrap">
+      <div class="box rise">
+        <div class="img"><img src="assets/v2/tet-thung-1000.webp" srcset="assets/v2/tet-thung-560.webp 560w, assets/v2/tet-thung-1000.webp 1000w" sizes="(max-width:1000px) 100vw, 50vw" alt="Thùng Cam Đường Canh in tên vườn xếp sẵn để gửi đi" width="1000" height="1250" loading="lazy"></div>
+        <div class="txt">
+          <h2 id="t-tet">Quà Tết Đinh Mùi 2027</h2>
+          <p>Cam Đường Canh VietGAP hái đúng mùa, kèm Tinh Bột Sắn Dây của hợp tác xã. Đặt trước để được giữ hàng, nhà mình hẹn ngày giao với bạn khi xác nhận đơn.</p>
+          <div class="packs">
+            <div class="pack"><div><b>Gói nhỏ</b><small>Cam 5kg + Sắn Dây 0,5kg</small></div><span class="p">Nhắn báo giá</span></div>
+            <div class="pack"><div><b>Gói lớn</b><small>Cam 10kg + Sắn Dây 1kg</small></div><span class="p">Nhắn báo giá</span></div>
+            <div class="pack"><div><b>Quà biếu công ty</b><small>Số lượng lớn, gửi nhiều địa chỉ</small></div><span class="p">Báo giá riêng</span></div>
+          </div>
+          <div class="row">
+            <a class="btn light" href="dat-truoc.html?chon=qua-nho">Đặt trước quà Tết</a>
+            <a class="btn glass" href="https://zalo.me/0979502000">Báo giá số lượng lớn</a>
+          </div>
+        </div>
       </div>
     </div>
   </section>
@@ -361,6 +385,7 @@ document.documentElement.classList.add('js');
   <span class="quick"><a href="tel:0979502000">Gọi</a><a href="https://zalo.me/0979502000">Zalo</a><a class="btn" href="dat-truoc.html?chon=sd1">Đặt hàng</a></span>
 </div>
 
+<script src="assets/track.js"></script>
 <script>
 (function(){
   var hero=document.getElementById('top'), nav=document.getElementById('nav');

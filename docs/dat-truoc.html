@@ -6,7 +6,7 @@
 <title>Đặt hàng — Tinh Bột Sắn Dây, Cam Đường Canh &amp; quà Tết — Thế Hưng Organic</title>
 <meta name="description" content="Đặt trước Cam Đường Canh VietGAP mùa mới, hộp quà Tết và Tinh Bột Sắn Dây. Chọn hàng, để lại số, nhà mình nhắn lại xác nhận — chưa cần thanh toán.">
 <link rel="canonical" href="https://nongsannhalam.com/dat-truoc.html">
-<meta name="theme-color" content="#14100c">
+<meta name="theme-color" content="#173f23">
 <meta property="og:type" content="website">
 <meta property="og:locale" content="vi_VN">
 <meta property="og:site_name" content="Thế Hưng Organic">
@@ -19,258 +19,170 @@
 <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png">
 <link rel="apple-touch-icon" href="apple-touch-icon.png">
 <link rel="manifest" href="manifest.json">
-<link rel="stylesheet" href="assets/site.css">
-<style>
-  .order-wrap{max-width:46em;margin:0 auto}
-  .order-step{margin-bottom:2.5rem}
-  .order-step h2{font-size:1.25rem;color:var(--text-primary);margin-bottom:1rem}
-  .order-step h2 .num{color:var(--accent);font-family:ui-monospace,Menlo,Consolas,monospace;font-size:.9rem;margin-right:.5rem}
-  .item-group{font-size:.72rem;letter-spacing:.2em;text-transform:uppercase;color:var(--stone);margin:1.4rem 0 .6rem}
-  .item{display:flex;align-items:center;gap:1rem;justify-content:space-between;border:1px solid var(--accent-muted);background:var(--panel);border-radius:var(--radius);padding:.9rem 1rem;margin-bottom:.6rem}
-  .item.has-qty{border-color:var(--accent)}
-  .item-info{min-width:0}
-  .item-name{color:var(--text-primary);font-weight:600}
-  .item-sub{color:var(--stone);font-size:.82rem}
-  .item-price{color:var(--accent-hover);font-family:Cambria,Georgia,serif;white-space:nowrap}
-  .stepper{display:flex;align-items:center;gap:.35rem;flex-shrink:0}
-  .stepper button{width:38px;height:38px;border:1px solid var(--accent-muted);background:transparent;color:var(--text-primary);border-radius:2px;font-size:1.15rem;cursor:pointer;line-height:1}
-  .stepper button:hover{border-color:var(--accent);color:var(--accent-hover)}
-  .stepper output{min-width:1.6em;text-align:center;font-family:ui-monospace,Menlo,Consolas,monospace;color:var(--text-primary)}
-  .field{margin-bottom:1rem}
-  .field label{display:block;font-size:.85rem;color:var(--text-secondary);margin-bottom:.35rem}
-  .field label .opt{color:var(--stone)}
-  .field input,.field textarea,.field select{width:100%;background:var(--panel);border:1px solid var(--accent-muted);border-radius:2px;color:var(--text-primary);padding:.75rem .85rem;font:inherit;font-size:16px}
-  .field input:focus,.field textarea:focus,.field select:focus{outline:none;border-color:var(--accent)}
-  .field textarea{min-height:84px;resize:vertical}
-  .field-row{display:grid;grid-template-columns:1fr 1fr;gap:1rem}
-  @media (max-width:560px){ .field-row{grid-template-columns:1fr} .item{flex-wrap:wrap} .stepper{margin-left:auto} }
-  .summary{border:1px solid var(--accent);border-radius:var(--radius);background:var(--panel);padding:1.25rem 1.25rem 1.4rem}
-  .summary-lines{margin:0 0 .8rem;padding:0;list-style:none;color:var(--text-secondary);font-size:.92rem}
-  .summary-lines li{display:flex;justify-content:space-between;gap:1rem;padding:.3rem 0;border-bottom:1px dashed var(--accent-muted)}
-  .summary-total{display:flex;justify-content:space-between;font-size:1.05rem;color:var(--text-primary);font-weight:600}
-  .summary-total span:last-child{color:var(--accent-hover);font-family:Cambria,Georgia,serif}
-  .summary-note{color:var(--stone);font-size:.8rem;margin:.6rem 0 0}
-  .send-row{display:flex;flex-wrap:wrap;gap:.75rem;margin-top:1.4rem}
-  .send-row .btn{flex:1 1 180px;text-align:center;cursor:pointer;font:inherit;font-size:.9rem}
-  .send-row .btn-outline{background:transparent}
-  .form-error{color:#e8a089;font-size:.88rem;margin:.8rem 0 0;min-height:1.2em}
-  .done-box{display:none;margin-top:1.2rem;border:1px solid var(--good);border-radius:var(--radius);padding:1rem 1.1rem;color:var(--text-secondary);font-size:.92rem}
-  .done-box.show{display:block}
-  .done-box strong{color:var(--text-primary)}
-  .done-box pre{white-space:pre-wrap;background:var(--canvas);border:1px solid var(--accent-muted);border-radius:2px;padding:.75rem;font-size:.82rem;color:var(--text-primary);margin:.7rem 0 0}
-  .how-steps{display:flex;flex-wrap:wrap;justify-content:center;gap:.5rem .9rem;list-style:none;padding:0;margin:0 0 2rem;color:var(--text-secondary);font-size:.88rem}
-  .how-steps li{display:flex;align-items:center;gap:.4rem}
-  .how-steps b{display:inline-flex;align-items:center;justify-content:center;width:22px;height:22px;border-radius:50%;background:var(--accent);color:var(--canvas);font-size:.75rem}
-  .item-thumb{width:54px;height:54px;border-radius:6px;object-fit:cover;flex:none}
-  .item-info{flex:1;min-width:0}
-  .trust{margin-top:1.2rem;border:1px solid rgba(127,166,106,.45);background:rgba(127,166,106,.08);border-radius:8px;padding:.9rem 1rem;display:grid;gap:.35rem;font-size:.86rem;color:var(--text-secondary)}
-  .trust div::before{content:"✓ ";color:var(--good);font-weight:700}
-  .trust .star::before{content:"★ ";color:#f5b301}
-</style>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700&family=Fraunces:opsz,wght@9..144,500;9..144,600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/home.css">
+<script>document.documentElement.classList.add('js');</script>
 </head>
 <body>
 <a href="#main" class="skip-link">Bỏ qua tới nội dung</a>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="ck" viewBox="0 0 24 24"><path d="M5 12.5l4.5 4.5L19 7.5" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+  <symbol id="st" viewBox="0 0 24 24"><path d="M12 2.8l2.8 5.9 6.4.8-4.7 4.4 1.2 6.4L12 17.2l-5.7 3.1 1.2-6.4-4.7-4.4 6.4-.8z" fill="currentColor"/></symbol>
+</svg>
 
-<nav class="site-nav">
-  <div class="site-nav-inner">
-    <a class="brand" href="index.html">
-      <img src="assets/logo-thoc-mark.png" alt="Logo THOC – Hợp tác xã Thế Hưng Organic">
-      <span>Thế Hưng Organic</span>
-    </a>
-    <ul class="nav-links" id="navLinks">
+<nav class="nav" id="nav" aria-label="Chính">
+  <div class="wrap">
+    <a class="brand" href="index.html"><img src="assets/logo-thoc-mark.png" alt="Logo THOC" width="42" height="42"><span>Thế Hưng Organic</span></a>
+    <ul>
       <li><a href="san-day.html">Sắn Dây</a></li>
       <li><a href="cam-duong-canh.html">Cam Đường Canh</a></li>
-      <li><a href="dat-truoc.html" aria-current="page">Đặt hàng</a></li>
+      <li><a href="cach-dung-tinh-bot-san-day.html">Cách dùng</a></li>
       <li><a href="index.html#faq">Hỏi đáp</a></li>
-      <li><a href="index.html#lien-he">Liên hệ</a></li>
     </ul>
-<button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="navLinks" aria-label="Menu">
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
-    </button>
-    <div class="nav-side">
-      <div class="lang-switch">
-        <a class="active" href="dat-truoc.html">VI</a>
-        <a href="en/index.html">EN</a>
-      </div>
-      <a class="nav-cta" href="https://zalo.me/0979502000">Nhắn Zalo</a>
-    </div>
+    <div class="lang"><a href="dat-truoc.html" aria-current="page">VI</a><a href="en/index.html" lang="en">EN</a></div>
+    <details class="menu"><summary aria-label="Mở menu"><svg width="20" height="20" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></svg></summary>
+      <ul>
+        <li><a href="index.html">Trang chủ</a></li>
+        <li><a href="san-day.html">Tinh Bột Sắn Dây</a></li>
+        <li><a href="cam-duong-canh.html">Cam Đường Canh</a></li>
+        <li><a href="cach-dung-tinh-bot-san-day.html">Cách dùng sắn dây</a></li>
+        <li><a href="index.html#faq">Hỏi đáp</a></li>
+        <li><a href="en/index.html" lang="en">English</a></li>
+      </ul>
+    </details>
+    <a class="btn green" href="https://zalo.me/0979502000">Nhắn Zalo</a>
   </div>
 </nav>
 
-<header class="plain-header">
-  <span class="eyebrow">Đặt hàng · Thế Hưng Organic</span>
-  <h1>Chọn hàng, gửi phiếu trong 1 phút</h1>
-  <p style="color:var(--text-secondary);max-width:36em;margin:.9rem auto 0">Tinh Bột Sắn Dây <strong style="color:var(--text-primary)">có sẵn, giao ngay</strong>. Cam Đường Canh &amp; quà Tết nhận đặt trước — được báo đầu tiên khi cam chín. <strong style="color:var(--text-primary)">Gửi phiếu chưa phải thanh toán.</strong></p>
-</header>
-
-<main id="main" tabindex="-1" style="padding-top:2.5rem">
-  <div class="order-wrap">
-
-    <ol class="how-steps">
+<header class="phead">
+  <div class="wrap">
+    <p class="crumbs"><a href="index.html">Trang chủ</a> / Đặt hàng</p>
+    <h1>Chọn hàng, gửi phiếu trong 1 phút</h1>
+    <p class="lead">Tinh Bột Sắn Dây <b>có sẵn, giao ngay</b>. Cam Đường Canh và quà Tết nhận đặt trước, được báo đầu tiên khi cam chín. <b>Gửi phiếu chưa phải thanh toán.</b></p>
+    <ol class="howto">
       <li><b>1</b>Bấm + chọn hàng</li>
       <li><b>2</b>Điền tên, số điện thoại</li>
-      <li><b>3</b>Gửi qua Zalo — nhà mình nhắn lại xác nhận</li>
+      <li><b>3</b>Gửi phiếu, nhà mình gọi xác nhận</li>
     </ol>
+  </div>
+</header>
 
-    <form id="orderForm" novalidate>
-      <div class="order-step">
-        <h2><span class="num">01</span>Chọn hàng</h2>
-
-        <p class="item-group">Tinh Bột Sắn Dây · có sẵn, giao ngay</p>
-        <div class="item" data-id="sd05" data-name="Tinh Bột Sắn Dây — túi 0,5kg" data-price="80000">
-          <img class="item-thumb" src="assets/home/sp-san-day.jpg" alt="" loading="lazy" width="54" height="54">
-          <div class="item-info">
-            <div class="item-name">Túi 0,5kg</div>
-            <div class="item-sub"><span class="item-price">80.000đ</span> · có sẵn</div>
-          </div>
-          <div class="stepper"><button type="button" data-d="-1" aria-label="Bớt túi 0,5kg">−</button><output>0</output><button type="button" data-d="1" aria-label="Thêm túi 0,5kg">+</button></div>
-        </div>
-        <div class="item" data-id="sd1" data-name="Tinh Bột Sắn Dây — túi 1kg" data-price="155000">
-          <img class="item-thumb" src="assets/sp/sd-g2.jpg" alt="" loading="lazy" width="54" height="54">
-          <div class="item-info">
-            <div class="item-name">Túi 1kg</div>
-            <div class="item-sub"><span class="item-price">155.000đ</span> · có sẵn</div>
-          </div>
-          <div class="stepper"><button type="button" data-d="-1" aria-label="Bớt túi 1kg">−</button><output>0</output><button type="button" data-d="1" aria-label="Thêm túi 1kg">+</button></div>
-        </div>
-
-        <p class="item-group">Cam Đường Canh · đặt trước mùa mới · VietGAP</p>
-        <div class="item" data-id="cam5" data-name="Cam Đường Canh — thùng 5kg" data-price="275000">
-          <img class="item-thumb" src="assets/sp/cam-g1.jpg" alt="" loading="lazy" width="54" height="54">
-          <div class="item-info">
-            <div class="item-name">Thùng 5kg</div>
-            <div class="item-sub"><span class="item-price">275.000đ</span> · giao khi vào mùa</div>
-          </div>
-          <div class="stepper"><button type="button" data-d="-1" aria-label="Bớt thùng 5kg">−</button><output>0</output><button type="button" data-d="1" aria-label="Thêm thùng 5kg">+</button></div>
-        </div>
-        <div class="item" data-id="cam10" data-name="Cam Đường Canh — thùng 10kg" data-price="500000">
-          <img class="item-thumb" src="assets/sp/cam-g1.jpg" alt="" loading="lazy" width="54" height="54">
-          <div class="item-info">
-            <div class="item-name">Thùng 10kg</div>
-            <div class="item-sub"><span class="item-price">500.000đ</span> · giao khi vào mùa</div>
-          </div>
-          <div class="stepper"><button type="button" data-d="-1" aria-label="Bớt thùng 10kg">−</button><output>0</output><button type="button" data-d="1" aria-label="Thêm thùng 10kg">+</button></div>
+<main id="main" tabindex="-1">
+  <section class="order">
+    <form class="wrap" id="orderForm" novalidate>
+      <div>
+        <div class="panel">
+          <h2><span class="n">1</span>Chọn hàng</h2>
+          <p class="grp">Tinh Bột Sắn Dây <small>· có sẵn, giao ngay</small></p>
+          <ul class="items">
+            <li class="item" data-id="sd05" data-name="Tinh Bột Sắn Dây — túi 0,5kg" data-price="80000"><img src="assets/v2/sd-tui-640.webp" alt="" width="64" height="64" loading="lazy"><span class="nm">Túi 0,5kg<small>Dùng thử, làm quà nhỏ</small><span class="pr">80.000đ</span></span><span class="step"><button type="button" data-d="-1" aria-label="Bớt túi 0,5kg">−</button><output>0</output><button type="button" data-d="1" aria-label="Thêm túi 0,5kg">+</button></span></li>
+            <li class="item" data-id="sd1" data-name="Tinh Bột Sắn Dây — túi 1kg" data-price="155000"><img src="assets/v2/p4-tui-480.webp" alt="" width="64" height="64" loading="lazy"><span class="nm">Túi 1kg<small>Gia đình dùng thường xuyên</small><span class="pr">155.000đ</span></span><span class="step"><button type="button" data-d="-1" aria-label="Bớt túi 1kg">−</button><output>0</output><button type="button" data-d="1" aria-label="Thêm túi 1kg">+</button></span></li>
+          </ul>
+          <p class="grp">Cam Đường Canh <small>· đặt trước mùa mới · VietGAP</small></p>
+          <ul class="items">
+            <li class="item" data-id="cam5" data-name="Cam Đường Canh — thùng 5kg" data-price="275000"><img src="assets/v2/cam-bo-640.webp" alt="" width="64" height="64" loading="lazy"><span class="nm">Thùng 5kg<small>Giao khi vào mùa</small><span class="pr">275.000đ</span></span><span class="step"><button type="button" data-d="-1" aria-label="Bớt thùng 5kg">−</button><output>0</output><button type="button" data-d="1" aria-label="Thêm thùng 5kg">+</button></span></li>
+            <li class="item" data-id="cam10" data-name="Cam Đường Canh — thùng 10kg" data-price="500000"><img src="assets/v2/cam-cay-560.webp" alt="" width="64" height="64" loading="lazy"><span class="nm">Thùng 10kg<small>Giao khi vào mùa</small><span class="pr">500.000đ</span></span><span class="step"><button type="button" data-d="-1" aria-label="Bớt thùng 10kg">−</button><output>0</output><button type="button" data-d="1" aria-label="Thêm thùng 10kg">+</button></span></li>
+          </ul>
+          <p class="grp">Hộp quà Tết <small>· Cam + Sắn Dây</small></p>
+          <ul class="items">
+            <li class="item" data-id="qua-nho" data-name="Hộp quà Tết gói nhỏ (Cam 5kg + Sắn Dây 0,5kg)" data-price=""><img src="assets/v2/cam-thung-480.webp" alt="" width="64" height="64" loading="lazy"><span class="nm">Gói nhỏ: Cam 5kg + Sắn Dây 0,5kg<small>Giá báo khi nhà mình nhắn lại</small></span><span class="step"><button type="button" data-d="-1" aria-label="Bớt hộp quà gói nhỏ">−</button><output>0</output><button type="button" data-d="1" aria-label="Thêm hộp quà gói nhỏ">+</button></span></li>
+            <li class="item" data-id="qua-lon" data-name="Hộp quà Tết gói lớn (Cam 10kg + Sắn Dây 1kg)" data-price=""><img src="assets/v2/sd-tui-640.webp" alt="" width="64" height="64" loading="lazy"><span class="nm">Gói lớn: Cam 10kg + Sắn Dây 1kg<small>Giá báo khi nhà mình nhắn lại</small></span><span class="step"><button type="button" data-d="-1" aria-label="Bớt hộp quà gói lớn">−</button><output>0</output><button type="button" data-d="1" aria-label="Thêm hộp quà gói lớn">+</button></span></li>
+          </ul>
         </div>
 
-        <p class="item-group">Hộp quà Tết · Cam + Sắn Dây</p>
-        <div class="item" data-id="qua-nho" data-name="Hộp quà Tết gói nhỏ (Cam 5kg + Sắn Dây 0,5kg)" data-price="">
-          <img class="item-thumb" src="assets/sp/cam-g2.jpg" alt="" loading="lazy" width="54" height="54">
-          <div class="item-info">
-            <div class="item-name">Gói nhỏ: Cam 5kg + Sắn Dây 0,5kg</div>
-            <div class="item-sub">Đang hoàn thiện — giá báo khi nhà mình nhắn lại</div>
+        <div class="panel">
+          <h2><span class="n">2</span>Thông tin người nhận</h2>
+          <div class="fields">
+            <div class="field"><label for="fName">Tên của bạn</label><input id="fName" name="name" autocomplete="name" required></div>
+            <div class="field"><label for="fPhone">Số điện thoại / Zalo</label><input id="fPhone" name="phone" type="tel" inputmode="tel" autocomplete="tel" required></div>
+            <div class="field full"><label for="fArea">Địa chỉ nhận hàng <small>(có thể ghi tỉnh/thành trước)</small></label><input id="fArea" name="area" autocomplete="street-address" placeholder="VD: 12 Ngõ 5 Láng Hạ, Đống Đa, Hà Nội"></div>
+            <div class="field"><label for="fUse">Mua để <small>(không bắt buộc)</small></label>
+              <select id="fUse" name="use"><option value="">Chọn</option><option>Nhà dùng</option><option>Biếu Tết</option><option>Quà công ty / số lượng lớn</option></select></div>
+            <div class="field"><label for="fWhen">Muốn nhận <small>(không bắt buộc)</small></label>
+              <select id="fWhen" name="when"><option value="">Càng sớm càng tốt</option><option>Trước Tết (đơn quà)</option><option>Giao gộp khi có cam</option></select></div>
+            <div class="field full"><label for="fNote">Ghi chú <small>(không bắt buộc)</small></label><textarea id="fNote" name="note" placeholder="VD: muốn nhận trước 25 tháng Chạp, gửi 2 địa chỉ khác nhau..."></textarea></div>
+            <input type="text" name="_honey" tabindex="-1" autocomplete="off" style="display:none" aria-hidden="true">
           </div>
-          <div class="stepper"><button type="button" data-d="-1" aria-label="Bớt hộp quà gói nhỏ">−</button><output>0</output><button type="button" data-d="1" aria-label="Thêm hộp quà gói nhỏ">+</button></div>
-        </div>
-        <div class="item" data-id="qua-lon" data-name="Hộp quà Tết gói lớn (Cam 10kg + Sắn Dây 1kg)" data-price="">
-          <img class="item-thumb" src="assets/sp/cam-g2.jpg" alt="" loading="lazy" width="54" height="54">
-          <div class="item-info">
-            <div class="item-name">Gói lớn: Cam 10kg + Sắn Dây 1kg</div>
-            <div class="item-sub">Đang hoàn thiện — giá báo khi nhà mình nhắn lại</div>
-          </div>
-          <div class="stepper"><button type="button" data-d="-1" aria-label="Bớt hộp quà gói lớn">−</button><output>0</output><button type="button" data-d="1" aria-label="Thêm hộp quà gói lớn">+</button></div>
         </div>
       </div>
 
-      <div class="order-step">
-        <h2><span class="num">02</span>Thông tin người nhận</h2>
-        <div class="field-row">
-          <div class="field">
-            <label for="fName">Tên của bạn</label>
-            <input id="fName" name="name" autocomplete="name" required>
+      <aside class="panel osum" aria-labelledby="t-sum">
+        <h2 id="t-sum"><span class="n">3</span>Kiểm tra &amp; gửi</h2>
+        <ul class="lines" id="sumLines" aria-live="polite"><li class="empty">Chưa chọn hàng nào</li></ul>
+        <div class="total"><span>Tạm tính</span><b id="sumTotal">0đ</b></div>
+        <p class="note">Chưa gồm phí ship (theo bảng giá đơn vị vận chuyển, báo trước khi bạn xác nhận).</p>
+        <div class="send">
+          <button type="submit" class="btn" data-via="zalo">Gửi phiếu qua Zalo</button>
+          <div class="alt">
+            <button type="submit" class="btn ghost" data-via="whatsapp">WhatsApp</button>
+            <button type="submit" class="btn ghost" data-via="email">Email</button>
           </div>
-          <div class="field">
-            <label for="fPhone">Số điện thoại / Zalo</label>
-            <input id="fPhone" name="phone" type="tel" inputmode="tel" autocomplete="tel" required>
-          </div>
         </div>
-        <div class="field">
-          <label for="fArea">Tỉnh / thành nhận hàng</label>
-          <input id="fArea" name="area" autocomplete="address-level1" placeholder="VD: Hà Nội">
-        </div>
-        <div class="field">
-          <label for="fUse">Mua để <span class="opt">(không bắt buộc)</span></label>
-          <select id="fUse" name="use">
-            <option value="">— Chọn —</option>
-            <option>Nhà dùng</option>
-            <option>Biếu Tết</option>
-            <option>Quà công ty / số lượng lớn</option>
-          </select>
-        </div>
-        <div class="field">
-          <label for="fNote">Ghi chú <span class="opt">(không bắt buộc)</span></label>
-          <textarea id="fNote" name="note" placeholder="VD: muốn nhận trước 25 tháng Chạp, gửi 2 địa chỉ khác nhau..."></textarea>
-        </div>
-      </div>
-
-      <div class="order-step">
-        <h2><span class="num">03</span>Kiểm tra &amp; gửi</h2>
-        <div class="summary" aria-live="polite">
-          <ul class="summary-lines" id="sumLines"><li><span>Chưa chọn hàng nào</span></li></ul>
-          <div class="summary-total"><span>Tạm tính</span><span id="sumTotal">0đ</span></div>
-          <p class="summary-note" id="sumNote">Chưa gồm phí ship (theo bảng giá đơn vị vận chuyển, báo trước khi bạn xác nhận).</p>
-        </div>
-        <div class="send-row">
-          <button type="submit" class="btn btn-gold" data-via="zalo">Gửi qua Zalo</button>
-          <button type="submit" class="btn btn-outline" data-via="whatsapp">WhatsApp</button>
-          <button type="submit" class="btn btn-outline" data-via="email">Email</button>
-        </div>
-        <div class="trust">
-          <div class="star">Cam Đường Canh 4,85/5 từ 106 đánh giá Shopee mùa trước</div>
-          <div>Gửi phiếu chưa phải thanh toán — nhà mình nhắn lại xác nhận đơn, phí ship</div>
-          <div>Đổi mới hoặc hoàn tiền nếu hàng hư do vận chuyển (quay video lúc mở hàng, báo trong 24 giờ)</div>
-        </div>
-        <p class="form-error" id="formError" role="alert"></p>
-        <div class="done-box" id="doneBox">
-          <strong>Đã chép tin nhắn.</strong> Zalo đang mở — bấm vào ô chat, <strong>dán (giữ ngón tay → Dán)</strong> rồi gửi. Nếu Zalo không mở, nhắn số <a href="https://zalo.me/0979502000">0979 502 000</a> nội dung dưới đây:
+        <p class="err" id="formError" role="alert"></p>
+        <div class="done" id="doneBox" tabindex="-1">
+          <b>Cảm ơn bạn, phiếu đã sẵn sàng!</b>
+          <span id="doneMain">Zalo đang mở: bấm vào ô chat, <strong>giữ ngón tay → Dán</strong> rồi gửi. Nếu Zalo không mở, nhắn số <a class="tlink" href="https://zalo.me/0979502000">0979 502 000</a> nội dung dưới đây.</span>
+          <span id="doneMail" hidden> Phiếu cũng đã gửi về email của hợp tác xã, nhà mình sẽ gọi xác nhận trong ngày.</span>
           <pre id="msgPreview"></pre>
         </div>
-      </div>
+        <ul class="trust">
+          <li class="s"><svg width="16" height="16"><use href="#st"/></svg>Cam Đường Canh 4,85/5 từ 106 đánh giá Shopee mùa trước</li>
+          <li><svg width="16" height="16"><use href="#ck"/></svg>Gửi phiếu chưa phải thanh toán. Nhà mình nhắn lại xác nhận đơn và phí ship</li>
+          <li><svg width="16" height="16"><use href="#ck"/></svg>Đổi mới hoặc hoàn tiền nếu hàng hư do vận chuyển (quay video lúc mở hàng, báo trong 24 giờ)</li>
+        </ul>
+      </aside>
     </form>
+  </section>
 
-    <section class="reveal" id="faq" style="margin-top:4rem">
-      <div class="section-heading">
-        <span class="eyebrow">Hỏi đáp</span>
-        <h2>Về đặt hàng</h2>
+  <section class="mini-faq" aria-labelledby="t-faq">
+    <div class="wrap">
+      <h2 id="t-faq">Về đặt hàng</h2>
+      <div class="acc">
+        <details name="faq"><summary>Đặt trước có phải chuyển tiền ngay không?<span class="pm" aria-hidden="true"></span></summary><p>Không. Gửi phiếu chỉ là để nhà mình giữ chỗ và báo cho bạn đầu tiên. Nhà mình sẽ nhắn lại xác nhận đơn, phí ship và cách thanh toán trước khi giao.</p></details>
+        <details name="faq"><summary>Khi nào có cam?<span class="pm" aria-hidden="true"></span></summary><p>Cam Đường Canh chỉ thu hoạch theo mùa, khoảng tháng 11 âm lịch đến tháng 1 năm sau. Cam chín tự nhiên trên cây, không thúc chín, nên ngày thu hoạch cụ thể nhà mình sẽ báo khi vườn sẵn sàng.</p></details>
+        <details name="faq"><summary>Tinh Bột Sắn Dây có phải chờ không?<span class="pm" aria-hidden="true"></span></summary><p>Không. Sắn Dây có sẵn quanh năm. Nếu đặt chung với cam, bạn có thể chọn nhận sắn dây trước hoặc gộp giao một lần.</p></details>
+        <details name="faq"><summary>Hàng bị hư khi giao thì sao?<span class="pm" aria-hidden="true"></span></summary><p>Vì là thực phẩm nên không nhận đổi trả hàng đã mở/đã dùng. Hàng hư hỏng do vận chuyển, giao sai loại/số lượng hoặc lỗi sản xuất thì được đổi mới hoặc hoàn tiền: quay video lúc mở hàng và báo Zalo trong 24 giờ.</p></details>
+        <details name="faq"><summary>Muốn đổi số lượng hoặc huỷ thì sao?<span class="pm" aria-hidden="true"></span></summary><p>Cứ nhắn Zalo cho nhà mình trước khi đơn được giao là đổi/huỷ được.</p></details>
       </div>
-      <div class="faq-list">
-        <details class="faq-item">
-          <summary>Đặt trước có phải chuyển tiền ngay không?</summary>
-          <p>Không. Gửi phiếu chỉ là để nhà mình giữ chỗ và báo cho bạn đầu tiên. Nhà mình sẽ nhắn lại xác nhận đơn, phí ship và cách thanh toán trước khi giao.</p>
-        </details>
-        <details class="faq-item">
-          <summary>Khi nào có cam?</summary>
-          <p>Cam Đường Canh chỉ thu hoạch theo mùa, khoảng tháng 11 âm lịch đến tháng 1 năm sau. Cam chín tự nhiên trên cây, không thúc chín, nên ngày thu hoạch cụ thể nhà mình sẽ báo khi vườn sẵn sàng.</p>
-        </details>
-        <details class="faq-item">
-          <summary>Tinh Bột Sắn Dây có phải chờ không?</summary>
-          <p>Không. Sắn Dây có sẵn quanh năm — nếu đặt chung với cam, bạn có thể chọn nhận sắn dây trước hoặc gộp giao một lần.</p>
-        </details>
-        <details class="faq-item">
-          <summary>Hàng bị hư khi giao thì sao?</summary>
-          <p>Vì là thực phẩm nên không nhận đổi trả hàng đã mở/đã dùng. Hàng hư hỏng do vận chuyển, giao sai loại/số lượng hoặc lỗi sản xuất thì được đổi mới hoặc hoàn tiền — quay video lúc mở hàng và báo Zalo trong 24 giờ.</p>
-        </details>
-        <details class="faq-item">
-          <summary>Muốn đổi số lượng hoặc huỷ thì sao?</summary>
-          <p>Cứ nhắn Zalo cho nhà mình trước khi đơn được giao là đổi/huỷ được.</p>
-        </details>
-      </div>
-    </section>
-
-  </div>
+    </div>
+  </section>
 </main>
 
-<footer>© Hợp tác xã Thế Hưng Organic (THOC) — Vũ Lăng, Lạng Sơn · <a href="index.html">Trang chủ</a></footer>
+<footer class="foot">
+  <div class="wrap">
+    <div class="top">
+      <div>
+        <p class="name">Thế Hưng Organic</p>
+        <ul>
+          <li><a href="https://zalo.me/0979502000">Zalo 0979 502 000</a></li>
+          <li><a href="tel:0979502000">Gọi 0979 502 000</a></li>
+          <li><a href="mailto:hello@nongsannhalam.com">hello@nongsannhalam.com</a></li>
+        </ul>
+      </div>
+      <ul><li><b>Sản phẩm</b></li><li><a href="san-day.html">Tinh Bột Sắn Dây</a></li><li><a href="cam-duong-canh.html">Cam Đường Canh</a></li><li><a href="cach-dung-tinh-bot-san-day.html">Cách dùng sắn dây</a></li></ul>
+      <ul><li><b>Mua hàng</b></li><li><a href="dat-truoc.html">Đặt hàng</a></li><li><a href="https://shopee.vn/shop/1700409288" target="_blank" rel="noopener">Shopee</a></li><li><a href="https://www.facebook.com/profile.php?id=61593265823967" target="_blank" rel="noopener">Facebook</a></li></ul>
+      <ul><li><b>Khác</b></li><li><a href="index.html#faq">Hỏi đáp</a></li><li><a href="en/index.html" lang="en">English</a></li></ul>
+    </div>
+    <div class="legal"><p>© Hợp tác xã Thế Hưng Organic (THOC), Thôn Liên Lạc, xã Vũ Lăng, Lạng Sơn</p><a href="#main">Lên đầu trang ↑</a></div>
+  </div>
+</footer>
 
-<script src="assets/hero.js"></script>
+<script src="assets/track.js"></script>
 <script>
 (function(){
   "use strict";
   var ZALO = "https://zalo.me/0979502000";
   var WA = "https://wa.me/84363589920";
   var EMAIL = "hello@nongsannhalam.com";
+  // Bản sao phiếu gửi về email (FormSubmit) — để không mất đơn khi khách quên dán vào Zalo.
+  var MAIL_COPY = "https://formsubmit.co/ajax/" + EMAIL;
   var MAX = 50;
   var qty = {};
   var items = Array.prototype.slice.call(document.querySelectorAll(".item"));
+  var nav = document.getElementById("nav");
+  addEventListener("scroll", function(){ nav.classList.toggle("scrolled", scrollY > 8); }, { passive: true });
 
   function vnd(n){ return n.toLocaleString("vi-VN") + "đ"; }
 
@@ -287,6 +199,7 @@
       b.addEventListener("click", function(){
         qty[id] = Math.max(0, Math.min(MAX, qty[id] + Number(b.dataset.d)));
         render();
+        var o = el.querySelector("output"); o.classList.remove("pop"); void o.offsetWidth; o.classList.add("pop");
       });
     });
   });
@@ -302,13 +215,13 @@
     items.forEach(function(el){
       var n = qty[el.dataset.id];
       el.querySelector("output").textContent = n;
-      el.classList.toggle("has-qty", n > 0);
+      el.classList.toggle("on", n > 0);
     });
     var list = chosen(), total = 0, pending = false;
     var lines = document.getElementById("sumLines");
     lines.innerHTML = "";
     if (!list.length){
-      lines.innerHTML = "<li><span>Chưa chọn hàng nào</span></li>";
+      lines.innerHTML = '<li class="empty">Chưa chọn hàng nào</li>';
     }
     list.forEach(function(c){
       var li = document.createElement("li");
@@ -318,12 +231,12 @@
       else { b.textContent = vnd(c.price * c.n); total += c.price * c.n; }
       li.appendChild(a); li.appendChild(b); lines.appendChild(li);
     });
-    document.getElementById("sumTotal").textContent = vnd(total) + (pending ? " + hộp quà" : "");
+    document.getElementById("sumTotal").textContent = vnd(total) + (pending ? " + quà" : "");
   }
 
   function buildMessage(f){
     var list = chosen(), total = 0, pending = false;
-    var out = ["ĐẶT TRƯỚC — nongsannhalam.com", ""];
+    var out = ["ĐẶT HÀNG — nongsannhalam.com", ""];
     list.forEach(function(c){
       if (c.price === null){ pending = true; out.push("• " + c.n + " × " + c.name + " (báo giá sau)"); }
       else { total += c.price * c.n; out.push("• " + c.n + " × " + c.name + " = " + vnd(c.price * c.n)); }
@@ -332,8 +245,9 @@
     out.push("");
     out.push("Tên: " + f.name);
     out.push("SĐT/Zalo: " + f.phone);
-    if (f.area) out.push("Nhận tại: " + f.area);
+    if (f.area) out.push("Địa chỉ: " + f.area);
     if (f.use) out.push("Mua để: " + f.use);
+    if (f.when) out.push("Muốn nhận: " + f.when);
     if (f.note) out.push("Ghi chú: " + f.note);
     return out.join("\n");
   }
@@ -352,12 +266,24 @@
     document.body.removeChild(ta);
   }
 
+  function mailCopy(f, msg, via){
+    if (!window.fetch || form._honey.value) return;
+    fetch(MAIL_COPY, {
+      method: "POST",
+      headers: { "Content-Type": "application/json", "Accept": "application/json" },
+      body: JSON.stringify({ _subject: "Phiếu đặt hàng web — " + f.name + " — " + f.phone, _template: "box", _captcha: "false", "Gửi qua": via, "Phiếu": msg })
+    }).then(function(r){ return r.json(); }).then(function(j){
+      if (j && (j.success === true || j.success === "true")) document.getElementById("doneMail").hidden = false;
+    }).catch(function(){});
+  }
+
   var form = document.getElementById("orderForm");
   var err = document.getElementById("formError");
   var via = "zalo";
   form.querySelectorAll("[data-via]").forEach(function(b){
     b.addEventListener("click", function(){ via = b.dataset.via; });
   });
+  ["fName","fPhone"].forEach(function(id){ document.getElementById(id).addEventListener("input", function(){ this.removeAttribute("aria-invalid"); }); });
 
   form.addEventListener("submit", function(e){
     e.preventDefault();
@@ -366,25 +292,29 @@
       phone: form.phone.value.trim(),
       area: form.area.value.trim(),
       use: form.use.value,
+      when: form.when.value,
       note: form.note.value.trim()
     };
     err.textContent = "";
-    if (!chosen().length){ err.textContent = "Bạn chưa chọn hàng nào — bấm + ở mục 01."; return; }
-    if (!f.name){ err.textContent = "Cho nhà mình xin tên để xưng hô nhé."; form.name.focus(); return; }
-    if (f.phone.replace(/\D/g, "").length < 9){ err.textContent = "Số điện thoại chưa đúng — cần để nhà mình nhắn lại."; form.phone.focus(); return; }
+    if (!chosen().length){ err.textContent = "Bạn chưa chọn hàng nào, bấm + ở mục 1."; return; }
+    if (!f.name){ err.textContent = "Cho nhà mình xin tên để xưng hô nhé."; form.name.setAttribute("aria-invalid","true"); form.name.focus(); return; }
+    if (f.phone.replace(/\D/g, "").length < 9){ err.textContent = "Số điện thoại chưa đúng, cần để nhà mình gọi lại."; form.phone.setAttribute("aria-invalid","true"); form.phone.focus(); return; }
 
     var msg = buildMessage(f);
+    if (window.thocTrack) thocTrack("gui-phieu-" + via);
+    mailCopy(f, msg, via);
     if (via === "whatsapp"){
       window.open(WA + "?text=" + encodeURIComponent(msg), "_blank", "noopener");
       return;
     }
     if (via === "email"){
-      location.href = "mailto:" + EMAIL + "?subject=" + encodeURIComponent("Đặt trước — " + f.name) + "&body=" + encodeURIComponent(msg);
+      location.href = "mailto:" + EMAIL + "?subject=" + encodeURIComponent("Đặt hàng — " + f.name) + "&body=" + encodeURIComponent(msg);
       return;
     }
     // Zalo không nhận nội dung soạn sẵn qua link → chép vào bộ nhớ tạm rồi mở Zalo để khách dán.
     document.getElementById("msgPreview").textContent = msg;
-    document.getElementById("doneBox").classList.add("show");
+    var done = document.getElementById("doneBox");
+    done.classList.add("show");
     // Chép đồng bộ + mở Zalo ngay trong lượt bấm — đợi Promise xong mới mở thì trình duyệt điện thoại hay chặn popup.
     fallbackCopy(msg);
     copyText(msg);

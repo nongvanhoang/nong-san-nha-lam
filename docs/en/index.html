@@ -9,7 +9,7 @@
 <link rel="alternate" hreflang="vi" href="https://nongsannhalam.com/">
 <link rel="alternate" hreflang="en" href="https://nongsannhalam.com/en/">
 <link rel="alternate" hreflang="x-default" href="https://nongsannhalam.com/en/">
-<meta name="theme-color" content="#14100c">
+<meta name="theme-color" content="#173f23">
 <meta property="og:type" content="website">
 <meta property="og:locale" content="en_US">
 <meta property="og:site_name" content="The Hung Organic">
@@ -25,7 +25,10 @@
 <link rel="icon" type="image/png" sizes="32x32" href="../assets/favicon-32.png">
 <link rel="apple-touch-icon" href="../apple-touch-icon.png">
 <link rel="manifest" href="../manifest.json">
-<link rel="stylesheet" href="../assets/site.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700&family=Fraunces:opsz,wght@9..144,500;9..144,600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/home.css">
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -50,246 +53,274 @@
   ]
 }
 </script>
+<script>document.documentElement.classList.add("js");</script>
 </head>
-<body class="home">
+<body>
 <a href="#main" class="skip-link">Skip to content</a>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="ck" viewBox="0 0 24 24"><path d="M5 12.5l4.5 4.5L19 7.5" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+  <symbol id="st" viewBox="0 0 24 24"><path d="M12 2.8l2.8 5.9 6.4.8-4.7 4.4 1.2 6.4L12 17.2l-5.7 3.1 1.2-6.4-4.7-4.4 6.4-.8z" fill="currentColor"/></symbol>
+  <symbol id="pl" viewBox="0 0 24 24"><path d="M8 5.5v13l11-6.5z" fill="currentColor"/></symbol>
+</svg>
 
-<div class="h-ann" id="hAnn" role="region" aria-label="Announcement"><a href="https://wa.me/84363589920?text=Hello%2C%20I%27d%20like%20a%20quote%20or%20samples%20of%20kudzu%20root%20starch."><b>🌿 Kudzu root starch — wholesale &amp; export samples available</b> <span class="more">— message us on WhatsApp →</span></a><button type="button" aria-label="Close announcement">×</button></div>
+<div class="ann" id="hAnn" role="region" aria-label="Announcement"><a href="https://wa.me/84363589920?text=Hello%2C%20I%27d%20like%20a%20quote%20or%20samples%20of%20kudzu%20root%20starch.">Kudzu root starch: wholesale &amp; export samples available. Message us on WhatsApp →</a><button type="button" aria-label="Close announcement">×</button></div>
 <script>
-(function(){var k='ann-tet-2027',b=document.getElementById('hAnn');if(!b)return;
+(function(){var k='ann-en-export',b=document.getElementById('hAnn');if(!b)return;
 try{if(localStorage.getItem(k)){b.classList.add('hide');return;}}catch(e){}
 b.querySelector('button').addEventListener('click',function(){b.classList.add('hide');try{localStorage.setItem(k,'1')}catch(e){}});})();
 </script>
-<nav class="site-nav">
-  <div class="site-nav-inner">
-    <a class="brand" href="index.html">
-      <img src="../assets/logo-thoc-mark.png" alt="THOC logo – The Hung Organic Cooperative">
-      <span>The Hung Organic</span>
-    </a>
-    <ul class="nav-links" id="navLinks">
+
+<nav class="nav" id="nav" aria-label="Main">
+  <div class="wrap">
+    <a class="brand" href="index.html"><img src="../assets/logo-thoc-mark.png" alt="THOC logo" width="42" height="42"><span>The Hung Organic</span></a>
+    <ul>
       <li><a href="san-day.html">Kudzu Starch</a></li>
-      <li><a href="cam-duong-canh.html">Canh Oranges</a></li>
+      <li><a href="cam-duong-canh.html">Canh Mandarins</a></li>
+      <li><a href="san-day.html#export">Export</a></li>
       <li><a href="#faq">FAQ</a></li>
-      <li><a href="#lien-he">Contact</a></li>
     </ul>
-<button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="navLinks" aria-label="Menu">
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
-    </button>
-    <div class="nav-side">
-      <div class="lang-switch">
-        <a href="../index.html">VI</a>
-        <a class="active" href="index.html">EN</a>
-      </div>
-      <a class="nav-cta" href="https://zalo.me/0979502000">Message us</a>
-    </div>
+    <div class="lang"><a href="../index.html" lang="vi">VI</a><a href="index.html" aria-current="page">EN</a></div>
+    <details class="menu"><summary aria-label="Open menu"><svg width="20" height="20" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></svg></summary>
+      <ul>
+        <li><a href="san-day.html">Kudzu Root Starch</a></li>
+        <li><a href="cam-duong-canh.html">Canh Mandarins</a></li>
+        <li><a href="san-day.html#export">Wholesale &amp; export</a></li>
+        <li><a href="#faq">FAQ</a></li>
+        <li><a href="../index.html" lang="vi">Tiếng Việt</a></li>
+      </ul>
+    </details>
+    <a class="btn" href="https://wa.me/84363589920?text=Hello%2C%20I%27m%20interested%20in%20your%20kudzu%20root%20starch.">WhatsApp</a>
   </div>
 </nav>
 
-<header class="h-hero" id="top" style="background-image:url('../assets/home/hero-1920.jpg')">
-  <video class="h-hero-media" autoplay muted loop playsinline preload="metadata" poster="../assets/home/hero-1920.jpg" aria-hidden="true">
+<header class="hero" id="top">
+  <video autoplay muted loop playsinline preload="metadata" poster="../assets/home/hero-1920.jpg" aria-hidden="true">
     <source src="../assets/home/hero-loop.mp4" type="video/mp4">
   </video>
-  <div class="h-hero-inner">
-    <img class="h-hero-logo" src="../assets/logo-thoc-mark.png" alt="" width="72" height="72">
-    <span class="eyebrow">The Hung Organic Cooperative · Lang Son, Vietnam</span>
-    <h1>Kudzu root starch, <em>naturally white</em>, from the limestone hills of Bac Son</h1>
-    <p class="h-hero-lead">Whole roots dug up, filtered many times, dried in a temperature-controlled kiln — no bleaching, no additives. Plus VietGAP-certified Canh mandarins in season.</p>
-    <div class="h-price">From <b>80,000 VND</b> / 0.5 kg · wholesale &amp; export</div>
-    <div class="h-cta">
-      <a class="btn btn-gold" href="https://wa.me/84363589920?text=Hello%2C%20I%27m%20interested%20in%20your%20kudzu%20root%20starch.">WhatsApp us</a>
-      <a class="btn btn-outline" href="mailto:hello@nongsannhalam.com?subject=Kudzu%20root%20starch%20inquiry">Email for wholesale</a>
-      <a class="btn btn-outline" href="#about-video">▶ Watch the 90-second film</a>
+  <div class="wrap">
+    <div>
+      <h1 class="rise"><span>Kudzu root starch</span> <span>from Bac Son</span></h1>
+      <p class="lead rise" style="--i:1">Whole roots dug up, filtered many times, dried in a temperature-controlled kiln. No bleaching, no additives. Plus VietGAP-certified Canh mandarins in season, from The Hung Organic Cooperative in Lang Son, Vietnam.</p>
+      <div class="ctas rise" style="--i:2">
+        <a class="btn" href="https://wa.me/84363589920?text=Hello%2C%20I%27m%20interested%20in%20your%20kudzu%20root%20starch.">WhatsApp us</a>
+        <a class="btn glass" href="mailto:hello@nongsannhalam.com?subject=Kudzu%20root%20starch%20inquiry">Email for wholesale</a>
+      </div>
+      <ul class="facts rise" style="--i:3">
+        <li><svg width="18" height="18"><use href="#ck"/></svg>No bleaching, no additives</li>
+        <li><svg width="18" height="18"><use href="#ck"/></svg>Shelf-stable, ships well by sea</li>
+        <li><svg width="18" height="18"><use href="#ck"/></svg>Samples on request</li>
+      </ul>
     </div>
-    <ul class="h-chips">
-      <li><span style="color:#f5b301">★</span><a href="#danh-gia" style="color:inherit">Canh mandarins 4.85/5 · 106 Shopee reviews</a></li>
-      <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>No bleaching</li>
-      <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>Kiln-dried, weather-independent</li>
-      <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>Samples on request</li>
-    </ul>
+    <a class="pcard rise" style="--i:2" href="san-day.html" aria-label="Kudzu root starch details">
+      <img src="../assets/v2/sd-tui-640.webp" alt="Three bags of white kudzu root starch from the cooperative" width="640" height="480">
+      <div class="t"><b>Kudzu Root Starch</b><span>Year-round</span></div>
+      <ul><li>0.5 kg bag<b>80,000 VND</b></li><li>1 kg bag<b>155,000 VND</b></li><li>5 / 10 kg wholesale<b>Ask us</b></li></ul>
+      <span class="btn green">See details</span>
+    </a>
   </div>
 </header>
 
-<div class="h-band">
-  <ul>
-    <li><span class="ico"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 20l6-12 4 7 3-4 5 9z"/></svg></span><div><b>Limestone-valley fields</b><span>Our own kudzu fields in Vu Lang, Bac Son</span></div></li>
-    <li><span class="ico"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2.7c3 3.8 6 7.4 6 11.3a6 6 0 0 1-12 0c0-3.9 3-7.5 6-11.3z"/></svg></span><div><b>Filtered many times</b><span>Stirred, settled and rinsed until it runs clear</span></div></li>
-    <li><span class="ico"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 9v4l2 2"/><circle cx="12" cy="13" r="8"/></svg></span><div><b>Temperature-controlled kiln</b><span>Even drying, no open-air sun drying</span></div></li>
-    <li><span class="ico"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l7 3v6c0 4.5-3 7.5-7 9-4-1.5-7-4.5-7-9V6z"/><path d="M9 12l2 2 4-4"/></svg></span><div><b>VietGAP mandarins</b><span>Certificate No. 112/CN-TĐC-TT-20-0012</span></div></li>
-  </ul>
-</div>
-
 <main id="main" tabindex="-1">
 
-  <section class="reveal" id="san-pham">
-    <div class="section-heading">
-      <span class="eyebrow">Products</span>
-      <h2>What we grow and make</h2>
-      <p>Retail prices below are for delivery within Vietnam. For export, wholesale packs (5 kg / 10 kg) and samples, contact us directly.</p>
-    </div>
-    <div class="h-prod-grid">
-      <article class="h-prod">
-        <div class="h-prod-img">
-          <img src="../assets/home/sp-san-day.jpg" alt="Dried kudzu root starch, naturally white, fresh out of the kiln" loading="lazy" width="720" height="900">
-          <span class="h-badge">Available year-round</span>
-        </div>
-        <div class="h-prod-body">
-          <h3>Kudzu Root Starch</h3>
-          <p>For cooling drinks, desserts and baking. Naturally white, no bleaching, no additives.</p>
-          <ul class="h-variants">
-            <li><a href="https://wa.me/84363589920?text=Hello%2C%20I%27d%20like%20kudzu%20root%20starch%200.5%20kg."><span>0.5 kg bag<small>Retail, Vietnam delivery</small></span><b>80,000 VND</b></a></li>
-            <li><a href="https://wa.me/84363589920?text=Hello%2C%20I%27d%20like%20kudzu%20root%20starch%201%20kg."><span>1 kg bag<small>Retail, Vietnam delivery</small></span><b>155,000 VND</b></a></li>
-            <li><a href="mailto:hello@nongsannhalam.com?subject=Wholesale%20kudzu%20root%20starch"><span>5 kg / 10 kg<small>Wholesale &amp; export</small></span><b>Ask us</b></a></li>
-          </ul>
-          <a class="btn btn-gold" href="https://wa.me/84363589920">Order via WhatsApp</a>
-          <a class="h-more" href="san-day.html">Details &amp; how to use →</a>
-        </div>
-      </article>
-      <article class="h-prod">
-        <div class="h-prod-img">
-          <img src="../assets/home/sp-cam.jpg" alt="Canh mandarin cut in half, juicy segments" loading="lazy" width="720" height="900">
-          <span class="h-badge green">VietGAP · Seasonal</span>
-        </div>
-        <div class="h-prod-body">
-          <h3>Canh Mandarins</h3>
-          <p>Ripened naturally on the tree. Harvest season roughly November–January (lunar calendar). Fresh fruit — delivered within Vietnam only.</p>
-          <ul class="h-variants">
-            <li><a href="https://wa.me/84363589920?text=Hello%2C%20I%27d%20like%20to%20pre-order%20a%205%20kg%20box%20of%20Canh%20mandarins."><span>5 kg box<small>Pre-order for the new season</small></span><b>275,000 VND</b></a></li>
-            <li><a href="https://wa.me/84363589920?text=Hello%2C%20I%27d%20like%20to%20pre-order%20a%2010%20kg%20box%20of%20Canh%20mandarins."><span>10 kg box<small>Pre-order for the new season</small></span><b>500,000 VND</b></a></li>
-          </ul>
-          <a class="btn btn-gold" href="https://wa.me/84363589920">Pre-order via WhatsApp</a>
-          <a class="h-more" href="cam-duong-canh.html">See the orchard →</a>
-        </div>
-      </article>
-    </div>
-  </section>
-
-  <section class="reveal" id="danh-gia">
-    <div class="section-heading">
-      <span class="eyebrow">Real reviews</span>
-      <h2>What customers say about our Canh mandarins</h2>
-      <p>Translated from verified-purchase reviews on Shopee last season — names partly hidden.</p>
-    </div>
-    <div class="h-reviews">
-      <div class="h-score">
-        <div class="num">4.85<small>/5</small></div>
-        <div class="h-stars">★★★★★</div>
-        <p>106 reviews on Shopee<br>97 five-star reviews</p>
-        <ul class="h-bars"><li><span>5★</span><i><b style="width:91.5%"></b></i><span>97</span></li><li><span>4★</span><i><b style="width:5.7%"></b></i><span>6</span></li><li><span>3★</span><i><b style="width:0.9%"></b></i><span>1</span></li><li><span>2★</span><i><b style="width:0.0%"></b></i><span>0</span></li><li><span>1★</span><i><b style="width:1.9%"></b></i><span>2</span></li></ul>
-        <p class="src">Source: Shopee shop “Cam Đường Canh TH”, 2025–2026 season.</p>
-        <a class="btn btn-outline" href="https://shopee.vn/shop/1700409288" target="_blank" rel="noopener" style="margin-top:1rem;display:block">See all reviews on Shopee ↗</a>
+  <section class="shop" id="products" aria-labelledby="t-sp">
+    <div class="wrap">
+      <div class="head">
+        <h2 id="t-sp" class="rise">What we grow and make</h2>
+        <p class="rise">Retail prices are for delivery within Vietnam. For export, wholesale packs (5 kg / 10 kg) and samples, contact us directly.</p>
       </div>
-      <div class="h-quotes">
-      <figure class="h-quote"><span class="h-stars" aria-label="5 sao">★★★★★</span><blockquote>“Really tasty, sweet, fresh and nicely selected — great price. Had I known the quality was this good, I&#x27;d have ordered twice as much.”</blockquote><figcaption><b>m*****2</b><span><span class="h-verified">✓</span> Bought 10kg · 13/02/2026</span></figcaption></figure>
-      <figure class="h-quote"><span class="h-stars" aria-label="5 sao">★★★★★</span><blockquote>“Sweet, thin-skinned, juicy. Totally different from the oranges I buy elsewhere. In the whole 5 kg box only 2 small ones got crushed by the others…”</blockquote><figcaption><b>h*****9</b><span><span class="h-verified">✓</span> Bought 5kg · 13/01/2026</span></figcaption></figure>
-      <figure class="h-quote"><span class="h-stars" aria-label="5 sao">★★★★★</span><blockquote>“The oranges arrived still really fresh. Mildly sweet and easy to eat. Everyone should try them.”</blockquote><figcaption><b>k*****r</b><span><span class="h-verified">✓</span> Bought 5kg · 21/01/2026</span></figcaption></figure>
-      <figure class="h-quote"><span class="h-stars" aria-label="5 sao">★★★★★</span><blockquote>“Packed in a fairly sturdy foam box; sweet, tasty oranges.”</blockquote><figcaption><b>t*****8</b><span><span class="h-verified">✓</span> Bought 5kg · 31/01/2026</span></figcaption></figure>
-      <figure class="h-quote"><span class="h-stars" aria-label="5 sao">★★★★★</span><blockquote>“Received after 2 days. Juicy and sweet — will order again once we finish them.”</blockquote><figcaption><b>h*****4</b><span><span class="h-verified">✓</span> Bought 5kg · 06/01/2026</span></figcaption></figure>
-      <figure class="h-quote"><span class="h-stars" aria-label="5 sao">★★★★★</span><blockquote>“Very tasty and juicy, just the right sweetness, thin skin, fair price.”</blockquote><figcaption><b>r*****0</b><span><span class="h-verified">✓</span> Bought 5kg · 07/01/2026</span></figcaption></figure>
+      <div class="prods">
+        <article class="prod rise" aria-labelledby="t-sd">
+          <div class="img">
+            <img src="../assets/v2/sd-tui-1200.webp" srcset="../assets/v2/sd-tui-640.webp 640w, ../assets/v2/sd-tui-1200.webp 1200w" sizes="(max-width:700px) 100vw, 50vw" alt="Bags of naturally white kudzu root starch" width="1200" height="900" loading="lazy">
+            <div class="tags"><span class="tag">Available year-round</span><span class="tag o">Export</span></div>
+          </div>
+          <div class="body">
+            <h3 id="t-sd">Kudzu Root Starch</h3>
+            <p class="desc">For cooling drinks, desserts and baking. Naturally white, no bleaching, no additives.</p>
+            <ul class="vars">
+              <li class="var"><a class="nm" href="https://wa.me/84363589920?text=Hello%2C%20I%27d%20like%20kudzu%20root%20starch%200.5%20kg.">0.5 kg bag<small>Retail, Vietnam delivery</small></a><span class="pr">80,000 VND</span></li>
+              <li class="var"><a class="nm" href="https://wa.me/84363589920?text=Hello%2C%20I%27d%20like%20kudzu%20root%20starch%201%20kg.">1 kg bag<small>Retail, Vietnam delivery</small></a><span class="pr">155,000 VND</span></li>
+              <li class="var"><a class="nm" href="mailto:hello@nongsannhalam.com?subject=Wholesale%20kudzu%20root%20starch">5 kg / 10 kg<small>Wholesale &amp; export</small></a><span class="pr">Ask us</span></li>
+            </ul>
+            <div class="acts">
+              <a class="btn green" href="https://wa.me/84363589920">Order via WhatsApp</a>
+              <a class="btn ghost" href="san-day.html">Details &amp; how to use</a>
+            </div>
+          </div>
+        </article>
+        <article class="prod rise" style="--i:1" aria-labelledby="t-cam">
+          <div class="img">
+            <img src="../assets/v2/cam-bo-1200.webp" srcset="../assets/v2/cam-bo-640.webp 640w, ../assets/v2/cam-bo-1200.webp 1200w" sizes="(max-width:700px) 100vw, 50vw" alt="Canh mandarin cut in half on the branch" width="1200" height="900" loading="lazy">
+            <div class="tags"><span class="tag">VietGAP</span><span class="tag">Seasonal</span></div>
+          </div>
+          <div class="body">
+            <h3 id="t-cam">Canh Mandarins</h3>
+            <p class="desc">Ripened naturally on the tree. Harvest season roughly November–January (lunar calendar). Fresh fruit, delivered within Vietnam only.</p>
+            <ul class="vars">
+              <li class="var"><a class="nm" href="https://wa.me/84363589920?text=Hello%2C%20I%27d%20like%20to%20pre-order%20a%205%20kg%20box%20of%20Canh%20mandarins.">5 kg box<small>Pre-order for the new season</small></a><span class="pr">275,000 VND</span></li>
+              <li class="var"><a class="nm" href="https://wa.me/84363589920?text=Hello%2C%20I%27d%20like%20to%20pre-order%20a%2010%20kg%20box%20of%20Canh%20mandarins.">10 kg box<small>Pre-order for the new season</small></a><span class="pr">500,000 VND</span></li>
+            </ul>
+            <div class="acts">
+              <a class="btn green" href="https://wa.me/84363589920">Pre-order via WhatsApp</a>
+              <a class="btn ghost" href="cam-duong-canh.html">See the orchard</a>
+            </div>
+          </div>
+        </article>
       </div>
     </div>
   </section>
 
-  <section class="reveal" id="about-video">
-    <div class="section-heading">
-      <span class="eyebrow">Company film · 90 seconds</span>
-      <h2>From field to bag</h2>
-      <p>Real footage of every step: growing, harvesting, grinding and filtering, drying, packing — kudzu root starch and Canh mandarins from The Hung Organic Cooperative.</p>
-    </div>
-    <div class="video-frame video-wide">
-      <video src="../assets/gioi-thieu-thoc-en.mp4" poster="../assets/gioi-thieu-thoc-poster.jpg" controls playsinline preload="none"></video>
-    </div>
-  </section>
-
-  <section class="reveal" id="process">
-    <div class="section-heading">
-      <span class="eyebrow">Process</span>
-      <h2>Six steps, done properly</h2>
-      <p>Every photo below was taken in our own fields and workshop.</p>
-    </div>
-    <div class="h-steps">
-      <div class="h-step"><img src="../assets/home/b1-trong.jpg" alt="Kudzu field beneath limestone peaks" loading="lazy" width="800" height="600"><div class="h-step-body"><h3>Grown among limestone hills</h3><p>Vines climb the trellis while the roots grow underground in Vu Lang commune.</p></div></div>
-      <div class="h-step"><img src="../assets/home/b2-thuhoach.jpg" alt="Excavator lifting a whole kudzu root out of the ground" loading="lazy" width="800" height="600"><div class="h-step-body"><h3>Whole roots dug up</h3><p>At harvest, roots are dug out whole and brought to the workshop the same day.</p></div></div>
-      <div class="h-step"><img src="../assets/home/b3-rua.jpg" alt="Washing kudzu roots with a water jet" loading="lazy" width="800" height="600"><div class="h-step-body"><h3>Washed and ground</h3><p>Washed clean of soil, then ground and pressed for the starch milk.</p></div></div>
-      <div class="h-step"><img src="../assets/home/b4-loc.jpg" alt="Stirring white kudzu starch in a settling tank" loading="lazy" width="800" height="600"><div class="h-step-body"><h3>Filtered &amp; settled, again and again</h3><p>Stirred, settled, rinsed and filtered until the starch is pure and white.</p></div></div>
-      <div class="h-step"><img src="../assets/home/b5-say.jpg" alt="Loading trays of starch into a multi-tier drying kiln" loading="lazy" width="800" height="600"><div class="h-step-body"><h3>Kiln-dried</h3><p>A preset temperature dries it evenly, whatever the weather.</p></div></div>
-      <div class="h-step"><img src="../assets/home/b6-donggoi.jpg" alt="Dried kudzu starch packed in bags" loading="lazy" width="800" height="600"><div class="h-step-body"><h3>Bagged straight from the kiln</h3><p>Packed as soon as it is dry, keeping its natural white color.</p></div></div>
-    </div>
-  </section>
-
-  <section class="reveal" id="fields">
-    <div class="section-heading">
-      <span class="eyebrow">Where it grows</span>
-      <h2>Kudzu fields among the limestone hills of Bac Son</h2>
-    </div>
-    <div class="h-gallery">
-      <figure class="big"><img src="../assets/home/vung-19.jpg" alt="Lush kudzu field under a limestone peak" loading="lazy"></figure>
-      <figure><img src="../assets/home/vung-24.jpg" alt="Limestone ridge behind the kudzu field" loading="lazy"></figure>
-      <figure><img src="../assets/home/vung-27.jpg" alt="Newly planted kudzu rows at the foot of the hills" loading="lazy"></figure>
-      <figure class="wide"><img src="../assets/home/vung-35.jpg" alt="Panorama of kudzu fields and limestone hills" loading="lazy"></figure>
-      <figure class="wide"><img src="../assets/home/vung-38.jpg" alt="Kudzu leaves covering the field" loading="lazy"></figure>
-      <figure class="wide"><img src="../assets/home/vung-21.jpg" alt="Kudzu field stretching to the hills" loading="lazy"></figure>
-    </div>
-    <p class="h-gallery-note">Real photos from Vu Lang commune, Lang Son province, Vietnam.</p>
-  </section>
-
-  <section class="reveal" id="faq">
-    <div class="section-heading">
-      <span class="eyebrow">FAQ</span>
-      <h2>Frequently asked questions</h2>
-    </div>
-    <div class="faq-list">
-      <details class="faq-item">
-        <summary>What's the difference in availability between the two products?</summary>
-        <p>Kudzu Root Starch is fully dried and shelf-stable, so it's available year-round. Canh Mandarin Oranges are fresh fruit, harvested only in season (roughly November to January, lunar calendar).</p>
-      </details>
-      <details class="faq-item">
-        <summary>Do you ship outside Vietnam?</summary>
-        <p>Retail orders ship nationwide within Vietnam. For international/export orders (Kudzu Root Starch only), contact us via WhatsApp or email to discuss shipping method, quantity, packaging and samples.</p>
-      </details>
-      <details class="faq-item">
-        <summary>What certifications do you have?</summary>
-        <p>Canh Mandarin Oranges are VietGAP certified (certificate No. 112/CN-TĐC-TT-20-0012, issued by NATEK JSC, valid until 22 Dec 2028). Documentation for Kudzu Root Starch will be published here once the cooperative completes its paperwork — we only list what we can show on paper.</p>
-      </details>
-      <details class="faq-item">
-        <summary>Can I order wholesale or in bulk?</summary>
-        <p>Yes — the cooperative supplies 5 kg and 10 kg wholesale packs and welcomes export inquiries for Kudzu Root Starch. Message us to discuss quantity, pricing and packaging.</p>
-      </details>
-    </div>
-  </section>
-
-  <section class="reveal" id="lien-he">
-    <div class="h-final" style="background-image:url('../assets/home/vung-38.jpg')">
-      <span class="eyebrow">Get in touch</span>
-      <h2>Bring a taste of the Bac Son hills to your kitchen</h2>
-      <p>Retail, wholesale or export — message us and the cooperative will get back to you with prices, packaging options and shipping.</p>
-      <div class="h-cta">
-        <a class="btn btn-gold" href="https://wa.me/84363589920">WhatsApp +84 363 589 920</a>
-        <a class="btn btn-outline" href="mailto:hello@nongsannhalam.com">hello@nongsannhalam.com</a>
-        <a class="btn btn-zalo" href="https://zalo.me/0979502000">Zalo +84 979 502 000</a>
+  <section class="why" aria-labelledby="t-why">
+    <div class="wrap">
+      <figure class="pic rise">
+        <img src="../assets/v2/sd-bot-1000.webp" srcset="../assets/v2/sd-bot-560.webp 560w, ../assets/v2/sd-bot-1000.webp 1000w" sizes="(max-width:1000px) 100vw, 45vw" alt="Blocks of white kudzu starch on a kiln tray" width="1000" height="1250" loading="lazy">
+        <figcaption>Kudzu starch on the cooperative's kiln trays</figcaption>
+      </figure>
+      <div>
+        <h2 id="t-why" class="rise">Why it is naturally white</h2>
+        <p class="intro rise">The white comes from filtering and settling many times, not from bleach.</p>
+        <ul class="checks">
+          <li class="rise"><span class="ic"><svg width="18" height="18"><use href="#ck"/></svg></span><b>Limestone-valley fields</b><span>Our own kudzu fields in Vu Lang, Bac Son.</span></li>
+          <li class="rise"><span class="ic"><svg width="18" height="18"><use href="#ck"/></svg></span><b>Filtered many times</b><span>Stirred, settled and rinsed until it runs clear.</span></li>
+          <li class="rise"><span class="ic"><svg width="18" height="18"><use href="#ck"/></svg></span><b>Temperature-controlled kiln</b><span>Even drying, no open-air sun drying.</span></li>
+          <li class="rise"><span class="ic"><svg width="18" height="18"><use href="#ck"/></svg></span><b>No bleaching</b><span>No chemicals, no additives.</span></li>
+          <li class="rise"><span class="ic"><svg width="18" height="18"><use href="#ck"/></svg></span><b>VietGAP mandarins</b><span>Certificate No. 112/CN-TĐC-TT-20-0012, valid until 22 Dec 2028.</span></li>
+          <li class="rise"><span class="ic"><svg width="18" height="18"><use href="#ck"/></svg></span><b>Samples on request</b><span>For wholesale and export partners.</span></li>
+        </ul>
       </div>
     </div>
   </section>
 
+  <section id="process" aria-labelledby="t-qt">
+    <div class="wrap">
+      <div class="head">
+        <h2 id="t-qt" class="rise">From field to bag</h2>
+        <p class="rise">Every photo was taken in our own fields and workshop.</p>
+      </div>
+      <ol class="steps">
+        <li class="rise"><div class="img"><img src="../assets/v2/p1-cu-800.webp" srcset="../assets/v2/p1-cu-480.webp 480w, ../assets/v2/p1-cu-800.webp 800w" sizes="(max-width:1000px) 50vw, 25vw" alt="Freshly dug kudzu root on a scale" width="800" height="1000" loading="lazy"></div><span class="n">Step 1</span><h3>Whole roots dug up</h3><p>Brought to the workshop the same day.</p></li>
+        <li class="rise"><div class="img"><img src="../assets/v2/p2-loc-800.webp" srcset="../assets/v2/p2-loc-480.webp 480w, ../assets/v2/p2-loc-800.webp 800w" sizes="(max-width:1000px) 50vw, 25vw" alt="Hand-filtering kudzu starch in a basin" width="800" height="1000" loading="lazy"></div><span class="n">Step 2</span><h3>Filtered &amp; settled</h3><p>Again and again until pure and white.</p></li>
+        <li class="rise"><div class="img"><img src="../assets/v2/p3-say-800.webp" srcset="../assets/v2/p3-say-480.webp 480w, ../assets/v2/p3-say-800.webp 800w" sizes="(max-width:1000px) 50vw, 25vw" alt="Loading trays into a multi-level drying kiln" width="800" height="1000" loading="lazy"></div><span class="n">Step 3</span><h3>Kiln-dried</h3><p>Evenly, whatever the weather.</p></li>
+        <li class="rise"><div class="img"><img src="../assets/v2/p4-tui-800.webp" srcset="../assets/v2/p4-tui-480.webp 480w, ../assets/v2/p4-tui-800.webp 800w" sizes="(max-width:1000px) 50vw, 25vw" alt="Freshly dried kudzu starch being bagged" width="800" height="1000" loading="lazy"></div><span class="n">Step 4</span><h3>Bagged from the kiln</h3><p>Keeping its natural white color.</p></li>
+      </ol>
+    </div>
+  </section>
+
+  <section class="revs" id="reviews" aria-labelledby="t-dg">
+    <div class="wrap">
+      <div class="head">
+        <div>
+          <h2 id="t-dg" class="rise">What customers say</h2>
+          <p class="rise" style="margin-top:10px">About our Canh mandarins. Translated from verified-purchase reviews on Shopee last season, names partly hidden.</p>
+        </div>
+        <div class="score rise" aria-label="Average rating 4.85 out of 5">
+          <span class="num">4.85</span>
+          <div>
+            <span class="stars" aria-hidden="true"><svg width="22" height="22"><use href="#st"/></svg><svg width="22" height="22"><use href="#st"/></svg><svg width="22" height="22"><use href="#st"/></svg><svg width="22" height="22"><use href="#st"/></svg><svg width="22" height="22"><use href="#st"/></svg></span>
+            <small>106 reviews, 97 five-star</small>
+          </div>
+        </div>
+      </div>
+      <div class="qs">
+        <figure class="q rise"><blockquote>“Really tasty, sweet, fresh and nicely selected, great price. Had I known the quality was this good, I'd have ordered twice as much.”</blockquote><figcaption>m*****2 · bought 10 kg · 13/02/2026</figcaption></figure>
+        <figure class="q rise"><blockquote>“Sweet, thin-skinned, juicy. Totally different from the oranges I buy elsewhere.”</blockquote><figcaption>h*****9 · bought 5 kg · 13/01/2026</figcaption></figure>
+        <figure class="q rise"><blockquote>“The oranges arrived still really fresh. Mildly sweet and easy to eat.”</blockquote><figcaption>k*****r · bought 5 kg · 21/01/2026</figcaption></figure>
+        <figure class="q rise"><blockquote>“Received after 2 days. Juicy and sweet, will order again once we finish them.”</blockquote><figcaption>h*****4 · bought 5 kg · 06/01/2026</figcaption></figure>
+        <figure class="q rise"><blockquote>“Packed in a fairly sturdy foam box; sweet, tasty oranges.”</blockquote><figcaption>t*****8 · bought 5 kg · 31/01/2026</figcaption></figure>
+        <figure class="q rise"><blockquote>“Very tasty and juicy, just the right sweetness, thin skin, fair price.”</blockquote><figcaption>r*****0 · bought 5 kg · 07/01/2026</figcaption></figure>
+      </div>
+      <div class="src rise">
+        <p>Source: Shopee shop “Cam Đường Canh TH”, 2025–2026 season.</p>
+        <a class="tlink" href="https://shopee.vn/shop/1700409288" target="_blank" rel="noopener">See all reviews on Shopee ↗</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="vid" id="about-video" aria-labelledby="t-vd">
+    <div class="wrap">
+      <div>
+        <h2 id="t-vd" class="rise">Watch the 90-second film</h2>
+        <p class="rise">Real footage of every step: growing, harvesting, grinding and filtering, drying, packing. Vietnamese narration with English subtitles.</p>
+        <a class="btn ghost rise" href="mailto:hello@nongsannhalam.com?subject=Kudzu%20root%20starch%20%E2%80%94%20quote%20request">Request a quote</a>
+      </div>
+      <div class="player rise">
+        <video src="../assets/gioi-thieu-thoc-en.mp4" poster="../assets/gioi-thieu-thoc-poster.jpg" playsinline preload="none"></video>
+        <button class="play" type="button" aria-label="Play the 90-second film"><span><svg width="30" height="30"><use href="#pl"/></svg></span></button>
+      </div>
+    </div>
+  </section>
+
+  <section class="land" aria-labelledby="t-vt">
+    <div class="big">
+      <img src="../assets/v2/vung-suong-2000.webp" srcset="../assets/v2/vung-suong-900.webp 900w, ../assets/v2/vung-suong-2000.webp 2000w" sizes="100vw" alt="Morning mist over the orchard below limestone hills in Bac Son" width="2000" height="1125" loading="lazy">
+      <div class="wrap"><h2 id="t-vt" class="rise">Vu Lang, Bac Son</h2><p class="rise">Kudzu fields and mandarin orchards among the limestone hills. Real photos from Vu Lang commune, Lang Son province.</p></div>
+    </div>
+    <div class="wrap gal">
+      <figure class="rise"><div class="img"><img src="../assets/v2/vung-nuong-800.webp" alt="Green kudzu field below limestone peaks" width="800" height="1000" loading="lazy"></div><figcaption>Kudzu field</figcaption></figure>
+      <figure class="rise"><div class="img"><img src="../assets/v2/vung-hoa-800.webp" alt="Purple kudzu flower" width="800" height="1000" loading="lazy"></div><figcaption>Kudzu flower</figcaption></figure>
+      <figure class="rise"><div class="img"><img src="../assets/v2/cam-cay-1000.webp" alt="Ripe mandarins on the tree" width="1000" height="1250" loading="lazy"></div><figcaption>Mandarins on the tree</figcaption></figure>
+      <figure class="rise"><div class="img"><img src="../assets/v2/cam-thung-800.webp" alt="Freshly picked mandarins leaving the orchard" width="800" height="1000" loading="lazy"></div><figcaption>Fresh from the orchard</figcaption></figure>
+    </div>
+  </section>
+
+  <section class="faq" id="faq" aria-labelledby="t-faq">
+    <div class="wrap">
+      <div class="side">
+        <h2 id="t-faq" class="rise">Frequently asked</h2>
+        <p class="rise">Can't find your question? Message us on WhatsApp.</p>
+        <a class="btn green rise" href="https://wa.me/84363589920">WhatsApp +84 363 589 920</a>
+      </div>
+      <div class="acc">
+        <details name="faq"><summary>What's the difference in availability between the two products?<span class="pm" aria-hidden="true"></span></summary><p>Kudzu Root Starch is fully dried and shelf-stable, so it's available year-round. Canh Mandarin Oranges are fresh fruit, harvested only in season (roughly November to January, lunar calendar).</p></details>
+        <details name="faq"><summary>Do you ship outside Vietnam?<span class="pm" aria-hidden="true"></span></summary><p>Retail orders ship nationwide within Vietnam. For international/export orders (Kudzu Root Starch only), contact us via WhatsApp or email to discuss shipping method, quantity, packaging and samples.</p></details>
+        <details name="faq"><summary>What certifications do you have?<span class="pm" aria-hidden="true"></span></summary><p>Canh Mandarin Oranges are VietGAP certified (certificate No. 112/CN-TĐC-TT-20-0012, issued by NATEK JSC, valid until 22 Dec 2028). Documentation for Kudzu Root Starch will be published here once the cooperative completes its paperwork. We only list what we can show on paper.</p></details>
+        <details name="faq"><summary>Can I order wholesale or in bulk?<span class="pm" aria-hidden="true"></span></summary><p>Yes. The cooperative supplies 5 kg and 10 kg wholesale packs and welcomes export inquiries for Kudzu Root Starch. Message us to discuss quantity, pricing and packaging.</p></details>
+      </div>
+    </div>
+  </section>
+
+  <section class="cta" id="contact" aria-labelledby="t-lh">
+    <div class="wrap">
+      <div class="box rise">
+        <div class="txt">
+          <h2 id="t-lh">Taste the Bac Son hills</h2>
+          <p>Retail, wholesale or export: message us and the cooperative will get back to you with prices, packaging options and shipping.</p>
+          <div class="row">
+            <a class="btn" href="https://wa.me/84363589920">WhatsApp +84 363 589 920</a>
+            <a class="btn light" href="mailto:hello@nongsannhalam.com">hello@nongsannhalam.com</a>
+            <a class="btn glass" href="https://zalo.me/0979502000">Zalo +84 979 502 000</a>
+          </div>
+        </div>
+        <div class="img"><img src="../assets/v2/cta-say-800.webp" alt="" width="800" height="1000" loading="lazy"></div>
+      </div>
+    </div>
+  </section>
 </main>
 
-<nav class="h-sticky" id="hSticky" aria-label="Quick contact">
-  <a href="mailto:hello@nongsannhalam.com">✉ Email</a>
-  <a class="zalo" href="https://zalo.me/0979502000">Zalo</a>
-  <a class="buy" href="https://wa.me/84363589920">WhatsApp</a>
-</nav>
-<script>
-(function(){
-  var bar=document.getElementById('hSticky'), hero=document.getElementById('top');
-  if(!bar||!hero||!('IntersectionObserver' in window)) return;
-  document.body.classList.add('has-sticky');
-  new IntersectionObserver(function(e){ bar.classList.toggle('show', !e[0].isIntersecting); },{threshold:0.15}).observe(hero);
-  var v=hero.querySelector('video');
-  if(v && navigator.connection && navigator.connection.saveData){ v.removeAttribute('autoplay'); v.pause(); }
-})();
-</script>
+<footer class="foot">
+  <div class="wrap">
+    <div class="top">
+      <div>
+        <p class="name">The Hung Organic</p>
+        <ul>
+          <li><a href="https://wa.me/84363589920">WhatsApp +84 363 589 920</a></li>
+          <li><a href="https://zalo.me/0979502000">Zalo +84 979 502 000</a></li>
+          <li><a href="mailto:hello@nongsannhalam.com">hello@nongsannhalam.com</a></li>
+        </ul>
+      </div>
+      <ul><li><b>Products</b></li><li><a href="san-day.html">Kudzu Root Starch</a></li><li><a href="cam-duong-canh.html">Canh Mandarins</a></li></ul>
+      <ul><li><b>Business</b></li><li><a href="san-day.html#export">Wholesale &amp; export</a></li><li><a href="mailto:hello@nongsannhalam.com?subject=Kudzu%20root%20starch%20%E2%80%94%20quote%20request">Request a quote</a></li></ul>
+      <ul><li><b>More</b></li><li><a href="index.html#faq">FAQ</a></li><li><a href="../index.html" lang="vi">Tiếng Việt</a></li></ul>
+    </div>
+    <div class="legal"><p>© The Hung Organic Cooperative (THOC), Lien Lac hamlet, Vu Lang commune, Lang Son, Vietnam</p><a href="#main">Back to top ↑</a></div>
+  </div>
+</footer>
 
-<footer>© The Hung Organic Cooperative (THOC) — Lang Son, Vietnam</footer>
+<div class="bar" id="bar" role="region" aria-label="Quick contact">
+  <span class="quick"><a href="mailto:hello@nongsannhalam.com">Email</a><a href="https://zalo.me/0979502000">Zalo</a><a class="btn" href="https://wa.me/84363589920">WhatsApp</a></span>
+</div>
 
-<script src="../assets/hero.js"></script>
+<script src="../assets/track.js"></script>
+<script src="../assets/shop.js"></script>
 </body>
 </html>
