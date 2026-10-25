@@ -17,6 +17,12 @@
   `nhan-thoc-{500g,1kg}` (bản thường, ẩn ô OCOP) — DÙNG THAY `nhan-say-day-500g/1kg.svg` (bản cũ chỉ còn làm
   nguồn nền kraft + QR cho script, không in nữa). Thẻ quà Tết, thiệp, ảnh bìa Shopee/Facebook/YouTube, ảnh
   đại diện trong `content/kenh_assets/` đã đổi. Còn chỗ đỏ: [SỐ TCB], logo OCOP, mã vạch.
+- **Ảnh đại diện mạng xã hội (2026-10-25)**: logo gốc bầu dục bị cắt 2 đầu khi kênh cắt tròn → dùng
+  `content/kenh_assets/logo-tron/` (3 bản 1080×1080, tạo bằng `scripts/tao_logo_tron.py`), KHÔNG tải logo bầu dục làm avatar.
+- **Bao bì mới (2026-10-25)**: bản in sạch ở `content/nhan_bao_bi/bao-bi-moi/` (túi 500g/1kg 2 mặt, bao 5kg/10kg), dựng
+  bằng `node scripts/tao_bao_bi.js` (hình cắt từ thiết kế gốc bằng `scripts/tao_bao_bi_anh.py`). Bản gốc của người thiết kế
+  (`thiet-ke-2026-10-25/`) sai dấu + có dấu ORGANIC → KHÔNG in bản gốc. Chữ Ắ của font Be Vietnam Pro rất cao: giữ khoảng
+  cách giữa 2 dòng tên, nếu không dấu sắc đè lên dòng trên. Túi 5kg/10kg đã lên web dạng "Nhắn báo giá" (chủ shop duyệt).
 - **Xuất PDF/ảnh bằng Chrome headless**: khi Chrome của người dùng đang mở, PHẢI thêm
   `--user-data-dir=<thư mục scratchpad riêng>`, và đường dẫn `--print-to-pdf`/`--screenshot` phải là đường dẫn
   ĐẦY ĐỦ (đường dẫn tương đối bị ghi sai chỗ, lệnh vẫn báo thành công) — gặp thật 2026-10-19.

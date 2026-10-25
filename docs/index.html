@@ -177,6 +177,8 @@ document.documentElement.classList.add('js');
             <ul class="vars" data-group="sd">
               <li class="var" data-id="sd05" data-price="80000"><a href="dat-truoc.html?chon=sd05" class="nm">Túi 0,5kg<small>Dùng thử, làm quà nhỏ</small></a><span class="pr">80.000đ</span><span class="step"><button type="button" data-d="-1" aria-label="Bớt 1 túi 0,5kg">−</button><output aria-live="polite">0</output><button type="button" data-d="1" aria-label="Thêm 1 túi 0,5kg">+</button></span></li>
               <li class="var" data-id="sd1" data-price="155000"><a href="dat-truoc.html?chon=sd1" class="nm">Túi 1kg<small>Gia đình dùng thường xuyên</small></a><span class="pr">155.000đ</span><span class="step"><button type="button" data-d="-1" aria-label="Bớt 1 túi 1kg">−</button><output aria-live="polite">0</output><button type="button" data-d="1" aria-label="Thêm 1 túi 1kg">+</button></span></li>
+              <li class="var" data-id="sd5" data-price=""><a href="dat-truoc.html?chon=sd5" class="nm">Túi 5kg<small>Quán chè, nhà hàng, mua chung</small></a><span class="pr" style="font-size:.86em">Nhắn báo giá</span><span class="step"><button type="button" data-d="-1" aria-label="Bớt 1 túi 5kg">−</button><output aria-live="polite">0</output><button type="button" data-d="1" aria-label="Thêm 1 túi 5kg">+</button></span></li>
+              <li class="var" data-id="sd10" data-price=""><a href="dat-truoc.html?chon=sd10" class="nm">Túi 10kg<small>Mua sỉ, đại lý</small></a><span class="pr" style="font-size:.86em">Nhắn báo giá</span><span class="step"><button type="button" data-d="-1" aria-label="Bớt 1 túi 10kg">−</button><output aria-live="polite">0</output><button type="button" data-d="1" aria-label="Thêm 1 túi 10kg">+</button></span></li>
             </ul>
             <div class="acts">
               <a class="btn green" href="dat-truoc.html?chon=sd1">Đặt túi 1kg</a>
@@ -415,10 +417,10 @@ document.documentElement.classList.add('js');
   var rows=[].slice.call(document.querySelectorAll('.var[data-id]')), qty={};
   function vnd(n){return n.toLocaleString('vi-VN')+'đ';}
   function render(){
-    var n=0,t=0,parts=[];
-    rows.forEach(function(r){var id=r.dataset.id,q=qty[id]||0;r.querySelector('output').textContent=q;r.classList.toggle('on',q>0);if(q){n+=q;t+=q*Number(r.dataset.price);parts.push(id+':'+q);}});
+    var n=0,t=0,ask=false,parts=[];
+    rows.forEach(function(r){var id=r.dataset.id,q=qty[id]||0;r.querySelector('output').textContent=q;r.classList.toggle('on',q>0);if(q){n+=q;if(r.dataset.price)t+=q*Number(r.dataset.price);else ask=true;parts.push(id+':'+q);}});
     bar.classList.toggle('has-items',n>0);
-    sum.innerHTML=n?(n+' món · <b>'+vnd(t)+'</b> <span style="opacity:.75">(chưa gồm ship)</span>'):'';
+    sum.innerHTML=n?(n+' món · <b>'+(t?vnd(t)+(ask?' + báo giá':''):'báo giá sau')+'</b> <span style="opacity:.75">(chưa gồm ship)</span>'):'';
     go.href='dat-truoc.html'+(parts.length?'?chon='+parts.join(','):'');
     update();
   }

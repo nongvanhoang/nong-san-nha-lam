@@ -79,6 +79,8 @@
           <ul class="items">
             <li class="item" data-id="sd05" data-name="Tinh Bột Sắn Dây — túi 0,5kg" data-price="80000"><img src="assets/v2/sd-tui-640.webp" alt="" width="64" height="64" loading="lazy"><span class="nm">Túi 0,5kg<small>Dùng thử, làm quà nhỏ</small><span class="pr">80.000đ</span></span><span class="step"><button type="button" data-d="-1" aria-label="Bớt túi 0,5kg">−</button><output>0</output><button type="button" data-d="1" aria-label="Thêm túi 0,5kg">+</button></span></li>
             <li class="item" data-id="sd1" data-name="Tinh Bột Sắn Dây — túi 1kg" data-price="155000"><img src="assets/v2/p4-tui-480.webp" alt="" width="64" height="64" loading="lazy"><span class="nm">Túi 1kg<small>Gia đình dùng thường xuyên</small><span class="pr">155.000đ</span></span><span class="step"><button type="button" data-d="-1" aria-label="Bớt túi 1kg">−</button><output>0</output><button type="button" data-d="1" aria-label="Thêm túi 1kg">+</button></span></li>
+            <li class="item" data-id="sd5" data-name="Tinh Bột Sắn Dây — túi 5kg" data-price=""><img src="assets/v2/sd-bot-560.webp" alt="" width="64" height="64" loading="lazy"><span class="nm">Túi 5kg<small>Quán chè, nhà hàng · giá báo khi nhà mình nhắn lại</small></span><span class="step"><button type="button" data-d="-1" aria-label="Bớt túi 5kg">−</button><output>0</output><button type="button" data-d="1" aria-label="Thêm túi 5kg">+</button></span></li>
+            <li class="item" data-id="sd10" data-name="Tinh Bột Sắn Dây — túi 10kg" data-price=""><img src="assets/v2/p3-say-480.webp" alt="" width="64" height="64" loading="lazy"><span class="nm">Túi 10kg<small>Mua sỉ, đại lý · giá báo khi nhà mình nhắn lại</small></span><span class="step"><button type="button" data-d="-1" aria-label="Bớt túi 10kg">−</button><output>0</output><button type="button" data-d="1" aria-label="Thêm túi 10kg">+</button></span></li>
           </ul>
           <p class="grp">Cam Đường Canh <small>· đặt trước mùa mới · VietGAP</small></p>
           <ul class="items">
@@ -231,7 +233,7 @@
       else { b.textContent = vnd(c.price * c.n); total += c.price * c.n; }
       li.appendChild(a); li.appendChild(b); lines.appendChild(li);
     });
-    document.getElementById("sumTotal").textContent = vnd(total) + (pending ? " + quà" : "");
+    document.getElementById("sumTotal").textContent = (total ? vnd(total) + (pending ? " + báo giá" : "") : "Báo giá sau");
   }
 
   function buildMessage(f){
@@ -241,7 +243,7 @@
       if (c.price === null){ pending = true; out.push("• " + c.n + " × " + c.name + " (báo giá sau)"); }
       else { total += c.price * c.n; out.push("• " + c.n + " × " + c.name + " = " + vnd(c.price * c.n)); }
     });
-    out.push("Tạm tính: " + vnd(total) + (pending ? " + hộp quà (báo giá sau)" : "") + ", chưa gồm ship");
+    out.push("Tạm tính: " + (total ? vnd(total) + (pending ? " + phần báo giá sau" : "") : "báo giá sau") + ", chưa gồm ship");
     out.push("");
     out.push("Tên: " + f.name);
     out.push("SĐT/Zalo: " + f.phone);

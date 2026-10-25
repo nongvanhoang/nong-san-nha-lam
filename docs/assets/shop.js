@@ -42,13 +42,14 @@
   var buyLabel = buyGo ? buyGo.textContent : '';
   function vnd(n){ return n.toLocaleString('vi-VN') + 'đ'; }
   function render(){
-    var n = 0, t = 0, parts = [];
-    rows.forEach(function(r){ var id = r.dataset.id, q = qty[id] || 0; r.querySelector('output').textContent = q; r.classList.toggle('on', q > 0); if (q){ n += q; t += q * Number(r.dataset.price); parts.push(id + ':' + q); } });
+    var n = 0, t = 0, ask = false, parts = [];
+    rows.forEach(function(r){ var id = r.dataset.id, q = qty[id] || 0; r.querySelector('output').textContent = q; r.classList.toggle('on', q > 0); if (q){ n += q; if (r.dataset.price) t += q * Number(r.dataset.price); else ask = true; parts.push(id + ':' + q); } });
     bar.classList.toggle('has-items', n > 0);
-    sum.innerHTML = n ? (n + ' món · <b>' + vnd(t) + '</b> <span style="opacity:.75">(chưa gồm ship)</span>') : '';
+    var money = t ? vnd(t) + (ask ? ' + báo giá' : '') : 'báo giá sau';
+    sum.innerHTML = n ? (n + ' món · <b>' + money + '</b> <span style="opacity:.75">(chưa gồm ship)</span>') : '';
     var href = 'dat-truoc.html' + (parts.length ? '?chon=' + parts.join(',') : (buyGo ? '?chon=' + buyGo.dataset.def : ''));
     go.href = href;
-    if (buyGo){ buyGo.href = href; buyGo.textContent = n ? ('Đặt ' + n + ' món · ' + vnd(t)) : buyLabel; }
+    if (buyGo){ buyGo.href = href; buyGo.textContent = n ? ('Đặt ' + n + ' món · ' + money) : buyLabel; }
     update();
   }
   rows.forEach(function(r){ r.querySelectorAll('button').forEach(function(b){ b.addEventListener('click', function(){
