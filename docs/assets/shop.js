@@ -1,6 +1,11 @@
 /* Dùng chung cho trang Sắn Dây / Cam: menu đổ bóng, hiện dần, ảnh xem lớn, nút phát video, giỏ hàng +/- sang phiếu đặt hàng. */
 (function(){
   var nav = document.getElementById('nav');
+  // video nền trang tiếng Anh: chỉ tải khi mạng nhanh và không bật giảm chuyển động
+  var hv = document.querySelector('.hero video'), hs = hv && hv.querySelector('source[data-src]');
+  if (hs){ var c = navigator.connection, slow = c && (c.saveData || /2g|3g/.test(c.effectiveType || '')), still = matchMedia('(prefers-reduced-motion: reduce)').matches;
+    if (innerWidth <= 700) hv.poster = hv.poster.replace('hero-1920', 'hero-mobile');
+    if (!slow && !still){ hs.src = hs.dataset.src; hv.load(); hv.play().catch(function(){}); } }
   function onScroll(){ if (nav) nav.classList.toggle('scrolled', scrollY > 8); }
   addEventListener('scroll', onScroll, { passive: true }); onScroll();
 

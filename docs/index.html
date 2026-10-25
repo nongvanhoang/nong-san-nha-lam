@@ -134,8 +134,8 @@ document.documentElement.classList.add('js');
 </nav>
 
 <header class="hero" id="top">
-  <video autoplay muted loop playsinline preload="metadata" poster="assets/home/hero-1920.jpg" aria-hidden="true">
-    <source src="assets/home/hero-loop.mp4" type="video/mp4">
+  <video muted loop playsinline preload="none" poster="assets/home/hero-1920.jpg" aria-hidden="true">
+    <source data-src="assets/home/hero-loop.mp4" type="video/mp4">
   </video>
   <div class="wrap">
     <div>
@@ -398,7 +398,10 @@ document.documentElement.classList.add('js');
   var v=hero.querySelector('video');
   if(v){
     if(innerWidth<=700) v.poster='assets/home/hero-mobile.jpg';
-    if(navigator.connection&&navigator.connection.saveData){v.removeAttribute('autoplay');v.pause();}
+    // chỉ tải video nền (2MB) khi mạng nhanh và người xem không bật giảm chuyển động; còn lại giữ ảnh tĩnh
+    var c=navigator.connection, slow=c&&(c.saveData||/2g|3g/.test(c.effectiveType||'')), still=matchMedia('(prefers-reduced-motion: reduce)').matches;
+    var src=v.querySelector('source[data-src]');
+    if(src&&!slow&&!still){src.src=src.dataset.src;v.load();v.play().catch(function(){});}
   }
 
   // thanh menu đổ bóng khi cuộn

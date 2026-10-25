@@ -179,6 +179,38 @@ BANNERS = {
   <div class="btn" style="margin-top:50px;padding:28px 48px;font-size:40px">Nhắn báo giá &amp; đặt trước</div>
   <div style="font-size:32px;color:#cfc4ac;margin-top:30px">nongsannhalam.com · Zalo 0979 502 000</div>
 </div>"""),
+ # 12) Ảnh chia sẻ link trang Sắn Dây
+ "og-san-day-1200x630": (1200, 630, """
+<div class="bg" style="background-image:url('%(ngang)s')"></div>
+<div class="shade" style="background:linear-gradient(90deg,rgba(10,8,6,.9) 0%%,rgba(10,8,6,.72) 50%%,rgba(10,8,6,.1) 100%%)"></div>
+<div style="position:absolute;left:70px;top:0;bottom:0;width:760px;display:flex;flex-direction:column;justify-content:center">
+  <img class="logo" src="%(logo)s" style="width:96px;height:96px">
+  <div style="font-size:22px;letter-spacing:.24em;text-transform:uppercase;margin-top:24px" class="gold">Từ nương núi đá Bắc Sơn</div>
+  <div class="serif" style="font-size:70px;line-height:1.05;margin:12px 0 16px">Tinh Bột Sắn Dây<br><span class="gold">trắng tự nhiên</span></div>
+  <div style="font-size:26px;color:#efe6d3">Lọc tay · Sấy lò · Không tẩy trắng</div>
+  <div style="margin-top:26px"><span class="pill" style="padding:12px 26px;font-size:26px">Túi 0,5kg <b class="gold">%(p05)s</b> · 1kg <b class="gold">%(p1)s</b></span></div>
+</div>"""),
+ # 13) Ảnh chia sẻ link trang Cam
+ "og-cam-1200x630": (1200, 630, """
+<div class="bg" style="background-image:url('%(camhero)s')"></div>
+<div class="shade" style="background:linear-gradient(90deg,rgba(10,8,6,.9) 0%%,rgba(10,8,6,.7) 50%%,rgba(10,8,6,.05) 100%%)"></div>
+<div style="position:absolute;left:70px;top:0;bottom:0;width:760px;display:flex;flex-direction:column;justify-content:center">
+  <img class="logo" src="%(logo)s" style="width:96px;height:96px">
+  <div style="font-size:22px;letter-spacing:.24em;text-transform:uppercase;margin-top:24px" class="gold">Vườn đạt VietGAP · Lạng Sơn</div>
+  <div class="serif" style="font-size:70px;line-height:1.05;margin:12px 0 16px">Cam Đường Canh<br><span class="gold">chín trên cây</span></div>
+  <div style="font-size:26px"><span class="star">★★★★★</span> %(rating)s/5 · %(reviews)s đánh giá Shopee</div>
+  <div style="margin-top:26px"><span class="pill" style="padding:12px 26px;font-size:26px">Thùng 5kg <b class="gold">%(c5)s</b> · 10kg <b class="gold">%(c10)s</b></span></div>
+</div>"""),
+ # 14) Ảnh chia sẻ link các bài cẩm nang
+ "og-cam-nang-1200x630": (1200, 630, """
+<div class="bg" style="background-image:url('%(doc)s');background-position:center 60%%"></div>
+<div class="shade" style="background:linear-gradient(90deg,rgba(10,8,6,.9) 0%%,rgba(10,8,6,.72) 55%%,rgba(10,8,6,.15) 100%%)"></div>
+<div style="position:absolute;left:70px;top:0;bottom:0;width:760px;display:flex;flex-direction:column;justify-content:center">
+  <img class="logo" src="%(logo)s" style="width:96px;height:96px">
+  <div style="font-size:22px;letter-spacing:.24em;text-transform:uppercase;margin-top:24px" class="gold">Cẩm nang nhà làm</div>
+  <div class="serif" style="font-size:70px;line-height:1.05;margin:12px 0 16px">Sắn dây &amp; cam<br><span class="gold">dùng sao cho ngon</span></div>
+  <div style="font-size:26px;color:#efe6d3">Cách pha, công thức chè, phân biệt thật giả</div>
+</div>"""),
 }
 
 def vnd(n):

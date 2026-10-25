@@ -80,6 +80,11 @@ việc nào chặn việc nào. Cập nhật lại file này (tick `[x]`) mỗi 
   đăng ngay khi có kênh.
 - [ ] **Đăng ký gian hàng Shopee/TikTok Shop thật** — cần xong quyết định chính sách đổi/trả (Nhóm 2)
   trước. 7/8 ảnh sản phẩm đã sẵn sàng (`HO_SO_MANG_XA_HOI.md` mục 3), chỉ thiếu ảnh chính (chờ nhãn).
+- [ ] **Tạo hồ sơ Google Maps cho Hợp tác xã** (2026-10-25) — chữ điền sẵn ở `content/HO_SO_GOOGLE.md` mục 1.
+- [ ] **Đăng ký Google Mua sắm (Merchant Center)** (2026-10-25) — các bước ở `content/HO_SO_GOOGLE.md` mục 2;
+  web đã có trang đổi trả + dữ liệu sản phẩm cho Google đọc. Đưa Sắn Dây lên trước, Cam để vào mùa.
+- [ ] **Gửi trang web mới cho Google** (2026-10-25) — vào Google Search Console → Sơ đồ trang web → gửi lại
+  `sitemap.xml` (giờ có 19 trang: thêm Về chúng tôi, Đổi trả, Quà Tết, Mua sỉ, Cẩm nang + 5 bài viết).
 
 ## Nhóm 4 — Thói quen cần bắt đầu (không phải việc 1 lần, mà là làm đều)
 

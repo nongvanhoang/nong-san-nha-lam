@@ -237,7 +237,7 @@ def figure(img, alt, w=1200, h=900):
 def art(f, body, buy):
     t = next(a for a in ARTICLES if a[0] == f)
     _, title, desc, img = t
-    html = head(f, title, desc, f"v2/{img}", schema=article_schema(f, title, desc, img)) + nav(f, "en/san-day.html")
+    html = head(f, title, desc, "home/og-cam-nang.jpg", schema=article_schema(f, title, desc, img)) + nav(f, "en/san-day.html")
     html += phead([("index.html", "Trang chủ"), ("cam-nang.html", "Cẩm nang"), ("", title.split("?")[0][:40])], title, desc)
     html += f'  <article class="article wrap">\n{body}\n{related(f)}\n  </article>\n' + buy + "\n</main>\n" + FOOT
     return html
@@ -414,7 +414,7 @@ def p_about():
       <li><strong>Email:</strong> <a href="mailto:hello@nongsannhalam.com">hello@nongsannhalam.com</a></li>
     </ul>
     <p>Đối tác mua sỉ, đại lý, quán chè: xem <a href="mua-si-san-day.html">trang mua sỉ</a>. Khách nước ngoài: <a href="en/about.html">English</a>.</p>"""
-    html = head(f, t, d, "v2/vung-hoa-800.webp", "website", org) + nav(f, "en/about.html")
+    html = head(f, t, d, "home/og-share.jpg", "website", org) + nav(f, "en/about.html")
     html += phead([("index.html", "Trang chủ"), ("", "Về chúng tôi")], t, "Trồng ở Vũ Lăng, chế biến ở Vũ Lăng, gửi đi từ Vũ Lăng.")
     html += f'  <article class="article wrap">{body}\n  </article>\n</main>\n' + FOOT
     return f, html
@@ -517,7 +517,7 @@ def p_tet():
     <h2>Hỏi nhanh</h2>
     {faq_html(TET_QA)}
   </article>"""
-    html = head(f, t, d, "v2/tet-thung-1000.webp", "website", faq_schema(TET_QA)) + nav(f)
+    html = head(f, t, d, "home/og-cam.jpg", "website", faq_schema(TET_QA)) + nav(f)
     html += phead([("index.html", "Trang chủ"), ("", "Quà Tết 2027")], "Quà Tết Đinh Mùi 2027", "Cam Đường Canh VietGAP và Tinh Bột Sắn Dây từ cùng một hợp tác xã ở Lạng Sơn.")
     html += body + buy_cam() + "\n</main>\n" + FOOT
     return f, html
@@ -555,7 +555,7 @@ def p_si():
     <h2>Hỏi nhanh</h2>
     {faq_html(SI_QA)}
   </article>"""
-    html = head(f, t, d, "v2/p3-say-800.webp", "website", faq_schema(SI_QA)) + nav(f, "en/san-day.html#export")
+    html = head(f, t, d, "home/og-san-day.jpg", "website", faq_schema(SI_QA)) + nav(f, "en/san-day.html#export")
     html += phead([("index.html", "Trang chủ"), ("san-day.html", "Sắn Dây"), ("", "Mua sỉ")], "Mua sỉ Tinh Bột Sắn Dây", "Túi 5kg, 10kg cho quán chè, nhà hàng, đại lý. Nhắn để nhận báo giá theo số lượng.")
     html += body + buy_sd("Đặt túi lớn hoặc túi thử", big=True) + "\n</main>\n" + FOOT
     return f, html
@@ -574,7 +574,7 @@ def p_camnang():
       <div class="cards" style="grid-template-columns:repeat(auto-fit,minmax(260px,1fr))">{cards}</div>
     </div>
   </section>"""
-    html = head(f, t, d, "v2/g-sd1-1200.webp", "website") + nav(f)
+    html = head(f, t, d, "home/og-cam-nang.jpg", "website") + nav(f)
     html += phead([("index.html", "Trang chủ"), ("", "Cẩm nang")], "Cẩm nang", "Mẹo dùng sắn dây, công thức món ngon và cách chọn cam, viết từ kinh nghiệm của nhà làm.")
     html += body + "\n</main>\n" + FOOT
     return f, html
@@ -584,7 +584,7 @@ def p_camnang():
 def p_about_en():
     src = (DOCS / "en" / "index.html").read_text(encoding="utf-8")
     # dùng lại đầu trang + chân trang của trang tiếng Anh hiện có để giữ đúng điều hướng EN
-    top = src[:src.index("<main")]
+    top = src[:src.index("</nav>") + len("</nav>")] + "\n\n"
     bot = src[src.index("</main>") + len("</main>"):]
     top = (top.replace("<title>", "<title>About us — ", 1) if "<title>" in top else top)
     import re
