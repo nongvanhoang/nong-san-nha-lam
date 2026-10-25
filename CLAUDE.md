@@ -23,6 +23,10 @@
   bằng `node scripts/tao_bao_bi.js` (hình cắt từ thiết kế gốc bằng `scripts/tao_bao_bi_anh.py`). Bản gốc của người thiết kế
   (`thiet-ke-2026-10-25/`) sai dấu + có dấu ORGANIC → KHÔNG in bản gốc. Chữ Ắ của font Be Vietnam Pro rất cao: giữ khoảng
   cách giữa 2 dòng tên, nếu không dấu sắc đè lên dòng trên. Túi 5kg/10kg đã lên web dạng "Nhắn báo giá" (chủ shop duyệt).
+- **Trang nội dung (2026-10-25)**: 11 trang (ve-chung-toi, giao-hang-doi-tra, qua-tet-2027, mua-si-san-day,
+  cam-nang, 5 bài cẩm nang, en/about) dựng bằng `scripts/tao_trang_noi_dung.py` — sửa chữ ở script rồi chạy lại,
+  KHÔNG sửa tay HTML các trang này. Ảnh chia sẻ link: `docs/assets/home/og-*.jpg` từ `make_banners.py` (og-*).
+  Video nền trang chủ chỉ tải khi mạng nhanh (source data-src). Hồ sơ Google Maps/Merchant: `content/HO_SO_GOOGLE.md`.
 - **Xuất PDF/ảnh bằng Chrome headless**: khi Chrome của người dùng đang mở, PHẢI thêm
   `--user-data-dir=<thư mục scratchpad riêng>`, và đường dẫn `--print-to-pdf`/`--screenshot` phải là đường dẫn
   ĐẦY ĐỦ (đường dẫn tương đối bị ghi sai chỗ, lệnh vẫn báo thành công) — gặp thật 2026-10-19.
