@@ -128,7 +128,7 @@ BANNERS = {
 </div>"""),
  # 8) Shopee — banner vòng xoay 1: Tinh Bột Sắn Dây
  "shopee-vong-xoay-1-2000x1000": (2000, 1000, """
-<div class="bg" style="background-image:url('%(sdhero)s')"></div>
+<div class="bg" style="background-image:url('%(ngang)s')"></div>
 <div class="shade" style="background:linear-gradient(90deg,rgba(10,8,6,.9) 0%%,rgba(10,8,6,.75) 45%%,rgba(10,8,6,.1) 85%%)"></div>
 <div style="position:absolute;left:110px;top:0;bottom:0;width:1050px;display:flex;flex-direction:column;justify-content:center">
   <img class="logo" src="%(logo)s" style="width:140px;height:140px">
@@ -152,7 +152,7 @@ BANNERS = {
 </div>"""),
  # 10) Bài đăng dọc 4:5 (Instagram / Facebook) — Sắn dây
  "bai-doc-san-day-1080x1350": (1080, 1350, """
-<div class="bg" style="background-image:url('%(sdhero)s')"></div>
+<div class="bg" style="background-image:url('%(doc)s')"></div>
 <div class="shade" style="background:linear-gradient(180deg,rgba(10,8,6,.45) 0%%,rgba(10,8,6,.1) 28%%,rgba(10,8,6,.85) 58%%,rgba(10,8,6,.97) 100%%)"></div>
 <img class="logo" src="%(logo)s" style="position:absolute;left:64px;top:60px;width:124px;height:124px">
 <div style="position:absolute;left:68px;right:68px;bottom:72px">
@@ -188,7 +188,7 @@ def main():
     prods = json.load(open(ROOT / "data" / "products.json", encoding="utf-8"))["products"]
     price = {v["package"]: v["price_vnd"] for p in prods for v in p["variants"]}
     logo = (ROOT / "content" / "kenh_assets" / "logo-tron" / "logo-tron-bieu-tuong-1080.png").resolve().as_uri()  # logo vừa khung tròn
-    vals = dict(logo=logo, suong=u("v2/vung-suong-2000.webp"), sdhero=u("sp/sd-hero.jpg"), camhero=u("sp/cam-hero.jpg"), vung=u("home/vung-19.jpg"), nuong=u("home/hero-1920.jpg"),
+    vals = dict(logo=logo, suong=u("v2/vung-suong-2000.webp"), sdhero=u("sp/sd-hero.jpg"), camhero=u("sp/cam-hero.jpg"), ngang=(HERE / "anh" / "nuong-nui-da-ngang.jpg").as_uri(), doc=(HERE / "anh" / "nuong-nui-da-doc.jpg").as_uri(), vung=u("home/vung-19.jpg"), nuong=u("home/hero-1920.jpg"),
                 bot=u("home/sp-san-day.jpg"), cam=u("sp/cam-story.jpg"), rating=RATING, reviews=REVIEWS,
                 p05=vnd(price["túi 0.5kg"]), p1=vnd(price["túi 1kg"]),
                 c5=vnd(price["thùng 5kg"]), c10=vnd(price["thùng 10kg"]))
