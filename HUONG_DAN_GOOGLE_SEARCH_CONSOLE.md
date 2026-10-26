@@ -1,31 +1,36 @@
-# Hướng Dẫn Gắn Google Search Console Cho Web Mới (thehungorganic.com)
+# Báo Google: web đã chuyển từ nongsannhalam.com sang thehungorganic.com
 
-_Thêm 2026-08-11, ngay sau khi đổi sang domain riêng (10/08) — cần khai báo lại với Google càng
-sớm càng tốt để không mất công Google phải "tìm lại" web, và để nhà mình xem được có bao nhiêu
-người tìm thấy web qua Google._
+_Cập nhật 2026-10-26, ngay sau khi chuyển tên miền. Làm sớm để Google chuyển thứ hạng cũ sang tên miền mới,
+không phải "tìm lại từ đầu". Khoảng 15 phút. Phải đăng nhập Gmail nhà mình nên Claude không làm thay được._
 
-## Việc bạn tự làm (cần đăng nhập Gmail của nhà mình, tôi không đăng nhập thay được)
+Đăng nhập **đúng Gmail đã dùng cho Search Console của nongsannhalam.com** (Gmail đó đang giữ mã xác minh).
 
-1. Vào trang **search.google.com/search-console**, đăng nhập bằng Gmail của nhà mình.
-2. Bấm **"Thêm property"** (Add property) → chọn loại **"URL prefix"** (không chọn loại "Domain")
-   → nhập đúng: `https://thehungorganic.com/`
-3. Google sẽ hỏi cách xác minh quyền sở hữu — chọn 1 trong 2 cách dễ nhất dưới đây, rồi **dừng lại,
-   gửi cho tôi** thứ Google đưa ra (đừng bấm "Xác minh" vội, vì web chưa có mã đó):
-   - **Cách A — Thẻ HTML (khuyên dùng)**: Google đưa 1 dòng mã dạng
-     `<meta name="google-site-verification" content="xxxxxxxx" />` — copy nguyên dòng đó gửi cho tôi.
-   - **Cách B — Tệp HTML**: Google cho tải về 1 file tên dạng `google1234567890.html` — gửi file đó
-     (hoặc mở ra copy nguyên nội dung bên trong) cho tôi.
-4. Sau khi tôi báo đã đưa mã lên web thật (xem mục dưới), quay lại Search Console bấm **"Xác minh"**.
-5. Xác minh xong, vào mục **"Sơ đồ trang web"** (Sitemaps) ở cột trái, ô nhập gõ đúng: `sitemap.xml`
-   rồi bấm **Gửi** (Google tự ghép thành `https://thehungorganic.com/sitemap.xml`).
+## Bước 1: Thêm tên miền mới (khoảng 2 phút)
 
-## Việc tôi làm (khi bạn gửi mã ở Bước 3)
+1. Vào **search.google.com/search-console**.
+2. Bấm vào tên web ở góc trái trên, chọn **"+ Thêm tài sản"** (Add property).
+3. Chọn ô bên phải **"Tiền tố URL"** (URL prefix), gõ đúng:
+   `https://thehungorganic.com/`
+   rồi bấm **Tiếp tục**.
+4. Google thường **tự xác minh luôn**, vì web mới vẫn giữ nguyên mã xác minh cũ trong trang chủ.
+   Nếu Google hỏi cách xác minh, chọn **"Thẻ HTML"** và bấm **Xác minh**. Không cần dán gì thêm, mã đã có sẵn trên web.
+   Nếu báo lỗi, chụp màn hình gửi Claude.
 
-- Dán mã xác minh vào đúng vị trí trong web (`docs/index.html` nếu là thẻ HTML, hoặc thêm file vào
-  `docs/` nếu là tệp HTML), đẩy lên GitHub — web thật cập nhật sau vài phút, lúc đó nhắn lại để bạn
-  bấm "Xác minh" ở Bước 4.
+## Bước 2: Nộp sơ đồ trang (khoảng 1 phút)
+
+Vẫn ở tài sản **thehungorganic.com**: cột trái bấm **"Sơ đồ trang web"** (Sitemaps), ô nhập gõ `sitemap.xml`, bấm **Gửi**.
+
+## Bước 3: Báo chuyển địa chỉ (khoảng 3 phút)
+
+1. Bấm tên web ở góc trái trên, chọn tài sản cũ **nongsannhalam.com**.
+2. Cột trái, dưới cùng bấm **Cài đặt** (Settings), rồi **"Thay đổi địa chỉ"** (Change of address).
+3. Chọn trang web mới **thehungorganic.com**, bấm **Xác thực và cập nhật** (Validate & update).
+4. Google sẽ tự kiểm tra việc chuyển hướng 301 (đã cài trên Cloudflare). Thấy dấu tích xanh thì bấm **Xác nhận chuyển**.
+   Nếu báo lỗi, chụp màn hình gửi Claude.
 
 ## Sau khi xong
 
-Vài ngày sau có thể vào lại Search Console xem mục "Hiệu suất" (Performance) để biết có bao nhiêu
-lượt tìm thấy web qua Google, từ khoá nào khách hay gõ — hữu ích để biết nên viết thêm nội dung gì.
+- Giữ nguyên quy tắc chuyển hướng trên Cloudflare và **gia hạn nongsannhalam.com ít nhất 1 năm nữa**.
+  Google cần khoảng 180 ngày để chuyển hẳn sang tên miền mới.
+- Trong vài tuần đầu, lượt hiển thị có thể chững lại một chút rồi chuyển dần sang tên miền mới. Điều này bình thường.
+- Khoảng 2 tuần sau, vào tài sản mới, mục **"Hiệu suất"** (Performance), xem khách tìm từ khoá gì để viết thêm nội dung.
