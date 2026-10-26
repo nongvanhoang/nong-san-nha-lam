@@ -1,4 +1,4 @@
-"""Dựng các trang nội dung của nongsannhalam.com theo cùng một khung (đầu trang, chân trang, thanh đặt hàng).
+"""Dựng các trang nội dung của thehungorganic.com theo cùng một khung (đầu trang, chân trang, thanh đặt hàng).
 
 Chạy: C:/Users/Admin/AppData/Local/Python/bin/python.exe scripts/tao_trang_noi_dung.py
 Ghi đè các file trong docs/ có tên trong PAGES. Muốn sửa chữ một trang: sửa ở đây rồi chạy lại,
@@ -13,7 +13,7 @@ from pathlib import Path
 sys.stdout.reconfigure(encoding="utf-8")
 ROOT = Path(__file__).resolve().parent.parent
 DOCS = ROOT / "docs"
-SITE = "https://nongsannhalam.com/"
+SITE = "https://thehungorganic.com/"
 
 prods = json.load(open(ROOT / "data" / "products.json", encoding="utf-8"))["products"]
 PRICE = {v["package"]: v["price_vnd"] for p in prods for v in p["variants"]}
@@ -588,7 +588,7 @@ def p_about_en():
     bot = src[src.index("</main>") + len("</main>"):]
     top = (top.replace("<title>", "<title>About us — ", 1) if "<title>" in top else top)
     import re
-    top = re.sub(r'<link rel="canonical" href="[^"]*">', '<link rel="canonical" href="https://nongsannhalam.com/en/about.html">', top)
+    top = re.sub(r'<link rel="canonical" href="[^"]*">', '<link rel="canonical" href="https://thehungorganic.com/en/about.html">', top)
     top = re.sub(r'<meta name="description" content="[^"]*">', '<meta name="description" content="The Hung Organic Cooperative (THOC) in Vu Lang, Lang Son, Vietnam: hand-filtered, oven-dried kudzu root starch and VietGAP-certified Canh mandarins.">', top)
     top = re.sub(r'<title>[^<]*</title>', '<title>About The Hung Organic Cooperative (THOC)</title>', top)
     body = """<main id="main" tabindex="-1">

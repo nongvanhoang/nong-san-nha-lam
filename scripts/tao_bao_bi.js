@@ -64,7 +64,7 @@ function front({ weight, sack }) {
     <b>Chịu trách nhiệm:</b> Hợp tác xã Thế Hưng Organic · Thôn Liên Lạc, xã Vũ Lăng, tỉnh Lạng Sơn<br>
     <b>Sản xuất tại:</b> Thôn Nam Hương, xã Vũ Lăng, tỉnh Lạng Sơn · <b>Xuất xứ:</b> Việt Nam · <b>Thành phần:</b> 100% tinh bột sắn dây<br>
     <b>Bảo quản:</b> nơi khô ráo, thoáng mát, tránh ánh nắng · <b>Số tự công bố:</b> ${SO_TCB || '<span class="ph" style="border-color:#ffb3a8;color:#ffd0c8">[SỐ TCB]</span>'}<br>
-    <b>NSX · HSD · Số lô:</b> xem dấu in trên bao · Zalo 0979 502 000 · nongsannhalam.com
+    <b>NSX · HSD · Số lô:</b> xem dấu in trên bao · Zalo 0979 502 000 · thehungorganic.com
   </div>` : '';
   return `<div class="page" style="--bg:${bg}">
   ${sack ? '' : `<img class="abs" src="${IMG('la-goc-trai')}" style="left:-2cqw;top:-2cqw;width:27cqw">`}
@@ -158,7 +158,7 @@ function back({ weight }) {
       <b>Chịu trách nhiệm:</b> Hợp tác xã Thế Hưng Organic<br>
       Địa chỉ: Thôn Liên Lạc, xã Vũ Lăng, tỉnh Lạng Sơn<br>
       Sản xuất tại: Thôn Nam Hương, xã Vũ Lăng, tỉnh Lạng Sơn<br>
-      Số tự công bố: ${SO_TCB || '<span class="ph">[SỐ TCB]</span>'} · Zalo 0979 502 000 · nongsannhalam.com
+      Số tự công bố: ${SO_TCB || '<span class="ph">[SỐ TCB]</span>'} · Zalo 0979 502 000 · thehungorganic.com
       <div style="margin-top:1cqw;border:.25cqw solid #8a7c55;border-radius:1cqw;padding:.6cqw 1.2cqw;font-weight:700;display:flex;gap:4cqw">
         <span>NSX:</span><span>HSD:</span><span>Số lô:</span>
       </div>

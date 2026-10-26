@@ -49,7 +49,7 @@ BANNERS = {
     <div style="font-size:24px;letter-spacing:.28em;text-transform:uppercase" class="gold">Hợp tác xã · Vũ Lăng, Lạng Sơn</div>
     <div class="serif" style="font-size:86px;line-height:1.05;margin:10px 0 14px">Thế Hưng Organic</div>
     <div style="font-size:31px;color:#efe6d3">Tinh Bột Sắn Dây · Cam Đường Canh VietGAP</div>
-    <div style="font-size:27px;margin-top:22px;color:#efe6d3"><span class="star">★★★★★</span> %(rating)s/5 · %(reviews)s đánh giá Shopee &nbsp;|&nbsp; nongsannhalam.com</div>
+    <div style="font-size:27px;margin-top:22px;color:#efe6d3"><span class="star">★★★★★</span> %(rating)s/5 · %(reviews)s đánh giá Shopee &nbsp;|&nbsp; thehungorganic.com</div>
   </div>
 </div>"""),
  # 2) Banner gian hàng Shopee
@@ -75,7 +75,7 @@ BANNERS = {
   <div style="font-size:31px;color:#efe6d3">Không tẩy trắng · Không phụ gia · Sấy lò</div>
   <div style="display:flex;align-items:center;justify-content:space-between;margin-top:34px">
     <div class="pill" style="padding:14px 28px;font-size:32px">Chỉ từ <b class="gold">%(p05)s</b></div>
-    <div class="btn" style="padding:20px 34px;font-size:30px">Đặt: nongsannhalam.com</div>
+    <div class="btn" style="padding:20px 34px;font-size:30px">Đặt: thehungorganic.com</div>
   </div>
 </div>"""),
  # 4) Story / Reels dọc — Cam đặt trước
@@ -92,7 +92,7 @@ BANNERS = {
   <div style="font-size:38px"><span class="star">★★★★★</span> %(rating)s/5 · %(reviews)s đánh giá Shopee</div>
   <div class="pill" style="margin-top:40px;padding:18px 34px;font-size:36px">Thùng 5kg <b class="gold">%(c5)s</b> · 10kg <b class="gold">%(c10)s</b></div>
   <div class="btn" style="margin-top:44px;padding:28px 48px;font-size:40px">Đặt trước — chưa cần thanh toán</div>
-  <div style="font-size:32px;color:#cfc4ac;margin-top:30px">nongsannhalam.com · Zalo 0979 502 000</div>
+  <div style="font-size:32px;color:#cfc4ac;margin-top:30px">thehungorganic.com · Zalo 0979 502 000</div>
 </div>"""),
  # 5) Ảnh hiện khi chia sẻ link website (Facebook/Zalo/Messenger)
  "og-share-1200x630": (1200, 630, """
@@ -124,7 +124,7 @@ BANNERS = {
   <img class="logo" src="%(logo)s" style="width:150px;height:150px">
   <div class="serif" style="font-size:72px;line-height:1.05;margin:20px 0 12px">Thế Hưng Organic</div>
   <div style="font-size:28px;color:#efe6d3">Tinh Bột Sắn Dây · Cam Đường Canh VietGAP</div>
-  <div style="font-size:24px;margin-top:16px" class="gold">Zalo 0979 502 000 · nongsannhalam.com</div>
+  <div style="font-size:24px;margin-top:16px" class="gold">Zalo 0979 502 000 · thehungorganic.com</div>
 </div>"""),
  # 8) Shopee — banner vòng xoay 1: Tinh Bột Sắn Dây
  "shopee-vong-xoay-1-2000x1000": (2000, 1000, """
@@ -161,7 +161,7 @@ BANNERS = {
   <div style="font-size:32px;color:#efe6d3;line-height:1.45">Củ đào trên nương núi đá, lọc tay nhiều lượt,<br>sấy lò. Không tẩy trắng, không phụ gia.</div>
   <div style="display:flex;align-items:center;justify-content:space-between;margin-top:40px">
     <div class="pill" style="padding:14px 28px;font-size:32px">Chỉ từ <b class="gold">%(p05)s</b></div>
-    <div class="btn" style="padding:20px 34px;font-size:30px">nongsannhalam.com</div>
+    <div class="btn" style="padding:20px 34px;font-size:30px">thehungorganic.com</div>
   </div>
 </div>"""),
  # 11) Story dọc — Quà Tết (giá gói quà chưa chốt -> nhắn báo giá)
@@ -177,7 +177,7 @@ BANNERS = {
   <div class="serif" style="font-size:104px;line-height:1.05;margin:18px 0 30px">Quà Tết<br><span class="gold">từ vườn nhà</span></div>
   <div style="font-size:36px;color:#efe6d3;line-height:1.5">Cam Đường Canh VietGAP + Tinh Bột Sắn Dây<br>Gói nhỏ · Gói lớn · Quà biếu công ty</div>
   <div class="btn" style="margin-top:50px;padding:28px 48px;font-size:40px">Nhắn báo giá &amp; đặt trước</div>
-  <div style="font-size:32px;color:#cfc4ac;margin-top:30px">nongsannhalam.com · Zalo 0979 502 000</div>
+  <div style="font-size:32px;color:#cfc4ac;margin-top:30px">thehungorganic.com · Zalo 0979 502 000</div>
 </div>"""),
  # 12) Ảnh chia sẻ link trang Sắn Dây
  "og-san-day-1200x630": (1200, 630, """
