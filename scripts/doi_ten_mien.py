@@ -24,7 +24,12 @@ FILES += [ROOT / "docs" / "CNAME", ROOT / "scripts" / "tao_trang_noi_dung.py", R
 
 
 def main():
+    global PAT
     do_it = "--lam-that" in sys.argv
+    # --email: chỉ đổi hello@nongsannhalam.com -> hello@thehungorganic.com (chạy khi hộp thư mới đã nhận thư thật)
+    if "--email" in sys.argv:
+        PAT = re.compile(r"(?<=@)" + re.escape(OLD))
+        FILES.extend(p for p in ROOT.rglob("*.md") if "node_modules" not in p.parts)
     total = 0
     for p in FILES:
         if not p.exists():
