@@ -46,7 +46,7 @@ Vào **Cài đặt trang → Thông tin trang** để điền các mục dưới
 - **Thông tin liên hệ** (ô Contact Info):
   - Điện thoại/Zalo: `0979 502 000`
   - Email: `hello@nongsannhalam.com`
-  - Website: `https://nongsannhalam.com`
+  - Website: `https://thehungorganic.com`
 - **Địa chỉ**: **[CẦN BẠN QUYẾT ĐỊNH]** — không khuyến khích ghim địa chỉ nhà thật (Thôn Nam Hương,
   xã Vũ Lăng, Lạng Sơn) công khai lên Facebook vì đây là nhà ở kiêm xưởng sản xuất, dễ bị khách lạ
   ghé thẳng ngoài ý muốn. Gợi ý ghi khu vực chung thay vì địa chỉ chính xác: `"Vũ Lăng, Lạng Sơn — nhận đặt hàng qua Zalo/Facebook, giao toàn quốc"`. Nếu bạn không ngại công khai, cứ dùng địa chỉ thật.
@@ -201,7 +201,7 @@ sẵn nhiều video thật chờ đăng (quy trình sấy, thu hoạch, đào c�
    ```
 6. **Link ngoài trong bio**: TikTok thường chỉ mở tính năng gắn link (website) sau khi chuyển sang
    tài khoản Doanh nghiệp và/hoặc đạt một mốc follower nhất định (chính sách hay đổi, kiểm tra lúc
-   đăng ký). Khi bật được, dùng `https://nongsannhalam.com`.
+   đăng ký). Khi bật được, dùng `https://thehungorganic.com`.
 7. **Chuyển sang tài khoản Doanh nghiệp** (Cài đặt → Quản lý tài khoản → Chuyển đổi tài khoản →
    Doanh nghiệp): mở khoá thống kê (analytics), nút liên hệ nhanh (gọi/nhắn/email), chọn danh mục
    "Thực phẩm & Đồ uống". Bước này KHÔNG cần giấy phép hộ kinh doanh (khác với Zalo OA doanh nghiệp
@@ -231,7 +231,7 @@ hoá phần hồ sơ (bio/avatar/link) — mục này bổ sung phần đó.
   Video thật 100%, không dàn dựng
   Đặt hàng ⬇️
   ```
-- **Link trong bio**: `https://nongsannhalam.com`
+- **Link trong bio**: `https://thehungorganic.com`
 - **Nút liên hệ** (nếu đã là tài khoản chuyên nghiệp): gắn số Zalo/điện thoại `0979 502 000` và
   email `hello@nongsannhalam.com`.
 
@@ -250,7 +250,7 @@ lại từ mục đăng ký thư mục xuất khẩu):
 - **Ngành** (Industry): "Farming" hoặc "Food & Beverages"
 - **Quy mô công ty**: "1-10 employees" (đúng thực tế cơ sở hộ gia đình)
 - **Logo**: `icon-512.png`
-- **Website**: `https://nongsannhalam.com/en/` (bản tiếng Anh, đúng đối tượng LinkedIn)
+- **Website**: `https://thehungorganic.com/en/` (bản tiếng Anh, đúng đối tượng LinkedIn)
 - **Tagline** (giới hạn 120 ký tự):
   ```
   Handmade Kudzu Root Starch & VietGAP-certified Canh Mandarin Oranges from Lạng Sơn, Vietnam
@@ -266,7 +266,7 @@ lại từ mục đăng ký thư mục xuất khẩu):
   and sea freight. Our production is currently at household scale and does not yet hold formal food
   safety certification, which we disclose openly to partners.
 
-  Website: https://nongsannhalam.com/en/
+  Website: https://thehungorganic.com/en/
   Zalo: +84 979 502 000
   Email: hello@nongsannhalam.com
   ```
@@ -300,7 +300,7 @@ soạn trước trong `content/posts_ready.md` dạng "YouTube Shorts", chỉ ch
    Video thật 100%, quay tại vườn/xưởng nhà, không dàn dựng. Đặt hàng nhắn Zalo 0979 502 000, giao
    toàn quốc.
 
-   Website: https://nongsannhalam.com
+   Website: https://thehungorganic.com
    ```
 7. **3 video đầu tiên nên đăng ngay** (đã có sẵn tiêu đề/mô tả trong `content/posts_ready.md`, chỉ
    copy-paste): "Hành trình đầy đủ, từ gốc củ đến túi tinh bột", "Bên trong lò sấy, từ bột ướt đến
@@ -328,7 +328,7 @@ Google Search khi gõ "nông sản Lạng Sơn" và cho phép khách để lại
   VietGAP, chín tự nhiên trên cây, thu hoạch theo mùa. Nhận đặt hàng qua Zalo/Facebook, giao toàn
   quốc, nhận đặt sỉ và trao đổi xuất khẩu cho Tinh Bột Sắn Dây.
   ```
-- **Website**: `https://nongsannhalam.com`
+- **Website**: `https://thehungorganic.com`
 - **Điện thoại**: `0979 502 000`
 
 ---

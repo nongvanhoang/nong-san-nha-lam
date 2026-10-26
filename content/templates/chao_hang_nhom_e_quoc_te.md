@@ -47,7 +47,7 @@ kiện mẫu nhỏ**, không phải chào bán sỉ chính thức — vì cơ s�
 > Best regards,
 > [tên bạn]
 > The Hung Organic, Lạng Sơn, Vietnam
-> hello@nongsannhalam.com | https://nongsannhalam.com/en/
+> hello@nongsannhalam.com | https://thehungorganic.com/en/
 
 ## Trước khi gửi kiện mẫu (áp dụng cả 2 bản)
 

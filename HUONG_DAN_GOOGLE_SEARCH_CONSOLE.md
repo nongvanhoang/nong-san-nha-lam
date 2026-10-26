@@ -1,4 +1,4 @@
-# Hướng Dẫn Gắn Google Search Console Cho Web Mới (nongsannhalam.com)
+# Hướng Dẫn Gắn Google Search Console Cho Web Mới (thehungorganic.com)
 
 _Thêm 2026-08-11, ngay sau khi đổi sang domain riêng (10/08) — cần khai báo lại với Google càng
 sớm càng tốt để không mất công Google phải "tìm lại" web, và để nhà mình xem được có bao nhiêu
@@ -8,7 +8,7 @@ người tìm thấy web qua Google._
 
 1. Vào trang **search.google.com/search-console**, đăng nhập bằng Gmail của nhà mình.
 2. Bấm **"Thêm property"** (Add property) → chọn loại **"URL prefix"** (không chọn loại "Domain")
-   → nhập đúng: `https://nongsannhalam.com/`
+   → nhập đúng: `https://thehungorganic.com/`
 3. Google sẽ hỏi cách xác minh quyền sở hữu — chọn 1 trong 2 cách dễ nhất dưới đây, rồi **dừng lại,
    gửi cho tôi** thứ Google đưa ra (đừng bấm "Xác minh" vội, vì web chưa có mã đó):
    - **Cách A — Thẻ HTML (khuyên dùng)**: Google đưa 1 dòng mã dạng
@@ -17,7 +17,7 @@ người tìm thấy web qua Google._
      (hoặc mở ra copy nguyên nội dung bên trong) cho tôi.
 4. Sau khi tôi báo đã đưa mã lên web thật (xem mục dưới), quay lại Search Console bấm **"Xác minh"**.
 5. Xác minh xong, vào mục **"Sơ đồ trang web"** (Sitemaps) ở cột trái, ô nhập gõ đúng: `sitemap.xml`
-   rồi bấm **Gửi** (Google tự ghép thành `https://nongsannhalam.com/sitemap.xml`).
+   rồi bấm **Gửi** (Google tự ghép thành `https://thehungorganic.com/sitemap.xml`).
 
 ## Việc tôi làm (khi bạn gửi mã ở Bước 3)
 

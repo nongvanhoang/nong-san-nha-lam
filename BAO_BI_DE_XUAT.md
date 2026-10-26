@@ -49,7 +49,7 @@ thiếu nữa. Có 2 định dạng, dùng bản nào tuỳ xưởng in yêu c�
   / `nhan-say-day-1kg.svg` — cần máy có sẵn font Cambria + Arial (font Windows/Office chuẩn, hầu hết
   xưởng in đều có sẵn); nếu xưởng báo thiếu font thì gửi bản PDF thay thế.
 
-Kích thước thật 160mm × 45mm, dùng đúng logo gốc, mã QR thật trỏ về `nongsannhalam.com`, đủ các
+Kích thước thật 160mm × 45mm, dùng đúng logo gốc, mã QR thật trỏ về `thehungorganic.com`, đủ các
 trường bắt buộc theo luật (tên hàng hoá, khối lượng tịnh, thành phần, bảo quản, NSX/HSD để trống cho
 đóng dấu tay). Hướng 2-4 (bản premium/cửa sổ) giữ nguyên trong mục dưới, có thể làm sau cho set quà
 Tết nếu muốn.

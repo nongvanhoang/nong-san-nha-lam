@@ -30,7 +30,7 @@
 - **Xuất PDF/ảnh bằng Chrome headless**: khi Chrome của người dùng đang mở, PHẢI thêm
   `--user-data-dir=<thư mục scratchpad riêng>`, và đường dẫn `--print-to-pdf`/`--screenshot` phải là đường dẫn
   ĐẦY ĐỦ (đường dẫn tương đối bị ghi sai chỗ, lệnh vẫn báo thành công) — gặp thật 2026-10-19.
-- **Chưa đổi (cần làm tiếp)**: tên miền nongsannhalam.com + email hello@ (giữ tạm), tên trang Facebook/
+- **Chưa đổi (cần làm tiếp)**: tên miền thehungorganic.com + email hello@ (giữ tạm), tên trang Facebook/
   Zalo/Shopee (người dùng tự đổi + tải ảnh mới trong `content/kenh_assets/`), video đã dựng có tên cũ,
   artifact "Sổ Đơn Nhà Làm", dấu chứng nhận hữu cơ (chờ giấy).
   Nhiều đoạn bên dưới vẫn ghi "Nông Sản Nhà Làm"/"nhà làm" — hiểu là thương hiệu cũ.

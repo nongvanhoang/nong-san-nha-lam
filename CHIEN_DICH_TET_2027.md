@@ -77,7 +77,7 @@ giá, gửi thẻ này kèm file nhãn sắn dây cho xưởng in quen (cùng 1 
 > Gói lớn: cam 10kg + sắn dây 1kg — `[GIÁ]`
 >
 > Cam chỉ có khoảng 3 tháng mỗi năm nên nhà mình nhận **đặt trước**, vào mùa là hái và gửi theo thứ tự đặt.
-> 👉 Đặt trước trong 1 phút: nongsannhalam.com/dat-truoc.html?chon=qua-nho
+> 👉 Đặt trước trong 1 phút: thehungorganic.com/dat-truoc.html?chon=qua-nho
 > Hoặc nhắn Zalo 0979 502 000 để giữ suất nhé!
 
 ### Bài B — Quà Tết doanh nghiệp (Facebook + tin nhắn Zalo cho khách B2B; LinkedIn nếu có trang)
@@ -87,7 +87,7 @@ giá, gửi thẻ này kèm file nhãn sắn dây cho xưởng in quen (cùng 1 
 > Thế Hưng Organic nhận đặt **hộp quà Tết số lượng lớn**: Cam Đường Canh Lạng Sơn (VietGAP số
 > 112/CN-TĐC-TT-20-0012) kết hợp tinh bột sắn dây thủ công — quà đặc sản, có nguồn gốc rõ ràng, kiểm chứng được.
 >
-> Nhận in lời chúc theo yêu cầu. Báo giá theo số lượng — gửi phiếu nhanh tại nongsannhalam.com/dat-truoc.html?chon=qua-lon (ghi số lượng vào ô Ghi chú), hoặc nhắn Zalo 0979 502 000 / email hello@nongsannhalam.com.
+> Nhận in lời chúc theo yêu cầu. Báo giá theo số lượng — gửi phiếu nhanh tại thehungorganic.com/dat-truoc.html?chon=qua-lon (ghi số lượng vào ô Ghi chú), hoặc nhắn Zalo 0979 502 000 / email hello@nongsannhalam.com.
 > Doanh nghiệp thường chốt quà từ tháng 11, nên nhắn sớm để nhà mình giữ đủ hàng ạ.
 
 ### Tin nhắn C — Nhắn riêng từng người trong danh sách chờ (ngày cam vào mùa)

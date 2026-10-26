@@ -121,11 +121,11 @@ Nhóm 2, và ảnh #1 chờ nhãn in xong), mọi nội dung cần điền đã 
 
 ## 9. Trang đặt trước trên website (thêm 2026-10-10)
 
-`https://nongsannhalam.com/dat-truoc.html` — khách tự chọn hàng (cam 5kg/10kg, hộp quà Tết, sắn dây),
+`https://thehungorganic.com/dat-truoc.html` — khách tự chọn hàng (cam 5kg/10kg, hộp quà Tết, sắn dây),
 điền tên + SĐT, bấm gửi → tin nhắn soạn sẵn tới **Zalo 0979 502 000** (khách dán rồi gửi), WhatsApp
 hoặc email `hello@`. Web KHÔNG lưu gì — mọi phiếu đến qua tin nhắn, nên:
 
-- Nhận được tin "ĐẶT TRƯỚC — nongsannhalam.com" trên Zalo → sao chép tin → mở **Sổ Đơn** (mục 8) → tab
+- Nhận được tin "ĐẶT TRƯỚC — thehungorganic.com" trên Zalo → sao chép tin → mở **Sổ Đơn** (mục 8) → tab
   "Khách chờ cam" → dán vào ô "Dán phiếu ĐẶT TRƯỚC" → **Tách phiếu** → kiểm tra → **Thêm**. ~10 giây.
   Đừng ghi thẳng vào `data/danh_sach_cho.csv` — "đồng bộ đơn" ghi đè file đó từ Sổ Đơn.
   Mã nguồn trang Sổ Đơn: `scripts/artifacts/so_don_nha_lam.html` (sửa file này rồi đăng lại cùng link).

@@ -6,8 +6,8 @@ này để nhờ giúp việc — Claude đã có sẵn ngữ cảnh sản phẩ
 
 ## Website đang chạy
 
-- Tiếng Việt: https://nongsannhalam.com/
-- English (cho khách/đối tác xuất khẩu): https://nongsannhalam.com/en/
+- Tiếng Việt: https://thehungorganic.com/
+- English (cho khách/đối tác xuất khẩu): https://thehungorganic.com/en/
 
 (cập nhật tự động mỗi khi push lên `main`)
 

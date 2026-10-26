@@ -19,7 +19,7 @@ Nhân dịp này nhà mình làm hẳn một video 90 giây, quay thật cả qu
 Tinh Bột Sắn Dây đang có sẵn: túi 0,5kg 80.000đ · túi 1kg 155.000đ
 Cam Đường Canh mùa mới (khoảng tháng 11 âm lịch): nhận đặt trước, chưa cần thanh toán.
 
-👉 Đặt nhanh: nongsannhalam.com/dat-truoc.html
+👉 Đặt nhanh: thehungorganic.com/dat-truoc.html
 💬 Zalo 0979 502 000
 
 ---
@@ -33,7 +33,7 @@ Chào anh/chị ạ 🌱 Nhà mình báo một tin nhỏ: từ nay sản phẩm 
 Gửi anh/chị video 40 giây quay thật từ nương tới lúc đóng túi ạ.
 
 Tinh Bột Sắn Dây đang có sẵn: 0,5kg 80k · 1kg 155k. Cam mùa mới nhận đặt trước.
-Đặt nhanh: nongsannhalam.com/dat-truoc.html
+Đặt nhanh: thehungorganic.com/dat-truoc.html
 
 ---
 
@@ -79,19 +79,19 @@ Bột sắn dây trắng tự nhiên làm ra thế nào? Từ nương núi đá 
 Cũng có khách phàn nàn cam bị dập khi đi đường xa — nhà mình ghi nhận. Mùa này đóng thùng chèn kỹ hơn, và nếu cam hư do vận chuyển thì anh/chị quay video lúc mở thùng, báo Zalo trong 24 giờ là được đổi mới hoặc hoàn tiền.
 
 Cam mùa mới khoảng tháng 11 âm lịch. Ai muốn giữ một thùng thì đặt trước — chưa cần thanh toán:
-👉 nongsannhalam.com/dat-truoc.html
+👉 thehungorganic.com/dat-truoc.html
 💬 Zalo 0979 502 000
 
 ---
 
 ## Zalo — Khách nói gì sau mùa cam trên Shopee (2026-10-20)
 
-Ảnh: chụp mục "Khách nói gì" trên nongsannhalam.com (đã che tên khách).
+Ảnh: chụp mục "Khách nói gì" trên thehungorganic.com (đã che tên khách).
 
 Mùa cam vừa rồi trên Shopee nhà mình được 106 đánh giá, 97 cái 5 sao (4,85/5) — cảm ơn anh/chị đã ủng hộ ạ 🍊
 Có khách viết: “Nếu biết chất lượng tốt như vậy sẽ đặt gấp đôi hiện tại.”
 
-Mùa mới khoảng tháng 11 âm lịch. Anh/chị muốn giữ thùng 5kg (275k) hay 10kg (500k) thì đặt trước ở đây, chưa cần thanh toán: nongsannhalam.com/dat-truoc.html
+Mùa mới khoảng tháng 11 âm lịch. Anh/chị muốn giữ thùng 5kg (275k) hay 10kg (500k) thì đặt trước ở đây, chưa cần thanh toán: thehungorganic.com/dat-truoc.html
 
 ---
 
@@ -117,7 +117,7 @@ Còn **5 ngày** là nhà mình chốt đơn giao trước Tết rồi ạ — *
 
 Sau ngày đó bên vận chuyển nghỉ Tết, đơn đặt muộn sẽ giao sau Tết. Ai còn định biếu cam, biếu sắn dây thì đặt
 sớm cho kịp nhé 🍊
-👉 Đặt nhanh: nongsannhalam.com/dat-truoc.html
+👉 Đặt nhanh: thehungorganic.com/dat-truoc.html
 Hoặc Zalo 0979 502 000
 
 ---
@@ -150,7 +150,7 @@ Gói nhỏ: cam 5kg + sắn dây 0,5kg — `[GIÁ]`
 Gói lớn: cam 10kg + sắn dây 1kg — `[GIÁ]`
 
 Cam chỉ có khoảng 3 tháng mỗi năm nên nhà mình nhận **đặt trước**, vào mùa là hái và gửi theo thứ tự đặt.
-👉 Đặt trước trong 1 phút: nongsannhalam.com/dat-truoc.html?chon=qua-nho
+👉 Đặt trước trong 1 phút: thehungorganic.com/dat-truoc.html?chon=qua-nho
 Hoặc nhắn Zalo 0979 502 000 để giữ suất nhé!
 
 ---
@@ -164,7 +164,7 @@ Công ty mình đang chọn quà Tết cho nhân viên, đối tác?
 Thế Hưng Organic nhận đặt **hộp quà Tết số lượng lớn**: Cam Đường Canh Lạng Sơn (VietGAP số
 112/CN-TĐC-TT-20-0012) kết hợp tinh bột sắn dây thủ công — quà đặc sản, có nguồn gốc rõ ràng, kiểm chứng được.
 
-Nhận in lời chúc theo yêu cầu. Báo giá theo số lượng — gửi phiếu nhanh tại nongsannhalam.com/dat-truoc.html?chon=qua-lon (ghi số lượng vào ô Ghi chú), hoặc nhắn Zalo 0979 502 000 / email hello@nongsannhalam.com.
+Nhận in lời chúc theo yêu cầu. Báo giá theo số lượng — gửi phiếu nhanh tại thehungorganic.com/dat-truoc.html?chon=qua-lon (ghi số lượng vào ô Ghi chú), hoặc nhắn Zalo 0979 502 000 / email hello@nongsannhalam.com.
 Doanh nghiệp thường chốt quà từ tháng 11, nên nhắn sớm để nhà mình giữ đủ hàng ạ.
 
 ---
@@ -856,7 +856,7 @@ chăm cây đúng quy trình, không thúc ép, để cây tự đơm hoa kết 
 Ai thích ăn cam ngọt tự nhiên, chín trên cây, để lại Zalo hoặc nhắn tin từ bây giờ nha — đến mùa
 mình báo có hàng đầu tiên, không lo hết ạ!
 
-👉 Giữ suất tại đây: nongsannhalam.com/dat-truoc.html?chon=cam5
+👉 Giữ suất tại đây: thehungorganic.com/dat-truoc.html?chon=cam5
 Hoặc Zalo: 0979 502 000
 
 *(Ảnh thật chụp tại vườn nhà mình tuần này — dùng file
@@ -960,7 +960,7 @@ hiện tại, vẫn đăng bình thường được.
 
 Nước bột lắng trong, xếp từng lớp bột ướt lên khay đem sấy, đến khi thành từng mảng bột khô trắng
 vụn ra — nhà mình vừa quay lại toàn bộ quy trình này, thật 100%, không dàn dựng. 🌾 Ảnh trên website
-(nongsannhalam.com) cũng đã đổi thành ảnh thật luôn rồi, mọi người ghé xem nhé!
+(thehungorganic.com) cũng đã đổi thành ảnh thật luôn rồi, mọi người ghé xem nhé!
 
 Làm thủ công nên hơi chậm, nhưng đổi lại là bột lên màu tự nhiên, không cần đến chất tẩy.
 
@@ -981,7 +981,7 @@ sớm vì mùa ngắn mà số lượng có hạn.
 Ai muốn chắc suất, để lại Zalo hoặc nhắn tin cho mình ngay từ bây giờ, đến mùa mình nhắn báo
 có hàng đầu tiên, không lo hết ạ!
 
-👉 Giữ suất tại đây: nongsannhalam.com/dat-truoc.html?chon=cam5
+👉 Giữ suất tại đây: thehungorganic.com/dat-truoc.html?chon=cam5
 Hoặc Zalo: 0979 502 000
 
 *(Dùng trong Giai đoạn 2 — đăng khoảng tháng 9-10 để hâm nóng khách trước mùa, xem
@@ -1001,7 +1001,7 @@ tự quảng cáo suông. Ăn yên tâm hơn hẳn 🍊
 Mùa cam năm nay dự kiến khoảng tháng 11 âm lịch. Ai muốn đặt sớm, nhắn Zalo để mình báo khi
 có hàng nha!
 
-👉 Đặt sớm: nongsannhalam.com/dat-truoc.html?chon=cam5
+👉 Đặt sớm: thehungorganic.com/dat-truoc.html?chon=cam5
 Hoặc Zalo: 0979 502 000
 
 *(Lưu ý: bài này soạn trước, chỉ đăng khi vào mùa cam thật)*
@@ -1020,7 +1020,7 @@ Chỉ bán theo thùng:
 Mùa ngắn, số lượng có hạn — ai thích ăn cam ngọt tự nhiên thì nhắn Zalo đặt sớm để mình giữ
 hàng nhé!
 
-👉 Đặt thùng 10kg: nongsannhalam.com/dat-truoc.html?chon=cam10
+👉 Đặt thùng 10kg: thehungorganic.com/dat-truoc.html?chon=cam10
 Hoặc Zalo: 0979 502 000
 
 *(Lưu ý: bài này soạn trước, chỉ đăng khi vào mùa cam thật)*
@@ -1139,7 +1139,7 @@ Chỉ bán theo thùng:
 🔸 Thùng 5kg: 275.000đ
 🔸 Thùng 10kg: 500.000đ
 
-👉 Đặt hàng: nongsannhalam.com/dat-truoc.html?chon=cam5
+👉 Đặt hàng: thehungorganic.com/dat-truoc.html?chon=cam5
 Hoặc nhắn Zalo: 0979 502 000 — giao hàng toàn quốc!
 
 *(Lưu ý: bài này soạn trước, chỉ đăng khi vào mùa cam thật)*

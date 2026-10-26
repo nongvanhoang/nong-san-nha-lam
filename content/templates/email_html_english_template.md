@@ -18,12 +18,12 @@ Nội dung tiếng Anh lấy đúng giọng đã dùng trong video giới thiệ
 <table role="presentation" width="600" cellpadding="0" cellspacing="0" style="background-color:#ffffff;max-width:600px;width:100%;border-radius:12px;overflow:hidden;box-shadow:0 2px 12px rgba(0,0,0,0.06);">
 
 <tr><td style="background-color:#2f3a24;padding:24px 32px;text-align:center;">
-<img src="https://nongsannhalam.com/assets/icon-512.png" width="56" height="56" alt="THOC logo – The Hung Organic Cooperative" style="display:block;margin:0 auto 8px;border-radius:50%;">
+<img src="https://thehungorganic.com/assets/icon-512.png" width="56" height="56" alt="THOC logo – The Hung Organic Cooperative" style="display:block;margin:0 auto 8px;border-radius:50%;">
 <span style="color:#f3f1ea;font-size:20px;letter-spacing:0.5px;">The Hung Organic</span>
 </td></tr>
 
 <tr><td>
-<img src="https://nongsannhalam.com/assets/hero-san-day-poster.jpg" width="600" alt="Kudzu vine field in Lang Son, Vietnam" style="display:block;width:100%;height:auto;">
+<img src="https://thehungorganic.com/assets/hero-san-day-poster.jpg" width="600" alt="Kudzu vine field in Lang Son, Vietnam" style="display:block;width:100%;height:auto;">
 </td></tr>
 
 <tr><td style="padding:36px 40px 8px;">
@@ -57,7 +57,7 @@ Nội dung tiếng Anh lấy đúng giọng đã dùng trong video giới thiệ
 </td></tr>
 
 <tr><td style="padding:0 40px 24px;">
-<img src="https://nongsannhalam.com/assets/tinh-bot-san-day-real-01.jpg" width="520" alt="Finished kudzu root starch, sun-dried" style="display:block;width:100%;height:auto;border-radius:8px;">
+<img src="https://thehungorganic.com/assets/tinh-bot-san-day-real-01.jpg" width="520" alt="Finished kudzu root starch, sun-dried" style="display:block;width:100%;height:auto;border-radius:8px;">
 </td></tr>
 
 <tr><td style="padding:0 40px 8px;">
@@ -70,7 +70,7 @@ Nội dung tiếng Anh lấy đúng giọng đã dùng trong video giới thiệ
 
 <tr><td style="background-color:#f3f1ea;padding:24px 40px;border-top:1px solid #ece9de;">
 <p style="margin:0 0 4px;font-size:13px;color:#5c5c4f;">Best regards,<br><strong>The Hung Organic</strong> — Lang Son, Vietnam</p>
-<p style="margin:0;font-size:13px;color:#5c5c4f;">Email: hello@nongsannhalam.com &nbsp;|&nbsp; <a href="https://nongsannhalam.com/en/" style="color:#8a6b3d;">nongsannhalam.com/en</a></p>
+<p style="margin:0;font-size:13px;color:#5c5c4f;">Email: hello@nongsannhalam.com &nbsp;|&nbsp; <a href="https://thehungorganic.com/en/" style="color:#8a6b3d;">thehungorganic.com/en</a></p>
 </td></tr>
 
 </table>
@@ -84,5 +84,5 @@ Nội dung tiếng Anh lấy đúng giọng đã dùng trong video giới thiệ
 - Khi dùng thật: thay `{{COMPANY_NAME}}` (3 chỗ: lời chào, đoạn văn, và link mailto subject) bằng đúng
   tên công ty, và `%7B%7BCOMPANY_NAME%7D%7D` trong link mailto cũng cần thay tương ứng (đã mã hoá URL
   sẵn dạng `{{` `}}`).
-- Trang đích tiếng Anh tương ứng: `https://nongsannhalam.com/en/san-day.html` (đã có sẵn, đồng bộ
+- Trang đích tiếng Anh tương ứng: `https://thehungorganic.com/en/san-day.html` (đã có sẵn, đồng bộ
   đúng thông điệp không hoá chất/gia đình làm/chưa có chứng nhận ATTP).
