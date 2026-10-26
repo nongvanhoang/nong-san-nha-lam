@@ -36,7 +36,7 @@ việc nào chặn việc nào. Cập nhật lại file này (tick `[x]`) mỗi 
 - [ ] **Gọi Chi cục ATVSTP tỉnh Lạng Sơn** hỏi hộ nhà mình có thuộc diện "miễn giấy ATTP" không —
   số điện thoại (0205) 3.812.258, chi tiết + kịch bản hỏi ở `GHI_CHU_ATTP.md`. **Chặn**: mở kênh
   Nhóm D (xuất khẩu chính ngạch), tăng độ tin cậy khi chào hàng B2B.
-- [ ] **Bắt đầu quy trình xác minh Google Search Console** — đăng nhập Gmail, thêm property theo
+- [x] **[2026-10-26] ĐÃ XÁC MINH thehungorganic.com trên Google Search Console** (mã mới N9D-… trên trang chủ — không xoá). Còn: gửi sitemap.xml, báo đổi địa chỉ, yêu cầu lập chỉ mục 5 trang chính. ~~Bắt đầu quy trình xác minh Google Search Console~~ — đăng nhập Gmail, thêm property theo
   đúng 5 bước ở `HUONG_DAN_GOOGLE_SEARCH_CONSOLE.md`, gửi lại mã xác minh Google đưa ra. **Chặn**:
   biết khách tìm web qua Google bằng từ khoá gì.
 - [ ] **Kích hoạt email nhận phiếu đặt hàng web (2026-10-24)** — trang Đặt hàng giờ gửi bản sao mỗi
