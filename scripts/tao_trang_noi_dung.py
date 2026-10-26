@@ -111,7 +111,7 @@ FOOT = """
         <ul>
           <li><a href="https://zalo.me/0979502000">Zalo 0979 502 000</a></li>
           <li><a href="tel:0979502000">Gọi 0979 502 000</a></li>
-          <li><a href="mailto:hello@nongsannhalam.com">hello@nongsannhalam.com</a></li>
+          <li><a href="mailto:hello@thehungorganic.com">hello@thehungorganic.com</a></li>
         </ul>
       </div>
       <ul><li><b>Sản phẩm</b></li><li><a href="san-day.html">Tinh Bột Sắn Dây</a></li><li><a href="cam-duong-canh.html">Cam Đường Canh</a></li><li><a href="qua-tet-2027.html">Quà Tết 2027</a></li><li><a href="mua-si-san-day.html">Mua sỉ sắn dây</a></li></ul>
@@ -373,7 +373,7 @@ def p_about():
     org = ('<script type="application/ld+json">\n' + json.dumps({
         "@context": "https://schema.org", "@type": "Organization", "name": "Hợp tác xã Thế Hưng Organic",
         "alternateName": ["THOC", "Thế Hưng Organic", "The Hung Organic Cooperative"], "url": SITE,
-        "logo": f"{SITE}assets/logo-thoc.jpg", "email": "hello@nongsannhalam.com", "telephone": "+84979502000",
+        "logo": f"{SITE}assets/logo-thoc.jpg", "email": "hello@thehungorganic.com", "telephone": "+84979502000",
         "address": {"@type": "PostalAddress", "streetAddress": "Thôn Liên Lạc", "addressLocality": "Xã Vũ Lăng",
                     "addressRegion": "Lạng Sơn", "addressCountry": "VN"},
         "sameAs": ["https://www.facebook.com/profile.php?id=61593265823967", "https://shopee.vn/shop/1700409288"]},
@@ -411,7 +411,7 @@ def p_about():
       <li><strong>Trụ sở:</strong> Thôn Liên Lạc, xã Vũ Lăng, tỉnh Lạng Sơn</li>
       <li><strong>Nơi sản xuất sắn dây:</strong> Thôn Nam Hương, xã Vũ Lăng, tỉnh Lạng Sơn</li>
       <li><strong>Zalo / điện thoại:</strong> <a href="https://zalo.me/0979502000">0979 502 000</a></li>
-      <li><strong>Email:</strong> <a href="mailto:hello@nongsannhalam.com">hello@nongsannhalam.com</a></li>
+      <li><strong>Email:</strong> <a href="mailto:hello@thehungorganic.com">hello@thehungorganic.com</a></li>
     </ul>
     <p>Đối tác mua sỉ, đại lý, quán chè: xem <a href="mua-si-san-day.html">trang mua sỉ</a>. Khách nước ngoài: <a href="en/about.html">English</a>.</p>"""
     html = head(f, t, d, "home/og-share.jpg", "website", org) + nav(f, "en/about.html")
@@ -462,7 +462,7 @@ def p_ship():
 
     <h2>Hỏi nhanh</h2>
     {faq_html(SHIP_QA)}
-    <p style="margin-top:24px">Câu hỏi khác? Nhắn Zalo <a href="https://zalo.me/0979502000">0979 502 000</a> hoặc email <a href="mailto:hello@nongsannhalam.com">hello@nongsannhalam.com</a>.</p>"""
+    <p style="margin-top:24px">Câu hỏi khác? Nhắn Zalo <a href="https://zalo.me/0979502000">0979 502 000</a> hoặc email <a href="mailto:hello@thehungorganic.com">hello@thehungorganic.com</a>.</p>"""
     html = head(f, t, d, "home/og-share.jpg", "website", faq_schema(SHIP_QA)) + nav(f)
     html += phead([("index.html", "Trang chủ"), ("", "Giao hàng & đổi trả")], "Giao hàng &amp; đổi trả", "Rõ ràng trước khi bạn đặt: ship bao lâu, phí thế nào, hư thì xử lý ra sao.")
     html += f'  <article class="article wrap">{body}\n  </article>\n</main>\n' + FOOT
@@ -527,7 +527,7 @@ SI_QA = [
     ("Giá sỉ bao nhiêu?", "Giá túi 5kg, 10kg và giá theo số lượng nhà mình báo khi bạn nhắn, tuỳ số lượng mỗi lần lấy và nơi giao."),
     ("Có gửi mẫu thử không?", "Có. Bạn có thể đặt túi 0,5kg (" + P05 + ") để thử trước khi lấy số lượng lớn."),
     ("Bột có giấy tờ gì?", "Tinh Bột Sắn Dây hiện chưa có chứng nhận chất lượng chính thức (như VietGAP, ATTP). Vườn cam của hợp tác xã thì đã đạt VietGAP. Bạn có thể xem quy trình làm bột qua ảnh và video thật trên trang sản phẩm."),
-    ("Có xuất khẩu không?", "Có nhận trao đổi với đối tác nước ngoài cho Tinh Bột Sắn Dây. Xem trang tiếng Anh hoặc email hello@nongsannhalam.com."),
+    ("Có xuất khẩu không?", "Có nhận trao đổi với đối tác nước ngoài cho Tinh Bột Sắn Dây. Xem trang tiếng Anh hoặc email hello@thehungorganic.com."),
 ]
 
 
@@ -607,11 +607,11 @@ def p_about_en():
     <h2>Canh mandarins (VietGAP)</h2>
     <p>The cooperative's orchard holds <strong>VietGAP certificate no. 112/CN-TĐC-TT-20-0012</strong> (TCVN 11892-1:2017), issued by NATEK JSC on 23 Dec 2025 and valid until 22 Dec 2028, under the cooperative's former name. Mandarins are fresh fruit and are currently sold <strong>within Vietnam only</strong>.</p>
     <h2>Wholesale and export</h2>
-    <p>We welcome enquiries from importers and wholesale buyers for kudzu root starch. See <a href="san-day.html#export">our kudzu page</a> or email <a href="mailto:hello@nongsannhalam.com">hello@nongsannhalam.com</a>.</p>
+    <p>We welcome enquiries from importers and wholesale buyers for kudzu root starch. See <a href="san-day.html#export">our kudzu page</a> or email <a href="mailto:hello@thehungorganic.com">hello@thehungorganic.com</a>.</p>
     <h2>Contact</h2>
     <ul>
       <li>The Hung Organic Cooperative (THOC), Lien Lac village, Vu Lang commune, Lang Son, Vietnam</li>
-      <li>Email: <a href="mailto:hello@nongsannhalam.com">hello@nongsannhalam.com</a></li>
+      <li>Email: <a href="mailto:hello@thehungorganic.com">hello@thehungorganic.com</a></li>
       <li>WhatsApp: <a href="https://wa.me/84363589920">+84 363 589 920</a> · Zalo: 0979 502 000</li>
     </ul>
   </article>

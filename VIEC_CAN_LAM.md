@@ -40,7 +40,7 @@ việc nào chặn việc nào. Cập nhật lại file này (tick `[x]`) mỗi 
   đúng 5 bước ở `HUONG_DAN_GOOGLE_SEARCH_CONSOLE.md`, gửi lại mã xác minh Google đưa ra. **Chặn**:
   biết khách tìm web qua Google bằng từ khoá gì.
 - [ ] **Kích hoạt email nhận phiếu đặt hàng web (2026-10-24)** — trang Đặt hàng giờ gửi bản sao mỗi
-  phiếu về hello@nongsannhalam.com qua FormSubmit. Phiếu ĐẦU TIÊN sẽ làm FormSubmit gửi 1 email
+  phiếu về hello@thehungorganic.com qua FormSubmit. Phiếu ĐẦU TIÊN sẽ làm FormSubmit gửi 1 email
   "Activate Form" về hộp thư đó → bấm nút kích hoạt 1 lần. Cách nhanh: tự đặt thử 1 phiếu trên
   thehungorganic.com/dat-truoc.html. Chưa kích hoạt thì phiếu vẫn qua Zalo bình thường, chỉ thiếu bản email.
 - [ ] **Tạo tài khoản đếm lượt khách GoatCounter (miễn phí, 2 phút)** — vào goatcounter.com → Sign up,

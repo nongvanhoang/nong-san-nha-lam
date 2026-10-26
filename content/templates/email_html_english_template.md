@@ -65,12 +65,12 @@ Nội dung tiếng Anh lấy đúng giọng đã dùng trong video giới thiệ
 </td></tr>
 
 <tr><td style="padding:0 40px 36px;" align="center">
-<a href="mailto:hello@nongsannhalam.com?subject=Wholesale%20inquiry%20-%20%7B%7BCOMPANY_NAME%7D%7D" style="display:inline-block;background-color:#8a6b3d;color:#ffffff;text-decoration:none;font-size:15px;padding:14px 32px;border-radius:6px;font-family:Georgia,serif;">Reply / Request a sample</a>
+<a href="mailto:hello@thehungorganic.com?subject=Wholesale%20inquiry%20-%20%7B%7BCOMPANY_NAME%7D%7D" style="display:inline-block;background-color:#8a6b3d;color:#ffffff;text-decoration:none;font-size:15px;padding:14px 32px;border-radius:6px;font-family:Georgia,serif;">Reply / Request a sample</a>
 </td></tr>
 
 <tr><td style="background-color:#f3f1ea;padding:24px 40px;border-top:1px solid #ece9de;">
 <p style="margin:0 0 4px;font-size:13px;color:#5c5c4f;">Best regards,<br><strong>The Hung Organic</strong> — Lang Son, Vietnam</p>
-<p style="margin:0;font-size:13px;color:#5c5c4f;">Email: hello@nongsannhalam.com &nbsp;|&nbsp; <a href="https://thehungorganic.com/en/" style="color:#8a6b3d;">thehungorganic.com/en</a></p>
+<p style="margin:0;font-size:13px;color:#5c5c4f;">Email: hello@thehungorganic.com &nbsp;|&nbsp; <a href="https://thehungorganic.com/en/" style="color:#8a6b3d;">thehungorganic.com/en</a></p>
 </td></tr>
 
 </table>

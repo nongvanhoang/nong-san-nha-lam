@@ -45,13 +45,13 @@ Dùng đúng số liệu thật đã có, không thêm gì mới:
 >
 > Website: https://thehungorganic.com/en/
 > Zalo: +84 979 502 000
-> Email: hello@nongsannhalam.com
+> Email: hello@thehungorganic.com
 > Facebook: https://www.facebook.com/profile.php?id=61593265823967
 
 **Lưu ý khi điền form**: nếu form bắt buộc số điện thoại quốc tế, dùng `+84 979 502 000`.
 
 ## Việc cần bạn làm
 
-1. ~~Có email doanh nghiệp thật~~ — ✅ đã xong (2026-08-12): `hello@nongsannhalam.com`.
+1. ~~Có email doanh nghiệp thật~~ — ✅ đã xong (2026-08-12): `hello@thehungorganic.com`.
 2. Đăng ký Yellow Pages Vietnam trước (nhanh nhất, không rào cản).
 3. Gọi hoặc vào lại vietrade.gov.vn hỏi rõ điều kiện trước khi quyết định có làm hồ sơ hay không.

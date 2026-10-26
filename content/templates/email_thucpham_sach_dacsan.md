@@ -20,7 +20,7 @@ trong app local. Khác Nhóm N (chỉ 4 công ty, viết riêng từng thư), nh
 > Trân trọng,
 > Thế Hưng Organic — Lạng Sơn
 > Zalo/Hotline: 0979 502 000
-> Email: hello@nongsannhalam.com
+> Email: hello@thehungorganic.com
 
 ## Mẫu 2 — Nhóm K (cửa hàng đặc sản/quà biếu)
 
@@ -37,7 +37,7 @@ trong app local. Khác Nhóm N (chỉ 4 công ty, viết riêng từng thư), nh
 > Trân trọng,
 > Thế Hưng Organic — Lạng Sơn
 > Zalo/Hotline: 0979 502 000
-> Email: hello@nongsannhalam.com
+> Email: hello@thehungorganic.com
 
 ## Danh sách gửi (lấy tên đúng cột "Ten" trong CSV để điền vào [Tên cửa hàng])
 

@@ -45,7 +45,7 @@ Vào **Cài đặt trang → Thông tin trang** để điền các mục dưới
   ```
 - **Thông tin liên hệ** (ô Contact Info):
   - Điện thoại/Zalo: `0979 502 000`
-  - Email: `hello@nongsannhalam.com`
+  - Email: `hello@thehungorganic.com`
   - Website: `https://thehungorganic.com`
 - **Địa chỉ**: **[CẦN BẠN QUYẾT ĐỊNH]** — không khuyến khích ghim địa chỉ nhà thật (Thôn Nam Hương,
   xã Vũ Lăng, Lạng Sơn) công khai lên Facebook vì đây là nhà ở kiêm xưởng sản xuất, dễ bị khách lạ
@@ -233,7 +233,7 @@ hoá phần hồ sơ (bio/avatar/link) — mục này bổ sung phần đó.
   ```
 - **Link trong bio**: `https://thehungorganic.com`
 - **Nút liên hệ** (nếu đã là tài khoản chuyên nghiệp): gắn số Zalo/điện thoại `0979 502 000` và
-  email `hello@nongsannhalam.com`.
+  email `hello@thehungorganic.com`.
 
 ## 6. LinkedIn
 
@@ -268,7 +268,7 @@ lại từ mục đăng ký thư mục xuất khẩu):
 
   Website: https://thehungorganic.com/en/
   Zalo: +84 979 502 000
-  Email: hello@nongsannhalam.com
+  Email: hello@thehungorganic.com
   ```
 - **Bài đăng đầu tiên**: dùng mục "LinkedIn — Company intro video, tiếng Anh" đã soạn sẵn trong
   `content/posts_ready.md`.

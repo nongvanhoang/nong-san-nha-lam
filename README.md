@@ -72,7 +72,7 @@ file trong kho đó rồi nhờ Claude resize/nén lại trước khi đưa vào
    ảnh/video thật chưa dùng trong `Hình Ảnh, Video/`, có thể nhờ Claude chọn thêm cho caption
    hoặc đổi ảnh web sau này.
 2. ~~Link Facebook~~ — ✅ đã xong (2026-08-11), trang thật: facebook.com/profile.php?id=61593265823967
-3. ~~Email cho khách quốc tế~~ — ✅ đã xong (2026-08-12): `hello@nongsannhalam.com`, dùng Cloudflare
+3. ~~Email cho khách quốc tế~~ — ✅ đã xong (2026-08-12): `hello@thehungorganic.com`, dùng Cloudflare
    Email Routing chuyển tiếp về Gmail thật, miễn phí (giống cách RankerToolAI/RankerNest đang dùng).
    Có thể trả lời email dưới tên miền riêng luôn nếu bật thêm "Send mail as" trong Gmail (xem hướng
    dẫn Claude đã đưa lúc thiết lập). **WhatsApp vẫn còn thiếu** — Zalo không dùng được ở nước ngoài

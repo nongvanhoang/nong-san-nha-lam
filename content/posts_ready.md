@@ -164,7 +164,7 @@ Công ty mình đang chọn quà Tết cho nhân viên, đối tác?
 Thế Hưng Organic nhận đặt **hộp quà Tết số lượng lớn**: Cam Đường Canh Lạng Sơn (VietGAP số
 112/CN-TĐC-TT-20-0012) kết hợp tinh bột sắn dây thủ công — quà đặc sản, có nguồn gốc rõ ràng, kiểm chứng được.
 
-Nhận in lời chúc theo yêu cầu. Báo giá theo số lượng — gửi phiếu nhanh tại thehungorganic.com/dat-truoc.html?chon=qua-lon (ghi số lượng vào ô Ghi chú), hoặc nhắn Zalo 0979 502 000 / email hello@nongsannhalam.com.
+Nhận in lời chúc theo yêu cầu. Báo giá theo số lượng — gửi phiếu nhanh tại thehungorganic.com/dat-truoc.html?chon=qua-lon (ghi số lượng vào ô Ghi chú), hoặc nhắn Zalo 0979 502 000 / email hello@thehungorganic.com.
 Doanh nghiệp thường chốt quà từ tháng 11, nên nhắn sớm để nhà mình giữ đủ hàng ạ.
 
 ---
@@ -185,7 +185,7 @@ filtered the traditional way, then dried slowly in a dedicated kiln, with no che
 bleaching agents added.
 
 We're open to wholesale and export partnerships, and happy to send samples on request.
-📩 hello@nongsannhalam.com
+📩 hello@thehungorganic.com
 
 ---
 
@@ -204,7 +204,7 @@ quanh năm, không phụ thuộc vào nguồn thu mua bên ngoài.
 
 We recently expanded our own kudzu root cultivation area — a deliberate step to keep our raw
 material supply stable and self-sourced as we grow. Interested in wholesale or export volumes?
-Reach us at hello@nongsannhalam.com.
+Reach us at hello@thehungorganic.com.
 
 ---
 
@@ -222,7 +222,7 @@ mỗi mẻ ổn định hơn, không chỉ đẹp trên video.
 
 Consistency matters for wholesale buyers — that's why we moved from sun-drying to a dedicated
 drying kiln, giving us more control over moisture and batch quality. Video of the full process
-attached. Open to sending product samples on request: hello@nongsannhalam.com.
+attached. Open to sending product samples on request: hello@thehungorganic.com.
 
 ---
 
@@ -553,13 +553,13 @@ hoá chất, không chất tẩy trắng.
 Video dưới đây ghi lại đầy đủ quy trình thật (phụ đề tiếng Anh đi kèm) — chúng tôi hiện đang tìm
 kiếm đối tác sỉ/nhập khẩu quan tâm đến sản phẩm nông sản thủ công, chất lượng ổn định.
 
-Liên hệ: hello@nongsannhalam.com
+Liên hệ: hello@thehungorganic.com
 
 ---
 
 A whole handmade journey — from a single kudzu root to a bag of starch, made by a small family
 workshop in Lạng Sơn, Vietnam. We're open to wholesale/export inquiries — reach us at
-hello@nongsannhalam.com.
+hello@thehungorganic.com.
 
 ---
 
