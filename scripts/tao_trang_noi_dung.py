@@ -422,7 +422,7 @@ def p_about():
 
 SHIP_QA = [
     ("Giao hàng mất bao lâu?", "Giao toàn quốc qua đơn vị vận chuyển, thường 2–5 ngày tuỳ khu vực (nội thành nhanh hơn, vùng xa lâu hơn)."),
-    ("Phí ship tính thế nào?", "Theo bảng giá của đơn vị vận chuyển, tuỳ khối lượng và nơi nhận. Nhà mình báo phí ship trước, bạn đồng ý rồi mới gửi hàng."),
+    ("Phí ship tính thế nào?", "Theo bảng giá của đơn vị vận chuyển, tuỳ khối lượng và nơi nhận, tối đa 70.000đ một đơn. Nhà mình báo phí ship trước, bạn đồng ý rồi mới gửi hàng."),
     ("Thanh toán thế nào?", "Gửi phiếu đặt hàng chưa phải trả tiền. Nhà mình nhắn hoặc gọi xác nhận đơn, báo phí ship và cách thanh toán trước khi giao."),
     ("Được đổi trả trong trường hợp nào?", "Vì là thực phẩm nên không nhận đổi trả hàng đã mở hoặc đã dùng. Hàng hư hỏng do vận chuyển, giao sai loại hoặc số lượng, hoặc lỗi sản xuất thì được đổi mới hoặc hoàn tiền."),
     ("Cần làm gì khi nhận hàng bị hư?", "Quay video lúc mở hàng và báo qua Zalo 0979 502 000 trong vòng 24 giờ kể từ khi nhận. Nhà mình xem video rồi gửi bù hoặc hoàn tiền phần bị hư."),
@@ -439,7 +439,7 @@ def p_ship():
     <ul>
       <li><strong>Phạm vi:</strong> giao toàn quốc qua đơn vị vận chuyển. Cam Đường Canh hiện chỉ giao trong nước.</li>
       <li><strong>Thời gian:</strong> thường 2–5 ngày tuỳ khu vực.</li>
-      <li><strong>Phí ship:</strong> theo bảng giá đơn vị vận chuyển, báo trước khi bạn xác nhận đơn.</li>
+      <li><strong>Phí ship:</strong> theo bảng giá đơn vị vận chuyển, tối đa 70.000đ một đơn, báo trước khi bạn xác nhận đơn.</li>
       <li><strong>Cam Đường Canh:</strong> chỉ giao trong mùa thu hoạch (khoảng tháng 11 âm lịch đến tháng 1 năm sau). Đặt trước thì nhà mình hẹn ngày giao khi xác nhận đơn.</li>
     </ul>
 
