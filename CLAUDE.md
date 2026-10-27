@@ -32,6 +32,12 @@
   Ảnh 4:5 ở `docs/assets/story/{sd1-6,cam1-6}-{640,1080}.webp` cắt từ bản gốc trong `Hình Ảnh, Video/`; hiệu ứng ở
   `docs/assets/story.js` + cuối `home.css`. 2 video ngắn cách dùng (`dung-pha/nau.mp4`) trên trang Sắn Dây VI/EN.
   Máy chủ shop tắt hiệu ứng Windows → trình duyệt máy này không phóng ảnh/tự chạy video (bình thường, điện thoại vẫn có).
+- **Thông số xuất khẩu sắn dây (chủ shop báo 2026-10-27)**: HSD "2/3 năm" (hiểu là 2–3 năm → web ghi 24 tháng),
+  công suất ~10–20 tấn bột/tháng (vì vậy KHÔNG còn viết "small-batch/sản xuất nhỏ"), đặt tối thiểu khách nước ngoài
+  100kg, phiếu kiểm nghiệm "cung cấp sau" (khi có → điền chỉ số thật vào `EXPORT_SPEC`). Trang `en/wholesale.html`
+  + bản in `en/spec-sheet.html` dựng từ `EXPORT_SPEC`/`EXPORT_QA` trong `scripts/tao_trang_noi_dung.py`; sửa xong
+  chạy lại script rồi xuất lại PDF `docs/assets/thoc-kudzu-root-starch-spec-sheet.pdf` (Chrome headless, A4, 1 trang).
+  Form xin mẫu gửi qua FormSubmit về hello@ (cần kích hoạt 1 lần, chung với dat-truoc).
 - **Xuất PDF/ảnh bằng Chrome headless**: khi Chrome của người dùng đang mở, PHẢI thêm
   `--user-data-dir=<thư mục scratchpad riêng>`, và đường dẫn `--print-to-pdf`/`--screenshot` phải là đường dẫn
   ĐẦY ĐỦ (đường dẫn tương đối bị ghi sai chỗ, lệnh vẫn báo thành công) — gặp thật 2026-10-19.

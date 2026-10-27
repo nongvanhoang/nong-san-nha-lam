@@ -532,3 +532,17 @@ section{padding-block:clamp(64px,9vw,112px)}
 .clip figcaption{padding:14px 18px;font-size:15.5px;color:var(--muted)}
 .clip figcaption b{color:var(--ink)}
 @media (min-width:901px){.clips{max-width:760px}}
+/* trang mua sỉ & xuất khẩu (tiếng Anh) */
+.wpics{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:clamp(10px,1.6vw,18px)}
+.wpics li{display:grid;gap:8px;font-size:14.5px;color:var(--muted)}
+.wpics img{width:100%;aspect-ratio:4/5;object-fit:cover;border-radius:var(--r-sm)}
+.spec{width:100%;border-collapse:collapse;background:var(--card);border-radius:var(--r);overflow:hidden;box-shadow:var(--sh)}
+.spec th,.spec td{text-align:left;vertical-align:top;padding:14px 20px;border-bottom:1px solid var(--line)}
+.spec tr:last-child th,.spec tr:last-child td{border-bottom:0}
+.spec th{width:32%;font-weight:600;color:var(--green-d)}
+@media (max-width:700px){
+  .wpics{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .spec th,.spec td{display:block;width:auto;padding:4px 16px}
+  .spec th{padding-top:14px}
+  .spec td{padding-bottom:14px}
+}

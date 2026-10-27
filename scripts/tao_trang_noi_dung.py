@@ -603,11 +603,11 @@ def p_about_en():
     <figure><img src="../assets/v2/vung-hoa-800.webp" alt="Kudzu fields below limestone mountains in Vu Lang" width="800" height="1000" loading="lazy"></figure>
     <p><strong>The Hung Organic Cooperative (THOC)</strong> is an agricultural cooperative in Vu Lang commune, in the limestone mountains of Bac Son, Lang Son province, northern Vietnam. Members grow and process two products: kudzu root starch and Canh mandarins.</p>
     <h2>Kudzu root starch</h2>
-    <p>Kudzu is grown on fields at the foot of the limestone mountains. The roots are washed, crushed, then <strong>filtered and settled by hand several times</strong> until the starch is clean and white. Since 2026 the cooperative dries the starch in a multi-tray drying oven instead of in the sun. No bleaching, no additives. Kudzu root starch is a small-batch, family-made product and does not yet hold a formal food-safety certification.</p>
+    <p>Kudzu is grown on fields at the foot of the limestone mountains. The roots are washed, crushed, then <strong>filtered and settled by hand several times</strong> until the starch is clean and white. Since 2026 the cooperative dries the starch in a multi-tray drying oven instead of in the sun. No bleaching, no additives. The cooperative produces approximately 10 to 20 tonnes of starch per month. Kudzu root starch does not yet hold a formal food-safety certification.</p>
     <h2>Canh mandarins (VietGAP)</h2>
     <p>The cooperative's orchard holds <strong>VietGAP certificate no. 112/CN-TĐC-TT-20-0012</strong> (TCVN 11892-1:2017), issued by NATEK JSC on 23 Dec 2025 and valid until 22 Dec 2028, under the cooperative's former name. Mandarins are fresh fruit and are currently sold <strong>within Vietnam only</strong>.</p>
     <h2>Wholesale and export</h2>
-    <p>We welcome enquiries from importers and wholesale buyers for kudzu root starch. See <a href="san-day.html#export">our kudzu page</a> or email <a href="mailto:hello@thehungorganic.com">hello@thehungorganic.com</a>.</p>
+    <p>We welcome enquiries from importers and wholesale buyers for kudzu root starch. See <a href="wholesale.html">specifications and sample requests</a> or email <a href="mailto:hello@thehungorganic.com">hello@thehungorganic.com</a>.</p>
     <h2>Contact</h2>
     <ul>
       <li>The Hung Organic Cooperative (THOC), Lien Lac village, Vu Lang commune, Lang Son, Vietnam</li>
@@ -619,9 +619,201 @@ def p_about_en():
     return "en/about.html", top + body + bot
 
 
+# Thông số xuất khẩu Tinh Bột Sắn Dây — số liệu do chủ shop cung cấp 2026-10-27 (HSD "2/3 năm" → ghi mức thấp 24 tháng).
+# Dùng chung cho trang en/wholesale.html và bảng thông số in được en/spec-sheet.html (+ PDF).
+EXPORT_SPEC = [
+    ("Product", "Kudzu root starch (Vietnamese: <em>tinh bột sắn dây</em>), from kudzu roots (<em>Pueraria</em>)"),
+    ("Ingredients", "100% kudzu root starch. No additives, no bleaching agents"),
+    ("Process", "Roots washed and crushed; starch filtered and settled by hand several times; dried in a multi-tray drying oven"),
+    ("Appearance", "Dry, white starch in natural pieces"),
+    ("Packaging", "0.5 kg and 1 kg retail bags; 5 kg and 10 kg bulk bags. Other sizes: please ask"),
+    ("Shelf life", "24 months from the production date, unopened"),
+    ("Storage", "Cool, dry place away from direct sunlight; reseal after opening"),
+    ("Production capacity", "Approx. 10–20 tonnes per month"),
+    ("Minimum export order", "100 kg"),
+    ("Origin", "Vu Lang commune, Lang Son province, Vietnam"),
+    ("Producer", "The Hung Organic Cooperative (THOC)"),
+    ("Laboratory test report", "Being prepared; ask us for the current status"),
+    ("Certification", "No formal food-safety certification yet"),
+    ("Price, lead time, shipping terms", "Quoted per order: tell us the destination country, volume and packaging"),
+]
+EXPORT_QA = [
+    ("Can you send a sample?", "Yes. We can send a small sample so you can check the starch before ordering. Tell us your country and we will confirm the courier and cost with you first."),
+    ("What is the minimum order for export?", "100 kg. Smaller quantities are possible for samples and first trial orders; please ask."),
+    ("How much can you supply?", "The cooperative produces approximately 10 to 20 tonnes of kudzu root starch per month."),
+    ("Do you have a laboratory test report or certificates?", "A laboratory test report is being prepared and we will share it with buyers on request. Kudzu root starch does not yet hold a formal food-safety certification such as HACCP. We will update this page as documents are issued."),
+    ("Do you export the Canh mandarins too?", "No. Mandarins are fresh fruit and are currently sold within Vietnam only. For export we offer kudzu root starch."),
+]
+SPEC_PDF = "assets/thoc-kudzu-root-starch-spec-sheet.pdf"
+
+
+def spec_rows():
+    return "\n".join(f'        <tr><th scope="row">{k}</th><td>{v}</td></tr>' for k, v in EXPORT_SPEC)
+
+
+def en_shell(f, title, desc):
+    # đầu trang + chân trang lấy từ trang chủ tiếng Anh, giống p_about_en
+    import re
+    src = (DOCS / "en" / "index.html").read_text(encoding="utf-8")
+    top = src[:src.index("</nav>") + len("</nav>")] + "\n\n"
+    bot = src[src.index("</main>") + len("</main>"):]
+    top = re.sub(r'<link rel="canonical" href="[^"]*">', f'<link rel="canonical" href="{SITE}{f}">', top)
+    top = re.sub(r'<meta name="description" content="[^"]*">', f'<meta name="description" content="{desc}">', top)
+    top = re.sub(r'<title>[^<]*</title>', f'<title>{title}</title>', top)
+    return top, bot
+
+
+def p_wholesale_en():
+    f = "en/wholesale.html"
+    top, bot = en_shell(f, "Kudzu Root Starch for Wholesale &amp; Export — The Hung Organic",
+                        "Kudzu root starch from Lang Son, Vietnam for importers and wholesale buyers: 100% kudzu starch, 24-month shelf life, approx. 10-20 tonnes per month, minimum export order 100 kg. Request a sample.")
+    faq = json.dumps({"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [
+        {"@type": "Question", "name": q, "acceptedAnswer": {"@type": "Answer", "text": a}} for q, a in EXPORT_QA]}, ensure_ascii=False)
+    top = top.replace("</head>", f'<script type="application/ld+json">{faq}</script>\n</head>', 1)
+    pics = "".join(f'<li><img src="../assets/story/{n}-640.webp" alt="{a}" width="640" height="800" loading="lazy"><span>{c}</span></li>' for n, a, c in [
+        ("sd1", "Kudzu field below limestone hills in Vu Lang", "Grown below the limestone hills"),
+        ("sd4", "Hand-filtering kudzu starch in a basin", "Filtered and settled by hand"),
+        ("sd5", "Loading trays into a multi-level drying oven", "Dried in a multi-tray oven"),
+        ("sd6", "Freshly dried kudzu starch in bags", "Bagged straight from the oven"),
+    ])
+    qa = "\n".join(f'          <details><summary>{q}<span class="pm" aria-hidden="true"></span></summary><p>{a}</p></details>' for q, a in EXPORT_QA)
+    body = f"""<main id="main" tabindex="-1">
+  <header class="phead">
+    <div class="wrap">
+      <p class="crumbs"><a href="index.html">Home</a> / Wholesale &amp; export</p>
+      <h1>Kudzu root starch for importers and wholesale buyers</h1>
+      <p class="lead">100% kudzu root starch from the limestone hills of Lang Son, Vietnam. <b>Approx. 10–20 tonnes per month</b>, minimum export order <b>100 kg</b>, shelf life <b>24 months</b>.</p>
+      <div style="display:flex;flex-wrap:wrap;gap:12px;margin-top:24px">
+        <a class="btn" href="#sample">Request a sample</a>
+        <a class="btn ghost" href="../{SPEC_PDF}" download>Download spec sheet (PDF)</a>
+      </div>
+    </div>
+  </header>
+
+  <section style="padding-top:0">
+    <div class="wrap">
+      <ul class="wpics">{pics}</ul>
+    </div>
+  </section>
+
+  <section class="info" id="specs" aria-labelledby="t-spec">
+    <div class="wrap">
+      <div class="head"><h2 id="t-spec">Product specifications</h2><p>Figures supplied by the cooperative. <a class="tlink" href="spec-sheet.html">Printable version</a></p></div>
+      <table class="spec">
+{spec_rows()}
+      </table>
+    </div>
+  </section>
+
+  <section id="sample" aria-labelledby="t-smp">
+    <div class="wrap" style="max-width:820px">
+      <div class="head"><h2 id="t-smp">Request a sample or a quote</h2><p>We reply by email within 2 working days. You can also write to <a class="tlink" href="mailto:hello@thehungorganic.com">hello@thehungorganic.com</a> or <a class="tlink" href="https://wa.me/84363589920">WhatsApp</a>.</p></div>
+      <form id="wform" novalidate>
+        <div class="fields">
+          <div class="field"><label for="w-name">Your name</label><input id="w-name" name="name" required autocomplete="name"></div>
+          <div class="field"><label for="w-co">Company <small>(optional)</small></label><input id="w-co" name="company" autocomplete="organization"></div>
+          <div class="field"><label for="w-email">Email</label><input id="w-email" name="email" type="email" required autocomplete="email"></div>
+          <div class="field"><label for="w-country">Destination country</label><input id="w-country" name="country" required autocomplete="country-name"></div>
+          <div class="field"><label for="w-want">I would like</label><select id="w-want" name="request"><option>A sample</option><option>A price quote</option><option>A sample and a quote</option></select></div>
+          <div class="field"><label for="w-vol">Expected volume <small>(optional)</small></label><input id="w-vol" name="volume" placeholder="e.g. 500 kg per month"></div>
+          <div class="field full"><label for="w-msg">Message <small>(optional)</small></label><textarea id="w-msg" name="message" placeholder="Packaging you need, intended use, timeline…"></textarea></div>
+        </div>
+        <p style="margin-top:18px"><button class="btn" type="submit">Send request</button></p>
+        <p id="wstatus" role="status" aria-live="polite" style="margin-top:12px;color:var(--muted)"></p>
+      </form>
+    </div>
+  </section>
+
+  <section class="faq" id="faq" aria-labelledby="t-faq">
+    <div class="wrap">
+      <div class="side"><h2 id="t-faq">Questions buyers ask</h2><p>Kudzu root starch is the product we offer for export. See <a class="tlink" href="san-day.html#process">how it is made</a>.</p></div>
+      <div class="acc">
+{qa}
+      </div>
+    </div>
+  </section>
+</main>
+<script>
+(function(){{
+  var f = document.getElementById("wform"), st = document.getElementById("wstatus");
+  f.addEventListener("submit", function(e){{
+    e.preventDefault();
+    var bad = null;
+    [].slice.call(f.querySelectorAll("[required]")).forEach(function(i){{
+      var ok = i.value.trim() && (i.type !== "email" || /.+@.+\\..+/.test(i.value));
+      i.setAttribute("aria-invalid", ok ? "false" : "true"); if (!ok && !bad) bad = i;
+    }});
+    if (bad){{ st.textContent = "Please fill in your name, a valid email and the destination country."; bad.focus(); return; }}
+    var d = {{}}; new FormData(f).forEach(function(v, k){{ d[k] = v; }});
+    d._subject = "Export enquiry: " + d.request + " (" + d.country + ")"; d._template = "table"; d._replyto = d.email;
+    var btn = f.querySelector("button"); btn.disabled = true; st.textContent = "Sending…";
+    var mail = "mailto:hello@thehungorganic.com?subject=" + encodeURIComponent(d._subject) + "&body=" + encodeURIComponent(Object.keys(d).filter(function(k){{ return k[0] !== "_"; }}).map(function(k){{ return k + ": " + d[k]; }}).join("\\n"));
+    fetch("https://formsubmit.co/ajax/hello@thehungorganic.com", {{ method: "POST", headers: {{ "Content-Type": "application/json", "Accept": "application/json" }}, body: JSON.stringify(d) }})
+      .then(function(r){{ return r.json(); }})
+      .then(function(j){{ if (String(j.success) !== "true") throw 0; f.reset(); st.innerHTML = "Thank you. Your request has been sent; we will reply by email within 2 working days."; }})
+      .catch(function(){{ st.innerHTML = 'We could not send the form. Please <a class="tlink" href="' + mail + '">email us directly</a> (your details are filled in).'; }})
+      .then(function(){{ btn.disabled = false; }});
+  }});
+}})();
+</script>"""
+    return f, top + body + bot
+
+
+def p_spec_sheet_en():
+    # bản in 1 trang A4; PDF xuất bằng Chrome headless (xem cuối main)
+    f = "en/spec-sheet.html"
+    pics = "".join(f'<img src="../assets/story/sheet-{n}.jpg" alt="">' for n in ("sd1", "sd4", "sd5", "sd6"))
+    html = f"""<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Kudzu Root Starch: Specification Sheet — The Hung Organic Cooperative</title>
+<link rel="canonical" href="{SITE}{f}"><meta name="robots" content="noindex">
+<link rel="icon" href="../favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;600&family=Fraunces:opsz,wght@9..144,600&display=swap&subset=vietnamese" rel="stylesheet">
+<style>
+@page{{size:A4;margin:12mm}}
+*{{box-sizing:border-box}}
+body{{margin:0;background:#faf8f3;color:#1c2a20;font:400 11pt/1.45 "Be Vietnam Pro",Arial,sans-serif}}
+.sheet{{max-width:186mm;margin:0 auto;padding:10mm 0;background:#faf8f3}}
+header{{display:flex;align-items:center;gap:14px;border-bottom:2px solid #245c33;padding-bottom:10px}}
+header img{{width:54px;height:54px;border-radius:50%}}
+header b{{display:block;font:600 13pt/1.2 Fraunces,Cambria,serif}}
+header span{{font-size:9.5pt;color:#55615a}}
+h1{{font:600 22pt/1.1 Fraunces,Cambria,serif;margin:16px 0 4px;color:#173f23}}
+.sub{{color:#55615a;margin:0 0 12px}}
+.pics{{display:grid;grid-template-columns:repeat(4,1fr);gap:6px;margin:0 0 14px}}
+.pics img{{width:100%;aspect-ratio:4/3;object-fit:cover;border-radius:6px}}
+table{{width:100%;border-collapse:collapse;font-size:10pt}}
+th,td{{text-align:left;vertical-align:top;padding:6px 8px;border-bottom:1px solid #e3ded2}}
+th{{width:34%;font-weight:600;color:#173f23}}
+tr:nth-child(odd) td,tr:nth-child(odd) th{{background:#f1ede3}}
+footer{{margin-top:14px;padding-top:10px;border-top:2px solid #245c33;font-size:9.5pt;display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}}
+footer b{{color:#173f23}}
+.note{{font-size:8.5pt;color:#55615a;margin-top:8px}}
+@media screen and (max-width:700px){{.sheet{{padding:16px}} .pics{{grid-template-columns:repeat(2,1fr)}} th{{width:40%}}}}
+@media print{{body,.sheet{{background:#fff}} .sheet{{padding:0}}}}
+</style></head>
+<body><div class="sheet">
+<header><img src="../assets/logo-thoc-mark.png" alt="THOC logo"><div><b>The Hung Organic Cooperative (THOC)</b><span>Lien Lac village, Vu Lang commune, Lang Son, Vietnam</span></div></header>
+<h1>Kudzu Root Starch</h1>
+<p class="sub">Specification sheet for importers and wholesale buyers · Updated October 2026</p>
+<div class="pics">{pics}</div>
+<table>
+{spec_rows()}
+</table>
+<footer>
+<div><b>Contact</b><br>hello@thehungorganic.com<br>WhatsApp +84 363 589 920</div>
+<div><b>Request a sample</b><br>thehungorganic.com/en/wholesale.html</div>
+</footer>
+<p class="note">Information supplied by the cooperative. Kudzu root starch is a food ingredient and is not intended to diagnose, treat or cure any condition.</p>
+</div></body></html>
+"""
+    return f, html
+
+
 def main():
     pages = [
-        p_about(), p_ship(), p_tet(), p_si(), p_camnang(), p_about_en(),
+        p_about(), p_ship(), p_tet(), p_si(), p_camnang(), p_about_en(), p_wholesale_en(), p_spec_sheet_en(),
         ("phan-biet-bot-san-day-that-gia.html", art("phan-biet-bot-san-day-that-gia.html", A_PHANBIET, buy_sd())),
         ("bot-san-day-khac-bot-nang.html", art("bot-san-day-khac-bot-nang.html", A_BOTNANG, buy_sd())),
         ("cach-nau-che-san-day.html", art("cach-nau-che-san-day.html", A_CHE, buy_sd())),
