@@ -1,0 +1,73 @@
+{
+  "slug": "san-day-cach-nau",
+  "clips": [
+    {
+      "file": "Sắn Dây/san-day-cachdung-nau-03.mp4",
+      "start": 2,
+      "duration": 4.5
+    },
+    {
+      "file": "Sắn Dây/san-day-cachdung-nau-03.mp4",
+      "start": 22,
+      "duration": 4.5
+    },
+    {
+      "file": "Sắn Dây/san-day-cachdung-nau-01.mp4",
+      "start": 10,
+      "duration": 4.5
+    },
+    {
+      "file": "Sắn Dây/san-day-cachdung-nau-02.mp4",
+      "start": 1,
+      "duration": 4.5
+    },
+    {
+      "file": "Sắn Dây/san-day-cachdung-nau-02.mp4",
+      "start": 20,
+      "duration": 4.5
+    }
+  ],
+  "captions": [
+    {
+      "text": "Hoà bột với nước lạnh, đổ vào nồi",
+      "text_en": "Mix with cold water, pour into the pot",
+      "clip_index": 0,
+      "start": 0,
+      "duration": 4.0
+    },
+    {
+      "text": "Để lửa nhỏ, khuấy liên tục tay",
+      "text_en": "Low heat, keep stirring",
+      "clip_index": 1,
+      "start": 0,
+      "duration": 4.0
+    },
+    {
+      "text": "Bột chuyển trong và sánh lại là chín",
+      "text_en": "Done when it turns clear and thick",
+      "clip_index": 2,
+      "start": 0,
+      "duration": 4.0
+    },
+    {
+      "text": "Múc ra bát",
+      "text_en": "Pour into a bowl",
+      "clip_index": 3,
+      "start": 0,
+      "duration": 4.0
+    },
+    {
+      "text": "Ăn nóng hay để nguội đều ngon",
+      "text_en": "Enjoy warm or cooled",
+      "clip_index": 4,
+      "start": 0,
+      "duration": 4.0
+    }
+  ],
+  "end_card_text": "Tinh Bột Sắn Dây - Thế Hưng Organic\nthehungorganic.com\nZalo 0979 502 000",
+  "end_card_text_en": "Kudzu root starch from Lang Son, Vietnam",
+  "music": {
+    "file": "content/video/music/warm-acoustic-music.mp3",
+    "volume": 0.5
+  }
+}

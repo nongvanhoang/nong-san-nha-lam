@@ -301,7 +301,15 @@ routine — cloud routine không đọc được file/Python local) cứ mỗi 3
 `data/social_queue.json` (theo con trỏ `data/social_queue_state.json`, tự tăng sau mỗi lần chạy,
 không phụ thuộc người dùng đã đăng thật hay chưa) → ghi ra `BAI_DANG_HOM_NAY.txt` → tự mở Notepad.
 
-Hàng đợi hiện có 27 mục (11 mục cũ + 13 mục thêm 2026-10-10 theo `CHIEN_DICH_TET_2027.md`: sắn dây
+**Bộ đăng đa kênh (từ 2026-10-27)**: `scripts/tao_bo_dang_da_kenh.py` (sửa chữ trong POSTS ở đó rồi chạy
+lại) tạo `content/dang_da_kenh/<dot>/NN_slug/{video.mp4,anh-bia.jpg,noi-dung.txt}` + `index.html` (xem
+video, nút Chép chữ từng kênh: Facebook/Zalo/Instagram/TikTok/YouTube Shorts/LinkedIn), link gắn
+utm_source để GoatCounter tách kênh; tự chép chữ vào `posts_ready.md` (giữa dòng `<!-- BAT DAU dot -->`)
+và chèn bài vào hàng đợi ngay sau con trỏ (bài cũ bị thế chỗ dời xuống cuối). Đợt 1 = 9 bài 29/10–21/11,
+4 video mới từ clip thật (`san-day-cach-pha`, `-cach-nau`, `-hoa-tim`, `cam-hai-tai-vuon`). Tên/tiểu sử
+mọi kênh: `content/dang_da_kenh/HO_SO_KENH.md`. Video/ảnh trong bộ này không lên git (nặng).
+
+Hàng đợi (trước đợt đa kênh) có 27 mục (11 mục cũ + 13 mục thêm 2026-10-10 theo `CHIEN_DICH_TET_2027.md`: sắn dây
 quanh năm, "hẹn báo hàng mùa cam" 31/10 + 12/11, Bài A hộp quà Tết 15/11 + 24/11 — **phải điền giá
 trước khi đăng**, Bài B quà Tết doanh nghiệp 18/11 + 30/11) — từ 2026-10-10 thêm 3 mục "vào mùa cam" (nhắn riêng danh sách chờ → Giới thiệu Cam → chín tự nhiên, nhắc
 ~03/12, 06/12, 09/12 — chỉ đăng khi cam đã hái thật). Bài D đếm ngược Tết CHƯA vào hàng đợi (chờ chốt hạn

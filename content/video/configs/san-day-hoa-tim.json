@@ -1,0 +1,16 @@
+{
+  "slug": "san-day-hoa-tim",
+  "clips": [
+    {"file": "Sắn Dây/san-day-vuon-hoa-01.mp4", "start": 0.5, "duration": 4.5},
+    {"file": "Sắn Dây/san-day-vuon-hoa-02.mp4", "start": 6, "duration": 4.5},
+    {"file": "Sắn Dây/san-day-vuon-hoa-01.mp4", "start": 9.5, "duration": 4.5}
+  ],
+  "captions": [
+    {"text": "Ít ai biết: cây sắn dây ra hoa màu tím", "text_en": "Few people know: kudzu blooms purple", "clip_index": 0, "start": 0, "duration": 4.0},
+    {"text": "Hoa mọc thành chùm trên nương nhà mình", "text_en": "Flower clusters on our hillside field", "clip_index": 1, "start": 0, "duration": 4.0},
+    {"text": "Dưới lớp lá này là củ sắn dây làm ra tinh bột", "text_en": "Below these leaves grow the roots we turn into starch", "clip_index": 2, "start": 0, "duration": 4.0}
+  ],
+  "end_card_text": "Thế Hưng Organic - Vũ Lăng, Lạng Sơn\nthehungorganic.com",
+  "end_card_text_en": "Kudzu root starch from Lang Son, Vietnam",
+  "music": {"file": "content/video/music/morning-garden-acoustic-chill.mp3", "volume": 0.5}
+}

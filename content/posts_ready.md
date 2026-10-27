@@ -1143,3 +1143,511 @@ Chỉ bán theo thùng:
 Hoặc nhắn Zalo: 0979 502 000 — giao hàng toàn quốc!
 
 *(Lưu ý: bài này soạn trước, chỉ đăng khi vào mùa cam thật)*
+
+<!-- BAT DAU dot-1_2026-10 -->
+
+## Facebook — Ra mắt website mới thehungorganic.com (đa kênh dot-1_2026-10)
+
+_Video: `content/dang_da_kenh/dot-1_2026-10/01_website-moi/video.mp4`_
+
+Hợp tác xã Thế Hưng Organic có website mới: thehungorganic.com 🌿
+
+Trên web, cả nhà xem được tận mắt từng bước làm ra Tinh Bột Sắn Dây: từ nương sắn dây ở Vũ Lăng, đào củ, rửa, nghiền lọc, đến lò sấy và đóng túi. Vườn Cam Đường Canh VietGAP cũng có ảnh thật từ lúc ra hoa đến lúc hái.
+
+✅ Xem giá, đặt hàng ngay trên web, giao toàn quốc
+✅ Cách pha, cách nấu sắn dây không vón cục
+✅ Đặt trước Cam Đường Canh mùa này
+
+👉 https://thehungorganic.com/?utm_source=facebook&utm_medium=social&utm_campaign=website-moi
+📞 Zalo 0979 502 000
+
+---
+
+## Zalo — Ra mắt website mới thehungorganic.com (đa kênh dot-1_2026-10)
+
+_Video: `content/dang_da_kenh/dot-1_2026-10/01_website-moi/video.mp4`_
+
+Nhà mình vừa có website mới, có đủ ảnh thật quy trình làm sắn dây và vườn cam. Anh chị ghé xem, đặt hàng ngay trên web cũng được ạ: https://thehungorganic.com/?utm_source=zalo&utm_medium=social&utm_campaign=website-moi
+
+---
+
+## Instagram — Ra mắt website mới thehungorganic.com (đa kênh dot-1_2026-10)
+
+_Video: `content/dang_da_kenh/dot-1_2026-10/01_website-moi/video.mp4`_
+
+Website mới của Thế Hưng Organic đã lên 🌿 Từ nương sắn dây Vũ Lăng đến túi tinh bột, từ vườn cam đến thùng cam, xem tận mắt từng bước. Link ở phần tiểu sử.
+
+#tinhbotsanday #sanday #sandaylangson #thehungorganic #langson #nongsanviet
+
+---
+
+## TikTok — Ra mắt website mới thehungorganic.com (đa kênh dot-1_2026-10)
+
+_Video: `content/dang_da_kenh/dot-1_2026-10/01_website-moi/video.mp4`_
+
+Nhà mình làm sắn dây và trồng cam ở Lạng Sơn, giờ có website rồi 🌿 Link ở trang cá nhân. #tinhbotsanday #sanday #sandaylangson #thehungorganic
+
+---
+
+## YouTube Shorts — Ra mắt website mới thehungorganic.com (đa kênh dot-1_2026-10)
+
+_Video: `content/dang_da_kenh/dot-1_2026-10/01_website-moi/video.mp4`_
+
+Hợp tác xã Thế Hưng Organic - Sắn dây & Cam Đường Canh Lạng Sơn #shorts
+
+Tinh Bột Sắn Dây và Cam Đường Canh VietGAP từ Vũ Lăng, Lạng Sơn.
+Website: https://thehungorganic.com/?utm_source=youtube&utm_medium=social&utm_campaign=website-moi
+Zalo: 0979 502 000
+
+---
+
+## Facebook — Mẹo pha sắn dây không vón cục (đa kênh dot-1_2026-10)
+
+_Video: `content/dang_da_kenh/dot-1_2026-10/02_cach-pha/video.mp4`_
+
+Pha sắn dây bị vón cục? Gần như luôn do đổ nước sôi thẳng vào bột 😅
+
+Cách đúng nhà mình vẫn làm:
+1️⃣ Cho 1–2 thìa canh bột (15–20g) vào cốc
+2️⃣ Rót NƯỚC LẠNH vào trước, khuấy cho tan hết
+3️⃣ Rồi mới rót nước sôi, vừa rót vừa khuấy đến khi bột chuyển từ đục sang trong
+
+Thêm chút đường hoặc mật ong tuỳ khẩu vị. Hướng dẫn đầy đủ: https://thehungorganic.com/cach-dung-tinh-bot-san-day.html?utm_source=facebook&utm_medium=social&utm_campaign=cach-pha
+
+Tinh Bột Sắn Dây Thế Hưng Organic: túi 0,5kg 80.000đ, túi 1kg 155.000đ. Nhắn Zalo 0979 502 000 là giao ngay.
+
+---
+
+## Zalo — Mẹo pha sắn dây không vón cục (đa kênh dot-1_2026-10)
+
+_Video: `content/dang_da_kenh/dot-1_2026-10/02_cach-pha/video.mp4`_
+
+Mẹo nhỏ pha sắn dây không vón: hoà bột với nước lạnh trước, tan hết rồi mới rót nước sôi. Anh chị xem video và cách làm đầy đủ ở đây ạ: https://thehungorganic.com/cach-dung-tinh-bot-san-day.html?utm_source=zalo&utm_medium=social&utm_campaign=cach-pha
+
+---
+
+## Instagram — Mẹo pha sắn dây không vón cục (đa kênh dot-1_2026-10)
+
+_Video: `content/dang_da_kenh/dot-1_2026-10/02_cach-pha/video.mp4`_
+
+Mẹo pha sắn dây không vón cục ✨ Nước lạnh trước, nước sôi sau. Cho bột vào cốc → rót nước lạnh, khuấy tan → rót nước sôi, khuấy tới khi trong. Cách làm đầy đủ ở link phần tiểu sử.
+
+#tinhbotsanday #sanday #sandaylangson #thehungorganic #meovat #doanhealthy
+
+---
+
+## TikTok — Mẹo pha sắn dây không vón cục (đa kênh dot-1_2026-10)
+
+_Video: `content/dang_da_kenh/dot-1_2026-10/02_cach-pha/video.mp4`_
+
+Pha sắn dây mà vón cục là do làm ngược bước này 👀 Nước lạnh trước, nước sôi sau! #tinhbotsanday #sanday #sandaylangson #thehungorganic #meovat
+
+---
+
+## YouTube Shorts — Mẹo pha sắn dây không vón cục (đa kênh dot-1_2026-10)
+
+_Video: `content/dang_da_kenh/dot-1_2026-10/02_cach-pha/video.mp4`_
+
+Mẹo pha tinh bột sắn dây không vón cục #shorts
+
+Hoà bột với nước lạnh trước, tan hết rồi mới rót nước sôi.
+Cách làm đầy đủ: https://thehungorganic.com/cach-dung-tinh-bot-san-day.html?utm_source=youtube&utm_medium=social&utm_campaign=cach-pha
+Đặt hàng Zalo: 0979 502 000
+
+---
+
+## Facebook — Hoa sắn dây màu tím trên nương (đa kênh dot-1_2026-10)
+
+_Video: `content/dang_da_kenh/dot-1_2026-10/03_hoa-san-day/video.mp4`_
+
+Nhiều người dùng sắn dây cả chục năm mà chưa từng thấy hoa của nó 💜
+
+Đây là hoa sắn dây trên nương nhà mình ở Vũ Lăng, Lạng Sơn: mọc thành chùm tím, giữa cánh có đốm vàng. Dưới lớp lá xanh này là củ sắn dây, nguyên liệu để nhà mình làm ra Tinh Bột Sắn Dây.
+
+Xem cả hành trình từ nương đến túi bột: https://thehungorganic.com/san-day.html?utm_source=facebook&utm_medium=social&utm_campaign=hoa-san-day
+
+---
+
+## Zalo — Hoa sắn dây màu tím trên nương (đa kênh dot-1_2026-10)
+
+_Video: `content/dang_da_kenh/dot-1_2026-10/03_hoa-san-day/video.mp4`_
+
+Gửi anh chị mấy hình hoa sắn dây trên nương nhà mình, tím đẹp lắm ạ 💜 Cả quy trình từ nương đến túi bột ở đây: https://thehungorganic.com/san-day.html?utm_source=zalo&utm_medium=social&utm_campaign=hoa-san-day
+
+---
+
+## Instagram — Hoa sắn dây màu tím trên nương (đa kênh dot-1_2026-10)
+
+_Video: `content/dang_da_kenh/dot-1_2026-10/03_hoa-san-day/video.mp4`_
+
+Hoa sắn dây 💜 Mọc thành chùm tím trên nương nhà mình ở Vũ Lăng, Lạng Sơn. Dưới lớp lá này là củ làm ra tinh bột.
+
+#tinhbotsanday #sanday #sandaylangson #thehungorganic #hoasanday #langson #vietnamcountryside
+
+---
+
+## TikTok — Hoa sắn dây màu tím trên nương (đa kênh dot-1_2026-10)
+
+_Video: `content/dang_da_kenh/dot-1_2026-10/03_hoa-san-day/video.mp4`_
+
+Bạn đã bao giờ thấy hoa sắn dây chưa? 💜 Nương nhà mình ở Lạng Sơn #tinhbotsanday #sanday #sandaylangson #thehungorganic #hoasanday
+
+---
+
+## YouTube Shorts — Hoa sắn dây màu tím trên nương (đa kênh dot-1_2026-10)
+
+_Video: `content/dang_da_kenh/dot-1_2026-10/03_hoa-san-day/video.mp4`_
+
+Hoa sắn dây màu tím - ít ai từng thấy #shorts
+
+Nương sắn dây của Hợp tác xã Thế Hưng Organic, Vũ Lăng, Lạng Sơn.
+https://thehungorganic.com/san-day.html?utm_source=youtube&utm_medium=social&utm_campaign=hoa-san-day
+
+---
+
+## Facebook — Bên trong lò sấy tinh bột sắn dây (đa kênh dot-1_2026-10)
+
+_Video: `content/dang_da_kenh/dot-1_2026-10/04_lo-say/video.mp4`_
+
+Vì sao nhà mình chuyển sang sấy bằng lò thay vì phơi nắng?
+
+Phơi ngoài trời thì phụ thuộc thời tiết, dễ dính bụi. Lò sấy chuyên dụng giữ nhiệt đều, bột khô đều từng khay, sạch hơn và không phải chờ nắng.
+
+Không hoá chất, không chất tẩy trắng. Màu trắng là màu tự nhiên của bột đã lọc kỹ.
+
+👉 Xem và đặt hàng: https://thehungorganic.com/san-day.html?utm_source=facebook&utm_medium=social&utm_campaign=lo-say
+📞 Zalo 0979 502 000
+
+---
+
+## Zalo — Bên trong lò sấy tinh bột sắn dây (đa kênh dot-1_2026-10)
+
+_Video: `content/dang_da_kenh/dot-1_2026-10/04_lo-say/video.mp4`_
+
+Nhà mình sấy tinh bột sắn dây bằng lò sấy chuyên dụng, khô đều, sạch, không phụ thuộc nắng mưa. Anh chị xem video và đặt hàng ở đây ạ: https://thehungorganic.com/san-day.html?utm_source=zalo&utm_medium=social&utm_campaign=lo-say
+
+---
+
+## Instagram — Bên trong lò sấy tinh bột sắn dây (đa kênh dot-1_2026-10)
+
+_Video: `content/dang_da_kenh/dot-1_2026-10/04_lo-say/video.mp4`_
+
+Bên trong lò sấy 🔥 Từng khay tinh bột sắn dây sấy khô đều, không phụ thuộc nắng mưa, không hoá chất tẩy trắng. Link ở phần tiểu sử.
+
+#tinhbotsanday #sanday #sandaylangson #thehungorganic #behindthescenes
+
+---
+
+## TikTok — Bên trong lò sấy tinh bột sắn dây (đa kênh dot-1_2026-10)
+
+_Video: `content/dang_da_kenh/dot-1_2026-10/04_lo-say/video.mp4`_
+
+Bên trong lò sấy tinh bột sắn dây nhà mình 🔥 #tinhbotsanday #sanday #sandaylangson #thehungorganic #quytrinh
+
+---
+
+## YouTube Shorts — Bên trong lò sấy tinh bột sắn dây (đa kênh dot-1_2026-10)
+
+_Video: `content/dang_da_kenh/dot-1_2026-10/04_lo-say/video.mp4`_
+
+Bên trong lò sấy tinh bột sắn dây #shorts
+
+Tinh bột sắn dây sấy bằng lò sấy chuyên dụng, không hoá chất tẩy trắng.
+https://thehungorganic.com/san-day.html?utm_source=youtube&utm_medium=social&utm_campaign=lo-say
+Zalo: 0979 502 000
+
+---
+
+## Facebook — Nấu sắn dây sánh trong cho cả nhà (đa kênh dot-1_2026-10)
+
+_Video: `content/dang_da_kenh/dot-1_2026-10/05_cach-nau/video.mp4`_
+
+Trời bắt đầu lạnh, nhiều nhà chuyển sang nấu sắn dây chín hẳn thay vì pha nước 🍲
+
+Cách nấu:
+1️⃣ Hoà bột với nước lạnh cho tan hết
+2️⃣ Đổ vào nồi, để lửa nhỏ, khuấy liên tục
+3️⃣ Bột chuyển trong và sánh lại là chín, tắt bếp
+
+Ăn nóng hay để nguội đều ngon. Thêm đường phèn nấu thành chè cũng được. Công thức chè sắn dây: https://thehungorganic.com/cach-nau-che-san-day.html?utm_source=facebook&utm_medium=social&utm_campaign=cach-nau
+
+📞 Đặt Tinh Bột Sắn Dây: Zalo 0979 502 000
+
+---
+
+## Zalo — Nấu sắn dây sánh trong cho cả nhà (đa kênh dot-1_2026-10)
+
+_Video: `content/dang_da_kenh/dot-1_2026-10/05_cach-nau/video.mp4`_
+
+Trời lạnh rồi, anh chị thử nấu sắn dây chín cho cả nhà nhé: hoà nước lạnh, lửa nhỏ, khuấy tới khi trong sánh. Công thức ở đây ạ: https://thehungorganic.com/cach-nau-che-san-day.html?utm_source=zalo&utm_medium=social&utm_campaign=cach-nau
+
+---
+
+## Instagram — Nấu sắn dây sánh trong cho cả nhà (đa kênh dot-1_2026-10)
+
+_Video: `content/dang_da_kenh/dot-1_2026-10/05_cach-nau/video.mp4`_
+
+Sắn dây nấu chín, sánh trong 🍲 Hoà nước lạnh → lửa nhỏ, khuấy đều → chuyển trong là chín. Công thức ở link phần tiểu sử.
+
+#tinhbotsanday #sanday #sandaylangson #thehungorganic #monngon #chesanday
+
+---
+
+## TikTok — Nấu sắn dây sánh trong cho cả nhà (đa kênh dot-1_2026-10)
+
+_Video: `content/dang_da_kenh/dot-1_2026-10/05_cach-nau/video.mp4`_
+
+Nấu sắn dây sánh trong, không vón 🍲 #tinhbotsanday #sanday #sandaylangson #thehungorganic #chesanday #monngonmoingay
+
+---
+
+## YouTube Shorts — Nấu sắn dây sánh trong cho cả nhà (đa kênh dot-1_2026-10)
+
+_Video: `content/dang_da_kenh/dot-1_2026-10/05_cach-nau/video.mp4`_
+
+Cách nấu tinh bột sắn dây sánh trong #shorts
+
+Hoà nước lạnh, lửa nhỏ, khuấy đều đến khi trong sánh.
+Công thức: https://thehungorganic.com/cach-nau-che-san-day.html?utm_source=youtube&utm_medium=social&utm_campaign=cach-nau
+Zalo: 0979 502 000
+
+---
+
+## Facebook — Cam Đường Canh hái tại vườn: mở đặt trước (đa kênh dot-1_2026-10)
+
+_Video: `content/dang_da_kenh/dot-1_2026-10/06_cam-hai-tai-vuon/video.mp4`_
+
+Cam Đường Canh nhà mình: chín trên cây mới hái, không thúc chín 🍊
+
+Vườn cam của Hợp tác xã Thế Hưng Organic nằm dưới chân núi đá Vũ Lăng, Lạng Sơn, trồng theo tiêu chuẩn VietGAP. Cam hái từng quả, giữ cả cuống lá, xếp ngay vào thùng.
+
+Mùa cam khoảng tháng 11 âm lịch đến tháng 1 năm sau. Nhà mình đang nhận đặt trước:
+🍊 Thùng 5kg: 275.000đ
+🍊 Thùng 10kg: 500.000đ
+
+👉 Đặt trước: https://thehungorganic.com/dat-truoc.html?chon=cam10&utm_source=facebook&utm_medium=social&utm_campaign=cam-hai-tai-vuon
+📞 Zalo 0979 502 000
+
+---
+
+## Zalo — Cam Đường Canh hái tại vườn: mở đặt trước (đa kênh dot-1_2026-10)
+
+_Video: `content/dang_da_kenh/dot-1_2026-10/06_cam-hai-tai-vuon/video.mp4`_
+
+Mùa Cam Đường Canh sắp tới rồi ạ 🍊 Nhà mình nhận đặt trước thùng 5kg (275k) và 10kg (500k), chín cây mới hái. Anh chị đặt giữ hàng ở đây: https://thehungorganic.com/dat-truoc.html?chon=cam10&utm_source=zalo&utm_medium=social&utm_campaign=cam-hai-tai-vuon
+
+---
+
+## Instagram — Cam Đường Canh hái tại vườn: mở đặt trước (đa kênh dot-1_2026-10)
+
+_Video: `content/dang_da_kenh/dot-1_2026-10/06_cam-hai-tai-vuon/video.mp4`_
+
+Cam Đường Canh chín cây mới hái 🍊 Vườn VietGAP dưới chân núi đá Vũ Lăng, Lạng Sơn. Đang nhận đặt trước thùng 5kg / 10kg, link ở phần tiểu sử.
+
+#camduongcanh #camlangson #VietGAP #thehungorganic #mandarin #vietnamfruit
+
+---
+
+## TikTok — Cam Đường Canh hái tại vườn: mở đặt trước (đa kênh dot-1_2026-10)
+
+_Video: `content/dang_da_kenh/dot-1_2026-10/06_cam-hai-tai-vuon/video.mp4`_
+
+Hái Cam Đường Canh ngay tại vườn 🍊 Chín cây mới hái, không thúc chín. #camduongcanh #camlangson #VietGAP #thehungorganic #camtet
+
+---
+
+## YouTube Shorts — Cam Đường Canh hái tại vườn: mở đặt trước (đa kênh dot-1_2026-10)
+
+_Video: `content/dang_da_kenh/dot-1_2026-10/06_cam-hai-tai-vuon/video.mp4`_
+
+Hái Cam Đường Canh tại vườn Lạng Sơn #shorts
+
+Cam Đường Canh VietGAP, chín cây mới hái. Đặt trước thùng 5kg/10kg: https://thehungorganic.com/dat-truoc.html?chon=cam10&utm_source=youtube&utm_medium=social&utm_campaign=cam-hai-tai-vuon
+Zalo: 0979 502 000
+
+---
+
+## Facebook — Hành trình từ củ sắn dây tươi đến túi tinh bột (đa kênh dot-1_2026-10)
+
+_Video: `content/dang_da_kenh/dot-1_2026-10/07_hanh-trinh/video.mp4`_
+
+Một túi Tinh Bột Sắn Dây đi qua những bước nào? 🌿
+
+Đào củ trên nương → rửa sạch đất → nghiền và lọc lấy tinh bột → để lắng, thay nước nhiều lần → sấy khô trong lò → đóng túi.
+
+Video này là cảnh thật ở nhà mình, không dựng cảnh. Không hoá chất, không chất tẩy trắng.
+
+👉 https://thehungorganic.com/san-day.html?utm_source=facebook&utm_medium=social&utm_campaign=hanh-trinh
+📞 Zalo 0979 502 000
+
+---
+
+## Zalo — Hành trình từ củ sắn dây tươi đến túi tinh bột (đa kênh dot-1_2026-10)
+
+_Video: `content/dang_da_kenh/dot-1_2026-10/07_hanh-trinh/video.mp4`_
+
+Anh chị xem trọn hành trình làm Tinh Bột Sắn Dây nhà mình, từ củ tươi đến túi bột ạ: https://thehungorganic.com/san-day.html?utm_source=zalo&utm_medium=social&utm_campaign=hanh-trinh
+
+---
+
+## Instagram — Hành trình từ củ sắn dây tươi đến túi tinh bột (đa kênh dot-1_2026-10)
+
+_Video: `content/dang_da_kenh/dot-1_2026-10/07_hanh-trinh/video.mp4`_
+
+Từ củ sắn dây tươi đến túi tinh bột 🌿 Đào củ → rửa → nghiền lọc → lắng → sấy → đóng túi. Cảnh thật ở nhà mình. Link ở phần tiểu sử.
+
+#tinhbotsanday #sanday #sandaylangson #thehungorganic #farmtotable #quytrinh
+
+---
+
+## TikTok — Hành trình từ củ sắn dây tươi đến túi tinh bột (đa kênh dot-1_2026-10)
+
+_Video: `content/dang_da_kenh/dot-1_2026-10/07_hanh-trinh/video.mp4`_
+
+Từ củ sắn dây đến túi tinh bột, toàn bộ quy trình ở nhà mình 🌿 #tinhbotsanday #sanday #sandaylangson #thehungorganic #quytrinh #farmlife
+
+---
+
+## YouTube Shorts — Hành trình từ củ sắn dây tươi đến túi tinh bột (đa kênh dot-1_2026-10)
+
+_Video: `content/dang_da_kenh/dot-1_2026-10/07_hanh-trinh/video.mp4`_
+
+Quy trình làm tinh bột sắn dây từ củ tươi #shorts
+
+Đào củ, rửa, nghiền lọc, lắng, sấy, đóng túi tại Hợp tác xã Thế Hưng Organic, Lạng Sơn.
+https://thehungorganic.com/san-day.html?utm_source=youtube&utm_medium=social&utm_campaign=hanh-trinh
+Zalo: 0979 502 000
+
+---
+
+## LinkedIn — Hành trình từ củ sắn dây tươi đến túi tinh bột (đa kênh dot-1_2026-10)
+
+_Video: `content/dang_da_kenh/dot-1_2026-10/07_hanh-trinh/video.mp4`_
+
+From fresh kudzu root to finished starch: every step at our cooperative in Lang Son, Vietnam.
+
+Harvest → wash → grind and filter → settle → kiln-dry → pack. No chemicals, no bleaching agents.
+
+We supply kudzu root starch for wholesale and export (minimum 100 kg). Specs and samples: https://thehungorganic.com/en/wholesale.html?utm_source=linkedin&utm_medium=social&utm_campaign=hanh-trinh
+
+---
+
+## Facebook — Đóng gói Cam Đường Canh cẩn thận từng thùng (đa kênh dot-1_2026-10)
+
+_Video: `content/dang_da_kenh/dot-1_2026-10/08_dong-goi-cam/video.mp4`_
+
+Cam ngon mà đến tay khách bị dập thì cũng hỏng cả 😔 Nên khâu đóng gói nhà mình làm rất kỹ.
+
+Cam hái về phân loại, đóng thùng ngay trong ngày, từng quả xếp cẩn thận. Lỡ có quả dập khi nhận, anh chị quay lại lúc mở thùng và báo trong 24 giờ, nhà mình gửi bù hoặc hoàn tiền phần hư.
+
+🍊 Thùng 5kg: 275.000đ · Thùng 10kg: 500.000đ
+👉 Đặt trước: https://thehungorganic.com/dat-truoc.html?chon=cam10&utm_source=facebook&utm_medium=social&utm_campaign=dong-goi-cam
+📞 Zalo 0979 502 000
+
+---
+
+## Zalo — Đóng gói Cam Đường Canh cẩn thận từng thùng (đa kênh dot-1_2026-10)
+
+_Video: `content/dang_da_kenh/dot-1_2026-10/08_dong-goi-cam/video.mp4`_
+
+Cam nhà mình đóng thùng ngay trong ngày hái, xếp kỹ từng quả để đi xa không dập ạ 🍊 Đặt trước: https://thehungorganic.com/dat-truoc.html?chon=cam10&utm_source=zalo&utm_medium=social&utm_campaign=dong-goi-cam
+
+---
+
+## Instagram — Đóng gói Cam Đường Canh cẩn thận từng thùng (đa kênh dot-1_2026-10)
+
+_Video: `content/dang_da_kenh/dot-1_2026-10/08_dong-goi-cam/video.mp4`_
+
+Đóng gói cẩn thận từng thùng cam 🍊 Hái về là phân loại, đóng thùng trong ngày. Đặt trước ở link phần tiểu sử.
+
+#camduongcanh #camlangson #VietGAP #thehungorganic
+
+---
+
+## TikTok — Đóng gói Cam Đường Canh cẩn thận từng thùng (đa kênh dot-1_2026-10)
+
+_Video: `content/dang_da_kenh/dot-1_2026-10/08_dong-goi-cam/video.mp4`_
+
+Đóng thùng Cam Đường Canh sao cho đi xa không dập 🍊 #camduongcanh #camlangson #VietGAP #thehungorganic #donggoi
+
+---
+
+## YouTube Shorts — Đóng gói Cam Đường Canh cẩn thận từng thùng (đa kênh dot-1_2026-10)
+
+_Video: `content/dang_da_kenh/dot-1_2026-10/08_dong-goi-cam/video.mp4`_
+
+Đóng gói Cam Đường Canh từng thùng #shorts
+
+Cam Đường Canh VietGAP, đóng thùng 5kg/10kg trong ngày hái.
+Đặt trước: https://thehungorganic.com/dat-truoc.html?chon=cam10&utm_source=youtube&utm_medium=social&utm_campaign=dong-goi-cam
+Zalo: 0979 502 000
+
+---
+
+## Facebook — Nhận bán sỉ và xuất khẩu Tinh Bột Sắn Dây (đa kênh dot-1_2026-10)
+
+_Video: `content/dang_da_kenh/dot-1_2026-10/09_ban-si-xuat-khau/video.mp4`_
+
+Quán chè, tiệm bánh, cửa hàng đặc sản cần nguồn Tinh Bột Sắn Dây ổn định? 🤝
+
+Hợp tác xã Thế Hưng Organic làm khoảng 10–20 tấn bột mỗi tháng, có túi 5kg và 10kg cho khách sỉ, giá theo số lượng. Khách nước ngoài nhận từ 100kg.
+
+👉 Thông tin sỉ: https://thehungorganic.com/mua-si-san-day.html?utm_source=facebook&utm_medium=social&utm_campaign=ban-si-xuat-khau
+📞 Zalo 0979 502 000 · ✉️ hello@thehungorganic.com
+
+---
+
+## Zalo — Nhận bán sỉ và xuất khẩu Tinh Bột Sắn Dây (đa kênh dot-1_2026-10)
+
+_Video: `content/dang_da_kenh/dot-1_2026-10/09_ban-si-xuat-khau/video.mp4`_
+
+Nhà mình nhận bán sỉ Tinh Bột Sắn Dây cho quán chè, tiệm bánh, cửa hàng đặc sản: túi 5kg/10kg, giá theo số lượng. Anh chị cần thì nhắn em báo giá ạ: https://thehungorganic.com/mua-si-san-day.html?utm_source=zalo&utm_medium=social&utm_campaign=ban-si-xuat-khau
+
+---
+
+## Instagram — Nhận bán sỉ và xuất khẩu Tinh Bột Sắn Dây (đa kênh dot-1_2026-10)
+
+_Video: `content/dang_da_kenh/dot-1_2026-10/09_ban-si-xuat-khau/video.mp4`_
+
+We supply kudzu root starch for wholesale and export 🌿 Made at our cooperative in Lang Son, Vietnam. No chemicals, no bleaching. Minimum 100 kg for export. Link in bio.
+
+Nhận bán sỉ Tinh Bột Sắn Dây, túi 5kg/10kg.
+
+#kudzu #kudzustarch #vietnamexport #thehungorganic #tinhbotsanday
+
+---
+
+## TikTok — Nhận bán sỉ và xuất khẩu Tinh Bột Sắn Dây (đa kênh dot-1_2026-10)
+
+_Video: `content/dang_da_kenh/dot-1_2026-10/09_ban-si-xuat-khau/video.mp4`_
+
+Nhận bán sỉ & xuất khẩu tinh bột sắn dây Lạng Sơn 🌿 #tinhbotsanday #sanday #sandaylangson #thehungorganic #bansi
+
+---
+
+## YouTube Shorts — Nhận bán sỉ và xuất khẩu Tinh Bột Sắn Dây (đa kênh dot-1_2026-10)
+
+_Video: `content/dang_da_kenh/dot-1_2026-10/09_ban-si-xuat-khau/video.mp4`_
+
+Kudzu root starch from Vietnam - wholesale & export #shorts
+
+The Hung Organic Cooperative, Lang Son, Vietnam. Kudzu root starch, minimum 100 kg for export.
+Specs & samples: https://thehungorganic.com/en/wholesale.html?utm_source=youtube&utm_medium=social&utm_campaign=ban-si-xuat-khau
+Bán sỉ trong nước: https://thehungorganic.com/mua-si-san-day.html?utm_source=youtube&utm_medium=social&utm_campaign=ban-si-xuat-khau
+
+---
+
+## LinkedIn — Nhận bán sỉ và xuất khẩu Tinh Bột Sắn Dây (đa kênh dot-1_2026-10)
+
+_Video: `content/dang_da_kenh/dot-1_2026-10/09_ban-si-xuat-khau/video.mp4`_
+
+Looking for a reliable source of kudzu root starch?
+
+The Hung Organic Cooperative in Lang Son, Vietnam produces around 10–20 tonnes a month. Washed, ground, filtered and kiln-dried at our own facility. No chemicals, no bleaching agents.
+
+Export minimum order: 100 kg. Spec sheet and sample request: https://thehungorganic.com/en/wholesale.html?utm_source=linkedin&utm_medium=social&utm_campaign=ban-si-xuat-khau
+Contact: hello@thehungorganic.com · WhatsApp +84 363 589 920
+
+---
+
+<!-- HET dot-1_2026-10 -->

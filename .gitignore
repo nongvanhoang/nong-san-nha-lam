@@ -53,3 +53,7 @@ Tài Liệu Công Ty/
 # Video quay màn hình đánh giá Shopee (có tên đăng nhập + mã đơn đầy đủ của khách) - giữ local (2026-10-20)
 Đánh Giá Khách Hàng/
 .taste-skill/
+
+# Bộ đăng đa kênh: video + ảnh bìa chép từ content/video/output (nặng) — chỉ giữ chữ + index.html trên repo
+content/dang_da_kenh/**/*.mp4
+content/dang_da_kenh/**/*.jpg
