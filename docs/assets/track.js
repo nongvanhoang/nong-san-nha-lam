@@ -1,7 +1,7 @@
 /* Đếm lượt xem trang + lượt bấm Zalo / Gọi / Đặt hàng / Gửi phiếu bằng GoatCounter (miễn phí, không cookie).
    Chưa điền GC thì file này không làm gì cả. Điền tên tài khoản GoatCounter (vd "thoc" cho thoc.goatcounter.com). */
 (function(){
-  var GC = "";
+  var GC = "thehungorganic";
   window.thocTrack = function(name){
     try { if (window.goatcounter && goatcounter.count) goatcounter.count({ path: name, title: name, event: true }); } catch(e){}
   };
