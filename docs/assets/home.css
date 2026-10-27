@@ -469,3 +469,56 @@ section{padding-block:clamp(64px,9vw,112px)}
 .howsteps li{counter-increment:s;display:grid;grid-template-columns:36px 1fr;gap:14px;align-items:start;padding:14px 16px;border-radius:var(--r-sm);background:var(--sand)}
 .howsteps li::before{content:counter(s);display:grid;place-items:center;width:32px;height:32px;border-radius:50%;background:var(--green);color:#fff;font-weight:600}
 .anote{padding:14px 18px;border-radius:var(--r-sm);background:#fff6ec;font-size:15px!important;color:var(--muted)}
+
+/* ---------- câu chuyện sản xuất khi cuộn (trang chủ, 2026-10-27) ---------- */
+.story{padding-bottom:0}
+.story>.wrap>.head{margin-bottom:0}
+.ch{padding-block:clamp(56px,8vw,104px);margin-top:clamp(32px,5vw,56px)}
+.ch-sd{--c-bg:#173f23;--c-ink:#f4f1e8;--c-mute:rgba(244,241,232,.72);--c-acc:#f2c46b;--c-line:rgba(244,241,232,.18);background:var(--c-bg);color:var(--c-ink)}
+.ch-cam{--c-bg:#fbeedf;--c-ink:var(--ink);--c-mute:#6a5a4b;--c-acc:var(--orange);--c-line:rgba(194,82,10,.2);background:var(--c-bg);color:var(--c-ink);margin-top:0}
+.ch-head{max-width:640px;margin-bottom:clamp(28px,5vw,56px)}
+.ch-head .k{display:inline-block;font:600 .82rem/1 var(--sans);letter-spacing:.12em;text-transform:uppercase;color:var(--c-acc)}
+.ch-head h3{font-size:clamp(2.4rem,6vw,4.6rem);margin-top:12px;letter-spacing:-.02em}
+.ch-head p{margin-top:14px;color:var(--c-mute);font-size:1.1rem}
+.beats{list-style:none;margin:0;padding:0;display:grid;gap:clamp(28px,4vw,44px)}
+.beat figure{margin:0 0 14px;border-radius:var(--r);overflow:hidden;aspect-ratio:4/3}
+.beat figure img{width:100%;height:100%;object-fit:cover}
+.beat .n{display:block;font:500 clamp(2.4rem,5vw,4rem)/1 var(--serif);color:var(--c-acc);font-variant-numeric:tabular-nums}
+.beat h4{font:600 clamp(1.45rem,2.6vw,2rem)/1.15 var(--serif);margin:10px 0 8px;letter-spacing:-.01em}
+.beat p{color:var(--c-mute);font-size:1.05rem;max-width:34ch}
+.ch-more{margin-top:clamp(28px,4vw,48px)}
+.stage{display:none}
+
+/* khi có JS: ảnh ghim lại một bên, chữ cuộn qua bên kia */
+.js .sc{display:grid;grid-template-columns:minmax(0,1.2fr) minmax(0,1fr);gap:clamp(32px,6vw,88px);align-items:start}
+.js .beat figure{display:none}
+.js .stage{display:flex;flex-direction:column;justify-content:center;gap:16px;position:sticky;top:88px;height:calc(100vh - 120px);min-height:420px}
+.frame{position:relative;width:100%;aspect-ratio:4/3;max-height:calc(100vh - 210px);border-radius:var(--r);overflow:hidden;background:var(--c-line);box-shadow:0 30px 60px -20px rgba(0,0,0,.35);
+  clip-path:inset(calc(var(--e,0)*9%) calc(var(--e,0)*7%) round var(--r))}
+.frame img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:0;transform:scale(1.12);transition:opacity .9s var(--ease);will-change:opacity,transform}
+.frame img.on{opacity:1}
+.meta{display:grid;grid-template-columns:auto 1fr;align-items:center;gap:8px 16px;font-size:14.5px;color:var(--c-mute)}
+.meta .cnt{font:500 1rem/1 var(--sans);font-variant-numeric:tabular-nums;letter-spacing:.04em}
+.meta .cnt b{color:var(--c-ink);font-weight:700}
+.meta .lbl{justify-self:end;font-weight:500}
+.meta .pbar{grid-column:1/-1;height:3px;border-radius:3px;background:var(--c-line);overflow:hidden}
+.meta .pbar i{display:block;height:100%;background:var(--c-acc);transform-origin:left;transform:scaleX(0)}
+.js .beats{gap:0;padding-block:8vh 12vh}
+.js .beat{min-height:72vh;display:flex;align-items:center}
+.js .beat .txt{opacity:.28;transform:translateY(14px);transition:opacity .6s var(--ease),transform .6s var(--ease)}
+.js .beat.on .txt{opacity:1;transform:none}
+
+@media (max-width:900px){
+  .js .sc{display:block}
+  .js .stage{top:64px;height:auto;min-height:0;z-index:3;gap:10px;padding-block:12px 14px;background:var(--c-bg)}
+  .frame{max-height:40vh}
+  .js .beats{padding-block:4vh 6vh}
+  .js .beat{min-height:58vh;align-items:center;position:relative;z-index:2}
+  .js .beat .txt{background:var(--c-bg);border:1px solid var(--c-line);border-radius:var(--r);padding:18px 20px;box-shadow:0 14px 34px -14px rgba(0,0,0,.3);width:100%}
+  .beat .n{font-size:2rem}
+}
+@media (prefers-reduced-motion:reduce){
+  .frame{clip-path:none}
+  .frame img{transform:none!important}
+  .js .beat .txt{transform:none}
+}
