@@ -47,3 +47,17 @@
   addEventListener('resize', req);
   req();
 })();
+
+/* Video ngắn tự chạy (không tiếng) khi cuộn tới; bật giảm chuyển động thì hiện nút phát thay vì tự chạy. */
+(function(){
+  var vs = [].slice.call(document.querySelectorAll('video[data-loop]'));
+  if (!vs.length) return;
+  if (matchMedia('(prefers-reduced-motion: reduce)').matches || !('IntersectionObserver' in window)){
+    vs.forEach(function(v){ v.controls = true; });
+    return;
+  }
+  var io = new IntersectionObserver(function(es){
+    es.forEach(function(e){ if (e.isIntersecting) e.target.play().catch(function(){}); else e.target.pause(); });
+  }, { threshold: .35 });
+  vs.forEach(function(v){ io.observe(v); });
+})();

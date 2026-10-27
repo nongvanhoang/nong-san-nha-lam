@@ -27,6 +27,11 @@
   cam-nang, 5 bài cẩm nang, en/about) dựng bằng `scripts/tao_trang_noi_dung.py` — sửa chữ ở script rồi chạy lại,
   KHÔNG sửa tay HTML các trang này. Ảnh chia sẻ link: `docs/assets/home/og-*.jpg` từ `make_banners.py` (og-*).
   Video nền trang chủ chỉ tải khi mạng nhanh (source data-src). Hồ sơ Google Maps/Merchant: `content/HO_SO_GOOGLE.md`.
+- **Câu chuyện sản xuất khi cuộn (2026-10-27)**: mục ảnh ghim + đổi theo từng bước trên 6 trang (VI/EN trang chủ,
+  Sắn Dây, Cam) dựng bằng `node scripts/tao_cau_chuyen_cuon.mjs` — sửa chữ/ảnh ở script rồi chạy lại, KHÔNG sửa tay.
+  Ảnh 4:5 ở `docs/assets/story/{sd1-6,cam1-6}-{640,1080}.webp` cắt từ bản gốc trong `Hình Ảnh, Video/`; hiệu ứng ở
+  `docs/assets/story.js` + cuối `home.css`. 2 video ngắn cách dùng (`dung-pha/nau.mp4`) trên trang Sắn Dây VI/EN.
+  Máy chủ shop tắt hiệu ứng Windows → trình duyệt máy này không phóng ảnh/tự chạy video (bình thường, điện thoại vẫn có).
 - **Xuất PDF/ảnh bằng Chrome headless**: khi Chrome của người dùng đang mở, PHẢI thêm
   `--user-data-dir=<thư mục scratchpad riêng>`, và đường dẫn `--print-to-pdf`/`--screenshot` phải là đường dẫn
   ĐẦY ĐỦ (đường dẫn tương đối bị ghi sai chỗ, lệnh vẫn báo thành công) — gặp thật 2026-10-19.
