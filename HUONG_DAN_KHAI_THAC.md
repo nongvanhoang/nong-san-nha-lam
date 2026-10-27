@@ -136,3 +136,17 @@ hoặc email `hello@`. Web KHÔNG lưu gì — mọi phiếu đến qua tin nh�
   phẩy (`?chon=qua-nho,sd1`).
 - Khi chốt giá hộp quà: nhắn Claude để thay dòng "giá báo khi nhà mình nhắn lại" bằng giá thật
   (`data-price` trong `docs/dat-truoc.html`).
+
+## 10. Mã lô + tem QR truy xuất (thêm 2026-10-27)
+
+Khách (nhất là khách nước ngoài) quét QR trên túi → thấy lô đó làm ngày nào, hạn dùng, nơi làm.
+
+1. **Mỗi mẻ bột / mỗi đợt hái cam**: ghi mẻ trong app quản lý như cũ (mục ghi mẻ sản xuất). Mã lô tự đặt,
+   ví dụ `SD-261027-01` = sắn dây, mẻ 1 ngày 27/10/2026 (`CAM-...` cho cam).
+2. **Nhắn Claude**: "in tem lô SD-261027-01". Claude chạy `scripts/ma_lo.py tem <mã>` → tờ tem A4
+   `content/tem_lo/<mã>.pdf` (36 tem 50×30mm, in trên giấy decal A4, cắt theo nét đứt) và đẩy lô lên trang
+   tra cứu https://thehungorganic.com/lo/.
+3. **Dán tem** cạnh ô "NSX · HSD · Số lô" ở mặt sau túi (hoặc đóng dấu tay đúng số lô đó vào ô).
+
+Bao bì mới đã in sẵn 1 QR cố định "Quét tra cứu số lô" → trang /lo/, khách gõ số lô in trên túi là xem được.
+HSD sắn dây trên tem = NSX + 24 tháng (chủ shop báo 2–3 năm, in mức thấp). Cam là quả tươi: tem ghi ngày hái, không ghi HSD.

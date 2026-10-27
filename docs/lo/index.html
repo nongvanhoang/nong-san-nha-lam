@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Tra cứu lô hàng · Batch lookup — Thế Hưng Organic</title>
+<meta name="description" content="Nhập số lô in trên túi Tinh Bột Sắn Dây hoặc thùng Cam Đường Canh để xem ngày làm, hạn dùng và nguồn gốc. Enter the lot number to see production date, expiry and origin.">
+<link rel="canonical" href="https://thehungorganic.com/lo/">
+<link rel="icon" type="image/svg+xml" href="../favicon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700&family=Fraunces:opsz,wght@9..144,500;9..144,600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/home.css">
+<style>
+.lot-wrap{max-width:720px;margin-inline:auto;padding:clamp(28px,6vw,64px) var(--gut) 72px}
+.lot-top{display:flex;align-items:center;gap:12px;text-decoration:none;font:600 1.1rem/1.2 var(--serif)}
+.lot-top img{width:44px;height:44px;border-radius:50%}
+.lot-wrap h1{font-size:clamp(2rem,5vw,2.8rem);margin:28px 0 8px}
+.lot-wrap .en{color:var(--muted);font-size:.95em}
+.lot-form{display:flex;gap:10px;margin:22px 0 8px;flex-wrap:wrap}
+.lot-form input{flex:1 1 220px;min-height:52px;padding:12px 16px;border-radius:var(--r-sm);border:1.5px solid var(--line);font:600 18px/1 var(--sans);letter-spacing:.04em;text-transform:uppercase}
+.lot-form input:focus{outline:none;border-color:var(--green);box-shadow:0 0 0 4px rgba(36,92,51,.14)}
+.lot-card{margin-top:24px;background:var(--card);border-radius:var(--r);box-shadow:var(--sh);overflow:hidden}
+.lot-card .hd{padding:20px 22px;background:var(--green-d);color:#f4f1e8}
+.lot-card .hd b{display:block;font:600 1.5rem/1.2 var(--serif)}
+.lot-card dl{margin:0;display:grid;grid-template-columns:auto 1fr}
+.lot-card dt,.lot-card dd{margin:0;padding:12px 22px;border-bottom:1px solid var(--line)}
+.lot-card dt{color:var(--muted);font-size:15px}
+.lot-card dd.code{white-space:nowrap;letter-spacing:.03em}
+.lot-card dd{font-weight:600}
+.lot-card .steps-mini{padding:16px 22px;font-size:15px;color:var(--muted)}
+.lot-msg{margin-top:18px;padding:16px 18px;border-radius:var(--r-sm);background:var(--sand)}
+.lot-more{margin-top:28px;display:flex;flex-wrap:wrap;gap:10px}
+</style>
+</head>
+<body>
+<main class="lot-wrap" id="main">
+  <a class="lot-top" href="../index.html"><img src="../assets/logo-thoc-mark.png" alt="" width="44" height="44">Thế Hưng Organic</a>
+  <h1>Tra cứu lô hàng <span class="en">· Batch lookup</span></h1>
+  <p>Nhập <b>số lô</b> in trên túi bột hoặc thùng cam, ví dụ <b>SD-261027-01</b>.<br><span class="en">Enter the lot number printed on the bag or box.</span></p>
+  <form class="lot-form" id="f">
+    <label for="ma" class="skip-link">Số lô</label>
+    <input id="ma" name="ma" placeholder="SD-261027-01" autocomplete="off" spellcheck="false" inputmode="text">
+    <button class="btn green" type="submit">Tra cứu · Look up</button>
+  </form>
+  <div id="out" aria-live="polite"></div>
+  <div class="lot-more">
+    <a class="btn ghost" href="../san-day.html#quy-trinh">Quy trình làm bột</a>
+    <a class="btn ghost" href="../cam-duong-canh.html#quy-trinh">Mùa cam</a>
+    <a class="btn ghost" href="../en/wholesale.html">Wholesale &amp; export</a>
+  </div>
+</main>
+<script src="../assets/track.js"></script>
+<script>
+(function(){
+  var f = document.getElementById("f"), inp = document.getElementById("ma"), out = document.getElementById("out"), data = null;
+  function vn(s){ var p = s.split("-"); return p[2] + "/" + p[1] + "/" + p[0]; }
+  function esc(s){ return String(s).replace(/[&<>"]/g, function(c){ return {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]; }); }
+  function show(code){
+    code = (code || "").trim().toUpperCase();
+    if (!code){ out.innerHTML = ""; return; }
+    var l = (data && data.lots || []).filter(function(x){ return x.lot === code; })[0];
+    if (!l){
+      out.innerHTML = '<div class="lot-msg">Chưa tìm thấy lô <b>' + esc(code) + '</b>. Lô vừa làm có thể chưa được cập nhật lên web. Nhắn <a class="tlink" href="https://zalo.me/0979502000">Zalo 0979 502 000</a> để nhà mình kiểm tra giúp.<br><span class="en">Lot not found yet. Please contact <a class="tlink" href="mailto:hello@thehungorganic.com">hello@thehungorganic.com</a>.</span></div>';
+      return;
+    }
+    var cam = l.kind === "CAM";
+    var name = cam ? "Cam Đường Canh" : (l.kind === "SD" ? "Tinh Bột Sắn Dây" : esc(l.product));
+    var en = cam ? "Canh mandarins" : "Kudzu root starch";
+    var rows = '<dt>Số lô · Lot</dt><dd class="code">' + esc(l.lot) + '</dd>' +
+      '<dt>' + (cam ? "Ngày hái · Picked" : "Ngày sản xuất · Produced") + '</dt><dd>' + vn(l.made) + '</dd>' +
+      (l.expires ? '<dt>Hạn sử dụng · Best before</dt><dd>' + vn(l.expires) + '</dd>' : "") +
+      '<dt>Nơi làm · Origin</dt><dd>Xã Vũ Lăng, Lạng Sơn, Việt Nam</dd>' +
+      '<dt>Đơn vị · Producer</dt><dd>Hợp tác xã Thế Hưng Organic</dd>';
+    var how = cam ? "Hái tay khi quả chín trên cây, phân loại và đóng thùng trong ngày. <span class=\"en\">Hand-picked when ripe, sorted and boxed the same day.</span>"
+                  : "Củ đào về rửa, nghiền, lọc và lắng bằng tay nhiều lượt, sấy lò nhiều tầng, không tẩy trắng. <span class=\"en\">Washed, crushed, hand-filtered several times, oven-dried; no bleaching.</span>";
+    out.innerHTML = '<div class="lot-card"><div class="hd"><b>' + name + '</b>' + en + '</div><dl>' + rows + '</dl><p class="steps-mini">' + how + '</p></div>';
+    if (window.thocTrack) thocTrack("tra-cuu-lo/" + l.lot);
+  }
+  f.addEventListener("submit", function(e){ e.preventDefault(); show(inp.value); history.replaceState(null, "", "?ma=" + encodeURIComponent(inp.value.trim().toUpperCase())); });
+  var q = new URLSearchParams(location.search).get("ma");
+  if (q) inp.value = q.toUpperCase();
+  fetch("lots.json", { cache: "no-store" }).then(function(r){ return r.json(); }).then(function(j){ data = j; if (q) show(q); })
+    .catch(function(){ out.innerHTML = '<div class="lot-msg">Không tải được dữ liệu lô. Vui lòng thử lại sau. <span class="en">Could not load batch data; please try again.</span></div>'; });
+})();
+</script>
+</body>
+</html>

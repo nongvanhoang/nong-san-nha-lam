@@ -19,7 +19,8 @@ Thư mục `png/` chỉ dùng để xem trước, không gửi in.
 
 - **Số tự công bố sản phẩm**: điền vào `SO_TCB` ở đầu `scripts/tao_bao_bi.js`.
 - **Mã vạch GS1**: xin mã rồi đặt vào ô đỏ "MÃ VẠCH" ở mặt sau.
-- **NSX / HSD / Số lô**: để trống có chủ đích, đóng dấu theo từng mẻ.
+- **NSX / HSD / Số lô**: để trống có chủ đích, đóng dấu theo từng mẻ hoặc dán tem lô in từ `scripts/ma_lo.py tem <mã>`.
+- **QR mặt sau** (từ 2026-10-27) dẫn tới thehungorganic.com/lo/ (tra cứu số lô). QR cũ trỏ tên miền cũ, đã thay — in bản PDF mới.
 
 ## Đã bỏ so với bản gốc, và lý do
 

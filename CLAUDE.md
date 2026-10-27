@@ -38,6 +38,10 @@
   + bản in `en/spec-sheet.html` dựng từ `EXPORT_SPEC`/`EXPORT_QA` trong `scripts/tao_trang_noi_dung.py`; sửa xong
   chạy lại script rồi xuất lại PDF `docs/assets/thoc-kudzu-root-starch-spec-sheet.pdf` (Chrome headless, A4, 1 trang).
   Form xin mẫu gửi qua FormSubmit về hello@ (cần kích hoạt 1 lần, chung với dat-truoc).
+- **Mã lô + QR truy xuất (2026-10-27)**: `next_batch_id()` trong nsn_core giờ đặt mã `SD-YYMMDD-NN` / `CAM-YYMMDD-NN`.
+  `scripts/ma_lo.py` (xuat → docs/lo/lots.json chỉ gồm mã/sản phẩm/ngày/HSD, KHÔNG số lượng; tem <mã> → tờ tem A4 có QR
+  `/lo/?ma=`; qr-bao-bi → QR cố định trên bao bì). Trang tra cứu song ngữ `docs/lo/index.html`. QR cũ trên bao bì trỏ
+  nongsannhalam.com → đã thay. Cách dùng cho chủ shop: HUONG_DAN_KHAI_THAC.md mục 10.
 - **Xuất PDF/ảnh bằng Chrome headless**: khi Chrome của người dùng đang mở, PHẢI thêm
   `--user-data-dir=<thư mục scratchpad riêng>`, và đường dẫn `--print-to-pdf`/`--screenshot` phải là đường dẫn
   ĐẦY ĐỦ (đường dẫn tương đối bị ghi sai chỗ, lệnh vẫn báo thành công) — gặp thật 2026-10-19.

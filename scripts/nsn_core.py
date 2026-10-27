@@ -193,13 +193,24 @@ def add_expense(*, date_str=None, category, amount, note=""):
     return row
 
 
-def next_batch_id(product: str) -> str:
-    prefix = "".join(w[0] for w in product.upper().split())[:3] or "SP"
-    count = 0
-    for row in load_rows(PRODUCTION_CSV):
-        if row.get("product") == product:
-            count += 1
-    return f"{prefix}-{count + 1:03d}"
+def batch_prefix(product: str) -> str:
+    low = product.lower()
+    if "sắn" in low or "san day" in low:
+        return "SD"
+    if "cam" in low:
+        return "CAM"
+    return "".join(w[0] for w in product.upper().split())[:3] or "SP"
+
+
+def next_batch_id(product: str, date_str: str = None) -> str:
+    # Mã lô in trên tem + tra cứu ở thehungorganic.com/lo/ (scripts/ma_lo.py): SD-261027-01 = sắn dây, mẻ 1 ngày 27/10/2026
+    d = parse_date(date_str) or date.today()
+    stem = f"{batch_prefix(product)}-{d:%y%m%d}-"
+    used = {row.get("batch_id", "") for row in load_rows(PRODUCTION_CSV)}
+    n = 1
+    while f"{stem}{n:02d}" in used:
+        n += 1
+    return f"{stem}{n:02d}"
 
 
 def add_batch(*, date_str=None, product, quantity, unit="kg", batch_id=None, note=""):
@@ -208,7 +219,7 @@ def add_batch(*, date_str=None, product, quantity, unit="kg", batch_id=None, not
     if quantity is None or quantity == "":
         raise ValueError("Thiếu sản lượng")
     quantity = float(quantity)
-    batch_id = batch_id or next_batch_id(product)
+    batch_id = batch_id or next_batch_id(product, date_str)
     row = {
         "date": date_str or date.today().isoformat(),
         "product": product,

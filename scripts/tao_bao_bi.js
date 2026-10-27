@@ -20,9 +20,10 @@ const LOGO_TRON = url(path.join(ROOT, 'content/kenh_assets/logo-tron/logo-tron-d
 const SO_TCB = null;      // số tự công bố sản phẩm
 const MA_VACH = null;     // đã có mã vạch GS1 chưa
 
-const qrSrc = fs.readFileSync(path.join(ROOT, 'content/nhan_bao_bi/nhan-say-day-500g.svg'), 'utf8');
-const QR = qrSrc.match(/<path d="(M2,2H3[^"]+)"/)[1];
-const qr = `<svg class="qr" viewBox="0 0 37 37"><rect width="37" height="37" fill="#fff"/><path d="${QR}" fill="#000"/></svg>`;
+// QR cố định → thehungorganic.com/lo/ (tra cứu số lô đóng dấu trên bao). Tạo bằng: python scripts/ma_lo.py qr-bao-bi
+// (QR cũ lấy từ nhãn nhan-say-day-500g.svg trỏ về tên miền cũ nongsannhalam.com — đã thay 2026-10-27.)
+const qr = fs.readFileSync(path.join(ROOT, 'content/nhan_bao_bi/qr-tra-cuu-lo.svg'), 'utf8')
+  .replace('<svg xmlns="http://www.w3.org/2000/svg"', '<svg class="qr"');
 
 const ICON = {
   la: '<path d="M12 21v-9M12 14C12 9.5 9 7 4 7c0 4.5 3 7 8 7zM12 11.5c0-4.5 3-7.5 8-7.5 0 4.5-3 7.5-8 7.5z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>',
@@ -164,7 +165,7 @@ function back({ weight }) {
       </div>
     </div>
     <div style="width:15.5cqw;height:15.5cqw;${MA_VACH ? '' : 'border:.3cqw dashed #c0281b;'}display:flex;align-items:center;justify-content:center;text-align:center;font-size:1.6cqw;color:#c0281b;font-weight:700">${MA_VACH ? '' : 'MÃ VẠCH<br>(GS1)'}</div>
-    <div style="text-align:center;font-size:1.4cqw;font-weight:600">${qr.replace('class="qr"', 'style="width:14cqw;height:14cqw"')}<div style="margin-top:.5cqw">Quét xem nguồn gốc</div></div>
+    <div style="text-align:center;font-size:1.4cqw;font-weight:600">${qr.replace('class="qr"', 'style="width:14cqw;height:14cqw"')}<div style="margin-top:.5cqw">Quét tra cứu số lô</div></div>
   </div>
 </div>`;
 }
