@@ -470,7 +470,7 @@ def p_ship():
 
 
 TET_QA = [
-    ("Khi nào giao quà Tết?", "Cam Đường Canh thu hoạch khoảng tháng 11 âm lịch đến tháng 1 năm sau. Khi xác nhận đơn, nhà mình hẹn ngày giao cụ thể với bạn, ưu tiên giao trước Tết."),
+    ("Khi nào giao quà Tết?", "Cam Đường Canh thu hoạch khoảng tháng 11 âm lịch đến tháng 1 năm sau. Khi xác nhận đơn, nhà mình hẹn ngày giao cụ thể với bạn, ưu tiên giao trước Tết. Đặt trước 26/01/2027 để chắc chắn kịp nhận trước Tết."),
     ("Giá gói quà bao nhiêu?", "Giá gói quà nhà mình báo khi nhắn lại, vì còn tuỳ số lượng và nơi giao. Giá lẻ để tham khảo: cam thùng 5kg " + C5 + ", thùng 10kg " + C10 + "; sắn dây túi 0,5kg " + P05 + ", túi 1kg " + P1 + "."),
     ("Đặt nhiều gửi nhiều địa chỉ được không?", "Được. Với quà biếu công ty, bạn gửi danh sách địa chỉ, nhà mình báo giá và phí ship riêng cho từng nơi."),
     ("Cam bị dập khi giao thì sao?", "Quay video lúc mở thùng, báo Zalo trong 24 giờ, nhà mình gửi bù hoặc hoàn tiền phần hư."),
@@ -489,6 +489,7 @@ def p_tet():
         <div class="txt">
           <h2 id="t-tet">Chọn gói quà</h2>
           <p>Mỗi gói gồm Cam Đường Canh hái đúng mùa và Tinh Bột Sắn Dây của hợp tác xã. Đặt trước để được giữ hàng, chưa cần thanh toán.</p>
+          <p><strong>Hạn đặt để kịp nhận trước Tết: 26/01/2027.</strong> Sau ngày này các hãng vận chuyển nghỉ Tết, nhà mình vẫn nhận đơn nhưng không chắc giao kịp.</p>
           <div class="packs">
             <div class="pack"><div><b>Gói nhỏ</b><small>Cam 5kg + Sắn Dây 0,5kg</small></div><span class="p">Nhắn báo giá</span></div>
             <div class="pack"><div><b>Gói lớn</b><small>Cam 10kg + Sắn Dây 1kg</small></div><span class="p">Nhắn báo giá</span></div>
