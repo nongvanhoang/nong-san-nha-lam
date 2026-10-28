@@ -396,7 +396,7 @@ def p_about():
     <h2>Cam Đường Canh đạt VietGAP</h2>
     <p>Vườn cam của hợp tác xã đạt <strong>chứng nhận VietGAP số 112/CN-TĐC-TT-20-0012</strong>, theo tiêu chuẩn TCVN 11892-1:2017, do Công ty Cổ phần Khoa học và Công nghệ NATEK cấp ngày 23/12/2025, hiệu lực đến 22/12/2028. Giấy chứng nhận ghi tên cũ của hợp tác xã là <em>Hợp tác xã Cây Ăn Quả Nhung Giang</em> (đã đổi tên thành Hợp tác xã Thế Hưng Organic).</p>
     <p>Cam chỉ hái khi đã chín trên cây, mùa thu hoạch khoảng tháng 11 âm lịch đến tháng 1 năm sau. Ngoài mùa, nhà mình nhận đặt trước và báo khi có hàng.</p>
-    {figure("cam-hai-1000.webp", "Thu hoạch cam trong vườn của hợp tác xã", 1000, 750)}
+    {figure("cam-vuon-toan-canh-900.webp", "Toàn cảnh vườn Cam Đường Canh của hợp tác xã dưới chân núi đá Vũ Lăng", 900, 676)}
 
     <h2>Điều nhà mình cam kết</h2>
     <ul>
