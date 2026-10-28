@@ -469,6 +469,73 @@ def p_ship():
     return f, html
 
 
+def p_review():
+    # Khách thật tự viết đánh giá → FormSubmit gửi về hello@. Claude chép nguyên văn vào data/testimonials.json
+    # khi chủ shop duyệt; KHÔNG tự hiện lên web, KHÔNG gắn AggregateRating cho tới khi có đủ đánh giá thật ở đây.
+    f = "viet-danh-gia.html"
+    t = "Viết đánh giá"
+    d = "Đã mua Tinh Bột Sắn Dây hoặc Cam Đường Canh của Thế Hưng Organic? Để lại vài dòng nhận xét cho người mua sau."
+    star = "".join(f'<input type="radio" name="so_sao" id="s{n}" value="{n}"{" required" if n == 5 else ""}><label for="s{n}" title="{n} sao">★</label>' for n in range(5, 0, -1))
+    body = f"""
+    <style>
+      .rv label.t{{display:block;font-weight:600;margin:18px 0 6px}}
+      .rv input[type=text],.rv input[type=tel],.rv select,.rv textarea{{width:100%;font:inherit;padding:12px 14px;border:1px solid #cfc8b8;border-radius:12px;background:#fff}}
+      .rv textarea{{min-height:140px}}
+      .rv .stars{{display:inline-flex;flex-direction:row-reverse;gap:4px}}
+      .rv .stars input{{position:absolute;opacity:0;width:1px;height:1px}}
+      .rv .stars label{{font-size:38px;line-height:1;color:#d6cfbf;cursor:pointer}}
+      .rv .stars input:checked~label,.rv .stars label:hover,.rv .stars label:hover~label{{color:#e8a317}}
+      .rv .stars input:focus-visible+label{{outline:2px solid var(--green-d);border-radius:4px}}
+      .rv .ok{{display:none;padding:18px;border-radius:14px;background:#eef5ec;margin-top:20px}}
+      .rv small{{color:var(--muted)}}
+    </style>
+    <p>Bạn đã mua Tinh Bột Sắn Dây hoặc Cam Đường Canh của nhà mình? Vài dòng thật lòng của bạn giúp người mua sau yên tâm hơn, và giúp nhà mình làm tốt hơn. Khen hay chê đều được.</p>
+    <form class="rv" id="rv" novalidate>
+      <label class="t" for="sp">Bạn đã mua gì?</label>
+      <select id="sp" name="san_pham" required>
+        <option value="">Chọn sản phẩm</option>
+        <option>Tinh Bột Sắn Dây</option>
+        <option>Cam Đường Canh</option>
+        <option>Cả hai</option>
+      </select>
+      <span class="t" style="display:block;font-weight:600;margin:18px 0 6px" id="lb-sao">Chấm mấy sao?</span>
+      <div class="stars" role="radiogroup" aria-labelledby="lb-sao">{star}</div>
+      <label class="t" for="nx">Nhận xét của bạn</label>
+      <textarea id="nx" name="nhan_xet" required maxlength="1500" placeholder="Ví dụ: bột mịn, pha không vón; cam ngọt, giao 2 ngày..."></textarea>
+      <label class="t" for="ten">Tên hiển thị</label>
+      <input type="text" id="ten" name="ten" maxlength="60" required placeholder="Ví dụ: Chị Lan, Hà Nội">
+      <label class="t" for="sdt">Số điện thoại lúc đặt hàng <small>(không đăng lên web, chỉ để nhà mình đối chiếu đơn)</small></label>
+      <input type="tel" id="sdt" name="so_dien_thoai" maxlength="20" inputmode="tel">
+      <label style="display:flex;gap:10px;align-items:flex-start;margin-top:18px"><input type="checkbox" name="dong_y_dang" value="có" checked style="margin-top:5px"> <span>Đồng ý cho nhà mình đăng lời nhận xét này lên web, kèm tên hiển thị ở trên.</span></label>
+      <input type="text" name="_honey" style="display:none" tabindex="-1" autocomplete="off">
+      <p style="margin-top:22px"><button class="btn" type="submit">Gửi đánh giá</button></p>
+      <p class="err" role="alert" style="color:#b3261e"></p>
+      <div class="ok" role="status"><strong>Cảm ơn bạn!</strong> Nhà mình đã nhận được đánh giá. Nhà mình đọc từng đánh giá trước khi đăng lên web.</div>
+    </form>
+    <p style="margin-top:28px"><small>Nhà mình đăng nguyên văn, không sửa chữ, cả đánh giá chưa tốt. Đánh giá chứa thông tin cá nhân, quảng cáo hoặc không liên quan sẽ không được đăng.</small></p>
+    <script>
+    (function(){{
+      var fm = document.getElementById("rv"), err = fm.querySelector(".err"), ok = fm.querySelector(".ok"), bt = fm.querySelector("button");
+      fm.addEventListener("submit", function(e){{
+        e.preventDefault(); err.textContent = "";
+        if (!fm.san_pham.value || !fm.querySelector("input[name=so_sao]:checked") || fm.nhan_xet.value.trim().length < 5 || !fm.ten.value.trim()){{
+          err.textContent = "Bạn chọn sản phẩm, số sao, viết nhận xét và tên hiển thị giúp nhà mình nhé."; return; }}
+        var data = new FormData(fm); data.append("_subject", "Đánh giá mới trên web: " + fm.san_pham.value); data.append("_template", "table");
+        bt.disabled = true; bt.textContent = "Đang gửi...";
+        fetch("https://formsubmit.co/ajax/hello@thehungorganic.com", {{ method: "POST", body: data, headers: {{ Accept: "application/json" }} }})
+          .then(function(r){{ if (!r.ok) throw 0; ok.style.display = "block"; bt.style.display = "none";
+            if (window.thocTrack) thocTrack("gui-danh-gia"); }})
+          .catch(function(){{ bt.disabled = false; bt.textContent = "Gửi đánh giá";
+            err.innerHTML = 'Chưa gửi được. Bạn nhắn đánh giá qua <a href="https://zalo.me/0979502000">Zalo 0979 502 000</a> giúp nhà mình nhé.'; }});
+      }});
+    }})();
+    </script>"""
+    html = head(f, t, d, "home/og-share.jpg", "website") + nav(f)
+    html += phead([("index.html", "Trang chủ"), ("", "Viết đánh giá")], "Viết đánh giá", "Đã mua hàng của nhà mình? Kể cho người mua sau nghe.")
+    html += f'  <article class="article wrap">{body}\n  </article>\n</main>\n' + FOOT
+    return f, html
+
+
 TET_QA = [
     ("Khi nào giao quà Tết?", "Cam Đường Canh thu hoạch khoảng tháng 11 âm lịch đến tháng 1 năm sau. Khi xác nhận đơn, nhà mình hẹn ngày giao cụ thể với bạn, ưu tiên giao trước Tết. Đặt trước 26/01/2027 để chắc chắn kịp nhận trước Tết."),
     ("Giá gói quà bao nhiêu?", "Giá gói quà nhà mình báo khi nhắn lại, vì còn tuỳ số lượng và nơi giao. Giá lẻ để tham khảo: cam thùng 5kg " + C5 + ", thùng 10kg " + C10 + "; sắn dây túi 0,5kg " + P05 + ", túi 1kg " + P1 + "."),
@@ -814,7 +881,7 @@ footer b{{color:#173f23}}
 
 def main():
     pages = [
-        p_about(), p_ship(), p_tet(), p_si(), p_camnang(), p_about_en(), p_wholesale_en(), p_spec_sheet_en(),
+        p_about(), p_ship(), p_review(), p_tet(), p_si(), p_camnang(), p_about_en(), p_wholesale_en(), p_spec_sheet_en(),
         ("phan-biet-bot-san-day-that-gia.html", art("phan-biet-bot-san-day-that-gia.html", A_PHANBIET, buy_sd())),
         ("bot-san-day-khac-bot-nang.html", art("bot-san-day-khac-bot-nang.html", A_BOTNANG, buy_sd())),
         ("cach-nau-che-san-day.html", art("cach-nau-che-san-day.html", A_CHE, buy_sd())),
