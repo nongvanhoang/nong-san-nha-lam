@@ -552,7 +552,7 @@ def p_tet():
   <section class="tet" aria-labelledby="t-tet">
     <div class="wrap">
       <div class="box rise">
-        <div class="img"><img src="assets/v2/tet-thung-1000.webp" srcset="assets/v2/tet-thung-560.webp 560w, assets/v2/tet-thung-1000.webp 1000w" sizes="(max-width:1000px) 100vw, 50vw" alt="Thùng Cam Đường Canh xếp sẵn để gửi đi" width="1000" height="1250"></div>
+        <div class="img"><img src="assets/v2/thung-vuon-1000.webp" srcset="assets/v2/thung-vuon-560.webp 560w, assets/v2/thung-vuon-1000.webp 1000w" sizes="(max-width:1000px) 100vw, 50vw" alt="Thùng Cam Đường Canh đầy quả vừa hái, đặt giữa vườn" width="1000" height="1250"></div>
         <div class="txt">
           <h2 id="t-tet">Chọn gói quà</h2>
           <p>Mỗi gói gồm Cam Đường Canh hái đúng mùa và Tinh Bột Sắn Dây của hợp tác xã. Đặt trước để được giữ hàng, chưa cần thanh toán.</p>
