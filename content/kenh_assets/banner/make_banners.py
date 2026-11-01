@@ -116,6 +116,14 @@ BANNERS = {
     <div style="font-size:42px;color:#efe6d3">Tinh Bột Sắn Dây · Cam Đường Canh VietGAP</div>
   </div>
 </div>"""),
+ # 6b) Ảnh bìa trang công ty LinkedIn (cho khách sỉ/xuất khẩu, tiếng Anh) — logo trang đè góc trái dưới nên chữ dồn sang phải
+ "bia-linkedin-1128x191": (1128, 191, """
+<div class="bg" style="background-image:url('%(ngang)s');background-position:center 40%%"></div>
+<div class="shade" style="background:linear-gradient(90deg,rgba(10,8,6,.2) 0%%,rgba(10,8,6,.55) 30%%,rgba(10,8,6,.85) 60%%)"></div>
+<div style="position:absolute;right:48px;top:0;bottom:0;width:760px;display:flex;flex-direction:column;justify-content:center;text-align:right">
+  <div class="serif" style="font-size:36px;line-height:1.05;white-space:nowrap">Kudzu Root Starch <span class="gold">from Lang Son, Vietnam</span></div>
+  <div style="font-size:17px;color:#efe6d3;margin-top:10px">Kiln-dried · No bleaching agents · Wholesale &amp; export from 100 kg</div>
+</div>"""),
  # 7) Ảnh bìa Zalo — Zalo cắt khác nhau theo máy, nên dồn hết nội dung vào giữa
  "bia-zalo-1280x720": (1280, 720, """
 <div class="bg" style="background-image:url('%(vung)s')"></div>

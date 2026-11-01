@@ -4,6 +4,8 @@
 trong `content/kenh_assets/` (bảng chi tiết ở `content/kenh_assets/HUONG_DAN_ANH_KENH.md`).
 
 Tên hiển thị chung: **Thế Hưng Organic**. Nếu kênh cho thêm phụ đề: **Sắn Dây & Cam Đường Canh Lạng Sơn**.
+Bộ đăng ký từng bước có nút chép chữ (01-11-2026): `content/dang_da_kenh/DANG_KY_KENH.html`. Chốt 6 kênh: Facebook, Zalo, TikTok, YouTube, Instagram, LinkedIn (không làm Pinterest/X/Reddit/Quora/Threads).
+
 Link chung: **https://thehungorganic.com**
 
 | Kênh | Tên tài khoản gợi ý | Ảnh đại diện | Ảnh bìa |
@@ -13,7 +15,7 @@ Link chung: **https://thehungorganic.com**
 | Instagram | @thehungorganic | `logo-tron/logo-tron-vien-1080.png` | không có |
 | TikTok | @thehungorganic | `logo-tron/logo-tron-vien-1080.png` | không có |
 | YouTube | @thehungorganic | `logo-tron/logo-tron-day-du-1080.png` | `banner/bia-youtube-2560x1440.png` |
-| LinkedIn (trang công ty, cho khách nước ngoài) | The Hung Organic Cooperative | `logo-tron/logo-tron-day-du-1080.png` | dùng tạm `banner/bia-facebook-1640x624.png` |
+| LinkedIn (trang công ty, cho khách nước ngoài) | The Hung Organic Cooperative | `logo-tron/logo-tron-day-du-1080.png` | `banner/bia-linkedin-1128x191.png` |
 
 Nếu tên @thehungorganic đã có người lấy, dùng @thehungorganic.vn, và dùng giống nhau ở mọi kênh.
 

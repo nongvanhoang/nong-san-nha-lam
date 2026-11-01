@@ -12,6 +12,7 @@ Giá trên ảnh được lấy tự động từ `data/products.json`, số đ�
 | Facebook | Ảnh bìa | `banner/bia-facebook-1640x624.png` |
 | Zalo | Ảnh bìa | `banner/bia-zalo-1280x720.png` (chữ nằm giữa vì Zalo cắt ảnh khác nhau trên mỗi máy) |
 | YouTube | Ảnh bìa kênh | `banner/bia-youtube-2560x1440.png` |
+| LinkedIn | Ảnh bìa trang công ty | `banner/bia-linkedin-1128x191.png` (tiếng Anh, chữ dồn phải vì logo đè góc trái) |
 | Shopee | Ảnh bìa shop | `banner/banner-shopee-1200x600.png` |
 | Shopee | Banner vòng xoay (trang trí shop) | `banner/shopee-vong-xoay-1-2000x1000.png`, `-2-2000x1000.png` |
 | TikTok Shop | Banner gian hàng | Chưa xác minh được khổ chuẩn. Thử dùng ảnh Shopee 1200×600 hoặc 2000×1000, rồi kiểm tra lại trong Seller Center |
