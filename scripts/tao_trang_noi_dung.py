@@ -58,6 +58,8 @@ def head(f, title, desc, img, kind="article", schema=""):
 <meta property="og:image" content="{SITE}assets/{img}">
 <meta property="og:url" content="{SITE}{f}">
 <meta name="twitter:card" content="summary_large_image">
+<link rel="icon" type="image/png" sizes="48x48" href="assets/favicon-48.png">
+<link rel="icon" type="image/png" sizes="192x192" href="assets/favicon-192.png">
 <link rel="icon" type="image/svg+xml" href="favicon.svg">
 <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png">
 <link rel="apple-touch-icon" href="apple-touch-icon.png">
@@ -835,6 +837,8 @@ def p_spec_sheet_en():
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Kudzu Root Starch: Specification Sheet — The Hung Organic Cooperative</title>
 <link rel="canonical" href="{SITE}{f}"><meta name="robots" content="noindex">
+<link rel="icon" type="image/png" sizes="48x48" href="../assets/favicon-48.png">
+<link rel="icon" type="image/png" sizes="192x192" href="../assets/favicon-192.png">
 <link rel="icon" href="../favicon.svg" type="image/svg+xml">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;600&family=Fraunces:opsz,wght@9..144,600&display=swap&subset=vietnamese" rel="stylesheet">
