@@ -56,6 +56,7 @@
   Phàn nàn đều về **cam dập/hư khi vận chuyển xa** — 1 khách nói báo shop mà không được đền: web giờ hứa "đổi mới/
   hoàn tiền nếu hư do vận chuyển", phải làm đúng. Không gắn schema AggregateRating (đánh giá từ bên thứ ba).
   Lưu ý: cam ĐÃ từng bán trên Shopee (khác ghi chú cũ "không đưa cam lên sàn").
+- **Kế hoạch tài chính 12 tháng (2026-11-02)**: `tai_chinh/KE_HOACH_TAI_CHINH_12_THANG.xlsx` (dựng bằng `tai_chinh/tao_ke_hoach_tai_chinh.py`, chạy lại sẽ GHI ĐÈ số đã điền tay) + bản trình bày Claude Docs https://claude.ai/artifact/9mYy5KAmNvJR5PaTRbST5Y. Thư mục `tai_chinh/` gitignore (repo public). Giá vốn CHƯA có — 2 ô vàng ở sheet Giả định. Sản lượng là kịch bản giả định.
 - Túi sắn dây 5kg/10kg đã thêm vào `data/products.json`, `price_vnd: null` — CHƯA đăng lên web/sàn đến
   khi người dùng báo giá.
 

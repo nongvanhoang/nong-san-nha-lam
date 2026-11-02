@@ -57,3 +57,6 @@ Tài Liệu Công Ty/
 # Bộ đăng đa kênh: video + ảnh bìa chép từ content/video/output (nặng) — chỉ giữ chữ + index.html trên repo
 content/dang_da_kenh/**/*.mp4
 content/dang_da_kenh/**/*.jpg
+
+# Kế hoạch tài chính nội bộ (repo public — không đưa lên GitHub)
+tai_chinh/
