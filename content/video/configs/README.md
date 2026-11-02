@@ -101,6 +101,12 @@ vào bước 3 rồi chạy lại script.
 - `watermark` — mặc định `true`: logo THOC tròn nhỏ góc trên phải suốt phần quy trình (thẻ kết thúc
   không có). Logo: `content/video/logo-thoc-tron.png`. Tắt bằng `"watermark": false`.
 - `narration.rate` — **tuỳ chọn**, tốc độ giọng đọc Edge-TTS, vd `"-6%"` (chậm hơn chút).
+- `narration.natural: true` (2026-11-02) — đọc có nhịp như người thật: cắt theo từng câu, chèn nghỉ
+  ngắn sau mỗi câu (`pause_short`, mặc định 0.38s) và nghỉ dài ở chỗ có dấu `|` trong `text`
+  (`pause_long`, 0.85s), `closing_sentences` câu cuối đọc chậm + trầm hơn, giọng được làm ấm + chuẩn
+  hoá âm lượng. `pitch` tuỳ chọn (vd `"-2Hz"`). Video giới thiệu trang chủ dùng giọng nam miền Bắc
+  `vi-VN-NamMinhNeural` theo cách này. Edge-TTS chỉ có 2 giọng Việt (HoaiMy nữ, NamMinh nam), cả
+  hai giọng Bắc.
 - Edge-TTS báo lỗi **403** = thư viện cũ, Microsoft đổi khoá → `python -m pip install -U edge-tts`
   (đã gặp 2026-10-19, 7.2.8 → 7.3.1 là chạy lại).
 - Dựng lại hàng loạt + xuất bản nhẹ cho website: `bash content/video/dung_lai_va_xuat_web.sh [slug...]`

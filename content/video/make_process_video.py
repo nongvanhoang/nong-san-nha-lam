@@ -27,10 +27,12 @@ Output:
 """
 import argparse
 import json
+import re
 import shutil
 import subprocess
 import sys
 import tempfile
+import time
 from pathlib import Path
 
 sys.stdout.reconfigure(encoding="utf-8", errors="replace")
@@ -146,6 +148,100 @@ def generate_narration(text, voice, out_path, rate=None):
             result.stderr[-2000:], file=sys.stderr,
         )
         sys.exit(1)
+
+
+def _edge_tts_sentences(text, voice, out_path, rate, pitch):
+    """Đọc cả đoạn trong 1 yêu cầu, trả về mốc (bắt đầu, kết thúc) giây của từng
+    câu. Gửi từng câu riêng thì máy chủ Edge-TTS hay trả "NoAudioReceived" (gặp
+    thật 2026-11-02, ~1/3 yêu cầu lỗi) — ít yêu cầu thì ổn định hơn nhiều."""
+    import asyncio
+    import edge_tts
+
+    async def once():
+        comm = edge_tts.Communicate(text, voice, rate=rate, pitch=pitch, boundary="SentenceBoundary")
+        audio, marks = bytearray(), []
+        async for chunk in comm.stream():
+            if chunk["type"] == "audio":
+                audio += chunk["data"]
+            elif chunk["type"] == "SentenceBoundary":
+                marks.append((chunk["offset"] / 1e7, (chunk["offset"] + chunk["duration"]) / 1e7))
+        return bytes(audio), marks
+
+    for attempt in range(8):
+        try:
+            audio, marks = asyncio.run(once())
+            if audio and marks:
+                out_path.write_bytes(audio)
+                return marks
+        except Exception as e:  # NoAudioReceived, mất mạng...
+            err = e
+        time.sleep(2 + attempt * 2)
+    print("edge-tts lỗi sau 8 lần thử:", err, file=sys.stderr)
+    sys.exit(1)
+
+
+def _pct(rate):
+    return int(rate.rstrip("%")) if rate else 0
+
+
+def generate_natural_narration(cfg, voice, out_path, tmp):
+    """Giọng đọc "như người thật" (2026-11-02): cắt lời đọc ra TỪNG CÂU rồi ghép lại
+    với khoảng lặng tự nhiên — nghỉ ngắn sau dấu chấm, nghỉ dài ở chỗ có dấu "|"
+    (chuyển đoạn/đổi cảnh), câu chốt cuối đọc chậm và trầm hơn. Edge-TTS đọc cả
+    bài một mạch thì đều đều như máy, tách câu làm nhịp thở rõ hơn hẳn.
+    Field config: narration.natural = true, tuỳ chọn pause_short / pause_long
+    (giây), pitch (vd "-2Hz"), closing_sentences (số câu cuối đọc chậm, mặc định 2)."""
+    rate = _pct(cfg.get("rate"))
+    pitch = cfg.get("pitch")
+    pause_short = float(cfg.get("pause_short", 0.38))
+    pause_long = float(cfg.get("pause_long", 0.85))
+    closing = int(cfg.get("closing_sentences", 2))
+
+    parts = []  # (câu, nghỉ sau câu)
+    for para in [p.strip() for p in cfg["text"].split("|") if p.strip()]:
+        sentences = [s.strip() for s in re.split(r"(?<=[.!?…])\s+", para) if s.strip()]
+        for i, s in enumerate(sentences):
+            parts.append([s, pause_long if i == len(sentences) - 1 else pause_short])
+    parts[-1][1] = 0.0
+
+    # 2 yêu cầu: thân bài (giọng thường) + câu chốt (chậm, trầm hơn)
+    closing = min(closing, len(parts) - 1)
+    groups = [(parts[:len(parts) - closing], f"{rate:+d}%", pitch or "+0Hz"),
+              (parts[len(parts) - closing:], f"{rate - 8:+d}%", "-4Hz")]
+    sr = 24000
+    list_file = tmp / "narr_concat.txt"
+    lines = []
+    trim = ("silenceremove=start_periods=1:start_threshold=-45dB,"
+            "areverse,silenceremove=start_periods=1:start_threshold=-45dB,areverse")
+    for g, (group, r, p) in enumerate(groups):
+        if not group:
+            continue
+        raw = tmp / f"narr_g{g}.mp3"
+        marks = _edge_tts_sentences(" ".join(s for s, _ in group), voice, raw, r, p)
+        if len(marks) != len(group):
+            print(f"Lưu ý: Edge-TTS tách {len(marks)} câu, script tách {len(group)} câu — "
+                  f"nghỉ dài có thể lệch chỗ.", file=sys.stderr)
+        total = ffprobe_duration(raw)
+        for i, (start, end) in enumerate(marks):
+            # cắt ở giữa khoảng lặng giữa 2 câu để không xén mất âm cuối câu
+            a = 0.0 if i == 0 else (marks[i - 1][1] + start) / 2
+            b = total if i == len(marks) - 1 else (end + marks[i + 1][0]) / 2
+            pause = group[min(i, len(group) - 1)][1]
+            if g == 0 and i == len(marks) - 1:
+                pause = max(pause, pause_long)
+            if g == len(groups) - 1 and i == len(marks) - 1:
+                pause = 0.0
+            wav = tmp / f"narr_{g}_{i:02d}.wav"
+            pad = f",apad=pad_dur={pause:.2f}" if pause else ""
+            run(["ffmpeg", "-y", "-ss", f"{a:.3f}", "-to", f"{b:.3f}", "-i", str(raw),
+                 "-af", trim + pad, "-ar", str(sr), "-ac", "1", str(wav)])
+            lines.append(f"file '{wav.as_posix()}'")
+    list_file.write_text("\n".join(lines), encoding="utf-8")
+    # ghép + làm ấm giọng nhẹ (bớt rè tần thấp, nâng thân giọng) + chuẩn hoá âm lượng
+    run(["ffmpeg", "-y", "-f", "concat", "-safe", "0", "-i", str(list_file),
+         "-af", "adelay=250,highpass=f=70,equalizer=f=180:t=q:w=1:g=2,"
+                "equalizer=f=3500:t=q:w=1.5:g=1.5,loudnorm=I=-16:TP=-1.5:LRA=11",
+         "-ar", "44100", "-c:a", "libmp3lame", "-b:a", "160k", str(out_path)])
 
 
 def trim_clip(src, start, duration, out_path, motion="zoom"):
@@ -361,7 +457,11 @@ def build_video(config):
         if narration_cfg:
             narration_path = tmp / "narration.mp3"
             voice = narration_cfg.get("voice", DEFAULT_VOICE)
-            generate_narration(narration_cfg["text"], voice, narration_path, rate=narration_cfg.get("rate"))
+            if narration_cfg.get("natural"):
+                generate_natural_narration(narration_cfg, voice, narration_path, tmp)
+            else:
+                generate_narration(narration_cfg["text"].replace("|", " "), voice, narration_path,
+                                   rate=narration_cfg.get("rate"))
             narration_duration = ffprobe_duration(narration_path)
             needed_total = narration_duration + 0.3  # đệm nhỏ để lời đọc không bị cắt cụt
             if needed_total > body_duration + end_card_duration:
