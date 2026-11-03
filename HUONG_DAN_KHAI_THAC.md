@@ -150,3 +150,11 @@ Khách (nhất là khách nước ngoài) quét QR trên túi → thấy lô đ�
 
 Bao bì mới đã in sẵn 1 QR cố định "Quét tra cứu số lô" → trang /lo/, khách gõ số lô in trên túi là xem được.
 HSD sắn dây trên tem = NSX + 24 tháng (chủ shop báo 2–3 năm, in mức thấp). Cam là quả tươi: tem ghi ngày hái, không ghi HSD.
+
+## Kế hoạch tài chính + so với thực tế (2026-11-02/03)
+
+- File `tai_chinh/KE_HOACH_TAI_CHINH_12_THANG.xlsx` (không lên GitHub). Sheet đầu **«Tổng quan cho sếp»**: con số chính, sếp nhận/kg ở giá đang bán, giá đề xuất, 10 việc cần chốt (in vừa 1 trang ngang).
+- **«Tính giá bán»**: điền 2 ô vàng (sếp muốn nhận/kg) → giá bán từng kênh; mục 3 chọn sản phẩm + kênh xem 1 đơn chia cho ai bao nhiêu.
+- **«Kế hoạch vs Thực tế»**: tự điền doanh thu, số đơn, kg, tiền quảng cáo từ sổ đơn + sổ chi phí mỗi sáng thứ Hai (trong bản tin tuần). Muốn cập nhật ngay: đóng Excel, chạy `C:/Users/Admin/AppData/Local/Python/bin/python.exe tai_chinh/cap_nhat_thuc_te.py`.
+- Tiền quảng cáo phải ghi vào tab **Chi phí** (hạng mục Quảng cáo) thì mới tính được quảng cáo/đơn.
+- Dựng lại cả file: `tai_chinh/tao_ke_hoach_tai_chinh.py` — GHI ĐÈ mọi số đã gõ tay trong Excel, sao lưu trước.

@@ -15,5 +15,9 @@ set PY="C:\Users\Admin\AppData\Local\Python\bin\python.exe"
     echo ================================
     echo.
     %PY% scripts\weekly_report.py --khach-quen
+    echo.
+    echo ================================
+    echo KE HOACH vs THUC TE - dien so that vao tai_chinh\KE_HOACH_TAI_CHINH_12_THANG.xlsx
+    %PY% tai_chinh\cap_nhat_thuc_te.py
 )
 start "" notepad.exe "BAO_CAO_TUAN.txt"

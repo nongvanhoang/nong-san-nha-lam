@@ -15,6 +15,8 @@ mới có **1 ô ✅**, mọi bài từ 08/09 đều chưa đăng. Viết thêm 
 - **15 phút mỗi sáng**: mở app quản lý → tab "Bán hàng hôm nay" → copy → đăng FB + Zalo → bấm "Đã đăng".
 - Bỏ lỡ ngày nào thì **đăng bài của ngày đó luôn hôm sau**, không cố đuổi bù cả tuần.
 
+**Quảng cáo trả tiền (thêm 2026-11-03)**: kế hoạch Facebook đặt trước cam, ngân sách và quy tắc dừng ở `QUANG_CAO_DAT_TRUOC_CAM.md`.
+
 ## 1. Lịch chiến dịch
 
 | Giai đoạn | Thời gian | Mục tiêu | Việc chính |

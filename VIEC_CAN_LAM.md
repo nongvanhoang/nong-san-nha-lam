@@ -21,6 +21,7 @@ việc nào chặn việc nào. Cập nhật lại file này (tick `[x]`) mỗi 
   `CHIEN_DICH_TET_2027.md` mục 2, chỉ cần báo giá 1 hộp trơn thật + "duyệt" để điền lên web và Bài A/B.
 - [ ] **Bài D đếm ngược Tết — đăng 21/01/2027** (thêm 2026-10-10) — hạn chốt đơn đề xuất 26/01/2027, bài có
   sẵn trong `content/posts_ready.md`; kiểm tra lịch Tết của hãng vận chuyển trước khi đăng.
+- [ ] **Quảng cáo Facebook đặt trước cam (bắt đầu 15/11/2026)** (thêm 2026-11-03) — làm theo `QUANG_CAO_DAT_TRUOC_CAM.md`: cần Trang Facebook + tài khoản quảng cáo trước; 100.000đ/ngày; ghi tiền quảng cáo vào tab Chi phí mỗi tuần để sheet «Kế hoạch vs Thực tế» tính được tiền quảng cáo/đơn (dừng nếu > 74.000đ/đơn).
 - [ ] **Chiến dịch Mùa Cam & Tết 2027** (thêm 2026-09-30) — lịch 5 giai đoạn, hộp quà Tết, 4 bài mới, cách đo ở
   **`CHIEN_DICH_TET_2027.md`**. Việc tuần này: đăng bài "hẹn báo hàng mùa cam" + chốt có làm hộp quà Tết không.
   Khách hẹn báo hàng → ghi vào `data/danh_sach_cho.csv` (file riêng tư, không lên GitHub).
