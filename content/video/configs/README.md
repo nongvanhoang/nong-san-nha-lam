@@ -106,7 +106,17 @@ vào bước 3 rồi chạy lại script.
   (`pause_long`, 0.85s), `closing_sentences` câu cuối đọc chậm + trầm hơn, giọng được làm ấm + chuẩn
   hoá âm lượng. `pitch` tuỳ chọn (vd `"-2Hz"`). Video giới thiệu trang chủ dùng giọng nam miền Bắc
   `vi-VN-NamMinhNeural` theo cách này. Edge-TTS chỉ có 2 giọng Việt (HoaiMy nữ, NamMinh nam), cả
-  hai giọng Bắc.
+  hai giọng Bắc. **Từ 2026-11-03 mọi video tiếng Việt có lời đọc đều dùng NamMinh + natural.**
+- `narration.align` (2026-11-03) — mỗi đoạn `|` trong `text` 1 mốc `clip_index` (hoặc `"end"` = thẻ
+  kết thúc): đoạn lời chờ đúng cảnh của nó mới đọc (`lead` = nói sau khi cảnh hiện bao giây, mặc định
+  0.4). Đoạn dài hơn cảnh thì script báo "vào trễ cảnh" — rút bớt chữ.
+- `narration.recorded` (2026-11-03) — thư mục file thu âm giọng người thật `doan-1.*`, `doan-2.*`…
+  (mỗi đoạn `|` 1 file), thay hẳn giọng máy; tự lọc ồn + đặt theo `align`. Hướng dẫn thu:
+  `content/video/THU_AM_GIONG_THAT.md`.
+- **`--chi-am-thanh`** — chỉ làm lại lời đọc + nhạc, giữ nguyên hình của `output/<slug>.mp4` (vài
+  chục giây thay vì 10+ phút, không hết RAM). Dùng mỗi khi chỉ đổi giọng/lời. Sau đó xuất bản web như
+  trong `dung_lai_va_xuat_web.sh` (đoạn ffmpeg scale). Bản dựng đầy đủ trên máy 4GB từng lỗi
+  "Cannot allocate memory" (2026-11-02) — đóng bớt Chrome trước khi dựng đầy đủ.
 - Edge-TTS báo lỗi **403** = thư viện cũ, Microsoft đổi khoá → `python -m pip install -U edge-tts`
   (đã gặp 2026-10-19, 7.2.8 → 7.3.1 là chạy lại).
 - Dựng lại hàng loạt + xuất bản nhẹ cho website: `bash content/video/dung_lai_va_xuat_web.sh [slug...]`

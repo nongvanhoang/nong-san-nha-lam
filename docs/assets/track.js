@@ -25,4 +25,22 @@
     else if (h.indexOf("dat-truoc.html") > -1) thocTrack("bam-dat-hang/" + page);
     else if (h.indexOf("shopee.vn") > -1) thocTrack("bam-shopee/" + page);
   }, true);
+
+  // Đếm lượt bấm xem video + lượt xem gần hết (≥75%), mỗi video 1 lần/lượt tải trang.
+  // Bỏ qua video nền tự chạy (aria-hidden) — chỉ đếm video khách tự bấm.
+  function vname(v){
+    var src = v.currentSrc || v.getAttribute("src") || "";
+    return src.split("/").pop().replace(/\.mp4.*$/, "");
+  }
+  document.addEventListener("play", function(e){
+    var v = e.target;
+    if (!v || v.tagName !== "VIDEO" || v.getAttribute("aria-hidden") === "true" || v._thocPlay) return;
+    v._thocPlay = true;
+    thocTrack("xem-video/" + vname(v));
+  }, true);
+  document.addEventListener("timeupdate", function(e){
+    var v = e.target;
+    if (!v || v.tagName !== "VIDEO" || !v._thocPlay || v._thocDone || !v.duration) return;
+    if (v.currentTime / v.duration >= 0.75) { v._thocDone = true; thocTrack("xem-het-video/" + vname(v)); }
+  }, true);
 })();

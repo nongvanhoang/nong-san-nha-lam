@@ -71,7 +71,12 @@
   ],
   "narration": {
     "text": "Đây là nương sắn dây nhà mình, nằm giữa mấy quả núi đá vôi, sáng nào cũng mát rượi thế này. Dây leo phủ kín cả luống, quấn lấy từng sợi dây căng, cứ thế lớn dần suốt mấy tháng trời. Đứng giữa nương nhìn ra, toàn một màu xanh, đẹp đến mức nhiều khi mình cũng phải dừng lại ngắm một lúc. Còn vài tháng nữa mới đến ngày đào, giờ thì cứ để cây leo cho khoẻ đã.",
-    "voice": "vi-VN-HoaiMyNeural"
+    "voice": "vi-VN-NamMinhNeural",
+    "natural": true,
+    "pitch": "-2Hz",
+    "pause_short": 0.3,
+    "pause_long": 0.6,
+    "closing_sentences": 1
   },
   "music": {
     "file": "content/video/music/morning-garden-acoustic-chill.mp3",

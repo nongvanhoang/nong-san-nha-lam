@@ -97,7 +97,12 @@
   ],
   "narration": {
     "text": "Trước khi thành túi tinh bột trắng mịn các bạn hay mua, mọi thứ bắt đầu từ giàn sắn dây xanh um trên nương nhà mình đây. Đến mùa, cả nhà ra đào nguyên gốc lên, rửa sạch đất cát rồi đưa vào máy nghiền, ép lấy nước bột. Nước bột đó phải khuấy đều rồi để lắng cả mấy tiếng đồng hồ, không vội được đâu. Lắng xong mới nặn thành từng miếng, đưa vào lò sấy nhiều tầng, cài nhiệt rồi đợi đến khi khô hẳn, không pha thêm bất cứ thứ gì. Đấy, cả một hành trình dài, từ một gốc củ trên nương, thành túi tinh bột nhà mình làm bằng tay, từng chút một.",
-    "voice": "vi-VN-HoaiMyNeural"
+    "voice": "vi-VN-NamMinhNeural",
+    "natural": true,
+    "pitch": "-2Hz",
+    "pause_short": 0.3,
+    "pause_long": 0.6,
+    "closing_sentences": 1
   },
   "music": {
     "file": "content/video/music/warm-acoustic-music.mp3",

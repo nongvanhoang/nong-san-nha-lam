@@ -162,8 +162,13 @@
   ],
   "narration": {
     "text": "Giữa núi đá vôi Bắc Sơn, Hợp tác xã Thế Hưng Organic trồng sắn dây trên chính quê mình. Đến mùa, củ được đào tận gốc, cân ngay tại xưởng, rửa sạch rồi nghiền lấy nước bột. Bột được khuấy, lắng, lọc nhiều lượt, nặn thành bánh, rồi sấy trong lò cài nhiệt độ. Không hoá chất, không tẩy trắng, ra lò là đóng túi. Cùng với Cam Đường Canh VietGAP, chín tự nhiên trên cây, đóng thùng cẩn thận, giao khắp cả nước. Thế Hưng Organic. Nông sản thật, từ vùng núi Bắc Sơn.",
-    "voice": "vi-VN-HoaiMyNeural",
-    "rate": "-2%"
+    "voice": "vi-VN-NamMinhNeural",
+    "rate": "-2%",
+    "natural": true,
+    "pitch": "-2Hz",
+    "pause_short": 0.3,
+    "pause_long": 0.6,
+    "closing_sentences": 1
   },
   "music": {
     "file": "content/video/music/warm-acoustic-music.mp3",

@@ -71,7 +71,12 @@
   ],
   "narration": {
     "text": "Củ này vừa đào lên đấy, đất còn dính nguyên chưa kịp rửa. Để cạnh cái đồng hồ cho dễ hình dung, chứ không nói chắc chẳng ai tin nó to đến vậy đâu. Trước khi đưa vào nghiền, mình phải rửa tay từng chút một, kỳ cho sạch hết đất cát mới yên tâm được.",
-    "voice": "vi-VN-HoaiMyNeural"
+    "voice": "vi-VN-NamMinhNeural",
+    "natural": true,
+    "pitch": "-2Hz",
+    "pause_short": 0.3,
+    "pause_long": 0.6,
+    "closing_sentences": 1
   },
   "music": {
     "file": "content/video/music/warm-acoustic-music.mp3",

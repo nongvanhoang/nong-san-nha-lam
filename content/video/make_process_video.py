@@ -184,24 +184,54 @@ def _pct(rate):
     return int(rate.rstrip("%")) if rate else 0
 
 
-def generate_natural_narration(cfg, voice, out_path, tmp):
+def clip_offsets(durations):
+    """Mốc bắt đầu (giây) của từng clip sau crossfade — cùng công thức với
+    crossfade_sequence(), dùng được khi không dựng lại hình."""
+    offsets, cum = [], 0.0
+    for i, d in enumerate(durations):
+        offsets.append(cum - i * TRANSITION_SECONDS if i else 0.0)
+        cum += d
+    return offsets
+
+
+def narration_anchors(config):
+    """narration.align = danh sách clip_index (hoặc "end" = thẻ kết thúc), mỗi
+    đoạn "|" trong text 1 mốc → đổi ra giây. Không có align thì trả None."""
+    align = (config.get("narration") or {}).get("align")
+    if not align:
+        return None
+    durations = [c["duration"] for c in config["clips"]]
+    offsets = clip_offsets(durations)
+    body = offsets[-1] + durations[-1]
+    return [body if a == "end" else offsets[a] for a in align]
+
+
+def generate_natural_narration(cfg, voice, out_path, tmp, anchors=None):
     """Giọng đọc "như người thật" (2026-11-02): cắt lời đọc ra TỪNG CÂU rồi ghép lại
     với khoảng lặng tự nhiên — nghỉ ngắn sau dấu chấm, nghỉ dài ở chỗ có dấu "|"
     (chuyển đoạn/đổi cảnh), câu chốt cuối đọc chậm và trầm hơn. Edge-TTS đọc cả
     bài một mạch thì đều đều như máy, tách câu làm nhịp thở rõ hơn hẳn.
     Field config: narration.natural = true, tuỳ chọn pause_short / pause_long
-    (giây), pitch (vd "-2Hz"), closing_sentences (số câu cuối đọc chậm, mặc định 2)."""
+    (giây), pitch (vd "-2Hz"), closing_sentences (số câu cuối đọc chậm, mặc định 2).
+    `anchors` (giây, mỗi đoạn "|" 1 mốc — từ narration_anchors()): đoạn lời nào
+    chưa tới cảnh của nó thì chờ, để lời luôn khớp hình. Đoạn dài quá cảnh thì
+    đoạn sau lùi lại (có báo)."""
     rate = _pct(cfg.get("rate"))
     pitch = cfg.get("pitch")
     pause_short = float(cfg.get("pause_short", 0.38))
     pause_long = float(cfg.get("pause_long", 0.85))
     closing = int(cfg.get("closing_sentences", 2))
+    lead = float(cfg.get("lead", 0.4))  # nói sau khi cảnh hiện ra bấy nhiêu giây
 
-    parts = []  # (câu, nghỉ sau câu)
-    for para in [p.strip() for p in cfg["text"].split("|") if p.strip()]:
+    parts = []  # (câu, nghỉ sau câu, số đoạn, là câu đầu đoạn)
+    paras = [p.strip() for p in cfg["text"].split("|") if p.strip()]
+    if anchors and len(anchors) != len(paras):
+        print(f"ERROR: narration.align có {len(anchors)} mốc nhưng text có {len(paras)} đoạn '|'.")
+        sys.exit(1)
+    for k, para in enumerate(paras):
         sentences = [s.strip() for s in re.split(r"(?<=[.!?…])\s+", para) if s.strip()]
         for i, s in enumerate(sentences):
-            parts.append([s, pause_long if i == len(sentences) - 1 else pause_short])
+            parts.append([s, pause_long if i == len(sentences) - 1 else pause_short, k, i == 0])
     parts[-1][1] = 0.0
 
     # 2 yêu cầu: thân bài (giọng thường) + câu chốt (chậm, trầm hơn)
@@ -213,34 +243,97 @@ def generate_natural_narration(cfg, voice, out_path, tmp):
     lines = []
     trim = ("silenceremove=start_periods=1:start_threshold=-45dB,"
             "areverse,silenceremove=start_periods=1:start_threshold=-45dB,areverse")
+    t = 0.0  # thời điểm hiện tại trên dòng thời gian lời đọc
+
+    def silence(sec, name):
+        wav = tmp / name
+        run(["ffmpeg", "-y", "-f", "lavfi", "-i", f"anullsrc=r={sr}:cl=mono",
+             "-t", f"{sec:.3f}", str(wav)])
+        lines.append(f"file '{wav.as_posix()}'")
+
     for g, (group, r, p) in enumerate(groups):
         if not group:
             continue
         raw = tmp / f"narr_g{g}.mp3"
-        marks = _edge_tts_sentences(" ".join(s for s, _ in group), voice, raw, r, p)
+        marks = _edge_tts_sentences(" ".join(s[0] for s in group), voice, raw, r, p)
         if len(marks) != len(group):
             print(f"Lưu ý: Edge-TTS tách {len(marks)} câu, script tách {len(group)} câu — "
-                  f"nghỉ dài có thể lệch chỗ.", file=sys.stderr)
+                  f"nghỉ dài/khớp cảnh có thể lệch chỗ.", file=sys.stderr)
         total = ffprobe_duration(raw)
         for i, (start, end) in enumerate(marks):
             # cắt ở giữa khoảng lặng giữa 2 câu để không xén mất âm cuối câu
             a = 0.0 if i == 0 else (marks[i - 1][1] + start) / 2
             b = total if i == len(marks) - 1 else (end + marks[i + 1][0]) / 2
-            pause = group[min(i, len(group) - 1)][1]
+            _, pause, para_idx, first = group[min(i, len(group) - 1)]
             if g == 0 and i == len(marks) - 1:
                 pause = max(pause, pause_long)
             if g == len(groups) - 1 and i == len(marks) - 1:
                 pause = 0.0
+            # chờ tới đúng cảnh của đoạn này (hoặc chỉ chờ "lead" ở câu đầu tiên)
+            if first and i < len(group):
+                target = (anchors[para_idx] if anchors else 0.0) + lead
+                if anchors or t == 0.0:
+                    if target > t + 0.05:
+                        silence(target - t, f"narr_wait_{g}_{i:02d}.wav")
+                        t = target
+                    elif anchors and t - target > 1.0:
+                        print(f"Lưu ý: đoạn lời {para_idx + 1} vào trễ cảnh {t - target:.1f}s "
+                              f"(đoạn trước dài hơn cảnh) — rút bớt chữ nếu muốn khớp hơn.",
+                              file=sys.stderr)
             wav = tmp / f"narr_{g}_{i:02d}.wav"
             pad = f",apad=pad_dur={pause:.2f}" if pause else ""
             run(["ffmpeg", "-y", "-ss", f"{a:.3f}", "-to", f"{b:.3f}", "-i", str(raw),
                  "-af", trim + pad, "-ar", str(sr), "-ac", "1", str(wav)])
             lines.append(f"file '{wav.as_posix()}'")
+            t += ffprobe_duration(wav)
     list_file.write_text("\n".join(lines), encoding="utf-8")
     # ghép + làm ấm giọng nhẹ (bớt rè tần thấp, nâng thân giọng) + chuẩn hoá âm lượng
     run(["ffmpeg", "-y", "-f", "concat", "-safe", "0", "-i", str(list_file),
-         "-af", "adelay=250,highpass=f=70,equalizer=f=180:t=q:w=1:g=2,"
+         "-af", "highpass=f=70,equalizer=f=180:t=q:w=1:g=2,"
                 "equalizer=f=3500:t=q:w=1.5:g=1.5,loudnorm=I=-16:TP=-1.5:LRA=11",
+         "-ar", "44100", "-c:a", "libmp3lame", "-b:a", "160k", str(out_path)])
+
+
+def generate_recorded_narration(cfg, out_path, tmp, anchors=None):
+    """Giọng NGƯỜI THẬT (2026-11-03): narration.recorded = thư mục chứa file thu
+    âm doan-1.*, doan-2.*... (m4a/mp3/wav/aac/ogg — thu bằng điện thoại), mỗi
+    đoạn "|" trong text 1 file. Tự lọc ồn nền, cắt khoảng lặng đầu/cuối, đặt
+    từng đoạn vào đúng cảnh theo narration.align, chuẩn hoá âm lượng."""
+    folder = ROOT / cfg["recorded"]
+    paras = [p.strip() for p in cfg["text"].split("|") if p.strip()]
+    files = []
+    for k in range(len(paras)):
+        found = sorted(folder.glob(f"doan-{k + 1}.*"))
+        if not found:
+            print(f"ERROR: thiếu file thu âm {folder}/doan-{k + 1}.(m4a/mp3/wav) cho đoạn: {paras[k][:60]}…")
+            sys.exit(1)
+        files.append(found[0])
+    lead = float(cfg.get("lead", 0.4))
+    gap = float(cfg.get("pause_long", 0.85))
+    sr = 44100
+    trim = ("afftdn=nf=-25,highpass=f=80,"
+            "silenceremove=start_periods=1:start_threshold=-40dB,"
+            "areverse,silenceremove=start_periods=1:start_threshold=-40dB,areverse")
+    lines, t = [], 0.0
+    for k, src in enumerate(files):
+        target = (anchors[k] if anchors else (t + gap if k else 0.0)) + (lead if anchors or k == 0 else 0)
+        if target > t + 0.05:
+            sil = tmp / f"rec_wait_{k}.wav"
+            run(["ffmpeg", "-y", "-f", "lavfi", "-i", f"anullsrc=r={sr}:cl=mono",
+                 "-t", f"{target - t:.3f}", str(sil)])
+            lines.append(f"file '{sil.as_posix()}'")
+            t = target
+        elif anchors and t - target > 1.0:
+            print(f"Lưu ý: đoạn thu âm {k + 1} vào trễ cảnh {t - target:.1f}s — đọc đoạn trước nhanh/gọn hơn.",
+                  file=sys.stderr)
+        wav = tmp / f"rec_{k}.wav"
+        run(["ffmpeg", "-y", "-i", str(src), "-af", trim, "-ar", str(sr), "-ac", "1", str(wav)])
+        lines.append(f"file '{wav.as_posix()}'")
+        t += ffprobe_duration(wav)
+    list_file = tmp / "rec_concat.txt"
+    list_file.write_text("\n".join(lines), encoding="utf-8")
+    run(["ffmpeg", "-y", "-f", "concat", "-safe", "0", "-i", str(list_file),
+         "-af", "loudnorm=I=-16:TP=-1.5:LRA=11",
          "-ar", "44100", "-c:a", "libmp3lame", "-b:a", "160k", str(out_path)])
 
 
@@ -410,6 +503,65 @@ def crossfade_sequence(segment_paths, durations, transition, out_path):
     return offsets
 
 
+def mix_audio(visual_path, narration_path, music_cfg, total_duration, out_path):
+    """Ghép âm thanh cuối lên hình đã dựng: lời đọc (nếu có) + nhạc nền (nếu có)."""
+    if narration_path and music_cfg:
+        music_src = ROOT / music_cfg["file"]
+        if not music_src.exists():
+            print(f"ERROR: không tìm thấy file nhạc nền: {music_src}")
+            sys.exit(1)
+        volume = music_cfg.get("volume", MUSIC_VOLUME_DEFAULT)
+        fade_out_start = max(0.0, total_duration - MUSIC_FADE_OUT)
+        run([
+            "ffmpeg", "-y",
+            "-i", str(visual_path), "-i", str(narration_path), "-i", str(music_src),
+            "-filter_complex",
+            (
+                f"[1:a]apad=whole_dur={total_duration}[narr];"
+                f"[2:a]atrim=0:{total_duration},asetpts=PTS-STARTPTS,"
+                f"afade=t=in:st=0:d={MUSIC_FADE_IN},"
+                f"afade=t=out:st={fade_out_start}:d={MUSIC_FADE_OUT},"
+                f"volume={volume}[music];"
+                f"[narr][music]amix=inputs=2:duration=first:dropout_transition=0:normalize=0[aout]"
+            ),
+            "-map", "0:v", "-map", "[aout]",
+            "-c:v", "copy", "-c:a", "aac", "-b:a", "160k",
+            "-movflags", "+faststart",
+            str(out_path),
+        ])
+    elif narration_path:
+        run([
+            "ffmpeg", "-y",
+            "-i", str(visual_path), "-i", str(narration_path),
+            "-map", "0:v", "-map", "1:a",
+            "-c:v", "copy", "-c:a", "aac", "-b:a", "160k",
+            "-movflags", "+faststart",
+            str(out_path),
+        ])
+    elif music_cfg:
+        music_src = ROOT / music_cfg["file"]
+        if not music_src.exists():
+            print(f"ERROR: không tìm thấy file nhạc nền: {music_src}")
+            sys.exit(1)
+        volume = music_cfg.get("volume", MUSIC_VOLUME_DEFAULT)
+        fade_out_start = max(0.0, total_duration - MUSIC_FADE_OUT)
+        run([
+            "ffmpeg", "-y",
+            "-i", str(visual_path), "-i", str(music_src),
+            "-filter_complex",
+            (
+                f"[1:a]atrim=0:{total_duration},asetpts=PTS-STARTPTS,"
+                f"afade=t=in:st=0:d={MUSIC_FADE_IN},"
+                f"afade=t=out:st={fade_out_start}:d={MUSIC_FADE_OUT},"
+                f"volume={volume}[aout]"
+            ),
+            "-map", "0:v", "-map", "[aout]",
+            "-c:v", "copy", "-c:a", "aac", "-b:a", "160k",
+            "-movflags", "+faststart",
+            str(out_path),
+        ])
+
+
 def build_video(config):
     configure_format(config.get("format", "portrait"))
     slug = config["slug"]
@@ -457,8 +609,12 @@ def build_video(config):
         if narration_cfg:
             narration_path = tmp / "narration.mp3"
             voice = narration_cfg.get("voice", DEFAULT_VOICE)
-            if narration_cfg.get("natural"):
-                generate_natural_narration(narration_cfg, voice, narration_path, tmp)
+            if narration_cfg.get("recorded"):
+                generate_recorded_narration(narration_cfg, narration_path, tmp,
+                                            anchors=narration_anchors(config))
+            elif narration_cfg.get("natural"):
+                generate_natural_narration(narration_cfg, voice, narration_path, tmp,
+                                           anchors=narration_anchors(config))
             else:
                 generate_narration(narration_cfg["text"].replace("|", " "), voice, narration_path,
                                    rate=narration_cfg.get("rate"))
@@ -606,63 +762,8 @@ def build_video(config):
         #    trước đoạn thẻ kết thúc), -shortest sẽ cắt cụt mất cả đoạn hình
         #    ảnh còn lại — hình luôn phải chạy hết, phần cuối im lặng (hoặc
         #    chỉ còn nhạc nền) nếu lời đọc đã xong sớm.
-        if narration_path and music_cfg:
-            music_src = ROOT / music_cfg["file"]
-            if not music_src.exists():
-                print(f"ERROR: không tìm thấy file nhạc nền: {music_src}")
-                sys.exit(1)
-            total_duration = body_duration + end_card_duration
-            volume = music_cfg.get("volume", MUSIC_VOLUME_DEFAULT)
-            fade_out_start = max(0.0, total_duration - MUSIC_FADE_OUT)
-            run([
-                "ffmpeg", "-y",
-                "-i", str(visual_path), "-i", str(narration_path), "-i", str(music_src),
-                "-filter_complex",
-                (
-                    f"[1:a]apad=whole_dur={total_duration}[narr];"
-                    f"[2:a]atrim=0:{total_duration},asetpts=PTS-STARTPTS,"
-                    f"afade=t=in:st=0:d={MUSIC_FADE_IN},"
-                    f"afade=t=out:st={fade_out_start}:d={MUSIC_FADE_OUT},"
-                    f"volume={volume}[music];"
-                    f"[narr][music]amix=inputs=2:duration=first:dropout_transition=0:normalize=0[aout]"
-                ),
-                "-map", "0:v", "-map", "[aout]",
-                "-c:v", "copy", "-c:a", "aac", "-b:a", "160k",
-                "-movflags", "+faststart",
-                str(out_path),
-            ])
-        elif narration_path:
-            run([
-                "ffmpeg", "-y",
-                "-i", str(visual_path), "-i", str(narration_path),
-                "-map", "0:v", "-map", "1:a",
-                "-c:v", "copy", "-c:a", "aac", "-b:a", "160k",
-                "-movflags", "+faststart",
-                str(out_path),
-            ])
-        elif music_cfg:
-            music_src = ROOT / music_cfg["file"]
-            if not music_src.exists():
-                print(f"ERROR: không tìm thấy file nhạc nền: {music_src}")
-                sys.exit(1)
-            total_duration = body_duration + end_card_duration
-            volume = music_cfg.get("volume", MUSIC_VOLUME_DEFAULT)
-            fade_out_start = max(0.0, total_duration - MUSIC_FADE_OUT)
-            run([
-                "ffmpeg", "-y",
-                "-i", str(visual_path), "-i", str(music_src),
-                "-filter_complex",
-                (
-                    f"[1:a]atrim=0:{total_duration},asetpts=PTS-STARTPTS,"
-                    f"afade=t=in:st=0:d={MUSIC_FADE_IN},"
-                    f"afade=t=out:st={fade_out_start}:d={MUSIC_FADE_OUT},"
-                    f"volume={volume}[aout]"
-                ),
-                "-map", "0:v", "-map", "[aout]",
-                "-c:v", "copy", "-c:a", "aac", "-b:a", "160k",
-                "-movflags", "+faststart",
-                str(out_path),
-            ])
+        mix_audio(visual_path, narration_path, music_cfg,
+                  body_duration + end_card_duration, out_path)
 
     caption_path = out_path.with_name(out_path.stem + "_caption.txt")
     if not caption_path.exists():
@@ -670,9 +771,49 @@ def build_video(config):
     print(f"Đã tạo: {out_path}")
 
 
+def rebuild_audio_only(config):
+    """Chỉ làm lại lời đọc + nhạc, GIỮ NGUYÊN hình của output/<slug>.mp4 đã dựng
+    (chép thẳng luồng hình, không mã hoá lại). Dùng khi chỉ đổi giọng/lời đọc —
+    dựng lại cả hình trên máy 4GB RAM từng hết bộ nhớ giữa chừng (2026-11-02).
+    Lời đọc không được dài hơn video cũ (không kéo dài thẻ kết thúc được)."""
+    configure_format(config.get("format", "portrait"))
+    out_path = OUTPUT_DIR / f"{config['slug']}.mp4"
+    if not out_path.exists():
+        print(f"ERROR: chưa có {out_path} — dựng đầy đủ 1 lần trước (bỏ --chi-am-thanh).")
+        sys.exit(1)
+    narration_cfg = config.get("narration")
+    with tempfile.TemporaryDirectory() as tmp:
+        tmp = Path(tmp)
+        visual_path = tmp / "visual.mp4"
+        run(["ffmpeg", "-y", "-i", str(out_path), "-map", "0:v", "-c:v", "copy", str(visual_path)])
+        total = ffprobe_duration(visual_path)
+        narration_path = None
+        if narration_cfg:
+            narration_path = tmp / "narration.mp3"
+            voice = narration_cfg.get("voice", DEFAULT_VOICE)
+            if narration_cfg.get("recorded"):
+                generate_recorded_narration(narration_cfg, narration_path, tmp,
+                                            anchors=narration_anchors(config))
+            elif narration_cfg.get("natural"):
+                generate_natural_narration(narration_cfg, voice, narration_path, tmp,
+                                           anchors=narration_anchors(config))
+            else:
+                generate_narration(narration_cfg["text"].replace("|", " "), voice, narration_path,
+                                   rate=narration_cfg.get("rate"))
+            n = ffprobe_duration(narration_path)
+            print(f"Lời đọc {n:.1f}s / video {total:.1f}s")
+            if n > total - 0.3:
+                print("ERROR: lời đọc dài hơn video cũ — dựng đầy đủ (bỏ --chi-am-thanh) để kéo dài thẻ kết thúc.")
+                sys.exit(1)
+        mix_audio(visual_path, narration_path, config.get("music"), total, out_path)
+    print(f"Đã thay âm thanh: {out_path}")
+
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     parser.add_argument("--config", required=True, help="đường dẫn file JSON mô tả video")
+    parser.add_argument("--chi-am-thanh", action="store_true",
+                        help="chỉ làm lại lời đọc + nhạc, giữ nguyên hình video đã dựng (nhẹ máy)")
     args = parser.parse_args()
 
     if shutil.which("ffmpeg") is None:
@@ -685,7 +826,10 @@ def main():
     with open(args.config, encoding="utf-8") as f:
         config = json.load(f)
 
-    build_video(config)
+    if args.chi_am_thanh:
+        rebuild_audio_only(config)
+    else:
+        build_video(config)
 
 
 if __name__ == "__main__":

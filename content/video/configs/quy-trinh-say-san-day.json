@@ -84,7 +84,12 @@
   ],
   "narration": {
     "text": "Bột sau khi lọc xong, mịn nhất rồi, nhà mình mới nặn thành từng miếng, xếp lên khay. Cả nhà ngồi quây quần làm cùng nhau, chẳng ai vội, xếp đến đâu chắc đến đó. Khay đầy thì đưa lên giá nhiều tầng, cho vào lò sấy riêng, cài nhiệt độ xong là để lò lo phần còn lại. À, trước khi sấy còn phải gạt bớt nước đọng trên mặt bột nữa, không thì khô không đều đâu. Cứ thế đợi từng mẻ, đến khi bột trắng đều, không cần thêm bất cứ thứ gì khác.",
-    "voice": "vi-VN-HoaiMyNeural"
+    "voice": "vi-VN-NamMinhNeural",
+    "natural": true,
+    "pitch": "-2Hz",
+    "pause_short": 0.3,
+    "pause_long": 0.6,
+    "closing_sentences": 1
   },
   "music": {
     "file": "content/video/music/warm-acoustic-music.mp3",

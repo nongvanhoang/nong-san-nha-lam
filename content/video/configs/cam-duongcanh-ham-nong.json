@@ -68,7 +68,12 @@
   ],
   "narration": {
     "text": "Nhiều người hỏi cam đường canh nhà mình đến đâu rồi, nhân tiện khoe luôn cả chặng đường. Hồi đầu mùa cây mới ra mấy nụ hoa nhỏ xíu, rồi hoa nở trắng cả vườn, thơm dịu mỗi sáng ra thăm cây. Hoa rụng xong mới đậu thành quả non, xanh mướt như hạt đỗ. Giờ quả đã lớn hơn nhiều rồi, nhưng vẫn còn xanh nguyên, chưa chuyển màu. Chắc phải còn vài tháng nữa, đến khoảng tháng 11 âm lịch, mới đến mùa thu hoạch. Cả nhà cứ theo dõi, có gì mới mình cập nhật tiếp nhé.",
-    "voice": "vi-VN-HoaiMyNeural"
+    "voice": "vi-VN-NamMinhNeural",
+    "natural": true,
+    "pitch": "-2Hz",
+    "pause_short": 0.3,
+    "pause_long": 0.6,
+    "closing_sentences": 1
   },
   "music": {
     "file": "content/video/music/nostalgic-acoustic-music.mp3",

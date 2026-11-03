@@ -305,14 +305,15 @@
     }
   ],
   "narration": {
-    "text": "Ở xã Vũ Lăng, giữa những dãy núi đá vôi Bắc Sơn, Lạng Sơn, Hợp tác xã Thế Hưng Organic trồng sắn dây ngay trên mảnh đất quê mình. | Sáng sớm, mây còn vờn trên đỉnh núi. Dây leo đã phủ kín giàn. Hoa sắn dây nở tím cả nương, còn củ thì lặng lẽ lớn dần dưới đất. | Đến mùa, cả gốc củ được đào lên. Củ to, chắc, vẫn còn nguyên đất. | Củ được cân ngay tại xưởng, rửa thật sạch đất cát, rồi đưa vào máy nghiền, ép lấy nước bột. Nước bột khuấy đều, để lắng xuống đáy bể. Rồi thay nước, khuấy, lắng, lọc đi lọc lại nhiều lượt, cho đến khi bột thật trắng, thật trong. | Bột ướt được nặn thành từng miếng, xếp lên khay, đưa vào lò sấy nhiều tầng. Nhiệt độ cài sẵn, nên bột khô đều, chẳng phụ thuộc nắng mưa. Không hoá chất, không chất tẩy trắng. Màu trắng ấy là màu tự nhiên của bột. Ra lò là đóng túi ngay, có sẵn quanh năm. | Cùng với sắn dây là Cam Đường Canh, trồng theo tiêu chuẩn VietGAP. Cam để chín tự nhiên trên cây, không thúc chín. Quả mọng nước, ngọt thanh. Khoảng tháng mười một âm lịch, cam được hái tay đúng mùa, phân loại, đóng thùng cẩn thận, rồi gửi đi khắp cả nước. | Thế Hưng Organic. Nông sản thật, từ vùng núi Bắc Sơn.",
+    "text": "Ở xã Vũ Lăng, giữa những dãy núi đá vôi Bắc Sơn, Lạng Sơn, Hợp tác xã Thế Hưng Organic trồng sắn dây ngay trên mảnh đất quê mình. | Dây leo đã phủ kín giàn. Hoa sắn dây nở tím cả nương, còn củ thì lặng lẽ lớn dần dưới đất. | Đến mùa, cả gốc củ được đào lên. Củ to, chắc, vẫn còn nguyên đất. | Củ được cân ngay tại xưởng, rửa thật sạch đất cát, rồi đưa vào máy nghiền, ép lấy nước bột. Nước bột khuấy đều, để lắng xuống đáy bể. Rồi thay nước, khuấy, lắng, lọc đi lọc lại nhiều lượt, cho đến khi bột thật trắng, thật trong. | Bột ướt được nặn thành từng miếng, xếp lên khay, đưa vào lò sấy nhiều tầng. Nhiệt độ cài sẵn, nên bột khô đều, chẳng phụ thuộc nắng mưa. Không hoá chất, không chất tẩy trắng. Màu trắng ấy là màu tự nhiên của bột. Ra lò là đóng túi ngay, có sẵn quanh năm. | Cùng với sắn dây là Cam Đường Canh, trồng theo tiêu chuẩn VietGAP. Cam để chín tự nhiên trên cây, không thúc chín. Quả mọng nước, ngọt thanh. Khoảng tháng mười một âm lịch, cam được hái tay đúng mùa, phân loại, đóng thùng cẩn thận, rồi gửi đi khắp cả nước. | Thế Hưng Organic. Nông sản thật, từ vùng núi Bắc Sơn.",
     "voice": "vi-VN-NamMinhNeural",
     "natural": true,
     "rate": "-6%",
     "pitch": "-2Hz",
     "pause_short": 0.45,
     "pause_long": 1.1,
-    "closing_sentences": 2
+    "closing_sentences": 2,
+    "align": [0, 2, 4, 6, 11, 17, 22]
   },
   "music": {
     "file": "content/video/music/warm-acoustic-music.mp3",

@@ -27,6 +27,11 @@ việc nào chặn việc nào. Cập nhật lại file này (tick `[x]`) mỗi 
 
 ## Nhóm 1 — Chỉ mất vài phút, không cần quyết định gì (làm trước, dễ nhất)
 
+- [ ] **Thu âm giọng thật cho video giới thiệu trang chủ** (thêm 2026-11-03) — anh Chiến hoặc người
+  nhà đọc 7 đoạn ngắn bằng app ghi âm điện thoại (~15 phút), lời + số giây từng đoạn ở
+  `content/video/THU_AM_GIONG_THAT.md`. Chép file vào `content/video/giong_that/gioi-thieu-thoc/` rồi
+  nhắn Claude ghép vào video. Hiện video đang dùng giọng máy nam miền Bắc (tạm ổn).
+
 - [ ] **Gửi file nhãn cho xưởng in quen** — **[SỬA 2026-09-30]** trước đây ghi nhầm là "đã gửi
   12/08, cần hỏi lại" (sai — chưa từng gửi lần nào). Đã xác nhận lại: **có sẵn xưởng in riêng**
   (không cần tìm mới), chỉ cần gửi 2 file `content/nhan_bao_bi/nhan-say-day-500g.pdf` +

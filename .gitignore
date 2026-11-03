@@ -60,3 +60,6 @@ content/dang_da_kenh/**/*.jpg
 
 # Kế hoạch tài chính nội bộ (repo public — không đưa lên GitHub)
 tai_chinh/
+
+# File thu âm giọng thật (gốc, không lên repo public)
+content/video/giong_that/
