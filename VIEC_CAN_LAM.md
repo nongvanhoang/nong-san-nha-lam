@@ -83,7 +83,7 @@ việc nào chặn việc nào. Cập nhật lại file này (tick `[x]`) mỗi 
 - [ ] **Tạo đủ 6 kênh (chốt 01-11-2026)**: Facebook (kiểm tra là Trang hay trang cá nhân), Zalo (thay ảnh + giới thiệu), TikTok, YouTube, Instagram, LinkedIn — làm theo `content/dang_da_kenh/DANG_KY_KENH.html`. Xong gửi link cho Claude gắn lên chân trang web + dựng nhắc đăng bài Telegram/Notion.
 - [ ] **Tạo tài khoản TikTok** (kênh nội dung, KHÁC TikTok Shop) — hướng dẫn ở `HO_SO_MANG_XA_HOI.md`
   mục 4b. Có sẵn video chờ đăng ngay khi có kênh.
-- [ ] **Tạo kênh YouTube** — hướng dẫn ở `HO_SO_MANG_XA_HOI.md` mục 7. Có sẵn 3 video Shorts chờ
+- [x] **Tạo kênh YouTube** (xong 07-11-2026, @thehungorganic, đã gắn lên web) — hướng dẫn ở `HO_SO_MANG_XA_HOI.md` mục 7. Có sẵn 3 video Shorts chờ
   đăng ngay khi có kênh.
 - [ ] **Đăng ký gian hàng Shopee/TikTok Shop thật** — cần xong quyết định chính sách đổi/trả (Nhóm 2)
   trước. 7/8 ảnh sản phẩm đã sẵn sàng (`HO_SO_MANG_XA_HOI.md` mục 3), chỉ thiếu ảnh chính (chờ nhãn).
